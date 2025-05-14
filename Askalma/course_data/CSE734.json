@@ -1,0 +1,138 @@
+{
+  "Course Code": "CSE735",
+  "Course Name": "Advanced Topics in Mobile Computing",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course covers various advanced topics in mobile computing such as sensing and activity inference, mobile communications, road and traffic sensing etc. to create the next-generation mobile computing systems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE232 Computer Networks",
+      "Operating System",
+      "Mobile Computing or Mobile Programming"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Student will be aware of the issues and challenges in the mobile computing domain",
+    "CO2": "Students will be able to critique various research papers",
+    "CO3": "Student will be able to design and develop advanced mobile computing solutions using various components of mobile computing",
+    "CO4": "Student will be able to design and develop advanced mobile computing solutions using various components of mobile computing"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Course overview, introduction to mobile computing",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "Mobile Communication, Opportunistic communication, acoustic communation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "Energy management",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Road and traffic sensing, localization and location based services",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Mobile sensor based participatory sensing system",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Sensing and activity inference",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Privacy and security",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Mobile devices and ICTD",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Written paper critiques",
+      "% Contribution in Grade": "35"
+    },
+    {
+      "Type of Evaluation": "Class participation and presentation",
+      "% Contribution in Grade": "15"
+    },
+    {
+      "Type of Evaluation": "Project",
+      "% Contribution in Grade": "40"
+    },
+    {
+      "Type of Evaluation": "Endsem",
+      "% Contribution in Grade": "10"
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Reference",
+      "Title": "Proceeding of IEEE/ACM transactions and conferences, e.g. MobiSys, MobiCom, Sensys etc. on mobile computing related areas All the papers will be made available by the instructor and posted on course website."
+    },
+    {
+      "Type": "Reference",
+      "Title": "Proceeding of IEEE/ACM transactions and conferences, e.g. MobiSys, MobiCom, Sensys etc. on mobile computing related areas All the papers will be made available by the instructor and posted on course website."
+    },
+    {
+      "Type": "Reference",
+      "Title": "Proceeding of IEEE/ACM transactions and conferences, e.g. MobiSys, MobiCom, Sensys etc. on mobile computing related areas All the papers will be made available by the instructor and posted on course website."
+    },
+    {
+      "Type": "Reference",
+      "Title": "Proceeding of IEEE/ACM transactions and conferences, e.g. MobiSys, MobiCom, Sensys etc. on mobile computing related areas All the papers will be made available by the instructor and posted on course website."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "Course Code": "SSH201",
+  "Course Name": "Research Methods in Social Science",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The Social Sciences Research Methods course will focus on providing an introduction and a broad overview of how Social Researchers namely Economists, Anthropologists, Psychologists and Sociologists ask and answer questions through rigorous research methodologies. The course will not only provide an overview of identifying social problems and formulating research questions but will also introduce learners to framing their research design, collecting social data, techniques of data analyses and interpretation of results through a systematic research paradigm. In order to accomplish this, the course is designed to offer learners an assortment of quantitative and qualitative methods. The course will concurrently use quantitative, qualitative and other specialised software to analyse real social data that is either publicly available or has been collected by our faculty members. This class would use a combination of in-class lectures and lab sessions to help students complement their theoretical knowledge with hands on experience with dealing with datasets, data analysis software, and data analytical techniques.",
+  "Prerequisites": {
+    "Mandatory": [
+      "SSH101-Critical Thinking and Readings in Social Sciences"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand the foundations of social research methods",
+    "CO2": "Students are able to identify social problems, formulate research questions and design clear research agenda",
+    "CO3": "Students are able to analyse qualitative and quantitative data using statistical software such as R, SPSS and QDA Miner.",
+    "CO4": "Students are able to independently design a research study, to investigate a real world phenomenon."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "Week-1",
+      "Lecture Topic": "Introduction-The role of Social Research-Why is it so Important?",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-2",
+      "Lecture Topic": "Designing Research Projects",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-3",
+      "Lecture Topic": "Sampling Methods",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-4",
+      "Lecture Topic": "From Conceptualization to Measurement",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-5",
+      "Lecture Topic": "Survey Research",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-6",
+      "Lecture Topic": "Experiment Research",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-7",
+      "Lecture Topic": "Content Analysis",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-8",
+      "Lecture Topic": "Interviewing",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-9",
+      "Lecture Topic": "Qualitative Field Studies",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-10",
+      "Lecture Topic": "Analyzing Quantitative Data-1",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-11",
+      "Lecture Topic": "Analyzing Quantitative Data-2",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-12",
+      "Lecture Topic": "Analyzing Qualitative Data",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week-13",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [
+      "20%",
+      "20%",
+      "20%",
+      "20%"
+    ],
+    "Midsem": [
+      "20%",
+      "20%",
+      "20%",
+      "20%"
+    ],
+    "HW assignments": [
+      "20%",
+      "20%",
+      "20%",
+      "20%"
+    ],
+    "Endsem": [
+      "20%",
+      "20%",
+      "20%",
+      "20%"
+    ]
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Babbie, E. R. (2016). The practice of social research. International Thomson Publishing Services",
+      "Babbie, E. R. (2016). The practice of social research. International Thomson Publishing Services",
+      "Babbie, E. R. (2016). The practice of social research. International Thomson Publishing Services"
+    ],
+    "Readings": [
+      "Additional readings may be assigned by the instructor from time to time",
+      "Additional readings may be assigned by the instructor from time to time",
+      "Additional readings may be assigned by the instructor from time to time"
+    ]
+  }
+}

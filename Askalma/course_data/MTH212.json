@@ -1,0 +1,123 @@
+{
+  "Course Code": "MTH 212",
+  "Course Name": "Abstract Algebra I",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "Algebraic structures are of fundamental importance in mathematics and play an increasingly significant role in many application areas, including computer science and communication. This course introduces the main algebraic structures: groups, rings and fields. Fundamental concepts and properties of these structures are studied, both in the abstract and in relation to concrete families of structures. Furthermore, algebra is an excellent vehicle for training students in mathematical rigour, proofs, and problem solving.",
+  "Prerequisites": {
+    "Mandatory": "MTH 100 or equivalent (Linear Algebra)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "To explain algebraic properties of some important families of groups: permutation groups, dihedral groups, matrix groups.",
+    "CO2": "To be able to classify groups up to isomorphism.",
+    "CO3": "To discuss algebraic properties of rings and fields (particularly finite fields), and to be able to classify rings and fields up to isomorphism.",
+    "CO4": "To be able to write down formal mathematical proofs."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1 & 2",
+      "Lecture Topic": "Equivalence relation and partition. Groups and subgroups, Cyclic groups, Abelian groups, Matrix groups, Quaternionic group.",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Tutorial Sheet 1"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "Lagrange's theorem, normal subgroup, quotient groups, isomorphism theorems, Group actions.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Tutorial Sheet 2"
+    },
+    {
+      "Week Number": "4, 5 and 6",
+      "Lecture Topic": "Permutation groups, Simple groups, Simplicity of the alternating group. Burnside's lemma and its applications.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Tutorial Sheet 3"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Centralizers and Normalizers, the class equation and its applications. Dihedral Groups.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Tutorial Sheet 4"
+    },
+    {
+      "Week Number": "8 & 9",
+      "Lecture Topic": "Sylow's Theorems and their applications.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Tutorial Sheet 5"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Direct product of groups, Fundamental Theorem of Finite Abelian groups",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Tutorial Sheet 6"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Rings and Fields, Matrix rings and Group rings, units and zero divisors, ideals, quotient rings, principal ideal, prime ideal, maximal ideal, nil and nilpotent ideals, integral domain.",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Isomorphism of rings, Direct product of rings, Polynomial rings, The Chinese Remainder Theorem",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Principal ideal domain, Euclidean domain, Unique factorization domain (basic algebraic properties only)",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quizzes": "30%",
+    "Minor": "30%",
+    "Major": "40%"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "1. I N Herstein, Topics in Algebra, Wiley India Pvt Ltd, 2006.",
+      "2. J A Gallian, Contemporary Abstract Algebra, Narosa Book Distributors Private Ltd, 2004.",
+      "3. D. S. Dummit and R. M. Foote, Abstract Algebra, Wiley, 2003."
+    ],
+    "Reference book": [
+      "5. Niels Lauritzen, Concrete Abstract Algebra, Cambridge University Press.",
+      "6. Charles Pinter, A book of Abstract Algebra, Dover Publications Inc.",
+      "3. M Artin, Algebra, Pearson, 2010."
+    ]
+  }
+}

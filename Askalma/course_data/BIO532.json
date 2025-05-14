@@ -1,0 +1,157 @@
+{
+  "Course Code": "BIO532",
+  "Course Name": "Network Biology",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The objective of this course is to provide introduction to network biology, an emerging interdisciplinary area which aims at graph theoretical modeling of biological complex systems and its applications. The student will be provided with conceptual understanding of complex networks and their application for modeling various biological systems. Through a combination of lectures, exercises, and assignments, the student is expected to achieve understanding of network biology.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of data structures, algorithms and programming",
+    "Desirable": "Basic understanding of biology"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain basic concepts of complex networks.",
+    "CO2": "Students are able to explain network models of biological systems (PPIN, GRN, RIG, Metabolic, Ecological and Brain Networks).",
+    "CO3": "Students are able to interpret results from network analysis of biological systems.",
+    "CO4": "Students are able to code and implement simple network models of biological systems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to complex networks: History, Computational representation of networks, Applications in biology",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "4-5 hours (Exercises)"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to systems biology and network models of biological systems",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "5-6 hours (Exercises)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Network metrics: Definitions, interpretations and application to biological networks",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "6-7 hours (Exercises+Assignment-1+Coding-1)"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Protein-protein Interaction networks: Examples",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "4-5 hours (Exercises)"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Small-world and scale-free networks: Biological implications",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "6-7 hours (Exercises+Assignment-2+Coding-2)"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Modeling complex diseases as molecular networks",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "5-6 hours (Exercises)"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Network metrics: Definitions, interpretations and application to biological networks",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "6-7 hours (Exercises+Assignment-3+Coding-3)"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Gene Regulatory Networks",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "4-5 hours (Exercises)"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Modularity, Hierarchy, Motifs and biological implications",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "6-7 hours (Exercises)+Mini Project"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Residue Interaction Graph models of protein structures",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "6-7 hours (Exercises+Assignment-4)"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Metabolic networks",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "6-7 hours (Exercises)"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Ecological networks",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "6-7 hours (Exercises+Assignment-5)"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Brain Networks",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "6-7 hours (Mini-Project Presentations)"
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 25,
+    "Assignments": 20,
+    "Coding Assignments": 15,
+    "Mini-Project Presentation": 15,
+    "Endsem": 25
+  },
+  "Resource Material": {
+    "Textbook": [
+      "The Structure of Complex Networks: Theory and Applications by Ernesto Estrada (Oxford University Press)",
+      "Networks: An Introduction by M. E. J. Newman (Oxford University Press)"
+    ]
+  }
+}

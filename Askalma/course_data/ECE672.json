@@ -1,0 +1,112 @@
+{
+  "Course Code": "ECE672",
+  "Course Name": "Stochastic Estimation and control",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course deals with the estimation of dynamical systems. We will begin with an introduction of probability, random variables, stochastic differential equations, and basics in parameter estimation. These concepts will then be applied to state-space descriptions of linear systems following up to the Kalman filter. Nonlinear estimation methods such as the extended Kalman filter and particle filter will be introduced.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (Mandatory)",
+    "Desirable": "Pre-requisite (Desirable)",
+    "Other": "Pre-requisite(other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Develop and linearize a measurement model for a dynamical system",
+    "CO2": "Pick an state estimator based on the system properties (nonlinearities, noise)",
+    "CO3": "Given a dynamical system with process and measurement noise, design a linear/nonlinear state estimator",
+    "CO4": "",
+    "CO5": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to probability and random processes: random variables, pdf, total probability theorem, Bayes\u2019 Theorem, stochastic processes, stationarity, ergodicity",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Basics of estimation: Parameter estimation, maximum likelihood estimation, least squares estimation, maximum a posteriori estimation, minimum mean square estimation",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Homework 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Estimation of dynamic systems: Specialize to LTI systems, state space form, Recursive static estimation, minimum variance",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Homework 2"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "The discrete time Kalman filter",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Homework 3"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "The continuous time Kalman filter",
+      "COs Met": [],
+      "Assignments": "Homework 4"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Nonlinearity in dynamic systems, measurement models/likelihood functions, linearization",
+      "COs Met": [
+        "CO3",
+        "CO5"
+      ],
+      "Assignments": "Homework 5"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Nonlinear estimators: Extended Kalman filter, sampling a pdf, particle filter",
+      "COs Met": [
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Homework",
+      "% Contribution in Grade": 60,
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4",
+        "CO5"
+      ]
+    },
+    {
+      "Type of Evaluation": "Final Exam",
+      "% Contribution in Grade": 40,
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4",
+        "CO5"
+      ]
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Class notes (adapted from \u201cStochastic estimation and control\u201d course taught in University of Maryland, College Park)",
+    "Reference": [
+      "Papoulis, A., Probability, Random Variables, and Stochastic Processes, ISBN 0070484775",
+      "Y. Bar-Shalom, X. R. Li, and T. Kirubarajan, Estimation with Applications to Tracking and Navigation: Theory Algorithms and Software. Wiley Inter- Science, 2001."
+    ]
+  }
+}

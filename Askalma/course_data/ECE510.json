@@ -1,0 +1,79 @@
+{
+  "Course Code": "ECE510",
+  "Course Name": "Digital Hardware Design (DHD)",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Field programmable gate arrays (FPGAs) are the first choice for implementation of digital systems due to their distributed and parallel architecture. FPGAs also allows complete control over arithmetic.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (Desirable)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to design and implement sequential and combinational logic design on FPGA",
+    "CO2": "Students are able to write Verilog code to integrate on-board FPGA switches, VGA interface, memory, embedded hardware units etc.",
+    "CO3": "Students are able to implement the algorithms using HLS.",
+    "CO4": "Students are able to design new IP with appropriate AXI interface"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-3",
+      "Lecture Topic": "Theory: FPGA Architecture (CLB, BRAM, DSP48) Lab: Combinational logic design, Synchronous and asynchronous logic design and arithmetic circuits",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Lab + Homework: Verilog code, simulation and implementation: Comparators, Decoders/Encoders, code converters, ALU, counters, pulse-width modulation, Fibonacci"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Theory: FPGA Architecture (Clock) Lab: IP, Finite state machines",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Lab + Homework: Door lock code, traffic lights, sequence detectors etc."
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Theory: AXI protocol Lab: VGA based game design",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Lab + Homework: VGA stripes, screen saver, Video game"
+    },
+    {
+      "Week": "7-9",
+      "Lecture Topic": "Theory: HLS Design flow Lab: Algorithms to Architecture",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Lab + Homework: Algorithms to Architecture"
+    },
+    {
+      "Week": "10-13",
+      "Lecture Topic": "Theory: Ultrascale Architecture Lab: HLS Design Flow",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Lab + Homework: HLS Design Flow"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "20",
+    "Midsem": "25",
+    "HW assignments": "String",
+    "Endsem": "35"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "D. Harris and S. Harris, \u201cDigital Design and Computer Architecture\u201d, Morgan Kauffmann, 2012.",
+      "R. Haskell and D. Hanna, \u201cLearning by example using Verilog advanced digital design\u201d, LBE Books, 2014"
+    ],
+    "Reference Book": ""
+  }
+}

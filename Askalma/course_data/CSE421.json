@@ -1,0 +1,69 @@
+{
+  "Course Code": "CSE421/CSE621",
+  "Course Name": "Complexity Theory",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Computational problems can be studied from the point of view of computational resources (e.g., running time) required to solve them \u2013 this forms the notional of computational difficulty. Apart from the nature of the problem, the difficulty also depends on the underlying model of computation, including non-deterministic, non-uniform and randomized models. Problems can be related to each other based on their resource usage, and problems with similar difficulty can be grouped together to form a classification of computational problems into complexity classes. Computational complexity is about studying the above concepts, and is especially concerned with giving precise upper and lower bound on the amount of resources required to solve certain problems. This has had a profound impact on current algorithm design and cryptography, and still sees applications in areas outside of theoretical computer science.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE102",
+      "MTH201",
+      "CSE322",
+      "CSE121"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Knowledge of different models of computation and their relationships",
+    "CO2": "Ability to bound resource usage (e.g., time, space, circuit size, depth) required for problems under different models of computation",
+    "CO3": "Ability to place a problem in the hierarchy of computational complexity classes",
+    "CO4": "Ability to place a problem in the hierarchy of computational complexity classes",
+    "CO5": "Understand the major questions (e.g., P =? NP) and their role in other fields of computer science"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to models of computation",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Time and space complexity basics",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Non-deterministic computation",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Reductions and completeness",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "",
+    "Endsem": ""
+  },
+  "Resource Material": {
+    "Textbook": "Sanjeev Arora and Boaz Barak. 'Complexity Theory: A Modern Approach'",
+    "Reference Book": ""
+  }
+}

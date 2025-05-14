@@ -1,0 +1,114 @@
+{
+  "Course Code": "MTH341/541",
+  "Course Name": "Complex Analysis",
+  "Credits": 4,
+  "Course Offered to": "UG, PG",
+  "Course Description": "This course gives students an introduction to the theory of functions of complex variables. A function of a complex variable has some remarkable properties which do not hold true necessarily for a function of a real variable. In this course, we discuss many such properties. We do so by studying complex numbers and their properties; analytic functions and their derivatives, integrals and power series expansions; singularities and zeros of a complex function. The course also covers applications to physics and engineering.",
+  "Prerequisites": {
+    "Mandatory": "Real Analysis - I; Multivariable Calculus",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understanding of geometry of complex plane and complex numbers.",
+    "CO2": "Understanding of functions of a complex variable, the meaning of their derivative and integral.",
+    "CO3": "Understanding of singularities and zeroes of a function of a complex variable.",
+    "CO4": "Evaluation of complicated real integrals using residue calculus.",
+    "CO5": "Some applications of the theory to problems of interest in physics and engineering."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of Complex variables and Analytic functions",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "hyperbolic",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW 2"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Contour Integrals, Branch cuts, Antiderivatives, Cauchy-Goursat theorem, Cauchy Integral formula, Liouville\u2019s theorem, Maximum modulus principle",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW 3"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Convergence of sequences and series, Taylor\u2019s theorem, Laurent\u2019s theorem, Absolute and uniform convergence, integration and differentiation of power series.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW 4"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Residues, Singularities, Cauchy\u2019s Residue theorem, zeros and poles",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW 5"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Applications of residues, Jordan\u2019s Lemma, Argument principle, Rouch\u00e9s theorem",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "HW 6"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Conformal Mapping",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": "HW 7"
+    }
+  ],
+  "Assessment Plan": {
+    "Homework": {
+      "Type of Evaluation": "Homework",
+      "% Contribution in Grade": "30"
+    },
+    "Mid-sem": {
+      "Type of Evaluation": "Mid-sem",
+      "% Contribution in Grade": "20"
+    },
+    "Tutorials/Viva/Presentation": {
+      "Type of Evaluation": "Tutorials/Viva/Presentation",
+      "% Contribution in Grade": "10"
+    },
+    "End-sem": {
+      "Type of Evaluation": "End-sem",
+      "% Contribution in Grade": "40"
+    }
+  },
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Complex Variables, 2nd ed -- Stephen D Fisher"
+    },
+    {
+      "Type": "Reference Books",
+      "Title": "Complex Variables & Applications \u2013 Churchill and Brown"
+    },
+    {
+      "Type": "Complex Analysis -- Theodore W Gamelin"
+    },
+    {
+      "Type": "Functions of one complex variable I -- John B Conway"
+    },
+    {
+      "Type": "Fundamentals of Complex Analysis with Applications to Engineering, Science, and Mathematics (3rd Edition) -- Edward B. Saff and A.D. Snider"
+    }
+  ]
+}

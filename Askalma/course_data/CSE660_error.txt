@@ -1,0 +1,409 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the course details: The Course Code is CSE660, the Course Name is Trustworthy AI systems, and Credits are 4. These are straightforward to extract.
+
+Next, the prerequisites. In the table, under Pre-requisite (Mandatory), it's Artificial Intelligence (CSE643) / Machine Learning (CSE343/CSE543/ECE563) / Statistical Machine Learning (CSE342/ CSE542). Since there are no Desirable or Other prerequisites mentioned, I'll set those as empty strings.
+
+For the Course Description, it's quite detailed. It starts with studying the need for trustworthiness and covers various aspects like fairness, bias, robustness, explainability, transparency, and ethical aspects. It also mentions algorithms to mitigate bias and explainability of ML systems. I'll include this as a single string since it's too long for multiple lines.
+
+Moving on to Course Outcomes (COs). Each CO is listed with their descriptions across different weeks. CO1 is about understanding AI issues related to trustworthiness and fairness, CO2 focuses on analyzing AI/ML systems for explainability, robustness, and fairness, CO3 deals with the role of AI in human society and trusted decision-making, and CO4 covers understanding AI's role in ethics and safety. I'll map each CO number to its respective description.
+
+The Weekly Lecture Plan is a bit complex. Each week has a lecture topic, COs met, and an assignment or tutorial. I need to create an array where each element represents a week with its details. Assignments are listed as strings, so for Week 14, it's just "Coding Assignment #1". For weeks without assignments, like Week 28, I'll set the Assignment/Labs/Tutorial field to null.
+
+The Assessment Plan includes different types of evaluations and their contributions to the grade. Quizzes contribute 10%, Assignments 15%, Paper presentation 15%, Project 20%, Mid-sem 20%, and End-sem 20%. I'll structure this as an object with each evaluation type as a key.
+
+The Resource Material includes Textbooks and Reference Books. The Textbook is "Trustworthy AI systems" by the course itself, but looking at the content, it seems there are no textbooks listed except possibly in the resource material section. Wait, actually, under the resource material, I see nothing specified beyond the papers. So maybe there's no textbook or reference book provided here.
+
+Wait, checking again: The resource material has "Textbook" and "Reference Book". In the content, after the last row of data, it says "Resource Material", but in the sheet, under Unnamed columns 4-5, rows 12 onwards have various references. It seems that the resource material is covered by those references. So perhaps there's no separate textbook or reference book listed here.
+
+Putting it all together, I'll structure each section as per the JSON template, ensuring that numeric values like Credits are numbers and others are strings where appropriate.
+</think>
+
+```json
+{
+  "Course Code": "CSE660",
+  "Course Name": "Trustworthy AI systems",
+  "Credits": 4,
+  "Course Offered to": "PG/UG (3rd/4th yr)",
+  "Course Description": "Study the need for Trustworthiness of AI systems, and get an understanding of the role of various aspects such as fairness, bias, robustness, explainability, transparency, and ethical aspects of AI systems to create a Trustworthy AI system. Some of the algorithms to mitigate bias and algorithms on explainability of ML systems will also be studied.",
+  "Prerequisites": {
+    "Mandatory": "Artificial Intelligence (CSE643) / Machine Learning (CSE343/CSE543/ECE563) / Statistical Machine Learning (CSE342/ CSE542)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand AI issues on Trustworthiness and Fairness",
+    "CO2": "Analyze an AI/ML system for its explainability, robustness and fairness and their lack thereof; evaluate AI systems numerically for explainability, robustness and bias/fairness",
+    "CO3": "Understand the role of AI systems in the context of Human Society and Trusted decision making",
+    "CO4": "Understand the role of AI systems in the context of Human Society and Trusted decision-making"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to Trustworthy AI; Why AI Trustworthiness and its consequences are important; Some examples of why Trust is important and the issues to consider",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Broad Principles of Trustworthiness, Fairness, Accountability, Sustainability, and Transparency; Difference between each of these aspects",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Coding Assignment #1"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Bias in AI systems -- What is Bias and Types of Bias in AI systems",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Identifying and mitigating bias in an AI system -- Various bias mitigation methods and algorithms",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Data fairness, Design fairness, Outcome fairness, Implementation fairness",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Fairness evaluation methods and algorithms - Algorithmic Fairness and other Fairness Methodologies",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Robustness of AI systems - methods and techniques",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Reliability of AI systems - methods and techniques",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Verification of AI/ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Validation of AI/ ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Interpretability/Explainability in AI/ML – Traditional ways of explaining decisions made by AI/ML systems (First and second generation of Explainable AI) - Difference between each of these aspects",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Fairness evaluation methods and algorithms - Algorithmic Fairness and other Fairness Methodologies",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Accountability -- Answerability and Auditability; Sustainability; Safety; Lecture 8: Accountability -- Accuracy, Reliability and Robustness aspects; definitions and state-of-art",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Accountability -- Accuracy, Reliability and Robustness aspects; definitions and state-of-art",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Coding Assignment #2"
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Robustness of AI systems - methods and techniques",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 16,
+      "Lecture Topic": "Reliability of AI systems - methods and techniques",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 17,
+      "Lecture Topic": "Verification of AI/ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 18,
+      "Lecture Topic": "Validation of AI/ ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 19,
+      "Lecture Topic": "Calibration of ML systems",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 20,
+      "Lecture Topic": "Formal methods for measuring/ ensuring robustness of AI/ML systems",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 21,
+      "Lecture Topic": "Ethics and Accountability in AI",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 22,
+      "Lecture Topic": "Role of AI in Human Society and co-existence",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 23,
+      "Lecture Topic": "Project presentation by Students",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 24,
+      "Lecture Topic": "Project presentation by Students",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 25,
+      "Lecture Topic": "Term paper presentation - Recent research papers read and presented by Students",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 26,
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": [],
+      "Assignment/Labs/Tutorial": []
+    }
+  ]
+},
+{
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Trustworthy AI; Why AI Trustworthiness and its consequences are important; Some examples of why Trust is important and the issues to consider",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Broad Principles of Trustworthiness, Fairness, Accountability, Sustainability, and Transparency; Difference between each of these aspects",
+      "COs Met": ["CO1"],
+      "Assignments": "Coding Assignment #1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "What is Bias and Types of Bias in AI systems",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Identifying and mitigating bias in an AI system -- Various bias mitigation methods and algorithms",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Coding Assignment #1"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Data fairness, Design fairness, Outcome fairness, Implementation fairness",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Fairness evaluation methods and algorithms - Algorithmic Fairness and other Fairness Methodologies",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Accountability -- Answerability and Auditability; Sustainability; Safety; Lecture 8: Accountability -- Accuracy, Reliability and Robustness aspects; definitions and state-of-art",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Accountability -- Accuracy, Reliability and Robustness aspects; definitions and state-of-art",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Robustness of AI systems - methods and techniques",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Reliability of AI systems - methods and techniques",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Verification of AI/ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Validation of AI/ ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Verification of AI/ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Validation of AI/ ML systems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Project presentation by Students",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 16,
+      "Lecture Topic": "Project presentation by Students",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 17,
+      "Lecture Topic": "Term paper presentation - Recent research papers read and presented by Students",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 10,
+    "Assignment": 15,
+    "Paper presentation": 15,
+    "Project": 20,
+    "Mid-sem": 20,
+    "End-sem": 20
+  },
+  "Resource Material": {
+    "Textbook": "CSE660",
+    "Reference Book": "Trustworthy AI systems"
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "CSE660",
+  "Course Name": "Trustworthy AI Systems",
+  "Credits": 4,
+  "Course Offered to": "PG/UG (3rd/4th yr)",
+  "Course Description": "Study the need for Trustworthiness of AI systems, and get an understanding of the role of various aspects such as fairness, bias, robustness, explainability, transparency, and ethical aspects of AI systems to create a Trustworthy AI system. Some of the algorithms to mitigate bias and algorithms on explainability of ML systems will also be studied.",
+  "Prerequisites": {
+    "Mandatory": "Artificial Intelligence (CSE643) / Machine Learning (CSE343/ CSE543/ECE563)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand AI issues on Trustworthiness and Fairness",
+    "CO2": "Analyze an AI/ML system for its explainability, robustness and fairness and their lack thereof; evaluate AI systems numerically for explainability, robustness and bias/fairness",
+    "CO3": "Understand the role of AI systems in the context of Human Society and Trusted decision making",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Trustworthy AI; Why AI Trustworthiness and its consequences are important; Some examples of why Trust is important and the issues to consider",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Broad Principles of Trustworthiness, Fairness, Accountability, Sustainability, and Transparency; Difference between each of these aspects",
+      "COs Met": ["CO1"],
+      "Assignments": "Coding Assignment #1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "What is Bias and Types of Bias in AI systems",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Identifying and mitigating bias in an AI system -- Various bias mitigation methods and algorithms",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Coding Assignment #1"
+    },
+    {
+     
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE660",
+  "Course Name": "Trustworthy AI Systems",
+  "Credits": 4,
+  "Course Offered to": "PG/UG (3rd/4th yr)",
+  "Course Description": "Study the need for Trustworthiness of AI systems, and get an understanding of the role of various aspects such as fairness, bias, robustness, explainability, transparency, and ethical aspects of AI systems to create a Trustworthy AI system. Some of the algorithms to mitigate bias and algorithms on explainability of ML systems will also be studied.",
+  "Prerequisites": {
+    "Mandatory": "Artificial Intelligence (CSE643) / Machine Learning (CSE343/ CSE543/ECE563)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand AI issues on Trustworthiness and Fairness",
+    "CO2": "Analyze an AI/ML system for its explainability, robustness and fairness and their lack thereof; evaluate AI systems numerically for explainability, robustness and bias/fairness",
+    "CO3": "Understand the role of AI systems in the context of Human Society and Trusted decision making",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Trustworthy AI; Why AI Trustworthiness and its consequences are important; Some examples of why Trust is important and the issues to consider",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Broad Principles of Trustworthiness, Fairness, Accountability, Sustainability, and Transparency; Difference between each of these aspects",
+      "COs Met": ["CO1"],
+      "Assignments": "Coding Assignment #1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "What is Bias and Types of Bias in AI systems",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Identifying and mitigating bias in an AI system -- Various bias mitigation methods and algorithms",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Coding Assignment #1"
+    }

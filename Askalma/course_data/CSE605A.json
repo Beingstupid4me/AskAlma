@@ -1,0 +1,126 @@
+{
+  "Course Code": "CSE605A",
+  "Course Name": "Knowledge Graphs in Practice",
+  "Credits": 2,
+  "Course Offered to": "3rd,4th year UG, PG, PhD",
+  "Course Description": "This seminar style, hand-on course will focus on applications and uses of Knowledge Graphs. We will learn how knowledge graphs are used in various practical applications such as improving search, question answering, conversational systems, and enterprise data management.",
+  "Prerequisites": {
+    "Mandatory": "CSE508 or CSE551 Information Retrieval/NLP, Java/Python",
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Understand basic principles of Knowledge Graph Technology. Able to describe basic components of a knowledge graph.",
+    "CO2": "Understand and explain the steps involved in knowledge graph construction, understanding of challenges involved and commonly used methods to overcome these challenges.",
+    "CO3": "To provide a hands-on overview of various practical applications of knowledge graph technology such as question answering, search, chatbots, etc.",
+    "CO4": null,
+    "CO5": null
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Knowledge Graphs \u2013 what makes a knowledge graph, differences from other graphic data sets, representation, overview of public KGs",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Knowledge Graph Construction -- manual",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Paper reading and presentations start"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Knowledge Graph Construction -- automatic",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Project proposals finalized"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Knowledge Graph Construction -- automatic, hands on tutorial",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Paper reading and presentation"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Knowledge Graph Construction -- refinement, handling noise",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Paper reading and presentation"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Knowledge Graph exploration -- entity and relationship search, recomme Knowledge Graph exploration -- path ranking, evidence finding",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Paper reading and presentation"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Knowledge Graph exploration -- entity and relationship search, recomme Knowledge Graph exploration -- path ranking, evidence finding",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Paper reading and presentation, Mid term project presentation"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "KG Applications -- search",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "KG Applications -- question answering",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "KG Applications -- question answering",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "KG Applications -- chatbots",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "KG Applications -- industry overview, healthcare and drug discovery",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Course Project": 50,
+    "Paper reading, presentation, and discussion": 20,
+    "End Sem": 30
+  },
+  "Resource Material": {
+    "Textbook": "Knowledge Graphs in Practice",
+    "Reference Book": null
+  }
+}

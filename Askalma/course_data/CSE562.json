@@ -1,0 +1,152 @@
+{
+  "Course Code": "CSE562",
+  "Course Name": "Advanced Computer Vision",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will cover advanced topic in computer vision. We will examine data sources, features, and learning algorithms useful for understanding and manipulating visual data. The emphasis will be on scalability issues as well as acquiring the knowhow to work on interdisciplinary problems.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "",
+    "CO2": "",
+    "CO3": "",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "SFM/SLAM",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "SFM/SLAM",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Structured Prediction",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Generative Models",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Pose Estimation",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Action Recognition",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Learning from Videos",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Visual Data Mining",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Fine Grained Classification",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Image Forensics",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Vision and Language",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Vision and Speech",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Vision and Robotics",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Assignment",
+      "% Contribution in Grade": "40"
+    },
+    {
+      "Type of Evaluation": "Paper presentation",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Project",
+      "% Contribution in Grade": "30"
+    },
+    {
+      "Type of Evaluation": "Mid-sem",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "End-sem",
+      "% Contribution in Grade": "10"
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Material will be mostly taken from the internet"
+    }
+  ]
+}

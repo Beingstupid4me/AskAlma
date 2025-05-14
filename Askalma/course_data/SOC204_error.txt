@@ -1,0 +1,372 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format as per the user's instructions. Let me go through each field one by one.
+
+First, "Course Code" seems to be "SOC204". That's straightforward.
+
+Next, "Course Name" is also consistently "Sociology of New Media".
+
+For "Credits", looking at row 3 in the table, it says "4". So that's easy.
+
+"Courses Offered To" should be filled with "UG" since all entries are "UG".
+
+The "Course Description" is quite lengthy. It seems to cover the course objectives and structure, so I'll include the entire text as provided.
+
+Moving on to "Prerequisites", row 6 mentions "Pre-requisites" five times. The mandatory one is listed in row 7: "Introduction to Sociology". There are no other prerequisites mentioned, so that's the only entry under Mandatory. Desirable and Other fields don't have any entries here, so they'll be empty strings.
+
+For "Course Outcomes", rows 10-14 list CO1 through CO5 with their descriptions. I need to map each CO number to its outcome.
+
+The "Weekly Lecture Plan" is in row 13 onwards. Each week has a lecture topic and COs met, but the Assignments field seems empty for all weeks except week 8 which mentions "Response paper". However, looking closer, rows 14-26 show that only week 8 has an assignment listed under "Assignment/Labs/Tutorial" as "Response paper". The others have "Summarising asignments", which might be a typo. I'll keep the data as is unless instructed otherwise.
+
+The "Assessment Plan" in row 27 lists types of evaluation and their contributions. Rows 29-31 show Response paper at 10%, Mid-Term exam at 20%, Final exam at 30%, Class participation/quiz at 10%, and Project at 30%. I'll structure this accordingly.
+
+Lastly, "Resource Material" includes "Textbook" and "Reference Book". Both are filled with the same authors across all entries, so I'll include them as provided.
+
+I need to ensure that "Credits" is a number if present; here it's "4", which is fine. "COs Met" should be a list of strings, but in this case, most weeks have multiple COs met, except week 8 only lists CO1 and CO2. I'll make sure each entry reflects the correct COs.
+
+I also need to handle missing values gracefully by using empty strings or null where necessary, but since all fields seem filled, that's not an issue here.
+</think>
+
+```json
+{
+  "Course Code": "SOC204",
+  "Course Name": "Sociology of New Media",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course is aimed introducing students to macro-sociological concepts to understand the role of new media and online networking in the contemporary world. (In PART I) we draw from sociological perspectives that move beyond ‘technological determinism’ and shed light on the social and real-world implications of IT-driven media and communications. We begin with a survey of key concepts, including the theories of networks by Barry Wellman (2012), Manuel Castells (1996) and others who conceptualised the rise of ‘new’ media and online communicationsas as central to ongoing social change. (In Part II) We consider a series of thematic areas and evaluate these theories in the context of contemporary socieities. These themes range from the rising inequality and digital divide, to the role of new media in politics and power and also in the related fields of journalism and law. In terms of pedagogical approach, and evaluating criteria, our course will rely on active learning that requires all students to participate and engage with online communities as well as reflect on the key concepts through their own experience as social media users in India.",
+  "Prerequisites": {
+    "Mandatory": ["Introduction to Sociology"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Introduce students to macro-level sociological theories and acquaint them with concepts in new media and society",
+    "CO2": "Students can independently and critically question assumptions in technological deterministic claims",
+    "CO3": "Students will explore concepts that explain the role new media plays in various realms of social structures – economic, community and social capital.",
+    "CO4": "Students will be able to independently and critically research projects",
+    "CO5": "Students will be able to respond and reflect critically on their own practices as new media and social networking developers"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction: Moving beyond technological determinism",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "New and old media: Sociological perspectives (PART I)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Virtual community and social capital",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Networked individualism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Information society in history",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Information society in history",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Information society in history",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Networked individualism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Information society in history",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Media research: methods workshop",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "New media and economy: Wikipedia (PART II)",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Social media and networked journalism",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Online rumours, bots and violence",
+      "COs Met": ["CO1", "CO2", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Project presentations",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Revision and essay submission",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [],
+    "Midsem": [],
+    "HW assignments": [],
+    "Endsem": []
+  },
+  "Resource Material": {
+    "Textbook": ["By Lee Rainie, Barry Wellman", "By Lee Rainie, Barry Wellman", "By Lee Rainie, Barry Wellman"],
+    "Reference Book": ["Net smart: How to thrive online by Howard Rheingold", "Net smart: How to thrive online by Howard Rheingold", "Net smart: How to thrive online by Howard Rheingold"]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SOC204",
+  "Course Name": "Sociology of New Media",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course is aimed introducing students to macro-sociological concepts to understand the role of new media and online networking in the contemporary world. (In PART I) we draw from sociological perspectives that move beyond 'technological determinism' and shed light on the social and real-world implications of IT-driven media and communications. We begin with a survey of key concepts, including the theories of networks by Barry Wellman (2012), Manuel Castells (1996) and others who conceptualised the rise of 'new' media and online communications as central to ongoing social change. (In Part II) We consider a series of thematic areas and evaluate these theories in the context of contemporary societies. These themes range from the rising inequality and digital divide, to the role of new media in politics and power and also in the related fields of journalism and law. In terms of pedagogical approach, and evaluating criteria, our course will rely on active learning that requires all students to participate and engage with online communities as well as reflect on the key concepts through their own experience as social media users in India.",
+  "Course Outcomes": {
+    "CO1": "Introduce students to macro-level sociological theories and acquaint them with concepts in new media and society",
+    "CO2": "Students can independently and critically question assumptions in technological deterministic claims",
+    "CO3": "Students will explore concepts that explain the role new media plays in various realms of social structures – economic, community and social capital.",
+    "CO4": "Students will be able to independently and critically research projects",
+    "CO5": "Students will be able to respond and reflect critically on their own practices as new media and social networking developers"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction: Moving beyond technological determinism",
+      "COs Met": ["CO1"],
+      "Assignments": "Readings assigned"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "New and old media: Sociological perspectives (PART I)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Summarising asignments"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Virtual community and social capital",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Readings assigned"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Networked individualism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Summarising asignments"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Information society in history",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Information society in China",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading assigned"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Information society in India",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading assigned"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Media research: methods workshop",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Project assigned"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "New media and economy: Wikipedia (PART II)",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": "Proj cont."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Social media and networked journalism",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": "Proj cont."
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Online rumours, bots and violence",
+      "COs Met": ["CO1", "CO2", "CO5"],
+      "Assignments": "Proj cont."
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Project presentations",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": "Project presentations"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Revision and essay submission",
+      "COs Met": ["CO3", "CO4", "CO5"]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "10%",
+    "Midsem": "20%",
+    "HW assignments": "30%",
+    "Endsem": "30%"
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": ""
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SOC204",
+  "Course Name": "Sociology of New Media",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course is aimed introducing students to macro-sociological concepts to understand the role of new media and online networking in the contemporary world. (In PART I) we draw from sociological perspectives that move beyond 'technological determinism' and shed light on the social and real-world implications of IT-driven media and communications. We begin with a survey of key concepts, including the theories of networks by Barry Wellman (2012), Manuel Castells (1996) and others who conceptualised the rise of 'new' media and online communications as central to ongoing social change. (In Part II) We consider a series of thematic areas and evaluate these theories in the context of contemporary societies. These themes range from the rising inequality and digital divide, to the role of new media in politics and power and also in the related fields of journalism and law. In terms of pedagogical approach, and evaluating criteria, our course will rely on active learning that requires all students to participate and engage with online communities as well as reflect on the key concepts through their own experience as social media users in India.",
+  "Course Outcomes": {
+    "CO1": "Introduce students to macro-level sociological theories and acquaint them with concepts in new media and society",
+    "CO2": "Students can independently and critically question assumptions in technological deterministic claims",
+    "CO3": "Students will explore concepts that explain the role new media plays in various realms of social structures – economic, community and social capital.",
+    "CO4": "Students will be able to independently and critically research projects",
+    "CO5": "Students will be able to respond and reflect critically on their own practices as new media and social networking developers."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction: Moving beyond technological determinism",
+      "COs Met": ["CO1"],
+      "Assignments": "Readings assigned"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "New and old media: Sociological perspectives (PART I)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Summarising asignments"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Virtual community and social capital",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Readings assigned"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Networked individualism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Summarising asignments"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Information society in history",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Information society in China",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading assigned"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Information society in India",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading assigned"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Media research: methods workshop",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Project assigned"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "New media and economy: Wikipedia (PART II)",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": "Proj cont."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Social media and networked journalism",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": "Proj cont."
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Online rumours, bots and violence",
+      "COs Met": ["CO1", "CO2", "CO5"],
+      "Assignments": "Proj cont."
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Project presentations",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": "Project presentations"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Revision and essay submission",
+      "COs Met": ["CO3", "CO4", "CO5"]
+    }
+  ],
+  "Assessment Plan": {
+    "Response paper": "10%",
+    "Midsem": "20%",
+    "HW assignments": "30%",
+    "Endsem": "30%"
+  },
+  "Resource Material": {
+    "Textbook": "By Lee Rainie, Barry Wellman",
+    "Reference Book": "By Lee Rainie, Barry Wellman"
+  }
+}
+</think>
+
+```json
+{
+  "Course
+
+--- EXTRACTED STRING ---
+{
+  "Course

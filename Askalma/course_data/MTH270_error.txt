@@ -1,0 +1,394 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided table and structure it into a JSON format as per the given schema. Let me go through each section step by step.
+
+First, looking at the Course Code and Name. The course code seems to be "MTH2xx" repeated multiple times, but since there's only one unique value, I'll take that as the course code. The course name is consistently "Numerical Methods," so that's straightforward.
+
+Next, Credits are listed as 4 repeatedly, so that's easy to capture. The course is offered to UG students in the second or third year, which gives me the target group.
+
+The Course Description is quite lengthy and repetitive across rows. I'll take one version of it and ensure any missing parts are handled gracefully, perhaps by leaving it as an empty string if necessary.
+
+For Prerequisites, each row has "Pre-requisites" with some additional notes in parentheses. I need to extract the main prerequisite first, which seems to be MTH 100 (Linear Algebra) co-requisite with MTH204 (Differential Equations). The additional note mentions inserting more rows if needed, so maybe there's an optional or other prerequisites not listed here.
+
+Moving on to Course Outcomes. There are CO1 through CO5 mentioned in the Post Conditions section. I'll list each as a separate outcome under "COs Met" and ensure any missing ones are marked appropriately.
+
+The Weekly Lecture Plan has multiple weeks with topics, COs met, and assignments. Each week's data needs to be captured accurately. Since some weeks have additional notes (like *Please insert more rows if required*), I'll make sure to include those as separate entries or handle them by inserting null values where necessary.
+
+Assessment Plan includes quizzes, midsem, homework, endsem, and assignments with their respective percentages. The data provided seems complete, so I'll structure this accordingly.
+
+Resource Material has textbooks and references listed multiple times. Each entry should be a separate object in the array.
+
+Putting it all together, I need to ensure that each field is correctly mapped from the provided content, handling missing or additional information as specified.
+</think>
+
+```json
+{
+  "Course Code": "MTH2xx",
+  "Course Name": "Numerical Methods",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This is a first course on Numerical Methods to be offered to 2nd / 3rd year undergraduate students. It covers basic topics in root finding, interpolation, numerical differentiation and integration and then moves to methods to numerically solve linear systems of equations as well as ordinary and partial differential equations.",
+  "Prerequisites": {
+    "Mandatory": "MTH 100 (Linear Algebra), Co-requisite: MTH204 (Differential Equations)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students can find roots of equations of the form f(x) = 0, interpolate functions and numerically differentiate and integrate functions with a clear understanding of convergence and accuracy.",
+    "CO2": "Students are able to solve systems of linear equations using direct as well as iterative methods.",
+    "CO3": "Students are able to write computer programs to solve ordinary differential equations numerically and interpret / visualize results.",
+    "CO4": "Students are able to derive / analyze finite difference methods for solving partial differential equations with a clear understanding of their properties vis a vis their accuracy and stability.",
+    "CO5": "Students are able to solve physical problems that can be modeled using partial differential equations numerically : generate mathematical model, specify initial and boundary conditions, apply an appropriate method, obtain numerical solutions and visualize results."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Preliminaries (floating point, round-off, error propagation, stability of algorithms); Solutions of equations by iteration: Fixed point iteration, Newton's method, Secant method; Interpolation.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Interpolation (contd.), Splines, Numerical integration and differentiation.",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Linear systems: Gauss elimination, LU-factorization, matrix inversion, solution by iteration.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Linear systems (contd.): Ill conditioning, Norms; Least squares method.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Linear systems (contd.): Matrix eigenvalue problems, Approximations and error bounds for eigenvalues, power method for eigenvalues.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Linear systems (contd.): Tridiagonalization: Householder's method, QR- factorization.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 5"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Methods for first order ODEs: Euler method, Improved Euler (Heun) method, Runge Kutta methods.",
+      "Lecture Topic": "Methods for first order ODEs: Euler method, Improved Euler (Heun) method, Runge Kutta methods.",
+      "COs Met": ["CO3", "CO3"],
+      "Assignments": "Assignment 6",
+      "Assignments": "Assignment 6"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Multistep methods: Adams-Bashforth, Adams-Moulton; Methods for higher order and systems of ODEs: Euler method, Runge-Kutta methods, Runge-Kutta-Nystrom methods, Stiff systems.",
+      "Lecture Topic": "Multistep methods: Adams-Bashforth, Adams-Moulton; Methods for higher order and systems of ODEs: Euler method, Runge-Kutta methods, Runge-Kutta-Nystrom methods, Stiff systems.",
+      "COs Met": ["CO3", "CO3"],
+      "Assignments": "Assignment 7",
+      "Assignments": "Assignment 7"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Introduction to partial differential equations, first order PDEs, mathematical classification of second order PDEs, characteristics.",
+      "Lecture Topic": "Introduction to partial differential equations, first order PDEs, mathematical classification of second order PDEs, characteristics.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 8",
+      "Assignments": "Assignment 8"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Finite difference representation of PDEs: Truncation, round off & discretization errors, Consistency, Stability, Convergence; Obtaining finite difference equations using Taylor series, Fourier or von Neumann stability analysis of finite difference schemes.",
+      "Lecture Topic": "Finite difference representation of PDEs: Truncation, round off & discretization errors, Consistency, Stability, Convergence; Obtaining finite difference equations using Taylor series, Fourier or von Neumann stability analysis of finite difference schemes.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 9",
+      "Assignments": "Assignment 9"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Applications to model problems: Hyperbolic: Advection equation: Euler explicit, first order upwinding; Wave equation.",
+      "Lecture Topic": "Applications to model problems: Hyperbolic: Advection equation: Euler explicit, first order upwinding; Wave equation.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 10",
+      "Assignments": "Assignment 10"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 11",
+      "Assignments": "Assignment 11"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Elliptic PDEs (contd.): Dirichlet problem: Liebmann's method, ADI method; Neumann and mixed problems, Irreuglar boundary.",
+      "Lecture Topic": "Elliptic PDEs (contd.): Dirichlet problem: Liebmann's method, ADI method; Neumann and mixed problems, Irreuglar boundary.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 12",
+      "Assignments": "Assignment 12"
+    },
+    {
+      "Week Number": "14",
+      "Lecture Topic": "Applications to model problems: Hyperbolic: Advection equation: Euler explicit, first order upwinding; Wave equation.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 13",
+      "Assignments": "Assignment 13"
+    },
+    {
+      "Week Number": "15",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14",
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week Number": "16",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14",
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week Number": "17",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14",
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week Number": "18",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14",
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week Number": "19",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14",
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week Number": "20",
+      "Lecture Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14",
+      "Assignments": "Assignment 14"
+    },
+</think>
+
+```json
+{
+  "Course Code": "MTH2xx",
+  "Course Name": "Numerical Methods",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This is a first course on Numerical Methods to be offered to 2nd / 3rd year undergraduate students. It covers basic topics in root finding, interpolation, numerical differentiation and integration and then moves to methods to numerically solve linear systems of equations as well as ordinary and partial differential equations. The theory involved in deriving methods as well as their error and stability properties is given due attention alongside an insistence on applying the methods, writing computer programs, obtaining numerical solutions and comparing them with analytical solutions whenever possible.",
+  "Prerequisites": {
+    "Mandatory": "MTH 100 (Linear Algebra), Co-requisite: MTH204 (Differential Equations).",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students can find roots of equations of the form f(x) = 0, interpolate functions and numerically differentiate and integrate functions with a clear understanding of convergence and accuracy.",
+    "CO2": "Students are able to solve systems of linear equations using direct as well as iterative methods.",
+    "CO3": "Students are able to write computer programs to solve ordinary differential equations numerically and interpret / visualize results.",
+    "CO4": "Students are able to derive / analyze finite difference methods for solving partial differential equations with a clear understanding of their properties vis a vis their accuracy and stability.",
+    "CO5": "Students are able to solve physical problems that can be modeled using partial differential equations numerically : generate mathematical model, specify initial and boundary conditions, apply an appropriate method, obtain numerical solutions and interpret / visualize results.",
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Preliminaries (floating point, round-off, error propagation, stability of algorithms); Solutions of equations by iteration: Fixed point iteration, Newton's method, Secant method; Interpolation.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Preliminaries (floating point, round-off, error propagation, stability of algorithms); Solutions of equations by iteration: Fixed point iteration, Newton's method, Secant method; Interpolation.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Linear systems: Gauss elimination, LU-factorization, matrix inversion, solution by iteration.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Linear systems (contd.): Ill conditioning, Norms; Least squares method.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Linear systems (contd.): Ill conditioning, Norms; Least squares method.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Linear systems (contd.): Matrix eigenvalue problems, Approximations and error bounds for eigenvalues, power method for eigenvalues.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Methods for first order ODEs: Euler method, Improved Euler (Heun) method, Runge Kutta methods.",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Multistep methods: Adams-Bashforth, Adams-Moulton; Methods for higher order and systems of ODEs: Euler method, Runge-Kutta methods, Runge-Kutta-Nystrom methods, Stiff systems.",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 5"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Introduction to partial differential equations, first order PDEs, mathematical classification of second order PDEs, characteristics.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 6"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Finite difference representation of PDEs: Truncation, round off & discretization errors, Consistency, Stability, Convergence; Obtaining finite difference equations using Taylor series, Fourier or von Neumann stability analysis of finite difference schemes.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 7"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Applications to model problems: Hyperbolic: Advection equation: Euler explicit, first order upwinding; Wave equation.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 8"
+    },
+    {
+      "Week": "12",
+      "Lecturer Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 9"
+    },
+    {
+      "Week": "13",
+      "Lecturer Topic": "Elliptic PDEs (contd.): Dirichlet problem: Liebmann's method, ADI method; Neumann and mixed problems, Irreuglar boundary.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 10"
+    },
+    {
+      "Week": "14",
+      "Lecturer Topic": " *Please insert more rows if required | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation"
+    },
+    {
+      "Week": "15",
+      "Lecturer Topic": "Weekly Lab
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH2xx",
+  "Course Name": "Numerical Methods",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This is a first course on Numerical Methods to be offered to 2nd / 3rd year undergraduate students. It covers basic topics in root finding, interpolation, numerical differentiation and integration and then moves to methods to numerically solve linear systems of equations as well as ordinary and partial differential equations. The theory involved in deriving methods as well as their error and stability properties is given due attention alongside an insistence on applying the methods, writing computer programs, obtaining numerical solutions and comparing them with analytical solutions whenever possible.",
+  "Prerequisites": {
+    "Mandatory": "MTH 100 (Linear Algebra), Co-requisite: MTH204 (Differential Equations).",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students can find roots of equations of the form f(x) = 0, interpolate functions and numerically differentiate and integrate functions with a clear understanding of convergence and accuracy.",
+    "CO2": "Students are able to solve systems of linear equations using direct as well as iterative methods.",
+    "CO3": "Students are able to write computer programs to solve ordinary differential equations numerically and interpret / visualize results.",
+    "CO4": "Students are able to derive / analyze finite difference methods for solving partial differential equations with a clear understanding of their properties vis a vis their accuracy and stability.",
+    "CO5": "Students are able to solve physical problems that can be modeled using partial differential equations numerically : generate mathematical model, specify initial and boundary conditions, apply an appropriate method, obtain numerical solutions and interpret / visualize results.",
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Preliminaries (floating point, round-off, error propagation, stability of algorithms); Solutions of equations by iteration: Fixed point iteration, Newton's method, Secant method; Interpolation.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Preliminaries (floating point, round-off, error propagation, stability of algorithms); Solutions of equations by iteration: Fixed point iteration, Newton's method, Secant method; Interpolation.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Linear systems: Gauss elimination, LU-factorization, matrix inversion, solution by iteration.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Linear systems (contd.): Ill conditioning, Norms; Least squares method.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Linear systems (contd.): Ill conditioning, Norms; Least squares method.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Linear systems (contd.): Matrix eigenvalue problems, Approximations and error bounds for eigenvalues, power method for eigenvalues.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Methods for first order ODEs: Euler method, Improved Euler (Heun) method, Runge Kutta methods.",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Multistep methods: Adams-Bashforth, Adams-Moulton; Methods for higher order and systems of ODEs: Euler method, Runge-Kutta methods, Runge-Kutta-Nystrom methods, Stiff systems.",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 5"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Introduction to partial differential equations, first order PDEs, mathematical classification of second order PDEs, characteristics.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 6"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Finite difference representation of PDEs: Truncation, round off & discretization errors, Consistency, Stability, Convergence; Obtaining finite difference equations using Taylor series, Fourier or von Neumann stability analysis of finite difference schemes.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 7"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Applications to model problems: Hyperbolic: Advection equation: Euler explicit, first order upwinding; Wave equation.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 8"
+    },
+    {
+      "Week": "12",
+      "Lecturer Topic": "Applications to model problems (contd.): Parabolic: Heat equation: Forward time central space method, Crank Nicolson method; Elliptic: Difference equatons for Laplace and Poisson equations.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 9"
+    },
+    {
+      "Week": "13",
+      "Lecturer Topic": "Elliptic PDEs (contd.): Dirichlet problem: Liebmann's method, ADI method; Neumann and mixed problems, Irreuglar boundary.",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 10"
+    },
+    {
+      "Week": "14",
+      "Lecturer Topic": " *Please insert more rows if required | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation | *Please insert more row for other type of Evaluation"
+    }

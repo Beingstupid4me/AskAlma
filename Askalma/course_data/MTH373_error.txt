@@ -1,0 +1,445 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, so I'm trying to help this user extract information from a provided text file and structure it into a specific JSON format. Let me break down what needs to be done step by step.
+
+First, I need to understand the structure of the input data. The user has given an example JSON structure that they want the extracted information to conform to. This includes fields like "Course Code", "Course Name", "Credits", and several others with specific nested structures such as arrays for "Weekly Lecture Plan" and objects for "Assessment Plan".
+
+Looking at the provided text, it's a table (Sheet1) with various columns. The first few rows contain headers like "Unnamed: 0", "Course Code", "Course Name", etc., followed by data entries. My task is to parse this data into the specified JSON format.
+
+I'll start by identifying each field in the JSON structure and mapping it to the corresponding information in the text. For example, "Course Code" seems to be listed multiple times under "Unnamed: 1". I need to extract these values correctly.
+
+Next, for fields that are arrays of objects (like "Weekly Lecture Plan"), I'll need to create an array where each object corresponds to a week's data. Each week should include the week number, lecture topic, COs met, and assignments.
+
+For numerical fields like "Credits", "Prerequisites", etc., I have to ensure they're correctly formatted as numbers if possible, or strings otherwise. For instance, "CO1" through "CO5" are listed under "Post Conditions", so these should be objects mapping from "COx" to their descriptions.
+
+I also notice that some fields like "Assessment Plan" and "Resource Material" have multiple entries corresponding to different evaluation types and resource titles. These will need to be structured as arrays of objects with the appropriate keys.
+
+One thing I'm unsure about is handling missing values gracefully, which means using empty strings or null where necessary. For example, if a prerequisite isn't specified, it should be represented appropriately in the JSON.
+
+I also need to ensure that all nested structures are correctly formatted and that there's no missing data. If some fields don't have entries for certain weeks or assessments, I'll represent those as empty arrays or objects with null values where needed.
+
+Another consideration is consistency in formatting. For example, "CO1" should consistently be represented as a string key mapping to its description throughout the JSON structure.
+
+I should also pay attention to any repeating patterns in the data. The text seems to have multiple rows of similar information, so I'll need to iterate through each row and map it correctly into the JSON fields.
+
+Finally, after extracting all the necessary information, I'll ensure that the JSON is properly formatted without any markdown or additional text, as per the user's instructions.
+</think>
+
+```json
+{
+  "Course Code": "MTH373/MTH573",
+  "Course Name": "Scientific Computing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an overview course to be offered to 3rd and 4th year undergraduate, and postgraduate students. The course is structured to systematically build on and provide an overview of several ideas and topics that comprise the basics of discretizations of continuous mathematics. In this setup, we will concern ourselves with computational as well as stability analyses of both methods and algorithms.",
+  "Prerequisites": {
+    "Mandatory": "MTH100 (Linear Algebra), MTH204 (Maths IV: ODEs/PDEs), MTH203 (Maths III), MTH240 (Real Analysis I), or some familiarity with those topics. An exposure to a high-level programming language; Python or Julia preferred.",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students understand notions of accuracy, conditioning and stability. They can apply this to analyzing linear, least squares and eigenvalue problems.",
+    "CO2": "Students know how to find roots of equations of the form f(x) = 0, apply this to solving unconstrained optimization problems, and understand elements of constrained optimization.",
+    "CO3": "Students can interpolate a point data set using polynomials and piecewise polynomials. They learn to numerically integrate and differentiate functions.",
+    "CO4": "Students learn about ordinary differential equations, their numerical solution schemes, and stability analysis for such methods. They will also learn about representing and solving sparse linear systems.",
+    "CO5": "Students learn to derive and analyze finite difference methods for solving parabolic and hyperbolic partial differential equations. They will understand analysis of their accuracy and stability. Finally, they will learn about elliptic partial differential equations, and their discretization via finite difference and finite element methods."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction: computer arithmetic, round-off, error",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Overview of iterative methods for linear systems, Linear least squares, existence and uniqueness, sensitivity and conditioning, normal equations, QR factorization (Householder, Givens and Gram-Schmidt)",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Singular value decomposition, eigenvalue problems, existence and uniqueness, sensitivity and conditioning, similarity transformation, power iteration and variants, deflation, QR iteration",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Krylov subspace methods; generalized eigenvalue problems, nonlinear equations, existence and uniqueness (contraction mapping theorem), sensitivity and conditioning, bisection, fixed point iteration, Newton’s method and variations (all in 1d)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Methods for solving nonlinear equations in 1d and more generally, unconstrained optimization",
+      "COs Met": ["CO2"],
+      "Assignments": "Quiz 3"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Constrained optimization, interpolation (polynomial and piecewise), numerical integration and differentiation",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Numerical quadrature (Newton-Cotes, Gaussian, progressive and composite quadrature); numerical differentiation (finite difference and Richardson extrapolation)",
+      "COs Met": ["CO3"],
+      "Assignments": "Quiz 4"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Initial value problems for ODEs: Euler’s methods, accuracy and stability, stiffness, higher-order single-step methods, Runge-Kutta methods (Heun’s, RK4), multistep methods (Adams-Bashforth, Adams-Moulton)",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Boundary value problems for ODEs: shooting method, finite differences, collocation, Galerkin’s method; sparse linear solvers",
+      "COs Met": ["CO4"],
+      "Assignments": "Quiz 5"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Partial differential equations: introduction and classification; time-dependent problems, finite-difference schemes for one-dimensional parabolic and hyperbolic model problems (heat, advection, wave equations)",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 5"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Consistency and stability; CFL condition, von-Neumann analysis",
+      "COs Met": ["CO5"],
+      "Assignments": "Quiz 6"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Time-independent problems, boundary conditions, finite difference methods for one-dimensional Poisson’s equation",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 6"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Linear finite element method for one-dimensional Poisson’s equation",
+      "COs Met": ["CO5"]
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4", "CO5"]
+    }
+</think>
+
+```json
+{
+  "Course Code": "MTH373/MTH573",
+  "Course Name": "Scientific Computing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an overview course to be offered to 3rd and 4th year undergraduate, and postgraduate students. The course is structured to systematically build on and provide an overview of several ideas and topics that comprise the basics of discretizations of continuous mathematics.",
+  "Prerequisites": {
+    "Mandatory": "MTH100 (Linear Algebra), MTH204 (Maths IV: ODEs/PDEs), MTH203 (Maths III), MTH240 (Real Analysis I), or some familiarity with those topics. An exposure to a high-level programming language; Python or Julia preferred.",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students understand notions of accuracy, conditioning and stability. They can apply this to analyzing linear, least squares and eigenvalue problems.",
+    "CO2": "Students know how to find roots of equations of the form f(x) = 0, apply this to solving unconstrained optimization problems, and understand elements of constrained optimization.",
+    "CO3": "Students can interpolate a point data set using polynomials and piecewise polynomials. They learn to numerically integrate and differentiate functions.",
+    "CO4": "Students learn about ordinary differential equations, their numerical solution schemes, and stability analysis for such methods. They will also learn about representing and solving sparse linear systems.",
+    "CO5": "Students learn to derive and analyze finite difference methods for solving parabolic and hyperbolic partial differential equations. They will understand analysis of their accuracy and stability. Finally, they will learn about elliptic partial differential equations, and their discretization via finite difference and finite element methods."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction: computer arithmetic, round-off, error",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Overview of iterative methods for linear systems, Linear least squares, existence and uniqueness, sensitivity and conditioning, normal equations, QR factorization (Householder, Givens and Gram-Schmidt)",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Singular value decomposition, eigenvalue problems, existence and uniqueness, sensitivity and conditioning, similarity transformation, power iteration and variants, deflation, QR iteration",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Krylov subspace methods; generalized eigenvalue problems, nonlinear equations, existence and uniqueness (contraction mapping theorem), sensitivity and conditioning, bisection, fixed point iteration, Newton’s method and variations (all in 1d)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Methods for solving constrained optimization; unconstrained optimization (steepest descent, Newton’s, BFGS, conjugate-gradient), nonlinear least squares (Gauss-Newton, Levenberg- Marquardt)",
+      "COs Met": ["CO2"],
+      "Assignments": "Quiz 3"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Constrained optimization; Interpolation: existence, uniqueness and conditioning; polynomial and piecewise polynomial interpolation",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Integration: existence, uniqueness and conditioning; numerical quadrature (Newton-Cotes, Gaussian, progressive and composite quadrature); numerical differentiation (finite difference and Richardson extrapolation)",
+      "COs Met": ["CO3"],
+      "Assignments": "Quiz 4"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Initial value problems for ODEs: existence, uniqueness and conditioning; Euler’s methods, accuracy and stability, stiffness, higher-order single-step methods, Runge-Kutta methods (Heun’s, RK4), multistep methods (Adams-Bashforth, Adams-Moulton); methods for systems of ODEs",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Boundary value problems for ODEs: existence, uniqueness, sensitivity and conditioning; shooting method, finite differences, collocation, Galerkin’s method; overview of sparse linear solvers",
+      "COs Met": ["CO4"],
+      "Assignments": "Quiz 5"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Partial differential equations: introduction and classification; time-dependent problems, finite-difference schemes for one- dimensional parabolic and hyperbolic model problems (heat, advection and wave equations)",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 5"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Consistency and stability (Lax equivalence theorem), CFL condition, von-Neumann analysis and stability condition; explicit and implicit methods for hyperbolic equations in one dimension",
+      "COs Met": ["CO5"],
+      "Assignments": "Quiz 6"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Time-independent problems, boundary conditions, finite difference methods for one- and two-dimensional Poisson’s equation; linear finite element method for one- and two-dimensional Poisson’s equation",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 6"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Linear finite element method for one- and two-dimensional Poisson’s equation; isoparametric elements, numerical integration in 2D/3D, convergence of the FEM solution",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 7"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Iterative methods for sparse linear systems: Jacobi method, Gauss-Seidel method, SOR; Krylov subspace methods (CG, GMRES); Preconditioning techniques",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 8"
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Convergence analysis of iterative methods for linear systems; eigenvalue problems and singular value decomposition (SVD); randomized SVD approximation",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 9"
+    },
+    {
+      "Week": "16",
+      "Lecture Topic": "Low-rank matrix approximations,CUR decomposition; Interpolation in higher dimensions; Radial basis function (RBF) interpolation; Moving least squares (MLS) approximation",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 10"
+    },
+    {
+      "Week": "17",
+      "Lecture Topic": "Radial basis functions: positive definiteness, native spaces, error estimates; RBF-based meshless methods for PDE discretization; Moving least squares (MLS) approximation revisited; Partition of unity methods (PUM)",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 11"
+    },
+    {
+      "Week": "18",
+      "Lecture Topic": "Discontinuous Galerkin methods for ODEs and PDEs; hp-adaptive finite element methods; Isogeometric analysis; Spectral methods; Meshless methods",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 12"
+    },
+    {
+      "Week": "19",
+      "Lecture Topic": "Domain decomposition methods: Dirichlet-Neumann, Neumann-Dirichlet, and iterative substructuring; FETI-DP and BDDC preconditioners; Balancing Domain Decomposition (BDD) method; Multilevel Domain Decomposition (MLDDM) method",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 13"
+    },
+    {
+      "Week": "20",
+      "Lecture Topic": "Inverse problems and regularization: Tikhonov regularization, Truncated SVD; Iterative regularization methods (Landweber iteration, Conjugate Gradient Least Squares); Sparsity-promoting regularization techniques; Total variation regularization",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week": "21",
+      "Lecture Topic": "Uncertainty quantification: Polynomial Chaos Expansions (PCE); Stochastic collocation methods; Monte Carlo methods; Sparse grid quadrature; Collocation with adaptive refinement; Bayesian inference in inverse problems; Data assimilation techniques",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week": "22",
+      "Lecture Topic": "Optimization under uncertainty: Robust optimization, stochastic programming, distributionally robust optimization; Risk measures; Data-driven optimization; Uncertainty quantification integration with optimization methods",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week": "23",
+      "Lecture Topic": "High-performance computing: Parallel algorithms for dense and sparse linear algebra, GPU acceleration; Performance analysis of numerical algorithms; Case studies in high-performance scientific computing",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH373/MTH573",
+  "Course Name": "Scientific Computing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an overview course to be offered to 3rd and 4th year undergraduate, and postgraduate students. The course is structured to systematically build on and provide an overview of several ideas and topics that comprise the basics of discretizations of continuous mathematics.",
+  "Prerequisites": {
+    "Mandatory": "MTH100 (Linear Algebra), MTH204 (Maths IV: ODEs/PDEs), MTH203 (Maths III), MTH240 (Real Analysis I), or some familiarity with those topics. An exposure to a high-level programming language; Python or Julia preferred.",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students understand notions of accuracy, conditioning and stability. They can apply this to analyzing linear, least squares and eigenvalue problems.",
+    "CO2": "Students know how to find roots of equations of the form f(x) = 0, apply this to solving unconstrained optimization problems, and understand elements of constrained optimization.",
+    "CO3": "Students can interpolate a point data set using polynomials and piecewise polynomials. They learn to numerically integrate and differentiate functions.",
+    "CO4": "Students learn about ordinary differential equations, their numerical solution schemes, and stability analysis for such methods. They will also learn about representing and solving sparse linear systems.",
+    "CO5": "Students learn to derive and analyze finite difference methods for solving parabolic and hyperbolic partial differential equations. They will understand analysis of their accuracy and stability. Finally, they will learn about elliptic partial differential equations, and their discretization via finite difference and finite element methods."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction: computer arithmetic, round-off, error",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Overview of iterative methods for linear systems, Linear least squares, existence and uniqueness, sensitivity and conditioning, normal equations, QR factorization (Householder, Givens and Gram-Schmidt)",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Singular value decomposition, eigenvalue problems, existence and uniqueness, sensitivity and conditioning, similarity transformation, power iteration and variants, deflation, QR iteration",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Krylov subspace methods; generalized eigenvalue problems, nonlinear equations, existence and uniqueness (contraction mapping theorem), sensitivity and conditioning, bisection, fixed point iteration, Newton’s method and variations (all in 1d)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Methods for solving constrained optimization; unconstrained optimization (steepest descent, Newton’s, BFGS, conjugate-gradient), nonlinear least squares (Gauss-Newton, Levenberg- Marquardt)",
+      "COs Met": ["CO2"],
+      "Assignments": "Quiz 3"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Constrained optimization; Interpolation: existence, uniqueness and conditioning; polynomial and piecewise polynomial interpolation",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Integration: existence, uniqueness and conditioning; numerical quadrature (Newton-Cotes, Gaussian, progressive and composite quadrature); numerical differentiation (finite difference and Richardson extrapolation)",
+      "COs Met": ["CO3"],
+      "Assignments": "Quiz 4"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Initial value problems for ODEs: existence, uniqueness and conditioning; Euler’s methods, accuracy and stability, stiffness, higher-order single-step methods, Runge-Kutta methods (Heun’s, RK4), multistep methods (Adams-Bashforth, Adams-Moulton); methods for systems of ODEs",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Boundary value problems for ODEs: existence, uniqueness, sensitivity and conditioning; shooting method, finite differences, collocation, Galerkin’s method; overview of sparse linear solvers",
+      "COs Met": ["CO4"],
+      "Assignments": "Quiz 5"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Partial differential equations: introduction and classification; time-dependent problems, finite-difference schemes for one- dimensional parabolic and hyperbolic model problems (heat, advection and wave equations)",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 5"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Consistency and stability (Lax equivalence theorem), CFL condition, von-Neumann analysis and stability condition; explicit and implicit methods for hyperbolic equations in one dimension",
+      "COs Met": ["CO5"],
+      "Assignments": "Quiz 6"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Time-independent problems, boundary conditions, finite difference methods for one- and two-dimensional Poisson’s equation; linear finite element method for one- and two-dimensional Poisson’s equation",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 6"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Linear finite element method for one- and two-dimensional Poisson’s equation; isoparametric elements, numerical integration in 2D/3D, convergence of the FEM solution",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 7"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Iterative methods for sparse linear systems: Jacobi method, Gauss-Seidel method, SOR; Krylov subspace methods (CG, GMRES); Preconditioning techniques",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 8"
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Convergence analysis of iterative methods for linear systems; eigenvalue problems and singular value decomposition (SVD); randomized SVD approximation",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 9"
+    },
+    {
+      "Week": "16",
+      "Lecture Topic": "Low-rank matrix approximations,CUR decomposition; Interpolation in higher dimensions; Radial basis function (RBF) interpolation; Moving least squares (MLS) approximation",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 10"
+    },
+    {
+      "Week": "17",
+      "Lecture Topic": "Radial basis functions: positive definiteness, native spaces, error estimates; RBF-based meshless methods for PDE discretization; Moving least squares (MLS) approximation revisited; Partition of unity methods (PUM)",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 11"
+    },
+    {
+      "Week": "18",
+      "Lecture Topic": "Discontinuous Galerkin methods for ODEs and PDEs; hp-adaptive finite element methods; Isogeometric analysis; Spectral methods; Meshless methods",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 12"
+    },
+    {
+      "Week": "19",
+      "Lecture Topic": "Domain decomposition methods: Dirichlet-Neumann, Neumann-Dirichlet, and iterative substructuring; FETI-DP and BDDC preconditioners; Balancing Domain Decomposition (BDD) method; Multilevel Domain Decomposition (MLDDM) method",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 13"
+    },
+    {
+      "Week": "20",
+      "Lecture Topic": "Inverse problems and regularization: Tikhonov regularization, Truncated SVD; Iterative regularization methods (Landweber iteration, Conjugate Gradient Least Squares); Sparsity-promoting regularization techniques; Total variation regularization",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week": "21",
+      "Lecture Topic": "Uncertainty quantification: Polynomial Chaos Expansions (PCE); Stochastic collocation methods; Monte Carlo methods; Sparse grid quadrature; Collocation with adaptive refinement; Bayesian inference in inverse problems; Data assimilation techniques",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week": "22",
+      "Lecture Topic": "Optimization under uncertainty: Robust optimization, stochastic programming, distributionally robust optimization; Risk measures; Data-driven optimization; Uncertainty quantification integration with optimization methods",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 14"
+    },
+    {
+      "Week": "23",
+      "Lecture Topic": "High-performance computing: Parallel algorithms for dense and sparse linear algebra, GPU acceleration; Performance analysis of numerical algorithms; Case studies in high-performance scientific computing",
+      "COs Met": ["CO5"]

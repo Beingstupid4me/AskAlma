@@ -1,0 +1,124 @@
+{
+  "Course Code": "ECE577",
+  "Course Name": "Machine Learning Techniques for Real-time Control",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide an in-depth understanding of how to apply machine learning (ML) tools for real-time control applications, where no a-priopri data is available for the training phase of the ML component. The course focuses on online applications like control of robotics, aircraft type plants, which can be modelled as nonlinear dynamical systems. The uncertainties associated with the plant dynamics would be learned online using ML components (like neural networks), while simultaneously ensuring stability of the plant. Further model-based reinforcement learning (RL) inspired techniques will be introduced to design an approximate optimal controller. Lyapunov-based stability analysis will be instrumental for designing all the mentioned controllers.",
+  "Prerequisites": {
+    "Mandatory": "No pre-requisite as such. A basic familiarity with concepts of Linear Systems, Linear Algebra",
+    "Desirable": "Machine Learning, Reinforcement Learning,Control Theory (ECE570)",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand the fundamentals of nonlinear dynamical systems and control, familiarize with basic tools for stability analysis and controller design",
+    "CO2": "Understand the principles of adaptive control design",
+    "CO3": "Extend the philosophy of adaptive control to ML-based real-time control with various robust modifications",
+    "CO4": "Understand RL-inspired Control design principles, which ensure approximate optimality",
+    "CO5": "Analyze the controllers while ensuring stability, convergence, optimality and performance bounds"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Nonlinear Dynamical Systems and Control",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "23",
+      "Lecture Topic": "Equilibrium points, Linearization, Lyapunov Stability Theory, Barbalat's Lemma",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "45",
+      "Lecture Topic": "Adaptive Control techniques for structured uncertainty",
+      "COs Met": [
+        "CO2",
+        "CO5"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Machine Learning based real-time control design for unstructured uncertainty using various learning mechanisms, issue of parameter drift, introduction to robust modifications like dead-zone. | Machine Learning based real-time control design for unstructured uncertainty using various learning mechanisms, issue of parameter drift, introduction to robust modifications like dead-zone.",
+      "COs Met": [
+        "CO3",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "78",
+      "Lecture Topic": "sigma-modification, e-modification based learning control",
+      "COs Met": [
+        "CO3",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "projection based learning control",
+      "COs Met": [
+        "CO3",
+        "CO5"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "10, 11",
+      "Lecture Topic": "Reinforcement learning-based algorithms for approximate optimal control (AOC) design, policy iteration: on-plicy and off-policy methods for AOC design | Reinforcement learning-based algorithms for approximate optimal control (AOC) design, policy iteration: on-plicy and off-policy methods for AOC design",
+      "COs Met": [
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "value iteration, Q-learning based AOC",
+      "COs Met": [
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Term Paper Presentation",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Homework",
+      "% Contribution in Grade": "30"
+    },
+    {
+      "Type of Evaluation": "Mid-sem",
+      "% Contribution in Grade": "15"
+    },
+    {
+      "Type of Evaluation": "Quiz",
+      "% Contribution in Grade": "15"
+    },
+    {
+      "Type of Evaluation": "End-sem",
+      "% Contribution in Grade": "25"
+    },
+    {
+      "Type of Evaluation": "Term Paper/Project",
+      "% Contribution in Grade": "15"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Neural Network Control of Robot Manipulators and Nonlinear Systems by Lewis, Jagannathan and Yesildirek | Optimal Adaptive Control and Differential Games by Reinforcement Learning Principles by Vrabie, Vamvoudakis and Lewis | Applied Nonlinear Control by Slotine and Li",
+    "Reference": ""
+  }
+}

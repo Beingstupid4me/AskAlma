@@ -1,0 +1,245 @@
+{
+  "Course Code": "CSE528",
+  "Course Name": "Introduction to Blockchain and Cryptocurrency",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "From this course, we will learn about basics of blockchains and cryptocurrency. Topics to be covered include how cryptocurrency such as Bitcoin and Ethereum work, blockchain and other decentralized consensus protocols, digital coin mining, security and privacy of cryptocurrencies, scalability, cryptographic techniques for digital currency, and applications of blockchain to smart contracts, and financial exchanges.",
+  "Prerequisites": {
+    "Mandatory": "Applied Cryptography",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students are expected to learn how bitcoin and other coins work in real world.",
+    "CO2": "The students are expected to understand how cryptography primitives drive blockchains and crypto-currency infrastructures.",
+    "CO3": "The students are expected to understand how cryptocurrency and blockchains will move for future directions (ex. Privacy, multiparty computation, anonymity).",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction to Cryptography and Cryptocurrency (Reference book Ch. 1)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "homework, 6 hours per week"
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "Bitcoin (Reference book Ch. 3)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "homework, 6 hours per week"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "Wallet: managing and protecting crypto assets (Reference book Ch. 4)",
+      "COURSEs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "Consensus: network models, corruption tolerance, sybil resistance (Ch. 3, 6, 7 of Foundation of Consensus, http://elaineshi.com/docs/blockchain-book.pdf)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Nakamoto Consensus: : security, attacks and incentives (Ch. 14, 15 and 17 Foundation of Consensus, http://elaineshi.com/docs/blockchain-book.pdf)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Randomness beacons, VDFs, and applications to consensus (https://eprint.iacr.org/2018/601.pdf, https://eprint.iacr.org/2018/712.pdf)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Ethereum: Decentralized Apps, EVM, and the Ethereum blockchain (Ethereum white paper, Ethereum yellow paper, Solidity documentation, https://github.com/ethereum/wiki/wiki/White-Paper, http://gavwood.com/paper.pdf, https://docs.soliditylang.org/en/latest/)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Hyperledger Fabric (https://www.hyperledger.org/use/tutorials)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "9",
+      "Lecture Topic": "Scaling the blockchain (https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)",
+      "COURSEs Met": [
+        "CO1"
+      ],
+      "Assignments": "Mid-term Assignment: source code & video for programming assignment"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Privacy: de-anonymizing the blockchain and mixing (Reference book Ch. 6)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "zkSNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge): a proof construction where one can prove possession of certain information (https://eprint.iacr.org/2012/718.pdf)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "zkSNARK applications: : confidential transactions and Zcash (https://eprint.iacr.org/2014/349.pdf)",
+      "COURSEs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": "Project Presentation"
+    },
+    {
+      "Week Number": "14",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "15",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "16",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "17",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "18",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "19",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "20",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "21",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "22",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "23",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "24",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "25",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "26",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "27",
+      "Lecture Topic": "",
+      "COURSEs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Homework",
+      "% Contribution in Grade": "20",
+      "Number of Times Evaluated": "3"
+    },
+    {
+      "Type of Evaluation": "Assignment",
+      "% Contribution in Grade": "30",
+      "Number of Times Evaluated": "1"
+    },
+    {
+      "Type of Evaluation": "end-sem",
+      "% Contribution in Grade": "20",
+      "Number of Times Evaluated": "1"
+    },
+    {
+      "Type of Evaluation": "Project",
+      "% Contribution in Grade": "30",
+      "Number of Times Evaluated": "1"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction, Princeton University Press, 2016",
+    "Reference Book": "Foundation of Consensus, http://elaineshi.com/docs/blockchain-book.pdf"
+  }
+}

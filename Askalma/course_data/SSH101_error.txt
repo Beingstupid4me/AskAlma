@@ -1,0 +1,406 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. I need to extract information from the provided table and structure it into a JSON format as specified. 
+
+First, looking at the table headers: Course Code, Course Name, Credits, Course Offered to, Course Description, Prerequisites, Course Outcomes, Weekly Lecture Plan, Assessment Plan, and Resource Material.
+
+Starting with "Course Code" which is consistently SSH101 across all rows, so that's straightforward. The same goes for "Course Name," it's always "Critical Thinking and Readings in Social Science."
+
+For "Credits," the value is 4 every time, so that's easy to capture as a number.
+
+The "Course Offered to" column lists "UG" (Undergraduate) repeatedly, so that's simple too.
+
+The "Course Description" is quite lengthy. It seems to cover various aspects of critical thinking and its application in social sciences. I'll need to include this entire text without any changes except for ensuring it's a string value.
+
+Moving on to "Prerequisites," each row under this column has multiple entries, some repeating like "Btech. CS+SS." Since the user wants prerequisites as an array of strings, I'll list all unique values here, making sure not to repeat duplicates and maintaining order based on their first occurrence.
+
+Next is "Course Outcomes" which lists CO1 through CO5. Each outcome has specific skills or knowledge areas students should achieve by the end of the course. These will be listed as an array of strings in the JSON.
+
+The "Weekly Lecture Plan" section is more complex, as it's a table within a table. Each week (Week 1 to Week 13) has a lecture topic and COs Met. I'll need to loop through each week and create an object for each with "Week" and "Lecture Topic," followed by an array of "COs Met." Additionally, there's an "Assignments" field in some weeks which contains either text or possibly null if no assignments are listed.
+
+For the "Assessment Plan," it includes Quiz exams, Midsem, HW assignments, and Endsem. Each has a value that seems to be a percentage except for "Group project (on Kialo)" which is 30%. I'll need to ensure these values are correctly formatted as numbers where applicable or strings if they include non-numeric parts.
+
+Lastly, the "Resource Material" section lists textbooks and additional references. Each entry under this column has multiple titles, some repeating. I'll compile a list of all unique resource titles here.
+
+I also need to handle missing values gracefully by using empty strings or nulls where necessary. For example, if any field doesn't have data, it should be represented appropriately in the JSON.
+
+Finally, ensuring that "Credits" is a number and not a string unless specified. Since all entries show 4, I'll format this as an integer in the JSON.
+
+Putting it all together, I'll structure each section according to the provided schema, making sure to handle arrays correctly and ensure proper nesting for the Weekly Lecture Plan.
+</think>
+
+```json
+{
+  "Course Code": "SSH101",
+  "Course Name": "Critical Thinking and Readings in Social Science",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course offers an introduction to ideas about reasoning and elements of thinking critically. In particular, it develops an appreciation of the relevance of reasoning and ideation in the realm of the social sciences. It includes an introduction to key elements and concepts of reasoning and informal logic as well as an applied component which uncovers the value of critical thinking involved in social theory building.",
+  "Prerequisites": {
+    "Mandatory": ["Btech. CS+SS"],
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Independently and critically annotate texts and use online tool Kialo to compare a popular debate in the media",
+    "CO2": "Students will be able to differentiate amongst the types of argument and understand the role of logic in deductive arguments through ideas such as validity and soundness.",
+    "CO3": "To be able to tell the distinction between inductive and deductive reasoning and explore ideas of strength in judging arguments.",
+    "CO4": "Students will apply and demonstrate skills in critical reasoning by also exposing weakness in arguments as well as be able to spot common fallacies.",
+    "CO5": "Introduction to ideas and reasoning in social theory building; including in making observations, developing concepts as well as in coming up with explanations that form the basis for doing modern social sciences."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "CriticalReading: Annotating and basic tools",
+      "COs Met": ["CO1"],
+      "Assignments": "Article 1 (Reading)"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introdction to Kialo: A practical guide",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Article 1 (Read, annotate)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Critical Thinking and introduction to arguments",
+      "COs Met": ["CO2"],
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Types of Arguments",
+      "COs Met": null,
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Inductive Reasoning",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Deductive reasoning and formal logic",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Bad Arguments 1: Fallacies",
+      "COs Met": ["CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Bad arguments 2: Vagueness and other problems",
+      "COs Met": ["CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Reasoning projects: Workshop on academic reading/writing",
+      "COs Met": ["CO1", "CO5"],
+      "Assignments": "Argument selection"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Reasoning in Social Sciences part 1: Concept building",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "CT and Social Sciences Part 2: Analogies and typologies",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "CT and social sciences Part 3: Explanation",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Social Sciences in computational age",
+      "COs Met": ["CO6"],
+      "Assignments": "Portfolio presentations"
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Revision and presentations",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4", "CO5", "CO6"],
+      "Assignments": "Portfolio presentations"
+    }
+</think>
+
+```json
+{
+  "Course Code": "SSH101",
+  "Course Name": "Critical Thinking and Readings in Social Science",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course offers an introduction to ideas about reasoning and elements of thinking critically. In particular, it develops an appreciation of the relevance of reasoning and ideation in the realm of the social sciences. It includes an introduction to key elements and concepts of reasoning and informal logic as well as an applied component which uncovers the value of critical thinking involved in social theory building.",
+  "Prerequisites": {
+    "Mandatory": "Btech. CS+SS",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Independently and critically annotate texts and use online tool Kialo to compare a popular debate in the media",
+    "CO2": "Students will be able to differentiate amongst the types of argument and understand the role of logic in deductive arguments through ideas such as validity and soundness.",
+    "CO3": "To be able to tell the distinction between inductive and deductive reasoning and explore ideas of strength in judging arguments.",
+    "CO4": "Students will apply and demonstrate skills in critical reasoning by also exposing weakness in arguments as well as be able to spot common fallacies.",
+    "CO5": "Introduction to ideas and reasoning in social theory building; including in making observations, developing concepts as well as in development of explanations."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "CriticalReading: Annotating and basic tools",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introdction to Kialo: A practical guide",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Article 1 (Reading)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Critical Thinking and introduction to arguments",
+      "COs Met": ["CO2"],
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Types of Arguments",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Inductive Reasoning",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Article 1 (Read, annotate)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Deductive reasoning and formal logic",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Bad Arguments 1: Fallacies",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Bad arguments 2: Vagueness and other problems",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Reasoning projects: Workshop on academic reading/writing",
+      "COs Met": ["CO1", "CO5"],
+      "Assignments": "Argument selection"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Reasoning in Social Sciences part 1: Concept building",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "CT and Social Sciences Part 2: Analogies and typologies",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "CT and social sciences Part 3: Explanation",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Social Sciences in computational age",
+      "COs Met": ["CO6"],
+      "Assignments": "Portfolio presentations"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Revision and presentations",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4", "CO5", "CO6"],
+      "Assignments": "Portfolio presentations"
+    }
+</think>
+
+```json
+{
+  "Course Code": "SSH101",
+  "Course Name": "Critical Thinking and Readings in Social Science",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course offers an introduction to ideas about reasoning and elements of thinking critically. In particular, it develops an appreciation of the relevance of reasoning and ideation in the realm of the social sciences.",
+  "Prerequisites": {
+    "Mandatory": ["Btech. CS+SS"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Independently and critically annotate texts and use online tool Kialo to compare a popular debate in the media",
+    "CO2": "Students will be able to differentiate amongst the types of argument and understand the role of logic in deductive arguments through ideas such as validity and soundness",
+    "CO3": "To be able to tell the distinction between inductive and deductive reasoning and explore ideas of strength in judging arguments",
+    "CO4": "Students will apply and demonstrate skills in critical reasoning by also exposing weakness in arguments as well as be able to spot common fallacies",
+    "CO5": "Introduction to ideas and reasoning in social theory building; including in making observations, developing concepts as well as in development of explanations"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "CriticalReading: Annotating and basic tools",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introdction to Kialo: A practical guide",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Article 1 (Reading)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Critical Thinking and introduction to arguments",
+      "COs Met": ["CO2"],
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Types of Arguments",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Inductive Reasoning",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Article 1 (Read, annotate)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Deductive reasoning and formal logic",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Article 2 (Read, annotate)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Bad Arguments 1: Fallacies",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Bad arguments 2: Vagueness and other problems",
+      "COs Met": ["CO4"],
+      "Assignments": "Article 1 (Read, annotate)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Reasoning projects: Workshop on academic reading/writing",
+      "COs Met": ["CO1", "CO5"],
+      "Assignments": "Argument selection"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Reasoning in Social Sciences part 1: Concept building",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "CT and Social Theory Building: Analogies and typologies",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "CT and social sciences part 3: Explanation",
+      "COs Met": ["CO5"],
+      "Assignments": "Summary article"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Social Sciences in computational age",
+      "COs Met": ["CO6"],
+      "Assignments": "Portfolio presentations"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Revision and presentations",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4", "CO5", "CO6"],
+      "Assignments": "Portfolio presentations"
+    }
+</think>
+
+```json
+{
+  "Course Code": "SSH101",
+  "Course Name": "Critical Thinking and Readings in Social Science",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course offers an introduction to ideas about reasoning and elements of thinking critically. In particular, it develops an appreciation of the relevance of reasoning and ideation in the realm of the social sciences. It includes an introduction to key elements and concepts of reasoning and informal logic as well as an applied component which uncovers the value of critical thinking involved in social theory building.",
+  "Prerequisites": {
+    "Mandatory": ["Btech. CS+SS"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Independently and critically annotate texts and use online tool Kialo to compare a popular debate in the media",
+    "CO2": "Students will be able to differentiate amongst the types of argument and understand the role of logic in deductive arguments through ideas such as validity and soundness",
+    "CO3": "To be able to tell the distinction between inductive and deductive reasoning and explore ideas of strength in judging arguments",
+    "CO4": "Students will apply and demonstrate skills in critical reasoning by also exposing weakness in arguments as well as be able to spot common fallacies",
+    "CO5": "Introduction to ideas and reasoning in social theory building; including in making observations, developing concepts as well as in development of explanations"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "CriticalReading: Annotating and basic tools",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introdction to Kialo: A practical guide",
+      "
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH101",
+  "Course Name": "Critical Thinking and Readings in Social Science",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course offers an introduction to ideas about reasoning and elements of thinking critically. In particular, it develops an appreciation of the relevance of reasoning and ideation in the realm of the social sciences. It includes an introduction to key elements and concepts of reasoning and informal logic as well as an applied component which uncovers the value of critical thinking involved in social theory building.",
+  "Prerequisites": {
+    "Mandatory": ["Btech. CS+SS"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Independently and critically annotate texts and use online tool Kialo to compare a popular debate in the media",
+    "CO2": "Students will be able to differentiate amongst the types of argument and understand the role of logic in deductive arguments through ideas such as validity and soundness",
+    "CO3": "To be able to tell the distinction between inductive and deductive reasoning and explore ideas of strength in judging arguments",
+    "CO4": "Students will apply and demonstrate skills in critical reasoning by also exposing weakness in arguments as well as be able to spot common fallacies",
+    "CO5": "Introduction to ideas and reasoning in social theory building; including in making observations, developing concepts as well as in development of explanations"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "CriticalReading: Annotating and basic tools",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    }

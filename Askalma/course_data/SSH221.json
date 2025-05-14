@@ -1,0 +1,186 @@
+{
+  "Course Code": "SSH221",
+  "Course Name": "Social and Political Philosophy",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will introduce students to some of the fundamental debates in contemporary social and political philosophy. It will cover a range of concepts, theories, ideas, and thinkers, and their relevance in current contexts. The course will have two parts. In the first part we will explore the philosophical debates in the Western Political Theory tradition and discuss philosophical positions on Utilitarianism, Equality, Libertarianism, Marxism, Multculturism, and Feminism. The second part of the course will focus on debates in the Indian political theoretical tradition. This part will engage with debates on religion, freedom, and equality within the Indian context and apply it to important contemporary social and political questions.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite"
+    ],
+    "Desirable": [
+      "Pre-requisite",
+      "Pre-requisite"
+    ],
+    "Other": [
+      "Pre-requisite"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students will understand and critically engage with key historical and contemporary debates in western social and political philosophy",
+    "CO2": "Students will be able to understand and critically engage with key debates in Indian political theory.",
+    "CO3": "Students will be able to recognize and evaluate similar theories and analyse other relevant political arguments",
+    "CO4": "Students will be able to make normative arguments and judgement, develop their own views, and apply them in their social and political contexts",
+    "CO5": "Students will be able to critically evaluate arguments independently as well as through participation in a group"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to social and political philosophy- the key questions",
+      "COs Met": [
+        "CO-1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Utilitarianism",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Liberal Equality",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Libertarianism",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Response paper | Assignment"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Marxism",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Response paper | Assignment"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Communitarianism",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Multiculturalism",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "Assignments"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Feminism",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "Assignments"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "What is Indian political Theory (IPT)",
+      "COs Met": [
+        "CO-2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Debates on Equality in IPT",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "Assignments"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Debates on Freedom in IPT",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "Assignments"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Debates on Religion in IPT",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Presentations"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Revisions and Presentations",
+      "COs Met": [
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Presentations"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Title": "Contemporary Political Philosophy: An Introduction",
+        "Author": "Kymlicka, W.",
+        "Publisher": "OUP",
+        "Year": "2002"
+      }
+    ],
+    "Reference Book": [
+      {
+        "Title": "India: Political Ideas and the making of the democratic discourse",
+        "Author": "Mahajan, G.",
+        "Publisher": "Zed Books",
+        "Year": "2013"
+      },
+      {
+        "Title": "Indian Political Thought: A Reader",
+        "Author": "Singh, A. & Mohapatra, S.",
+        "Publisher": "Routledge",
+        "Year": "2010"
+      }
+    ]
+  }
+}

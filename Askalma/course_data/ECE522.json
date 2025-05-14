@@ -1,0 +1,160 @@
+{
+  "Course Code": "ECE 522",
+  "Course Name": "Integrated Circuit Fabrication",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "In this course fundamental physical and chemical processes will be used to describe and model a range of fabrication processes making up the various silicon integrated circuit technologies. This course covers everything that professionals need to know, from crystal growth to integrated devices and circuits. Both theory and the practical aspects of each major fabrication step, including crystal growth, silicon oxidation, photolithography, etching, diffusion, ion implantation, and thin film deposition will be covered in this course. It is assumed that students have a quantitative understanding of the basic device physics and structure of diodes, bipolar junction and field-effect transistors",
+  "Prerequisites": {
+    "Mandatory": "Solid State Devices & Semiconductor Physics or instructor can give other",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to identify IC production cycle, and describe prevaling semiconductor technologies and their role in device processing and trends; to classify various semiconductor material and identify defects in semiconductor materials",
+    "CO2": "Ability to determine and develope process parameter for thermal oxidation process, metallization process, photolithography, Etching and diffusion process",
+    "CO3": "Ability to design the ion implantation process and implement techniques for removing the damage; Ability to generate the flow of IC fabrication process and generate specifications for fabrication of IC resistors, capacitr and inductors; | Abilito to plan processing steps for BJT, MOSFET, BiCMOS, BEOL, SOI, FinFET and MESFET fabrication and choose correct packaging for production",
+    "CO4": "Ability to plan processing steps for BJT, MOSFET, BiCMOS, BEOL, SOI, FinFET and MESFET fabrication and choose correct packaging for production"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Semiconductor Fabrication, IC Production Cycle, Semiconductor materials and their properties",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Reading Assignment, Group assignment (Simulation I)"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Crystal structure, crystal axis and plane, crystal defect and defect electronic properties Crystal Growth \u2013 Elementary material, growth from liquid and doping in liquid state",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Reading Assignment, Group assignment (Simulation I)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Oxidation - Themal oxidation, Dielectric deposition and polysilicon deposition, Film deposion and metalization",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Group assignment (Simulation I), Quiz 1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Photolithography \u2013 Optical lithography, Pattern generation and mask making printing problems, New techniques in lithography",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Group assignment (Simulation I), Quiz 2"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Etching \u2013 Wet chemical etching, dry etching, microelectromechanical systems",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Group assignment 2"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Diffusion \u2013 Basic diffussion process, extrinsic diffussion, diffussion related process, Silicon and GaAs impurity behaviour",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Group assignment 2, Quiz 4"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Ion Implantation \u2013 Basic of ion implantation, range of implanted ions, implant damage and annealing, implantation related process",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Group assignment 2, Quiz 5"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Process Integration \u2013 IC fabrication process, mask layout, isolation techniques, Passive components",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Group assignment 2, Quiz 6"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Bipolar technology, MOS Technology and CMOS Technology, BiCMOS, BEOL, SOI, FinFET and MESFET Technology",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Quiz 7"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Assembly, packaging and Testing, Future trends in IC fabrication",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Quoz 8"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Quiz",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type": "Project",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type": "Mid-sem",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type": "End-sem",
+      "% Contribution in Grade": 40
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Gary S. May and S. M. Sze \u2013 Fundamentals of Semiconductor Fabrication, John Wiley Int Edition, 2004"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "S. M. Sze \u2013 Semiconductor Devices Physics and Technology, John Wiley, 2nd Ed. 2002"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "S. K. Ghandi \u2013 VLSI Fabrication principles, John Wiley, 1993"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "W. Runyan and K. Bean, Semiconductor Integrated Circuit Processing Technology, Addison Wesley, 1990"
+    }
+  ]
+}

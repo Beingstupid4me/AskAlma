@@ -1,0 +1,421 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each field step by step.
+
+First, looking at the "Course Code" column, all entries are "ECE533". So that's straightforward.
+
+Next is "Course Name", which consistently says "Satellite Navigation and Sensor Fusion".
+
+For "Credits", every row under it has "4", so I'll put that in as a number.
+
+Under "Course Offered to", the values are repeated across all rows: "UG, PG" for each entry. So that's simple enough.
+
+The "Course Description" is quite lengthy but consistent across all rows. It seems like a detailed explanation of satellite navigation and sensor fusion principles.
+
+Moving on to prerequisites, I notice that in row 6, there are entries under "Pre-requisite (Mandatory)", "Desirable", and "Other". The mandatory one is "Digital Signal Processing" and the desirable is "Probability and Random Process". There's only one "Other" entry with no value. So for "Prerequisites.Mandatory", I'll put "Digital Signal Processing", "Prerequisites.Desirable" as "Probability and Random Process", and since there's nothing under "Other", it should be an empty string.
+
+For "Course Outcomes", each CO1 to CO5 is listed once, so that's easy to map directly from the table.
+
+The Weekly Lecture Plan has multiple weeks with topics and COs met. I'll need to extract each week's data into a JSON array of objects.
+
+Looking at the Assessment Plan, it includes Quiz exams, Midsem, HW assignments, and Endsem. The values for Quiz exams are "30", Midsem is "20", HW assignments is "40", and Endsem is "10". These should be strings since they're percentages or numbers without units.
+
+The Resource Material section lists the same book five times under "Textbook" and "Reference Book".
+
+I need to ensure that all missing values are handled gracefully, using empty strings where necessary. Also, "Credits" should be a number if present; in this case, it's 4, so I'll keep it as an integer.
+
+Now, putting it all together into the JSON structure without any markdown or extra text.
+</think>
+
+```json
+{
+  "Course Code": "ECE533",
+  "Course Name": "Satellite Navigation and Sensor Fusion",
+  "Credits": 4,
+  "Course Offered to": "UG, PG",
+  "Course Description": "Accurate position and velocity estimation i.e. navigation is an integral part of the operation of any autonomous vehicle. Advent of Global Positioning System (GPS)\Global Navigation Satellite System (GNSS) technologies have radically changed the navigation process. Satellite Navigation and Sensor Fusion course aims to make students familiar with satellite navigation, GPS\GNSS, GPS signal structure, acquisition and position computation techniques from GPS data. This course also focuses on fusion of GNSS and other available sensor observations to estimate accurate position and velocity, which is widely used for navigation of autonomous vehicles. The course will start with an introduction to radio navigation and GPS. After discussing GPS signal structure and positioning algorithms, various position error sources will be introduced and various error correction techniques will be explained. GPS signal acquisition and receiver structure are also within the scope of this course. Effects of interference, weak signal on GPS positioning will also be discussed. New GPS signals and other global and regional satellite navigation systems will be also introduced to the students. Inertial Measurement Unit (IMU) will be introduced in the second part of the course. The Kalman Filter (which is almost ubiquitously used in navigation applications) and its non-linear variants will be discussed. Finally usage of GNSS and IMU observations in Kalman Filter framework to estimate accurate position and velocity will be explained.",
+  "Prerequisites": {
+    "Mandatory": "Digital Signal Processing",
+    "Desirable": "Probability and Random Process",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe basics of satellite navigation",
+    "CO2": "Summarize GPS signal structure, acquisition and receiver mechanism, explain position computation methods and various position correction techniques",
+    "CO3": "Explain mechanism and dynamics of IMU (accelerometer and gyroscope), determine position and velocity using IMU observation, discuss limitations of IMU",
+    "CO4": "Implement sensor fusion algorithms to estimate position and velocity using GNSS and IMU observations",
+    "CO5": "Discuss recent developments in satellite navigation"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to radio navigation and Global Positioning System",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "GPS signal specification, principle of positioning",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 1: Simulating GPS signals"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Positioning errors, differential positioning, reference systems",
+      "COs Met": ["CO1", "CO2"]
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Augmentation System",
+      "COs Met": ["CO2"]
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "GPS signal acquisition, receiver structure",
+      "COs Met": ["CO2"]
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "AGPS, weak signals, interference",
+      "COs Met": ["CO2"]
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "New signals, Galileo and other Navigation Satellite Systems",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignment 2: Acquiring GPS signal"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Dynamics of Inertial Measurement Unit",
+      "COs Met": ["CO3"]
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Introduction to sensor fusion, Kalman Filter",
+      "COs Met": ["CO4"]
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Extended Kalman Filter",
+      "COs Met": ["CO4"]
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Unscented Kalman Filter",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "Assignment 3: Sensor fusion"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Position, velocity estimation using GNSS and IMU",
+      "COs Met": ["CO3", "CO4"]
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments": 30,
+    "Seminar": 10,
+    "Midsemester": 20,
+    "Endsemester": 40
+  },
+  "Resource Material": {
+    "Textbook": "Kaplan, Elliott, and Christopher Hegarty. Understanding GPS: principles and applications . Artech house, 2005.",
+    "Reference Book": ""
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE533",
+  "Course Name": "Satellite Navigation and Sensor Fusion",
+  "Credits": "4",
+  "Course Offered to": "UG, PG",
+  "Course Description": "Accurate position and velocity estimation i.e. navigation is an integral part of the operation of any autonomous vehicle. Advent of Global Positioning System (GPS)\Global Navigation Satellite System (GNSS) technologies have radically changed the navigation process. Satellite Navigation and Sensor Fusion course aims to make students familiar with satellite navigation, GPS\GNSS, GPS signal structure, acquisition and position computation techniques from GPS data. This course also focuses on fusion of GNSS and other available sensor observations to estimate accurate position and velocity, which is widely used for navigation of autonomous vehicles. The course will start with an introduction to radio navigation and GPS. After discussing GPS signal structure and positioning algorithms, various position error sources will be introduced and various error correction techniques will be explained. GPS signal acquisition and receiver structure are also within the scope of this course. Effects of interference, weak signal on GPS positioning will also be discussed. New GPS signals and other global and regional satellite navigation systems will be also introduced to the students. Inertial Measurement Unit (IMU) will be introduced in the second part of the course. The Kalman Filter (which is almost ubiquitously used in navigation applications) and its non-linear variants will be discussed. Finally usage of GNSS and IMU observations in Kalman Filter framework to estimate accurate position and velocity will be explained.",
+  "Prerequisites": {
+    "Mandatory": "Digital Signal Processing",
+    "Desirable": "Probability and Random Process",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe basics of satellite navigation",
+    "CO2": "Summarize GPS signal structure, acquisition and receiver mechanism, explain position computation methods and various position correction techniques",
+    "CO3": "Explain mechanism and dynamics of IMU (accelerometer and gyroscope), determine position and velocity using IMU observation, discuss limitations of IMU",
+    "CO4": "Implement sensor fusion algorithms to estimate position and velocity using GNSS and IMU observations",
+    "CO5": "Discuss recent developments in satellite navigation"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to radio navigation and Global Positioning System",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Assignment 1: Simulating GPS signals"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "GPS signal specification, principle of positioning",
+      "COURSEs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 1: Simulating GPS signals"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Positioning errors, differential positioning, reference systems",
+      "COURSEs Met": ["CO1", "CO2"]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Augmentation System",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "GPS signal acquisition, receiver structure",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "AGPS, weak signals, interference",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "New signals, Galileo and other Navigation Satellite Systems",
+      "COURSEs Met": ["CO5"],
+      "Assignments": "Assignment 2: Acquiring GPS signal"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Dynamics of Inertial Measurement Unit",
+      "COURSEs Met": ["CO3"]
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Introduction to sensor fusion, Kalman Filter",
+      "COURSEs Met": ["CO4"]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Extended Kalman Filter",
+      "COURSEs Met": ["CO4"]
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Unscented Kalman Filter",
+      "COURSEs Met": ["CO4", "CO5"],
+      "Assignments": "Assignment 3: Sensor fusion"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Position, velocity estimation using GNSS and IMU",
+      "COURSEs Met": ["CO3", "CO4"]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "30",
+    "Midsem": "20",
+    "HW assignments": "30",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": "Kaplan, Elliott, and Christopher Hegarty. Understanding GPS: principles and applications . Artech house, 2005.",
+    "Reference Book": "Kaplan, Elliott, and Christopher Hegarty. Understanding GPS: principles and applications . Artech house, 2005."
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE533",
+  "Course Name": "Satellite Navigation and Sensor Fusion",
+  "Credits": "4",
+  "Course Offered to": "UG, PG",
+  "Course Description": "Accurate position and velocity estimation i.e. navigation is an integral part of the operation of any autonomous vehicle. Advent of Global Positioning System (GPS)\Global Navigation Satellite System (GNSS) technologies have radically changed the navigation process. Satellite Navigation and Sensor Fusion course aims to make students familiar with satellite navigation, GPS\GNSS, GPS signal structure, acquisition and position computation techniques from GPS data. This course also focuses on fusion of GNSS and other available sensor observations to estimate accurate position and velocity, which is widely used for navigation of autonomous vehicles. The course will start with an introduction to radio navigation and GPS. After discussing GPS signal structure and positioning algorithms, various position error sources will be introduced and various error correction techniques will be explained. GPS signal acquisition and receiver structure are also within the scope of this course. Effects of interference, weak signal on GPS positioning will also be discussed. New GPS signals and other global and regional satellite navigation systems will be also introduced to the students. Inertial Measurement Unit (IMU) will be introduced in the second part of the course. The Kalman Filter (which is almost ubiquitously in navigation applications) and its non-linear variants will be discussed. Finally usage of GNSS and IMU observations in Kalman Filter framework to estimate accurate position and velocity will be explained.",
+  "Prerequisites": {
+    "Mandatory": "Digital Signal Processing",
+    "Desirable": "Probability and Random Process",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe basics of satellite navigation",
+    "CO2": "Summarize GPS signal structure, acquisition and receiver mechanism, explain position computation methods and various position correction techniques",
+    "CO3": "Explain mechanism and dynamics of IMU (accelerometer and gyroscope), determine position and velocity using IMU observation, discuss limitations of IMU",
+    "CO4": "Implement sensor fusion algorithms to estimate position and velocity using GNSS and IMU observations",
+    "CO5": "Discuss recent developments in satellite navigation"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to radio navigation and Global Positioning System",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Assignment 1: Simulating GPS signals"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "GPS signal specification, principle of positioning",
+      "COURSEs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 1: Simulating GPS signals"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Positioning errors, differential positioning, reference systems",
+      "COURSEs Met": ["CO1", "CO2"]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Augmentation System",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "GPS signal acquisition, receiver structure",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "AGPS, weak signals, interference",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "New signals, Galileo and other Navigation Satellite Systems",
+      "COURSEs Met": ["CO5"],
+      "Assignments": "Assignment 2: Acquiring GPS signal"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Dynamics of Inertial Measurement Unit",
+      "COURSEs Met": ["CO3"]
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Introduction to sensor fusion, Kalman Filter",
+      "COURSEs Met": ["CO4"]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Extended Kalman Filter",
+      "COURSEs Met": ["CO4"]
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Unscented Kalman Filter",
+      "COURSEs Met": ["CO4", "CO5"],
+      "Assignments": "Assignment 3: Sensor fusion"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Position, velocity estimation using GNSS and IMU",
+      "COURSEs Met": ["CO3", "CO4"],
+      "Assignments": "Assignment 3: Sensor fusion"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "30",
+    "Midsem": "20",
+    "HW assignments": "30",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": "Kaplan, Elliott, and Christopher Hegarty. Understanding GPS: principles and applications . Artech house, 2005.",
+    "Reference Book": "Kaplan, Elliott, and Christopher Hegarty. Understanding GPS: principles and applications . Artech house, 2005."
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECE533",
+  "Course Name": "Satellite Navigation and Sensor Fusion",
+  "Credits": "4",
+  "Course Offered to": "UG, PG",
+  "Course Description": "Accurate position and velocity estimation i.e. navigation is an integral part of the operation of any autonomous vehicle. Advent of Global Positioning System (GPS)\Global Navigation Satellite System (GNSS) technologies have radically changed the navigation process. Satellite Navigation and Sensor Fusion course aims to make students familiar with satellite navigation, GPS\GNSS, GPS signal structure, acquisition and position computation techniques from GPS data. This course also focuses on fusion of GNSS and other available sensor observations to estimate accurate position and velocity, which is widely used for navigation of autonomous vehicles. The course will start with an introduction to radio navigation and GPS. After discussing GPS signal structure and positioning algorithms, various position error sources will be introduced and various error correction techniques will be explained. GPS signal acquisition and receiver structure are also within the scope of this course. Effects of interference, weak signal on GPS positioning will also be discussed. New GPS signals and other global and regional satellite navigation systems will be also introduced to the students. Inertial Measurement Unit (IMU) will be introduced in the second part of the course. The Kalman Filter (which is almost ubiquitously in navigation applications) and its non-linear variants will be discussed. Finally usage of GNSS and IMU observations in Kalman Filter framework to estimate accurate position and velocity will be explained.",
+  "Prerequisites": {
+    "Mandatory": "Digital Signal Processing",
+    "Desirable": "Probability and Random Process",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe basics of satellite navigation",
+    "CO2": "Summarize GPS signal structure, acquisition and receiver mechanism, explain position computation methods and various position correction techniques",
+    "CO3": "Explain mechanism and dynamics of IMU (accelerometer and gyroscope), determine position and velocity using IMU observation, discuss limitations of IMU",
+    "CO4": "Implement sensor fusion algorithms to estimate position and velocity using GNSS and IMU observations",
+    "CO5": "Discuss recent developments in satellite navigation"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to radio navigation and Global Positioning System",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Assignment 1: Simulating GPS signals"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "GPS signal specification, principle of positioning",
+      "COURSEs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 1: Simulating GPS signals"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Positioning errors, differential positioning, reference systems",
+      "COURSEs Met": ["CO1", "CO2"]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Augmentation System",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "GPS signal acquisition, receiver structure",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "AGPS, weak signals, interference",
+      "COURSEs Met": ["CO2"]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "New signals, Galileo and other Navigation Satellite Systems",
+      "COURSEs Met": ["CO5"],
+      "Assignments": "Assignment 2: Acquiring GPS signal"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Dynamics of Inertial Measurement Unit",
+      "COURSEs Met": ["CO3"]
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Introduction to sensor fusion, Kalman Filter",
+      "COURSEs Met": ["CO4"]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Extended Kalman Filter",
+      "COURSEs Met": ["CO4"]
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Unscented Kalman Filter",
+      "COURSEs Met": ["CO4", "CO5"],
+      "Assignments": "Assignment 3: Sensor fusion"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Position, velocity estimation using GNSS and IMU",
+      "COURSEs Met": ["CO3", "CO4"],
+      "Assignments": "Assignment 3: Sensor fusion"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "30",
+    "Midsem": "20",
+    "HW assignments": "30",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": "Kaplan, Elliott, and Christopher Hegarty. Understanding GPS: principles and applications . Artech house, 2005.",
+    "Reference Book": "Kaplan, Elliott, and Christopher Hegarty. Understanding GPS: principles and applications . Artech house, 2005."
+  }
+}

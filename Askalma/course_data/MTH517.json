@@ -1,0 +1,122 @@
+{
+  "Course Code": "MTH517",
+  "Course Name": "Combinatorial Optimization",
+  "Credits": 4,
+  "Course Offered to": "UG+PG",
+  "Course Description": "Combinatorial Optimization studies the structures and algorithms underlying discrete optimization problems. A central role in combinatorial optimization is played by polyhedral techniques, namely the representation of combinatorial problems as optimization problems over polyhedra or convex bodies and using the geometry to give insight into the combinatorial problems. The course will be a mix of basic and advanced topics in this area.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to identify and apply basic algorithmic questions about convex sets",
+    "CO2": "Students will be able to apply polyhedral results and algorithms for flows, matchings, arborecences, etc. to model combinatorial problems.",
+    "CO3": "Students will be able to apply the ellipsoid algorithm to solve combinatorial optimization problems with exponentially many constraints",
+    "CO4": "Students will be able to identify and model problems using matroids and submodular functions and use algorithms for problems on matroids and submodular functions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Background on Polyhedra, Linear Programming, Complementary Slackness.",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Algorithmic problems on Convex Sets",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "3,4,5",
+      "Lecture Topic": "The ellipsoid algorithm and applications",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Integer Programming: TUM, TDI, Cutting Planes, Lagrangean relaxation",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Spanning Trees and Arboresences: Polyhedral results and packing spanning trees",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Flows and Cuts: Goldberg-Tarjan, Gomory-Hu Trees, Min-cost flows",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Matchings: Bipartite Matchings, Non-bipartite matching",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "b-matchings, T-joins, T-cuts",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": "10,11",
+      "Lecture Topic": "Matroids: Dulity, Intersection, Union, Partitioning",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12, 13",
+      "Lecture Topic": "Submodular Functions: Minimzation, Maximization",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Assignment 4, Quiz 2"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Assignments",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Quizzes",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "Mid Semester Exam",
+      "% Contribution in Grade": "30"
+    },
+    {
+      "Type of Evaluation": "End Semester Exam",
+      "% Contribution in Grade": "40"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Geometric Algorithms and Combinatorial Optimization, Groetschel, Lovasz, Schrijver",
+    "Reference Book": "Combinatorial Optimization, Korte, Vygen"
+  }
+}

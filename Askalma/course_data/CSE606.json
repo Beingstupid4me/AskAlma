@@ -1,0 +1,139 @@
+{
+  "Course Code": "CSE 606",
+  "Course Name": "Data Warehouse",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The international market for Business Intelligence and Data warehouse is increasing rapidly and is currently estimated to be in hundreds of billion of US dollars. A number of Indian companies, even in NCR of Delhi, are already carrying out projects in the area. Yet, there is an acute shortage of skilled human resources in the subject and the course attempts to plug this gap. Students will be taken over the development life cycle of a data warehouse. The application environment in which a data warehouse is embedded shall be brought out so that the value of the new technology is clearly discernible.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE202 Relational DBMS"
+    ],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Relate data warehousing to decision-making processes",
+    "CO2": "Elicit required information for a decision",
+    "CO3": "Design and implement the data warehouse architecture",
+    "CO4": "Obtain Business Intelligence from the data warehouse"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Overview of Databases, Data Warehouse Definition, Decisions and their types, Decision making process",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Influence and Augmented Influence diagrams Perspectives of DW: Basic Dimension Modeling",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Decisional and DW Information Models Conversion to Dimension Model Computer Assisted Tools",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Databases vs. Data Warehouses Star Schema Design",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "The DW Process, ETL",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Fact Design, transaction, periodic snapshots, evolving snapshots, granularity Multiple and type specific stars",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Evaluation of Decisional Tools of students",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Dimension Design: Types, properties and design considerations",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Dimension Design: Bridges, Attribute and Recursive Hierarchies, Transactions, snapshots",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Operational Issues in Star Schema Design: NULLS, Special rows in Dimensions, snowflake schema issues",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Data Warehouse Consolidation Agile DW development",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Business Intelligence OLAP operations Mining Visualization",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Complete Project"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Project Evaluation",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Complete Project"
+    }
+  ],
+  "Assessment Plan": {
+    "End-sem exam": 25,
+    "Mid-sem Exam": 25,
+    "Quix exam": 15,
+    "Decisional Tool construction": 15,
+    "DW constrcution": 20
+  },
+  "Resource Material": {
+    "Textbook": "Kimball R. and Ross M., The Data Warehouse Tool kit, Wiley Inmon , Imhoff, and Sousa, The Corporate Information Factory, Wiley Imhoff, Galemno, Geiger, Mastering Data Warehouse Design Wiley P. Ponniah, Data Warehouse Fundamentals, Wiley India Adamson C., Star Schema, Tata McGraw Hill Inmon, Building the Data warehouse, Wiley Prakash and Prakash, Data Warehouse Requirements Engineering, Springer Marakos G.M., Decision Support Systems, PHI"
+  }
+}

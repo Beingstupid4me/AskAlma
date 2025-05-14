@@ -1,0 +1,148 @@
+{
+  "Course Code": "MTH300",
+  "Course Name": "Introduction to Mathematical Logic",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This is an introductory course in mathematical logic. The subject is of interest to students in both Mathematics and Computer Science. Topics covered include propositional logic, first order logic, consistency, satisfiability, soundness, completeness, and compactness. We will also discuss some basic set theory and axiomatic number theory (Peano's arithmetic). If time permits we will discuss the famous incompleteness theorems of G\u00f6del.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of basic set theory, including definitions and basic properties of union, intersection, complementation, power sets, relations, and functions",
+    "Desirable": "A course on Discrete Mathematics/ Discrete Structures",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to translate formulas of propositional logic to and from natural language statements, determine the satisfiability and validity of propositional formulas via truth-tables.",
+    "CO2": "Students will be able to translate formulas of first-order logic to and from natural language sentences, check the satisfiability and validity of formulas in a domain.",
+    "CO3": "Students will be able to prove and apply the soundness, completeness and compactness theorems for propositional and first-order logics.",
+    "CO4": "Students will be able to appreciate the use logic in formalizing mathematics through the introduction to formal number theory (Peano's arithmetic) and set theory."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction, language of propositional logic, well-formed formulas, induction",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": "Tut1"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Truth-assignments, truth-tables, parsing, alternative notations, the deduction theorem",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tut1"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Soundness and completeness of propositional logic",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tut2"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Compactness theorem for propositional logic",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tut3"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Language of first-order logic, well-formed formulas, structures",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Tut4"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Satisfiability and validity of formulas, models, logical implication, definability in a structure, equality",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Tut5"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Consistency, soundness for first-order logic",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Completeness for first-order logic",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tut6"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Compactness theorem for first-order logic, applications of compactness theorem, proof systems",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tut7"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Theories and models, formal number theory",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": "Tut8"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Formal number theory, na\u00efve set theory, cardinality, axiom of choice",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": "Tut9"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Set theory - na\u00efve to axiomatic",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": "Tut10"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Additional topics to be chosen from computability, the halting problem, and G\u00f6del's incompleteness theorems",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 20,
+    "Midsem": 30,
+    "HW assignments": "",
+    "Endsem": 40,
+    "Attendance and Participation": 10
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Title": "A Mathematical Introduction to Logic (2nd Edition)",
+        "Author": "Herbert B. Enderton"
+      }
+    ],
+    "Reference Book": [
+      {
+        "Title": "Na\u00efve Set Theory",
+        "Author": "Paul Halmos"
+      }
+    ]
+  }
+}

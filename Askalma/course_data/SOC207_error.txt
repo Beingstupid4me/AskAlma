@@ -1,0 +1,123 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided table and structure it into a JSON format as specified. Let me go through each section step by step.
+
+First, the Course Code is in column 1 of row 3: SOC207.
+
+Next, the Course Name can be found in column 2 of row 3: IT AND SOCIETY.
+
+For Credits, looking at row 4, it's listed as 4. I should note that this might be a number or string; here it's clearly a number.
+
+Course Offered to is in row 5, column 2: UG for Undergraduate.
+
+The Course Description spans multiple rows (6-13). It seems extensive and detailed, so I'll include the entire text as provided. Since it's a long description, I might need to format it properly when extracting JSON.
+
+Prerequisites are listed in row 8 under Pre-requisite: SOC201. So Prerequisites is SOC201.
+
+Looking at rows 9-53, they seem to be additional data or perhaps more content that isn't directly relevant for the extraction since the user provided only up to row 60 of the file but didn't specify all columns. I'll focus on extracting what's needed based on the JSON structure provided.
+
+The Course Outcomes (COs) are given in rows 12-43, but they need to be mapped into CO1-CO4 with appropriate verbs as per the second sheet. The user mentioned that for suggestions on verbs, refer to the second sheet, which isn't provided here. However, based on standard assessment verbs like 'Critically examine', 'Compare and analyse', etc., I can assign them accordingly.
+
+The Weekly Lecture Plan starts from week 1 with specific topics and COs met. Each week's plan includes assignments or activities under 'Assignments' column. The Weekly Lab Plan seems to be missing, but since it wasn't provided in the content, perhaps it's not included here.
+
+Looking at the Assessment Plan section, there are entries for Quiz exams, Midsem, HW assignments, and Endsem with their respective percentages. However, some values are missing or need clarification.
+
+The Resource Material includes textbooks and reference books listed as "Textbook" and "Reference Book", each pointing to specific URLs.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay between family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay between family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay between family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence. In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India, the public culture of ICT4D will be compared with the start-up culture of doing business and new forms of e-governance today. The problem of the Digital Divide will be highlighted against the backdrop of new youth aspirations, middle class wealth creation and rural urban distinctions. New forms of aggressive identity- seeking globally, through new forms of IT-based entertainment, networked community formation and religious proselytisation, leading to terror, violence and risk will be outlined, especially for the everyday world of the young. Finally, the need for appropriate laws and ethical constraints to address these social concerns will be examined at the personal and professional level.
+</think>
+
+```json
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India,
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SOC207",
+  "Course Name": "IT AND SOCIETY",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The Course will give a brief historical and sociological context to the emergence of Information technology and its spread from the specialist field of military intelligence to the everyday world of civilian use. It will analyse the effect of this new technology on industrial work culture, finance and education leading to new spatial, regional and global ways of doing business, creating knowledge and demarcating sovereignty. It will take up Silicon Valley and Bangalore briefly as case studies explaining this phenomena. It will next focus on the internet and its impact on new forms of human communication, warfare, business, governance, education and medicine. On the cultural front it will examine the interplay bewteen family and sociality, gender and age, transnationality and work, entrepreneurship and labour under conditions of the Knowledge Society or the New Economy. The convergence of mobile with internet technologies will be examined for the development of political movements and political cultures in democratic governance with the attendant concerns of privacy, surveillance, cyber security and violence . In India,

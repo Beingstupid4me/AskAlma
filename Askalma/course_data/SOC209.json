@@ -1,0 +1,184 @@
+{
+  "Course Code": "SOC209",
+  "Course Name": "Consumer Culture and Society",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "Rising consumption levels is a key aspect of contemporary societies. \u201cWe live in a consumer society\u201d is a phrase we come across very often. This statement points towards the disproportionate significance of material possessions, consumer goods and services in modern societies and the power of money to \u201cbuy it all\u201d. Right from the food we eat, the clothes we wear, the cars we drive, the media we consume, the technologies we use and the health and educational services we get, consumption pervades our everyday lives and practices. Is shopping only a frivolous activity? Do people claim identities through commodities? What is modern consumption based on- needs or wants? The course on Consumer Culture and Society will make students re-think of themselves less as citizens and more as consumers. Emphasis in this course will be on understanding consumption practices by embedding them within their social, cultural, and economic contexts. Both the positive and negative impacts of consumerism on individuals and societies will be interrogated. Lectures will be complimented through field-based activities where students will examine consumption places and spaces (shopping malls, local markets, advertisements and e-stores) to understand what all (in addition to the actual product) is being sold \u2013 an image, a lifestyle, a status symbol, a body type, modernity etc.. Using specific consumption domains like food, fashion, media/entertainment technology and intimate relations the course will make the learners engage with ideas of liberation, choice, identity, status, inequality, lifestyle, freedom, signification, and power. Further, critiques of consumerism and their linkages with \u2018big issues\u2019 of consumer protests and environmental degradation will also be discussed.",
+  "Prerequisites": {
+    "Mandatory": "SOC201",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to identify key concepts of consumerism and consumption and their relevance in modern world",
+    "CO2": "The students will be able to discuss consumption practices through intersectional analysis",
+    "CO3": "The students will develop the skill to analyse specific consumption practices through self-reflexive exercises",
+    "CO4": "The students will develop the ability to examine the contemporary social, political and ecological debates about commodification and consumerism"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introducing Consumer Culture and Global Forces",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Reflexive exercise of logging expenses by students (1)"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Consumerism and Identity",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "THA 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Social Stratification and Consumerism",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Review of reading material and discussion"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Conspicuous Consumption in everyday life",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "ICA- 1"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Lifestyle Practices and Society",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Subjectivity and Reflexivity: Race, Gender, Class dimensions in Cosumption",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Discussing the student-log and group activity (2)"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Commodification and Material Culture",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "THA 2"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Image Economy: Fashion, Cosmetics and Body",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Identifying key conceptual arguments in case-udies"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Media and its effect on the practice of Consumption",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Media content review for group discussion"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Food Practices and Ecological Concerns",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Review of reading material and discussion"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Responsible Consumption and Waste Management",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "ICA- 2"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Anti-Consumption Strategies: Wave of Minimalistic Lifestyle",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Discussing the student-log and group activity (3)"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Student Presentations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Based on research/surveys conducted by students"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "In-class assessment (ICA)",
+      "% Contribution in Grade": 10,
+      "Grading Weight": 10
+    },
+    {
+      "Type of Evaluation": "Field Visit and Presentation",
+      "% Contribution in Grade": 30,
+      "Grading Weight": 30
+    },
+    {
+      "Type of Evaluation": "Take-Home Assignments (THA)",
+      "% Contribution in Grade": 20,
+      "Grading Weight": 20
+    },
+    {
+      "Type of Evaluation": "Mid Semester Exam",
+      "% Contribution in Grade": 20,
+      "Grading Weight": 20
+    },
+    {
+      "Type of Evaluation": "End Semester Exam",
+      "% Contribution in Grade": 20,
+      "Grading Weight": 20
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Book",
+      "Title": "Consumer Culture (2nd edition)",
+      "Author": "Lury, Celia."
+    },
+    {
+      "Type": "Book",
+      "Title": "The Consumer Society Reader",
+      "Author": "Lee, M.J."
+    }
+  ]
+}

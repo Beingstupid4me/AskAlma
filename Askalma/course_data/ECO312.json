@@ -1,0 +1,127 @@
+{
+  "Course Code": "ECO312/ECO512",
+  "Course Name": "Industrial Organization (IO)",
+  "Credits": 4,
+  "Course Offered to": [
+    "UG",
+    "PG"
+  ],
+  "Course Description": "This course will introduce basic theoretical models of IO. It will implement applied microeconomics theory and game theory to understand how firms take decisions in various settings. The models include profit maximization when there is market power, advertising, heterogeneity in quality, vertical control, models of entry, accommodation and exit, and many others. The course helps one understand how to set up an objective function for a firm facing different challenges in a complex market structure. It will aid the student in understanding real world scenarios. Finally there will also be a short section on some empirical methods used in IO.",
+  "Prerequisites": {
+    "Mandatory": "ECO101 or ECO311 Microeconomics",
+    "Desirable": "Game Theory",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identifying how to approach a problem in IO in a strategic setting",
+    "CO2": "Determining how to model decision that influence profit, like advertising, quality, collusion etc.",
+    "CO3": "Discussing decisions in monopolies, duopolies, vertical control.",
+    "CO4": "Justifying and explaining what motivates a firm to enter or exit a market.",
+    "CO5": "Identifying and Implementing some basic empirical and applied theory techniques in IO (for 5XX)."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Industrial Organization.",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Non - Cooperative Game Theory (Mainly for 3XX)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 1 (For 3XX)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "The Theory of the Firm",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 1 (For 3XX)"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Monopoly",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Product Selection, Quality, and Advertising",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Price Discrimination",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Vertical Control",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Short Run Price Competition",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Product Differentiation: Price Competition and Non-Price Competition",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Entry, Accomodation, and Exit",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Empirical and Applied Theory Models (For 5XX)",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": "Project (For 5XX)"
+    }
+  ],
+  "Assessment Plan": {
+    "Homework Assignments": 30,
+    "Midsem": 30,
+    "HW assignments": 20,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": {
+      "3XX and 5XX": "Belleflamme, Paul, and Martin Peitz. Industrial organization: markets and strategies. Cambridge University Press, 2015."
+    },
+    "Textbook (5XX only)": "Tirole, J., The Theory of Industrial Organization, Eastern Economy Edition.",
+    "Additional scholarly papers will be given for 5XX for each topic": ""
+  }
+}

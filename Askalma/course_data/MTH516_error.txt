@@ -1,0 +1,189 @@
+--- LLM RAW OUTPUT ---
+<think>
+Okay, so I need to extract information from this provided text and structure it into a specific JSON format as per the user's instructions. Let me go through each step carefully.
+
+First, I'll look at the Course Code and Name. The course code is "MTH516" and the name is "Analytic Number Theory". That seems straightforward.
+
+Next, Credits are given as 4. That’s easy to extract.
+
+The Course Offered to section mentions PG+Ph.D, so that's what I'll put there.
+
+For the Course Description, it's a bit lengthy but clearly states what the course covers: analytic tools for number theory problems, prime numbers, Riemann Zeta function, and proving the Prime Number Theorem. I need to include all of this in the JSON.
+
+Moving on to Prerequisites, looking at the table, under "Pre-requisite" there are multiple entries like MTH 341/541 and MTH 211. Since it's a list, I'll structure it as an array with these values.
+
+The Course Outcomes (COs) are listed from CO1 to CO4 in the table under "COs Met". Each CO has corresponding descriptions. So I'll create an object mapping each CO number to its description.
+
+For the Weekly Lecture Plan, each week's data includes Week Number, Lecture Topic, COs Met, and Assignment/Labs/Tutorial. I need to structure this as an array of objects for each week. Some weeks have multiple COs met, like CO1 in Week 1 and CO2 in Weeks 2-4.
+
+The Assessment Plan section has different types with their contributions: Assignments (20%), Presentations (15%), Mid Semester Exam (25%), End Semester Exam (40%). I'll map these into the JSON as an object.
+
+Resource Material includes Textbook, Reference Book, and possibly others. From the table, there are three resources mentioned: Hildebrand's notes, Karatsuba and Voronin's book, and Apostol's book. So I'll list them all under Resource Material.
+
+I need to ensure that "Credits" is a number if present; in this case, it's 4, so as an integer. COs Met should be lists of strings, which they are since each week has specific COs listed.
+
+Also, checking for missing values: everything seems filled except maybe some optional fields, but the user didn't mention any, so I'll include all provided data.
+
+Finally, I have to make sure that the JSON is properly formatted without any markdown or extra text. Just the raw JSON output.
+</think>
+
+```json
+{
+  "Course Code": "MTH516",
+  "Course Name": "Analytic Number Theory",
+  "Credits": 4,
+  "Course Offered to": "PG+Ph.D",
+  "Course Description": "Analytic Number Theory is a branch of mathematics that uses analytic tools to solve number theoritic problems. It is well-known for its results on prime numbers (Prime Number Theorem and Riemann Zeta function). In this course the main aim is to study the Riemann Zeta function and its connection with the distribution of prime numbers and finally to prove the Prime Number Theorem - PNT using analytic tools.",
+  "Prerequisites": [
+    "MTH 341/541",
+    "MTH 211"
+  ],
+  "Course Outcomes": {
+    "CO1": "Student will learn about Riemann zeta function and its connection with Prime Number Theorem- PNT.",
+    "CO2": "Students will be able to determine mean values of arithmetic functions using different methods.",
+    "CO3": "Students will be able to determine the distribution of primes and different versions of PNT.",
+    "CO4": "Students will be able to demonstrate the use of properties of Riemann Zeta function in the proof of the PNT and its consequences."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction to: Riemann Zeta function and Prime Number Theorem, Problems in Analytic Number Theory.",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "Arithmetic Functions I : Additive and Multiplicative functions, Moebius function, Euler Phi functions, The Von Mangoldt function and Divisor function, Dirichlet product of arithmetic functions.",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "Arithmetic Functions I : Additive and Multiplicative functions, Moebius function, Euler Phi functions, The Von Mangoldt function and Divisor function, Dirichlet product of arithmetic functions.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "Arithmetic Functions I : Additive and Multiplicative functions, Moebius function, Euler Phi functions, The Von Mangoldt function and Divisor function, Dirichlet product of arithmetic functions.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Arithmetic Functions II : Euler's summation formula, Summation by parts, Kronecker's lemma, Relation between different mean values, Dirichlet series and summatory functions, The Convolution method.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 3 and Quiz"
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Distribution of Primes I : Chebyshev's type estimate, Merten's type estimates, Elementary consequences of PNT, The PNT and averages of Moebius function.",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Arithmetic Functions III : Analytic and Algebraic properties of Dirichlet series, Mellin transform representation of Dirichlet series, Analytic continuation of the Riemann zeta function, Lower bounds for error terms in summatory functions, Evaluation of Mertens’ constant.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 5 and Quiz"
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Distribution of Primes II : Upper and Lower bounds of Riemann Zeta function, Zero free region, Functional Equation, Estimation of zeros, Proof of the PNT and its consequences.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 6"
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments": 20,
+    "Presentations": 15,
+    "Mid Semester Exam": 25,
+    "End Semester Exam": 40
+  },
+  "Resource Material": {
+    "Textbook": "Introduction to Analytic Number Theory by Hildebrand",
+    "Reference Book": "The Riemann Zeta-Function by A. A. Karatsuba and S.M. Voronin",
+    "Other appropriate resources will be assigned by the instructor"
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH516",
+  "Course Name": "Analytic Number Theory",
+  "Credits": 4,
+  "Course Offered to": "PG+Ph.D",
+  "Course Description": "Analytic Number Theory is a branch of mathematics that uses analytic tools to solve number theoritic problems. It is well-known for its results on prime numbers (Prime Number Theorem and Riemann Zeta function). In this course the main aim is to study the Riemann Zeta function and its connection with the distribution of prime numbers and finally to prove the Prime Number Theorem - PNT using analytic tools.",
+  "Prerequisites": [
+    "MTH 341/541",
+    "MTH 211"
+  ],
+  "Course Outcomes": {
+    "CO1": "Student will learn about Riemann zeta function and its connection with Prime Number Theorem- PNT.",
+    "CO2": "Students will be able to determine mean values of arithmetic functions using different methods.",
+    "CO3": "Students will be able to determine the distribution of primes and different versions of PNT.",
+    "CO4": "Students will be able to demonstrate the use of properties of Riemann Zeta function in the proof of the PNT and its consequences."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction to: Riemann Zeta function and Prime Number Theorem, Problems in Analytic Number Theory.",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "Arithmetic Functions I : Additive and Multiplicative functions, Moebius function, Euler Phi functions, The Von Mangoldt function and Divisor function, Dirichlet product of arithmetic functions.",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "Arithmetic Functions I : Additive and Multiplicative functions, Moebius function, Euler Phi functions, The Von Mangoldt function and Divisor function, Dirichlet product of arithmetic functions.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "Arithmetic Functions I : Additive and Multiplicative functions, Moebius function, Euler Phi functions, The Von Mangoldt function and Divisor function, Dirichlet product of arithmetic functions.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Arithmetic Functions II : Euler's summation formula, Summation by parts, Kronecker's lemma, Relation between different mean values, Dirichlet series and summatory functions, The Convolution method.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 3 and Quiz"
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Distribution of Primes I : Chebyshev's type estimate, Merten's type estimates, Elementary consequences of PNT, The PNT and averages of Moebius function.",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Arithmetic Functions III : Analytic and Algebraic properties of Dirichlet series, Mellin transform representation of Dirichlet series, Analytic continuation of the Riemann zeta function, Lower bounds for error terms in summatory functions, Evaluation of Mertens’ constant.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 5 and Quiz"
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Distribution of Primes II : Upper and Lower bounds of Riemann Zeta function, Zero free region, Functional Equation, Estimation of zeros, Proof of the PNT and its consequences.",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 6"
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments": 20,
+    "Presentations": 15,
+    "Mid Semester Exam": 25,
+    "End Semester Exam": 40
+  },
+  "Resource Material": {
+    "Textbook": "Introduction to Analytic Number Theory by Hildebrand",
+    "Reference Book": "The Riemann Zeta-Function by A. A. Karatsuba and S.M. Voronin",
+    "Other appropriate resources will be assigned by the instructor"
+  }
+}

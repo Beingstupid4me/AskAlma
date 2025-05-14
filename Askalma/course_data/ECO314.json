@@ -1,0 +1,135 @@
+{
+  "Course Code": "ECO314",
+  "Course Name": "Behavioural Economics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course will provide a theoretical understanding of behavioural economics, and then apply these theories to do experimental analysis in a laboratory setting. Behavioural economics incorporates human traits of cognition, social preferences, and emotional responses to better understand choices made in a setting that may not seem 'rational' in the traditional sense of the word. Understanding of choices influenced by behaviour is useful in a variety of arenas, including policy making, IO, and finance. Behavioural economics literature also has inter-disciplinary relevance with psychology and cognitive sciences.",
+  "Prerequisites": {
+    "Mandatory": "MTH201Probability and Statistics",
+    "Desirable": "Microeconomics",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identify how individuals influenced by behavioural biases behave differently from perfectly rational agents",
+    "CO2": "Explaining the relevance of risk, uncertainty and time in individual decisions.",
+    "CO3": "Determining the role of social preferences and strategic settings to decision making",
+    "CO4": "Implementing these theories to experimental economics, policy, decisions by firms, and decisions made in financial markets",
+    "CO5": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Decision Making in Economics under Certainty",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": [
+        2,
+        3
+      ],
+      "Lecture Topic": "Uncertainty, Risk and Prospect Theory",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Summary of Paper 1"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Bounded Rationality",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Summary of paper 2"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Intertemporal Choice (Procrastination, Hyperbolic Discounting, and Present Bias)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Summary of paper 3"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Human Sociality",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Summary of paper 4"
+    },
+    {
+      "Week": [
+        10,
+        11
+      ],
+      "Lecture Topic": "Strategic Interaction",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Design of Lab Experiments (Question, Idea, and Coding)"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Nudges",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Brief Introduction to Behavioural Finance and Neuroeconomics",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "In Class Summarizing of Papers",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type of Evaluation": "Mid-sem exam",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type of Evaluation": "Design of Lab Experiments (Question, Idea, and Coding)",
+      "% Contribution in Grade": 30
+    },
+    {
+      "Type of Evaluation": "Final exam",
+      "% Contribution in Grade": 30
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "A course in behavioural economics"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "The foundations of behavioural economic analysis"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "An introduction to behavioural economics"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "Experimental economics"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "The handbook of experimental economics"
+    }
+  ]
+}

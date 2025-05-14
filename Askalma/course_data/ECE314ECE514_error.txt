@@ -1,0 +1,353 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided table and structure it into a JSON format as per the given schema. Let me go through each section step by step.
+
+First, looking at the Course Code and Name. They seem straightforward: "ECE 314/ECE514" and "Digital VLSI Design". I'll assign these directly to their respective fields.
+
+Next is Credits. The value is consistently "4", so that's easy to map.
+
+Course Offered to is listed as "UG/PG" across all rows, which I can take as the value for this field.
+
+For Course Description, it's a lengthy paragraph repeated multiple times. Since the schema expects a single string, I'll include the entire text without changes.
+
+Prerequisites are under Pre-requisites and further specified with "Mandatory", "Desirable", and "Other" categories. The mandatory is "Knowledge of digital logic, basic computer organization and some understanding of RC circuits". There's no Desirable or Other information provided, so those fields will be null strings.
+
+Moving on to Course Outcomes (COs). Each CO has a number and description. I'll map them accordingly, noting that CO5 doesn't have a description yet.
+
+The Weekly Lecture Plan is structured with Week Number, Lecture Topic, COs Met, and Assignments/Labs/Tutorials. This will be converted into an array of objects for each week.
+
+Assessment Plan includes types like Mid-sem, Homework, Quiz, End-sem, Laboratory, and Project, along with their contribution percentages. I'll map these directly.
+
+Resource Material has Textbook and Reference Book information, both pointing to the same author and title multiple times. I'll include them as provided.
+
+I need to ensure that all values are correctly formatted, especially handling missing fields by using null or empty strings where necessary.
+</think>
+
+```json
+{
+  "Course Code": "ECE 314/ECE514",
+  "Course Name": "Digital VLSI Design",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to CMOS circuits, develops first-order current-voltage and capacitance-voltage models for transistors, transfer characteristics of CMOS inverter, performance estimation for circuits through logical effort, interconnects, combinational circuit design, circuit families, sequential circuit design including clocking and latching techniques, design of datapath subsystems (adders, shifters, multipliers etc.), design of memory subsystems. A course project using state-of-the-art computer aided design (CAD) tools in VLSI gives students hands-on exposer to the most current technology/process.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of digital logic, basic computer organization and some understanding of RC circuits",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are be able to evaluate characteristics of CMOS inverter and interconnects specifically in terms of current and capacitance that are essential for estimating delay and power.",
+    "CO2": "Students are able to quickly estimate the best number of stages for a path, the minimum possible delay for the given topology, and the gate sizes that achieve this delay using logical effort.",
+    "CO3": "Students are able to describe various sources of power dissipation in a CMOS chip and apply techniques to minimize that.",
+    "CO4": "Students are able to optimize combinational circuits for lower delay and/or energy; analyze sequential circuits including clocking and latching techniques.",
+    "CO5": "Students are able to use computer aided design (CAD) tools in VLSI and experiment with the current technology/process, and able to design state-of-the-art CMOS circuits"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction (MOS transistors, CMOS Logic)",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 1"
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "CMOS circuit theory",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Quiz I"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "MOS Capacitance model/ Parasitic capacitances",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 2, Quiz 2, Tutorial on Cadence"
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "DC Transfer Characteristics of Inverter",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "HW 1, Quiz 3"
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Delay Estimation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": "Lab 1, Term project (problem definition)"
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Logical effort and transistor sizing",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 3, Quiz 4, Tutorial on Synopsys"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Combinational Circuit Design",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": "HW 2"
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Sequential Circuit Design",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": "Lab 2, Quiz 5"
+    },
+    {
+      "Week Number": "9 & 10",
+      "Lecture Topic": "Power Dissipation, Interconnects, Scaling",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 4, HW 3, Quiz 6"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Datapath Subsystems",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Lab 3, Quiz 7"
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Memory Subsystems",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 5, HW 4, Quiz 8"
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Review and Term project evaluation",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Project Report"
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-sem": "25",
+    "Homework": "10",
+    "Quiz": "5",
+    "End-sem": "25",
+    "Laboratory": "15",
+    "Project": "20"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "N. Weste and D. Harris, CMOS VLSI Design: A Circuits and Systems Perspective. Third Edition. Pearson, 2006.",
+      "Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic; Digital Integrated Circuits: A Design Perspective, Phi Learning, 2009."
+    ],
+    "Reference Book": [
+      "ECE 514: Additional Assignments and evaluation mechanism"
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE 314/ECE514",
+  "Course Name": "Digital VLSI Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to CMOS circuits, develops first-order current-voltage and capacitance-voltage models for transistors, transfer characteristics of CMOS inverter, performance estimation for circuits through logical effort, interconnects, combinational circuit design, circuit families, sequential circuit design including clocking and latching techniques, design of datapath subsystems (adders, shifters, multipliers etc.), design of memory subsystems. A course project using state-of-the-art computer aided design (CAD) tools in VLSI gives students hands-on exposure to the most current technology/process.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of digital logic, basic computer organization and some understanding of RC circuits",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are be able to evaluate characteristics of CMOS inverter and interconnects specifically in terms of current and capacitance that are essential for estimating delay and power",
+    "CO2": "Students are able to quickly estimate the best number of stages for a path, the minimum possible delay for the given topology, and the gate sizes that achieve this delay using logical effort.",
+    "CO3": "Students are able to describe various sources of power dissipation in a CMOS chip and apply techniques to minimize that.",
+    "CO4": "Students are able to optimize combinational circuits for lower delay and/or energy; analyze sequential circuits including clocking and latching techniques.",
+    "CO5": "Students are able to use computer aided design (CAD) tools in VLSI and experiment with the current technology/process, and able to design state-of-the-art CMOS circuits"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction (MOS transistors, CMOS Logic)",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 1"
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "CMOS circuit theory",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Quiz I"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "MOS Capacitance model/ Parasitic capacitances",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 2, Quiz 2, Tutorial on Cadence"
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "DC Transfer Characteristics of Inverter",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "HW 1, Quiz 3"
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Delay Estimation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": "Lab 1, Term project (problem definition)"
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Logical effort and transistor sizing",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 3, Quiz 4, Tutorial on Synopsys"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Combinational Circuit Design",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": "HW 2"
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Sequential Circuit Design",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": "Lab 2, Quiz 5"
+    },
+    {
+      "Week Number": "9 & 10",
+      "Lecture Topic": "Power Dissipation, Interconnects, Scaling",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 4, HW 3, Quiz 6"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Datapath Subsystems",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Lab 3, Quiz 7"
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Memory Subsystems",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 5, HW 4, Quiz 8"
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Review and Term project evaluation",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Project Report"
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECE 314/ECE514",
+  "Course Name": "Digital VLSI Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to CMOS circuits, develops first-order current-voltage and capacitance-voltage models for transistors, transfer characteristics of CMOS inverter, performance estimation for circuits through logical effort, interconnects, combinational circuit design, circuit families, sequential circuit design including clocking and latching techniques, design of datapath subsystems (adders, shifters, multipliers etc.), design of memory subsystems. A course project using state-of-the-art computer aided design (CAD) tools in VLSI gives students hands-on exposure to the most current technology/process.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of digital logic, basic computer organization and some understanding of RC circuits",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are be able to evaluate characteristics of CMOS inverter and interconnects specifically in terms of current and capacitance that are essential for estimating delay and power",
+    "CO2": "Students are able to quickly estimate the best number of stages for a path, the minimum possible delay for the given topology, and the gate sizes that achieve this delay using logical effort.",
+    "CO3": "Students are able to describe various sources of power dissipation in a CMOS chip and apply techniques to minimize that.",
+    "CO4": "Students are able to optimize combinational circuits for lower delay and/or energy; analyze sequential circuits including clocking and latching techniques.",
+    "CO5": "Students are able to use computer aided design (CAD) tools in VLSI and experiment with the current technology/process, and able to design state-of-the-art CMOS circuits"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction (MOS transistors, CMOS Logic)",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 1"
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "CMOS circuit theory",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Quiz I"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "MOS Capacitance model/ Parasitic capacitances",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 2, Quiz 2, Tutorial on Cadence"
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "DC Transfer Characteristics of Inverter",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "HW 1"
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Delay Estimation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": "Lab 1, Term project (problem definition)"
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Logical effort and transistor sizing",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 3, Quiz 4, Tutorial on Synopsys"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Combinational Circuit Design",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": "HW 2"
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Sequential Circuit Design",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": "Lab 2, Quiz 5"
+    },
+    {
+      "Week Number": "9 & 10",
+      "Lecture Topic": "Power Dissipation, Interconnects, Scaling",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 4, HW 3, Quiz 6"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Datapath Subsystems",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Lab 3, Quiz 7"
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Memory Subsystems",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Reading Assignment 5, HW 4, Quiz 8"
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Review and Term project evaluation",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignment/Labs/Tutorial": "Project Report"
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECE 314/ECE514",
+  "Course Name": "Digital VLSI Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to CMOS circuits, develops first-order current-voltage and capacitance-voltage models for transistors, transfer characteristics of CMOS inverter, performance estimation for circuits through logical effort, interconnects, combinational circuit design, circuit families, sequential circuit design including clocking and latching techniques, design of datapath subsystems (adders, shifters, multipliers etc.), design of memory subsystems. A course project using state-of-the-art computer aided design (CAD) tools in VLSI gives students hands-on exposure to the most current technology/process.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of digital logic, basic computer organization and some understanding of RC circuits",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are be able to evaluate characteristics of CMOS inverter and interconnect
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECE 314/ECE514",
+  "Course Name": "Digital VLSI Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to CMOS circuits, develops first-order current-voltage and capacitance-voltage models for transistors, transfer characteristics of CMOS inverter, performance estimation for circuits through logical effort, interconnects, combinational circuit design, circuit families, sequential circuit design including clocking and latching techniques, design of datapath subsystems (adders, shifters, multipliers etc.), design of memory subsystems. A course project using state-of-the-art computer aided design (CAD) tools in VLSI gives students hands-on exposure to the most current technology/process.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of digital logic, basic computer organization and some understanding of RC circuits",
+    "Desirable": "",
+    "Other": ""
+  }

@@ -1,0 +1,96 @@
+{
+  "Course Code": "CSE663A",
+  "Course Name": "Meta-learning",
+  "Credits": 2,
+  "Course Offered to": [
+    "M.Tech",
+    "B.Tech 4th year",
+    "PhD (CS)"
+  ],
+  "Prerequisites": {
+    "CO1": [
+      "AI",
+      "Machine-learning/Deep-learning"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": {
+      "COURSE": "Discuss the basic concepts of meta-learning, for few-shot classification and other purposes.",
+      "DESCRIPTION": "Implement the simplest meta-learning algorithms for few-shot classification."
+    },
+    "CO2": {
+      "COURSE": "Explain the core problem in machine-leearning of out-of-distribution generalization, causality vis correlation, and the role of meta-learning and related approaches towards addressing this.",
+      "DESCRIPTION": "Apply meta-learning to practical problems via examples taken from e-commerce, advertising and finance."
+    },
+    "CO3": {
+      "COURSE": "Explain how logical inductive biases via meta-interpretive learning could serve as alternative means to achieve some of the goals of meta-learning",
+      "DESCRIPTION": null
+    },
+    "CO4": {
+      "COURSE": "Meta-Learning for Transfer, Concept-drift, Continual learning and Reinforcement Learning",
+      "DESCRIPTION": null
+    }
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "12",
+      "Lecture Topic": "Refresher of DL Techniques",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week": "23",
+      "Lecture Topic": "Basics of Meta-learning: Metric/Model/Optimisation-based",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Meta-Learning for Transfer, Concept-drift, Continual learning and Reinforcement Learning",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Learning from almost No Data: Meta-interpretive Program Synthesis",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Selected applications of Meta-learning in E-commerce, Advertising and Finance",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Type": [
+      {
+        "Type": "Exam",
+        "% Contribution in Grade": "50%"
+      },
+      {
+        "Type": "Viva",
+        "% Contribution in Grade": "50%"
+      }
+    ]
+  },
+  "Resource Material": {
+    "Type": [
+      "Lectures and Paper reading"
+    ],
+    "Title": [
+      "Lectures and Paper reading"
+    ]
+  }
+}

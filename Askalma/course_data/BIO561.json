@@ -1,0 +1,94 @@
+{
+  "Course Code": "DES563",
+  "Course Name": "Computer Aided Drug Design",
+  "Credits": 4,
+  "Course Offered to": ["UG", "PG"],
+  "Course Description": "This course teaches the principles and practice of drug discovery, molecular mechanics and biomolecular simulations with an emphasis on the practical skills needed to perform and interpret simulations of biological macromolecules. In addition, this course will also introduce Molecular Docking technique that is essential for Computational Drug Design.",
+  "Prerequisites": {
+    "Mandatory": "Basic knowledge of biology, chemistry, physics and python",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students can describe the relation of protein evolution with its function and explain fundamental structural properties.",
+    "CO2": "Students can develop models of biomolecules utilizing the principles of molecular mechanics and execute small simulations of biomolecules.",
+    "CO3": "Students can compute meaningful Thermodynamic and Kinetic analysis from simulation trajectory and are able to correlate the underlying connection with statistical physics.",
+    "CO4": "Students can design the basic computational drug design experiments and are able to construct projects using molecular docking and simulation techniques."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to drug discovery",
+      "COs Met": ["CO1"]
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Structure-Function relation and properties of protein",
+      "COs Met": ["CO1"]
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Introduction of Biomolecular simulations, application in present research field",
+      "COs Met": ["CO2"]
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Concept of molecular Force Fields and Thermostats.",
+      "COs Met": ["CO2", "CO3"]
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Understanding the dynamics - Introduction of of simulation Molecular Dynamics. Extracting Thermodynamics and Kinetics data from simulation trajectory, understanding the concept of equilibrium in simulation.",
+      "COs Met": ["CO2", "CO3", "CO4"]
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Introduction to Steered Molecular Dynamics",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments/Lab/Tutorials": "Assignment: (1) where students will actually simulate protein/DNA or their interactions using computers."
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Analyzing the trajectories to understand biophysical parameters",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments/Lab/Tutorials": "Assignment: (2) where students will actually simulate protein using computers."
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "ADME-rules",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "QSAR/Pharmacophore",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week Number": "10-11",
+      "Lecture Topic": "Introduction to Computational Drug Designing, Theoretical basis of Molecular Docking and hands on experience with AUTODOCK",
+      "COs Met": ["CO4"],
+      "Assignments/Lab/Tutorials": "Projects will be given to understand the basics of computational drug designing and how to use molecular docking tools. Students will study the interactions of proteins and protein-small drug molecules using AUTODOCK."
+    },
+    {
+      "Week Number": "12-13",
+      "Lecture Topic": "Introduction to Computational Drug Designing, Theoretical basis of Molecular Docking and hands on experience with AUTODOCK",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments/Lab/Tutorials": "Projects will be given to understand the basics of computational drug designing and how to use molecular docking tools. Students will study the interactions of proteins and protein-small drug molecules using AUTODOCK."
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 20,
+    "Endsem": 30,
+    "Project 1": 30,
+    "Assignment+Quiz": 20
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Molecular modelling: Principles and Applications by Andrew R. Leach",
+      "Computational Drug Design by David C Young",
+      "Voi E (2012) A First Course in Systems Biology. Garland Science, 1/e. ISBN 0815344678"
+    ]
+  }
+}

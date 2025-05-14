@@ -1,0 +1,179 @@
+{
+  "Course Code": "MTH210",
+  "Course Name": "Discrete Structures",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This is a basic course in discrete mathematics, tailored for students in the computer science and applied math program. The course is intended to give students an exposure to formal mathematical language, the notion of proofs, and basic discrete structures such as graphs and permutations, as well as discrete probability and the probabilistic method.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Discrete Mathematics (CSE121)"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Ability to understand and express ideas in a precise mathematical language."
+    },
+    {
+      "CO2": "Ability to come up with and write proofs via various proof techniques such as direct, contrapositive, contradiction, and induction."
+    },
+    {
+      "CO3": "Understand discrete structures such as graphs and basic combinatorial identities such as the binomial coefficients, the factorial function, etc. and their applications in counting discrete structures."
+    },
+    {
+      "CO4": "Be introduced to basic applications of discrete structures in computer science and mathematics."
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Propositional and Predicate Calculus.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Functions, Relations, Order",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Combinatorial Counting",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Estimates and asymptotic notation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Recurrences and solving recurrences",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Graphs",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Drawing graphs in the plane",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Double counting",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Number of spanning trees",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Finite projective planes",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Ramsey Theory",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Generating functions",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Probabilistic method",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Weekly homework and tutorial."
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 0,
+    "Midsem": 30,
+    "HW assignments": 0,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": "Invitation to Discrete Math, Jiri Matousek and Jaroslav Invitation",
+    "Reference Book": "Discrete Mathematics, Elementary and Beyond."
+  }
+}

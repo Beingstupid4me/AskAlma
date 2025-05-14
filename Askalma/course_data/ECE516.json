@@ -1,0 +1,108 @@
+{
+  "Course Code": "ECE 516",
+  "Course Name": "System on Chip Design and Test",
+  "Credits": 4,
+  "Course Offered to": [
+    "UG/PG"
+  ],
+  "Course Description": "This course introduces students to design trends in deep submicron (DSM) era, including scaling trend, clock cycle and power issues; Role of interconnects in contemporary SoC Design; System-on-chip and Platform-based design \u2013 IP-based design and reusability, Multiprocessor SoC platform design, 3D integration, on-chip optical and wireless communication.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Introduction to VLSI Design, basic computer organization and architecture"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Have knowledge and understanding of the design and technology trends, role of interconnects in contemporary SoC design, platform based design, reusability, clock and power distribution networks.",
+    "CO2": "Have knowledge of Design for testability (DFT), Test Access Mechanism (TAM), concept of core-based test & IEEE P1500 standard for SoC test",
+    "CO3": "Analyze, simulate and design complex CMOS circuits/ sub-systems with emphasis on low power and high-speed.",
+    "CO4": null
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Design and Technology trends",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Reusability",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 2"
+    },
+    {
+      "Week": 34,
+      "Lecture Topic": "Delay in long wires and performance limitations, Interconnect coupling capacitance and its effect on wire delay, Crosstalk avoidance coding schemes (CAC)",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 3, Quiz I"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Interconnect Inductance",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 4, Quiz II"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Power and Clock distribution networks",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 5, Quiz III"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Fault modeling",
+      "COs Met": null,
+      "Assignments": "HW 1, Reading Assignment 6"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "DFT",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 7, Quiz IV"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "TAM",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 8, Quiz V"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Core-based test & IEEE P1500 standard for SoC test",
+      "COs Met": null,
+      "Assignments": "HW 2, Reading Assignment 9"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Design and Test of low-voltage CMOS circuits, Multiple Threshold CMOS (MTCMOS), Variable Threshold CMOS and other related methodologies for leakage power reduction",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 10, Quiz VI"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Power minimization through architecture level optimization",
+      "COs Met": null,
+      "Assignments": "Reading Assignment 11, Quiz VII"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Future of SoCs: 3D integration, on-chip optical and wireless communication",
+      "COs Met": null,
+      "Assignments": "Project Report & Poster"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 5,
+    "Midsem": 20,
+    "HW assignments": 5,
+    "Endsem": 25,
+    "Project": 30
+  },
+  "Resource Material": {
+    "Textbook": "Analysis and Design of Digital Integrated Circuits - In Deep Submicron Technology, Hodges, Jackson and Saleh, McGraw- Hill, Third Edition, 2004.",
+    "Reference Book": "Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits by M. L. Bushnell and V. D. Agrawal, Boston: Springer, 2005.",
+    "Reference": "Research Papers"
+  }
+}

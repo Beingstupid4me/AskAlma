@@ -1,0 +1,187 @@
+{
+  "Course Code": "SSH362/SSH562",
+  "Course Name": "Urban Space and Political Power",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will enable students to evaluate urban governance practices. It draws on the ideas of 'space' and 'political power' to develop insights into the nature of urban governance and politics. With this main objective in mind, the course is broadly divided in two parts: the first part engages with the concepts of \u2018space\u2019, \u2018political power\u2019 and \u2018urban governance\u2019. The second part, introduces urban processes and events from the urban conglomeration of Delhi to empirically populate and exemplify the concepts discussed in the first half of the course. By the end of the course, the students will be able to develop an understanding of the ideas of 'space' and 'political power', and the distinctiveness of urban governance, especially in Delhi.",
+  "Prerequisites": {
+    "Mandatory": [
+      "SOC101 Introduction to Sociology and Anthropology"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students would be able to evaluate urban governance practices.",
+    "CO2": "Students would be able to explain the concept of 'urban space'.",
+    "CO3": "Students would be able to explain the spatial roots of political power.",
+    "CO4": "Students would be able to explain the concept of 'space' as a dynamic entity, shaped, in a large measure, by the political power.",
+    "CO5": "Students would be able to evaluate how 'digital' is mediating both 'space' and 'political power'."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction: Urban Governance and Politics",
+      "COs Met": [
+        "CO-1",
+        "CO-2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "What is Political Power? Power and Authority",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Geographies of Power and Resistence",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "The Distinctiveness of Urban Space",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Understanding Urban Governance",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Planning and Governing the Urban Space: The Case of Delhi",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Introduction to Urban Processes",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Urban Processes and Events",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Case Study: Delhi",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Urban Governance and Delhi",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Political Power in Delhi",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Digital Re-Configuration",
+      "COs Met": [
+        "CO-1",
+        "CO-3",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Political Power and Digital Age",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Urban Spaces and Political Contestations",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Reassessment of Concepts",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-3",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": null,
+    "Reference Book": null
+  }
+}

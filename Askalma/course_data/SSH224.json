@@ -1,0 +1,136 @@
+{
+  "Course Code": "SSH224",
+  "Course Name": "Computer, Information Ethics and Society",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course is aimed at teaching students about ethical problems that computer scientists face, the codes of ethics of computing professional societies, legal issues involved in technology, and the social implications of computers, computing, and other digital technologies. The aim is to understand and respond to the nuances of a digital society and the challenges it faces.",
+  "Prerequisites": [],
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Course Overview, Introduction to Computer Ethics and Cyber Ethics",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Ch. 1, Tavani,"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Moral Reasoning and Thinking in Philosophy",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Copi and Cohen"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Ethical Concepts and Theories",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Ch. 2, Tavani"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Consequences and Computing",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Moor\u2019s Just Consequentialism. https: //www.csee.umbc. edu/courses/undergraduate/C MSC304/Fall2014/MoorsJus tConsequentialism.pdf"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Digital Divide and Distributive Justice",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "To be provided"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Professional Ethics and Responsibility",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Ch. 4, Tavani, Helen Nissenbaum\u2019 s Computing and Accountability"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Privacy",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Ch. 5, Tavani, Helen Nissenbaum\u2019 s A Contextual approach to Privacy Online",
+      "Mid-Term": true
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Privacy (cont.)",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Helen Nissenbaum\u2019s Protecting Privacy in an Information Age: The Problem of Privacy in Public."
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Security",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Ch. 6, Tavani"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Ethical issues in Artificial intelligence",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Bostrom\u2019s Ethical Issues in Advanced Artificial Intelligence",
+      "Response Paper-2": true
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Community and Personal Identity",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Sherry Turkle\u2019s Computer Games as Evocative Objects: From Projective Screens to Relational Artifacts. Presentation"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Ethics and Intellectual Property",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Ch. 8, Tavani"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Course Wrap Up",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Final Exam"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "20%",
+    "HW assignments": "",
+    "Endsem": "40%"
+  },
+  "Resource Material": {
+    "Textbook": "Tavani, H.T. , Ethics and Technology: Controversies, Questions and Strategies for Ethical Computing, 4th Edition, Wiley",
+    "Reference Book": "Turkle, S., Computer Games as Evocative Objects: From Projective Screens to Relational Artifacts"
+  }
+}

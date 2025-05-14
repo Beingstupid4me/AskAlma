@@ -1,0 +1,215 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format as per the user's instructions. Let me go through each field step by step.
+
+First, looking at "Course Code," I see that in row 3 of the table, it says "CSE694F/ECE651." So that should be straightforward.
+
+Next is "Course Name." The same row shows "Multimedia Security," so that's easy to fill in.
+
+For "Credits," looking at row 3 again, it mentions "4" twice. I'll take the first occurrence since it seems consistent.
+
+Moving on to "Course Offered to," row 4 says "UG/PG" four times. I'll use that value for this field.
+
+The "Course Description" is a bit lengthy and appears in multiple rows from 5 onwards, all identical except for some formatting differences. Since the user wants it as a single string, I'll include the full text without any changes.
+
+Now, the prerequisites section starts at row 8. It lists two mandatory prerequisites: "CSE340/CSE540/ ECE350 Image Analysis/ Digital Image Processing" and "ECE250 Signals and Systems CSE344 Computer Vision." There are no other prereqs mentioned, so I'll structure this as an object with "Mandatory," "Desirable," and "Other" keys. Since there are only mandatory prerequisites here, the others will be null.
+
+For "Course Outcomes," row 12 lists four outcomes: CO1 to CO4. Each has a specific description provided in rows 13-16. I'll map each outcome with its respective description.
+
+The "Weekly Lecture Plan" starts at row 15 and goes up to row 31, but only the first few weeks are filled out. Weeks 1 through 8 have their details, so I'll create an array of objects for each week with the necessary fields: Week number, Lecture Topic, COs Met, and Assignment/Labs/Tutorial.
+
+The "Assessment Plan" section starts at row 35. It includes Quiz (20%), Assignment (20%), Mid-sem (15%), End-sem (20%), and Project (25%). I'll structure this as an object with each evaluation type and its contribution percentage.
+
+Lastly, the "Resource Material" has two keys: "Textbook" and "Reference." The textbook is specified in row 45, while the reference includes multiple books listed in rows 46-48. Since it's a list of references, I'll include them as separate entries under the "Reference" key.
+
+I need to ensure that all values are correctly formatted, with numeric fields where applicable and handling any missing information gracefully by using null or empty strings where necessary.
+</think>
+
+```json
+{
+  "Course Code": "CSE694F/ECE651",
+  "Course Name": "Multimedia Security",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Media Security course introduces the multimedia fundamentals and security related issues such as rights protection, authentication, traitor tracing, forensics, adversarial signal processing, covert communication and surveillance. Overview of different aspects of multimedia security and compression techniques, architectures and standards will be discussed. Some of the course topics are information hiding and its applications, media compression, robustness analysis, encryption, passive forensics, source identification, multimedia signatures and egocentric video forensics, adversarial signal processing, Discrete Fourier/Wavelet Transform, electrical network frequency estimation, visual surveillance, steganography and steganalysis.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE340/CSE540/ ECE350 Image Analysis/ Digital Image Processing",
+      "ECE250 Signals and Systems CSE344 Computer Vision"
+    ],
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand and analyse the media representation and fundamentals",
+    "CO2": "Students are able to apply and evaluate the media security techniques",
+    "CO3": "Students are able to perform forensics and counter-forensics",
+    "CO4": "Students are able to demonstrate an understanding of visual surveillance"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction - Digital Media Systems, Media Security Techniques, Applications",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Watermark Classification – Spatial domain; Detection of Watermark; Error analysis; Probability models",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Basics of information theory; Entropy coding; Discrete Cosine Transform; Image Compression - JPEG",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Lab exercise"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Video fundamentals; Motion Estimation and compensation",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 5&6,
+      "Lecture Topic": "Review of Discrete Wavelet Transform; Hiding in DWT domain Human Visual system; Adaptive watermarking; Information hiding capacity; Attacks on watermark",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Audio authentication – Electrical Network Frequency (ENF); ENF estimation; Forgery detection",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Media Forensics – Camera identification; Passive forgery detection. Vehicle forensics",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Forensic Detectors Adversarial Processing and Counter-forensics",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Steganography/Steganalysis; Review of popular algorithms",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 20,
+    "Assignment": 20,
+    "Mid-sem": 15,
+    "End-sem": 20,
+    "Project": 25
+  },
+  "Resource Material": {
+    "Textbook": "Digital Watermarking and Steganography by Ingemar J. Cox, 2nd Edition, Morgan Kauffman Publication.",
+    "Reference": [
+      "Watermark Systems Engineering, Mauro Barni, CRC Press, 2004.",
+      "JPEG2000 Standard for Image Compression, T. Acharya, Wiley, 2005.",
+      "K. Sayood, Introduction to Data Compression (3rd edition), Morgan Kaufmann, 2009."
+    ]
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE694F/ECE651",
+  "Course Name": "Multimedia Security",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Media Security course introduces the multimedia fundamentals and security related issues such as rights protection, authentication, traitor tracing, forensics, adversarial signal processing, covert communication and surveillance. Overview of different aspects of multimedia security and compression techniques, architectures and standards will be discussed. Some of the course topics are information hiding and its applications, media compression, robustness analysis, encryption, passive forensics, source identification, multimedia signatures and egocentric video forensics, adversarial signal processing, Discrete Fourier/Wavelet Transform, electrical network frequency estimation, visual surveillance, steganography and steganalysis.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE340/CSE540/ ECE350 Image Analysis/ Digital Image Processing",
+      "ECE250 Signals and Systems CSE344 Computer Vision"
+    ],
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand and analyse the media representation and fundamentals",
+    "CO2": "Students are able to apply and evaluate the media security techniques",
+    "CO3": "Students are able to perform forensics and counter-forensics",
+    "CO4": "Students are able to demonstrate an understanding of visual surveillance"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction - Digital Media Systems, Media Security Techniques, Applications",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Watermark Classification – Spatial domain; Detection of Watermark; Error analysis; Probability models",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Basics of information theory; Entropy coding; Discrete Cosine Transform; Image Compression - JPEG",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Lab exercise"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Video fundamentals; Motion Estimation and compensation",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 5&6,
+      "Lecture Topic": "Review of Discrete Wavelet Transform; Hiding in DWT domain Human Visual system; Adaptive watermarking; Information hiding capacity; Attacks on watermark",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Audio authentication – Electrical Network Frequency (ENF); ENF estimation; Forgery detection",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Media Forensics – Camera identification; Passive forgery detection. Vehicle forensics",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Forensic Detectors Adversarial Processing and Counter-forensics",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Steganography/Steganalysis; Review of popular algorithms",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 20,
+    "Assignment": 20,
+    "Mid-sem": 15,
+    "End-sem": 20,
+    "Project": 25
+  },
+  "Resource Material": {
+    "Textbook": "Digital Watermarking and Steganography by Ingemar J. Cox, 2nd Edition, Morgan Kauffman Publication.",
+    "Reference": [
+      "Watermark Systems Engineering, Mauro Barni, CRC Press, 2004.",
+      "JPEG2000 Standard for Image Compression, T. Acharya, Wiley, 2005.",
+      "K. Sayood, Introduction to Data Compression (3rd edition), Morgan Kaufmann, 2009."
+    ]
+  }
+}

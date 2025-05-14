@@ -1,0 +1,110 @@
+{
+  "Course Code": "ECE581",
+  "Course Name": "Autonomous Driving",
+  "Credits": "2",
+  "Course Offered to": [
+    "UG",
+    "PG"
+  ],
+  "Course Description": "The goal of this course is to provide hands-on-experience in implementing several modules of autonomous driving through software-in-the-loop and hardware-in-the-loop. This is a project-based course and covers modules on perception, path planning, and vehicle control for autonomous driving. The course is mainly designed towards implementation and hence intensive programming is involved in C++ or Python. The course will use Mahindra e20 and auto-rickshaw as the hardware testbeds.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Working knowledge of Robot Operating Systems (ROS)"
+    ],
+    "Desirable": [
+      "ROSAccounting Knowledge",
+      "Programming Skills in C++ or Python"
+    ],
+    "Other": [
+      "Basic Understanding of Autonomous Vehicles"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to create system interaction design for",
+    "CO2": "Ability to program different autonomous driving modules and gather working",
+    "CO3": "Ability to synthesize performance specifications for autonomous driving",
+    "CO4": "Ability to synthesize performance specifications for autonomous driving",
+    "CO5": "Ability to synthesize performance specifications for autonomous driving"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to autonomous driving and localization",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Lidar-based mapping and obstacle detection",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Camera-vision for lane detection",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Speed control and braking",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Path planning using lanes and obstacle obstacle",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Radar based obstacle detection",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Situational awareness using different sensors",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": [
+      "Homework",
+      "Project"
+    ],
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": [
+      " ROS tutorials (www.ros.org)",
+      " Probabilistic robotics",
+      " Principles of robot motion: theory, algorithms, and implementation",
+      " Planning algorithms"
+    ],
+    "Reference Book": [
+      " ROS tutorials (www.ros.org)",
+      " Thrun, Sebastian, Wolfram Burgard, and Dieter Fox. Probabilistic robotics. MIT press, 2005.",
+      " Motion Choset, Howie M. Principles of robot motion: theory, algorithms, and implementation. MIT press, 2005.",
+      " LaValle, Steven M. Planning algorithms. Cambridge university press, 2006."
+    ]
+  }
+}

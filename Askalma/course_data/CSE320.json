@@ -1,0 +1,121 @@
+{
+  "Course Code": "CSE320/CSE520",
+  "Course Name": "Advanced Algorithms",
+  "Credits": 4,
+  "Course Offered to": "",
+  "Course Description": [
+    "The purpose of this course is to develop advanced techniques in the design and analysis of algorithms. It will focus on exploring both the breadth of theoretical tools necessary for computer science as well as the depth through analysis of the related data structure and algorithms.",
+    "When taught as a graduate-level course, the students will be required to write a survey paper. Topics covered include string matching, linear programming, max-flow, min-cut, numerical algorithms (including polynomial operations and FFT), amortized analysis, and advanced data structures like Fibonacci heaps, splay trees, steiner trees, skip lists."
+  ],
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE102 Advance Data structures and Algorithms"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "String matching \u2013 Introduction, Rabin Karp, KMP",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Polynomials \u2013 representation, DFT, FFT",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Numerical algorithms \u2013 GCD, Euclidean alg., Extended Euclid, Modular arithmetic",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Numerical algorithms \u2013 Chinese remainder th., Euler\u2019s th., Fermat\u2019s th., RSA, Diffie-Hellman",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Primality testing",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Overflow week OR Integer factorization, AKS polytime primality algorithm",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Linear programming \u2013 intro, slack form, normal form",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Linear programming \u2013 Simplex algo",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Linear programming \u2013 duality, fundamental theorem",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Flow networks \u2013 max flow min cut",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Flow networks \u2013 max flow min cut algorithms",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Bipartite matching and maximum bipartite matching",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 10,
+    "Midsem": 20,
+    "HW assignments": 30,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": "Introduction to Algorithms, Cormen-Leiserson-Rivest-Stein, PHI",
+    "Reference Book": "Introduction to Algorithms, Cormen-Leiserson-Rivest-Stein, PHI"
+  }
+}

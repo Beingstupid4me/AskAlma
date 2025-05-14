@@ -1,0 +1,290 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. The user has provided a JSON template and a detailed table from an Excel file related to a course on Real Analysis-II. My task is to extract the necessary information from this table and structure it into the specified JSON format.
+
+First, I'll start by identifying each section of the JSON that needs to be filled. Looking at the provided JSON schema, there are several keys like "Course Code", "Course Name", "Credits", etc., which correspond to specific columns in the Excel file.
+
+Starting with "Course Code" and "Course Name", these seem straightforward. The table has two rows under each of these headers, both containing "MTH340/540" and "Real Anaysis-II". Since JSON requires single values, I'll take the first occurrence for each.
+
+Next is "Credits". This column has multiple entries with the value 4, so it's consistent across all rows. It should be a simple number in the JSON.
+
+Moving on to "Course Offered to", this also lists "UG+PG" repeatedly, which again is straightforward and will be represented as a string since there are no variations.
+
+The "Course Description" section is quite lengthy and repetitive. Each row under this header repeats the same description about Real Analysis-II. Since it's a single value, I'll include the first occurrence but note that in reality, it might make sense to have multiple descriptions if they differ across courses.
+
+For prerequisites, there are mandatory, desirable, and other categories. The table lists "Pre-requisite (Mandatory)" as "Real Analysis - I" once and then repeats placeholders for others. However, since the user's JSON expects an array of objects with "Mandatory", "Desirable", and "Other" keys, each containing a list of prerequisites, I'll structure it accordingly. The mandatory is just "Real Analysis - I", while the desirable and other fields are empty or have placeholders which I'll replace with appropriate values if available.
+
+The "Course Outcomes" section lists CO1 to CO5. Each CO has multiple descriptions across different rows. For example, CO1 mentions introducing fundamental properties of real numbers leading to formal development, while CO2 talks about constructing proofs. Since each CO is repeated in subsequent rows, I'll structure them as an array with each object having "COs Met" and "Assignments". However, the user's JSON expects a list where each week has its own COs met and assignments. Therefore, I'll create an array for each week, populating the respective COs and any assignment details provided.
+
+Looking at the weekly lecture plan, it starts with Week 1 having specific topics and COs met along with tutorials. Each subsequent week builds on this structure. I'll need to iterate through each week's data, extracting the topic, COs met, and assignments. Since some weeks have similar or repeated content, I'll ensure that each week is represented accurately in the JSON array.
+
+The assessment plan includes quizzes, midsem, homework, and endsem with specific percentages. The table shows Midsem at 30%, Endsem at 40%, and Quizzes at 30%. There's a placeholder for additional assessments which I'll leave as an empty string since no data is provided there.
+
+Resource Material includes textbooks and reference books. Both sections list the same textbooks, so I'll structure them into two objects within the "Resource Material" key, each with their respective titles.
+
+Finally, putting all this together, I need to ensure that the JSON is correctly formatted without any markdown or introductory text. Missing values should be represented as empty strings or nulls where necessary.
+</think>
+
+```json
+{
+  "Course Code": "MTH340/540",
+  "Course Name": "Real Analysis-II",
+  "Credits": 4,
+  "Course Offered to": "UG+PG",
+  "Course Description": "Much of mathematics relies on our ability to be able to solve equations, if not in explicit exact forms, then at least in being able to establish the existence of solutions. To do this requires a knowledge of so-called \"analysis\", which in many respects is just Calculus in very general settings. Real Analysis-II is a course that develops this basic material in a systematic and rigorous manner in the context of real-valued functions of a real variable.",
+  "Prerequisites": {
+    "Mandatory": ["Real Analysis - I"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": [
+    {
+      "CO1": {
+        "Covers": "Students are introduced to fundamental properties of real numbers that lead to the formal development of real analysis",
+        "COs Met": ["CO1"]
+      },
+      "Assignments": ""
+    },
+    {
+      "CO2": {
+        "Covers": "Students are able to construct rigorous mathematical proofs of basic results in real analysis",
+        "COs Met": ["CO2"]
+      },
+      "Assignments": ""
+    },
+    {
+      "CO3": {
+        "Covers": "Students demonstrate an understanding of limits and how they are used in sequences, series, differentiation and integration",
+        "COs Met": ["CO3"]
+      },
+      "Assignments": ""
+    },
+    {
+      "CO4": {
+        "Covers": "Students are introduced to measure theory and integration: measure space, measurable sets, sigma algebra and Lebegue measure.",
+        "COs Met": ["CO4"]
+      },
+      "Assignments": ""
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Ordered set, LUB, GLB, LUB property, GLB property. Construction of real numbers and their properties.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial sheet 1"
+    },
+    {
+      "Week Number": Weeks 2-4,
+      "Lecture Topic": "Metric spaces, Bounded sets, Open sets, closed sets, Dense sets, Compact sets, Connected sets, Perfect sets. The Cantor set.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial sheet 2"
+    },
+    {
+      "Week Number": Week 5,
+      "Lecture Topic": "Sequences, Cauchy sequences, Complete metric spaces.",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial sheet 3"
+    },
+    {
+      "Week Number": Weeks 6-8,
+      "Lecture Topic": "Limits of functions, Continuous functions, Uniform continuity, Continuity and compactness, Continuity and connectedness, Contraction map and fixed point theorem in complete metric spaces. Differentiability, Taylor’s Theorem.",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Tutorial sheet 4"
+    },
+    {
+      "Week Number": Weeks 9-10,
+      "Lecture Topic": "Sequences and Series of functions, Uniform convergence, Uniform convergence and continuity, Uniform convergence and differentiation, Uniform convergence and integration, Example of a real continuous function which is nowhere differentiable.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Tutorial sheet 5"
+    },
+    {
+      "Week Number": Weeks 11-13,
+      "Lecture Topic": "Sigma-algebra, Measure spaces, Measurable sets; Lebesgue Measure and its properties. Measurable functions and their properties; Lebesgue integral.",
+      "COs Met": ["CO4"],
+      "Assignments": "Tutorial sheet 6"
+    }
+  ],
+  "Assessment Plan": {
+    "Tutorials": 30,
+    "Mid-sem": 30,
+    "End-sem": 40,
+    "Quizzes": 30
+  },
+  "Resource Material": {
+    "Textbook": [
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden"
+    ],
+    "Reference Books": [
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy"
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "MTH340/540",
+  "Course Name": "Real Anaysis-II",
+  "Credits": 4,
+  "Course Offered to": "UG+PG",
+  "Course Description": "Much of mathematics relies on our ability to be able to solve equations, if not in explicit exact forms, then at least in being able to establish the existence of solutions. To do this requires a knowledge of so-called 'analysis', which in many respects is just Calculus in very general settings. Real Analysis-II is a course that develops this basic material in a systematic and rigorous manner in the context of real-valued functions of a real variable. Topics covered are: Real numbers and their basic properties, Sequences: convergence, subsequences, Cauchy sequences, Open, closed, and compact sets of real numbers, Continuous functions and uniform continuity. Lebesgue out measure, Lebesgue integral, sigma algebra of Lebesgue measurable sets.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Real Analysis - I"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are introduced to fundamental properties of real numbers that lead to the formal development of real analysis",
+    "CO2": "Students are able to construct rigorous mathematical proofs of basic results in real analysis",
+    "CO3": "Students demonstrate an understanding of limits and how they are used in sequences, series, differentiation and integration",
+    "CO4": "Students are introduced to measure theory and integration: measure space, measurable sets, sigma algebra and Lebesgue measure."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Ordered set, LUB, GLB, LUB property, GLB property. Construction of real numbers and their properties.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial sheet 1"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Metric spaces, Bounded sets, Open sets, closed sets, Dense sets, Compact sets, Connected sets, Perfect sets. The Cantor set.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial sheet 2"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Sequences, Cauchy sequences, Complete metric spaces.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial sheet 3"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Limits of functions, Continuous functions, Uniform continuity, Continuity and compactness, Continuity and connectedness, Contraction map and fixed point theorem in complete metric spaces. Differentiability, Taylor’s Theorem.",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial sheet 4"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Sequences and Series of functions, Uniform convergence, Uniform convergence and continuity, Uniform convergence and differentiation, Uniform convergence and integration, Example of a real continuous function which is nowhere differentiable.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Tutorial sheet 5"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Sigma-algebra, Measure spaces, Measurable sets; Lebesgue Measure and its properties. Measurable functions and their properties; Lebesgue integral.",
+      "COs Met": ["CO4"],
+      "Assignments": "Tutorial sheet 6"
+    }
+  ],
+  "Assessment Plan": {
+    "Tutorials": 30,
+    "Mid-sem": 30,
+    "End-sem": 40,
+    "Resource Material": {
+      "Textbook": [
+        "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+        "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+        "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+        "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+        "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden)"
+      ],
+      "Reference Books": [
+        "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+        "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+        "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+        "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+        "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy)"
+      ]
+    }
+  },
+  "Resource Material": {
+    "Textbook": [
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden)",
+      "(1) Principles of Real Analysis, 3rd edition by Walter Rudin; (2) Real Analysis, 4th edition by H. L. Royden)"
+    ],
+    "Reference Book": [
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy)",
+      "(1) Real Analysis and foundation, 2nd edition by S.G. Krantz; (2) Introductory Analysis by J. A. Fridy)"
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "MTH340/540",
+  "Course Name": "Real Anaysis-II",
+  "Credits": 4,
+  "Course Offered to": "UG+PG",
+  "Course Description": "Much of mathematics relies on our ability to be able to solve equations, if not in explicit exact forms, then at least in being able to establish the existence of solutions. To do this requires a knowledge of so-called 'analysis', which in many respects is just Calculus in very general settings. Real Analysis-II is a course that develops this basic material in a systematic and rigorous manner in the context of real-valued functions of a real variable. Topics covered are: Real numbers and their basic properties, Sequences: convergence, subsequences, Cauchy sequences, Open, closed, and compact sets of real numbers, Continuous functions and uniform continuity. Lebesgue out measure, Lebesgue integral, sigma algebra of Lebesgue measurable sets.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are introduced to fundamental properties of real numbers that lead to the formal development of real analysis",
+    "CO2": "Students are able to construct rigorous mathematical proofs of basic results in real analysis",
+    "CO3": "Students demonstrate an understanding of limits and how they are used in sequences, series, differentiation and integration",
+    "CO4": "Students are introduced to measure theory and integration: measure space, measurable sets, sigma algebra and Lebegue measure."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Ordered set, LUB, GLB, LUB property, GLB property. Construction of real numbers and their properties.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial sheet 1"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Metric spaces, Bounded sets, Open sets, closed sets, Dense sets, Compact sets, Connected sets, Perfect sets. The Cantor set.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH340/540",
+  "Course Name": "Real Anaysis-II",
+  "Credits": 4,
+  "Course Offered to": "UG+PG",
+  "Course Description": "Much of mathematics relies on our ability to be able to solve equations, if not in explicit exact forms, then at least in being able to establish the existence of solutions. To do this requires a knowledge of so-called 'analysis', which in many respects is just Calculus in very general settings. Real Analysis-II is a course that develops this basic material in a systematic and rigorous manner in the context of real-valued functions of a real variable. Topics covered are: Real numbers and their basic properties, Sequences: convergence, subsequences, Cauchy sequences, Open, closed, and compact sets of real numbers, Continuous functions and uniform continuity. Lebesgue out measure, Lebesgue integral, sigma algebra of Lebesgue measurable sets.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are introduced to fundamental properties of real numbers that lead to the formal development of real analysis",
+    "CO2": "Students are able to construct rigorous mathematical proofs of basic results in real analysis",
+    "CO3": "Students demonstrate an understanding of limits and how they are used in sequences, series, differentiation and integration",
+    "CO4": "Students are introduced to measure theory and integration: measure space, measurable sets, sigma algebra and Lebegue measure."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Ordered set, LUB, GLB, LUB property, GLB property. Construction of real numbers and their properties.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial sheet 1"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Metric spaces, Bounded sets, Open sets, closed sets, Dense sets, Compact sets, Connected sets, Perfect sets. The Cantor set.",
+      "COs Met": ["CO1", "CO2"]

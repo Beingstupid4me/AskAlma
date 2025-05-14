@@ -1,0 +1,327 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: They seem straightforward with "ECE515" and "Intelligent Applications Implementation on Heterogeneous Platforms". These are consistent across multiple rows, so I'll take them from row 3.
+
+Credits are listed as "4" in several places. Since it's a single value, that should be the Credits field.
+
+Course Offered to is "UG, PG" repeated, so I'll use that string.
+
+For Course Description, it's quite lengthy and repetitive. The user wants it as a single string, even if it's long, so I'll include all of it without truncation.
+
+Prerequisites: There are mandatory, desirable, and other prerequisites listed. They're in rows 8-12, with "Software programming using C & C++ * Computer organization" under Mandatory, nothing under Desirable, and "Techniques e.g. regression, support vector machine (SVM), neural networks." as Other.
+
+Course Outcomes: COs are numbered from CO1 to CO4, each with specific descriptions. I'll list them all in the JSON array.
+
+Weekly Lecture Plan: This is a bit complex. Each week has a lecture topic and COs met. Looking at rows 13-20, it seems there's data for Weeks 1-5, but only up to Week 8 in some cases. However, based on row 9, the format should be an array of objects with Week, Lecture Topic, COs Met, and Assignment/Tutorial.
+
+Assessment Plan: Rows 20-36 show various assessments like Assignments, Projects, End sem, etc., each with a percentage contribution. I'll structure this as an object mapping assessment types to their contributions.
+
+Resource Material includes Books and References. Each Book is listed four times, so I'll include them all under the "Books" key, even if duplicated.
+
+Putting it all together, I need to ensure that numeric values like Credits are numbers and COs Met are arrays of strings without extra quotes or commas unless necessary.
+</think>
+
+{
+  "Course Code": "ECE515",
+  "Course Name": "Intelligent Applications Implementation on Heterogeneous Platforms",
+  "Credits": 4,
+  "Course Offered to": "UG, PG",
+  "Course Description": "Intelligent computing systems have started to play key roles in many spheres of human endeavor. Their contributions in facilitation and enhancement of human life are following high growth trajectories in various domains. Commercial examples of such intelligent systems are data analytics systems deployed by various corporations (e.g. Facebook, Google), computational finance systems (e.g. automated trading), augmented reality (AR) applications and games, various subsystems of autonomous driving vehicles, biomedical signal processing systems etc. Development of intelligent computing systems requires complex challenges to be solved such that deployment of intelligent computing systems remains justified and lucrative. Specifically, efficiency of such systems is a key criterion for majority of the stakeholders. A high-performance, but low-efficiency, intelligent computing system typically does not ignite sufficient excitement in many commercial application areas. Heterogeneous computing platforms are offering unprecedented efficiency enhancements for many applications, notably intelligent applications. This course will include discussion of relevant key algorithms from the implementation perspective, and equip students with following important skills: - * Understand key challenges and technologies associated with the development of efficient intelligent computing systems. * Implement intelligent computing applications in computational finance (e.g. automated trading), real-time computer vision (e.g. augmented reality application) and biomedical engineering (e.g. automated medical diagnosis) using OpenCL (Open Computing Language) programming framework. * Optimize and evaluate OpenCL applications for achieving high efficiency on heterogeneous computing platform consisting of CPU, general- purpose GPU (GPGPU) and FPGA devices. Skills learned in this course will enable students to better deal with and exploit opportunities created by the proliferation",
+  "Prerequisites": {
+    "Mandatory": [
+      "* Software programming using C & C++ * Computer organization techniques e.g. regression, support vector machine (SVM), neural networks."
+    ],
+    "Desirable": [
+      "Pre-requisite (Other): Pre-requisite (Other): Pre-requisite (Other)"
+    ],
+    "Other": [
+      "Pre-requisite (Other): Pre-requisite (Other): Pre-requisite (Other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Understand characteristics and requirements of intelligent computing applications.",
+    "CO2": "Able to perform comparative evaluation of various relevant computing approaches for intelligent computing applications.",
+    "CO3": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and GPGPU.",
+    "CO4": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and FPGA."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": ["1,2"],
+      "Lecture Topic": ["Motivation and course overview; Computational characteristics and system requirements of intelligent computing applications"],
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["2,3"],
+      "Lecture Topic": ["Various computing approaches and their trade-offs: - - Advanced CPUs, general-purpose GPUs, FPGAs and DSPs"],
+      "COs Met": ["CO2"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["4,5"],
+      "Lecture Topic": ["OpenCL programming framework"],
+      "COs Met": ["CO2", "CO3", "C04"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["5,6,7,8"],
+      "Lecture Topic": [
+        "Computational finance application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of computational finance concepts and key algorithms from the implementation perspective. Focus on automated trading (including high-frequency trading). - Implementation using OpenCL and relevant optimization techniques."
+      ],
+      "COs Met": ["CO1", "CO2", "CO3", "C04"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["8,9,10,11"],
+      "Lecture Topic": [
+        "Computer vision application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of real-time computer vision concepts and key algorithms from the implementation perspective. Focus on augmented reality (AR) applications, vision subsystem of autonomous driving vehicles."
+      ],
+      "COs Met": ["CO1", "CO2", "CO3", "C04"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["11,12,13"],
+      "Lecture Topic": [
+        "Biomedical engineering application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of medical diagnosis concepts and key algorithms from the implementation perspective. Focus on automated breast histopathology, blood cell classification."
+      ],
+      "COs Met": ["CO1", "CO2", "CO3", "C04"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["Assessment Plan"],
+      "Lecture Topic": ["Assessment Plan"],
+      "COs Met": [],
+      "Assignments": []
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": ["Assignment/ quizzes", "Project I", "End sem"],
+      "% Contribution in Grade": ["20", "20", "40"]
+    },
+    {
+      "Type": ["Project II"],
+      "% Contribution in Grade": []
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": ["Books"],
+      "Title": ["Heterogeneous Computing with OpenCL 2.0", "Computer Vision: Models, Learning and Inference", "A First Course in Quantitative Finance", "Biomedical Engineering: Bridging Medicine and Technology"]
+    }
+  ]
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE515",
+  "Course Name": "Intelligent Applications Implementation on Heterogeneous Platforms",
+  "Credits": "4",
+  "Course Offered to": "UG, PG",
+  "Course Description": "Intelligent computing systems have started to play key roles in many spheres of human endeavor. Their contributions in facilitation and enhancement of human life are following high growth trajectories in various domains. Commercial examples of such intelligent systems are data analytics systems deployed by various corporations (e.g. Facebook, Google), computational finance systems (e.g. automated trading), augmented reality (AR) applications and games, various subsystems of autonomous driving vehicles, biomedical signal processing systems etc. Development of intelligent computing systems requires complex challenges to be solved such that deployment of intelligent computing systems remains justified and lucrative. Specifically, efficiency of such systems is a key criterion for majority of the stakeholders. A high-performance, but low-efficiency, intelligent computing system typically does not ignite sufficient excitement in many commercial application areas. Heterogeneous computing platforms are offering unprecedented efficiency enhancements for many applications, notably intelligent applications. This course will include discussion of relevant key algorithms from the implementation perspective, and equip students with following important skills: - * Understand key challenges and technologies associated with the development of efficient intelligent computing systems. * Implement intelligent computing applications in computational finance (e.g. automated trading), real-time computer vision (e.g. augmented reality application) and biomedical engineering (e.g. automated medical diagnosis) using OpenCL (Open Computing Language) programming framework. * Optimize and evaluate OpenCL applications for achieving high efficiency on heterogeneous computing platform consisting of CPU, general- purpose GPU (GPGPU) and FPGA devices. Skills learned in this course will enable students to better deal with and exploit opportunities created by the proliferation",
+  "Prerequisites": {
+    "Mandatory": [
+      "* Software programming using C & C++ * Computer organization"
+    ],
+    "Desirable": [
+      "Techniques e.g. regression, support vector machine (SVM), neural networks."
+    ],
+    "Other": [
+      "Pre-requisite (Other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Understand characteristics and requirements of intelligent computing applications.",
+    "CO2": "Able to perform comparative evaluation of various relevant computing approaches for intelligent computing applications.",
+    "CO3": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and GPGPU.",
+    "CO4": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and FPGA."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": ["1, 2", "2, 3", "4, 5", "5, 6, 7, 8", "8, 9, 10, 11", "11, 12, 13"],
+      "Lecture Topic": [
+        "Motivation and course overview; Computational characteristics and system requirements of intelligent computing applications",
+        "Various computing approaches and their trade-offs: Advanced CPUs, general-purpose GPUs, FPGAs and DSPs",
+        "OpenCL programming framework",
+        "Computational finance application programming using OpenCL on CPU, GPGPU and FPGA",
+        "Computer vision application programming using OpenCL on CPU, GPGPU and FPGA",
+        "Biomedical engineering application programming using OpenCL on CPU, GPGPU and FPGA"
+      ],
+      "COs Met": [
+        ["CO1", "CO2"],
+        ["CO2", "CO3", "C04"],
+        ["CO2", "CO3", "C04"],
+        ["CO1", "CO2", "CO3", "C04"],
+        ["CO1", "CO2", "CO3", "C04"],
+        ["CO1", "CO2", "CO3", "C04"]
+      ],
+      "Assignments": [
+        "3 homeworks will be assigned in the first half of course.",
+        "3 homeworks will be assigned in the first half of course.",
+        "3 homeworks will be assigned in the first half of course.",
+        "3 homeworks will be assigned in the first half of course.",
+        "3 homeworks will be assigned in the first half of course.",
+        "3 homeworks will be assigned in the first half of course."
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment/ quizzes": 20,
+    "Project I": 20,
+    "End sem": 40,
+    "Project II": null
+  },
+  "Resource Material": [
+    "Heterogeneous Computing with OpenCL 2.0", "Computer Vision: Models, Learning, and Inference", "A First Course in Quantitative Finance", "Biomedical Engineering: Bridging Medicine and Technology",
+    "OpenCL standard specification and reference guide.", "Relevant software for OpenCL from FPGA and graphics cards vendors.", "FPGA and graphics cards that support OpenCL for heterogeneous computing.", "OpenCL in Action: How to Accelerate Graphics and Computations", "Advanced Quantitative Finance with C++", "Programming Computer Vision with Python: Tools and algorithms for analyzing images"
+  ]
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE515",
+  "Course Name": "Intelligent Applications Implementation on Heterogeneous Platforms",
+  "Credits": "4",
+  "Course Offered to": "UG, PG",
+  "Course Description": "Intelligent computing systems have started to play key roles in many spheres of human endeavor. Their contributions in facilitation and enhancement of human life are following high growth trajectories in various domains. Commercial examples of such intelligent systems are data analytics systems deployed by various corporations (e.g. Facebook, Google), computational finance systems (e.g. automated trading), augmented reality (AR) applications and games, various subsystems of autonomous driving vehicles, biomedical signal processing systems etc. Development of intelligent computing systems requires complex challenges to be solved such that deployment of intelligent computing systems remains justified and lucrative. Specifically, efficiency of such systems is a key criterion for majority of the stakeholders. A high-performance, but low-efficiency, intelligent computing system typically does not ignite sufficient excitement in many commercial application areas. Heterogeneous computing platforms are offering unprecedented efficiency enhancements for many applications, notably intelligent applications. This course will include discussion of relevant key algorithms from the implementation perspective, and equip students with following important skills: - Understand key challenges and technologies associated with the development of efficient intelligent computing systems. Implement intelligent computing applications in computational finance (e.g. automated trading), real-time computer vision (e.g. augmented reality application) and biomedical engineering (e.g. automated medical diagnosis) using OpenCL (Open Computing Language) programming framework. Optimize and evaluate OpenCL applications for achieving high efficiency on heterogeneous computing platform consisting of CPU, general-purpose GPU (GPGPU) and FPGA devices. Skills learned in this course will enable students to better deal with and exploit opportunities created by the proliferation",
+  "Prerequisites": {
+    "Mandatory": [
+      "* Software programming using C & C++ techniques e.g. regression, support vector machine (SVM), neural networks."
+    ],
+    "Desirable": [
+      "Pre-requisite (Other)"
+    ],
+    "Other": [
+      "Pre-requisite (Other)",
+      "Pre-requisite (Other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Understand characteristics and requirements of intelligent computing applications.",
+    "CO2": "Able to perform comparative evaluation of various relevant computing approaches for intelligent computing applications.",
+    "CO3": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and GPGPU.",
+    "CO4": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and FPGA."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": ["1,2"],
+      "Lecture Topic": ["Motivation and course overview; Computational characteristics and system requirements of intelligent computing applications", "Various computing approaches and their trade-offs: - - Advanced CPUs, general-purpose GPUs, FPGAs and DSPs"],
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["4,5"],
+      "Lecture Topic": ["OpenCL programming framework", "Computational finance application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of computational finance concepts and key algorithms from the implementation perspective. Focus on automated trading (including high-frequency trading). - Implementation using OpenCL and relevant optimization techniques."],
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["5,6,7,8"],
+      "Lecture Topic": ["Computer vision application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of real-time computer vision concepts and key algorithms from the implementation perspective. Focus on augmented reality (AR) applications, vision subsystem of autonomous driving vehicles. - Implementation using OpenCL and relevant optimization techniques."],
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["8,9,10,11"],
+      "Lecture Topic": ["Biomedical engineering application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of medical diagnosis concepts and key algorithms from the implementation perspective. Focus on automated breast histopathology, blood cell classification. - Implementation using OpenCL and relevant optimization techniques."],
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["11,12,13"],
+      "Lecture Topic": ["Assessment Plan: Quiz exams, Midsem, HW assignments, Endsem"],
+      "COs Met": [],
+      "Assignments": []
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Quiz exams",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type": "Project I",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type": "End sem",
+      "% Contribution in Grade": "40"
+    },
+    {
+      "Type": "Project II",
+
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECE515",
+  "Course Name": "Intelligent Applications Implementation on Heterogeneous Platforms",
+  "Credits": "4",
+  "Course Offered to": "UG, PG",
+  "Course Description": "Intelligent computing systems have started to play key roles in many spheres of human endeavor. Their contributions in facilitation and enhancement of human life are following high growth trajectories in various domains. Commercial examples of such intelligent systems are data analytics systems deployed by various corporations (e.g. Facebook, Google), computational finance systems (e.g. automated trading), augmented reality (AR) applications and games, various subsystems of autonomous driving vehicles, biomedical signal processing systems etc. Development of intelligent computing systems requires complex challenges to be solved such that deployment of intelligent computing systems remains justified and lucrative. Specifically, efficiency of such systems is a key criterion for majority of the stakeholders. A high-performance, but low-efficiency, intelligent computing system typically does not ignite sufficient excitement in many commercial application areas. Heterogeneous computing platforms are offering unprecedented efficiency enhancements for many applications, notably intelligent applications. This course will include discussion of relevant key algorithms from the implementation perspective, and equip students with following important skills: - Understand key challenges and technologies associated with the development of efficient intelligent computing systems. Implement intelligent computing applications in computational finance (e.g. automated trading), real-time computer vision (e.g. augmented reality application) and biomedical engineering (e.g. automated medical diagnosis) using OpenCL (Open Computing Language) programming framework. Optimize and evaluate OpenCL applications for achieving high efficiency on heterogeneous computing platform consisting of CPU, general-purpose GPU (GPGPU) and FPGA devices. Skills learned in this course will enable students to better deal with and exploit opportunities created by the proliferation",
+  "Prerequisites": {
+    "Mandatory": [
+      "* Software programming using C & C++ techniques e.g. regression, support vector machine (SVM), neural networks."
+    ],
+    "Desirable": [
+      "Pre-requisite (Other)"
+    ],
+    "Other": [
+      "Pre-requisite (Other)",
+      "Pre-requisite (Other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Understand characteristics and requirements of intelligent computing applications.",
+    "CO2": "Able to perform comparative evaluation of various relevant computing approaches for intelligent computing applications.",
+    "CO3": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and GPGPU.",
+    "CO4": "Intelligent computing applications (e.g. automated trading, augmented reality) using OpenCL programming framework on a heterogeneous computing platform consisting of advanced CPU and FPGA."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": ["1,2"],
+      "Lecture Topic": ["Motivation and course overview; Computational characteristics and system requirements of intelligent computing applications", "Various computing approaches and their trade-offs: - - Advanced CPUs, general-purpose GPUs, FPGAs and DSPs"],
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["4,5"],
+      "Lecture Topic": ["OpenCL programming framework", "Computational finance application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of computational finance concepts and key algorithms from the implementation perspective. Focus on automated trading (including high-frequency trading). - Implementation using OpenCL and relevant optimization techniques."],
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["5,6,7,8"],
+      "Lecture Topic": ["Computer vision application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of real-time computer vision concepts and key algorithms from the implementation perspective. Focus on augmented reality (AR) applications, vision subsystem of autonomous driving vehicles. - Implementation using OpenCL and relevant optimization techniques."],
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["8,9,10,11"],
+      "Lecture Topic": ["Biomedical engineering application programming using OpenCL on CPU, GPGPU and FPGA: - - Discussion of medical diagnosis concepts and key algorithms from the implementation perspective. Focus on automated breast histopathology, blood cell classification. - Implementation using OpenCL and relevant optimization techniques."],
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "3 homeworks will be assigned in the first half of course."
+    },
+    {
+      "Week": ["11,12,13"],
+      "Lecture Topic": ["Assessment Plan: Quiz exams, Midsem, HW assignments, Endsem"],
+      "COs Met": [],
+      "Assignments": []
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Quiz exams",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type": "Project I",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type": "End sem",
+      "% Contribution in Grade": "40"
+    }

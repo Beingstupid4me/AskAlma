@@ -1,0 +1,172 @@
+{
+  "Course Code": "CSE121",
+  "Course Name": "Discrete Mathematics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "Discrete Mathematics is the study of mathematical structures (objects) which are discrete, distinct in nature. This course provides the mathematical basis for the understanding of computers and modern computation. It is the backbone of computer science and has a lot of applications in cryptography and engineering.",
+  "Prerequisites": {
+    "Mandatory": "A good knowledge of elementary mathematics, esp. algebra, calculus and basic programming language.",
+    "Desirable": "Discrete Structures (MTH210)",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to read, interpret and write some basic mathematical notations.",
+    "CO2": "Students are able to recognize and to construct examples of mathematical objects introduced during the course such as the sets and functions.",
+    "CO3": "Students are able to develop several matematical models.",
+    "CO4": "Students are able to develop several matematical models."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to Logic, Predicates and Quantifiers",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Tutorial-01"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Rules of Inferences, Introduction to Proofs",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Tutorial-02"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Proof Methods, Godel's Incompleteness",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Tutorial-03 / Homework-01"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Recursive Functions, Sequence and Summations",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-04"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Introduction to Turing Machines, Bog O Notation and Others",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Tutorial-05"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Chinese Remainder Theorem, Mathematical Induction, Sturctural Induction",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-06 / Homework-02"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Basics of Counting, Pigeonhole Principle",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-07"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Permutation and Combinatioons (Generalized), Binomial Coefficients",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-08 / Homework-03"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Recurrence Relations, Generating Functions",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-09"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Relations and their properties, Partial Orderings",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-10"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Graphs and their various types, Shortest Path",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-11 / Homework-04"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "More on Graph Theoretical Objects",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-12"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Trees and Traversal, Minimum Spanning Trees",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Tutorial-13"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": {
+      "Type of Evaluation": "Quiz",
+      "% Contribution in Grade": "10, 20, 30, 40"
+    },
+    "Midsem": {
+      "Type of Evaluation": "Mid-sem",
+      "% Contribution in Grade": "10, 20, 30, 40"
+    },
+    "HW assignments": {
+      "Type of Evaluation": "Homework",
+      "% Contribution in Grade": "10, 20, 30, 40"
+    },
+    "Endsem": {
+      "Type of Evaluation": "End-sem",
+      "% Contribution in Grade": "10, 20, 30, 40"
+    }
+  },
+  "Resource Material": {
+    "Type": "Resource Material",
+    "Title": [
+      "Textbook",
+      "Reference Book"
+    ],
+    "Textbook": [
+      "Kenneth Rosen, ``Discrete Mathematics and Its Applications'', 7th Edition, 2012. Kolman, Busby, Ross, ``Discrete Mathematical Structures'', PHI."
+    ],
+    "Reference": []
+  }
+}

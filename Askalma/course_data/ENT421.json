@@ -1,0 +1,100 @@
+{
+  "Course Code": "BIO571/ENT421",
+  "Course Name": "Healthcare Innovation and Entrepreneurship Essentials",
+  "Credits": 2,
+  "Course Offered to": "UG, PG",
+  "Course Description": "The objective of this course is to introduce students to the Healthcare Innovation with a specific focus on Digital Health and Entrepreneurship. It covers Biotechnology, Medical Device and Digital Health/IT. The course will aim to generate healthcare startup ideas after identifying the gaps and opportunities in the Indian and US ecosystem.",
+  "Prerequisites": {
+    "Mandatory": [
+      "UG",
+      "Masters",
+      "Ph.D."
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Healthcare Value Chain",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2 & 3",
+      "Lecture Topic": "Healthcare Innovation Ecosystem",
+      "COs Met": [],
+      "Assignments": "HW1"
+    },
+    {
+      "Week": "4, 5 & 6",
+      "Lecture Topic": "Digital Health/IT startups- gaps, opportunities, regulations",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Quiz 1 [Week 4]"
+    },
+    {
+      "Week": "7, 8 & 9",
+      "Lecture Topic": "Biotech startups- gaps, opportunities, regulations",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW2, Quiz 2 [Week 8]"
+    },
+    {
+      "Week": "10, 11",
+      "Lecture Topic": "Medical devices startups- gaps, opportunities, regulations",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Quiz 3 [Week 11]"
+    },
+    {
+      "Week": "12, 13",
+      "Lecture Topic": "Growth hacking your health venture",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-Sem": {
+      "Type of Evaluation": "Evaluation Type",
+      "% Contribution in Grade": "15"
+    },
+    "Assignments": {
+      "Type of Evaluation": "Assignment/Project",
+      "% Contribution in Grade": "10"
+    },
+    "End-Sem": {
+      "Type of Evaluation": "Final Exam/Project",
+      "% Contribution in Grade": "30"
+    },
+    "Pitch": {
+      "Type of Evaluation": "Pitch Presentation",
+      "% Contribution in Grade": "30"
+    },
+    "Quizzes": {
+      "Type of Evaluation": "Quiz/Assessment",
+      "% Contribution in Grade": "15"
+    }
+  },
+  "Resource Material": {
+    "Textbook": "Biodesign: The Process of Innovating Medical Technologies 2nd Edition (Yock, Zenios, Mackower et al)",
+    "Reference Book": ""
+  }
+}

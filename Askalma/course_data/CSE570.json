@@ -1,0 +1,146 @@
+{
+  "Course Code": "CSE570",
+  "Course Name": "Virtual Reality",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "rendering, geometric modelling, display optics, sensors and tracking, vestibular systems and interface design. Advanced areas of VR including telepresence, procedural modelling of large virtual worlds, and designing multi-model interactions and interfaces for VR will also be discussed. This will be a project-based course using game engine based VR development.",
+  "Prerequisites": {
+    "Mandatory": "CSE333/533 Computer Graphics",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Apply the learned concepts to design moderate to large VR based systems",
+    "CO2": "Understand rendering in VR and challenges",
+    "CO3": "Be able to use geometric modelling algorithms to design virtual worlds",
+    "CO4": "Be able to design user interactions in VR"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction, Historical perspective",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Graphics pipeline, Real-time rendering in VR",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Transformations, viewing and projection",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Geometric modelling",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Light and optics, lens systems and imaging, lens aberrations",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Stereoscopy, depth and motion perception",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Human perception: visual, audio, vestibular, and tactile",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Introduction to Augmented Reality (AR)",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Multi-user interaction",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Tracking systems",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Procedural modelling and creation of large virtual worlds",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Telepresence and interaction",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "User interfaces, social interaction and evaluation of VR systems",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment": "20",
+    "Quiz exams": "10",
+    "Midsem": "10",
+    "HW assignments": "10",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": "LaValle \"Virtual Reality\", Cambridge University Press, 2016",
+    "Reference Book": "Doug A. Bowman, Ernst Kruijff, Joseph J. LaViola, and Ivan Poupyrev, 3D User Interfaces, Addison-Wesley, 2005."
+  }
+}

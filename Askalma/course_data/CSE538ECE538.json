@@ -1,0 +1,161 @@
+{
+  "Course Code": "ECE538/CSE538",
+  "Course Name": "Wireless Networks",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will cover a variety of mobile systems (wireless LANs, cellular systems, and sensor networks). This course will cover design of various layers in the network stack in the context of wireless communication. This course will cover challenges in mobile systems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE232 Computer Networks"
+    ],
+    "Desirable": [
+      "Operating System",
+      "Advanced Programming"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand and classify various wireless and mobile system.",
+    "CO2": "Students are able to explain the functionalities of various layers in the network stack in the context of wireless communication.",
+    "CO3": "Students are able to design basic simulations and/or experiments involving a wireless network of nodes.",
+    "CO4": "Students are able to explain and discuss routing and transport layer issues over wireless networks and challenges in mobile systems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Course overview, overview of wireless and mobile system",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Wireless physical layer",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Wireless link layer: centralized and distributed MAC protocols",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Wireless link layer: link adaptation and bit rate adaptation, error control",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Link layer multicast, energy and security concern",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "New WiFi standard 802.11ax",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Millimeter Wave",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Network layer: mobility management, cellular handoff, Mobile IP",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Multihop networks: routing protocol, opportunistic routing",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Transport layer: TCP over wireless, mobility",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Transport layer: Multipath TCP",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Future of wireless systems",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Assignment",
+      "% Contribution in Grade": 15
+    },
+    {
+      "Type": "Project",
+      "% Contribution in Grade": 35
+    },
+    {
+      "Type": "Quiz + class participation",
+      "% Contribution in Grade": 10
+    },
+    {
+      "Type": "Mid-sem",
+      "% Contribution in Grade": 15
+    },
+    {
+      "Type": "End-sem",
+      "% Contribution in Grade": 25
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Mobile Communications (2nd ed.). Jochen Schiller.",
+    "Reference Book": "Research papers"
+  }
+}

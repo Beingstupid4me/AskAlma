@@ -1,0 +1,139 @@
+{
+  "Course Code": "MTH599",
+  "Course Name": "Variational Calculus and their Applications in Control Theory and Nanomechanics",
+  "Credits": "4",
+  "Course Offered to": "UG / PG",
+  "Course Description": "This course is designed as an introduction to the theory and applications of Variational Calculus to problems in geometry, differential equations and physics, particularly mechanics. This course assumes very limited knowledge of vector calculus, ordinary differential equations and basic mechanics. Many new applications in applied mathematics, physics, chemistry, biology and engineering are included. This course will serve as a reference for advanced study and research in this subject as well as for its applications in the fields of industrial control systems and instrumentation engineering, nanoscience and software development.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH-203"
+    ],
+    "Desirable": [
+      "MTH-204: Ordinary differential equations"
+    ],
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students master the techniques of 1st/2nd variation and are able to solve equations involving functionals.",
+    "CO2": "Students are able to model physical systems involving linear/non-linear equations in Variational Calculus.",
+    "CO3": "Students apply the variational techniques to solve problems in optimal control theory",
+    "CO4": "Students apply the variational techniques to solve problems in Nanomechanics"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Intro., problems involving Calculus of Variations:Gold-diggers Problem, Catenary, Brachystochrone,Dido's problem, Geodesics,minimal surface,optimal harvest, Revision: Extremals in Finite Dim Calculus (Functions of one and several variables), Euler Lagrange equation (E-L eqns)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 1)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Special cases E-L eqns: (1) Functions depending on y', (2) Functions with no explicit 'x' dependence, (3) Functions with no explicit 'y' dependence, (4) degenerate functions. Invariance of E-L eqns, existence, uniqueness of solutions, Generalization : (1)Functionals containing higher derivatives",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 2)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Generalization: (2) Functionals containing several dependent variables, (3) Functionals containing two independent variables. Numerical solution: (1) Euler's FD Method, (2) Ritz Method, (3) Kantorovich's Method",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 3)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Isoperimetric Problem: Finite dim case/ Lagrange Multipliers including (a) single constraint, (b) multiple constraints, (c) Abnormal problems. Isoperimetric Problems involving functional including cases of generalization in higher dimension, multiple isoperimetric constraints, several dependent variables",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 4)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Holonomic and non-Holonomic Constraints, Problems with Variable endpoints: Natural BCs, Solution of Elastica",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 5)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Problems with Variable endpoints: case of several dependent variable, Transversality conditions, Broken extremals (Weierstrass Erdmann Condition), Newton's Aerodynamic Problem. Hamiltonian formulation of E-L Eqns.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 6)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Hamiltonian formulation: Case of several dependent variables, Symplectic Maps, Hamilton-Jacobi Equations (HJ Eqns), Method of seperation of variables for HJ Eqns.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 7)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Variational Symmetries, Noether's Theorem, Finding Variational Symmetries. Second Variation: Finite dim case, Legendre Condition",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 8)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Conjugate points, Jacobi necessary condition, Jacobi Accessory Eqns (JA Eqns), Sufficient Conditions, finding Conjugate points, saddle points. Optimal Control Theory (OC): solving OC systems via Variational Techniques",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 9)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "OC Theory: Constrained Optimization, Pontrygin Minimum Principle (PMP), Hamilton-Jacobi-Bellmann Eqns (HJB), Penalty function method, Slack Variable Method.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 10)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Nanomechanics: Oscillatory motion of Carbon Nanotube (CNT), Basics (special functions): Pochhammer symbol, Hypergeometric Function (HF). Basics (Physical Chemistry): van der Waal Interaction Energy, Lennard Jones Potential. Oscillatory Motion of DWCNT via Hamilton's Principle",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 11)"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "30",
+    "HW assignments": "30",
+    "Endsem": "40"
+  },
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "1) Calculus of variations: Bruce. Van Brunt\n2) Optimal Control Theory: D. S. Naidu\n3) Problems and Exercises in CoV: Krasnov, Makarenko, Kiselev"
+    },
+    {
+      "Type": "Reference",
+      "Title": "1) Calculus of Variations: Gelfand, Formin, Silverman\n2) Calculus of Variations: Craigs, Allen\n3) Calculus of Variations: Aurther, Routledge, Paul\n4) A primer on Calculus of Variations and Optimal Control Theory: Gibbons"
+    }
+  ]
+}

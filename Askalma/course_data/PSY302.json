@@ -1,0 +1,190 @@
+{
+  "Course Code": "PSY302",
+  "Course Name": "Social Psychology",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course is an exploration of the prevailing theories, topics and empirical methods in the study of Social Psychology. It will specifically focus on five main areas: (1) the science of Social Psychology and its theoretical foundations, (2) research methods used in Social Psychology research, (3) the individual in context to the social world, (4) an individual's impact on another individual or group/s, and (5) The dynamics of social relationships.",
+  "Prerequisites": {
+    "Mandatory": "Introduction to Psychology",
+    "Desirable": "Introduction to Psychology",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to describe the origins of the field of Social Psychology, and how this field can be differentiated from other fields of Psychology.",
+    "CO2": "Students will be able to compare and contrast several theories in terms of their ability to explain people's behaviour in various social contexts, and methods used to investigate research problems in Social Psychology.",
+    "CO3": "Students will be able to apply theories and methods of Social Psychology to real world contexts.",
+    "CO4": "Students will be able to develop a research proposal to investigate new problems in the area of Social Psychology."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "History and Foundations of Social Psychology",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Research Methods in Social Psychology",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Individual and the Social World",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Understanding Others",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Social Judgement and Moral Decision Making",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Attitudes, Behavior and Rationalization",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Processes of Influencing Others",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Human Emotions",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Persuasion, Advertizing, Behaviour Change",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Relationships",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Discrimination, Stereotyping, Stigma, and Prejudice",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Help, Hurting and Cooperation",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Groups /Group Behaviour",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "15%",
+    "Midsem": "20%",
+    "HW assignments": "15%",
+    "Endsem": "20%"
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Textbook Name": "Social Psychology (4th Ed)",
+        "Author": [
+          " Gilovich, Keltner, & Nisbett"
+        ],
+        "Publisher": "W.W. Norton",
+        "ISBN": "978-0393913231"
+      },
+      {
+        "Textbook Name": "Social psychology alive",
+        "Author": [
+          " Olson, J. M., Breckler, S. J., & Wiggins, E. C."
+        ],
+        "Publisher": "",
+        "ISBN": ""
+      }
+    ],
+    "Reference Book": [
+      {
+        "Reference Book Name": "Social Psychology (4th Ed)",
+        "Author": [
+          " Gilovich, Keltner, & Nisbett"
+        ],
+        "Publisher": "W.W. Norton",
+        "ISBN": "978-0393913231"
+      },
+      {
+        "Reference Book Name": "Social psychology alive",
+        "Author": [
+          " Olson, J. M., Breckler, S. J., & Wiggins, E. C."
+        ],
+        "Publisher": "",
+        "ISBN": ""
+      }
+    ]
+  }
+}

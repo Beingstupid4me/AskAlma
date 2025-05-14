@@ -1,0 +1,149 @@
+{
+  "Course Code": "CSE622",
+  "Course Name": "Introduction to Quantum Computing",
+  "Credits": 4,
+  "Course Offered to": "UG+PG",
+  "Course Description": "This is an introductory course about designing solutions for computation problems using the quantum computing models. It has been shown that these models allow us to solve certain problems more efficiently compared to classical platforms (like Digital circuits or Turing machines). On the other hand, there are certain scenarios where this model is siimlar or even worse than classical platforms. In this course a student will learn about the models and interesting solutions (circuits, algorithms) for some problems from the perspective of computer science.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100 Linear Algebra"
+    ],
+    "Desirable": [
+      "Probability and Statistics",
+      "Analysis and Design of Algorithms"
+    ],
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand the principles of quantum computing",
+    "CO2": "Students are able to understand different quantum computing models used in different applications like search, numerical algorithms, cryptography, etc.",
+    "CO3": "Students are able to Design and/or analyse quantum algorithms and circuits.",
+    "CO4": "Students are able to explain and/or implement simple algorithms and circuits from research papers"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Principles of quantum computing",
+      "COs Met": [
+        "CO1",
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Principles of quantum computing",
+      "COs Met": [
+        "CO1",
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Principles of quantum computing",
+      "COs Met": [
+        "CO1",
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Models of quantum computing",
+      "COs Met": [
+        "CO2",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Models of quantum computing",
+      "COs Met": [
+        "CO2",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Simple circuits and algorithms",
+      "COs Met": [
+        "CO3",
+        "CO3"
+      ],
+      "Assignments": "Written homeworks and/or simulator-based exercises"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Amplitude Amplification based algorithms",
+      "COs Met": [
+        "CO3",
+        "CO3"
+      ],
+      "Assignments": "Written homeworks and/or simulator-based exercises"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Quantum Fourier Transform based algorithms",
+      "COs Met": [
+        "CO3",
+        "CO3"
+      ],
+      "Assignments": "Written homeworks and/or simulator-based exercises"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Quantum Fourier Transform based algorithms",
+      "COs Met": [
+        "CO3",
+        "CO3"
+      ],
+      "Assignments": "Written homeworks and/or simulator-based exercises"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Quantum Cryptography and other topics, paper presentation/report submission",
+      "COs Met": [
+        "CO4",
+        "CO4"
+      ],
+      "Assignments": "Written homeworks and/or simulator-based exercises"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Quantum Cryptography and other topics, paper presentation/report submission",
+      "COs Met": [
+        "CO4",
+        "CO4"
+      ],
+      "Assignments": "Written homeworks and/or simulator-based exercises"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Advanced topics",
+      "COs Met": null,
+      "Assignments": "Written homeworks and/or simulator-based exercises"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": null,
+      "COs Met": null,
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": "35-40"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Michael Nielsen and Isaac Chuang. Quantum Computation and Quantum Information",
+      "Kaye, Laflamme and Mosca, An Introduction to Quantum Computing"
+    ],
+    "Reference Book": "Michael Nielsen and Isaac Chuang. Quantum Computation and Quantum Information"
+  }
+}

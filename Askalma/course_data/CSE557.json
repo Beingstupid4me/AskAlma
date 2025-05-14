@@ -1,0 +1,113 @@
+{
+  "Course Code": "CSE557",
+  "Course Name": "Big Data Analytics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Distributed processing frameworks have emerged as a feasible and cost effective way of analyzing the increasing volume of data. This course provides an understanding of most popular distributed processing frameworks \u2013 Hadoop, Spark and Giraph. Example Applications will include Graph Analysis algorithms such as BFS, Page Rank, Finding Graph Patterns; Finding Similar Items, Mining Algorithms such as Clustering, Frequent Itemsets, Data Streams. Hands-on exercises will prepare those taking this course to be able to apply these frameworks in practice.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE202 DBMS"
+    ],
+    "Desirable": [
+      "Datamining",
+      "Machine Learning"
+    ],
+    "Other": [
+      "Working knowledge of Programming in Python, C, C++ or Java and experience with Unix"
+    ]
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4",
+    "CO5"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction",
+      "COURSEs MET": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "234",
+      "Lecture Topic": "Hadoop, HDFS, Apache Spark, Giraph",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Map Reduce Design Patterns",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "A lab assignment on Map-Reduce"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Finding similar items",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "A lab assignment on Spark"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Frequent Patterns Finding on Big Data Platforms",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "A lab assignment on Neo4j"
+    },
+    {
+      "Week": "89",
+      "Lecture Topic": "Social Network Analysis: BFS, Page Rank and Graph Patterns Finding",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "A Project on Spark/MapReduce"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "K-Means and Cure with Parallelism",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ]
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Data Streams: Data Model, Sampling, Counting Elements and Estimating Moments",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ]
+    },
+    {
+      "Week": "12, 13",
+      "Lecture Topic": "Advance Topics in BDA",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 20,
+    "Endsem": 30,
+    "Labs and Project": 50
+  },
+  "Resource Material": [
+    "Massive Data Analytics by Rajaraman and Ullman",
+    ""
+  ]
+}

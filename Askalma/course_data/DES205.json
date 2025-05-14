@@ -1,0 +1,136 @@
+{
+  "Course Code": "DES519",
+  "Course Name": "Design of Interactive Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The objective of this course is to learn all the aspects of design and development of interactive systems, which are now an important part of our lives. The design and usability of these systems leave an effect on the quality of people\u2019s relationship to technology. Web applications, social media applications, multimedia applications, embedded devices, etc., are all a part of this system, which has become an integral part of our lives. By the end of the course, the students will be familiar with the goals, problems and structure of interactive system design process. Moreover, the students will be exposed to the core techniques for task analysis and user analysis. Furthermore, students will be able to understand the innovative features of interactive system and be able to improve existing interfaces by considering these features.",
+  "Prerequisites": {
+    "Mandatory": [
+      "HCI",
+      "IED"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "To explain the foundation of designing interactive systems",
+    "CO2": "To discuss techniques for task analysis and user analysis",
+    "CO3": "To design Interaction design approachs in different contexts, e.g., web, social media, multimedia applications",
+    "CO4": "To design Interaction design approachs in different contexts, e.g., web, social media, multimedia applications"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Essential of Designing Interactive Systems: Introduction",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Essential of Designing Interactive Systems: Usability and Experience Design",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment-1"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Foundations of Designing Interactive Systems: Memory and Attention",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Foundations of Designing Interactive Systems: Cognitive and Action",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment-2"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Techniques for Designing Interactive Systems: Evaluation and Task Analysis",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Mid-sem"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Techniques for Designing Interactive Systems: Visual and Multimodal Interface Design",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment-3"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Context of Designing Interactive Systems: Web-based Systems and Social Media",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Intermediate Project Report-1"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Context of Designing Interactive Systems: Agents, Avatars, and Collaborative Environments",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment-4"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Project & Research Paper Discussion",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Intermediate Project Report-2"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Project & Research Paper Discussion",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Project & Research Paper Discussion",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Intermediate Project Report-3"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Project & Research Paper Discussion",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Project & Research Paper Discussion",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Final Project Report"
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment": 0.2,
+    "Midsem": 0.15,
+    "Endsem": 0.25,
+    "Class Participation": 0.05,
+    "Paper presentation": 0.05
+  },
+  "Resource Material": {
+    "Textbook": "Designing Interactive Systems: A Comprehensive Guide to HCI, UX & Interaction Design, 3rd ed by David Benyon",
+    "Reference Book": "Interactive System Design by Michael Lamming and William Newman"
+  }
+}

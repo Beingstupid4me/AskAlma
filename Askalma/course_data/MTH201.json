@@ -1,0 +1,108 @@
+{
+  "Course Code": "MTH 201",
+  "Course Name": "Probability and Statistics",
+  "Credits": "4",
+  "Course Offered to": "UG - First year",
+  "Course Description": "The course introduces students to probability theory and how it can be applied to statistical problems. They learn about probabilistic models that occur in common applications. They are introduced to probability mass and density functions and statistics like expectation, correlation, and covariance. This is followed by an introduction to sampling statistics like the sample mean and variance, statistical hypothesis testing, and parameter estimation.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to derive first and second order statistics, conditional PDF(s) and PMF(s), of common random variables and functions of the same.",
+    "CO2": "Students are able to apply commonly found discrete and continuous state probabilistic models to various applications, as captured by word problems.",
+    "CO3": "Students are able to derive properties of the sample mean and variance of samples from a normal population.",
+    "CO4": "Students are able to derive estimates of the parameters of common probability distributions and test hypothesis from random samples.",
+    "CO5": "Students are able to perform MATLAB (or equivalent) experiments to present data, generate data from distributions, calculate various statistics, and demonstrate basic hypothesis testing."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 12,
+      "Lecture Topic": "Set Theory, Experiments, Observations, Axioms of Probability, classical and frequentist methods, describing data sets, conditional probability, Bayes' rule, law of total probability, tree diagrams",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 23,
+      "Lecture Topic": "Counting, Discrete RV, PMF, Common Discrete RV models, CDF, Expectation, Functions of Discrete RV, Second order statistics, Conditional PMF",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 34,
+      "Lecture Topic": "Discrete to Continuous RV, CDF, PDF, Expectation, Commonly used models, Functions of continuous RV, RV(s) as functions of Gaussian RV, Conditioning, Sample mean and variance from data, Moment generating functions",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 45,
+      "Lecture Topic": "Pairs of RV(s), Joint and marginal PMF and PDF. Independence, Correlation, Covariance, Scatter Plots, Calculating from data sets, Expected value of sum of two RV(s)",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 56,
+      "Lecture Topic": "Extension of pairs to vectors of RV(s), Vector representation, Independence, Expected value and covariance of sums of RV(s)",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 78,
+      "Lecture Topic": "Chebyshev Inequality, Sample mean and variance, Central Limit Theorem (Statement, intuition and application), Weak Law of Large Numbers (Statement, intuition and application), Sampling from a normal population, Sampling from a finite population",
+      "COs Met": [
+        "C03",
+        "C05"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 910,
+      "Lecture Topic": "Maximum Likelihood Estimation, Interval estimates, Point estimator properties, Bayes estimator",
+      "COs Met": [
+        "C04",
+        "C05"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 1112,
+      "Lecture Topic": "Hypothesis Testing, Tests concerning Normal, Bernoulli and Poisson",
+      "COs Met": [
+        "C04",
+        "C05"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 25,
+    "Mid-sem": 25,
+    "Assignment": 20,
+    "End-sem": 30
+  },
+  "Resource Material": {
+    "Textbook": "Probability and Stochastic Processes (2nd Ed) By Roy Yates and David Goodman",
+    "Reference Book": "Introduction to Probability and Statistics for Scientists and Engineers By Sheldon Ross (5th Ed)"
+  }
+}

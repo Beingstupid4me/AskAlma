@@ -1,0 +1,405 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the "Course Code" field. The table shows "SOC206" repeated multiple times under columns 4,5,6,7. So I'll extract that as "Course Code".
+
+Next is "Course Name". It consistently says "Business Anthropology", so that's straightforward.
+
+For "Credits", each row in the credits column has "4", so I'll note that down.
+
+Moving on to "Course Offered to". All entries say "UG" (Undergraduate), so that's easy.
+
+The "Course Description" is a long paragraph. Since it's just one value, I'll include it as-is without any changes.
+
+Looking at the prerequisites section, each row under "Pre-requisite" has "Mandatory", "Desirable", and "Other". The first four rows have "None" for all three categories, so that will be the values for Mandatory, Desirable, and Other.
+
+For course outcomes (CO1 to CO4), each is listed as a single value. I'll extract them one by one.
+
+The weekly lecture plan has multiple weeks with topics and COs met. Each week's data needs to be an object within a list. For example, Week 1 covers Introduction to Anthropology and meets CO1-3. I'll structure each week accordingly.
+
+Assessment Plan includes types like Class Attendance, Presentation, etc., each with a percentage contribution. These will form another list of objects.
+
+Resource Material has two books listed four times each, so I'll create an array with these titles under "Textbook" and "Reference Book".
+
+I need to ensure all missing values are handled gracefully, using empty strings or nulls where necessary. For example, if any prerequisite category had no entries, it would be represented as an empty string.
+
+Finally, I'll structure everything into the specified JSON format without any markdown or introductory text.
+</think>
+
+```json
+{
+  "Course Code": "SOC206",
+  "Course Name": "Business Anthropology",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "How did experiences of sleeping in strangers’ homes lead to the creation of one of the world’s most successful online hospitality company - Airbnb? How did the idea of public space influence and lead to the creation of the world’s most successful coffee company - Starbucks? How does Youtube, the most significant pool of social and cultural data since the beginning of recorded communication use it to reveal more about us, humans and the society we live? Why do people buy what they buy? Do Malls have a hold on the consumers? Does Coca-Cola have the same meaning in all cultures? How does advertising influence your decision to buy? Do people buy products which speak to their cultural values? How is culture tied to consumption? How do companies mine your social media and online data for understanding your consumption patterns? Does Wall Street have its own culture? How does working in virtual teams affect the work culture and productivity of people? How do employees make use of organizational technology to shape Organizational culture? Does the idea of ‘Tribal Leadership’ by Zappos founder Tony Hsieh influence employees? All the above factors have cultural influences more than what we tend to acknowledge. In the recent past corporations have started using ethnography and anthropology to gain insights into marketing and organizations strategically. Exploring and deconstructing such cultural and social influences through both fieldwork and case studies (text and videos) with a sprinkling of anthropological theories is the primary intent of this course.",
+  "Course Outcomes": {
+    "CO1": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape businesses today.",
+    "CO2": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger canvas.",
+    "CO3": "The learner would be able to apply knowledge gleaned from this course onto brands, businesses and organizations thus converting class material to practical insights.",
+    "CO4": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology and Business Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Consumption Culture - Understanding Stuff we buy",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Advertising Cultures - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Advertising Cultures - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Marketing Cultures -1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Marketing Cultures -2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Ethnography and Fieldvisit - Visit Malls",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Organizational Anthropology - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Organizational Anthropology - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Organizational Anthropology - 3",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Capstone Project Sessions - 1",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Capstone Project Sessions - 2",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Capstone Project Sessions - 3",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "",
+    "Endsem": ""
+  },
+  "Resource Material": {
+    "Textbook": ["de Waal Malefyt, T., & Morais, R. J. (2013). Advertising and anthropology: ethnographic practice and cultural perspectives. A&C Black.", "Miller, D. (2010). Stuff. Polity.", "Denny, R. M., & Sunderland, P. L. (Eds.). (2016). Handbook of anthropology in business. Routledge."]
+  }
+]
+</think>
+
+```json
+{
+  "Course Code": "SOC206",
+  "Course Name": "Business Anthropology",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "How did experiences of sleeping in strangers’ homes lead to the creation of one of the world’s most successful online hospitality company - Airbnb? How did the idea of public space influence and lead to the creation of the world’s most successful coffee company - Starbucks? How does Youtube, the most significant pool of social and cultural data since the beginning of recorded communication use it to reveal more about us, humans and the society we live? Why do people buy what they buy? Do Malls have a hold on the consumers? Does Coca-Cola have the same meaning in all cultures? How does advertising influence your decision to buy? Do people buy products which speak to their cultural values? How is culture tied to consumption? How do companies mine your social media and online data for understanding your consumption patterns? Does Wall Street have its own culture? How does working in virtual teams affect the work culture and productivity of people? How do employees make use of organizational technology to shape Organizational culture? Does the idea of ‘Tribal Leadership’ by Zappos founder Tony Hsieh influence employees? All the above factors have cultural influences more than what we tend to acknowledge. In the recent past corporations have started using ethnography and anthropology to gain insights into marketing and organizations strategically. Exploring and deconstructing such cultural and social influences through both fieldwork and case studies (text and videos) with a sprinkling of anthropological theories is the primary intent of this course.",
+  "Course Outcomes": {
+    "CO1": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape businesses today.",
+    "CO2": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger canvas.",
+    "CO3": "The learner would be able to apply knowledge gleaned from this course onto brands, businesses and organizations thus converting class material to practical insights.",
+    "CO4": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology and Business Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Consumption Culture - Understanding Stuff we buy",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Advertising Cultures - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Advertising Cultures - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Marketing Cultures -1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Marketing Cultures -2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Ethnography and Fieldvisit - Visit Malls",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Organizational Anthropology - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Organizational Anthropology - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Organizational Anthropology - 3",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Capstone Project Sessions - 1",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Capstone Project Sessions - 2",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Capstone Project Sessions - 3",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Class Attendance": "10",
+    "and Fieldwork": "40",
+    "Presentation and Viva - Voce": "50",
+    "Resource Material": "Resource Material"
+  },
+  "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Name": "Business Anthropology",
+  "Course Code": "SOC206",
+  "Resource Material": {
+    "Textbook": "de Waal Malefyt, T., & Morais, R. J. (2013). Advertising and anthropology: ethnographic practice and cultural perspectives. A&C Black.",
+    "Reference Book": "Miller, D. (2010). Stuff. Polity."
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SOC206",
+  "Course Name": "Business Anthropology",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "How did experiences of sleeping in strangers’ homes lead to the creation of one of the world’s most successful online hospitality company - Airbnb? How did the idea of public space influence and lead to the creation of the world’s most successful coffee company - Starbucks? How does Youtube, the most significant pool of social and cultural data since the beginning of recorded communication use it to reveal more about us, humans and the society we live? Why do people buy what they buy? Do Malls have a hold on the consumers? Does Coca-Cola have the same meaning in all cultures? How does advertising influence your decision to buy? Do people buy products which speak to their cultural values? How is culture tied to consumption? How do companies mine your social media and online data for understanding your consumption patterns? Does Wall Street have its own culture? How does working in virtual teams affect the work culture and productivity of people? How do employees make use of organizational technology to shape Organizational culture? Does the idea of ‘Tribal Leadership’ by Zappos founder Tony Hsieh influence employees? All the above factors have cultural influences more than what we tend to acknowledge. In the recent past corporations have started using ethnography and anthropology to gain insights into marketing and organizations strategically. Exploring and deconstructing such cultural and social influences through both fieldwork and case studies (text and videos) with a sprinkling of anthropological theories is the primary intent of this course.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (Mandatory)",
+    "Desirable": "Pre-requisite (Desirable)",
+    "Other": "Pre-requisite (other)"
+  },
+  "Course Outcomes": {
+    "CO1": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape businesses today.",
+    "CO2": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger canvas.",
+    "CO3": "The learner would be able to apply knowledge gleaned from this course onto brands, businesses and organizations thus converting class material to practical insights.",
+    "CO4": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology and Business Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Consumption Culture - Understanding Stuff we buy",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Advertising Cultures - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Advertising Cultures - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Marketing Cultures -1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Marketing Cultures -2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Ethnography and Fieldvisit - Visit Malls",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Organizational Anthropology - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Organizational Anthropology - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Organizational Anthropology - 3",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+   
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SOC206",
+  "Course Name": "Business Anthropology",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "How did experiences of sleeping in strangers’ homes lead to the creation of one of the world’s most successful online hospitality company - Airbnb? How did the idea of public space influence and lead to the creation of the world’s most successful coffee company - Starbucks? How does Youtube, the most significant pool of social and cultural data since the beginning of recorded communication use it to reveal more about us, humans and the society we live? Why do people buy what they buy? Do Malls have a hold on the consumers? Does Coca-Cola have the same meaning in all cultures? How does advertising influence your decision to buy? Do people buy products which speak to their cultural values? How is culture tied to consumption? How do companies mine your social media and online data for understanding your consumption patterns? Does Wall Street have its own culture? How does working in virtual teams affect the work culture and productivity of people? How do employees make use of organizational technology to shape Organizational culture? Does the idea of ‘Tribal Leadership’ by Zappos founder Tony Hsieh influence employees? All the above factors have cultural influences more than what we tend to acknowledge. In the recent past corporations have started using ethnography and anthropology to gain insights into marketing and organizations strategically. Exploring and deconstructing such cultural and social influences through both fieldwork and case studies (text and videos) with a sprinkling of anthropological theories is the primary intent of this course.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (Mandatory)",
+    "Desirable": "Pre-requisite (Desirable)",
+    "Other": "Pre-requisite (other)"
+  },
+  "Course Outcomes": {
+    "CO1": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape businesses today.",
+    "CO2": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger canvas.",
+    "CO3": "The learner would be able to apply knowledge gleaned from this course onto brands, businesses and organizations thus converting class material to practical insights.",
+    "CO4": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology and Business Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Consumption Culture - Understanding Stuff we buy",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Advertising Cultures - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Advertising Cultures - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Marketing Cultures -1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Marketing Cultures -2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Ethnography and Fieldvisit - Visit Malls",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Organizational Anthropology - 1",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Organizational Anthropology - 2",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Organizational Anthropology - 3",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    }

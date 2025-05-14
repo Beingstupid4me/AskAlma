@@ -1,0 +1,170 @@
+{
+  "Course Code": "DES204",
+  "Course Name": "Human Computer Interaction",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide a detailed understanding of the fundamentals of human computer interaction including concepts of the user centered design, modern user interfaces, rapid prototyping, usability, and user evaluations.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": "Pre-requisites"
+  },
+  "Course Outcomes": {
+    "CO1": "Have a broad understanding of human computer interaction and latest technologies. Have understanding of perceptual and cognitive basis of human-computer interaction.",
+    "CO2": "Knowledge of user centered design and techniques for rapid prototyping.",
+    "CO3": "Knowledge of evaluating multiple interface alternatives,",
+    "CO4": "Using statistics to analyze data, preparing report to visually present the insights."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction (History) to HCI and Interaction Design Process",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Scientific Foundations, Concepts of Interaction",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Cognitive, Social, and Emotional Interaction",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Introduction to User Interfaces, Modern 2D interfaces",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "3D user Interfaces (Augmented and Virtual Realities)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Affective/Empathic Computing and Interaction",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Ideation and Design process, User Modelling, User Centered Design",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Rapid Prototyping",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Usability Testing Methods (Fitt's Law, Heuristics etc.), User Study Designs",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Quantitative and Qualitative Research Methods",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Statistics for HCI Tutorial using SPSS"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Case Studies",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Statistics for HCI Tutorial using SPSS"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Case Studies",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Student Presentations",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Assignment",
+      "% Contribution in Grade": 25
+    },
+    {
+      "Type of Evaluation": "Project",
+      "% Contribution in Grade": 40
+    },
+    {
+      "Type of Evaluation": "Mid-sem",
+      "% Contribution in Grade": 10
+    },
+    {
+      "Type of Evaluation": "End-sem",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type of Evaluation": "Class Participation",
+      "% Contribution in Grade": 5
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Reference",
+      "Title": "Human Computer Inreraction: An Empirical Research Perspective by I. Schott Mackenzie"
+    },
+    {
+      "Type": "Reference",
+      "Title": "Research Methods in Human-Computer Interaction, by Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser"
+    },
+    {
+      "Type": "Reference",
+      "Title": "3D User Interfaces: Theory and Practice (2nd Edition) (Usability) by Joseph J. LaViola Jr., Ernst Kruijff, Ryan P. McMahan, Doug Bowman, Ivan P. Poupyrev"
+    },
+    {
+      "Type": "Reference",
+      "Title": "Interaction Design: Beyond Human-Computer Interaction (4th Edition) by Jenny Preece, Helen Sharp, Yvonne Rogers"
+    }
+  ]
+}

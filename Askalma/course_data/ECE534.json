@@ -1,0 +1,99 @@
+{
+  "Course Code": "ECE534",
+  "Course Name": "Optical Communications Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "To introduce students to the fundamental principles of modern fiber-optic communication systems which include components and system design of optical fiber communication and apply these principles to calculate system performance. Topics include step-index fibers, graded-index fibers, fiber modes, single-mode fibers, multimode fibers, dispersion, loss mechanics, fiber fabrication, light-emission processes in semiconductors, light-emitting diodes, laser diodes, modulation response, source-fiber coupling, photo-detectors, receivers, receiver noise and sensitivity, system design, power budget and rise-time budget, Optical networks, wavelength division multiplexing (WDM) and coherent optical communications.",
+  "Prerequisites": {
+    "Mandatory": "ECE240 Principles of Communication Systems",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to analyze, compare the most important devices used in optical communications system: light sources, fibers and detectors from both physical and system point of view.",
+    "CO2": "Students are able to design digital fiber-optic links",
+    "CO3": "Students are able to perform fiber- optic communication system engineering calculations, identify system tradeoffs, and apply this knowledge to modern fiber optic systems.",
+    "CO4": "Students are able to get practical exposure to Optical Communication software tool that will help understand various trade-offs involved when designing an optical communication link."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1,2",
+      "Lecture Topic": "Evolution of Light wave systems, System components, Optical fibers, Step Index & Graded index Mode theory, Fiber modes",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Dispersion in fibers, Limitations due to dispersion, Dispersion shifted and dispersion flattened fibers, Fiber Losses and Non-linear effects",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Basic concepts, LED's structures, Spectral Distribution, Semiconductor lasers, Structures, Threshold Conditions, Transmitter design.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7-8",
+      "Lecture Topic": "Basic Concepts, PIN and APD diodes structures, Photo detector Noise, Signal impairments, Receiver design.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "2 Assignments and term paper"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Amplifiers: Basic concepts, Semiconductor optical amplifiers, Raman, Brillouin amplifiers, Erbium doped fiber amplifiers, pumping requirements, Cascaded in-line amplifiers.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "2 Assignments and term paper"
+    },
+    {
+      "Week": "10-11",
+      "Lecture Topic": "Power budget and banwidth limited point-to-point lightwave system, OSNR evaluation in high speed optical transmission systems, Dispersion Management, Nonlinearity management.",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "2 Assignments and term paper"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Basic coherent systems, Coherent detection principles, Homodyne and heterodyne detection,",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "2 Assignments and term paper"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "WDM Lightwave Systems, WDM Components, WDM System Performance Issues",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "2 Assignments and term paper"
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 25,
+    "Endsem": 45,
+    "Project": 20,
+    "Assignment": 10
+  },
+  "Resource Material": {
+    "Textbook": "G. Keiser, \"Optical Fiber Communication Systems\", McGraw Hill, New York 2000.",
+    "Reference Book": "John M. Senior, \u201cOptical Fiber Communications: Principles and Practice\u201d (second edition) Prentice Hall of India"
+  }
+}

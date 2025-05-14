@@ -1,0 +1,109 @@
+{
+  "Course Code": "MTH311",
+  "Course Name": "Combinatorics and its Applications",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "The aim of this course is to familiarize students with fundamental concepts in combinatorics, especially those used in enumeration. Topics covered include permutation groups, linear codes, Stirling and Bell numbers. Generating functions are introduced and their applications are discussed. Applications of group theory to enumeration: Burnside\u2019s Lemma and Polya\u2019s theory of counting are covered. Students are introduced to error correcting codes and linear codes over finite fields.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Math 1",
+      "Algebra"
+    ],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students develop familiarity with fundamental combinatorial objects that appear in other fields of mathematics and computer science.",
+    "CO2": "Students learn how to use combinatorial structures to represent mathematical problems and solve them.",
+    "CO3": "Given a hypothetical combinatorial object, students learn how to compute the number of such objects.",
+    "CO4": "Students learn to apply algebraic methods to solve combinatorial problems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introductory Ideas: Solving Linear Recurrences, generating functions, Fibonacci numbers, Stirling numbers of the second kind.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Formal Power Series, Bell Numbers, Catalan Numbers, Stirling numbers of the first kind.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Applications of generating functions to unlabeled counting: Integer Partitions, Money changing problem etc.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Permutation groups, symmetry groups, Burnside\u2019s lemma with applications to enumeration.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "The cycle index and Polya\u2019s theory of counting.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Error correcting codes, Linear Codes.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Quizzes",
+      "% Contribution in Grade": "0.2"
+    },
+    {
+      "Type of Evaluation": "Minor Test",
+      "% Contribution in Grade": "0.3"
+    },
+    {
+      "Type of Evaluation": "Major Test",
+      "% Contribution in Grade": "0.5"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": [
+      "H. Wilf: Generatingfunctionology",
+      "R.P. Stanley: Enumerative Combinatorics Vol. 1",
+      "J.H. van Lint and R.M. Wilson: A Course in Combinatorics.",
+      "Alan Tucker: Applied Combinatorics"
+    ]
+  }
+}

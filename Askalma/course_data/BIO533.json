@@ -1,0 +1,90 @@
+{
+  "Course Code": "BIO533",
+  "Course Name": "Systems and synthetic biology",
+  "Credits": 4,
+  "Course Offered to": "UG/PG - Core",
+  "Course Description": "This course introduces systems and synthetic biology to students with interest in applying mathematical techniques to biological problem. The main aim of this course is to train students to build mathematical models of complex biological systems and make predictions about the functions of the biological systems in-silico under various conditions. They will also learn conditions to build synthetic circuit in-silico to optimize its functions under various scenarios.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisites",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to analyze differential equations using geometric methods like vector fields in a line and phase plane analysis",
+    "CO2": "Students will construct simple biological models from small networks and classify the types of bifurcations the model exhibits",
+    "CO3": "Students can interpret the dynamics of the small network and relate the dynamics to functions",
+    "CO4": "Students will be able to write MATLAB codes to carry out differential equation simulations"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2-3",
+      "Lecture Topic": "(i) Introduction to ODE and vector field analysis in line (ii) Introduction to 1D -bifurcation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Assignment: ODE simulation using MATLAB and application of bifurcation to biological problems taken from journal papers"
+    },
+    {
+      "Week": "4-5-6",
+      "Lecture Topic": "(i) Introduction to 2D ODE and phase plane methods (ii) Introduction to bistablity and limit cycle oscillations (iii) Examples from biological systems",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Assignment: ODE simulation using MATLAB and application of bifurcation to biological problems taken from journal papers"
+    },
+    {
+      "Week": "7-8-9",
+      "Lecture Topic": "(i) Elements of Transcription Networks, Dynamics and Response Time of Simple Gene Circuits (ii) Autoregulation is a network Motif, response Time of Gene Circuits, robustness to fluctuations, Positive auto- regulation, cell-cell variability. | CO1,C02,CO3,CO4",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment: ODE simulation using MATLAB and problem solving"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "(i) Structure of the feed forward loop circuit, dynamics of the Coherent FFL with AND-Logic, Sign- sensitive delay element, Incoherent FFL, a pulse generator and response accelerator (ii)",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment: ODE simulation using MATLAB and application of bifurcation to biological problems taken from journal papers"
+    },
+    {
+      "Week": "11-12-13",
+      "Lecture Topic": "(i)Single-Input Module (SIM) Network Motif (ii) temporal Expression programs,Topological Generalizations of Network Motifs, Bi-Fans and dense-overlapping regulons , global Structure of Sensory transcription networks (ii) Networks motifs in developmental signal-transduction and neuronal networks : Network Motifs in Developmental Transcription Networks,Positive feedback loops and bistability motifs in Signal Transduction Networks, Negative Feedback and Oscillator. Neuronal Network of C. Elegans",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment given to understand how coding of proteins by various processes takes place. Mathematical model of Lac operon will be constructed and analyzed using MATLAB to understand switching processes in small gene networks"
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-sem": 15,
+    "End-sem": 25,
+    "Assignments": 20,
+    "Quiz": 20,
+    "Project": 20
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Strogatz, Steven, Nonlinear dynamics applied to physics, biology, chemistry and engineering",
+      "U. Alon, An introduction to systems biology."
+    ],
+    "Reference Book": [
+      "Strogatz, Steven, Nonlinear dynamics applied to physics, biology, chemistry and engineering",
+      "U. Alon, An introduction to systems biology."
+    ]
+  }
+}

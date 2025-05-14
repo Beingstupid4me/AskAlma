@@ -1,0 +1,89 @@
+{
+  "Course Code": "ECE536s",
+  "Course Name": "Optical Networking",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "To equip students with understanding of optical core networking systems. To study the architecture used in the networks and the different technologies used for optical core networks. Study the algorithms/schemes used for routing and wavelength assignment (RWA) and routing and spectrum allocation (RSA). Challenging issues in optical core networks.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Communication Networks"
+    ],
+    "Desirable": [
+      "Programming skills"
+    ],
+    "Other": [
+      "Data Structures & Algorithms"
+    ]
+  },
+  "Course Outcomes": [
+    "CO1: The students can understand the design principles of optical networks and propose suitable schemes/approaches for different planning and operational problems.",
+    "CO2: The students can formulate optimization problems for routing and wavelength assignment (RWA) / routing and spectrum allocation (RSA) approaches.",
+    "CO3: The students can simulate their proposed schemes/approaches and validate the simulation results.",
+    "CO4: The students can simulate their proposed schemes/approaches and validate the simulation results."
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to optical networks",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Programming Assignment 1"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Synchronous optical network (SONET)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Wavelength-division multiplexing (WDM) optical networks and their limitations",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Wavelength routing network",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Routing",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Programming Assignment 1"
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 20,
+    "Endsem": 30,
+    "Quiz": 10,
+    "Assignment": 10,
+    "Research paper presentation": 10
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Biswanath Mukherjee, Optical WDM Networks, Springer, 2006",
+      "R.Ramaswami, K.Sivarajan, G. Sasaki, Optical Networks- A Practical Perspective, 3rd Ed., Elsevier Publication, 2009.",
+      "Siva Ram Murthy, Mohan Gurusamy, WDM Optical Networks: concepts, Design, and Algorithms, Prentice\u2013Hall, 2002",
+      "Eiji Oki, Linear Programming and Algorithms for Communication Networks, Boca Raton, FL, USA: CRC Press, 2012 Pearson."
+    ],
+    "Reference Book": [
+      "Biswanath Mukherjee, Optical WDM Networks, Springer, 2006",
+      "R.Ramaswami, K.Sivarajan, G. Sasaki, Optical Networks- A Practical Perspective, 3rd Ed., Elsevier Publication, 2009.",
+      "Siva Ram Murthy, Mohan Gurusamy, WDM Optical Networks: concepts, Design, and Algorithms, Prentice\u2013Hall, 2002",
+      "Eiji Oki, Linear Programming and Algorithms for Communication Networks, Boca Raton, FL, USA: CRC Press, 2012 Pearson."
+    ]
+  }
+}

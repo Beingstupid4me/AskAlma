@@ -1,0 +1,166 @@
+{
+  "Course Code": "CSE655",
+  "Course Name": "Network Science",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The objective of this course is to provide introduction to network science, an emerging interdisciplinary discipline with applications to vario",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "Graph theory fundamentals, algorithms and programming (Desirable)",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain basic concepts of network science (random networks, scale free networks, network evolution, robustness and community structure).",
+    "CO2": "Students are able to model and implement computation of network properties from empirical data.",
+    "CO3": "Students are able to analyze and visualize networks.",
+    "CO4": "Students are able to tweak and design algorithms to answer specific questions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Complex systems and network models, Characteristics of network science, Societal impact, Examples of applications",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "3 hours (Homework)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Graph Theory: Graph theory and origin of networks, Adjacency matrix, Weighted Networks, Bipartite networks, Network Metrics",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Graph Theory: Paths and distances, Connectedness, Clustering Coefficient",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Homework + Assignment-1)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Random networks: Random network model, Degree distribution, Small worlds",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "The Scale-Free Property-I: Power laws and scale-free networks, Hubs, The meaning of scale free, Ultra-small property",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "The Scale-Free Property-II: Role of degree exponent, Generating networks with arbitrary degree exponents",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "3+2 hours (Homework + Assignment-2)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "The Barabasi-Albert Model-I: Growth and preferrential attachment, The Barabasi-Albert model, Measuring preferrential attachment.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "The Barabasi-Albert Model-II: Non-linear preferrential attachment, The origins of preferrential attachment, | CO1, CO2, CO3, CO4",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "3+2 hours (Homework + Mini Project)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Evolving Networks: The Bianconi-Barabasi model, Measuring fitness, Bose-Einstein condensation, Evolving networks",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Degree Correlations: Assortativity and disassortativity, Measuring degree correlations, Generating correlated networks, The impact of degree correlations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Network Robustness: Percolation theory, Robustness of scale-free networks, Attack tolerence, Cascading failures, Modeling cascading failures, Building robustness",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Communities: Basics of communities, Hierarchical clustering, Modularity, Overlapping communities, Testing communities, Characterizing communities",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Homework)"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Spreading phenomena: Epidemic Modeling, Network epidemics, Contact networks, Beyond degree distribution, Immunization, Epidemic prediction",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "3+2 hours (Mini-Project Presentations)"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Midsem",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "Assignments",
+      "% Contribution in Grade": "30"
+    },
+    {
+      "Type of Evaluation": "Mini-Project",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "Endsem",
+      "% Contribution in Grade": "30"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Network Science, Albert-Laszlo Barabasi (Cambridge University Press)",
+    "Reference Book": "Network Science, Albert-Laszlo Barabasi (Cambridge University Press)"
+  }
+}

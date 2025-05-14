@@ -1,0 +1,376 @@
+--- LLM RAW OUTPUT ---
+<think>
+Okay, so I need to extract information from this provided text and structure it into a specific JSON format. The user has given me a detailed example of how they want the JSON structured, so I should follow that closely.
+
+First, I'll go through each section one by one as outlined in their JSON template. Let's start with "Course Code" and "Course Name". Looking at the table, I see rows where these are specified. For example, row 3 has Course Offered to as UG, but the course name is in row 2. So I'll take the value from row 1 which is SOC202.
+
+Next, "Credits" should be extracted from row 3 of the table, which is 4. It's straightforward here since it's a number.
+
+Moving on to "Course Offered to", that seems to be UG as per row 4.
+
+For "Course Description", I need to find where this information is. Scanning through the rows, I see that in row 5 and onwards, there are detailed descriptions. It looks like the description spans multiple paragraphs, so I'll include all of them verbatim as provided.
+
+Now, for "Prerequisites", it's a bit more involved. The table has columns labeled "Mandatory", "Desirable", and "Other". From rows 8 to 29, there are entries under these categories. However, most of the rows have placeholders or empty strings. I'll need to extract only those that have actual prerequisites. For example, row 10 says "Pre-requisite (Desirable)", which might be a placeholder for future data.
+
+Next is "Course Outcomes". In the table, COs are listed from CO1 to CO5 in rows 11 and onwards. Each CO has a description starting from row 12. I'll need to map each CO number to its corresponding description. For instance, CO1 corresponds to the first paragraph under it.
+
+For "Weekly Lecture Plan", this section requires creating an array of objects. Each week's entry includes Week Number, Lecture Topic, COs Met, and Assignment/Labs/Tutorial. Scanning through rows 14 to 28, I can extract each week's details. Some weeks have assignments listed, others don't, so I'll make sure to include only the relevant information.
+
+The "Assessment Plan" section includes quiz exams, midsem, homework, and endsem percentages. From row 37 onwards, there are evaluation types with their respective percentages. I'll map these accordingly, ensuring that each assessment type is correctly assigned its percentage contribution.
+
+Lastly, "Resource Material" has two keys: Textbook and Reference Book. Looking at the table, rows 46 to 50 list various textbooks. I'll extract the book titles for both categories.
+
+I need to ensure that all missing values are handled gracefully, possibly by using empty strings or nulls where necessary. Also, making sure that numeric values like credits remain as numbers and others like quiz exams are correctly formatted.
+
+Now, putting it all together into the JSON structure without any markdown or additional explanations.
+</think>
+
+```json
+{
+  "Course Code": "SOC202",
+  "Course Name": "Contemporary India: Sociological Perspective",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will systematically familiarize students with some of the important vignettes of a complex and highly diverse country–India. Using a historically contextualized approach to understand the shaping of ‘contemporary’, this course will provide an overview of the functioning and transformation of India in the face of global social change. Grounded in sociology but drawing upon recent developments in the other social sciences as well, this course will critically examine the transformations in India’s social, cultural, political, economic and technological realms and will critically interrogate the developmental issues and fault lines facing Indian society both from the vantage point of contemporary and indigenous sociological theory. This course will systematically familiarize students with some of the important vignettes of a complex and highly diverse country–India. Using a historically contextualized approach to understand the shaping of ‘contemporary’, this course will provide an overview of the functioning and transformation of India in the face of global social change. Grounded in sociology but drawing upon recent developments in the other social sciences as well, this course will critically examine the transformations in India’s social, cultural, political, economic and technological realms and will critically interrogate the developmental issues and fault lines facing Indian society both from the vantage point of contemporary and indigenous sociological theory.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to analytically examine the social foundations of Indian society.",
+    "CO2": "The students will be able to understand the wide socio-cultural diversity in India and comprehend how these diversities may inform the lived experiences of various segments of the population divided on the basis of caste, class, ethnicity, age, gender and religion.",
+    "CO3": "The students will be able to interrogate the changes in Indian society in the era of globalization and rapid economic change.",
+    "CO4": "The students will be able to assess and interpret the social impact of media and digital culture in shaping up the dynamics of Indian society",
+    "CO5": "The students will be able to critically examine the inherent tensions and negotiation involved in the process of development."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introducing India: Historical Overview and Population Profile",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Themes and Approaches",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Social Institutions: Structure and Changes-I",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Social Institutions: Structure and Changes-II",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Forms of Social Stratification and Social Mobility",
+      "COs Met": ["CO2", "CO3", "CO5"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Politics of Inclusion/Exclusion",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Indian Economy: Historical Overview and Regional Disparities",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Development Indicators",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Popular Culture and Mass Media- I",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Popular Culture and Mass Media- II",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Technologies and Development-I",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Technologies and Development-II",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Summing up and Review",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 20,
+    "Midsem": 20,
+    "HW assignments": 30,
+    "Endsem": 20
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Ganguly, Sumit and Neil deVotta (eds) 2003, Understanding Contemporary India, Delhi, Viva Books",
+      "Bhargave, Rajeev and Achin Vanaik, 2010, Understanding Contemporary India, Hyderabad, Orient Blackswan.",
+      "Dreze Jean and Amartya Sen, 1995, India: Economic Development and Social Opportunity, Oxford University Press, New Delhi.",
+      "Priyadarshi Praveen and Neera Chandhoke, 2009, Contemporary India: Economy, Society and Politics, New Delhi, Pearson Publishers"
+    ],
+    "Reference Book": ""
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SOC202",
+  "Course Name": "Contemporary India: Sociological Perspective",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course will systematically familiarize students with some of the important vignettes of a complex and highly diverse country–India. Using a historically contextualized approach to understand the shaping of 'contemporary', this course will provide an overview of the functioning and transformation of India in the face of global social change. Grounded in sociology but drawing upon recent developments in the other social sciences as well, this course will critically examine the transformations in India’s social, cultural, political, economic and technological realms and will critically interrogate the developmental issues and fault lines facing Indian society both from the vantage point of contemporary and indigenous sociological theory.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to analytically examine the social foundations of Indian society.",
+    "CO2": "The students will be able to understand the wide socio-cultural diversity in India and comprehend how these diversities may inform the lived experiences of various segments of the population divided on the basis of caste, class, ethnicity, age, gender and religion.",
+    "CO3": "The students will be able to interrogate the changes in Indian society in the era of globalization and rapid economic change.",
+    "CO4": "The students will be able to assess and interpret the social impact of media and digital culture in shaping up the dynamics of Indian society",
+    "CO5": "The students will be able to critically examine the inherent tensions and negotiation involved in the process of development."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introducing India: Historical Overview and Population Profile",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Themes and Approaches",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Social Institutions: Structure and Changes-I",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Social Institutions: Structure and Changes-II",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Forms of Social Stratification and Social Mobility",
+      "COs Met": ["CO2", "CO3", "CO5"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Politics of Inclusion/Exclusion",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Indian Economy: Historical Overview and Regional Disparities",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Development Indicators",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Popular Culture and Mass Media- I",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Popular Culture and Mass Media- II",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Technologies and Development-I",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Technologies and Development-II",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Summing up and Review",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": ["Quiz 1", "Quiz 2"],
+    "Midsem": "Mid Semester Exam",
+    "HW assignments": ["Assignment 1", "Assignment 2", "Assignment 3"],
+    "Endsem": "End Semester Exam"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Understanding Contemporary India, Delhi, Viva Books" by Ganguly, Sumit and Neil deVotta,
+      "Understanding Contemporary India, Hyderabad, Orient Blackswan." by Bhargave, Rajeev and Achin Vanaik,
+      "India: Economic Development and Social Opportunity, Oxford University Press, New Delhi." by Dreze Jean and Amartya Sen,
+      "Contemporary India: Economy, Society and Politics, New Delhi, Pearson Publishers" by Priyadarshi Praveen and Neera Chandhoke"
+    ],
+    "Reference Book": ""
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SOC202",
+  "Course Name": "Contemporary India: Sociological Perspective",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course will systematically familiarize students with some of the important vignettes of a complex and highly diverse country–India. Using a historically contextualized approach to understand the shaping of 'contemporary', this course will provide an overview of the functioning and transformation of India in the face of global social change. Grounded in sociology but drawing upon recent developments in the other social sciences as well, this course will critically examine the transformations in India’s social, cultural, political, economic and technological realms and will critically interrogate the developmental issues and fault lines facing Indian society both from the vantage point of contemporary and indigenous sociological theory.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to analytically examine the social foundations of Indian society.",
+    "CO2": "The students will be able to understand the wide socio-cultural diversity in India and comprehend how these diversities may inform the lived experiences of various segments of the population divided on the basis of caste, class, ethnicity, age, gender and religion.",
+    "CO3": "The students will be able to interrogate the changes in Indian society in the era of globalization and rapid economic change.",
+    "CO4": "The students will be able to assess and interpret the social impact of media and digital culture in shaping up the dynamics of Indian society",
+    "CO5": "The students will be able to critically examine the inherent tensions and negotiation involved in the process of development."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introducing India: Historical Overview and Population Profile",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Themes and Approaches",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Social Institutions: Structure and Changes-I",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Social Institutions: Structure and Changes-II",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Forms of Social Stratification and Social Mobility",
+      "COs Met": ["CO2", "CO3", "CO5"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Politics of Inclusion/Exclusion",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Indian Economy: Historical Overview and Regional Disparities",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Development Indicators",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Popular Culture and Mass Media- I",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Popular Culture and Mass Media- II",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Technologies and Development-I",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Technologies and Development-II",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Summing up and Review",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": ["Quiz 1", "Quiz 2"],
+    "Midsem": "Mid Semester Exam",
+    "HW assignments": ["Assignment 1", "Assignment 2", "Assignment 3"],
+    "Endsem": "End Semester Exam"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Understanding Contemporary India, Delhi, Viva Books" by Ganguly, Sumit and Neil deVotta,
+      "Understanding Contemporary India, Hyderabad, Orient Blackswan." by Bhargave, Rajeev and Achin Vanaik,
+      "India: Economic Development and Social Opportunity, Oxford University Press, New Delhi." by Dreze Jean and Amartya Sen,
+      "Contemporary India: Economy, Society and Politics, New Delhi, Pearson Publishers" by Priyadarshi Praveen and Neera Chandhoke"
+    ],
+    "Reference Book": ""
+  }
+}

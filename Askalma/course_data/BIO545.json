@@ -1,0 +1,147 @@
+{
+  "Course Code": "BIO545",
+  "Course Name": "BIOSTATISTICS",
+  "Credits": 4,
+  "Course Offered to": "Elective (B-Tech and M-Tech, All branches)",
+  "Course Description": "The main aim of this elective course is to provide students a good background in Quantitative Biology and enabling them to implement various statistical methods in analyzing biological data and its visualization. The course will also provide basic introduction of applied biostatistics.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Basic Biology knowledge"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students develop skills to solve statistical problem related to biological queries",
+    "CO2": "Students develop skills to summarise theoretical and quantitative concepts of Mendalian/non-Mendalians, GWAS, eQTl etc",
+    "CO3": "Student develop skills to solve quantitative problem of population genetics",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Sampling methods and Sample size determination, Statistical Epidemiology",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Longitudinal Data Analysis, Categorical Data Analysis",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Time to event data analysis, Clinical Trials",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Quantitative Genetics: Relationship between genotype and phenotype, Types of Quantitative Characteristics, Nilsson-Ehle\u2019s cross",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Determining Gene Number for a Polygenic Characteristic. Statistical Methods Required for Analyzing Quantitative Characteristics.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Phenotypic and Genotypic Variance, Calculating Heratibility. Locating Genes That Affect Quantitative Characteristics, Genomewide Association Studies.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Genetically Variable Traits Change in Response to Selection",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Predicting the Response to Selection",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Quantitative expect of Horizontal Gene Transfer",
+      "COs Met": [
+        "CO1",
+        "C02"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Introduction to Population genetics",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Hardy-Weinberg law, its implications and its extensions.",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Estimation of Genomic or Allelic Frequencies with the Hardy-Weinberg Law",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Quantitative aspect of Mendalian and non-mendalian Genetics",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Programming-based numerical solutions."
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 30,
+    "Endsem": 30,
+    "Assignments": 20,
+    "Quiz": 20
+  },
+  "Resource Material": {
+    "Textbook": "B. Pierce, Genetics: A conceptual approach",
+    "Reference Book": "Principles and Practice of Biostatistics - by B Antonisamy"
+  }
+}

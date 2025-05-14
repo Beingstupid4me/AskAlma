@@ -1,0 +1,142 @@
+{
+  "Course Code": "ECE 214",
+  "Course Name": "Integrated Electronics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course focuses on building the ability to analyze and design electronic circuits. This course starts with an overview of semiconductor technology. Subsequently it covers Bipolar Junction Transistor (BJT), Small Signal BJT models, BJT based amplifiers, Metal Oxide Field Effect Transistors (MOSFET), Small Signal MOS models, MOSFET based amplifiers; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE111/ECE111 Digital Circuits"
+    ],
+    "Desirable": null,
+    "Other": [
+      "DES130 Intro. Engg. Design"
+    ]
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Derive small signal model for BJT and MOSFET"
+    },
+    {
+      "CO2": "Apply appropriate biasing techniques to BJT & MOSFETs"
+    },
+    {
+      "CO3": "Apply single, multi-stage and power amplifier circuits"
+    },
+    {
+      "CO4": "Analyze CMOS digital logic circuits"
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Active devices and their controlled source models",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Reading Assignment"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Bipolar Junction Transistor (BJT), Metal Oxide Semiconductor Field Effect Transistor (MOSFET)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Lab &Written Assignment on Circuit analysis (KCL, KVL)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "BJT & MOS Small Signal Models",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Lab &Written Assignment on Circuit analysis (Small signal model)"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "BJT & MOS Small Signal Models",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Lab &Written Assignment on Circuit analysis (Small signal model)"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Biasing Techniques",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Lab &Written Assignment on Circuit analysis (Small signal model)"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Single stage Amplifiers",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Lab &Written Assignment on transistor biasing"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Cascode Amplifier, Differential Amplifiers, Simple Op-Amp",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Lab &Written Assignment on amplifier design"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Power Amplifier \u2013 Small-signal vs Large- signal behaviour of amplifiers; Power amplifier requirements \u2013 Power Output & Efficiency; Power amplifier using OPAMP and transistors.",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Lab &Written Assignment on power amplifier design"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Power Amplifier \u2013 Small-signal vs Large- signal behaviour of amplifiers; Power amplifier requirements \u2013 Power Output & Efficiency; Power amplifier using OPAMP and transistors.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Lab &Written Assignment on power amplifier design"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "TTL & CMOS Inverter Circuit analysis",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Lab &Written Assignment on power amplifier"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Digital CMOS Logic Circuits",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Lab &Written Assignment on CMOS logic design"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Memory and Advanced Digital Circuits",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "Quiz | 10",
+    "Midsem": "Mid-sem | 30",
+    "HW assignments": "Assignment | 10",
+    "Endsem": "Endsem | 30",
+    "LAB": "LAB | 20"
+  },
+  "Resource Material": {
+    "Textbook": "Microelectronic Circuits 6th Edition, Adel Sedra, Kenneth Smith, Oxford University Press.",
+    "Reference Book": "Foundations of Analog and Digital Electronics Circuits Anant Agarwal and Jeffrey H. Lang,"
+  }
+}

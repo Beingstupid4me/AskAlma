@@ -1,0 +1,118 @@
+{
+  "Course Code": "CSE525",
+  "Course Name": "Graduate Algorithms",
+  "Credits": 4,
+  "Course Offered to": "PG",
+  "Course Description": "This course is an advanced form of an introductory algorithms course, and is meant to have a thorough grounding in core Algorithms required for pursuing PG degree in Computer Science. The course covers topics such as asymptotic notation, recurrence relation, graph algorithms, heaps, dynamic programming, greedy algorithms, divide and conquer, NP-completeness where the UG contents of each topic is first reviewed in a fast-paced manner, and is followed by some advanced content.",
+  "Prerequisites": {
+    "Mandatory": "Undergraduate Algorithms",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to design and analyse algorithms using techniques like divide and conquer, greedy and dynamic programming.",
+    "CO2": "Students are able to use standard data structures like heaps, trees and graphs for designing algorithms.",
+    "CO3": "Students are able to prove NP- completeness of problems using reductions.",
+    "CO4": "Students are able to state modern techniques to handle intractable problems like randomization, approximation, backtracking search."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review: Discrete mathematics",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Data structures: Heap, Hash table, Disjoint-set",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Greedy Algorithm",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Divide and conquer",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Dynamic programming",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Dynamic programming",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Graph Algorithms",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "NP-completeness",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "NP-completeness",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Modern techniques for intracatable problems",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Modern techniques for intracatable problems",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "10",
+    "Midsem": "30",
+    "HW assignments": "",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": "Fundamentals of Algorithmics by Gilles Brassard & Paul Bratley (PHI)",
+    "Reference Book": "Introduction to Algorithms by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen (MIT Press)"
+  }
+}

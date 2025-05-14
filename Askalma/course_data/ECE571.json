@@ -1,0 +1,36 @@
+{
+  "Course Code": "ECE571",
+  "Course Name": "Optimal Control Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Optimal control systems is a topic that is widely used in several fields\u2019 like transportation, aerospace bio-informatics and economics. The goal of this course is to provide advanced knowledge in formulating an optimal control problem, analyzing its properties and then solving the problem using various linear and nonlinear optimization based techniques. The course is theoretical but has implementation and problem solving components.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (Mandatory)",
+    "Desirable": "Pre-requisite (Desirable)",
+    "Other": "Pre-requisite(other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Formulate an optimal control problem for different performance indices",
+    "CO2": "Analyze the optimal control problem using variational approach and Pontryagin minimum principal",
+    "CO3": "Solve optimal control problems using various open source solvers"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction \u2013 optimization, optimal control performance index",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment"
+    }
+  ],
+  "Assessment Plan": {
+    "Homework": 20,
+    "Mid-sem": 40,
+    "End-sem": 40
+  },
+  "Resource Material": {
+    "Textbook": "Optimal control systems by Desinenu Subbram Naidu, CRC Press, 2009.",
+    "Reference": "Optimal control theory: An introduction, Donald E. Kirk"
+  }
+}

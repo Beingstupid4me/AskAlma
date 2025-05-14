@@ -1,0 +1,181 @@
+{
+  "Course Code": "SOC313/SOC503",
+  "Course Name": "Sociology of India: Themes and Perspectives",
+  "Credits": "4",
+  "Course Offered to": "PhD/UG",
+  "Course Description": "This course will equip students with an understanding of the foundations, contemporary debates and relevant themes of Sociology and Social Anthropology in India. It seeks to familiarise students with the discipline as a pre-requirement to doing research in Sociology/Social Anthropology. With this main objective in mind, the course is broadly divided in two parts: the first part engages with the debatessurrounding, theory, approaches, methods, contextualisation, refexivity and so on in Sociology. The second part, introduces key themes in Sociology and Social Anthropology. By the end of the course, the students will be able to develop agrounding in Sociology and use it to envision their own research.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "PhD/UG",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "To identify various Sociological Concepts, Themes and Traditions",
+    "CO2": "To contextually situate sociological knowledge and research",
+    "CO3": "To develop a relevance of reflexivity and contextualisation",
+    "CO4": "To apply a critical analytical lens to studying various themes in Sociology",
+    "CO5": "To construct an independent critical-reflexive approach towrads research problems"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction: Doing Sociology in India",
+      "COs Met": [
+        "CO-1",
+        "CO-2"
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Many Sociologies: Sociology in India and the World",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-3",
+        ""
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Theory, Approaches and Method",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-3"
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Reflexivity, Experience and Contextualisation",
+      "COs Met": [
+        "CO-2",
+        "CO-3"
+      ],
+      "Assignments": "Response Paper"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Themes in Sociology: Caste",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Themes in Sociology: Class",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Commentary"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Themes in Sociology: Gender and Sexuality",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Themes in Sociology: Tribes",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Themes in Sociology: Religion",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Response Paper"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Themes in Sociology: Social Relations and Social Structure",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Themes in Sociology: Social Institutions",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Term Paper"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Themes in Sociology: Social Stratification and Inequality",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Review and Revision",
+      "COs Met": [
+        "CO-1",
+        "CO-2",
+        "CO-4",
+        "CO-5"
+      ],
+      "Assignments": "Presentations"
+    }
+  ],
+  "Assessment Plan": {
+    "Term Paper": "30%",
+    "Presentations": "20%",
+    "Commentary": "20%",
+    "Response Paper": "20%",
+    "Class Discussions": "10%",
+    "Teaching Resources": [
+      "Veena das (Ed.), (2004), Oxford Handbook of Indian Sociology. New Delhi: Oxford University Press.",
+      "Yogendra Singh (Ed) (2014) Indian Sociology: Identity,Communication and Culture",
+      "Yogendra Singh (Ed) (2014) Indian Sociology: Emerging Concepts, Structure and Change",
+      "Yogendra Singh (Ed) (2014) Indian Sociology: Development and Change",
+      "Sujata Patel (Ed) (2010) The ISA Handbook of Diverse Sociological Traditions",
+      "T.N. Madan (2011) Sociological Traditions: Methods and Perspectives in the Sociology of India",
+      "Guru, G., & Sarukkai, S. (2018). The cracked mirror: An Indian debate on experience and theory. Oxford University Press.",
+      "Rege, S. (Ed.). (2003). Sociology of gender: The challenge of feminist sociological thought.",
+      "Srivastava, S., Arif, Y., & Abraham, J. (Eds.). (2018). Critical Themes in Indian Sociology."
+    ]
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": ""
+  }
+}

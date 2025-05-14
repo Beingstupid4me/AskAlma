@@ -1,0 +1,195 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, so I need to extract information from the provided text and structure it into a JSON format as specified. Let me go through each section step by step.
+
+First, looking at the Course Code and Name. The table mentions "ESC205A- Environmental Sciences" in row 1 of Table1. So that's straightforward.
+
+Next, Credits: In row 2 under Credits, it says "Credits: 2". I'll need to extract this as a number since credits are typically numerical.
+
+Prerequisites and Post Conditions aren't explicitly listed, but the description mentions no pre-requisites required. For Prerequisites, maybe an empty array would be appropriate. Post Condition is also described in row 5-8, so perhaps that's another section I'll need to include later if it's structured properly.
+
+Moving on to Course Outcomes (COs). In rows 6 and onwards, each CO is listed with "CO1", "CO2", etc., up to CO4. So I can create an array of these strings.
+
+The Weekly Lecture Plan starts at row 9. Each week has a topic covered and COs met. For example, Week 1 covers topics related to Sustainable Development and meets CO1 and CO2. Assignments are mentioned as project work based on field visits. I'll need to structure each week's plan with its details.
+
+Assessment Plan includes Midterm Exam (20%), Assignments and Quiz (20%), Project Work (30%), and Major Exam (30%). These can be listed as key-value pairs in the Assessment section.
+
+Resource Material has Textbook and Reference Book. From row 28, the textbooks are listed as Gilbert M. M. and Wendell E.'s book, and Canter L.W.'s Environmental Impact Assessment.
+
+I need to ensure that all fields are correctly mapped, using appropriate data types—numbers where possible, arrays for lists, etc. Also, handling any missing values by using null or empty strings if necessary.
+</think>
+
+```json
+{
+  "Course Code": "ESC205A-Environmental Sciences",
+  "Course Name": "Environmental Science and Sustainable Development",
+  "Credits": 2,
+  "Course Offered to": null,
+  "Course Description": null,
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": ["CO1", "CO2", "CO3", "CO4"],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Environmental Science and Sustainable Development - Earth, Man and environment, ecosystem, pathways in ecosystem; Physic-Chemical and Biological factors in the environment. Concepts and principles of Sustainable Development",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "1.5 | 1 (project work based on field visit)*"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Ecology and Biodiversity - Structure & functions of ecosystem, biodiversity and it’s conservation",
+      "COs Met": ["CO3"],
+      "Assignments": "1.5"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Natural Resources – Forest resources, water resources, energy resources, land resources and mineral resources",
+      "COs Met": ["CO4"],
+      "Assignments": "1.5"
+    },
+    {
+      "Week": 4-5,
+      "Lecture Topic": "Air quality management – air pollution sources, air pollution & health impacts and air pollution control and management",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "3 | Case study"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Water quality management – water pollution, water and wastewater treatment and management",
+      "COs Met": ["CO1"],
+      "Assignments": "1.5"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Solid and hazardous waste management – types of waste, health and environmental issues and waste management",
+      "COs Met": ["CO3"],
+      "Assignments": "1.5 | Quiz"
+    },
+    {
+      "Week": 7-8,
+      "Lecture Topic": "Environmental Management System - ISO 14000 series and ISO 14001, environmental policy, environmental performance evaluation, ecolabelling and corporate social responsibility",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "3 | Case study"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Energy and Environment – Renewable and non-renewable sources of energy and its impact on human health and environment",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "1.5 | Field visit*"
+    },
+    {
+      "Week": 10-11,
+      "Lecture Topic": "Environmental Decision Making Tools - Environmental impact assessment, Environmental risk assessment, Monitoring and evaluation technique, Life cycle assessment and Environmental modelling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "3 | Case study based learning"
+    },
+    {
+      "Week": 12-13,
+      "Lecture Topic": "Contemporary Environmental Issues - Rain water harvesting, global warming and climatic change, climate vulnerability, carbon/ecological footprints, green economy and sustainable urbanism",
+      "COs Met": ["CO4"],
+      "Assignments": "1.5 | Tutorial (assessment of carbon foot-prints - hands-on)"
+    }
+  ],
+  "Assessment Plan": {
+    "Midterm Exam": 20,
+    "Assignments and Quiz": 20,
+    "Project Work (based on field visit)": 30,
+    "Major Exam": 30
+  },
+  "Resource Material": {
+    "Textbook": "1. Gilbert M. M. and Wendell E. (2008). Introduction to environmental engineering and science, Prentice Hall, 2008",
+    "Reference Book": "2. Canter L.W. (1996) Environmental Impact Assessment, 2nd Edn. New York, McGraw Hill."
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ESC205A-Environmental Sciences",
+  "Course Name": "Environmental Science and Sustainable Development",
+  "Credits": 2,
+  "Course Offered to": null,
+  "Course Description": null,
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": ["CO1", "CO2", "CO3", "CO4"],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Environmental Science and Sustainable Development - Earth, Man and environment, ecosystem, pathways in ecosystem; Physic-Chemical and Biological factors in the environment. Concepts and principles of Sustainable Development",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "1.5 | 1 (project work based on field visit)*"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Ecology and Biodiversity - Structure & functions of ecosystem, biodiversity and it’s conservation",
+      "COs Met": ["CO3"],
+      "Assignments": "1.5"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Natural Resources – Forest resources, water resources, energy resources, land resources and mineral resources",
+      "COs Met": ["CO4"],
+      "Assignments": "1.5"
+    },
+    {
+      "Week": 4-5,
+      "Lecture Topic": "Air quality management – air pollution sources, air pollution & health impacts and air pollution control and management",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "3 | Case study"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Water quality management – water pollution, water and wastewater treatment and management",
+      "COs Met": ["CO1"],
+      "Assignments": "1.5"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Solid and hazardous waste management – types of waste, health and environmental issues and waste management",
+      "COs Met": ["CO3"],
+      "Assignments": "1.5 | Quiz"
+    },
+    {
+      "Week": 7-8,
+      "Lecture Topic": "Environmental Management System - ISO 14000 series and ISO 14001, environmental policy, environmental performance evaluation, ecolabelling and corporate social responsibility",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "3 | Case study"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Energy and Environment – Renewable and non-renewable sources of energy and its impact on human health and environment",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "1.5 | Field visit*"
+    },
+    {
+      "Week": 10-11,
+      "Lecture Topic": "Environmental Decision Making Tools - Environmental impact assessment, Environmental risk assessment, Monitoring and evaluation technique, Life cycle assessment and Environmental modelling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "3 | Case study based learning"
+    },
+    {
+      "Week": 12-13,
+      "Lecture Topic": "Contemporary Environmental Issues - Rain water harvesting, global warming and climatic change, climate vulnerability, carbon/ecological footprints, green economy and sustainable urbanism",
+      "COs Met": ["CO4"],
+      "Assignments": "1.5 | Tutorial (assessment of carbon foot-prints - hands-on)"
+    }
+  ],
+  "Assessment Plan": {
+    "Midterm Exam": 20,
+    "Assignments and Quiz": 20,
+    "Project Work (based on field visit)": 30,
+    "Major Exam": 30
+  },
+  "Resource Material": {
+    "Textbook": "1. Gilbert M. M. and Wendell E. (2008). Introduction to environmental engineering and science, Prentice Hall, 2008",
+    "Reference Book": "2. Canter L.W. (1996) Environmental Impact Assessment, 2nd Edn. New York, McGraw Hill."
+  }
+}

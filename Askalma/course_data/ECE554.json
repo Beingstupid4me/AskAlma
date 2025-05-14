@@ -1,0 +1,182 @@
+{
+  "Course Code": "ECE 554",
+  "Course Name": "Compressed Sensing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is a senior UG / PG level course on Compressed Sensing. Compressed Sensing (CS) is most talked about topic in signal processing today and is taught in all the top universities across the world. CS is the study of under-determined linear inverse problems where the solution is typically a lower dimensional many fold embedded in a higher dimensional space. The most prominent examples being - a sparse solution or a low-rank solution. Today compressed sensing permeates not only signal processing and applied maths but also encompasses a variety of topics in machine learning and computer vision. This course is open to both CS and ECE students.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100 Maths I"
+    ],
+    "Desirable": [
+      "Linear Algebra",
+      "Probability",
+      "Statistics",
+      "Signals and Systems",
+      "Optimization"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to model physical problems (related to CS).",
+    "CO2": "Students are able to implement CS algorithms in applications.",
+    "CO3": null,
+    "CO4": "Students are able to understand and present current research papers published in top-tier journals and conferences.",
+    "CO5": "Students are able to advanced project work in this area."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Some Fundamentals of Functional Analysis & Linear Inverse Problems",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#1: Linear Inverse Problems"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Compressed Sensing: Theory & Workshop on Linear Algebra Tools",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#1: Linear Inverse Problems"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Compressed Sensing Algorithms - Optimization",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Compressed Sensing Algorithms - Greedy",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#2: Algorithms"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Applications - Machine Learning & Signal Processing",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Structured Sparsity",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#3: Application"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Low-rank Matrix Recovery - Theory and Applications",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Low-rank Matrix Recovery - Algorithms (factorization and completion)",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#4: Matrix completion"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Dictionary Learning Algorithms & Applications in inverse problems",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#5: Dictionary Learning"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Supervised Dictionary Learning",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Transform Learning",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#6: Transform Learning"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Student Paper Presentations",
+      "COURSEs MET": [
+        "CO3"
+      ]
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Student Project Presentations",
+      "COURSEs MET": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz#6: Transform Learning"
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": [
+      "Quiz",
+      "Mid-sem",
+      "End-sem",
+      "Project",
+      "Resource Material"
+    ],
+    "Quiz": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "Mid-sem": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "End-sem": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "Project": [
+      40,
+      40,
+      40,
+      40
+    ]
+  },
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "ECE 554"
+    },
+    {
+      "Type": "Reference",
+      "Title": "Sparse and redundant representation - Michael Elad"
+    }
+  ]
+}

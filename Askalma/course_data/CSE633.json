@@ -1,0 +1,97 @@
+{
+  "Course Code": "ECE 670/CSE 633",
+  "Course Name": "Robotics",
+  "Credits": 4,
+  "Course Offered to": [
+    "UG",
+    "PG"
+  ],
+  "Course Description": "This course will provide a comprehensive knowledge in robotics from theory to implementation. The course will cover fundamental concepts related to mathematical modelling, path planning and control of various robotic systems including robot manipulators, ground robots and drones. We will use several software platforms like Simulink, Matlab Robotics Toolbox, ROS and Gezebo for simulations and projects. Further hardware demos will be shown using Qbot 2e (ground robot), 3dr solo (drone) and rotary inverted pendulum (robot arm) available in control lab.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Basic familiarity with concepts of Linear Algebra"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Explain the Physical behaviour (working principles) of several robotics systems",
+    "CO2": "Develop a solid foundation in path and trajectory planning algorithms",
+    "CO3": "Utilise stability theory and controller design methods for robots",
+    "CO4": "Implement computer programs to simulate and actuate robot's behaviour"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to robotic systems (manipulator, ground robot, drone etc.), overview of robotics engineering : modelling, planning and control",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Mathematical Modelling - Coordinate transformation, rigid body representation",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "manipulators : forward kinematics, inverse kinematics, velocity kinematics",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Euler-Lagrange and Newton-Euler formulation of dynamics, quarternion representation (discussion on dynamics of quadrotors), mobile robots : nonholonomic constraints, kinematic model : unicycle and bicycle",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week Number": 19,
+      "Lecture Topic": "Path and Trajectory Planning - graph-based planning : Dijkstra and A star, configuration space, obstacles",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week Number": 21,
+      "Lecture Topic": "Controls - state space representation, linearization, linear Control : pole placement and LQR , Lyunov stability theory",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week Number": 23,
+      "Lecture Topic": "Nonlinear control",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    }
+  ],
+  "Assessment Plan": {
+    "Homework": 15,
+    "Mid-sem": 25,
+    "Quiz": 15,
+    "End-sem": 25,
+    "Project": 20
+  },
+  "Resource Material": {
+    "Textbook": "Robotics: Modelling, Planning and Control by Bruno Siciliano, Lorenzo Sciavicco, Luigi Villani and Giuseppe Oriolo",
+    "Reference": "Robotics, Vision and Control : Fundamental Algorithms in Matlab by Peter Corke"
+  }
+}

@@ -1,0 +1,273 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at "Course Code," it's straightforward: MTH544 is listed in multiple places, so that's easy.
+
+Next, "Course Name" should be extracted as well. The title mentions "Calculus on ℝn and Applications," which seems to be the course name.
+
+For "Credits," I see 4 mentioned consistently, so that's a direct extraction.
+
+Moving on to "Course Offered to." The text says it's offered to both UG (Undergraduate) and PG (Post-Graduate), so I'll list those as separate entries under "Offered To."
+
+The "Course Description" is quite lengthy. It seems the entire description from week 1 to 20 is provided, but for the JSON, I just need to include it as a single string.
+
+Now, looking at prerequisites: there are two parts—mandatory and desirable. Under "Mandatory," MTH100 (Linear Algebra), MTH203 (Multivariable Calculus) or MTH240 (Real Analysis I) is listed. For "Desirable," it mentions prior familiarity with metric spaces, point-set topology, differential geometry, and linear optimization.
+
+For the Course Outcomes (COs), each CO1 to CO4 has specific descriptions provided in the table. I'll list them as an array of objects with their respective outcomes.
+
+The Weekly Lecture Plan is a bit complex. It's structured over weeks 1-20, each week having a topic and COs met, along with assignments. I need to create an array where each element represents a week, containing the week number, lecture topic, COs met as an array of strings, and the assignment as a string.
+
+The Assessment Plan includes quizzes, assignments, midsem, and endsem. The values are 15 (quizzes), 25 (assignments), 20 (midsem), and 40 (endsem). I'll structure this as an object with keys "Quiz exams," "Midsem," "HW assignments," and "Endsem" corresponding to their respective values.
+
+The Resource Material includes a textbook, a reference book, another reference book online, and some class notes. The textbooks are listed twice but only need to appear once in the JSON. I'll structure this as an object with keys pointing to each resource's title or type.
+
+I also need to ensure that all missing fields are handled gracefully, using empty strings or null where necessary. Since most data is present, I don't expect any missing values here.
+
+Finally, I must make sure the JSON is properly formatted without any markdown, just plain JSON with proper braces and commas.
+</think>
+
+```json
+{
+  "Course Code": "MTH544",
+  "Course Name": "Calculus on ℝn and Applications",
+  "Credits": "4",
+  "Course Offered To": {
+    "UG": true,
+    "PG": true
+  },
+  "Course Description": "This an introductory course on smooth differential forms on smooth manifolds. It will attempt to serve as a sequel to abstracting calculus beyond real and multivariable analysis to higher dimensional vector spaces and manifolds. The primary emphasis will be on understanding calculus in R^n to begin with, first for n = 3, and then more generally via differential forms. The course also has an applied theme and will conclude with three different applications of concepts: to engineering via optimization on manifolds, to mathematics via de Rham cohomology of manifolds, and to physics via modeling of Maxwell’s equations. We shall review basic concepts from multivariable calculus, linear algebra, algebra, geometry and topology first as well as intersperse them later as and when needed. Initially, this shall include geometry in linear algebra, partial and directional derivatives, multiple integrals, alternating multilinear algebra, parametric curves and surfaces, and tangent vectors and spaces. Next, we shall introduce differential forms via integration, the exterior derivative, wedge product of forms, and properties of differential forms in R^n. This will be followed by a quick discussion of Riemannian metric, the Hodge star map, and inner product of differential forms in this context. Discussion of Stoke’s theorem, an introduction to smooth manifolds, notion of vector fields, push forward and pullback maps will form the last conceptual module. In the end, we will discuss three applications, namely computational methods for linear optimization on manifolds with geometric constraints, de Rham cohomology of manifolds, and differential forms modeling of Maxwell’s equations.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100 (Linear Algebra)",
+      "MTH203 (Multivariable Calculus)/MTH240 (Real Analysis I)"
+    ],
+    "Desirable": [
+      "Prior familiarity with metric spaces",
+      "Point-set topology",
+      "Basic differential geometry",
+      "Linear optimization"
+    ]
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students will be able to explain basic definitions and facts needed for differential forms in R^3. They will be able to apply these for characterization of differential forms and operators on differential forms.",
+      "CO2": "Students will be able to prove essential properties and perform example computations in specified coordinates and on basic model manifolds.",
+      "CO3": "Students will be able to explain the definition of smooth manifolds, and vector fields. They will be able to apply this learning to the pull back and push forward maps of forms and vector fields.",
+      "CO4": "Students will be able to apply various concepts to a computational/engineering problem (linear optimization on manifolds), a mathematics problem (cohomology of manifolds), and a physics problem (Maxwell’s equations)."
+    ]
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Smooth and analytic functions in R^n, Taylor’s theorem with remainder, partial and directional derivatives, vector fields, coordinate systems, multivariable calculus operators (div, grad, curl), norms, inner products, determinants of vectors, dual vector spaces, bilinear and multilinear forms on vector spaces, alternating algebra of multilinear forms, introduction to tensors, basics of curves and surfaces in R^3",
+      "COs Met": ["CO1"],
+      "Assignments": "HW 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Tangent vectors, tangent spaces, derivation, introduction to 1- and 2-forms in R^3 via pairing with vectors, introduction to wedge product",
+      "COs Met": ["CO1"],
+      "Assignments": "HW 2"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Introduction to differential forms and their integration, exterior derivative and wedge product of differential forms, metric structure of R^n, hodge star maps, inner product of differential forms",
+      "COs Met": ["CO2"],
+      "Assignments": "HW 3 and Quiz 1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Stokes’ theorem, introduction to smooth manifolds",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "HW 4"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Pull backs and push forward maps, closed and exact differential forms, vector fields, orientation of manifolds, review of linear optimization basics",
+      "COs Met": ["CO3"],
+      "Assignments": "HW 5"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Applications: linear optimization on manifolds, de Rham cohomology, Maxwell’s equations via differential forms. Students will be able to apply various concepts to a computational/engineering problem (linear optimization on manifolds), a mathematics problem (cohomology of manifolds), and a physics problem (Maxwell’s equations).",
+      "COs Met": ["CO4"],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quizzes": 15,
+    "Assignments": 25,
+    "Midsem": 20,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": "A Geometric Approach to Differential Forms, Second Edition by David Bachman",
+    "Reference Book": "Analysis on Manifolds by James R. Munkres",
+    "Reference Book": "An Introduction to Manifolds, Second Edition by Loring Tu",
+    "Reference Book": "Optimization Algorithms on Matrix Manifolds by P.-A. Absil, R. Mahony, and Rodolphe Sepulchre",
+    "Online Resource": "Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning by Jean Gallier and Jocelyn Quaintance"
+  }
+]
+</think>
+
+```json
+{
+  "Course Code": "MTH544",
+  "Course Name": "Calculus on ℝn and Applications",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This an introductory course on smooth differential forms on smooth manifolds. It will attempt to serve as a sequel to abstracting calculus beyond real and multivariable analysis to higher dimensional vector spaces and manifolds. The primary emphasis will be on understanding calculus in R^n to begin with, first for n = 3, and then more generally via differential forms. The course also has an applied theme and will conclude with three different applications of concepts: to engineering via optimization on manifolds, to mathematics via de Rham cohomology of manifolds, and to physics via modeling of Maxwell’s equations.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100 (Linear Algebra)",
+      "MTH203 (Multivariable Calculus)/MTH240 (Real Analysis I)"
+    ],
+    "Desirable": [
+      "Prior familiarity with metric spaces",
+      "Point-set topology",
+      "Basic differential geometry",
+      "Linear optimization"
+    ]
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students will be able to explain basic definitions and facts needed for differential forms in R^3. They will be able to apply these for characterization of differential forms and operators on differential forms.",
+      "CO2": "Students will be able to prove essential properties and perform example computations in specified coordinates and on basic model manifolds.",
+      "CO3": "Students will be able to explain the definition of smooth manifolds, and vector fields. They will be able to apply this learning to the pull back and push forward maps of forms and vector fields.",
+      "CO4": "Students will be able to apply various concepts to a computational/engineering problem (linear optimization on manifolds), a mathematics problem (cohomology of manifolds), and a physics problem (Maxwell’s equations)."
+    ]
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Smooth and analytic functions in R^n, Taylor’s theorem with remainder, partial and directional derivatives, vector fields, coordinate systems, multivariable calculus operators (div, grad, curl), norms, inner products, determinants of vectors, dual vector spaces, bilinear and multilinear forms on vector spaces, alternating algebra of multilinear forms, introduction to tensors, basics of curves and surfaces in R^3",
+      "COs Met": ["CO1"],
+      "Assignments": "HW 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Tangent vectors, tangent spaces, derivation, introduction to 1- and 2-forms in R^3 via pairing with vectors, introduction to wedge product of forms",
+      "COs Met": ["CO1"],
+      "Assignments": "HW 2"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Introduction to differential forms and their integration, exterior derivative and wedge product of differential forms, metric structure of R^n, hodge star maps, inner product of differential forms",
+      "COs Met": ["CO2"],
+      "Assignments": "HW 3"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Stokes’ theorem, introduction to smooth manifolds",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "HW 4"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Pull backs and push forward maps, closed and exact differential forms, vector fields, orientation of manifolds, review of linear optimization basics",
+      "COs Met": ["CO3"],
+      "Assignments": "HW 5"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Applications: linear optimization on manifolds, de Rham cohomology, Maxwell’s equations via differential forms",
+      "COs Met": ["CO4"],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quizzes": 15,
+    "Assignments": 25,
+    "Midsem": 20,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": "A Geometric Approach to Differential Forms, Second Edition by David Bachman",
+    "Reference Book": "Analysis on Manifolds by James R. Munkres",
+    "Reference Book": "An Introduction to Manifolds, Second Edition by Loring Tu",
+    "Reference Book": "Optimization Algorithms on Matrix Manifolds by P.-A. Absil, R. Mahony, and Rodolphe Sepulchre",
+    "Online Resource": "Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning by Jean Gallier and Jocelyn Quaintance"
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH544",
+  "Course Name": "Calculus on ℝn and Applications",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This an introductory course on smooth differential forms on smooth manifolds. It will attempt to serve as a sequel to abstracting calculus beyond real and multivariable analysis to higher dimensional vector spaces and manifolds. The primary emphasis will be on understanding calculus in R^n to begin with, first for n = 3, and then more generally via differential forms. The course also has an applied theme and will conclude with three different applications of concepts: to engineering via optimization on manifolds, to mathematics via de Rham cohomology of manifolds, and to physics via modeling of Maxwell’s equations.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100 (Linear Algebra)",
+      "MTH203 (Multivariable Calculus)/MTH240 (Real Analysis I)"
+    ],
+    "Desirable": [
+      "Prior familiarity with metric spaces",
+      "Point-set topology",
+      "Basic differential geometry",
+      "Linear optimization"
+    ]
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students will be able to explain basic definitions and facts needed for differential forms in R^3. They will be able to apply these for characterization of differential forms and operators on differential forms.",
+      "CO2": "Students will be able to prove essential properties and perform example computations in specified coordinates and on basic model manifolds.",
+      "CO3": "Students will be able to explain the definition of smooth manifolds, and vector fields. They will be able to apply this learning to the pull back and push forward maps of forms and vector fields.",
+      "CO4": "Students will be able to apply various concepts to a computational/engineering problem (linear optimization on manifolds), a mathematics problem (cohomology of manifolds), and a physics problem (Maxwell’s equations)."
+    ]
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Smooth and analytic functions in R^n, Taylor’s theorem with remainder, partial and directional derivatives, vector fields, coordinate systems, multivariable calculus operators (div, grad, curl), norms, inner products, determinants of vectors, dual vector spaces, bilinear and multilinear forms on vector spaces, alternating algebra of multilinear forms, introduction to tensors, basics of curves and surfaces in R^3",
+      "COs Met": ["CO1"],
+      "Assignments": "HW 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Tangent vectors, tangent spaces, derivation, introduction to 1- and 2-forms in R^3 via pairing with vectors, introduction to wedge product of forms",
+      "COs Met": ["CO1"],
+      "Assignments": "HW 2"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Introduction to differential forms and their integration, exterior derivative and wedge product of differential forms, metric structure of R^n, hodge star maps, inner product of differential forms",
+      "COs Met": ["CO2"],
+      "Assignments": "HW 3"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Stokes’ theorem, introduction to smooth manifolds",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "HW 4"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Pull backs and push forward maps, closed and exact differential forms, vector fields, orientation of manifolds, review of linear optimization basics",
+      "COs Met": ["CO3"],
+      "Assignments": "HW 5"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Applications: linear optimization on manifolds, de Rham cohomology, Maxwell’s equations via differential forms",
+      "COs Met": ["CO4"],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quizzes": 15,
+    "Assignments": 25,
+    "Midsem": 20,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": "A Geometric Approach to Differential Forms, Second Edition by David Bachman",
+    "Reference Book": "Analysis on Manifolds by James R. Munkres",
+    "Reference Book": "An Introduction to Manifolds, Second Edition by Loring Tu",
+    "Reference Book": "Optimization Algorithms on Matrix Manifolds by P.-A. Absil, R. Mahony, and Rodolphe Sepulchre",
+    "Online Resource": "Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning by Jean Gallier and Jocelyn Quaintance"
+  }
+}

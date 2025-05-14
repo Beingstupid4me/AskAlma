@@ -1,0 +1,273 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the given file content and structure it into a specific JSON format. Let me go through each part step by step.
+
+First, looking at the Course Code and Name: The course code is SSH261, and the name is "Democracy in India: Principles and Practices". That's straightforward.
+
+Next, Course Offered to is mentioned as UG (Undergraduate). 
+
+For the Course Description, it seems a bit long. I'll take it as provided without any changes.
+
+Moving on to Prerequisites: The sheet mentions N/A for both Mandatory and Desirable prerequisites, so I'll represent that with null values.
+
+Now, the Course Objectives are listed under CO1 to CO5. Each CO is clearly stated, so I'll map them accordingly.
+
+Looking at the Weekly Lecture Plan, each week has a lecture topic and COs met. I need to extract these into an array of objects. Some weeks have multiple COs, like CO-1, CO-2 in week 1, etc.
+
+The Assessment Plan includes various types of evaluations with their percentages: Assignments (10%), Response papers (25%), Presentations (20%), Mid Semester exam (20%), and Final Exam (25%). These will be mapped as is.
+
+Resource Material has Textbook and Reference Book. The textbook is "Indian Democracy: The Historical Origins" by Atul Kohli, published in 2001. The reference book is by Neera Chandhoke and Rajesh Kumar from 2013.
+
+I need to ensure that all values are correctly formatted, especially handling COs Met as a list of strings and Weekly Lecture Plan as an array of objects with the correct keys.
+
+Double-checking for any missing or invalid data. For example, in the lecture plan, week numbers start at 1, but sometimes there's no assignment listed—probably because it was included in another row. I'll make sure to capture that correctly.
+
+Finally, structuring everything into the JSON without any markdown or extra text.
+</think>
+
+```json
+{
+  "Course Code": "SSH261",
+  "Course Name": "Democracy in India: Principles and Practices",
+  "Credits": null,
+  "Course Offered to": "UG",
+  "Course Description": "This course is designed to help students ask some of these questions and help them think systematically about some of the contemporary political debates in the country. The course is organized around three constitutional principles of Justice, liberty and equality.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Understand dominant approaches to conceptualizing Indian democracy",
+    "CO2": "Understand how historical and ethical roots of the Indian democracy is located in the independence movement.",
+    "CO3": "Understand the relationship between constitutional principles, politics and policy",
+    "CO4": "Understand the nature of contentious political debates in their constitutional, historical and political contexts.",
+    "CO5": "Assess and understand the functioning of the Indian democracy"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Evolution of the Constitutional Principles",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": null
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conceptual Tenets of Indian Democracy: Justice, Freedom, Equality",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Justice and the Reservation Question: Justice as a Constitutional Principle",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Justice and the Reservation Question: The Reservation Policy",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Justice and the Reservation Question: Evaluating Reservation as Justice",
+      "COs Met": ["CO1", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Freedom and the Secularism Question: Freedom as a Constitutional Principle",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Freedom and the Secularism Question: Secularism as a State Policy",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Freedom and the Secularism Question: Secularism as a guarantee of Freedom",
+      "COs Met": ["CO1", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Equality and the Poverty Question: Equality as a Constitutional Principle",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Equality and the Poverty Question: Poverty Eradication as a State Policy",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Equality and the Poverty Question: Poverty Eradication as Equality",
+      "COs Met": ["CO2", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Evaluating Indian Democracy",
+      "COs Met": ["CO2", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Revisions",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Response Papers",
+      "COs Met": null,
+      "Assignments": "Assignments"
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Presentations",
+      "COs Met": null,
+      "Assignments": "Assignments"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": "Assignments",
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": "Indian Democracy: The Historical Origins" by Atul Kohli (2001),
+    "Reference Book": "Secularism in India" by Neera Chandhoke and Rajesh Kumar (2013)
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH261",
+  "Course Name": "Democracy in India: Principles and Practices",
+  "Credits": null,
+  "Course Offered to": "UG",
+  "Course Description": "This course is designed to help students ask some of these questions and help them think systematically about some of the contemporary political debates in the country. The course is organized around three constitutional principles of Justice, liberty and equality.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Understand dominant approaches to conceptualizing Indian democracy",
+    "CO2": "Understand how historical and ethical roots of the Indian democracy is located in the independence movement.",
+    "CO3": "Understand the relationship between constitutional principles, politics and policy",
+    "CO4": "Understand the nature of contentious political debates in their constitutional, historical and political contexts.",
+    "CO5": "Assess and understand the functioning of the Indian democracy"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Evolution of the Constitutional Principles",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": null
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conceptual Tenets of Indian Democracy: Justice, Freedom, Equality",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Justice and the Reservation Question: Justice as a Constitutional Principle",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Justice and the Reservation Question: The Reservation Policy",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Justice and the Reservation Question: Evaluating Reservation as Justice",
+      "COs Met": ["CO1", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Freedom and the Secularism Question: Freedom as a Constitutional Principle",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Freedom and the Secularism Question: Secularism as a State Policy",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Freedom and the Secularism Question: Secularism as a guarantee of Freedom",
+      "COs Met": ["CO1", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Equality and the Poverty Question: Equality as a Constitutional Principle",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Equality and the Poverty Question: Poverty Eradication as a State Policy",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Equality and the Poverty Question: Poverty Eradication as Equality",
+      "COs Met": ["CO2", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Evaluating Indian Democracy",
+      "COs Met": ["CO2", "CO3", "CO4", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Revisions",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Response Papers",
+      "COs Met": null,
+      "Assignments": "Assignments"
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Presentations",
+      "COs Met": null,
+      "Assignments": "Assignments"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": "Assignments",
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": "Indian Democracy: The Historical Origins" by Atul Kohli (2001),
+    "Reference Book": "Secularism in India" by Neera Chandhoke and Rajesh Kumar (2013)
+  }
+}

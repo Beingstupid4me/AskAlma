@@ -1,0 +1,174 @@
+{
+  "Course Code": "DES503",
+  "Course Name": "Introduction to 3D Character Animation",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to: (i) Basics and fundamental principles of animation (ii) Workflow of animation (iii) Introduction to 3D Animation (iv) Advance body mechanism and character Animation.",
+  "Prerequisites": {
+    "Mandatory": "Introduction to 3D Production Design for Animation and Games (DES53D) or DES302 Animation & Graphics",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understanding the basic work flow and animation principles.",
+    "CO2": "Explaining concept of maya tool for animation.",
+    "CO3": "Implementing Animation fundamental and maya to do the character animation.",
+    "CO4": "Students will be able to Animate Advance body mechanism and character Animation."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Art of Storytelling and Animation",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introductions to Animation Film Workflow",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Language of drawing and posing in Maya",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Introductions to Animation Basics and Principles",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Introductions to 3D Animation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ]
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Understanding of body Mechanism",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3"
+      ]
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Advance Body Mechanism",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Technical Part of Animation",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Advance Character Animation and Acting (Mime)",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Facial Animation",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Animating a Dialogue",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Basic of Lighting and rendering",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Career Preparations and Project",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Class Participation",
+      "% Contribution in Grade": 5
+    },
+    {
+      "Type of Evaluation": "Assignment",
+      "% Contribution in Grade": 30,
+      "Assignments": "Character Posing/Idle/Walk Cycle/Combate Action"
+    },
+    {
+      "Type of Evaluation": "Mid Sem Exam",
+      "% Contribution in Grade": 15
+    },
+    {
+      "Type of Evaluation": "End Sem Exam",
+      "% Contribution in Grade": 35,
+      "Assignments": "Applying theories of animation"
+    },
+    {
+      "Type of Evaluation": "Final Project (Group/Individual)",
+      "% Contribution in Grade": 15
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "The Animator`s Survival Kit (DVD)",
+      "Mastering MAYA 2017-18",
+      "The Illusion of Life",
+      "Animation from Pencils to Pixels",
+      "The Animator\u2019s Workbook",
+      "Cartoon Character Animation with Maya",
+      "Beginner\u2019s guide to Sketching"
+    ]
+  }
+}

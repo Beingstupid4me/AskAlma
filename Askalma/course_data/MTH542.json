@@ -1,0 +1,81 @@
+{
+  "Course Code": "MTH542",
+  "Course Name": "Introduction to Functional Analysis",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "MTech and PhD students frequently find that their mathematical foundation is inadequate to pursue research for their thesis, and it is difficult for them to achieve the required level entirely through self-study. This course has the objective of providing the essential knowledge required to remove this inadequacy. The course is essentially advanced linear algebra (infinite-dimensional spaces) combined with mathematical analysis (i.e. considerations of convergence and continuity). Since this would be a first course on the subject for most of the students, there will be more emphasis on developing mathematical skills, and only limited applications.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Linear Algebra (MTH100 for UG)"
+    ],
+    "Desirable": [
+      "Knowledge of Calculus and complex Variables (MTH203 for UG)"
+    ],
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be familiar with the concepts",
+    "CO2": "Students will able to analyse and construct",
+    "CO3": "Students will be able to apply the given",
+    "CO4": "Results to specific spaces."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Topology of the real line",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Homework, quiz consisting of related short problems"
+    },
+    {
+      "Week": "2-5",
+      "Lecture Topic": "Metric Space Preliminaries: compactness and completeness, convergence issues, fixed point theorems, sequences and series of Functions",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    },
+    {
+      "Week": "6-9",
+      "Lecture Topic": "Normed spaces: function spaces, bounded linear transformaions, four major theorems and their applications, Spectral theory",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    },
+    {
+      "Week": "10-13",
+      "Lecture Topic": "Hilbert spaces: Lp spaces, Schauder bases, Spectral theory",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    }
+  ],
+  "Assessment Plan": {
+    "Test": 10,
+    "Mid-Semester Exam": 20,
+    "Weekly submission, quiz": 25,
+    "End-Semester Exam": 45
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Saxe: Beginning Functional Analysis, Springer"
+    ],
+    "Reference Book": [
+      "Rudin: Principles of Mathematical Analysis, McGraw-Hill",
+      "Aliprantis & Birkenshaw: Principles of Real Analysis, Elsevier",
+      "Simmons: Introduction to Topology and Modern Analysis, McGraw-Hill",
+      "Saxe: Beginning Functional Analysis, Springer"
+    ]
+  }
+}

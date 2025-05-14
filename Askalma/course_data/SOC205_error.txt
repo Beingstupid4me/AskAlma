@@ -1,0 +1,364 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the "Course Code" field, I see it's listed multiple times under column 4: SOC205. So that should be straightforward to extract.
+
+Next is the "Course Name," which also appears several times in column 5: Anthropology of Social Media. That’s consistent across rows, so no issues there.
+
+For "Credits," the value is 4 and it's repeated in columns 6 through 9. I'll take that as the Credits value.
+
+Moving on to "Course Offered to," which consistently states UG (Undergraduate) in columns 7-10. So that should be straightforward.
+
+The "Course Description" spans from row 8 to row 45, but it's a single text block. I'll need to extract this entire description as a string since there are no specific fields for each part of the description.
+
+Now, the "Prerequisites" section has three mandatory pre-requisites: SOC201 in column 7 and others listed in columns 8-10. The rest are non-mandatory or other types not specified here.
+
+For "Course Outcomes," there's a note about referring to another sheet for suggestions on verbs, but since I can't access that, I'll mark it as "Not available" as per the user's instruction.
+
+The "Weekly Lecture Plan" starts at row 13. Each week from 1 to 13 has a corresponding Lecture Topic and COs Met, along with Assignments for weeks 1-6. The rest don't have specific data, so I'll structure this as an array of objects up to week 13.
+
+The "Assessment Plan" includes Quiz exams at 10%, Assignments at 20%, Group Presentation at 25%, Midsem at 20%, and Endsem at 25%. These percentages are clear, so I'll extract them accordingly.
+
+Lastly, the "Resource Material" has two books: Miller's work from UCL press and Christakis and Fowler's Connected. The third reference is a duplicate of Venkatraman's book in South India, appearing three times. Since it's listed multiple times but refers to the same source, I'll include each occurrence as separate entries.
+
+I need to ensure that all missing values are represented as empty strings or nulls where necessary, and only include valid data types like numbers for Credits and percentages for assessments. Also, make sure not to include any markdown formatting in the JSON output.
+</think>
+
+```json
+{
+  "Course Code": "SOC205",
+  "Course Name": "Anthropology of Social Media",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "When we hear the words 'social media' we immediately think of Facebook and Twitter, WhatsApp and Instagram. But these are just platforms. Actually, Social media is the vast amount of content we have produced and its consequences for our lives. The content we produce are not just memes and selfies alone, but they are also tools for making and breaking relationships, a means for creating equality and/or reinforcing inequality. While there have been grand claims made about how social media has impacted the lives of people around the world, we often fail to ask is it really likely that social media has changed the life of a low-income builder in Brazil in exactly the same way as it has for an IT professional in South India or that of a factory worker in China? Consider this claim... social media is a sort of big brother that knows all our intimate details and we have lost our rights to privacy. While it is true for some, it is equally true that social media is also the first-time people experience privacy. For e.g. In China, for some people far from being a threat to their privacy, social media was actually the very first time they had experienced what we would call individual privacy. This was true in Turkey as well. Similarly, while it is true that while some might view social media as a distraction to education, it is equally true that for a few others social media is itself education. Likewise, for some the Selfie is more about expressing friendship rather than individual glamour, thus subverting the notion of individualism. How do we know this? Why do people see the same phenomenon differently? While it is important to understand 'what' content we produce, the question of why we produce such content is equally significant. This course meant as an introductory course is about 'people' and an attempt at understanding the affinities, connectedness, and reciprocities that social media builds. The course will also introduce ethnographic ways and means to study works of anthropologically informed social media cultures. The course would also focus on ontologies of media anthropology and specific texts that are produced through online ethnographies This course invites you to come and see for yourselves what people around the world do with social media. | When we hear the words 'social media' we immediately think of Facebook and Twitter, WhatsApp and Instagram. But these are just platforms. Actually, Social media is the vast amount of content we have produced and its consequences for our lives. The content we produce are not just memes and selfies alone, but they are also tools for making and breaking relationships, a means for creating equality and/or reinforcing inequality. While there have been grand claims made about how social media has impacted the lives of people around the world, we often fail to ask is it really likely that social media has changed the life of a low-income builder in Brazil in exactly the same way as it has for an IT professional in South India or that of a factory worker in China? Consider this claim... social media is a sort of big brother that knows all our intimate details and we have lost our rights to privacy. While it is true for some, it is equally true that social media is also the first-time people experience privacy. For e.g. In China, for some people far from being a threat to their privacy, social media was actually the very first time they had experienced what we would call individual privacy. This was true in Turkey as well. Similarly, while it is true that while some might view social media as a distraction to education, it is equally true that for a few others social media is itself education. Likewise, for some the Selfie is more about expressing friendship rather than individual glamour, thus subverting the notion of individualism. How do we know this? Why do people see the same phenomenon differently? While it is important to understand ‘what’ content we produce, the question of why we produce such content is equally significant. This course meant as an introductory course is about 'people' and an attempt at understanding the affinities, connectedness, and reciprocities that social media builds. The course will also introduce ethnographic ways and means to study works of anthropologically informed social media cultures. The course would also focus on ontologies of media anthropology and specific texts that are produced through online ethnographies This course invites you to come and see for yourselves what people around the world do with social media.
+</think>
+
+```json
+{
+  "Course Code": "SOC205",
+  "Course Name": "Anthropology of Social Media",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course explores the anthropological aspects of social media, focusing on content creation, social interactions, and their impact on society.",
+  "Prerequisites": {
+    "Mandatory": "SOC201",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will develop insights into why people post what they post, rather than just what they post.",
+    "CO2": "Through an introduction to ethnographic and case studies, students will be able to identify patterns of social media usage across the world and the idea of social belonging.",
+    "CO3": "Students will be able to understand the impact of social media on diverse areas of social life.",
+    "CO4": "Students will be able to apply ethnographic techniques to collect and analyze social media data."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Anthropology of Social Media - Why study Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Review on a Media channel/stream"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "What is Social Media? - Content or Platform",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ethnographies of Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Social Media and Reciprocity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Methodology: Virtual Ethnography",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Response Paper 1: Group activities on virtual ethnography"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Studying Social Media and Online Behaviour",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "How to look at Big Data?",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Doing Anthropology on Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Response Paper 2: Thick Description of Social Media Use (part of project)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Connectedness and Social Network (Christakis and Fowler)",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Presentation on Preliminary Data for Project"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Social Media Usage and Trends: Case studies from India",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Summing up and Review",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Final Project Presentations and Report Submissions"
+    }
+</think>
+
+```json
+{
+  "Course Code": "SOC205",
+  "Course Name": "Anthropology of Social Media",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "When we hear the words 'social media' we immediately think of Facebook and Twitter, WhatsApp and Instagram. But these are just platforms. Actually, Social media is the vast amount of content we have produced and its consequences for our lives. The content we produce are not just memes and selfies alone, but they are also tools for making and breaking relationships, a means for creating equality and/or reinforcing inequality.",
+  "Prerequisites": {
+    "Mandatory": ["SOC201"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students will develop insights into 'why' people post what they post, rather than just 'what' they post.",
+    "CO2": "Through an introduction to ethnographic and case studies, the students will be able to identify patterns of social media usage across the world and the idea of social belonging.",
+    "CO3": "Students will be able to understand the impact of social media on diverse areas of social life.",
+    "CO4": "Students will be able to apply ethnographic technique to collect and analyze social media data."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Review on a Media channel/stream"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Anthropology of Social Media - Why study Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "What is Social Media? - Content or Platform",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ethnographies of Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Social Media and Reciprocity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Methodology: Virtual Ethnography",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Response Paper 1: Group activities on virtual ethnography"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Studying Social Media and Online Behaviour",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "How to look at Big Data?",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Doing Anthropology on Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Connectedness and Social Network (Christakis and Fowler)",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Social Media Usage and Trends: Case studies from India",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Summing up and Review",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Group Presentation",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Presentations on the projects and final report submissions"
+    }
+</think>
+
+```json
+{
+  "Course Code": "SOC205",
+  "Course Name": "Anthropology of Social Media",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course explores the anthropological impact and usage of social media, focusing on content creation, social interactions, and their broader societal effects.",
+  "Prerequisites": {
+    "Mandatory": ["SOC201"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students will develop insights into 'why' people post what they post, rather than just 'what' they post.",
+    "CO2": "Through an introduction to ethnographic and case studies, the students will be able to identify patterns of social media usage across the world and the idea of social belonging.",
+    "CO3": "Students will be able to understand the impact of social media on diverse areas of social life.",
+    "CO4": "Students will be able to apply ethnographic technique to collect and analyze social media data."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Review on a Media channel/stream"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Anthropology of Social Media - Why study Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "What is Social Media? - Content or Platform",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ethnographies of Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Social Media and Reciprocity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Methodology: Virtual Ethnography",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Response Paper 1: Group activities on virtual ethnography"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Studying Social Media and Online Behaviour",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "How to look at Big Data?",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Assignment 2"
+    },
+   
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SOC205",
+  "Course Name": "Anthropology of Social Media",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course explores the anthropological impact and usage of social media, focusing on content creation, social interactions, and their broader societal effects.",
+  "Prerequisites": {
+    "Mandatory": ["SOC201"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students will develop insights into 'why' people post what they post, rather than just 'what' they post.",
+    "CO2": "Through an introduction to ethnographic and case studies, the students will be able to identify patterns of social media usage across the world and the idea of social belonging.",
+    "CO3": "Students will be able to understand the impact of social media on diverse areas of social life.",
+    "CO4": "Students will be able to apply ethnographic technique to collect and analyze social media data."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Review on a Media channel/stream"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Anthropology of Social Media - Why study Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "What is Social Media? - Content or Platform",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ethnographies of Social Media",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Social Media and Reciprocity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Methodology: Virtual Ethnography",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Response Paper 1: Group activities on virtual ethnography"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Studying Social Media and Online Behaviour",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "How to look at Big Data?",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Assignment 2"
+    }

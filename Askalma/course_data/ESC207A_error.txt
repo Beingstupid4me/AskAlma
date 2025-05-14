@@ -1,0 +1,344 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a JSON format as specified. Let me go through each section step by step.
+
+First, looking at the "Course Code" field. The table starts with columns labeled "Unnamed: 0" followed by "Course Code", so the value under that is "ESC2xx". I'll take that as the course code.
+
+Next, the "Course Name" seems to be repeated multiple times in rows 2 and beyond. It's consistently "Ecology, Evolution, and Environment". So that will be the course name.
+
+For "Credits", looking at row 3, it's listed five times with the value "2". I'll use that as the credit value.
+
+Moving on to "Course Offered to", which is also repeated in rows 4. The value here is "UG" for all instances, so that's straightforward.
+
+The "Course Description" spans from row 5 to row 10 and repeats the same text multiple times. It seems like it's just a single description, so I'll take one instance of it as the course description.
+
+Now, looking at the prerequisites section. Rows 6-8 have "Pre-requisites", but there are no specific values listed beyond that. So for mandatory, desirable, and other prerequisites, they're all empty strings.
+
+For the "Course Outcomes" (COs), rows 10-23 list CO1 to CO5 with corresponding descriptions. I'll map each CO number to its description in an array under "COs Met".
+
+The Weekly Lecture Plan starts at row 24 and goes up to row 36, but it seems like there's a mix of data that might not be relevant or is incomplete. Rows 14-25 show the weekly plan with topics and COs met, so I'll extract those into an array for each week.
+
+The "Assessment Plan" includes quiz exams, midsem, homework, and endsem. From row 30 to 34, it's clear that Midsem is worth 30%, Endsem also 30%, Project is 20%, and Assignment is 10%. I'll structure these as an object with the respective values.
+
+Lastly, "Resource Material" includes textbooks and reference books. Rows 37-42 list the titles, so I'll create a two-element array for textbook and reference book.
+
+I need to ensure that all missing values are represented as empty strings or null where appropriate, but in this case, most fields have clear data except prerequisites which are empty.
+</think>
+
+```json
+{
+  "Course Code": "ESC2xx",
+  "Course Name": "Ecology, Evolution, and Environment",
+  "Credits": "2",
+  "Course Offered to": "UG",
+  "Course Description": "The goal of this course is to familiarize the students with basic concepts in Ecology, Evolution, and Environmental Science, develop in them an understanding of the current environmental issues and the need for biodiversity conservation.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe human induced factors that are responsible for environmental degradation and loss of biodiversity",
+    "CO2": "Justify importance of biodiversity conservation",
+    "CO3": "Generate hypotheses about how different ecosystem services may be impacted due to climate change",
+    "CO4": "Weekly Lecture Plan | Week Number | Lecture Topic | COs Met | Assignment/Labs/Tutorial",
+    "CO5": "Weekly Lecture Plan | Week Number | Lecture Topic | COs Met | Assignment/Labs/Tutorial"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Organisms and their environment",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2-5",
+      "Lecture Topic": "Fundamentals of Evolution",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6-9",
+      "Lecture Topic": "Fundamentals of Ecology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Ecosystems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Fieldwork",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Biodiversity Conservation",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Current Environmental Challenges",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "Quiz | 10%",
+    "Midsem": "Mid-sem | 30%",
+    "HW assignments": "",
+    "Endsem": "End-sem | 30%"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "From Individuals to Ecosystems, Michael Begon, Colin R. Townsend and John L. Harper, 2006, Blackwell Publishing, 4th edition.",
+      "The Economy of Nature, R.E. Ricklefs, 2008, WH Freeman and Co. 6th edition.",
+      "Evolution, D.J. Futuyama, 2009, Sunderland, MA: Sinauer Associates, 2nd edition (ISBN-13: 978-0878932238)",
+      "The Ecology of the Changing Planet, Mark B. Bush, 2003, Prentice Hall, 2nd edition (ISBN 0130662577, 9780130662576)"
+    ],
+    "Reference Book": [
+      "From Individuals to Ecosystems, Michael Begon, Colin R. Townsend and John L. Harper, 2006, Blackwell Publishing, 4th edition.",
+      "The Economy of Nature, R.E. Ricklefs, 2008, WH Freeman and Co. 6th edition.",
+      "Evolution, D.J. Futuyama, 2009, Sunderland, MA: Sinauer Associates, 2nd edition (ISBN-13: 978-0878932238)",
+      "The Ecology of the Changing Planet, Mark B. Bush, 2003, Prentice Hall, 2nd edition (ISBN 0130662577, 9780130662576)"
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ESC2xx",
+  "Course Name": "Ecology, Evolution, and Environment",
+  "Credits": 2,
+  "Course Offered to": "UG",
+  "Course Description": "The goal of this course is to familiarize the students with basic concepts in Ecology, Evolution, and Environmental Science, develop in them an understanding of the current environmental issues and the need for biodiversity conservation.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe human induced factors that are responsible for environmental degradation and loss of biodiversity",
+    "CO2": "Justify importance of biodiversity conservation",
+    "CO3": "Generate hypotheses about how different ecosystem services may be impacted due to climate change",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Organisms and their environment",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Fundamentals of Evolution",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Fundamentals of Ecology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ecosystems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Fieldwork",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Biodiversity Conservation",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Current Environmental Challenges",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-sem": 30,
+    "End-sem": 30,
+    "Project": 20,
+    "Assignment": 10,
+    "Quiz": 10
+  },
+  "Resource Material": {
+    "Textbook": [
+      "From Individuals to Ecosystems, Michael Begon, Colin R. Townsend and John L. Harper, 2006, Blackwell Publishing, 4th edition.",
+      "The Economy of Nature, R.E. Ricklefs, 2008, WH Freeman and Co. 6th edition. (ISBN 9780716738831)",
+      "Evolution, D.J. Futuyama, 2009, Sunderland, MA: Sinauer Associates, 2nd edition (ISBN-13: 978-0878932238)",
+      "The Ecology of the Changing Planet, Mark B. Bush, 2003, Prentice Hall, 2nd edition (ISBN 0130662577, 9780130662576)"
+    ],
+    "Reference": [
+      "From Individuals to Ecosystems, Michael Begon, Colin R. Townsend and John L. Harper, 2006, Blackwell Publishing, 4th edition.",
+      "The Economy of Nature, R.E. Ricklefs, 2008, WH Freeman and Co. 6th edition. (ISBN 9780716738831)",
+      "Evolution, D.J. Futuyama, 2009, Sunderland, MA: Sinauer Associates, 2nd edition (ISBN-13: 978-0878932238)",
+      "The Ecology of the Changing Planet, Mark B. Bush, 2003, Prentice Hall, 2nd edition (ISBN 0130662577, 9780130662576)"
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ESC2xx",
+  "Course Name": "Ecology, Evolution, and Environmental Science",
+  "Credits": 2,
+  "Course Offered to": "UG",
+  "Course Description": "The goal of this course is to familiarize the students with basic concepts in Ecology, Evolution, and Environmental Science, develop in them an understanding of the current environmental issues and the need for biodiversity conservation.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe human induced factors that are responsible for environmental degradation and loss of biodiversity",
+    "CO2": "Justify importance of biodiversity conservation",
+    "CO3": "Generate hypotheses about how different ecosystem services may be impacted due to climate change"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Organisms and their environment",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "2-5",
+      "Lecture Topic": "Fundamentals of Evolution",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "6-9",
+      "Lecture Topic": "Fundamentals of Ecology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Ecosystems",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Fieldwork",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Biodiversity Conservation",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Current Environmental Challenges",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-sem": "30",
+    "End-sem": "30",
+    "Project": "20",
+    "Assignment": "10",
+    "Quiz": "10"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "From Individuals to Ecosystems, Michael Begon, Colin R. Townsend and John L. Harper, 2006, Blackwell Publishing, 4th edition.",
+      "The Economy of Nature, R.E. Ricklefs, 2008, WH Freeman and Co. 6th edition. (ISBN 9780716738831)",
+      "Evolution, D.J. Futuyama, 2009, Sunderland, MA: Sinauer Associates, 2nd edition (ISBN-13: 978-0878932238)",
+      "The Ecology of the Changing Planet, Mark B. Bush, 2003, Prentice Hall, 2nd edition (ISBN 0130662577, 9780130662576)"
+    ],
+    "Reference": [
+      "From Individuals to Ecosystems, Michael Begon, Colin R. Townsend and John L. Harper, 2006, Blackwell Publishing, 4th edition.",
+      "The Economy of Nature, R.E. Ricklefs, 2008, WH Freeman and Co. 6th edition. (ISBN 9780716738831)",
+      "Evolution, D.J. Futuyama, 2009, Sunderland, MA: Sinauer Associates, 2nd edition (ISBN-13: 978-0878932238)",
+      "The Ecology of the Changing Planet, Mark B. Bush, 2003, Prentice Hall, 2nd edition (ISBN 0130662577, 9780130662576)"
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ESC2xx",
+  "Course Name": "Ecology, Evolution, and Environmental Science",
+  "Credits": 2,
+  "Course Offered to": "UG",
+  "Course Description": "The goal of this course is to familiarize the students with basic concepts in Ecology, Evolution, and Environmental Science, develop in them an understanding of the current environmental issues and the need for biodiversity conservation.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe human induced factors that are responsible for environmental degradation and loss of biodiversity",
+    "CO2": "Justify importance of biodiversity conservation",
+    "CO3": "Generate hypotheses about how different ecosystem services may be impacted due to climate change"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Organisms and their environment",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week Number": "2-5",
+      "Lecture Topic": "Fundamentals of Evolution",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week Number": "6-9",
+      "
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ESC2xx",
+  "Course Name": "Ecology, Evolution, and Environmental Science",
+  "Credits": 2,
+  "Course Offered to": "UG",
+  "Course Description": "The goal of this course is to familiarize the students with basic concepts in Ecology, Evolution, and Environmental Science, develop in them an understanding of the current environmental issues and the need for biodiversity conservation.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe human induced factors that are responsible for environmental degradation and loss of biodiversity",
+    "CO2": "Justify importance of biodiversity conservation",
+    "CO3": "Generate hypotheses about how different ecosystem services may be impacted due to climate change"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Organisms and their environment",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    },
+    {
+      "Week Number": "2-5",
+      "Lecture Topic": "Fundamentals of Evolution",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial": "A course project will be assigned. Groups of 4-6 students will work together on the project."
+    }

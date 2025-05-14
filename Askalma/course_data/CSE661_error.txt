@@ -1,0 +1,299 @@
+--- LLM RAW OUTPUT ---
+<think>
+Okay, so I need to extract information from the provided text and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at the Course Code and Course Name. The Course Code is listed as "CSE661/ DES507" in row 4 of the file content. The Course Name seems to be "Affective Computing," which appears multiple times but I think it's consistent across rows.
+
+Next, Credits are mentioned twice with values 4 and another 4. Since both are the same, I'll use that value for Credits.
+
+The Course Offered to is listed as "UG/PG" in row 7. That seems straightforward.
+
+For Prerequisites, looking at rows 10-12: CSE101 : Introduction to Programming, CSE343/CSE543 : Machine Learning, and CSE643 : Artificial Intelligence. So I'll list these as Mandatory prerequisites since they are required for the course.
+
+The Course Outcomes (COs) are listed from CO1 to CO5 in rows 16-20. Each has a description provided, so I'll map each CO with its respective outcome.
+
+Now, the Weekly Lecture Plan starts at row 18 and goes up to row 33. Each week has a Lecture Topic and COs Met. For example, Week 1 is about Fundamentals of Affective Computing under CO1. I need to create an array for each week with these details. Some weeks have multiple COs met, like CO1 in Week 2.
+
+The Assessment Plan starts at row 35. It includes various types of evaluations and their contribution percentages: Research Paper Discussion (5%), Class Participation (5%), Assignments (10%), Quiz (10%), Mid Sem Exam (15%), Project (35%), End Sem Exam (20%). I'll structure this as a list with each evaluation type and its value.
+
+Resource Material includes both Textbook and Reference Book. From row 47, there are two textbooks: "Affective Computing. MIT Press" and "The Oxford Handbook of Affective Computing. Oxford University Press." References include an Encyclopedia and some multimodal databases and software libraries mentioned in rows 50-53.
+
+I need to ensure that all missing values are handled gracefully, using empty strings or null where necessary. For example, if a week doesn't have any COs met, I might leave it as an empty array, but looking at the data, each week has some COs except for the last one which is incomplete.
+
+Also, "COs Met" should be a list of strings, so I'll make sure to format that correctly. Credits should be a number if present; in this case, 4.
+
+I need to structure everything into the JSON as specified, making sure each section corresponds correctly and data types are appropriate.
+</think>
+
+```json
+{
+  "Course Code": "CSE661/ DES507",
+  "Course Name": "Affective Computing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE101 : Introduction to Programming",
+      "CSE343/CSE543 : Machine Learning",
+      "CSE643 : Artificial Intelligence"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to demonstrate the basic understandings of the state of the art concepts from computer science, design and psychology in relation to the Affective Computing.",
+    "CO2": "Students (individually and in groups) will be able to implement, compare and evaluate the effectiveness of different state of the art affect analysis methods.",
+    "CO3": "Students (individually and in groups) will be able to design their own method (data collection, design, development and evaluation) for affect analysis in at-least one of the fields of Affective Computing.",
+    "CO4": "Students will be able to predict the possible consequences of affective computing. Students will also be able to offer their own set of Ethical Legal and Social rules for the development of the affect recognition."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Fundamentals of Affective Computing",
+      "COs Met": ["CO1"]
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Emotion Theory",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Assignment 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Emotion and Social Interaction",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Assignment 2"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Experimental Design",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": "Quiz 1"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Emotions in Text",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Programming Assignment 1",
+      "CBT Project,": "Programming Assignment 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Emotions in Voice/Facial Expressions",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Programming Assignment 3"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Emotions in Physiological Signals",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Quiz 2",
+      "Programming Assignment 4"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Multimodal Recognition",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Programming Assignment 5"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Emotional Empathy in Machines/Robots/Agents",
+      "COs Met": ["CO2"]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Online recognition of emotions: Challenges and Opportunities",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": "Quiz 3"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Case Study",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Assignment 3"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Ethical, legal and Social Implications of Affective Computing",
+      "COs Met": ["CO4"]
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Research Paper Discussion",
+      "% Contribution in Grade": "5"
+    },
+    {
+      "Type": "Class Participation",
+      "% Contribution in Grade": "5"
+    },
+    {
+      "Type": "Assignments (including Programming)",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type": "Quiz",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type": "Mid Sem Exam",
+      "% Contribution in Grade": "15"
+    },
+    {
+      "Type": "Project",
+      "% Contribution in Grade": "35"
+    },
+    {
+      "Type": "End Sem Exam",
+      "% Contribution in Grade": "20"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "Affective Computing. MIT Press",
+      "The Oxford Handbook of Affective Computing. Oxford University Press"
+    ],
+    "Reference Book": [
+      "The Encyclopedia of Human-Computer Interaction, 2nd Ed.",
+      "Recent references will be provided regularly during the class."
+    ],
+    "Multimodal Databases": ["SEMAINE", "AM-FED", "DISFA", "MAHNOB-HCI", "DEAP", "MuDERI etc."],
+    "Softwares/Libraries": ["OpenEAR", "OpenSMILE", "Affectiva", "Psychopy etc."]
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE661/ DES507",
+  "Course Name": "Affective Computing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE101 : Introduction to Programming",
+      "CSE343/CSE543 : Machine Learning",
+      "CSE643 : Artificial Intelligence"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to demonstrate the basic understandings of the state of the art concepts from computer science, design and psychology in relation to the Affective Computing.",
+    "CO2": "Students (individually and in groups) will be able to implement, compare and evaluate the effectiveness of different state of the art affect analysis methods.",
+    "CO3": "Students (individually and in groups) will be able to design their own method (data collection, design, development and evaluation) for affect analysis in at-least one of the fields of Affective Computing.",
+    "CO4": "Students will be able to predict the possible consequences of affective computing. Students will also be able to offer their own set of Ethical Legal and Social rules for the development of the affect recognition."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Fundamentals of Affective Computing",
+      "COs Met": ["CO1"]
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Emotion Theory",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Assignment 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Emotion and Social Interaction",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Assignment 2"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Experimental Design",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": "Quiz 1"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Emotions in Text",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Programming Assignment 1",
+      "CBT Project,": "Programming Assignment 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Emotions in Voice/Facial Expressions",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Programming Assignment 3"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Emotions in Physiological Signals",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Quiz 2",
+      "Programming Assignment 4"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Multimodal Recognition",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Programming Assignment 5"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Emotional Empathy in Machines/Robots/Agents",
+      "COs Met": ["CO2"]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Online recognition of emotions: Challenges and Opportunities",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": "Quiz 3"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Case Study",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": "Assignment 3"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Ethical, legal and Social Implications of Affective Computing",
+      "COs Met": ["CO4"]
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Research Paper Discussion",
+      "% Contribution in Grade": "5"
+    },
+    {
+      "Type": "Class Participation",
+      "% Contribution in Grade": "5"
+    },
+    {
+      "Type": "Assignments (including Programming)",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type": "Quiz",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type": "Mid Sem Exam",
+      "% Contribution in Grade": "15"
+    },
+    {
+      "Type": "Project",
+      "% Contribution in Grade": "35"
+    },
+    {
+      "Type": "End Sem Exam",
+      "% Contribution in Grade": "20"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "Affective Computing. MIT Press",
+      "The Oxford Handbook of Affective Computing. Oxford University Press"
+    ],
+    "Reference Book": [
+      "The Encyclopedia of Human-Computer Interaction, 2nd Ed.",
+      "Recent references will be provided regularly during the class."
+    ],
+    "Multimodal Databases": ["SEMAINE", "AM-FED", "DISFA", "MAHNOB-HCI", "DEAP", "MuDERI etc."],
+    "Softwares/Libraries": ["OpenEAR", "OpenSMILE", "Affectiva", "Psychopy etc."]
+  }
+}

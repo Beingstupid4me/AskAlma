@@ -1,0 +1,233 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at "Course Code," I see it's listed as CSE643 in row 2 of Table1. So that's straightforward.
+
+Next, "Course Name" is Artificial Intelligence, also clearly stated.
+
+For "Credits," the value is 4, which is a number and fits well into the JSON structure.
+
+Moving on to "Course Offered to," it mentions both UG/PG, so I'll include that as a string since there are multiple options.
+
+The "Course Description" spans several rows but ends up being just one sentence: "This is an introductory course in Artificial Intelligence. This course introduces the students to various search techniques, knowledge representation, reasoning, and learning." That's a bit long, but it fits into the JSON as a single string.
+
+Now, for prerequisites. The mandatory pre-requisite is listed as CSE102 Data Structures and Algorithms, so that goes under "Mandatory." There are no desirable or other prerequisites mentioned, so those fields will be empty strings.
+
+Looking at "Course Outcomes," each CO is labeled from CO1 to CO4 with their respective descriptions. I'll map these into the JSON as an array of objects.
+
+The "Weekly Lecture Plan" has multiple weeks with topics and COs met. Each week's data needs to be nested within a larger array, including assignments for some weeks. Weeks 2-3 don't have specific details, so I'll leave those as placeholders or empty strings.
+
+For the "Assessment Plan," quizzes are worth 15%, assignments 35%, midsem 25%, and endsem 25%. These percentages fit well into a JSON object under "Assessment Plan."
+
+Lastly, the resource materials include two textbooks. I'll list them as an array with their respective titles.
+
+I need to ensure that all fields are correctly formatted, especially handling missing values gracefully by using empty strings or nulls where necessary. Also, making sure numeric values like credits and quiz percentages remain numbers in JSON.
+</think>
+
+```json
+{
+  "Course Code": "CSE643",
+  "Course Name": "Artificial Intelligence",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an introductory course in Artificial Intelligence. This course introduces the students to various search techniques, knowledge representation, reasoning, and learning.",
+  "Prerequisites": {
+    "Mandatory": ["CSE102 Data Structures and Algorithms"],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students are able to apply basic search techniques for problem solving.",
+      "CO2": "Students are able to explain how to represent Knowledge required for problem solving.",
+      "CO3": "Students are able to apply reasoning to sift through data.",
+      "CO4": "Students are able to utilize AI for application in real world."
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to AI",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2-3,
+      "Lecture Topic": "Knowledge representation using Predicate Logic",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Blind search and search based on heuristics",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment #1"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Search using constraint satisfaction",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Adversarial Search (Game playing)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment #2"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Knowledge representation using Frames and Conceptual Dependency",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Nature inspired search algorithms",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment #3"
+    },
+    {
+      "Week": 9-10,
+      "Lecture Topic": "Probabilistic Reasoning: Bayesian Network, Dempser Shafer, Fuzzy Logic",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Learning: Linear Regression, Perceptron, Neural Networks",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Assignment #4"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Planning and Reinforcement Learning",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Knowledge representation: Natural Language Processing, Applications",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 15,
+    "Midsem": 25,
+    "HW assignments": 35,
+    "Endsem": 25
+  },
+  "Resource Material": {
+    "Textbook": [
+      "A First course on Artificial Intelligence – Deepak Khemani, McGraw Hill India, 2013",
+      "Artificial Intelligence: A modern approach, 3rd edition -- Stuart Russell and Peter Norvig, 2015"
+    ],
+    "Reference Book": ""
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE643",
+  "Course Name": "Artificial Intelligence",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an introductory course in Artificial Intelligence. This course introduces the students to various search techniques, knowledge representation, reasoning, and learning.",
+  "Prerequisites": {
+    "Mandatory": ["CSE102 Data Structures and Algorithms"],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students are able to apply basic search techniques for problem solving.",
+      "CO2": "Students are able to explain how to represent Knowledge required for problem solving.",
+      "CO3": "Students are able to apply reasoning to sift through data.",
+      "CO4": "Students are able to utilize AI for application in real world."
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to AI",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2-3,
+      "Lecture Topic": "Knowledge representation using Predicate Logic",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Blind search and search based on heuristics",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment #1"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Search using constraint satisfaction",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Adversarial Search (Game playing)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment #2"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Knowledge representation using Frames and Conceptual Dependency",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Nature inspired search algorithms",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment #3"
+    },
+    {
+      "Week": 9-10,
+      "Lecture Topic": "Probabilistic Reasoning: Bayesian Network, Dempser Shafer, Fuzzy Logic",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Learning: Linear Regression, Perceptron, Neural Networks",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Assignment #4"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Planning and Reinforcement Learning",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Knowledge representation: Natural Language Processing, Applications",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 15,
+    "Midsem": 25,
+    "HW assignments": 35,
+    "Endsem": 25
+  },
+  "Resource Material": {
+    "Textbook": [
+      "A First course on Artificial Intelligence – Deepak Khemani, McGraw Hill India, 2013",
+      "Artificial Intelligence: A modern approach, 3rd edition -- Stuart Russell and Peter Norvig, 2015"
+    ],
+    "Reference Book": ""
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "Course Code": "CSE584",
+  "Course Name": "Program Verification",
+  "Credits": 4,
+  "Course Offered to": "PG / UG",
+  "Prerequisites": {
+    "Mandatory": "CSE121 or MTH210",
+    "Desirable": "Knowledge of DSA and some general-purpose programming language such as Python, C, C++, or Java.",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "(a) Comprehend and (b) write functional programs with dependent types in Coq/F*",
+    "CO2": "Express the program as a mathematical object and apply basic proof strategies (first-order logic, structural induction)",
+    "CO3": "Apply advanced proof techniques to real-world programs (involving higher-order functions, complicated types), including proof automation",
+    "CO4": "Understand interactive theorem prover's proof deduction and checking mechanisms"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Overview, Functional programming in Coq",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Simple programs and proof techniques",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Homework/Assignment"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Structured data: Inductive types and proofs",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Structured data: Inductive types and proofs",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Homework/Assignment"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Polymorphism and higher order functions",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Polymorphism and higher order functions",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Homework/Assignment"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Refinement types in F*",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ]
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Writing complex functional programs and advanced proof tactics",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Homework/Assignment"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Writing complex functional programs and advanced proof tactics",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Theory: Curry-Howard Correspondance",
+      "COs Met": [
+        "CO4"
+      ]
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Theory: predicate abstraction, automatically inferring dependent types",
+      "COs Met": [
+        "CO4"
+      ]
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Theory: BMC and imperative programs",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Homework/Assignment"
+    },
+    {
+      "Week": "13-14",
+      "Lecture Topic": "Optional Topics: Hoare Logic/ Operational Semantics/ Typed Lambda Calculus",
+      "COs Met": []
+    }
+  ],
+  "Assessment Plan": {
+    "Class project": 20,
+    "Homeworks/Assignments": 40,
+    "Mid-Sem (Homework/Assignment this year)": 20,
+    "End-Sem (Homework/Assignment this year)": 20
+  },
+  "Resource Material": {
+    "Textbook": "Free e-book: https://softwarefoundations.cis.upenn.edu/lf-current/index.html",
+    "Reference Book": ""
+  }
+}

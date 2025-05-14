@@ -1,0 +1,101 @@
+{
+  "Course Code": "ECE 315/ECE515",
+  "Course Name": "Analog CMOS Circuit Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces the basic analog building blocks and quantifies their performance parameters. More advanced circuits are derived from these basic building blocks. Concepts of feedback and stability are introduced to enable analysis of complex circuits. The course also includes a self-learning lab component in which the students are expected to learn circuit simulation and design tools such as LTSpice, Eldo, Cadence Analog Suite etc. A design project is an essential component of this course.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Circuit or Network Analysis",
+      "Electronics Device"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to analyze CMOS active circuits.",
+    "CO2": "Students are able to analyze circuits such as Current Mirror, Linear Amplifier, Differential Amplifier, Power Amplifier etc.",
+    "CO3": "Students are able to acquire the ability to solve, analyze, design, and simulate moderately complex MOS based circuits.",
+    "CO4": "Students are able to acquire the ability to solve, analyze, design, and simulate moderately complex MOS based circuits.",
+    "CO5": "Students are able to use standard commercial tools such as ELDO and Cadence Suite"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to the semiconductor industry, introduction to layouts and industry design flow for analog circuits (design flow for analog circuits, introduction to layout, case study)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "LTSpice, Cadence Suite, and Eldo Tutorials by TAs"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Single Stage MOS Amplifiers (Intro to CS, CD, CG Amplifiers)",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Students to first analyze some circuits and then verify using LTSpice and Eldo (HA#1)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Analysis of Source Follower, CG amplifier , Analysis of CS amplifier with source degeneration",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Students to first analyze some circuits and then verify using LTSpice and Eldo (HA#2 and HA#3)"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Introduction to current mirror, simple CMOS current mirror",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Students to first analyze some circuits and then verify using LTSpice and Eldo (HA#4 and HA#5)"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Feedback, Feedback Topologies",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Students to first analyze some circuits and then verify using LTSpice and Eldo (HA#6 and HA#7)"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Multi-stage Op Amps",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Students to first analyze some circuits and then verify using LTSpice and Eldo (HA#8)"
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments": 15,
+    "Class Tests": 15,
+    "Mid-Sem": 20,
+    "End-Sem": 20,
+    "Project": 30
+  },
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Design of Analog CMOS Circuits, Behzad Razavi"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "CMOS Analog Circuit Design, Allen and Holberg"
+    }
+  ]
+}

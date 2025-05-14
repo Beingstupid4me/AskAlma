@@ -1,0 +1,156 @@
+{
+  "Course Code": "CSE694F/ECE651",
+  "Course Name": "Multimedia Security",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Media Security course introduces the multimedia fundamentals and security related issues such as rights protection, authentication, traitor tracing, forensics, adversarial signal processing, covert communication and surveillance. Overview of different aspects of multimedia security and compression techniques, architectures and standards will be discussed. Some of the course topics are information hiding and its applications, media compression, robustness analysis, encryption, passive forensics, source identification, multimedia signatures and egocentric video forensics, adversarial signal processing, Discrete Fourier/Wavelet Transform, electrical network frequency estimation, visual surveillance, steganography and steganalysis.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE340/CSE540/ ECE350 Image Analysis/ Digital Image Processing",
+      "ECE250 Signals and Systems CSE344 Computer Vision"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand and analyse the media representation and fundamentals",
+    "CO2": "Students are able to apply and evaluate the media security techniques",
+    "CO3": "Students are able to perform forensics and counter-forensics",
+    "CO4": "Students are able to demonstrate an understanding of visual surveillance"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction - Digital Media Systems, Media Security Techniques, Applications",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Watermark Classification \u2013 Spatial domain; Detection of Watermark; Error analysis; Probability models",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Basics of information theory; Entropy coding; Discrete Cosine Transform; Image Compression - JPEG",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Lab exercise"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Video fundamentals; Motion Estimation and compensation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Review of Discrete Wavelet Transform; Hiding in DWT domain Human Visual system; Adaptive watermarking; Information hiding capacity; Attacks on watermark",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Audio authentication \u2013 Electrical Network Frequency (ENF); ENF estimation; Forgery detection",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Media Forensics \u2013 Camera identification; Passive forgery detection. Vehicle forensics",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Forensic Detectors Adversarial Processing and Counter-forensics",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Steganography/Steganalysis; Review of popular algorithms",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Quiz 3",
+      "COs Met": [],
+      "Assignments": null
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Visual Surveillance Person Reidentification",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Assignment - Analytical + Practical"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": null,
+      "COs Met": [],
+      "Assignments": null
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": null,
+      "COs Met": [],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 20,
+    "Assignment": 20,
+    "Mid-sem": 15,
+    "End-sem": 20,
+    "Project": 25
+  },
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Digital Watermarking and Steganography by Ingemar J. Cox, 2nd Edition, Morgan Kauffman Publication."
+    },
+    {
+      "Type": "Reference",
+      "Title": "Watermark Systems Engineering, Mauro Barni, CRC Press, 2004."
+    },
+    {
+      "Type": "Reference",
+      "Title": "JPEG2000 Standard for Image Compression, T. Acharya, Wiley, 2005."
+    },
+    {
+      "Type": "Reference",
+      "Title": "K. Sayood, Introduction to Data Compression (3rd edition), Morgan Kaufmann, 2009."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. The user has provided a detailed table from an Excel file containing various aspects of a course related to Software Defined Networking (SDN). My task is to extract the necessary information from this data and structure it into a specific JSON format as outlined.
+
+First, I'll start by identifying each section required in the JSON output based on the provided schema. The sections include Course Code, Course Name, Credits, Course Offered To, Course Description, Prerequisites (Mandatory, Desirable, Other), Course Outcomes, Weekly Lecture Plan, Assessment Plan, and Resource Material.
+
+Looking at the table, I notice that some rows are empty or contain placeholder text like "Please insert more rows if required." This indicates that not all sections might be filled out. My approach will be to extract available data where possible and leave placeholders for missing information as per the schema.
+
+Starting with Course Code (CSE565) and Course Name, these seem straightforward since they are consistently present in each row of the table. The Credits column also appears to have consistent values, so that's easy to fill.
+
+For the prerequisites section, I see that some rows under "Pre-requisite" contain text like "Pre-requisite (Mandatory)" with corresponding mandatory courses such as CSE232 Computer Networks. However, other sections are empty or marked with placeholders. This suggests that only certain prerequisites are provided, so I'll structure them accordingly in the JSON.
+
+The Course Outcomes section lists CO1 to CO5 without specific verbs or descriptions. Since the user mentioned referring to a second sheet for suggestions on verbs, but it's not provided here, I'll include the outcomes as they are and note that further refinement might be needed based on additional resources.
+
+Looking at the Weekly Lecture Plan, each week has a lecture topic and COs Met (Course Outcomes Met). Some weeks have multiple assignments listed under "Assignment/Labs/Tutorial," which should be split into separate entries in the JSON. Additionally, some weeks mention project proposals or other activities without specific details, so placeholders will be used where information is missing.
+
+In the Assessment Plan section, I notice that certain evaluations like Assignments, Paper presentations, Mid-sem, and End-sem have contribution percentages listed. However, there's a placeholder for additional evaluations, which might include things like quizzes or homework assignments not explicitly mentioned in the provided content.
+
+The Resource Material includes both Course References and Reference Books, all of which are repeated multiple times. To avoid duplication, I'll list each reference once under their respective categories.
+
+Finally, I need to ensure that all JSON values are correctly formatted, with proper nesting for lists within objects, and handling missing or incomplete data gracefully by using empty strings or null where necessary.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.", Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project."
+
+Okay, so I need to extract information from this text and structure it into the specified JSON format. Let me go through each section step by step.
+
+First, looking at the Course Code: It's CSE565 as seen in row 3. Easy enough.
+
+Course Name is also straightforward: Software Defined Networking, same across all rows I think.
+
+Credits are given as 4 for all entries, so that's consistent.
+
+Course Offered to is UG/PG throughout, no changes there.
+
+Course Description is quite lengthy but needs to be captured as a single string. It explains the traditional networking setup and then introduces SDN with its benefits like separating control and data planes, network virtualization, etc.
+
+Prerequisites: The mandatory one seems to be CSE232 Computer Networks. There are also Desirable and Other prerequisites mentioned in rows 8-9 but since it's a table, I think only the mandatory is needed here as per the JSON structure.
+
+Course Outcomes (COs): There are five COs listed from CO1 to CO5 with specific tasks like using Mininet for simulations. The last row mentions CO5 twice, so maybe that's an error or repetition.
+
+Weekly Lecture Plan: This section has multiple weeks with topics and COs met each week. I need to structure this as a list of objects where each object represents a week with its topic and the COs covered.
+
+Assessment Plan: There are various assessments like Assignments, Midsem, Endsem, Project, etc., each contributing a certain percentage to the grade. This should be another list within the JSON.
+
+Resource Material: Includes Textbooks and References as specified.
+
+Now, I need to structure all this into the provided JSON format without any markdown or additional text.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course Name": "Software Defined Networking",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Traditionally, networking equipments consists of proprietary switching hardware with embedded software. This not only made manageability of networks complex but also stymied innovation. SDN paradigm proposed to change this, primarily by separating networking software into data and control planes. The data plane’s goal is to do switching in distributed hardware equipments. The control plane centrally governs what will be the switching rules at the data plane. As the control plane is separated from the switching hardware, it is easier to change its software, thereby speeding up software development cycle and in turn lowering the barrier for innovation. The separation of planes and centralization of control plane simplifies manageability of networks. In addition to these two benefits, SDN also facilitates network virtualization, which is a key enabler Cloud Computing. In this course, we will begin by getting familiarized to the aforementioned functions in the traditional networks. We will then learn how SDN changes the way networks will function now. We will look at open source technologies that enable deployment of SDN on real hardware and in simulation. We will see how all of networking functions, e.g. switching, routing, firewall, load balancers, and VPN, are instrumented in the new paradigm. We will explore SDN via lectures from the instructor, assignments, presentations of research papers by students, and a course project.
+</think>
+
+```json
+{
+  "Course Code": "CSE565",
+  "Course
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE565",
+  "Course

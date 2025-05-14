@@ -1,0 +1,104 @@
+{
+  "Course Code": "CSE5TAC",
+  "Course Name": "Topics in Adaptive Cybersecurity (TAC)",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course focuses on providing students an interactive discussion based learning platform for exploration of topics in adaptive cyber security. The learning will be through instruction, course project and more importantly through discussions on student(s) presentation of assigned research papers. The instruction part of the course will cover basic contents required to understand the course materials, including topics such as threat intelligence, situational awareness and real-time adaptive security. Through this course, students can learn the state of the art and open problems in adaptive cyber security, thus enhancing their potential to perform research or pursue a career in this emerging area.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE345/CSE545 Foundations of Computer Security (or) CSE350/CSE550 Network Security"
+    ],
+    "Desirable": [
+      "Students are also expected to have good understanding of basic concepts in machine learning"
+    ],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Define and Describe several topics in adaptive cybersecurity.",
+    "CO2": "Deconstruct and Explain effectiveness and limitation of proposed solutions (from literature) for adaptive cybersecurity.",
+    "CO3": "Critique and Conclude effectiveness and limitation of proposed solutions (from literature) for adaptive cybersecurity.",
+    "CO4": "Designing and Developing specific solution(s) to an open problem in adaptive cybersecurity."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Refresher of basic concepts in Information Security and Machine Learning required for adaptive cybersecurity Introduction to Adaptive Cybersecurity",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Weekly research Paper presentation by students (rotation) related to lecture topics Weekly research paper reading assignments"
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Dynamic Vulnerability Assessment",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Weekly research Paper presentation by students (rotation) related to lecture topics Weekly research paper reading assignments"
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Advanced Topics in Moving Target Defense",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Weekly research Paper presentation by students (rotation) related to lecture topics Weekly research paper reading assignments"
+    },
+    {
+      "Week": "7-8",
+      "Lecture Topic": "Advanced Topics in Dynamic Intrusion Detection and Prevention",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Weekly research Paper presentation by students (rotation) related to lecture topics Weekly research paper reading assignments"
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "Advanced Topics in Moving Target Defense",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Weekly research Paper presentation by students (rotation) related to lecture topics Weekly research paper reading assignments"
+    },
+    {
+      "Week": "11-12",
+      "Lecture Topic": "Proactive Cybersecurity using User Behavioral Modeling",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Weekly research Paper presentation by students (rotation) related to lecture topics Weekly research paper reading assignments"
+    },
+    {
+      "Week": "13-",
+      "Lecture Topic": "Buffer for additional topics",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Weekly research Paper presentation by students (rotation) related to lecture topics Weekly research paper reading assignments"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [],
+    "Midsem": "20",
+    "HW assignments": "30",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": null,
+    "Reference Book": "Specific research papers selected by instructor from top tier symposiums, conferences and journals"
+  }
+}

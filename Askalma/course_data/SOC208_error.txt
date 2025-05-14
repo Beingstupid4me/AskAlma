@@ -1,0 +1,472 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. The user has provided a JSON template and some table data from an Excel file. My task is to extract information from that table and structure it into the specified JSON format.
+
+First, I'll look at the table headers to understand what each column represents. The columns are "Unnamed: 0", "Unnamed: 1", etc., but since these are just indices, they can be ignored. The data seems to represent a course with various attributes like Course Code, Name, Credits, Description, Prerequisites, and so on.
+
+I'll start by extracting the Course Code from row 3 (since rows 0-4 are headers). It looks like all entries under "Unnamed: 2" have the same value, "SOC208", so that's straightforward.
+
+Next, the Course Name is in row 4. Again, it seems consistent across columns, so I'll take "Organizations: An Anthropological Perspective".
+
+For Credits, row 5 gives "4". Simple enough.
+
+The Course Description spans multiple rows and columns. It's quite lengthy but appears to be repeated across different cells. I need to consolidate this into a single string for the Course Description field.
+
+Moving on to Prerequisites, each row under "Unnamed: 2" has three entries separated by "|". These are all mandatory, desirable, or other prerequisites. Since they're consistent, I'll extract them and split them appropriately.
+
+The Post Conditions section is similar but seems to be a placeholder for future use. For now, it's empty.
+
+COs Met refers to the Course Outcomes that each lecture covers. Each row under "Unnamed: 2" has three COs met, which are "CO1", "CO2", and "CO3". I'll create an array with these values.
+
+Assignments and Assessments are listed in rows 14-27. Each week (from Week 1 to Week 13) has an assignment or lab exercise. Since the data is consistent, I'll extract each entry as a string for Assignment/Lab/Tutorial.
+
+The Weekly Lecture Plan starts from row 13 and goes up to row 28. Each week covers specific topics and meets certain COs. I'll structure this into an array of objects with Week Number, Lecture Topic, and COs Met.
+
+For the Assessment Plan, rows 36-40 show that class attendance contributes 10%, participation in case studies and fieldwork contributes 40%, and the capstone project contributes 50%. These percentages will be mapped to each evaluation type.
+
+Resource Material includes a Book section with two entries. I'll list these as separate objects under Resource Material.
+
+I need to ensure that all values are correctly formatted, especially converting numeric values like Credits and Assessment Contributions into strings if they're numbers or keeping them as strings where necessary. Also, handling missing values gracefully by using empty strings or nulls where appropriate.
+
+Finally, I'll structure everything into the provided JSON template, making sure each field is correctly named and populated with the extracted data.
+</think>
+
+{
+  "Course Code": "SOC208",
+  "Course Name": "Organizations: An Anthropological Perspective",
+  "Credits": "4",
+  "Course Description": "Where would you like to work? Imagine coming to IIITD or any such institution where you find your batch mates, professors and others being excited about their work. Discussions are all around the next thing that's going to change the world, the atmosphere is vibrant, lively and exciting. People are proud of their work. You see people work together, solve problems together, set standards, share ideas on how to improve performance and value diversity. You are given an opportunity to rise and shine. Now imagine the same place being very toxic, where people are very insecure, secretive, highly competitive with no cooperation etc. or a place where both of these co-exist…a sort of a hybrid So, where would you like to be? We live in a world which is more or less organized. We live most of our lives within organizations and sometimes amongst them. We grow and live in families and kin groups of different sorts, study in educational institutions, work for firms or public agencies of different sizes and shapes, join clubs, service organizations etc. and infact, if we take a moment to reflect, we would understand that a large part of our lives have been shaped by organizations. Now, getting back to the earlier question…while everyone wants to work for an ideal organisation where you have opportunities to rise and shine and come to work/study everyday in a pleasant setting…achieving this kind of a cultural setting is every leader’s dream and is easier said than done. Managing and setting ideals to create such a work culture requires understanding the various factors (both internal and external) that affect the organisation. Social and cultural influences do play a significant role more than what we tend to acknowledge. In the recent past corporations have started using ethnography and anthropology to gain insights into managing organizations strategically. Exploring and deconstructing such cultural and social influences through both fieldwork and case studies (text and videos) with a sprinkling of anthropological theories is the primary intent of this course.
+</think>
+
+```json
+{
+  "Course Code": "SOC208",
+  "Course Name": "Organizational Anthropology",
+  "Credits": 4,
+  "Course Description": "This course explores the role of social and cultural factors in shaping organizations through case studies, fieldwork, and anthropological theories.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite (Mandatory)",
+      "Pre-requisite (Desirable)",
+      "Pre-requisite (other)"
+    ],
+    "Desirable": [
+      "Pre-requisite (Desirable)",
+      "Pre-requisite (other)"
+    ],
+    "Other": [
+      "Pre-requisite (other)",
+      "Pre-requisite (other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger organizational canvas.",
+    "CO2": "The learner would be able to apply knowledge gleaned from this course onto organizations thus converting class material to practical insights.",
+    "CO3": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format.",
+    "CO4": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape organizations today."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Anthropology and Organizational Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Organizations",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Diversity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Organizational Structure and Design",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Organizational Technology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Organizational Communication and Networks",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Group Behaviour and Interpersonal Relationships",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Capstone Project Sessions - 1",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Capstone Project Sessions - 2",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    }
+]
+</think>
+
+```json
+{
+  "Course Code": "SOC208",
+  "Course Name": "Organizational Anthropology",
+  "Credits": 4,
+  "Course Description": "Where would you like to work? Imagine coming to IIITD or any such institution where you find your batch mates, professors and others being excited about their work. Discussions are all around the next thing that's going to change the world, the atmosphere is vibrant, lively and exciting. People are proud of their work. You see people work together, solve problems together, set standards, share ideas on how to improve performance and value diversity.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite (Mandatory)",
+      "Pre-requisite (Mandatory)"
+    ],
+    "Desirable": [
+      "Pre-requisite (Desirable)",
+      "Pre-requisite (Desirable)"
+    ],
+    "Other": [
+      "Pre-requisite (other)",
+      "Pre-requisite (other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger organizational canvas.",
+    "CO2": "The learner would be able to apply knowledge gleaned from this course onto organizations thus converting class material to practical insights.",
+    "CO3": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format.",
+    "CO4": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape organizations today."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Anthropology and Organizational Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Organizations",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Diversity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Organizational Structure and Design",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Organizational Technology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Organizational Communication and Networks",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Group Behaviour and Interpersonal Relationships",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Capstone Project Sessions - 1",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Capstone Project Sessions - 1",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Capstone Project Sessions - 2",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Capstone Project Sessions - 2",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Capstone Project Sessions - 3",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Capstone Project Sessions - 4",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    }
+</think>
+
+```json
+{
+  "Course Code": "SOC208",
+  "Course Name": "Organizational Anthropology",
+  "Credits": "4",
+  "Course Description": "Where would you like to work? Imagine coming to IIITD or any such institution where you find your batch mates, professors and others being excited about their work. Discussions are all around the next thing that's going to change the world, the atmosphere is vibrant, lively and exciting. People are proud of their work. You see people work together, solve problems together, set standards, share ideas on how to improve performance and value diversity.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite (Mandatory)",
+      "Pre-requisite (Desirable)",
+      "Pre-requisite (other)"
+    ],
+    "Desirable": [
+      "Pre-requisite (Desirable)",
+      "Pre-requisite (other)"
+    ],
+    "Other": [
+      "Pre-requisite (other)",
+      "Pre-requisite (other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger organizational canvas.",
+    "CO2": "The learner would be able to apply knowledge gleaned from this course onto organizations thus converting class material to practical insights.",
+    "CO3": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format.",
+    "CO4": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape organizations today."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology and Organizational Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Organizations",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Diversity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Organizational Structure and Design",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Organizational Technology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Organizational Communication and Networks",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Group Behaviour and Interpersonal Relationships",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SOC208",
+  "Course Name": "Organizational Anthropology",
+  "Credits": "4",
+  "Course Description": "Where would you like to work? Imagine coming to IIITD or any such institution where you find your batch mates, professors and others being excited about their work. Discussions are all around the next thing that's going to change the world, the atmosphere is vibrant, lively and exciting. People are proud of their work. You see people work together, solve problems together, set standards, share ideas on how to improve performance and value diversity.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite (Mandatory)",
+      "Pre-requisite (Desirable)",
+      "Pre-requisite (other)"
+    ],
+    "Desirable": [
+      "Pre-requisite (Desirable)",
+      "Pre-requisite (other)"
+    ],
+    "Other": [
+      "Pre-requisite (other)",
+      "Pre-requisite (other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Through ethnographic case studies and fieldwork, the learner will be able to apply and incorporate ideas of correlating significant but seemingly tiny clues to a larger organizational canvas.",
+    "CO2": "The learner would be able to apply knowledge gleaned from this course onto organizations thus converting class material to practical insights.",
+    "CO3": "The learner will be able to present collaborative team work to an audience in a creative and easily accessible format.",
+    "CO4": "This course through case study analyses will nudge learners to delve deeper into the social and cultural factors that influence and shape organizations today."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Anthropology and Organizational Anthropology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Organizations",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Organizational Culture",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Diversity",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Organizational Structure and Design",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Organizational Technology",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Organizational Communication and Networks",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Group Behaviour and Interpersonal Relationships",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Leadership",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    }

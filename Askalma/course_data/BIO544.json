@@ -1,0 +1,122 @@
+{
+  "Course Code": "BIO544",
+  "Course Name": "Computational Gastronomy",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course is designed to provide an introduction to the emerging science of Computational Gastronomy, a blend of food, data science and computational techniques. Following are the specific objectives that the course aims to fulfil: (a) Introduction to the science of food; (b) Exposition to culinary data; (c) Analysis and visualization of culinary data (statistical analysis, text mining, natural language processing, machine learning); (d) Exposure to challenges and opportunities.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": "Pre-requisites"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain the basic tenets of the science of food and scope for data-driven analysis.",
+    "CO2": "Students are able to explain, analyze and interpret major aspects of culinary data.",
+    "CO3": "Students are able to design classification and prediction models from culinary data.",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1 & 2",
+      "Lecture Topic": "Introduction to the science of food: History of food, Cultural influences, Impact of Technology, Role of data science. Cooking-- the craft and magic: Session by a practicing chef highlighting the need for scientific understanding of food. Role of Computational Gastronomy in achieving data-driven food innovations.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3 & 4",
+      "Lecture Topic": "Culinary Data Analysis [Recipes]: Recipes data structure, Data compilation and curation, Visualization and analysis, The structure of world cuisines, Ingredient popularity and uniqueness.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5 & 6",
+      "Lecture Topic": "Culinary Data Analysis [Flavors]: Flavors data structure, Data compilation and curation, Visualization and analysis, Molecular composition of ingredients, Sensory attributes of taste and odor.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7 & 8",
+      "Lecture Topic": "Culinary Data Analysis [Food Pairing]: Food pairing, Hypothesis testing, Culinary fingerprints, Comparative analysis of world cuisines, Data visualization.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Culinary Data Analysis [Health-Nutrition]: Nutrional data analysis, Health impacts of food, Food-disease associations, Data analysis and visualization.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10 & 11",
+      "Lecture Topic": "Modeling and Prediction [Cuisine]: Cuisine classification, Features selection, Implementation of machine learning models, Comparison with the state of the art, Identity of a cuisine, Transforming a recipe from one cuisine to another.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12 & 13",
+      "Lecture Topic": "Modeling and Prediction [Flavor and Fragrance]: Prediction of taste and odor; Features selection, Implementation of machine learning models, Comparison with the state of the art.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Opportunities and Challenges: Challenges for building the foundations of a data-driven culinary science; Scope for compilation of culinary data from textbooks, scientific literature, traditional knowledge sources, web-based sources (Twitter, Culinary forums, Reviews, Restaurant menus, Food service aggregators, FMCG data repositories, etc.); Opportunities in food-tech industry; Entrepreneurship; Policy making; Food security; Public Health, and Sustainable Development.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Mid-Sem",
+      "% Contribution in Grade": "15"
+    },
+    {
+      "Type of Evaluation": "Assignments",
+      "% Contribution in Grade": "30"
+    },
+    {
+      "Type of Evaluation": "Mini-Project",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "End-Sem",
+      "% Contribution in Grade": "35"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "Cooked: A Natural History of Transformation by Michael Pollan (Penguin)",
+      "The Omnivore's Dilemma: A Natural History of Four Meals by Michael Pollan (Penguin)",
+      "Why Does Asparagus Make Your Pee Smell - Fascinating Food Trivia Explained with Science by Andy Brunning"
+    ],
+    "Reference Book": [
+      "Flavor network and the principles of food pairing', Ahn et al., Scientific Reports (2011)",
+      "Spices form the basis of food pairing in Indian cuisine', Jain et al., arXiv: 1502.03815 (2015)",
+      "Analysis of Food Pairing in Regional Cuisines of India', Jain et al., PLoS One (2015)",
+      "FlavorDB: a database of flavor molecules', Garg et al., Nucleic Acids Research (2018)",
+      "Culinary evolution models for Indian cuisines', Jain & Bagler, Physica A (2018)",
+      "Data-driven analysis of biomedical literature suggests broad-spectrum benefits of culinary herbs and spices', Rakhi et al., PloS One (2018)",
+      "Data-driven investigations of culinary patterns in traditional recipes across the world', Singh and Bagler, ICDE-Paris (2018)",
+      "BitterSweet: Building machine learning models for predicting the bitter and sweet taste of small molecules', Tuwani et al., Scientific Reports (2019)"
+    ]
+  }
+}

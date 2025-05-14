@@ -1,0 +1,398 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the course details. The Course Code is "IIIT Delhi January – April 2015 Semester", which I'll place under "Course Code". The Course Name is clearly stated as "Theory and Practice of Engineering Ethics".
+
+Next, Credits are mentioned as "Credits : 4", so that's straightforward. Pre-requisites are listed as "None", so I'll note that.
+
+Moving on to the Course Outcomes (COs). There are five COs labeled CO1 through CO5, each with detailed descriptions. These will be under the "Course Outcomes" section in a list format.
+
+The Weekly Lecture Plan is quite extensive. Each week from 1 to 13 has specific topics covered and COs met. Assignments vary per week but often involve forming learning teams or applying theories. I'll structure this as an array of objects, each with the week number, topic, COs, and assignments.
+
+The Assessment Plan includes Quiz exams, Midsem, HW assignments, and Endsem. All these are marked as strings since no numerical values were provided except for credits.
+
+Resource Material has two books: "Ethics—a Very Short Introduction" by Simon Blackburn from OUP India in 2008, and "Engineering Ethics" by Charles Fledermann from Prentice Hall in 2011. These will be listed under "Resource Material".
+
+I need to ensure that all missing values are represented as empty strings or nulls where necessary. Also, the JSON should not include any markdown formatting, just plain JSON.
+
+Finally, I'll make sure each section is correctly labeled and nested within the main JSON object without any introductory text.
+</think>
+
+```json
+{
+  "Course Code": "IIIT Delhi January – April 2015 Semester",
+  "Course Name": "Theory and Practice of Engineering Ethics",
+  "Credits": "4",
+  "Pre-requisites": "None",
+  "Course Outcomes": [
+    {
+      "CO1": "Demonstrate a clear understanding of meta-ethical theories.",
+      "CO2": "Apply meta-ethical theories to engineering and IT scenarios.",
+      "CO3": "Understand the complex ethical paradoxes of IT applications and extensions.",
+      "CO4": "Demonstrate a clear knowledge of the differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+      "CO5": "Develop a finessed multi-perspectival understanding of moral issues and learn to evaluate moral practices clearly."
+    },
+    {
+      "CO1": "Demonstrate a clear understanding of meta-ethical theories.",
+      "CO2": "Apply meta-ethical theories to engineering and IT scenarios.",
+      "CO3": "Understand the complex ethical paradoxes of IT applications and extensions.",
+      "CO4": "Demonstrate a clear knowledge of the differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+      "CO5": "Develop a finessed multi-perspectival understanding of moral issues and learn to evaluate moral practices clearly."
+    },
+    {
+      "CO1": "Demonstrate a clear understanding of meta-ethical theories.",
+      "CO2": "Apply meta-ethical theories to engineering and IT scenarios.",
+      "CO3": "Understand the complex ethical paradoxes of IT applications and extensions.",
+      "CO4": "Demonstrate a clear knowledge of the differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+      "CO5": "Develop a finessed multi-perspectival understanding of moral issues and learn to evaluate moral practices clearly."
+    },
+    {
+      "CO1": "Demonstrate a clear understanding of meta-ethical theories.",
+      "CO2": "Apply meta-ethical theories to engineering and IT scenarios.",
+      "CO3": "Understand the complex ethical paradoxes of IT applications and extensions.",
+      "CO4": "Demonstrate a clear knowledge of the differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+      "CO5": "Develop a finessed multi-perspectival understanding of moral issues and learn to evaluate moral practices clearly."
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to the course : Purpose, objectives, scope, methods. Why ethics for engineers? What is 'meta-ethics'?. Differences between meta-ethics and culturally conditioned moral systems and prescriptions. Why a meta-ethics course is not about producing 'moral' people, or 'good' engineers.",
+      "Lecture Topic": "Introduction to the course : Purpose, objectives, scope, methods. Why ethics for engineers? What is 'meta-ethics'?. Differences between meta-ethics and culturally conditioned moral systems and prescriptions. Why a meta-ethics course is not about producing 'moral' people, or 'good' engineers.",
+      "Lecture Topic": "Introduction to the course : Purpose, objectives, scope, methods. Why ethics for engineers? What is 'meta-ethics'?. Differences between meta-ethics and culturally conditioned moral systems and prescriptions. Why a meta-ethics course is not about producing 'moral' people, or 'good' engineers.",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Formation of Learning Teams. Assignment 1 : What is the relationship between ethics, morality and law?"
+6 | Turkle, Sherry | Turkle, Sherry | Alone Together: Basic Books, 2011 | Alone Together: Basic Books, 2011 | Alone Together: Basic Books, 2011
+7 | Hiriyanna, M. | Hiriyanna, M. | Essentials of Indian Philosophy: Motilal Banarsidass, 2000 | Essentials of Indian Philosophy: Motilal Banarsidass, 2000 | Essentials of Indian Philosophy: Motilal Banarsidass, 2000
+8 | Gensler, Harry | Gensler, Harry | Ethics: A Contemporary Introduction: Routledge India, 2003 | Ethics: A Contemporary Introduction: Routledge India, 2003 | Ethics: A Contemporary Introduction: Routledge India, 2003
+9 | Blackburn,Simon | Blackburn,Simon | Ethics—a Very Short Introduction. | OUP India, 2008 | OUP India, 2008
+10 | OUP India, 2008 | OUP India, 2008 |
+</think>
+
+```json
+{
+  "Course Code": "IIIT Delhi January – April 2015 Semester",
+  "Course Name": "Engineering Ethics",
+  "Credits": "4",
+  "Pre-requisites": "None",
+  "Course Outcomes": {
+    "CO1": "Demonstrate a clear understanding of meta-ethical theories.",
+    "CO2": "Apply meta-ethical theories to engineering and IT scenarios.",
+    "CO3": "Understand the complex ethical paradoxes of IT applications and extensions.",
+    "CO4": "Demonstrate a clear knowledge of the differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+    "CO5": "Develop a finessed multi-perspectival understanding of moral issues and learn to evaluate moral practices clearly."
+  },
+  "Course Outcomes Met": [
+    {
+      "CO1": "CO1",
+      "CO2": "CO2",
+      "CO3": "CO3",
+      "CO4": "CO4"
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to the course : Purpose, objectives, scope, methods. Why ethics for engineers? What is 'meta-ethics'? Differences between meta-ethics and social systems of moral practice and prescription.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Formation of Learning Teams. Assignment 1 : What is the relationship between ethics, morality and law?"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introduction to Meta-Ethical theories. The role of ethical theory Egoism vs altruism: Hobbes, Locke, Rousseau, Gandhi. Emotivism.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Consequentialist theories : definition. Utilitarianism: A discussion.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Non-consequentialist theories or deontological theories : Ethics of duty and personhood. The first and third versions of Kant’s Categorical Imperative. Kant and the burglar scenario (from Gensler). Kant, Buber and Levinas Non-consequentialist theories or deontological theories : Ethics of rights and justice.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Virtue ethics",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Contemporary ethical theories:",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Absolutism vs. Relativism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Applications of ethical theory to technology:: Overview.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Surveillance vs. freedom of expression in the cyber domain. Whistleblowing. Freedom of expression vs. ‘the right to be offended’.Is there such a thing as an ‘ethical’ hacker? Application of ethical theories discussed, esp. utilitarianism and Kantian ethics.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Kant, Buber, Levinas and Sherry Turkle: Discussion",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "The ethics of Social networking: Special focus on Facebook, Twitter, and other popular networking and blogging sites.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lectures, Slides, discussion | Lecture and discussion. Research paper due | Lecture and discussion. Research paper due | Lecture and discussion. Research paper due | Lecture and discussion. Research paper due | Assignment 7: Learning teams apply absolutism and relativism to IT scenario of their choice"
+      },
+      {
+        "Week": "12",
+        "Lecture Topic": "The ethics of Social networking: Special focus on Facebook, Twitter, and other popular networking and blogging sites.",
+        "COs Met": ["CO4"],
+        "Assignments": ""
+      },
+      {
+        "Week": "13",
+        "Lecture and discussion. Review for final exam",
+        "COs Met": [],
+        "Assignments": ""
+      }
+</think>
+
+```json
+{
+  "Course Code": "IIIT Delhi January – April 2015 Semester (Winter Semester)",
+  "Course Name": "Engineering Ethics",
+  "Credits": "4",
+  "Course Offered to": "",
+  "Course Description": "",
+  "Prerequisites": "None",
+  "Course Outcomes": {
+    "CO1": "Demonstrate a clear understanding of meta-ethical theories.",
+    "CO2": "Apply meta-ethical theories to engineering and IT scenarios.",
+    "CO3": "Understand the complex ethical paradoxes of IT applications and extensions.",
+    "CO4": "Demonstrate a clear knowledge of the differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+    "CO5": "Develop a finessed multi-perspectival understanding of moral issues and learn to evaluate moral practices clearly."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to the course : Purpose, objectives, scope, methods. Why ethics for engineers? What is 'meta-ethics'? Differences between meta-ethics and social systems of moral practice and prescription. Why a meta-ethics course is not about producing 'moral' people, or 'good' engineers.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introduction to Meta-Ethical theories. The role of ethical theory Egoism vs altruism: Hobbes, Locke, Rousseau, Gandhi. Emotivism.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Consequentialist theories : definition. Utilitarianism: A discussion.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Non-consequentialist theories or deontological theories : Ethics of duty and personhood. The first and third versions of Kant’s Categorical Imperative. Kant and the burglar scenario (from Gensler). Kant, Buber and Levinas Non-consequentialist theories or deontological theories : Ethics of rights and justice.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Virtue ethics",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Contemporary ethical theories:",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Absolutism vs. Relativism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Applications of ethical theory to technology:: Overview.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Surveillance vs. freedom of expression in the cyber domain. Whistleblowing. Freedom of expression vs. ‘the right to be offended’.Is there such a thing as an ‘ethical’ hacker? Application of ethical theories discussed, esp. utilitarianism and Kantian ethics.",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Kant, Buber, Levinas and Sherry Turkle: Discussion",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "The ethics of Social networking: Special focus on Facebook, Twitter, and other popular networking and blogging sites.",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Ethical Decision making, models of ethical decision making Influences on ethical decision making Individual factors Situational factors",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Vedantic Ethics: A Brief Overview.",
+      "COs Met": [],
+      "Assignments": ""
+    }
+</think>
+
+```json
+{
+  "Course Code": "IIIT Delhi January – April 2015 Semester (Winter Semester)",
+  "Course Name": "Engineering Ethics",
+  "Credits": 4,
+  "Pre-requisites": "None",
+  "COs Met": [
+    ["CO1", "CO2"],
+    ["CO3", "CO4"],
+    ["CO5"]
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to the course : Purpose, objectives, scope, methods. Why ethics for engineers? What is 'meta-ethics'? Differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to Meta-Ethical theories. The role of ethical theory Egoism vs altruism: Hobbes, Locke, Rousseau, Gandhi. Emotivism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Consequentialist theories : definition. Utilitarianism: A discussion.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Non-consequentialist theories or deontological theories : Ethics of duty and personhood. The first and third versions of Kant’s Categorical Imperative.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Virtue ethics",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Contemporary ethical theories: Feminist ethics and feminist ethics and theory and gender issues in engineering.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Absolutism vs. Relativism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Applications of ethical theory to technology:: Overview.",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Surveillance vs. freedom of expression in the cyber domain. Whistleblowing. Freedom of expression vs.
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "IIIT Delhi January – April 2015 Semester (Winter Semester)",
+  "Course Name": "Engineering Ethics",
+  "Credits": 4,
+  "Pre-requisites": "None",
+  "COs Met": [
+    ["CO1", "CO2"],
+    ["CO3", "CO4"],
+    ["CO5"]
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to the course : Purpose, objectives, scope, methods. Why ethics for engineers? What is 'meta-ethics'? Differences between meta-ethics and culturally conditioned moral systems and prescriptions.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to Meta-Ethical theories. The role of ethical theory Egoism vs altruism: Hobbes, Locke, Rousseau, Gandhi. Emotivism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Consequentialist theories : definition. Utilitarianism: A discussion.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Non-consequentialist theories or deontological theories : Ethics of duty and personhood. The first and third versions of Kant’s Categorical Imperative.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Virtue ethics",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Contemporary ethical theories: Feminist ethics and feminist ethics and theory and gender issues in engineering.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Absolutism vs. Relativism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Applications of ethical theory to technology:: Overview.",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    }

@@ -1,0 +1,83 @@
+{
+  "Course Code": "ECE230",
+  "Course Name": "Fields and Waves",
+  "Credits": 4,
+  "Course Offered to": "UG - Second Year",
+  "Course Description": "This is an introductory course to electrodynamics (along with electrostatics and magnetostatics). This course will serve as a foundational course for students interested in working in RF and micro-wave, millimeter wave and optical systems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH203"
+    ],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to execute vector calculus operations (gradient, divergence, curl, line, surface and volume integrals) in Cartesian and curvilinear coordinates",
+    "CO2": "Students are able to use Coulomb's law, Gauss's law and Poisson's equation to solve for electric field, flux density and potentials for point, line, surface and volume charge distributions",
+    "CO3": "Students are able to use Biot Savart's law and Ampere's law to solve for magnetic field and flux density",
+    "CO4": "Students are able to analyze Maxwell's equations of time- harmonic fields to describe electromagnetic wave propagation in different media and across boundaries",
+    "CO5": "Students are able to analyze electromagnetic wave propagation through simple transmission lines"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Vector Analysis - Vector algebra, differential calculus, integral calculus, curvilinear coordinates",
+      "COs Met": [
+        "C01"
+      ],
+      "Assignments": "Reading assignment, homework"
+    },
+    {
+      "Week": 23,
+      "Lecture Topic": "Electrostatics - Coulombs law, electric field, Gauss's law, electric potential, energy and potential, electric fields in matter, Poisson's and Laplace's equations",
+      "COs Met": [
+        "C02"
+      ],
+      "Assignments": "Reading assignment, homework"
+    },
+    {
+      "Week": 45,
+      "Lecture Topic": "Magnetostatics - Biot-Savart's law, magnetic field, Ampere's law, magnetic fields in matter",
+      "COs Met": [
+        "C03"
+      ],
+      "Assignments": "Reading assignment, homework"
+    },
+    {
+      "Week": 67,
+      "Lecture Topic": "Electrodynamics - electromotive force, electromagnetic induction, Maxwell's equations",
+      "COs Met": [
+        "C04"
+      ],
+      "Assignments": "Reading assignment, homework"
+    },
+    {
+      "Week": "Please insert more rows if required",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 30,
+    "Endsem": 35,
+    "Quiz": 15,
+    "Homework": 20
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Type": "Textbook",
+        "Title": "Introduction to Electrodynamics, Third Edition"
+      },
+      {
+        "Type": "Textbook",
+        "Title": "Engineering Electromagnetics, Eighth Edition"
+      },
+      {
+        "Type": "Textbook",
+        "Title": "Principles of Electromagnetics 4th Edition"
+      }
+    ]
+  }
+}

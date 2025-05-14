@@ -1,0 +1,122 @@
+{
+  "Course Code": "CSE233",
+  "Course Name": "Network Administration",
+  "Credits": "2",
+  "Course Offered to": "UG",
+  "Course Description": "This course is intended for second year B.Tech students, who wish to improve skills through hands-on experience in network administration. This course is a follow up of the course on System Administration. Students\u2019, who successfully complete these courses, will be offered part-time work for System and Network Admin in the institute and will be expected to work for at least two semesters.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE230"
+    ],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to read design document of enterprise-level network",
+    "CO2": "Students can do basic setup of switches and APs for an enterprise",
+    "CO3": "Students can understand IP addressing",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Computer Networks: OSI & TCP/IP Model",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Physical Media: UTP, Fiber and Wireless Media",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "LAN Architecture: 10/100/1000/10G Ethernet",
+      "COs Met": [],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Switching & Routing: Layer 2 & Layer 3 switching; Routing; VLAN; Cisco L2 and L3 Switch Configuration",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "IP Addressing: IPv4 Addressing and Sub-netting; DHCP Configuration; IPv6",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Wireless LAN: 802.11 a/b/g/n/ac WiFi; Access Point and Wireless Router configuration",
+      "COs Met": [],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Internet Architecture: ISP Architecture; DNS Resolution; BGP Routing; Content Mirroring",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Internet Applications: DNS; Web; Mail; Proxy; NTP",
+      "COs Met": [],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Perimeter Security: Firewall; UTM",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Network Security: LAN and WLAN Security issues; IP Spoofing; Dictionary Attack; DoS and DDoS Attack; Rogue/Misconfigured/External APs",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Network Troubleshooting: ping, traceroute, nslookup, dig, tcpdump",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Network Monitoring: SNMP; MRTG",
+      "COs Met": [],
+      "Assignments": "Assignment (8 hours)"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Project discussions",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": "15",
+    "HW assignments": null,
+    "Endsem": "15"
+  },
+  "Resource Material": {
+    "Textbook": "CSE230",
+    "Reference Book": ""
+  }
+}

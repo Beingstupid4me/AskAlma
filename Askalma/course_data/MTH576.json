@@ -1,0 +1,110 @@
+{
+  "Course Code": "MTH576",
+  "Course Name": "Categorical Data Analysis (CDA)",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The study of categorical data sets involve commonly used distributions like Bernoulli, Binomial and Poisson. This course involves analyzing such data sets. The commonly used methods like odds ratio and relative risk will be discussed. The multiple regression model building for categorical data will be discussed in detail. The emphasis will be on studying these models on real life data sets and building and interpretating the results.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Probability and Statistics"
+    ],
+    "Desirable": [
+      "Statistical Inference",
+      "Econometrics I/Statistical Signal processing/Machine Learning"
+    ],
+    "Other": [
+      "Econometrics I/Statistical Signal processing/Machine Learning"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "inferences on categorical data",
+    "CO2": "count data.",
+    "CO3": "to build codes in R (or)",
+    "CO4": "analyze the real life cateogrical"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": [
+        "Week 1, 2"
+      ],
+      "Lecture Topic": "Introduction to Categorical Response Data; Probability Distributions",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": [
+        "Week 2, 3, 4"
+      ],
+      "Lecture Topic": "Two, Three and k- way Contingency Tables",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment I : On Contingency Tables"
+    },
+    {
+      "Week": [
+        "Week 5, 6"
+      ],
+      "Lecture Topic": "Generalized Linear Models for Binary, Count and Rate data. Probit a",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": [
+        "Week 7, 8, 9"
+      ],
+      "Lecture Topic": "Multiple Logistic Regression with continuous and categorical predictors and their interactions. Cochran\u2013Mantel\u2013Haenszel tests. Probability based and Standardized interpretaions, Stepwise Variable Selection Algorithms, other criterion like AIC, BIC and AICc. Derivation of deviance, goodness of fit; Pearson and Standardized residuals",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment II : On Logistic Regression"
+    },
+    {
+      "Week": [
+        "Week 9, 10, 11"
+      ],
+      "Lecture Topic": "Multicategory Logit Models: Logit Models for Nominal Responses,Cu",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment III: On Logit models"
+    },
+    {
+      "Week": [
+        "Week 12, 13, 14"
+      ],
+      "Lecture Topic": "Loglinear Models; Independence Graphs and Collapsibility; Models f",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment IV: On Loglinear models"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "15",
+    "Midsem": "20",
+    "HW assignments": "",
+    "Endsem": "30",
+    "Project": "15"
+  },
+  "Resource Material": {
+    "Textbook": "An Introduction to Categorical Data Analysis, Alan Agresti (II Edition)",
+    "Reference Book": "The Statistical Analysis of Categorical Data, E.B. Andersen"
+  }
+}

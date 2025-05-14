@@ -1,0 +1,116 @@
+{
+  "Course Code": "BIO361",
+  "Course Name": "Biophysics",
+  "Credits": 4,
+  "Course Offered to": "Elective",
+  "Course Description": "This biophysics course shall delve into concepts of physics acting upon biomolecules, primarily proteins. From understanding protein folding to predicting 3-dimension structures from the 1-dimension sequence, the course shall involve assignments that shall give the students the neccessary knowledge to deal with structural problems.",
+  "Prerequisites": {
+    "Mandatory": "Basic knowledge of biology, chemistry, physics and python",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand the relation of protein evolution with its function and explain fundamental structural properties",
+    "CO2": "Students are able to decipher fundamentals forces acting upon biomolecules",
+    "CO3": "Students are able to extract meaningful Thermodynamic analysis and are able to explain the underlying connection with statistical physics for structure prediction",
+    "CO4": "Students are able to apply statistical and statistical-mechanical ideas to a solve complex biological systems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Course Introduction & Biological Interactions",
+      "COURSEs MET": [
+        "CO1"
+      ],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introduction to Statistical Mechanics and basic mathematics in biophysics",
+      "COURSEs MET": [],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Electrostatics and other interactions in proteins & water, Secondary structure and amino acid properties",
+      "COURSEs MET": [
+        "CO1"
+      ],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Free energy and the hydrophobic effect",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Kinetics of Protein Folding",
+      "COURSEs MET": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments/Lab/Tutorials": "Assignment: (1) where students will actually simulate protein/DNA or their interactions using computers."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Thermodynamics of structural transitions, folding & denaturation",
+      "COURSEs MET": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments/Lab/Tutorials": "Assignment: (2) where students are going to simulate folding"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Insertion, Folding & Interactions of Membrane Proteins",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments/Lab/Tutorials": "Assignment: (3) where students will actually predict protein structures using computers."
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "Structure prediction and CASP",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week": "11-12",
+      "Lecture Topic": "Secondary structure stability, helix-coil transitions & cooperativity",
+      "COURSEs MET": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments/Lab/Tutorials": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Statistical mechanics, the partition function, and first- order phase transitions",
+      "COURSEs MET": [
+        "CO4"
+      ],
+      "Assignments/Lab/Tutorials": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": "20",
+    "Endsem": "30",
+    "Assignment+Attendence": "40+10"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Protein Physics A Course of Lectures by Alexei V. Finkelstein and Oleg B. Ptitsyn",
+      "Physical Biology of the Cell, Second Edition\u00a0by Rob Phillips, Jane Kondev, Julie Theriot, and Hernan Garcia (Garland Science, 2012)",
+      "Introductory Biophysics by J. R. Claycomb and J.Q.P. Tran"
+    ]
+  }
+}

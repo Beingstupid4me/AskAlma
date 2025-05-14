@@ -1,0 +1,300 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: both are listed as "ENT412" and "Entrepreneurial Khichadi". So those fields will be straightforward.
+
+Next, Credits: The value is 4, which is already a number, so that's easy to include.
+
+Course Offered To has multiple entries. I'll need to list each one separately under the "Offered to" key. It includes B.Tech., M.Tech., and Ph.D. students.
+
+The Course Description is quite lengthy but doesn't contain any special characters like commas or line breaks, so it can be included as a single string.
+
+For Prerequisites, I see three sections: Mandatory, Desirable, and Other. Each has "None None None", so I'll map those accordingly.
+
+Moving on to Course Outcomes (COs), there are four COs listed with their respective numbers. That's straightforward.
+
+The Weekly Lecture Plan is a bit more complex. It starts from Week 1 to Week 28, each week having a Lecture Topic and COs Met. However, the last two weeks only have the Lecture Topic without Assignments or COs. I'll need to handle that by leaving those fields empty for Weeks 25-28.
+
+Assessment Plan includes Quiz exams, Midsem, HW assignments, and Endsem with percentages. The file shows Midsem as "Midsem" but doesn't specify a percentage, so it's marked as null. The rest have values or are marked as null if not provided.
+
+Resource Material has two Textbooks: "Innovation and Entreprenuership" by Peter F. Drucker (desirable) and "The Lean startup" by Eric Ries (also desirable). There's no optional textbook, so the "Title" field will be empty for that key.
+
+I need to ensure all fields are correctly named and data types are handled properly—numbers should stay as numbers, others as strings. Also, missing values should be represented as null or empty strings where appropriate.
+</think>
+
+```json
+{
+  "Course Code": "ENT412",
+  "Course Name": "Entrepreneurial Khichadi",
+  "Credits": 4,
+  "Course Offered to": [
+    "B.Tech. post 4 semesters (students from 3rd year)",
+    "M.Tech.",
+    "Ph.D."
+  ],
+  "Course Description": "This course familiarises students with fundamentals of entrepreneurship, and is relevant for students who are aspiring to be entrepreneurs or want to get exposed to concepts of entrepreneurship which will be beneficial to them in any job that they plan to take up after their graduation. The key elements of entrepreneurship will be introduced, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc. Importance of teaming will be taught, that will cover topics related to building a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc. The course will also introduce key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, building sustainable business, etc. As some of these topics will be covered in greater depth in a few other core/elective courses, the objective will be to ensure that there are minimal overlaps with the content of other courses while ensuring that relevant connects are made to specific areas that are important for entrepreneurship. The course will encourage team-based method of learning. In the beginning of the course, teams of 2-3 students will be formed which will develop ideas for a venture. They will then create a real world business plan based on this idea. Teams will present relevant portions of their business plan to the class for analysis and discussion.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Learn key elements of entrepreneurship, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc.",
+    "CO2": "Analyze importance of teaming, how to build a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc.",
+    "CO3": "Synthesize key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, etc.",
+    "CO4": "Have ability to propose, analyze and create a plan for a venture through team-based projects; determine the challenges, gaps and opportunities; plan effective technology based solutions; prepare and present final investor-ready business plan"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Key elements of Entrepreneurship",
+      "COs Met": ["CO1"],
+      "Assignments": "Introductory class, discuss course outline, assignments, evaluation parameters, discuss foundational aspects of"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Building entrepreneurial teams (create student teams for class projects)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Students create project teams and propose their venture ideas that will be discussed in the class"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Leadership skills, hiring of core employees, aligning goals to business objectives",
+      "COs Met": ["CO2"],
+      "Assignments": "Guest lecture by an industry leader who has built a successful entrepreneurial team; give an assignment related to class"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Creative thinking and innovation",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Presentation of class projects and discussion on applying innovation to proposed ventures"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Product design and prototype",
+      "COs Met": ["CO3"],
+      "Assignments": "Concepts of product design and relevant application to class projects; give an assignment on analysis of a product"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Marketing and Competitive Analysis",
+      "COs Met": ["CO3"],
+      "Assignments": "Discussion based on a case study of a venture with focus on competitive analysis and market positioning"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Entrepreneurial case studies and team presentations",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Presentation of a case study; presentation of class projects and detailed discussion among students"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Business model, go-to-market strategy and revenue models",
+      "COs Met": ["CO3"],
+      "Assignments": "Discussion on Business Model Canvas and relevant revenue models; apply this to class projects"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Financial aspects, managing cash-flows and unit economics",
+      "COs Met": ["CO3"],
+      "Assignments": "Fundamentals of finance, cash-flows; discuss a case study; apply this to class projects"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Intellectual property and legal aspects",
+      "COs Met": ["CO3"],
+      "Assignments": "Guest lecture by an IP and legal expert; and apply relevant aspects to class projects"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Elements of investor pitch, raising funds and valuation methodology",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Discussion on investor expectations, elevator pitch and start work on final presentations"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Prepare business plans for initial discussions",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Class presentations and discussions; students refine their proposals based on collective feedback"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Final project presentations",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Students make final presentations of investor-ready business plan"
+    }
+</think>
+
+```json
+{
+  "Course Code": "ENT412",
+  "Course Name": "Entrepreneurial Khichadi",
+  "Credits": "4",
+  "Course Offered to": "B.Tech. post 4 semesters (students from 3rd year), M.Tech., and Ph.D.",
+  "Course Description": "This course familiarises students with fundamentals of entrepreneurship, and is relevant for students who are aspiring to be entrepreneurs or want to get exposed to concepts of entrepreneurship which will be beneficial to them in any job that they plan to take up after their graduation. The key elements of entrepreneurship will be introduced, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc. Importance of teaming will be taught, that will cover topics related to building a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc. The course will also introduce key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, building sustainable business, etc. As some of these topics will be covered in greater depth in a few other core/elective courses, the objective will be to ensure that there are minimal overlaps with the content of other courses while ensuring that relevant connects are made to specific areas that are important for entrepreneurship. The course will encourage team-based method of learning. In the beginning of the course, teams of 2-3 students will be formed which will develop ideas for a venture. They will then create a real world business plan based on this idea. Teams will present relevant portions of their business plan to the class for analysis and discussion.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Learn key elements of entrepreneurship, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc.",
+    "CO2": "Analyze importance of teaming, how to build a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc.",
+    "CO3": "Synthesize key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, building sustainable business, etc.",
+    "CO4": "Have ability to propose, analyze and create a plan for a venture through team-based projects; determine the challenges, gaps and opportunities; plan effective technology based solutions; prepare and present final investor-ready business plan"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Key elements of Entrepreneurship",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Building entrepreneurial teams (create student teams for class projects)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Leadership skills, hiring of core employees, aligning goals to business objectives",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Creative thinking and innovation",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Product design and prototype",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Marketing and Competitive Analysis",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Entrepreneurial case studies and team presentations",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Business model, go-to-market strategy and revenue models",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Financial aspects, managing cash-flows and unit economics",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Intellectual property and legal aspects",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Elements of investor pitch, raising funds and valuation methodology",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Prepare business plans for initial discussions",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Final project presentations",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Innovation and Entreprenuership" by Peter F. Drucker",
+      "The Lean startup" by Eric Ries",
+      "The Art of the Start" by Guy Kawasaki",
+      "Business Model Generation" by Alexander Osterwalder, Yves Pigneur",
+      "The Hard Thing about Hard Things" by Ben Horowitz"
+    ],
+    "Reference Book": null
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ENT412",
+  "Course Name": "Entrepreneurial Khichadi",
+  "Credits": 4,
+  "Course Offered to": "B.Tech. post 4 semesters (students from 3rd year), M.Tech., and Ph.D.",
+  "Course Description": "This course familiarises students with fundamentals of entrepreneurship, and is relevant for students who are aspiring to be entrepreneurs or want to get exposed to concepts of entrepreneurship which will be beneficial to them in any job that they plan to take up after their graduation. The key elements of entrepreneurship will be introduced, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc. Importance of teaming will be taught, that will cover topics related to building a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc. The course will also introduce key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, building sustainable business, etc. As some of these topics will be covered in greater depth in a few other core/elective courses, the objective will be to ensure that there are minimal overlaps with the content of other courses while ensuring that relevant connects are made to specific areas that are important for entrepreneurship. The course will encourage team-based method of learning. In the beginning of the course, teams of 2-3 students will be formed which will develop ideas for a venture. They will then create a real world business plan based on this idea. Teams will present relevant portions of their business plan to the class for analysis and discussion.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": "None None None"
+  },
+  "Course Outcomes": {
+    "CO1": "Learn key elements of entrepreneurship, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc.",
+    "CO2": "Analyze importance of teaming, how to build a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc.",
+    "CO3": "Synthesize key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, etc.",
+    "CO4": "Have ability to propose, analyze and create a plan for a venture through team-based projects; determine the challenges, gaps and opportunities; plan effective technology based solutions; prepare and present final investor-ready business plan"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Key elements of Entrepreneurship",
+      "COs Met": ["CO1"],
+      "Assignments": "Introductory class, discuss course outline, assignments, evaluation parameters, discuss foundational aspects of"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Building entrepreneurial teams (create student teams for class projects)",
+      "CO
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ENT412",
+  "Course Name": "Entrepreneurial Khichadi",
+  "Credits": 4,
+  "Course Offered to": "B.Tech. post 4 semesters (students from 3rd year), M.Tech., and Ph.D.",
+  "Course Description": "This course familiarises students with fundamentals of entrepreneurship, and is relevant for students who are aspiring to be entrepreneurs or want to get exposed to concepts of entrepreneurship which will be beneficial to them in any job that they plan to take up after their graduation. The key elements of entrepreneurship will be introduced, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc. Importance of teaming will be taught, that will cover topics related to building a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc. The course will also introduce key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, building sustainable business, etc. As some of these topics will be covered in greater depth in a few other core/elective courses, the objective will be to ensure that there are minimal overlaps with the content of other courses while ensuring that relevant connects are made to specific areas that are important for entrepreneurship. The course will encourage team-based method of learning. In the beginning of the course, teams of 2-3 students will be formed which will develop ideas for a venture. They will then create a real world business plan based on this idea. Teams will present relevant portions of their business plan to the class for analysis and discussion.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": "None None None"
+  },
+  "Course Outcomes": {
+    "CO1": "Learn key elements of entrepreneurship, such as entrepreneurship spirit that entails attributes such as flexibility, core values of ethics and integrity, passion to solve a real business problems, empathy, achievement orientation, customer focus, importance of collaborative approach, etc.",
+    "CO2": "Analyze importance of teaming, how to build a team that has complementary skills, aligning goals of various team-members, hiring of the initial employees, leadership skills, etc.",
+    "CO3": "Synthesize key areas that are extremely important to build a startup; such as creativity and innovation, marketing, product design and prototype, competitive analysis, business model, business plan, go-to-market strategy and revenue models, managing cash-flows, valuation methodology, raising funds and preparing investor pitch, intellectual property and legal aspects, etc.",
+    "CO4": "Have ability to propose, analyze and create a plan for a venture through team-based projects; determine the challenges, gaps and opportunities; plan effective technology based solutions; prepare and present final investor-ready business plan"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Key elements of Entrepreneurship",
+      "COs Met": ["CO1"],
+      "Assignments": "Introductory class, discuss course outline, assignments, evaluation parameters, discuss foundational aspects of"
+    }

@@ -1,0 +1,145 @@
+{
+  "Course Code": "CSE559",
+  "Course Name": "Mining Large Networks (MLN)",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Networks are a fundamental tool for modeling complex social, technological, and biological systems. Coupled with the emergence of online social networks and large-scale data availability in social sciences, this course focuses on the analysis of massive networks which provide many computational, algorithmic, and modeling challenges. The course will cover recent research on the structure and analysis of such large networks and on models and algorithms that abstract their basic properties. We will explore how to practically analyze large-scale network data and how to reason about it through models for network structure and evolution. Topics covered in this course include how information spreads through society; robustness and fragility of networks; algorithms for the World Wide Web; prediction and recommendation in online social networks; representation learning for large networks; etc.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE222",
+      "CSE101",
+      "MTH201 Algorithm Design & Analysis"
+    ],
+    "Desirable": [
+      "Python programming"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "To discuss and analyze advantages and disadvantages of tools/techniques used for network analysis",
+    "CO2": "To adapt and implement existing models and study their performance with respect to different datasets",
+    "CO3": "To use real-world datasets for building models to solve advanced problems"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Course introduction and structure of Graphs",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Measuring networks, and random graph models",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Link analysis: PageRank and its variants, Link Farming",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Network sampling",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Community structure in Networks",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Community detection approaches",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Link prediction",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Network Effects and Cascade behavior",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Influence maximization and outbreak detection",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Network-based Anomaly detection",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Heterogeneous network, metapaths",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Graph Representation Learning",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Weekly Lab Plan": [],
+  "Assessment Plan": {
+    "Mid-sem": 15,
+    "End-sem": 25,
+    "Class Attendance": 3,
+    "Quiz (4)": 10,
+    "Assignment (4)": 15,
+    "Project": 25,
+    "Research paper discussion": 4
+  },
+  "Resource Material": {
+    "Textbook": "Social Network Analysis: Theory and Practice",
+    "Reference": [
+      "Social Network Analysis: Methods and Applications",
+      "Research papers"
+    ]
+  }
+}

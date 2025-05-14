@@ -1,0 +1,135 @@
+{
+  "Course Code": "CSE606A",
+  "Course Name": "Next Generation Data Lifecycle Management",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Prerequisites": {
+    "Mandatory": [
+      "Python Programming",
+      "CSE343/CSE543/ECE563 Introductory ML course"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Understand the different components and challenges for Data Lifecycle",
+    "CO2": "Summarize the evolution of Data Research from BI to AI to Hybrid cloud",
+    "CO3": "Summarize the different challenges involved in the management and preparation of data for ML applications",
+    "CO4": "Determine the different methods and best practices to handle data to construct better ML pipelines"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Background: Machine learning background refresher, What is data lifecycle and why is it important?, Why is this important in the industry, Data and Features, Trends on where Data Scientist's time is spent, Importance of Data Prep, Case Study, Data For AI, AI for Data",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Data Lifecycle: Overview of different steps, Data Acquisition and associated challenges, Ethical Aspects, PI/SPI identification, Encryption, Metadata, How do data acquisition challenges contribute to upstream uses",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "34",
+      "Lecture Topic": "Data Exploration and associated challenges: Statistical Inference and exploratory data analysis, Data Variable Types and Identification, Data Exploration using Python, Can all data issues be caught in data exploration?",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "56",
+      "Lecture Topic": "Data Cleaning/Preparation: Programmatic (Missing Values, Outliers, Data Representations and Challenges, Data Labeling and challenges, Data Bias - can cleaning lead to bias?), Non Programmatic (Data transformations, Normalization)",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "78",
+      "Lecture Topic": "Data Quality Analysis for ML: Overview of what it means and how it helps a data scientist, Discussion on methods to capture quality issues (Label Noise, Homogeneity, Class Overlap, Advanced class imbalance, Feature Strength), Research Trends",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Data Governance: Data Sharing, Access Policy, Regulations like GDPR, Advanced Policy Driven Actions",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "How it all comes together: Enterprise Case Studies. (May be get an external speaker-Chief Data Officer)",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Re looking Data in Hybrid Cloud world: Federated Data, New Challenges in Governance, New Challenges in Discovery, Glimpse of tools in HC - Kubernetes, Istio, OpenSift etc",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "1213",
+      "Lecture Topic": "Project Presentations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Quiz exams",
+      "% Contribution in Grade": "15%"
+    },
+    {
+      "Type": "Mid Term",
+      "% Contribution in Grade": "15%"
+    },
+    {
+      "Type": "Project",
+      "% Contribution in Grade": "50%"
+    },
+    {
+      "Type": "Final term",
+      "% Contribution in Grade": "20%"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "The instructors will provide lecture notes and point to research papers which will be discussed in the class."
+  }
+}

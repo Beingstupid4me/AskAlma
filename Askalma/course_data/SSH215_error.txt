@@ -1,0 +1,244 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a JSON format as specified. Let me go through each section step by step.
+
+First, the Course Code is clearly stated in row 3: SSH215.
+
+Next, the Course Name is given in row 2: "Nation and her Narratives."
+
+For Credits, looking at row 4, it's mentioned as 4. I should check if there are any missing values later on, but for now, it's straightforward.
+
+Course Offered to is listed in row 5 as UG (Undergraduate).
+
+The Course Description spans multiple rows from 6 to 20. It seems quite detailed, so I'll include the entire text as a single string since it doesn't seem to break down into key-value pairs.
+
+Prerequisites are mentioned starting at row 8: COM 101. Since there's only one prerequisite listed, I'll note that as "Mandatory." There's no mention of Desirable or Other prerequisites in this data, so those fields will be empty strings.
+
+Moving on to Course Outcomes (COs), rows 10-15 list CO1 through CO5 with their descriptions. Each CO is a key, and its value is the description provided. I'll structure each as an object within the COs array.
+
+The Weekly Lecture Plan starts at row 24. Each week has a "Week" number, "Lecture Topic," COs met, and "Assignments." Rows 16 to 30 list these details for Weeks 1-14. I'll create an array of objects with each week's data.
+
+The Assessment Plan (rows 35-48) includes types of evaluation like Independent Seminar, Digital Mapping, etc., each with a percentage contribution. I'll map each type to its respective weight and include "Total:100" at the end.
+
+Resource Material starts at row 51. It includes two sessions: one on introducing the course and readings, another on Week 1-2 lectures and resources. Each session has a title and type (Session and Type of Resource). I'll create an array with these details.
+
+I need to ensure all fields are correctly mapped from the provided content, handle missing data gracefully by using empty strings or nulls where necessary, and structure everything into the specified JSON format without any markdown.
+</think>
+
+```json
+{
+  "Course Code": "SSH215",
+  "Course Name": "Nation and her Narratives",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces students to the literature of India. It surveys a selection of literary works by authors in India and in the diaspora. The course will examine how key cultural concepts have reappeared across Indian literary traditions over time and how they have been reimagined within specific historical junctures and socio-linguistic networks.",
+  "Prerequisites": {
+    "Mandatory": "COM 101",
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Students should be able to approach a literary text for identifying relevant issues in historical and contemporary contexts, appreciate diversity of artistic expressions. Identify and define literary elements, genres, and other elements of literary narration.",
+    "CO2": "Students should be able to ask informed questions, discuss interpretations of literary texts, engage in critical understanding of contexts ideas and share insights with others in group discussion.",
+    "CO3": "Students should critically analyse a text, creating mind map based on their own observations and close reading. In some cases, the students should be able to compare it with the cinematic narration adapted from the same text or ideas similar to the ones in the chosen text.",
+    "CO4": "Students should think, write and speak critically and analytically about crucial issues and then write clear, coherent, well-structured short essays using a given text as support to their claims and as illustrations of the informed comments about a literary work.",
+    "CO5": "Students should have acquired a literary vocabulary and developed an understanding of how to access textual information through, the students should be able to define their own research interest picking themes from the course to ask the essential, self-refective, critical questions that mark every humanist's rich encounter with data."
+  --- END OF SHEET ---
+</think>
+
+```json
+{
+  "Course Code": "SSH215",
+  "Course Name": "Nation and her Narratives",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces students to the literature of India. It surveys a selection of literary works by authors in India and in the diaspora, focusing on themes such as the idea of home, borders, power, translation, and intercultural contexts.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (COM 101)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students should be able to approach a literary text for identifying relevant issues in historical and contemporary contexts, appreciate diversity of artistic expressions, identify and define literary elements, genres, and other elements of literary narration.",
+    "CO2": "Students should be able to ask informed questions, discuss interpretations of literary texts, engage in critical understanding of contexts, ideas, and share insights with others in group discussion.",
+    "CO3": "Students should critically analyse a text, create mind maps based on their own observations and close reading. They should also compare it with cinematic adaptations or other narratives.",
+    "CO4": "Students should be able to think, write, and speak critically and analytically about crucial issues and then write clear, coherent, well-structured short essays using a given text as support to their claims and as illustrations of the informed comments about a literary work.",
+    "CO5": "Students should acquire a literary vocabulary and develop an understanding of how to access textual information through references and sources."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction and Idea of home and belonging. Readings: Rabindranath Tagore’s “The Postmaster” and Sarat Chandra Chattopadhyay’s “Mahesh”.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Introduction to the idea of home as a trope in literary narratives; Introduction to the literary constructs of literary narratives in India, underlining the socio-historical context. Reading and discussion of selected narratives with pre-reflection and 1 minute memo.",
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Notions of the subaltern body. Readings: Mahasweta Devi’s “Behind the Bodice” and Ismat Chughtai’s “The Homemaker”.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Conceptualising the subaltern, Reading and discussion of selected narratives with pre-reflection and 1 minute memo.",
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Independent seminar on “Text on Screen”.",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": "First assignment on the techniques of transition from textual to visual medium based on the same narrative with 1 minute memo.",
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Critical visualisation of the data: Digital Mapping of the text and the context.",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Second assignment on understanding the range of data in the humanities to define, organise information about a dataset, and produce visual representations of data with 1 minute memo.",
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Discontent of Power and Space Reading: Amitav Ghosh’s “Ghosts of Mrs Gandhi”.",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": "Second assignment on understanding the range of data in the humanities to define, organise information about a dataset, and produce visual representations of data with 1 minute memo.",
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Critical visualisation of the data: Digital Mapping of the text and the context.",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Second assignment on understanding the range of data in the humanities to define, organise information about a dataset, and produce visual representations of data with 1 minute memo.",
+      "Group Discussion": "Group discussion: Intercultural Literary Intervention. What perspectives do we focus through a reading of these diverse contexts? Could we say that approaching the 'other' would essentially imply consciously cultivating some knowledge (rather working knowledge) of the other? Does Literature provide the liberty of accessing the other and the unfamiliar, yet see the similarities and parallels of human life and living? 1 minute memo"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Critical visualisation of the data: Digital Mapping of the text and the context.",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "..."
+    }
+</think>
+
+```json
+{
+  "Course Code": "SSH215",
+  "Course Name": "Nation and her Narratives",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces students to the literature of India. It surveys a selection of literary works by authors in India and in the diaspora. The course focuses on themes such as the idea of home, borders, power, translation, and intercultural contexts.",
+  "Prerequisites": {
+    "Mandatory": "COM 101",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students should be able to approach a literary text for identifying relevant issues in historical and contemporary contexts, appreciate diversity of artistic expressions, identify and define literary elements, genres, and other elements of literary narration.",
+    "CO2": "Students should be able to ask informed questions, discuss interpretations of literary texts, engage in critical understanding of contexts, ideas, and share insights with others in group discussion.",
+    "CO3": "Students should critically analyse a text, create mind maps based on their own observations and close reading. They should also be able to compare it with the cinematic narration adapted from the same text or ideas similar to the ones in the chosen text.",
+    "CO4": "Students should think, write, and speak critically and analytically about crucial issues and then write clear, coherent, well-structured short essays using a given text as support to their claims and as illustrations of the informed comments about a literary work.",
+    "CO5": "Students should acquire a literary vocabulary and develop an understanding of how to access textual information through definitions and notes."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction and Idea of home and belonging. Readings: Rabindranath Tagore’s “The Postmaster” and Sarat Chandra Chattopadhyay’s “Mahesh”.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Introduction to the idea of home as a trope in literary narratives; Introduction to the literary constructs of literary narratives in India, underlining the socio-historical context. Reading and discussion of selected narratives with pre-reflection and 1 minute memo.",
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Notions of the subaltern body. Readings: Mahasweta Devi’s “Behind the Bodice” and Ismat Chughtai’s “The Homemaker”.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Conceptualising the subaltern, Reading and discussion of selected narratives with pre-reflection and 1 minute memo.",
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Independent seminar on “Text on Screen”.",
+      "COs Met": ["CO1", "CO3", "CO4"],
+      "Assignments": "First assignment on the techniques of transition from the textual to the visual medium based on the same narrative. 1 minute memo.",
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Critical visualisation of the data: Digital Mapping of the text and the context.",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Second assignment on understanding the range of data in the humanities to define, organise information about a data set, and produce visual representations of data. 1 minute memo.",
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Discontent of Power and Space Reading: Amitav Ghosh’s “Ghosts of Mrs Gandhi”.",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": "selected, Teasing out the central themes, Critical discussion of the resources, Articulation of individual perspectives, Appreciating the form content relation. Taking notes of different data available on Operation Blue Star, Assassination of Mrs Gandhi, Sikh riots of 1947, and the situations in Delhi. 1minute memo.",
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Critical visualisation of the data: Digital Mapping of the text and the context | CO3, CO5",
+      "Assignments": "Second assignment on understanding the range of data in the humanities to define, organise information about a data set, and produce visual representations of data. 1 minute memo.",
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Discontent of Power and Space Reading: Amitav Ghosh’s “Ghosts of Mrs Gandhi”.",
+      "Assignments": "selected, Teasing out the central themes, Critical discussion of the resources, Articulation of individual perspectives, Appreciating the form content relation. Taking notes of different data available on Operation Blue Star, Assassination of Mrs. Gandhi, Sikh riots of 1947, and the situations in Delhi. 1minute memo |",
+    },
+]
+</think>
+
+```json
+{
+  "Course Code": "SSH215",
+  "Course Name": "Nation and her Narratives",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces students to the literature of India. It surveys a selection of literary works by authors in India and in the diaspora. The course will examine how key cultural concepts have reappeared across Indian literary traditions over time and how they have been reimagined within specific historical junctures and socio-linguistic networks.",
+  "Prerequisites": {
+    "Mandatory": "COM 101",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Student should be able to approach a literary text for identifying relevant issues in historical and contemporary contexts, appreciate diversity of artistic expressions, Identify and define literary elements, genres, and other elements of literary narration.",
+    "CO2": "Ask informed questions, discuss interpretations of literary texts, engage in critical understanding of contexts ideas and share insights with others in group discussion.",
+    "CO3": "Critically analyse a text, creating mind map based on your own observations and close reading. In some cases, the students should be able to compare it with the cinematic narration adapted from the same text, or ideas similar to the ones in the chosen text.",
+    "CO4": "Students should be able to think, write and speak critically and analytically about crucial issues and then write clear, coherent, well-structured short essays using a given text as support to your claims and as illustrations of the informed comments about a literary work.",
+    "CO5": "Have acquired a literary vocabulary and developed an understanding of how to access textual information through, the students should be able to define their own research interest picking themes from the course to ask the essential, self-refective, critical questions that mark every humanist's rich encounter with data."
+</think>
+
+```json
+{
+  "Course Code": "SSH215",
+  "Course Name": "Nation and her Narratives",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces students to the literature of India. It surveys a selection of literary works by authors in India and in the diaspora. The course examines themes such as the idea of home, borders, power, translation, and intercultural contexts through literary narratives.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (COM 101)",
+    "Desirable": "Pre-requisite (Desirable): Pre-requisite(other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Student should be able to approach a literary text for identifying relevant issues in historical and contemporary contexts, appreciate diversity of artistic expressions, identify and define literary elements, genres, and other elements of literary narration.",
+    "CO2": "Student should be able to ask informed questions, discuss interpretations of literary texts, engage in critical understanding of contexts ideas and share insights with others in group discussion.",
+    "CO3": "Student should critically analyse a text, create mind maps based on personal observations and close reading. In some cases, the student should be able to compare it with the cinematic narration adapted from the same text or ideas similar to the ones in the chosen text.",
+    "CO4": "Student should think, write, and speak critically and analytically about crucial issues and then write clear, coherent, well-structured short essays using a given text as support to their claims and as illustrations of the informed comments about a literary work.",
+    "CO5": "Student should acquire a literary vocabulary and developed an understanding of how to access textual information through, the students should define their own research interest picking themes from the course to ask the essential, self-refective, critical questions that mark every humanist's rich encounter with data."
+</think>
+
+```json
+{
+  "Course Code": "SSH215",
+  "Course Name": "Nation and her Narratives",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces students to the literature of India. It surveys a selection of literary works by authors in India and in the diaspora, examining themes such as the idea of home, borders, power, translation, and intercultural contexts.",
+  "Prerequisites": {
+    "Mandatory": "COM 101",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Student should be able to approach a literary text for identifying relevant issues in historical and contemporary contexts, appreciate diversity of artistic expressions, identify and define literary elements, genres, and other elements of literary narration.",
+    "CO2": "Student should be able to ask informed questions, discuss interpretations of literary texts, engage in critical understanding of contexts ideas and share insights with others in group discussion.",
+    "CO3": "Student should critically analyse a text, creating mind
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH215",
+  "Course Name": "Nation and her Narratives",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces students to the literature of India. It surveys a selection of literary works by authors in India and in the diaspora, examining themes such as the idea of home, borders, power, translation, and intercultural contexts.",
+  "Prerequisites": {
+    "Mandatory": "COM 101",
+    "Desirable": "",
+    "Other": ""
+  }

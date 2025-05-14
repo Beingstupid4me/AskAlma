@@ -1,0 +1,79 @@
+{
+  "Course Code": "BIO512",
+  "Course Name": "Foundations of Modern Biology",
+  "Credits": 4,
+  "Course Offered to": {
+    "Mandatory": "Pre-requisites",
+    "Desirable": "Pre-requisites",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to build simple probabilistic model for Mendelian and non-Mendelian genetics. Students are able to solve problems on mitosis, recombination and cross-overs.",
+    "CO2": "Students are able to construct and analyze pedigree charts and solve problems in linkage equilibrium, and population genetics",
+    "CO3": "Students are able to solve problems in molecular mechanisms of gene expressions like replication, transcription and translation of genes.",
+    "CO4": "Students are able to build simple mathematical models to understand gene regulatory networks of transcriptional and translation processes."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2-3",
+      "Lecture Topic": "An Introduction to the Science of Genetics, How Genes are organized and transmitted through generations. Cell division cycle: Mitosis (iii) Cell division cycle: Meiosis",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment: (i) Paper reading on organization of transcription factors in chromosome by F. Kepes. : (ii) Modeling mitosis and embryonic cell cycle using ODE and simulating using MATLAB (iii) Understanding the importance of crossing over and recombination in cell cycle with respect to genetic diversity."
+    },
+    {
+      "Week": "4-5-6",
+      "Lecture Topic": "Transmission Genetics: Mendelian Analysis of Inheritance Genes, Chromosomes, single allele interactions etc. Mechanism of Mendelian Inheritance",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment: Understanding Mendelian laws and relating the laws to chromosomal theory of inheritance. Mathematical models to analyze Mendelian inheritance. Construction of Punnett square and linked genes for monohybrid cross.Probabilistic analysis of Mendelian genotypic and phenotypic ratios and construction of linked genes for multihybrid cross."
+    },
+    {
+      "Week": "7-8-9",
+      "Lecture Topic": "Multiple Alleles and Gene Interactions Pedigree analysis Linkage and Gene Mapping in Eukaryotes, Extranuclear Inheritance, | C02",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Problem solving in epistasis and non-Mendelian ratios. Understanding the biochemical interactions in genetic pathways. Data analysis using statistical chi-square test to understand deviations from Mendelian ratios.Assignment given to train students in the construction of pedigree charts for various traits and identification of autosomal dominant, recessive, x-linked autosomal and dominant patterns from the charts. Single and double cross over problems solved to make student understand linkage, and how Mendelian laws are not followed."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Genes function At the Molecular Level, The Physical Nature of DNA: Structure and Replication, The Molecular Structure of Prokaryotic and Eukaryotic Chromosomes.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment given to understand various types of mRNA processing"
+    },
+    {
+      "Week": "11-12-13",
+      "Lecture Topic": "Translation, and the Genetic Code Hierarchies of Genetic Regulation",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Assignment given to understand how coding of proteins by various processes takes place."
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 25,
+    "Endsem": 25,
+    "Assignments": 15,
+    "Quiz": 20,
+    "Project": 15
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Title": "B. Pierce, Genetics: A conceptual approach",
+        "Source": "Textbook"
+      },
+      {
+        "Title": "Watson et al., Molecular biology of Gene",
+        "Source": "Textbook"
+      }
+    ]
+  }
+}

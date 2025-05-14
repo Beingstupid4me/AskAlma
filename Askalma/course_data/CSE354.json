@@ -1,0 +1,141 @@
+{
+  "Course Code": "CSE354/CSE554",
+  "Course Name": "Networks and Systems Security II",
+  "Credits": 4,
+  "Course Offered to": {
+    "Mandatory": "CSE231, C/C++ Programming",
+    "Desirable": "CSE232 (Python), Operating Systems",
+    "Other": "Computer Networks, Foundations of Computer Security"
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4",
+    "CO5"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Basics of systems and network security, TCP/IP networks, historical security models",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "C02"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Network access controls - Firewalls",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "CO1, CO3"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Network access controls - ISP scale blacklists/DNS filtering/DNS injection/middleboxes",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Network security assessment tools/engines -- wireshark, tcping, tcptraceroute, iperf, dig, nslookup, nmap, zmap, shodan , censys",
+      "COURSEs MET": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Buffer overflow vulnerabilities - stack smashing, R2Libc",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "CO2"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Offensive tools to exploit remote vulnerabilities - shell code generation and injection injection, password sniffing, cracking etc. using Metasploit",
+      "COURSEs MET": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "CO2, CO3"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "More on offensive tools - threat hunting",
+      "COURSEs MET": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Basics of confidentiality, integrity and authentication paradigms",
+      "COURSEs MET": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": "CO4"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "CIA implementations - case study SSL v1/v2/v3 , TLS v1.1/v1.2/v.1.3",
+      "COURSEs MET": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "CIA implementations - VPNs and tunnelling protocols",
+      "COURSEs MET": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "SSL MITM tools -- ssltrip, burp suite, etc.",
+      "COURSEs MET": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Basics of Network Anonymity - Mix Networks and Onion Routing",
+      "COURSEs MET": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "CO5"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Practical Network Anonymity and Privacy - Tor",
+      "COURSEs MET": [
+        "CO5"
+      ],
+      "Assignment/Labs/Tutorial": null
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments": 40,
+    "Exercises": 30,
+    "Midsem": 10,
+    "Final": 15,
+    "Quiz": 5
+  },
+  "Resource Material": {
+    "Textbook": "The Hacker Playbook 2 and 3: Practical Guide to Penetration Testing. Peter Kim",
+    "Reference Book": "Network Security. PRIVATE Communication in a PUBLIC World. Char- lie Kaufman, Radia Perlman and Mike Speciner. PHI Learning Pvt. Ltd"
+  }
+}

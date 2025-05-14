@@ -1,0 +1,380 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each part step by step.
+
+First, looking at the "Course Code" field. The table shows MGT311 multiple times under column 4, so that should be straightforward.
+
+Next is the "Course Name". It repeats several times with a long description. I'll need to extract just one instance of it for now.
+
+For "Credits", the value is consistently 4 across rows 3 and 4, so that's easy.
+
+The "Course Offered to" field has UG multiple times under column 4, which will be my value here.
+
+Moving on to "Course Description". It's a lengthy paragraph repeated several times. I'll take one instance but note that it might need to be summarized or kept as is depending on the user's needs.
+
+The prerequisites section shows "Pre-requisites" with "Pre-requisites" in columns 5 and 6, so I can extract those values.
+
+For "Course Outcomes", each CO1-4 has specific descriptions. I'll map each CO number to its respective description.
+
+Next is the Weekly Lecture Plan. This seems complex as it's spread across multiple rows. Each row represents a week with details like Lecture Topic and Assignments. I need to structure this into an array of objects, each containing Week Number, Lecture Topic, COs Met, and Assignment/Labs/Tutorial.
+
+Looking at the Assessment Plan section, there are various types of evaluations with their respective percentages. I'll create a list here as well.
+
+The Resource Material includes two books, which are repeated four times each in columns 9-12. I'll extract both book titles into an array under "Textbook" and "Reference Book".
+
+I also need to ensure that all numeric values like Credits and Contribution percentages are correctly formatted as numbers where applicable. Missing or non-applicable data should be represented as empty strings.
+
+Finally, I'll structure everything into the specified JSON format without any additional text or explanations.
+</think>
+
+```json
+{
+  "Course Code": "MGT311",
+  "Course Name": "Emerging Issues in IT Management (Governance, security, privacy, ethics and sustainability)",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course of EIITM covering emerging issues in IT management such as IT Governance, Risk Management, Infrastructure management , Data Privacy, Data Security, Computer Ethics and Sustainability is to appraise students of larger impact of IT from management point of view.. Students will be able to leverage their information technology background to appreciate far reaching consequences of technology so as to address them and make this technology safe , secure and without ill effects. The knowledge gained through this course will bring specialized value proposition for prospective employers. This course will have series of rigorous practice assignments and projects from real industry business cases and will involve extensive hands on exercises dealing with real data, developing tools in labs that can and generating insights from several what-if scenario analysis. Classroom sessions will include course book coverage, discussion of real business case studies and practical assessments",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisites",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Explain and apply the basic principles of IT Management and Governance",
+    "CO2": "Explain and apply Data Privacy , Ethical Legal aspect of IT Management",
+    "CO3": "Explain and manage Issues of Sustainable IT management with models",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Strategic issues in IT management: how IT is changing industry structure due to product digitization, product IT augmentation, and product/service substitution. New issues emerge as physical products increasingly incorporate IT. We will explore various issues involved with cases and new ventures",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "IT Governance and Risk Management , TOGAF , COBIT Models , How to manage a secure and efficient IT, Processes and frmawork for implementation",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary CISA Manual , COBIT 5,"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "IT Process management, Use of ITIl Ver 5 Farmework, IT Infrasticture library, Processes and stages of maturity .",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , ITIL"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Data security and privacy, Challenges of BIG Data ,Vulnerabilities in public databases, Insider Threats protection against security breaches and data leakage etc. Metric in practice , Security strategies, Reasons to invest in security for \"security consumers\" ,",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Security cost and benefits , Gordon–Loeb model & extensions , Risk management, Secure software development, patch management, incident management, forensics, maybe identity management",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Data Privacy , Ethics and Legal framework , EU Data Protection Requirements, Biometric Data – Emerging Law Analytics in the Workplace – Privacy Vulnerabilities , Ransomware and Phishing Attacks Indian IT act 2008 and provisions",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "What is Green IT? : An Overview • Understand the overall need for an organisation to adopt a Green IT strategy • Role of IT in greening business processes and practices • Understand the definition of \"Green IT\". • The key elements involved in Green IT",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Greening IT in organization: Data centres • Server utilisation • Data storage • PCs and mobile devices • Office applications and equipment",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Cloud and Green – Where do they meet? Data Center design and Green philosophy. Technology Convergence and its impact in Green",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "IT Impact for Social transformation, Digital Divide, Digital democracy , Use and Mis Use of Social Media in democratic process",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Project presentation by groups on the assignment on EIITM",
+      "COs Met": ["CO3", "CO2", "CO1"],
+      "Assignments": "Presentation"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "20",
+    "Endsem": "30"
+  },
+  "Resource Material": {
+    "Textbook": "IT Governance: How Top Performers Manage IT Decision Rights for Superior Results Kindle Edition by Peter Weill (Author), Jeanne W. Ross",
+    "Reference Book": ""
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "MGT311",
+  "Course Name": "Emerging Issues in IT Management (Governance, security, privacy, ethics and sustainability)",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course of EIITM covering emerging issues in IT management such as IT Governance, Risk Management, Infrastructure management , Data Privacy, Data Security, Computer Ethics and Sustainability is to appraise students of larger impact of IT from management point of view.. Students will be able to leverage their information technology background to appreciate far reaching consequences of technology so as to address them and make this technology safe , secure and without ill effects. The knowledge gained through this course will bring specialized value proposition for prospective employers. This course will have series of rigorous practice assignments and projects from real industry business cases and will involve extensive hands on exercises dealing with real data, developing tools in labs that can and generating insights from several what-if scenario analysis. Classroom sessions will include course book coverage, discussion of real business case studies and practical assessments",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Explain and apply the basic principles of IT Management and Governance",
+    "CO2": "Explain and apply Data Privacy , Ethical Legal aspect of IT Management",
+    "CO3": "Explain and manage Issues of Sustainable IT management with models",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Strategic issues in IT management: how IT is changing industry structure due to product digitization, product IT augmentation, and product/service substitution. New issues emerge as physical products increasingly incorporate IT. We will explore various issues involved with cases and new ventures",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "2-3",
+      "Lecture Topic": "IT Governance and Risk Management , TOGAF , COBIT Models , How to manage a secure and efficient IT, Processes and frameworks for implementation",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary CISA Manual , COBIT 5,"
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "IT Process management, Use of ITIl Ver 5 Framework, IT Infrasticture library, Processes and stages of maturity .",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , ITIL"
+    },
+    {
+      "Week Number": "5-6",
+      "Lecture Topic": "Data security and privacy, Challenges of BIG Data , Vulnerabilities in public databases, Insider Threats protection against security breaches and data leakage etc. Metric in practice , Security strategies, Reasons to invest in security for 'security consumers' ,",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Security cost and benefits , Gordon–Loeb model & extensions , Risk management, Secure software development, patch management, incident management, forensics, maybe identity management",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Data Privacy , Ethics and Legal framework , EU Data Protection Requirements, Biometric Data – Emerging Law Analytics in the Workplace – Privacy Vulnerabilities , Ransomware and Phishing Attacks Indian IT act 2008 and provisions",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "9",
+      "Lecture Topic": "What is Green IT? : An Overview • Understand the overall need for an organisation to adopt a Green IT strategy • Role of IT in greening business processes and practices • Understand the definition of 'Green IT'. • The key elements involved in Green IT",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Greening IT in organization: Data centres • Server utilisation • Data storage • PCs and mobile devices • Office applications and equipment",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Cloud and Green – Where do they meet? Data Center design and Green philosophy. Technology Convergence and its impact in Green",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "IT Impact for Social transformation, Digital Divide, Digital democracy , Use and Mis Use of Social Media in democratic process",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Poject presentation by groups on the assignment on EIITM",
+      "COs Met": ["CO3", "CO2", "CO1"],
+      "Assignments": "Presentation"
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": "% Contribution in Grade",
+    "Assignments": "20",
+    "Mid Term Exam": "20",
+    "(Surprise) Tests": "10",
+    "Project presentation + Group case presentation": "20",
+    "Final End term Exam": "30"
+  },
+  "Resource Material": {
+    "Type": "Title",
+    "Book": "IT Governance: How Top Performers Manage IT Decision Rights for Superior Results Kindle Edition by Peter Weill (Author), Jeanne W. Ross"
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "MGT311",
+  "Course Name": "Emerging Issues in IT Management (Governance, security, privacy, ethics and sustainability)",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course of EIITM covering emerging issues in IT management such as IT Governance, Risk Management, Infrastructure management , Data Privacy, Data Security, Computer Ethics and Sustainability is to appraise students of larger impact of IT from management point of view.. Students will be able to leverage their information technology background to appreciate far reaching consequences of technology so as to address them and make this technology safe , secure and without ill effects. The knowledge gained through this course will bring specialized value proposition for prospective employers. This course will have series of rigorous practice assignments and projects from real industry business cases and will involve extensive hands on exercises dealing with real data, developing tools in labs that can and generating insights from several what-if scenario analysis. Classroom sessions will include course book coverage, discussion of real business case studies and practical assessments.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisites",
+    "Desirable": "Pre-requisites(Desired)",
+    "Other": "Pre-requisites(Other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Explain and apply the basic principles of IT Management and Governance",
+    "CO2": "Explain and apply Data Privacy , Ethical Legal aspect of IT Management",
+    "CO3": "Explain and manage Issues of Sustainable IT management with models",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Strategic issues in IT management: how IT is changing industry structure due to product digitization, product IT augmentation, and product/service substitution. New issues emerge as physical products increasingly incorporate IT. We will explore various issues involved with cases and new ventures",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "2-3",
+      "Lecture Topic": "IT Governance and Risk Management , TOGAF , COBIT Models , How to manage a secure and efficient IT, Processes and frmawork for implementation",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary CISA Manual , COBIT 5,"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "IT Process management, Use of ITIl Ver 5 Farmework, IT Infrasticture library, Processes and stages of maturity .",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , ITIL"
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Data security and privacy, Challenges of BIG Data ,Vulnerabilities in public databases, Insider Threats protection against security breaches and data leakage etc. Metric in practice , Security strategies, Reasons to invest in security for \"security consumers\" ,",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Security cost and benefits , Gordon–Loeb model & extensions , Risk management, Secure software development, patch management, incident management, forensics, maybe identity management",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Data Privacy , Ethics and Legal framework , EU Data Protection Requirements, Biometric Data – Emerging Law Analytics in the Workplace – Privacy Vulnerabilities , Ransomware and Phishing Attacks Indian IT act 2008 and provisions",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "What is Green IT? : An Overview • Understand the overall need for an organisation to adopt a Green IT strategy • Role of IT in greening business processes and practices • Understand the definition of \"Green IT\". • The key elements involved in Green IT",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Greening IT in organization: Data centres • Server utilisation • Data storage • PCs and mobile devices • Office applications and equipment",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Cloud and Green – Where do they meet? Data Center design and Green philosophy. Technology Convergence and its impact in Green",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "IT Impact for Social transformation, Digital Divide, Digital democracy , Use and Mis Use of Social Media in democratic process",
+      "COs Met
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MGT311",
+  "Course Name": "Emerging Issues in IT Management (Governance, security, privacy, ethics and sustainability)",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course of EIITM covering emerging issues in IT management such as IT Governance, Risk Management, Infrastructure management , Data Privacy, Data Security, Computer Ethics and Sustainability is to appraise students of larger impact of IT from management point of view.. Students will be able to leverage their information technology background to appreciate far reaching consequences of technology so as to address them and make this technology safe , secure and without ill effects. The knowledge gained through this course will bring specialized value proposition for prospective employers. This course will have series of rigorous practice assignments and projects from real industry business cases and will involve extensive hands on exercises dealing with real data, developing tools in labs that can and generating insights from several what-if scenario analysis. Classroom sessions will include course book coverage, discussion of real business case studies and practical assessments.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisites",
+    "Desirable": "Pre-requisites(Desired)",
+    "Other": "Pre-requisites(Other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Explain and apply the basic principles of IT Management and Governance",
+    "CO2": "Explain and apply Data Privacy , Ethical Legal aspect of IT Management",
+    "CO3": "Explain and manage Issues of Sustainable IT management with models",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Strategic issues in IT management: how IT is changing industry structure due to product digitization, product IT augmentation, and product/service substitution. New issues emerge as physical products increasingly incorporate IT. We will explore various issues involved with cases and new ventures",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "2-3",
+      "Lecture Topic": "IT Governance and Risk Management , TOGAF , COBIT Models , How to manage a secure and efficient IT, Processes and frmawork for implementation",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary CISA Manual , COBIT 5,"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "IT Process management, Use of ITIl Ver 5 Farmework, IT Infrasticture library, Processes and stages of maturity .",
+      "COs Met": ["CO1"],
+      "Assignments": "Learning Diary , ITIL"
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Data security and privacy, Challenges of BIG Data ,Vulnerabilities in public databases, Insider Threats protection against security breaches and data leakage etc. Metric in practice , Security strategies, Reasons to invest in security for \"security consumers\" ,",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Security cost and benefits , Gordon–Loeb model & extensions , Risk management, Secure software development, patch management, incident management, forensics, maybe identity management",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Data Privacy , Ethics and Legal framework , EU Data Protection Requirements, Biometric Data – Emerging Law Analytics in the Workplace – Privacy Vulnerabilities , Ransomware and Phishing Attacks Indian IT act 2008 and provisions",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "What is Green IT? : An Overview • Understand the overall need for an organisation to adopt a Green IT strategy • Role of IT in greening business processes and practices • Understand the definition of \"Green IT\". • The key elements involved in Green IT",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Greening IT in organization: Data centres • Server utilisation • Data storage • PCs and mobile devices • Office applications and equipment",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Cloud and Green – Where do they meet? Data Center design and Green philosophy. Technology Convergence and its impact in Green",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning Diary , case solving"
+    }

@@ -1,0 +1,120 @@
+{
+  "Course Code": "CSE662A",
+  "Course Name": "Special Topics in Computer Vision",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an advanced course on Computer Vision offered to undergraduate and graduate students. The goal is to develop an understanding of a few selected topics in computer vision and enable students to understand and develop applications using existing tools. Students will be given theoretical and programming assignments targeted towards solving real-world computer vision problems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Image Analysis (CSE)",
+      "Digital Signal Processing (ECE)"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Apply different techniques of feature extraction and image/video segmentation.",
+    "CO2": "Apply different techniques of action/emotion recognition.",
+    "CO3": "Apply ideas from multi-view geometry in ap",
+    "CO4": "Look up relevant literature and identify potential solutions for a given computer vision problem and",
+    "CO5": "Evaluate and compare quantitative performance of vision"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of Image Processing",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introduction to Computer Vision",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Local Features Extraction",
+      "COs Met": [
+        "CO1",
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": "(HW 1)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Global Features Extraction",
+      "COs Met": [
+        "CO1",
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Interactive Segmentation",
+      "COs Met": [
+        "CO1",
+        "CO4",
+        "CO5",
+        "CO3"
+      ],
+      "Assignments": "(Quiz 1)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Superpixel Segmentation",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Object Co-segmentation",
+      "COs Met": [
+        "CO1",
+        "CO4",
+        "CO5",
+        "CO3"
+      ],
+      "Assignments": "(HW2)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Emotion Recognition",
+      "COs Met": [
+        "CO2",
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Structure from Motion",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "(Quiz 2)"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "20",
+    "Midsem": "40",
+    "HW assignments": "40",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": "Richard Szeliski's draft \"Computer Vision: Algorithms and Applications\"",
+    "Reference Book": "David Forsyth, Jean Ponce, \"Computer Vision: A Modern Approach\", Pearson Education, second edition."
+  }
+}

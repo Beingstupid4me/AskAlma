@@ -1,0 +1,187 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let me try to figure out how to extract the information from the provided file content and structure it into the desired JSON format. 
+
+First, I'll start by looking at the table in the file. The first few rows are headers: Course Code, Course Name, Credits, etc. From row 3, I see that the course code is MTH372 and the course name is Statistical Inference with 4 credits. So, those will be straightforward to extract.
+
+Next, looking at "Course Offered to," it's listed as UG/PG, which means Undergraduate or Post Graduate. That should go under the "Offered To" field in the JSON.
+
+The Course Description starts from row 5 and goes on for several paragraphs. It seems like a long text description, so I'll need to include that as is into the JSON's "Course Description" field.
+
+Moving on to prerequisites, looking at rows 7-9, it mentions "Mandatory," "Desirable," and "Other." The mandatory prerequisite is listed as "Statistical Computation," which should be under "Prerequisites/Mandatory." There are no other prerequisites mentioned beyond that, so the "Desirable" and "Other" fields can remain empty or set to null.
+
+Now, looking at the Course Outcomes (COs). Rows 12-16 outline what each CO entails. Each CO is a separate key in the JSON with its description. I'll need to map each CO from row 12 onwards into their respective keys: CO1, CO2, CO3, and CO4.
+
+For the Weekly Lecture Plan (WLP), rows starting at 14 list weeks along with topics and COs met. Each week has a WLP object containing the week number, topic, COs met as an array, and assignments. I'll need to parse each row into these components. For example, Week 1-2 covers data reduction principles and meets CO1.
+
+The Assessment Plan (AP) includes types of evaluations like Assignments, Quizzes, Midsem, etc., with their respective percentages. Rows 39-42 show Assignment at 20%, Quiz at 20%, Midsem at 25%, and Endsem at 35%. These will be mapped into the "Assessment Plan" section.
+
+The Weekly Lab Plan (WLP) seems to have similar structure but with laboratory exercises. However, in the provided data, there's no specific lab plan mentioned beyond some placeholder rows. I'll check if any actual lab plans are present; from what I see, only row 32 mentions WLP without details, so perhaps this section is empty or needs more data.
+
+Resource Material includes Textbooks and Reference Books. Rows 45-48 list three textbooks: "Introduction to Mathematical Statistics," "An Introduction to Probability and Statistics," and "Statistical Inference." These should be included as objects in the JSON under "Textbook" and "Reference Book."
+
+I also need to ensure that all fields are correctly formatted, with numbers where applicable. For example, credits (4), percentages (20, 20, 25, 35), and COs met as arrays of strings.
+
+Finally, I'll structure everything into the JSON format, making sure there are no missing values represented as null or empty strings. Each key should correspond exactly to what's required in the provided schema.
+</think>
+
+```json
+{
+  "Course Code": "MTH372",
+  "Course Name": "Statistical Inference",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The course introduces the theoretical concepts and derivations of parametric and non-parametric statistical inference. It also gives a brief introduction to building statistical linear models and analyze them. The course includes estimation, hypothesis testing, confidence interval and an introduction to Linear Regression and ANOVA. The students will learn derivations, simulations, and analysis of the real data.",
+  "Prerequisites": {
+    "Mandatory": "Statistical Computation",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will learn the concepts of finding best statistic and estimation. They will be able to apply commonly used parametric estimation techniques.",
+    "CO2": "Students will be able to test the hypothesis and construct confidence intervals for a known probability distributions.",
+    "CO3": "Students will also be able to test the hypothesis when the distribution is unknown and when the data is categorical.",
+    "CO4": "Students will be able to build codes in R (or equivalent) to perform inferences and build simple statistical models. They will be able to apply the methods on real life data."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1, 2",
+      "Lecture Topic": "Principles of data reduction: Sufficient, minimal and complete statistics; Likelihood and Invariance principles",
+      "COs Met": ["CO1"],
+      "Assignments": "Tutorial 1 : On data reduction techniques"
+    },
+    {
+      "Week": "3, 4, 5",
+      "Lecture Topic": "Method of Point Estimation: Moments, maximum likelihood, expectation minimization; Methods of evaluating estimators: mean squared error, unbiasedness, sufficiency, consistency",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "Tutorial 2 : On estimation methods"
+    },
+    {
+      "Week": "5, 6, 7",
+      "Lecture Topic": "Hypothesis Testing: Likelihood ratio test, invariant tests, Error probabilities, power function, most powerful tests",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Tutorial 3 : Building hypothesis and test for real life examples. Calculate their error probabilities and find power."
+    },
+    {
+      "Week": "7, 8",
+      "Lecture Topic": "Interval Estimation: inverting a test statistics, pivotal quantities, invariant intervals, evaluating interval estimation (time permitting)",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Tutorial 4 : Theoretical on interval estimation for real life examples."
+    },
+    {
+      "Week": "9, 10, 11",
+      "Lecture Topic": "Random sample: sum of random sample, sample mean and properties of sample mean and variance, Student’s t and F distribution; derivation of the hypothesis tests",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Tutorial 5, 6: Building hypothesis and test for real life examples."
+    },
+    {
+      "Week": "12, 13",
+      "Lecture Topic": "Other topics: Linear regression; Analysis of Variance",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "One assignment on Regression and another on ANOVA. It will involve building models and analyzing the real life data."
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment": 20,
+    "Quiz": 20,
+    "Midsem": 25,
+    "Endsem": 35
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Title": "Introduction to Mathematical Statistics",
+        "Author": "Robert V. Hogg and Allen T Craig"
+      },
+      {
+        "Title": "An Introduction to Probability and Statistics",
+        "Author": "Vijay K. Rohatgi and A.K. Md Ehsanes Saleh (2nd Edition)"
+      }
+    ],
+    "Reference Book": {
+      "Title": "Statistical Inference, Second edition"
+      "Author": "George Casella and Roger L Berger"
+    }
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH372",
+  "Course Name": "Statistical Inference",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The course introduces the theoretical concepts and derivations of parametric and non-parametric statistical inference. It also gives a brief introduction to building statistical linear models and analyze them. The course includes estimation, hypothesis testing, confidence interval and an introduction to Linear Regression and ANOVA. The students will learn derivations, simulations, and analysis of the real data.",
+  "Prerequisites": {
+    "Mandatory": "Statistical Computation",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will learn the concepts of finding best statistic and estimation. They will be able to apply commonly used parametric estimation techniques.",
+    "CO2": "Students will be able to test the hypothesis and construct confidence intervals for a known probability distributions.",
+    "CO3": "Students will also be able to test the hypothesis when the distribution is unknown and when the data is categorical.",
+    "CO4": "Students will be able to build codes in R (or equivalent) to perform inferences and build simple statistical models. They will be able to apply the methods on real life data."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1, 2",
+      "Lecture Topic": "Principles of data reduction: Sufficient, minimal and complete statistics; Likelihood and Invariance principles",
+      "COs Met": ["CO1"],
+      "Assignments": "Tutorial 1 : On data reduction techniques"
+    },
+    {
+      "Week": "3, 4, 5",
+      "Lecture Topic": "Method of Point Estimation: Moments, maximum likelihood, expectation minimization; Methods of evaluating estimators: mean squared error, unbiasedness, sufficiency, consistency",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "Tutorial 2 : On estimation methods"
+    },
+    {
+      "Week": "5, 6, 7",
+      "Lecture Topic": "Hypothesis Testing: Likelihood ratio test, invariant tests, Error probabilities, power function, most powerful tests",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Tutorial 3 : Building hypothesis and test for real life examples. Calculate their error probabilities and find power."
+    },
+    {
+      "Week": "7, 8",
+      "Lecture Topic": "Interval Estimation: inverting a test statistics, pivotal quantities, invariant intervals, evaluating interval estimation (time permitting)",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Tutorial 4 : Theoretical on interval estimation for real life examples."
+    },
+    {
+      "Week": "9, 10, 11",
+      "Lecture Topic": "Random sample: sum of random sample, sample mean and properties of sample mean and variance, Student’s t and F distribution; derivation of the hypothesis tests",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Tutorial 5, 6: Building hypothesis and test for real life examples."
+    },
+    {
+      "Week": "12, 13",
+      "Lecture Topic": "Other topics: Linear regression; Analysis of Variance",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "One assignment on Regression and another on ANOVA. It will involve building models and analyzing the real life data."
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment": 20,
+    "Quiz": 20,
+    "Midsem": 25,
+    "Endsem": 35
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Title": "Introduction to Mathematical Statistics",
+        "Author": "Robert V. Hogg and Allen T Craig"
+      },
+      {
+        "Title": "An Introduction to Probability and Statistics",
+        "Author": "Vijay K. Rohatgi and A.K. Md Ehsanes Saleh (2nd Edition)"
+      }
+    ],
+    "Reference Book": {
+      "Title": "Statistical Inference, Second edition"
+      "Author": "George Casella and Roger L Berger"
+    }
+  }
+}

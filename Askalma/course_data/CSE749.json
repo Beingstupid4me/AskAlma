@@ -1,0 +1,130 @@
+{
+  "Course Code": "CSExyz: Network Anonymity and Privacy",
+  "Course Name": "Network Anonymity and Privacy",
+  "Credits": 4,
+  "Course Offered to": null,
+  "Course Description": "",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [
+      "Computer Networks",
+      "Introductory Course in Systems and Network Security"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "",
+    "CO2": "",
+    "CO3": "",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Overview of Anonymous Communication Systems. - Early efforts in anonymous communication systems \u2013 Onion Routing, Mixminion, Freenet, Crowds.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "- Metrics of anonymity \u2013 various definitions of anonymity (e.g. k- anonymity, l-diversity), early efforts to quantify anonymity. - Modern Anonymity Networks \u2013 Tor.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "- Modern Anonymity Networks \u2013 Gnunet, I2P, JAP, etc. - Practical traffic analysis against Tor \u2013 Some important attacks.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "- Network censorship and anti- censorship.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "- Scope for future research.",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "- System design paradms \u2013 Onion routing based designs vs probabilistic based routing (e.g. Crowds). - Delay-latency anonymity networks \u2013 MIXnets based systems.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "- Traffic analysis attacks I: theory, implementations, threat, efficacy, defenses.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "- Traffic analysis attacks II: Large scale adversaries, Sybil based attacks.",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "- Anonymity and performance",
+      "COs Met": [],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "- Real time anonymous communication.",
+      "COs Met": [],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "- Network surveillance and censorship, network neutrality",
+      "COs Met": [],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "- Practical censorship resistance using Tor.",
+      "COs Met": [],
+      "Assignments": "Review, critique, design issues etc."
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "- Decoy routing systems",
+      "COs Met": [],
+      "Assignments": "Review, critique, design issues etc."
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "TBA",
+    "Midsem": 25,
+    "HW assignments": null,
+    "Endsem": 30
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": "http://freehaven.net/anonbib/"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Course Code": "CSE581",
+  "Course Name": "Systems Analysis, Design and Requirements Engineering",
+  "Credits": "4",
+  "Course Offered to": "PG / UG",
+  "Prerequisites": {
+    "Mandatory": "Basic understanding of software engineering and management",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identify and develop key skills required to analyse software development processes (e.g. identifying key requirements, produce creative UC designs, apply bias mitigation techniques).",
+    "CO2": "Distinguish between various approaches to systems analysis and design and their strengths and weaknesses (e.g. traditional waterfall Vs SCI theory)",
+    "CO3": "Develop the ability to gather data to recognize, analyze and specify the requirements of a system and generate designs for a system that can fulfill the requirements.",
+    "CO4": "Recognize various cognitive limitations associated with requirements determination and produce ways to mitigate it.",
+    "CO5": "Identifying when, where and how to use Agile software development approaches like Scrum, Kanban, DevOps."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "An introduction to software analysis and traditional methods of software development - The need to move away!",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Quiz, Assignment"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Modern (empirical) approach to software development / Theories of software development and software design.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Quiz, Assignment"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Same as Week 2",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Quiz, In-class exercise"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Introduction to various Agile software development approaches.",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": "Quiz, In-class exercise"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Software requirements and requirements engineering -",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Quiz, Assignment"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Requirement analyses and user-centered designing. Epistemological",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Quiz, in-class exercise"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Understanding creativity in software and software development",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Quiz, Assignment"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Techniques and (in-class) tutorial to improve creativity in software designs.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "In-class exercise"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Introduction (and challenges) to develop software process theories.",
+      "COs Met": [
+        "CO2",
+        "CO5"
+      ],
+      "Assignments": "In-class exercise"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Human (behavioral and psychological) aspects of software engineering.",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Quiz, Assignment"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Introducing an Empirical Model of Design",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Quiz, in-class exercise"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Student presentations",
+      "COs Met": [],
+      "Assignments": "Report submission"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Student presentations",
+      "COs Met": [],
+      "Assignments": "Report submission"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Pre-reading Quizzes",
+      "% Contribution in Grade": "10",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Type of Evaluation": "In class Quizzes",
+      "% Contribution in Grade": "10",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Type of Evaluation": "Homework Assignments",
+      "% Contribution in Grade": "10",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Type of Evaluation": "Mid-Sem",
+      "% Contribution in Grade": "20",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Type of Evaluation": "End-Sem",
+      "% Contribution in Grade": "30",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Type of Evaluation": "Term Project and Report",
+      "% Contribution in Grade": "20",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Latest research publications / text books",
+      "Title": "Would be conveyed to the students appropriately."
+    },
+    {
+      "Type": "Textbook",
+      "Title": "1. Ralph, Paul, and Briony J. Oates. \"The\""
+    },
+    {
+      "Type": "Reference Book",
+      "Title": "2. Ralph, Paul. \"The two paradigms of\""
+    },
+    {
+      "Type": "Textbook",
+      "Title": "3. Mohanani, R., Salman, I., Turhan, B,"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "4. Ralph, Paul. \"Introducing an empirical model of design\""
+    }
+  ]
+}

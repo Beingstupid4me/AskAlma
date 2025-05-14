@@ -1,0 +1,27 @@
+{
+  "Course Code": "MTH203",
+  "Course Name": "Mathematics III (Multivariate Calculus)",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course covers topics in multivariable calculus, vector calculus and complex analysis. The course starts with an extension of concepts like limits, continuity and differentiation to functions of several variables. Partial differentiation is defined and applied. The idea of Taylor series is extended to functions of two variables. This is followed by a definition and application of integration in more than one dimensions: double and triple integrals. We then work with vector functions and develop the ideas of vector fields and differentiation and integration as applicable to vector calculus (gradient, divergence, curl, line and surface integrals, etc. The ideas of circulation and flux are developed and Green's, Stoke's and divergence theorems are covered. The final module of the course deals with complex numbers and functions and an extension of concepts of calculus to complex variables.",
+  "Prerequisites": "",
+  "Course Outcomes": {
+    "CO1": "Students are able to apply concepts of continuity, differentiability, extrema and integrability of multivariable functions and evaluate various integrals (line, double, triple and surface integrals).",
+    "CO2": "Students are able to work with vector fields, evaluate line and surface integrals, calculate quantities such as work, circulation and flux across plane curves and surfaces, be able to carry out vector derivative operations such as gradient, divergence and curl and understand and apply Green's, Stoke's and divergence theorems.",
+    "CO3": "Students are able to evaluate derivatives and integrals of complex functions, including the applications of Cauchy\u2019s theorem.",
+    "CO4": "Students are able to determine convergence of complex series and power series and understand and apply Taylor series to represent complex functions."
+  },
+  "Weekly Lecture Plan": [],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Thomas' Calculus (11th Edition) by Murice D. Weir, Joel Hass, Frank R. Giordano.",
+      "Advanced Engineering Mathematics (9th Edition) by Erwin Kreyszig."
+    ]
+  }
+}

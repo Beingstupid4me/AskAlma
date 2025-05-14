@@ -1,0 +1,94 @@
+{
+  "Course Code": "MTH512",
+  "Course Name": "Algebraic Number Theory",
+  "Credits": 4,
+  "Course Offered to": "PG",
+  "Course Description": "An algebraic number field is a field obtained by adjoining to the rational numbers the roots of an irreducible rational polynomial. Algebraic number theory is the study of properties of such fields. This course will cover the following topics: number fields, rings of integers, factorization in Dedekind domains, class numbers and class groups, units in rings of integers , valuations and local fields, and if time permits decomposition of primes, and zeta functions of number fields. These tools provide solutions to several problems which are elementary to state but surprisingly difficult to resolve, including Pell\u2019s equation, quadratic reciprocity, the two squares theorem and the four squares theorem (every positive integer is a sum of four square integers).",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH211 Number Theory",
+      "Group Theory"
+    ],
+    "Desirable": [
+      "Post Conditions*(For suggestions on verbs please refer the second sheet)"
+    ],
+    "Other": [
+      "CO2"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "The students should be able to explain the key notions of algebraic number theory and outline their interrelation",
+    "CO2": "The students should be able to summarize the fundamental theorems of the course and apply them in specific cases.",
+    "CO3": "The students should be able to calculate the most important number theoretical quantities introduced during the course",
+    "CO4": "The students should be able to explain the concept of 'geometry of numbers' according to Minkowski.",
+    "CO5": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Review of required tools from the theory of fields and rings, Field extensions, ideals, maximal ideals, prime ideals",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Number Fields - Definitions and basic examples, Embeddings into the real and complex numbers, Field norms and trace",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Rings of Integers-Definitions and basic properties,Integral closures,discriminants,quadratic field extensions,cyclotomic fields",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Failure of unique factorisation- Examples, Definition and finiteness of the class group, examples of computing class numbers using Minkowski bound.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Applications- Applications to non-linear Diophantine equations, Some cases of Fermat\u2019s last theorem",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Paper Presentation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment": 30,
+    "Paper presentation": 25,
+    "Mid-sem": 15,
+    "End-sem": 30
+  },
+  "Resource Material": {
+    "Textbook": "Number Theory, Z. I. Borevich and I.R. Shafarevich, Academic Press",
+    "Reference": "Algebraic Number Theory by James Milne (online lecture notes available for free at www.jmilne.org/math/ )"
+  }
+}

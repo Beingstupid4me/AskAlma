@@ -1,0 +1,256 @@
+{
+  "Course Code": "CSE516/ECE559",
+  "Course Name": "Theories of Deep Learning",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Deep Learning (under the broader umbrella of Machine Learning) nowadays is a popular approach that allows computers to learn attributes from data. The aim is to enhance our understanding in terms of a hierarchy of concepts, where each such concept comprises of simpler ones. Alongside the proliferating application of these techniques for image, audio or time-series data, practitioners have developed a good understanding of the properties that make these deep nets effective. There are now a number of theories being developed to give a more formal mathematical understanding to accompany these observations; this course will explore some of these varying perspectives.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Linear algebra",
+      "Mathematics III",
+      "Python/Matlab programming"
+    ],
+    "Desirable": [],
+    "Other": [
+      "Machine Learning / Statistical ML"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to explain why deep learning leads to more expressive representation models.",
+    "CO2": "Students will be able to identify tools from Random Matrix/Information theory and apply them to achieve training acceleration/generalization in very deep models.",
+    "CO3": "Students will be able to analyse and explain the training dynamics of deep nets using various visualization techniques.",
+    "CO4": null
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to theoretical aspects in Deep Learining (DL)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Ingredients of DL",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW-0"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Expressivity theorems in DL",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Data classes and curse of dimentionality",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW-1"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "DL through lens of Matrix Factorization (MF)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "(Quiz 1)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Review of MF techniques",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "HW-2"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Supervised and Unsupervised learning via MF",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Deep MF and approximation guarentees",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "(Quiz 2)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Geometric perspective of expressivity",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "DL through lense of Random Matrix Theory (RTM)",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "(Quiz 3)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Evolution for signal variances and covariances in infinite depth DNN",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Random DNN - Input/output Jacobian",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "DNN gaussian vs orthogonal initialization",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Overflow/Break",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Mid-Sem"
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Overflow/Break",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "16",
+      "Lecture Topic": "Discussion: Extended results for advanced architectures based on CNN and ResNets",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "(Quiz 4)"
+    },
+    {
+      "Week": "17",
+      "Lecture Topic": "Discussion: Overparametrized vs Sparse DNNs",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "18",
+      "Lecture Topic": "DL through lense of Information Theory",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "(Quiz 5)"
+    },
+    {
+      "Week": "19",
+      "Lecture Topic": "Mutal infomation estimation in DNN",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "20",
+      "Lecture Topic": "Optimization algorithms",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "21",
+      "Lecture Topic": "Advanced optimizers and second-order algorithms",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "22",
+      "Lecture Topic": "Loss landscape of DNNs",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "(Quiz 6)"
+    },
+    {
+      "Week": "23",
+      "Lecture Topic": "Saliency map Visualization",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "None"
+    },
+    {
+      "Week": "24",
+      "Lecture Topic": "Spectral Visualization: Generalization error in DNNs",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "(Quiz 7)"
+    },
+    {
+      "Week": "25",
+      "Lecture Topic": "Discussion: Adversiarial examples and why they are universal",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "None"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Assignment",
+      "Contribution": "20"
+    },
+    {
+      "Type of Evaluation": "Quiz",
+      "Contribution": "20",
+      "Best out of": [
+        "3"
+      ]
+    },
+    {
+      "Type of Evaluation": "Mid Sem",
+      "Contribution": "20"
+    },
+    {
+      "Type of Evaluation": "End-sem",
+      "Contribution": "40"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Deep Learning by Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "Reference": "Will be provided in class"
+  }
+}

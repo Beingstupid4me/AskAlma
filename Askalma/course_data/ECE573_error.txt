@@ -1,0 +1,377 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at the "Course Code" field, I see that all entries under Unnamed: 0 are ECE 573. So, I'll set "Course Code" to "ECE 573".
+
+Next, for "Course Name", it's consistently listed as "Advanced Embedded Logic Design". That's straightforward.
+
+Moving on to "Credits", the values are all "4". So, that's easy enough.
+
+For "Course Offered to", the entries are a mix of "UG/PG" across multiple rows. Since they're consistent, I'll set it to "UG/PG".
+
+The "Course Description" is quite lengthy and repetitive. It seems like it's the same for each row, so I'll include that as a single string in the JSON.
+
+Now, looking at the prerequisites section under Unnamed: 8, there are two mandatory prerequisites listed: "C/C++ programming concepts" and "Digital Circuits, Microcontrollers/Microprocessors (UG level)". The rest are marked with asterisks, which probably means they're optional. So, I'll structure the prerequisites as an array where "Mandatory" includes only the specified ones, and "Desirable" is empty since there's no information provided.
+
+For "Course Outcomes", each CO1 to CO5 has corresponding descriptions. I'll map these directly into the JSON under the "COs Met" field for each week.
+
+The "Weekly Lecture Plan" section starts from Week 1 to Week 46, but most of the data is filled in up to Week 23 with specific topics and COs met. Beyond that, there are placeholders or additional topics mentioned but no specific details. I'll structure this as an array for each week where available information is present.
+
+The "Assessment Plan" includes quizzes, midsem, project, quiz lab, and endsem. The contributions are given in percentages: Midsem 30%, Project 25%, Quiz Theory 10%, Quiz Lab 10%, Endsem 25%. I'll map these accordingly.
+
+Lastly, the "Resource Material" section lists books, datasheets, reference manuals, schematics, softwares, and hardware. Since some entries are placeholders or additional, I'll include them as an array with their respective types and titles.
+
+I need to ensure that all missing values are represented as empty strings and that numeric values like credits remain numbers. Also, make sure the JSON is properly formatted without any markdown.
+</think>
+
+```json
+{
+  "Course Code": "ECE 573",
+  "Course Name": "Advanced Embedded Logic Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Embedded systems consisting of multi-core processors with co-processors as well as accelerators such as GPU and FPGA are widely being used in various wireless, multimedia, data centers, video processing and computer vision applications. The main focus of this course is to introduce various embedded system concepts via theory and lab sessions followed by building real-world embedded systems. In this course, students will learn hardware software co-design approach to learn how to implement the embedded systems on heterogenos SoC and optimize their area and power performance.",
+  "Prerequisites": {
+    "Mandatory": ["C/C++ programming concepts", "Digital Circuits, Microcontrollers/Microprocessors (UG level)"],
+    "Desirable": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain the SoC architecture and its usefulness for embedded systems",
+    "CO2": "Students are able to integrate ARM and FPGA using AXI ports, DMA, interrupts GPIO and DDR memory.",
+    "CO3": "Students are able to design, implement and analyze complete algorithm on SoC via hardware-software co-design approach",
+    "CO4": "Students are able to analyze the trade-off between homogenous and heterogenous platforms for any given application"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1 & 2",
+      "Lecture Topic": "Embedded systems basics, AXI protocol",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "FPGA refresher, IP design",
+      "COs Met": ["CO1"],
+      "Assignments": "Overlap with DHD (DHD was not offered this year)",
+      "DHD": "Overlap with DHD (DHD was not offered this year)",
+      "DHD": "Overlap with DHD (DHD was not offered this year)"
+    },
+    {
+      "Week Number": "4 & 5",
+      "Lecture Topic": "SoC design flow, Zynq SoC Architecture Introduction",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "6 & 7",
+      "Lecture Topic": "Interrupts, Timers, Cache system, DMA, SoC ports (SPI, I2C, UART, USB)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "8 & 9",
+      "Lecture Topic": "Co-processors, Floating point unit (FPU), interrupts and timers",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Reconfigurable and Intelligent Architectures",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Accelerator design: FFT, Matrix multiplication, matrix inversion, ML algorithms",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "12 and 13",
+      "Lecture Topic": "Zynq MPSoC Architecture",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "See the lab details"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "Two quizzes, one in week 2 and another in week 10",
+    "Midsem": "Mid-sem (Lab + Theory) with 30% contribution",
+    "HW assignments": "Weekly homeworks from labs",
+    "Endsem": "End-sem (Lab + Theory) with 25% contribution"
+  },
+  "Resource Material": {
+    "Textbook": "Eld",
+    "Reference Book": "ELD"
+  }
+]
+</think>
+
+```json
+{
+  "Course Code": "ECE 573",
+  "Course Name": "Advanced Embedded Logic Design",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Embedded systems consisting of multi-core processors with co-processors as well as accelerators such as GPU and FPGA are widely being used in various wireless, multimedia, data centers, video processing and computer vision applications. The main focus of this course is to introduce various embedded system concepts via theory and lab sessions followed by building real-world embedded systems. In this course, students will learn hardware software co-design approach to learn how to implement the embedded systems on heterogenos SoC and optimize their area and power performance.",
+  "Prerequisites": {
+    "Mandatory": "C/C++ programming concepts, Digital Circuits, Microcontrollers/Microprocessors (UG level)",
+    "Desirable": "ELD"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain the SoC architecture and its usefulness for embedded systems",
+    "CO2": "Students are able to integrate ARM and FPGA using AXI ports, DMA, interrupts, GPIO and DDR memory.",
+    "CO3": "Students are able to design, implement and analyze complete algorithm on SoC via hardware-software co-design approach",
+    "CO4": "Students are able to analyze the trade-off between homogenous and heterogenous platforms for any given application"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1 & 2",
+      "Lecture Topic": "Embedded systems basics, AXI protocol",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details | Overlap with ELD"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "FPGA refresher, IP design",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details | Overlap with DHD (DHD was not offered this year) | Overlap with DHD (DHD was not offered this year) | Overlap with DHD (DHD was not offered this year)"
+    },
+    {
+      "Week Number": "4 & 5",
+      "Lecture Topic": "SoC design flow, Zynq SoC Architecture Introduction, hardware software co-design approach, boot and configuarion process",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "6 & 7",
+      "Lecture Topic": "Interrupts, Timers, Cache system, DMA, SoC ports (SPI, I2C, UART, USB)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "8 & 9",
+      "Lecture Topic": "Co-processors, Floating point unit (FPU), clock and reset systems",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Reconfigurable and Intelligent Architectures",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Accelerator design and analysis: FFT, Matrix multiplication, matrix inversion, ML algorithms",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "12 & 13",
+      "Lecture Topic": "Zynq MPSoC Architecture",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "See the lab details"
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECE 573",
+  "Course Name": "Advanced Embedded Logic Design",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Embedded systems consisting of multi-core processors with co-processors as well as accelerators such as GPU and FPGA are widely being used in various wireless, multimedia, data centers, video processing and computer vision applications. The main focus of this course is to introduce various embedded system concepts via theory and lab sessions followed by building real-world embedded systems. In this course, students will learn hardware software co-design approach to learn how to implement the embedded systems on heterogenos SoC and optimize their area and power performance.",
+  "Prerequisites": {
+    "Mandatory": "C/C++ programming concepts, Digital Circuits, Microcontrollers/Microprocessors (UG level)",
+    "Desirable": "ELD"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain the SoC architecture and its usefulness for embedded systems",
+    "CO2": "Students are able to integrate ARM and FPGA using AXI ports, DMA, interrupts GPIO and DDR memory.",
+    "CO3": "Students are able to design, implement and analyze complete algorithm on SoC via hardware-software co-design approach",
+    "CO4": "Students are able to analyze the trade-off between homogenous and heterogenous platforms for any given application"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1 & 2",
+      "Lecture Topic": "Embedded systems basics, AXI protocol",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "FPGA refresher, IP design",
+      "COs Met": ["CO1"],
+      "Assignments": "Overlap with DHD (DHD was not offered this year)",
+      "Overlap with DHD (DHD was not offered this year)": true,
+      "Overlap with DHD (DHD was not offered this year)": true,
+      "Overlap with DHD (DHD was not offered this year)": true
+    },
+    {
+      "Week Number": "4 & 5",
+      "Lecture Topic": "SoC design flow, Zynq SoC Architecture Introduction, hardware software co-design approach, boot and configuarion process",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "6 & 7",
+      "Lecture Topic": "Interrupts, Timers, Cache system, DMA, SoC ports (SPI, I2C, UART, USB)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "8 & 9",
+      "Lecture Topic": "Co-processors, Floating point unit (FPU), clock and reset systems",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Reconfigurable and Intelligent Architectures",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Accelerator design and analysis: FFT, Matrix multiplication, matrix inversion, ML algorithms",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "12 and Week 13",
+      "Lecture Topic": "Zynq MPSoC Architecture",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "See the lab details"
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": true,
+    "Quiz exams": [
+      "Quiz (Theory)",
+      "Quiz (Lab)"
+    ],
+    "Midsem": 30,
+    "HW assignments": [
+      "Lab Assignments",
+      "Project Assignments"
+    ],
+    "Endsem": true,
+    "Endsem": 25
+  },
+  "Resource Material": {
+    "Textbook": "Zynq Technical reference manual",
+    "Reference Book": "Xilinx Zynq Family, ARM, Xilinx PR tutorials, Xilinx SDSoC tutorials"
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE 573",
+  "Course Name": "Advanced Embedded Logic Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Embedded systems consisting of multi-core processors with co-processors as well as accelerators such as GPU and FPGA are widely being used in various wireless, multimedia, data centers, video processing and computer vision applications. The main focus of this course is to introduce various embedded system concepts via theory and lab sessions followed by building real-world embedded systems. In this course, students will learn hardware software co-design approach to learn how to implement the embedded systems on heterogenos SoC and optimize their area and power performance.",
+  "Prerequisites": {
+    "Mandatory": "C/C++ programming concepts, Digital Circuits, Microcontrollers/Microprocessors (UG level)",
+    "Desirable": "ELD"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain the SoC architecture and its usefulness for embedded systems",
+    "CO2": "Students are able to integrate ARM and FPGA using AXI ports, DMA, interrupts GPIO and DDR memory.",
+    "CO3": "Students are able to design, implement and analyze complete algorithm on SoC via hardware-software co-design approach",
+    "CO4": "Students are able to analyze the trade-off between homogenous and heterogenous platforms for any given application"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1 & 2",
+      "Lecture Topic": "Embedded systems basics, AXI protocol",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details",
+      "Overlap with DHD": "Overlap with ELD"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "FPGA refresher, IP design",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details",
+      "Overlap with DHD": "Overlap with DHD (DHD was not offered this year)",
+      "Overlap with DHD": "Overlap with DHD (DHD was not offered this year)",
+      "Overlap with DHD": "Overlap with DHD (DHD was not offered this year)"
+    },
+    {
+      "Week Number": "4 & 5",
+      "Lecture Topic": "SoC design flow, Zynq SoC Architecture Introduction, hardware software co-design approach, boot and configuarion process",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "6 & 7",
+      "Lecture Topic": "Interrupts, Timers, Cache system, DMA, SoC ports (SPI, I2C, UART, USB)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "8 & 9",
+      "Lecture Topic": "Co-processors, Floating point unit (FPU), clock and reset systems",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Reconfigurable and Intelligent Architectures",
+      "COs Met": ["CO2", "CO3", "CO
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECE 573",
+  "Course Name": "Advanced Embedded Logic Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Embedded systems consisting of multi-core processors with co-processors as well as accelerators such as GPU and FPGA are widely being used in various wireless, multimedia, data centers, video processing and computer vision applications. The main focus of this course is to introduce various embedded system concepts via theory and lab sessions followed by building real-world embedded systems. In this course, students will learn hardware software co-design approach to learn how to implement the embedded systems on heterogenos SoC and optimize their area and power performance.",
+  "Prerequisites": {
+    "Mandatory": "C/C++ programming concepts, Digital Circuits, Microcontrollers/Microprocessors (UG level)",
+    "Desirable": "ELD"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain the SoC architecture and its usefulness for embedded systems",
+    "CO2": "Students are able to integrate ARM and FPGA using AXI ports, DMA, interrupts GPIO and DDR memory.",
+    "CO3": "Students are able to design, implement and analyze complete algorithm on SoC via hardware-software co-design approach",
+    "CO4": "Students are able to analyze the trade-off between homogenous and heterogenous platforms for any given application"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1 & 2",
+      "Lecture Topic": "Embedded systems basics, AXI protocol",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details",
+      "Overlap with DHD": "Overlap with ELD"
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "FPGA refresher, IP design",
+      "COs Met": ["CO1"],
+      "Assignments": "See the lab details",
+      "Overlap with DHD": "Overlap with DHD (DHD was not offered this year)",
+      "Overlap with DHD": "Overlap with DHD (DHD was not offered this year)",
+      "Overlap with DHD": "Overlap with DHD (DHD was not offered this year)"
+    },
+    {
+      "Week Number": "4 & 5",
+      "Lecture Topic": "SoC design flow, Zynq SoC Architecture Introduction, hardware software co-design approach, boot and configuarion process",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "6 & 7",
+      "Lecture Topic": "Interrupts, Timers, Cache system, DMA, SoC ports (SPI, I2C, UART, USB)",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "See the lab details"
+    },
+    {
+      "Week Number": "8 & 9",
+      "Lecture Topic": "Co-processors, Floating point unit (FPU), clock and reset systems",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "See the lab details"
+    }

@@ -1,0 +1,161 @@
+{
+  "Course Code": "SSH211",
+  "Course Name": "Theatre Appreciation",
+  "Credits": 4,
+  "Course Offered to": "Under Graduates",
+  "Course Description": "Studying Theories propounded by Masters of Theatre and their lives and influences. The course is designed not only to give a theoretical appreciation of theatre but it will be largely interspersed with class room improvisations and voice and movement exercises so that the students have a hands-on understanding right from the start",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Student have Knowledge of Biographies and Techniques proposed by Theatre Masters.",
+    "CO2": "Students have ability to Overcome inhibitions in communication.",
+    "CO3": "Students have ability to put up a mime show",
+    "CO4": "Students have ability to put up a mime show"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Theatre, Dos and Donts",
+      "COs Met": [
+        "C02"
+      ],
+      "Assignments": "Psycho physical Exercises on usage of space, trust games"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Jerzy Grotowsky. Theoretical understanding of his Thespian life of and techniques",
+      "COs Met": [
+        "C01",
+        "C03",
+        "C04"
+      ],
+      "Assignments": "Practically experiencing and trying out the concept of Poor Theatre"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Badal Sircar. Theoretical understanding of his Thespian life and techniques",
+      "COs Met": [
+        "C01",
+        "C03",
+        "C04"
+      ],
+      "Assignments": "Practically experiencing and trying out the concept of Third Theatre"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Voice exercises, practicing mime and movement, Theatre Games",
+      "COs Met": [
+        "C02",
+        "C03"
+      ],
+      "Assignments": "Solo Mime Practice"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Solo Mime Performances by Students, Mid Term Mime Play Project",
+      "COs Met": [
+        "C03"
+      ],
+      "Assignments": "Mime play Project Preparations"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Dramatic reading of a classic western play by students",
+      "COs Met": [
+        "C01",
+        "C04"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Studying concepts proposed by Constantine Stanislavsky",
+      "COs Met": [
+        "C01"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Study of Theatrical concepts like Constructivism, Socialist Realism, Pavlovian Psychology etc",
+      "COs Met": [
+        "C04"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Dramatic reading of a contemporary play by a significant Indian playwrights",
+      "COs Met": [
+        "C04"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Theatrical improvisations in class based on Stanislavsk\u2019s Method Acting",
+      "COs Met": [
+        "C04"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Dramatic reading of a contemporary play by a significant Indian playwrights",
+      "COs Met": [
+        "C01",
+        "C04"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "End Sem Play Project.",
+      "COs Met": [
+        "C04"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Class Room Guidance for Public Performances",
+      "COs Met": [
+        "C04"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Mid Sem Exam",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "End Sem Exam",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "Class Participation and Attendance",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Individual Performances",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Mime Play Project",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "Vocal Play Project",
+      "% Contribution in Grade": "20"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": null,
+    "Reference Book": null
+  }
+}

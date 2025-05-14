@@ -1,0 +1,83 @@
+{
+  "Course Code": "",
+  "Course Name": "Low Voltage Analog Circuit Design",
+  "Credits": "4",
+  "Course Offered to": "PG",
+  "Course Description": "Introduction - Why analog or digital? Why low voltage and low power? Why CMOS? Techniques to reduce the power consumption and the voltage supply, Analog techniques, Digital techniques, Different techniques to reduce the supply voltage and power consumption, Current Conveyor (CC) - Introduction, Characteristics, Circuit implementations, Low voltage CCs Structure, Applications and design techniques The Floating Gate MOS transistor (FGMOS) - Introducing the device, Designing with FGMOS, Problems and solutions, Simulation, FGMOS \u2013 Equivalent Circuit, Applications and design techniques Low voltage analog continuous-time filtering - CC based using CMOS and FGMOS transistors, Transconductor basic blocks,Gm-C multiple-input linear integrator, Common Mode Feedback Block (CMFB), Transconductance cell, Tuning amplifier, Filter example Low voltage mixer and analog multiplier Circuits\nLNA circuits",
+  "Prerequisites": {
+    "Mandatory": [
+      "CMOS Analog Circuits"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to define the specifications for low voltage, low power analog circuit Design",
+    "CO2": "Ability to characterise key analog circuits and benchmark between different design architectures",
+    "CO3": "Ability to design low voltage analog subsystems by using CMOS and FGMOS transistors",
+    "CO4": "Ability to design and evaluate analog system to meet specifications"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1 & 2",
+      "Lecture Topic": "Need for low voltage analog and digital circuit design, Different analog circuit design techniques",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Reading Assignment"
+    },
+    {
+      "Week": "3, 4 & 5",
+      "Lecture Topic": "Current conveyors, its characteristics, different types of CCs, circuit implementions and applications",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Reading Assignment"
+    },
+    {
+      "Week": "5, 6 & 7",
+      "Lecture Topic": "The Floating Gate MOS transistor (FGMOS), - Introducing the device, Designing with FGMOS and problems associated in designing circuits and their solutions, simulation techniques, FGMOS applications and design techniques",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "8, 9, 10 & 11",
+      "Lecture Topic": "Low voltage analog continuous-time filtering - CC based filters using CMOS and FGMOS transistors, Transconductor basic blocks, Gm-C multiple-input linear integrator, Common Mode Feedback Block (CMFB), Transconductance cell, Tuning amplifier, Filter example",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "11 & 12",
+      "Lecture Topic": "Low votage mixer and analog multiplier",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "13 & 14",
+      "Lecture Topic": "LNA circuits",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment": "15%",
+    "Project": "25%",
+    "Mid-Sem": "20%",
+    "End-sem": "40%"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "(1) Low power and low voltage circuit design with the FGMOS transistor \u2014 (IEE circuits, devices and systems series), Rodriguez-Villegas, Esther, Institution of Engineering and Technology UK, 2006 ISBN 0863416179",
+      "(2) Analogue IC Design: The Current-mode Approach edited by Chris Toumazou, F. J. Lidgey, David Haigh, Institute of Electrical Engineer UK, 1998"
+    ],
+    "Reference Book": null
+  }
+}

@@ -1,0 +1,337 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the "Course Code" field, it seems consistent across all rows (PSY201), so that should be straightforward.
+
+Next, the "Course Name" is also repeated five times as "Introduction to Psychology." I'll include that directly.
+
+For "Credits," the value is 4 and appears multiple times. Simple enough to extract.
+
+The "Course Offered to" field lists "UG" (Undergraduate) repeatedly, so that's easy to capture.
+
+Moving on to "Course Description," it's a lengthy paragraph repeated five times. I'll need to include this as-is in the JSON, ensuring proper formatting since it contains line breaks and spaces.
+
+Now, looking at the prerequisites section: there are mandatory, desirable, and other prereqs listed multiple times with placeholders for each category. I'll map these into the "Prerequisites" object within the JSON.
+
+The "Course Outcomes" have five COs labeled as CO1 to CO5. The user provided specific descriptions for CO1 to CO4 but CO5 is repeated. I'll include all five, using their labels and descriptions.
+
+For the "Weekly Lecture Plan," each week has a lecture topic and COs met, along with assignments. This section spans multiple rows in the file. I'll need to extract each week's data into an array within the JSON, ensuring that each object includes Week, Lecture Topic, COs Met, and Assignments.
+
+The "Assessment Plan" includes quiz exams, midsem, homework, and endsem. The user provided specific percentages for some assessments (Quiz exams: 20%, Midsem: 25%, Final exam: 50%, Assignments: 5%) but others are marked as '...'. I'll structure this with the available values, leaving placeholders where data isn't present.
+
+The "Resource Material" section lists textbooks and reference books. The user provided five textbook entries, all pointing to specific authors and titles. I'll compile these into an array in the JSON.
+
+I also need to ensure that numeric values like credits are correctly formatted as numbers and not strings. Additionally, any missing or placeholder data should be represented as empty strings or nulls where appropriate.
+
+Finally, I must structure everything into a JSON object without any introductory text or explanations. The output must be directly parsable, so proper formatting is crucial.
+</think>
+
+```json
+{
+  "Course Code": "PSY201",
+  "Course Name": "Introduction to Psychology",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course is about how and why people think, feel and behave. Students will learn and apply theories of self, mind, and behavior. This course is an experiential course. Students will learn to think more critically and scientifically about what makes people think, feel, and behave. This course offers students an engaging introduction to the essential topics in psychology. Throughout this study of human behavior and the mind, students will gain insight into the history of the field of psychology, as well as explore current theories and issues in areas such as cognition, motivation, and wellness. The main goals of this course are to acquaint students with different areas contained within psychology, to provide them with some of the major concepts of each area. Basic topics that would be covered would be historical and contemporary psychology, including various perspectives: biological, Psychoanalytic (Freudian), behavioral (Skinner, Pavlov, and other theories), humanistic, Jungian, cognitive, Transactional analysis. Some practical topics like Memory, Personality, cognition, Motivation, mindfulness, Cognitive behavior therapy and basics of positive psychology would also be covered. Students will also learn the concepts of Intelligence. Computational Psychology, Computational Neuroscience and Technological research in interventions would also be explored.",
+  "Prerequisites": {
+    "Mandatory": [
+      "SSH101 Critical Thinking and Readings in Social Sciences"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain concepts of General Psychology",
+    "CO2": "Students are able to explain and demonstrate the concepts of cognitive psychology: Cognition, Emotion and Behavior",
+    "CO3": "Students are able to explain the concepts behind Memory, learning and personality",
+    "CO4": "Students are able to critically analyze Western and Indian psychology and practice of mindfulness.",
+    "CO5": "Students are able to explain and theoretically design other concepts of Psychology like therapies, personality, psychoanalysis and computational methods of Psychology"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Psychology",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Research Project: prepare a project research paper on an assigned topic of Psychology, where students have to get into the field for actual data collection, do the research work and prepare a project report.",
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Biological Psychology",
+      "COs Met": ["CO3"],
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Sigmund Freud: Psychoanalytic Theory of Mind Development",
+      "COs Met": ["CO3", "CO5"],
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Carl Jung’s theory of Analytical Psychology and Mind",
+      "COs Met": ["CO2", "CO3", "CO5"],
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Memory and Learning",
+      "COs Met": ["CO2", "CO3", "CO5"],
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Behaviorism",
+      "COs Met": ["CO3"],
+      "Assignments": "Social Interaction Assignment: Graded"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Emotions and Cognitions",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": "CBT Assignment: Graded"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Modern theories of Personality",
+      "COs Met": ["CO3"],
+      "Assignments": "Personality Assignment : Graded"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Humanistic Psychology: Maslow and Carl roger’s theories of personality",
+      "COs Met": ["CO3", "CO5"],
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Psychology of Wellbeing",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Journal writing Home work on various on various topics: Non-graded"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "India Psychology and Mindfulness",
+      "COs Met": ["CO3", "CO5"],
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "AI and computational Psychology: Basic concepts",
+      "COs Met": ["CO3", "CO5"],
+    }
+</think>
+
+```json
+{
+  "Course Code": "PSY201",
+  "Course Name": "Introduction to Psychology",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course is about how and why people think, feel and behave. Students will learn and apply theories of self, mind, and behavior.",
+  "Prerequisites": {
+    "Mandatory": [
+      "SSH101 Critical Thinking and Readings in Social Sciences"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain concepts of General Psychology",
+    "CO2": "Students are able to explain and demonstrate the concepts of cognitive psychology: Cognition, Emotion and Behavior",
+    "CO3": "Students are able to explain the concepts behind Memory, learning and personality",
+    "CO4": "Students are able to critically analyze Western and Indian psychology and practice of mindfulness.",
+    "CO5": "Students are able to critically analyze Western and Indian psychology and practice of mindfulness."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Psychology",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Research Project: prepare a project research paper on an assigned topic of Psychology, where students have to get into the field for actual data collection, do the research work and prepare a project report.: Graded"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Biological Psychology",
+      "COs Met": ["CO3"],
+      "Assignments": null
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Sigmund Freud and Psychoanalytic Theory",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Carl Jung’s Analytical Psychology",
+      "COs Met": ["CO2", "CO3", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Memory and Learning",
+      "COs Met": ["CO2", "CO3", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Behaviorism",
+      "COs Met": ["CO3"],
+      "Assignments": [
+        "Social Interaction Assignment: Graded"
+      ]
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Emotions and Cognitions",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": [
+        "CBT Assignment: Graded"
+      ]
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Modern Theories of Personality",
+      "COs Met": ["CO3"],
+      "Assignments": [
+        "Personality Assignment : Graded"
+      ]
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Humanistic Psychology",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Psychology of Wellbeing",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": [
+        "Journal writing Home work on various on various topics: Non-graded"
+      ]
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "India Psychology and Mindfulness",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": null
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "AI and Computational Psychology",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": null
+    }
+  ]
+}, {
+  "Course Offering to": "UG",
+  "Course Description": "This course is about how and why people think, feel and behave. Students will learn and apply theories of self, mind, and behavior. This course is an experiential course. Students will learn to think more critically and scientifically about what makes people think, feel, and behave. This course offers students an engaging introduction to the essential topics in psychology. Throughout this study of human behavior and the mind, students will gain insight into the history of the field of psychology, as well as explore current theories and issues in areas such as cognition, motivation, wellness. The main goals of this course are to acquaint students with different areas contained within psychology, to provide them with some of the major concepts of each area. Basic topics that would be covered would be historical and contemporary psychology, including various perspectives: biological, Psychoanalytic (Freudian), behavioral (Skinner, Pavlov, and other theories), humanistic, Jungian, cognitive, Transactional analysis. Some practical topics like Memory, Personality, cognition, Motivation, mindfulness, Cognitive behavior therapy and basics of positive psychology would also be covered. Students will also learn the concepts of Intelligence. Computational Psychology, Computational Neuroscience and Technological research in interventions would also be explored.",
+  "Prerequisites": "Pre-requisites",
+  "Course Outcomes": "CO1: Students are able to explain concepts of General Psychology | CO2: Students are able to explain and demonstrate the concepts of cognitive psychology: Cognition, Emotion and Behavior | CO3: Students are able to explain the concepts behind Memory, learning and personality | CO4: Students are able to critically analyze Western and Indian psychology and practice of mindfulness. | CO5: Students are able to explain and theoretically design other concepts of Psychology like therapies, personality, psychoanalysis and computational methods of Psychology",
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Psychology 1. What is Psychology? 2. Fields in Psychology. Social Psychology, Organizational Behavior, Neuro Science, Cognitive Psychology Etc. 3. History of Psychology as Science moving from Arts 4. Structuralism: Structure of Mind 5. Functionalism: Function of Mind",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Research Project: prepare a project research paper on an assigned topic of Psychology, where students have to get into the field for actual data collection, do the research work and prepare a project report.: Graded"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Biological Psychology 1. Structure of Brain 2. Endocrine system (Hormonal System) 3. Nervous system 4. How Biology Effects Psychology (Cognition, emotions and behavior)",
+      "COs Met": ["CO3"],
+      "Assignments": "Research Project: prepare a project research paper on an assigned topic of Psychology, where students have to get into the field for actual data collection, do the research work and prepare a project report.: Graded"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Sigmund Freud 1. Psychoanalytic Theory of Mind Development 2. Conscious Subconscious and Unconscious mind 3. Psychoanalytic theory of Personality",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Research Project: prepare a project research paper on an assigned topic of Psychology, where students have to get into the field for actual data collection, do the research work and prepare a project report.: Graded"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Jungian Psychology 1. Carl Jung’s theory of Analytical Psychology and Mind 2. Jung’s theory of Personality",
+      "COs Met": ["CO2", "CO3", "CO5"],
+      "Assignments": "Research Project: prepare a project research paper on an assigned topic of Psychology, where students have to get into the field for actual data collection, do the research work and prepare a project report.: Graded"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Memory and Learning",
+      "COs Met": ["CO2", "CO3", "CO5"],
+      "Assignments": "Social Interaction Assignment: Graded"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Behaviorism 1. Basis behind Human behavior: Pavlov, Skinner’s conditioning theories and various theories behind human behavior",
+      "COs Met": ["CO3"],
+      "Assignments": "Social Interaction Assignment: Graded"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Emotions and Cognitions 1. What are emotions 2. What are cognitions 3. Practical Aspect of how to handle emotions and cognitions using CBT",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": "CBT Assignment: Graded"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Modern theories of Personality 1. Ways to measure personality 2. What is intelligence 3. Intelligence testing 4. Research methods in Personality and Intelligence Testing and research 5. Personality Assessment, scales, instruments and computational programs",
+      "COs Met": ["CO3"],
+      "Assignments": "Personality Assignment : Graded"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Humanistic Psychology 1. Maslow and Carl roger’s theories of personality",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Personality Assignment : Graded"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Psychology of Wellbeing (UGC and American psychological Association suggestions for Foundational courses) 1. Positive Psychology 2. Practical aspects like hypnosis of how to achieve wellbeing 3. Theories of Happiness",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Journal writing Home work on various on various topics: Non-graded"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "India Psychology and Mindfulness ( Adding this only because, UGC has made it mandatory for every foundations course in Psychology have a topic in Indian Psychology) 1. Basic concepts of Indian Psychology",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Journal writing Home work on various on various topics: Non-graded"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "AI and computational Psychology: Basic concepts 1. MRI, fMRI, EEG and other technological modalities to study the Brain, emotions and behavior 2. Computational Psychology: Basic Concepts 3. Computational Neuroscience: Basic concepts and introduction 4. Computational methods of Psychological interventions",
+      "COs Met": ["CO3", "CO5"],
+      "Assignments": "Basic concepts of AI and computational Psychology: Non-graded"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": [],
+      "Assignments": []
+    }
+</think>
+
+```json
+{
+  "Course Code": "PSY201",
+  "Course Name": "Introduction to Psychology",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course is about how and why people think, feel and behave. Students will learn and apply theories of self, mind, and behavior.",
+  "Prerequisites": {
+    "Mandatory": [
+      "SSH101 Critical Thinking and Readings in Social Sciences"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+ 
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "PSY201",
+  "Course Name": "Introduction to Psychology",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course is about how and why people think, feel and behave. Students will learn and apply theories of self, mind, and behavior.",
+  "Prerequisites": {
+    "Mandatory": [
+      "SSH101 Critical Thinking and Readings in Social Sciences"
+    ],
+    "Desirable": [],
+    "Other": []
+  }

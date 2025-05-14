@@ -1,0 +1,92 @@
+{
+  "Course Code": "DES516s",
+  "Course Name": "Introduction to 3D Animation",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to: (i) Basics and fundamental principles of animation (ii) Workflow of animation (iii) Introduction to 3D Animation",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understanding the basic work flow and animation principles.",
+    "CO2": "Getting familier with maya tool for animation.",
+    "CO3": "Implementing Animation fundamental and maya to do the character animation.",
+    "CO4": "Implementing Animation fundamental and maya to do the character animation."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction Animation Film Workflow Language of Drawings and Posing in maya",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to Animation Basics and Principles",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Introduction to 3D Animation",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Advance Body Mechanism Technical Part of Animation",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Technical Part of Animation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Project Demos",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "",
+    "Endsem": ""
+  },
+  "Resource Material": {
+    "Textbook": [
+      "The Animator`s Survival Kit (DVD)",
+      "Mastering MAYA 2017-18",
+      "The Illusion of Life",
+      "Animation from Pencils to Pixels",
+      "The Animator\u2019s Workbook",
+      "Cartoon Character Animation with Maya",
+      "Beginner\u2019s guide to Sketching"
+    ]
+  }
+}

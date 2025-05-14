@@ -1,0 +1,335 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: They are both "ECO 322/522" and "Econometrics II". So I'll assign those directly to their respective fields.
+
+Next, Credits: The value is consistently 4, so that's straightforward. 
+
+For the Course Offered To section, it mentions both UG and PG, but since all rows say "UG/PG", I can just list that as a single entry under "UG/PG".
+
+The Course Description seems lengthy and repetitive across multiple rows. Since it's the same each time, I'll include it once in the description field.
+
+Looking at the Prerequisites section: The only mandatory prerequisite is listed on row 8. So I'll extract that into the Mandatory Prerequisite field.
+
+For Course Outcomes (COs), there are five rows with CO1 to CO4. Each CO has a description, and some have additional details like "Additionally..." or "Students will be able to...". I need to structure each CO with its respective description, making sure to handle any additional text appropriately.
+
+The Weekly Lecture Plan is spread across multiple weeks (Week 1-2 up to Week 23). Each week has a lecture topic and the COs met. However, in row 14, there's an assignment listed under "Assignment/Labs/Tutorial", which might be outside the weekly plan structure. I'll note that as a potential issue but proceed with extracting the COs for each week.
+
+The Assessment Plan includes Quiz/Assignments (25%), Project (25%), Midsem (20%), and Endsem (30%). These are straightforward to map into their respective fields.
+
+Resource Material has three references: a book by Cheng Hsiao, another by Cameron and Trivedi, and one by William Greene. I'll list each as an object with type and title.
+
+I need to ensure that all missing values are handled gracefully, using empty strings or null where necessary. For example, if any field doesn't have data, it should be represented appropriately in the JSON.
+
+Finally, I must structure everything into a single JSON object without any introductory text or markdown formatting.
+</think>
+
+```json
+{
+  "Course Code": "ECO 322/522",
+  "Course Name": "Econometrics II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide training in advanced applied econometrics through two (broad) modules: A) Panel Data Analysis; and B) Microeconometrics. Panel data (or longitudinal data) run over time and for different observation units like individuals, households, firms, regions, countries, etc. The repeated nature of the individual-level data enables more realistic econometric modeling (e.g., incorporating dynamics at the individual level); more robust estimation methods (e.g., controlling for unobserved heterogeneity) and more powerful statistical inference procedures (e.g. testing for longrun purchasing power parity by pooling a number of countries). We will study the development of the linear regression model in panel data settings involving 'fixed' and 'random' effects, and the statistical properties of the relevant estimators. Microeconometrics is the study of economic behavior of individuals or firms b y employing micro-level discrete response data and regression methods for panel data. The purpose of this module is to expose students to powerful econometric techniques frequently used in applied microeconomic research and quantitative policy analysis.",
+  "Prerequisites": {
+    "Mandatory": "ECO221Econometrics-I OR any equivalent course in statistics (Examples: Statistical Inference/Stochastic Processes and Applications/Probability and Random Processes/Statistical Signal Processing/Statistical Computation)."
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1-2",
+      "Lecture Topic": "Introduction to Panel Data Analysis: Advantages of Panel Data; Heterogeniety Bias; Selectivity Bias; Analysis of Covariance.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "3-4",
+      "Lecture Topic": "Regression Methods for Panel Data: (a) Fixed effects models; (b) Random effects models; (c) serial correlation in panel data; (d) modeling arbitrary error structure using maximum likelihood estimation and generalized lease squares; (e) tests for model misspecification.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "5-6",
+      "Lecture Topic": "Dynamic models with variable intercepts: MLE; GLS; and Instrumental Variable (IV) Estimator; Simulating standard errors.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Discrete Data: Some discrete response models; Static models with heterogeneity; Dynamic discrete choice models (The general model, initial conditions, and state dependency versus heterogeneity).",
+      "COURSEs Met": ["CO2"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Microeconomic Data Structures: Observational data; data from social experiments; data from natural experiments; and some practical considerations",
+      "COURSEs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "9",
+      "Lecture Topic": "Theory of probabilistic choice behavior: multiple alternative choice problems; independence of irrelevant alternatives (ordinal utilities versus scaled cardinal utilities); and probabilistic nature of individual choices.",
+      "COURSEs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Multinomial models: Additive random utility models (RUM); multinomial logit model; multinomial probit model",
+      "COURSEs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "11-12",
+      "Lecture Topic": "Ordered, Requential and Ranked Choice Outcomes: Random parameters logit; nested logit; conditional logit; multivariate discrete outcomes models",
+      "COURSEs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Project presentations",
+      "COURSEs Met": ["CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECO 322/522",
+  "Course Name": "Econometrics II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide training in advanced applied econometrics through two (broad) modules: A) Panel Data Analysis; and B) Microeconometrics. Panel data (or longitudinal data) run over time and for different observation units like individuals, households, firms, regions, countries, etc. The repeated nature of the individual-level data enables more realistic econometric modeling (e.g., incorporating dynamics at the individual level); more robust estimation methods (e.g., controlling for unobserved heterogeneity) and more powerful statistical inference procedures (e.g. testing for longrun purchasing power parity by pooling a number of countries). We will study the development of the linear regression model in panel data settings involving 'fixed' and 'random' effects, and the statistical properties of the relevant estimators. Microeconometrics is the study of economic behavior of individuals or firms employing micro-level discrete response data and regression methods for panel data. The purpose of this module is to expose students to powerful econometric techniques frequently used in applied microeconomic research and quantitative policy analysis.",
+  "Prerequisites": {
+    "Mandatory": "ECO221Econometrics-I OR any equivalent course in statistics (Examples: Statistical Inference/Stochastic Processes and Applications/Probability and Random Processes/Statistical Signal Processing/Statistical Computation)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe and apply different estimation methods for panel data, particularly addressing the unobserved individual heterogeneity in static and dynamic panel data models.",
+    "CO2": "Formulate, estimate and interpret models for individuals discrete choices, and address problems with self selection and censored data.",
+    "CO3": "Utilize a range of micro-econometric tools on large scale data to identify threats to uncovering causal effects from economic data and are able to interpret results.",
+    "CO4": "Conduct an econometric analysis based on a real-world panel data of micro-level decision outcomes and interpret using a modern statistical software. Additionally, students will be able to critically evaluate the credibility of their model and results."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Introduction to Panel Data Analysis: Advantages of Panel Data; Heterogeniety Bias; Selectivity Bias; Analysis of Covariance.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Regression Methods for Panel Data: (a) Fixed effects models; (b) Random effects models; (c) serial correlation in panel data; (d) modeling arbitrary error structure using maximum likelihood estimation and generalized lease squares; (e) tests for model misspecification.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Dynamic models with variable intercepts: MLE; GLS; and Instrumental Variable (IV) Estimator; Simulating standard errors.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Discrete Data: Some discrete response models; Static models with heterogeneity; Dynamic discrete choice models (The general model, initial conditions, and state dependency versus heterogeneity).",
+      "COs Met": ["CO2"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Microeconomic Data Structures: Observational data; data from social experiments; data from natural experiments; and some practical considerations",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Theory of probabilistic choice behavior: multiple alternative choice problems; independence of irrelevant alternatives (ordinal utilities versus scaled cardinal utilities); and probabilistic nature of individual choices.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Multinomial models: Additive random utility models (RUM); multinomial logit model; multinomial probit model",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "11-12",
+      "Lecture Topic": "Ordered, Requential and Ranked Choice Outcomes: Random parameters logit; nested logit; conditional logit; multivariate discrete outcomes models",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Project presentations",
+      "COs Met": ["CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Type of Evaluation",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "16",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "17",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "18",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "19",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "20",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "21",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECO 322/522",
+  "Course Name": "Econometrics II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide training in advanced applied econometrics through two (broad) modules: A) Panel Data Analysis; and B) Microeconometrics. Panel data (or longitudinal data) run over time and for different observation units like individuals, households, firms, regions, countries, etc. The repeated nature of the individual-level data enables more realistic econometric modeling (e.g., incorporating dynamics at the individual level); more robust estimation methods (e.g., controlling for unobserved heterogeneity) and more powerful statistical inference procedures (e.g. testing for longrun purchasing power parity by pooling a number of countries). We will study the development of the linear regression model in panel data settings involving 'fixed' and 'random' effects, and the statistical properties of the relevant estimators. Microeconometrics is the study of economic behavior of individuals or firms employing micro-level discrete response data and regression methods for panel data. The purpose of this module is to expose students to powerful econometric techniques frequently used in applied microeconomic research and quantitative policy analysis.",
+  "Prerequisites": {
+    "Mandatory": "ECO221Econometrics-I OR any equivalent course in statistics (Examples: Statistical Inference/Stochastic Processes and Applications/Probability and Random Processes/Statistical Signal Processing/Statistical Computation)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Describe and apply different estimation methods for panel data, particularly addressing the unobserved individual heterogeneity in static and dynamic panel data models.",
+    "CO2": "Formulate, estimate and interpret models for individuals discrete choices, and address problems with self selection and censored data.",
+    "CO3": "Utilize a range of micro-econometric tools on large scale data to identify threats to uncovering causal effects from economic data and are able to interpret results.",
+    "CO4": "Conduct an econometric analysis based on a real-world panel data of micro-level decision outcomes and interpret using a modern statistical software. Additionally, students will be able to critically evaluate the credibility of their model and results."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Introduction to Panel Data Analysis: Advantages of Panel Data; Heterogeniety Bias; Selectivity Bias; Analysis of Covariance.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Regression Methods for Panel Data: (a) Fixed effects models; (b) Random effects models; (c) serial correlation in panel data; (d) modeling arbitrary error structure using maximum likelihood estimation and generalized lease squares; (e) tests for model misspecification.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Dynamic models with variable intercepts: MLE; GLS; and Instrumental Variable (IV) Estimator; Simulating standard errors.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Discrete Data: Some discrete response models; Static models with heterogeneity; Dynamic discrete choice models (The general model, initial conditions, and state dependency versus heterogeneity).",
+      "COs Met": ["CO2"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Microeconomic Data Structures: Observational data; data from social experiments; data from natural experiments; and some practical considerations",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Theory of probabilistic choice behavior: multiple alternative choice problems; independence of irrelevant alternatives (ordinal utilities versus scaled cardinal utilities); and probabilistic nature of individual choices.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Multinomial models: Additive random utility models (RUM); multinomial logit model; multinomial probit model",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "11-12",
+      "Lecture Topic": "Ordered, Requential and Ranked Choice Outcomes: Random parameters logit; nested logit; conditional logit; multivariate discrete outcomes models",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Project presentations",
+      "COs Met": ["CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Type of Evaluation",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "16",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "17",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "18",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "19",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "20",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": ["Quiz exams", "Midsem", "HW assignments", "Endsem"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    }

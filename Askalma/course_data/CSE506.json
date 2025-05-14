@@ -1,0 +1,100 @@
+{
+  "Course Code": "CSE506",
+  "Course Name": "Data Mining",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Data mining aims at finding the useful patterns in large data sets. Interest in the field is motivated by the growth of computerized data collection due to ubiquity of Internet enabled devices. This course will cover a set of techniques designed to be used for finding interesting patterns from the data. The techniques include classification, clustering, association rule mining and sequence mining. Students will learn and use the open source R statistical software, see http://www.r-project.org, and machine learning packages such as Weka in this course.",
+  "Prerequisites": {
+    "Mandatory": "CSE202 Fundamentals of Database Systems",
+    "Desirable": "Programming in Java",
+    "Other": "Pre-requisite(other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to discuss basic applications, concepts and techniques of data mining such as association rules mining, classification, clustering and sequence mining.",
+    "CO2": "Students are able to use data mining software (Weka, R etc.) to solve practical problems related to association rules mining, classification, clustering and sequence mining.",
+    "CO3": "Students are able to analyze the performance of different data mining techniques.",
+    "CO4": null
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-3",
+      "Lecture Topic": "Exploratory data analysis on numeric and categorical attributes, frequent pattern mining (introduction), partitional clustering (K-Means, EM), Classification (Decision Trees)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "One programming assignment to introduce the students to basics of pre-processing and analyzing a small dataset using R. One assignment containing practice questions on frequent pattern mining ."
+    },
+    {
+      "Week": "4-6",
+      "Lecture Topic": "Exploratory data analysis on high dimensional data, PCA, SVD, LDA, Frequent pattern mining (Itemset summaries), sequence pattern mining",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "A programming assignment to apply PCA/SVD techniques on real dataset."
+    },
+    {
+      "Week": "7-9",
+      "Lecture Topic": "Probabilistic classification, support vector machines, kernel svm, classifier evaluation",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "A programming assignment to apply different classifiers as well as evaluate their performance."
+    },
+    {
+      "Week": "10-13",
+      "Lecture Topic": "Hierarchical/Density based clustering, Spectral clustering, Graph Mining",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "A programming assignment on hierarchical/density based clustering."
+    }
+  ],
+  "Weekly Lab Plan": [
+    {
+      "Week Number": "1-3",
+      "Laboratory Exercise": "Data Preprocessing and Analysis using R",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Platform (Hardware/Software)": "R, Programming in Java"
+    },
+    {
+      "Week Number": "4-6",
+      "Laboratory Exercise": "Frequent Pattern Mining Techniques",
+      "COs Met": [
+        "CO2"
+      ],
+      "Platform (Hardware/Software)": "Python with libraries like Scikit-learn and Pandas"
+    },
+    {
+      "Week Number": "7-9",
+      "Laboratory Exercise": "Classification, support vector machines",
+      "COs Met": [
+        "CO3"
+      ],
+      "Platform (Hardware/Software)": "Python with libraries like Scikit-learn and Pandas"
+    },
+    {
+      "Week Number": "10-13",
+      "Laboratory Exercise": "Clustering techniques: hierarchical and spectral clustering",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Platform (Hardware/Software)": "Python with libraries like Scikit-learn and Pandas"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "25, 25, 10, 10",
+    "Midsem": "25, 25, 10, 10",
+    "HW assignments": "25, 25, 10, 10",
+    "Endsem": "25, 25, 10, 10"
+  },
+  "Resource Material": {
+    "Textbook": "Database Mining and Analysis Mohammed J. Zaki, Wagner Meira JR.",
+    "Reference Book": "Database Mining and Analysis Mohammed J. Zaki, Wagner Meira JR."
+  }
+}

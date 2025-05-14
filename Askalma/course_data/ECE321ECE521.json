@@ -1,0 +1,167 @@
+{
+  "Course Code": "RF Circuit Design (ECE321/ECE521)",
+  "Course Name": "RF Circuit Design",
+  "Credits": 4,
+  "Course Offered to": "ECE321/ECE521",
+  "Course Description": "This course is designed for exposure to circuits and systems design techniques for radio communications leading towards the recent research in the domain of advanced radio technology. It covers fundamental concepts of passive and active circuits at radio frequencies, transmission line theory, Smith chart applications, and software tools like ADS.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Foundations of Electromagnetic Fields and Waves"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Learn various techniques employed for the design of RF Circuits",
+    "CO2": "Acquire hands-on skills to analyze and design simple components such as matching networks, coupler, power divider etc, used in the Radio Communication Circuits",
+    "CO3": "Gain skills in using software tool ADS, PCB machine, and Vector Network Analyzer",
+    "CO4": "Understand advanced topics like multi-band component design techniques, RF filter design, active components such as FETs, MOSFETs, HEMTs, power amplifier topology design, etc."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Importance of Radio Frequency Design, Frequency Spectrum, RF Behavior of Passive Components, Chip Components and Circuit Board Considerations, RF Circuit Manufacturing Process",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Transmission Line Analysis, Example of Transmission Lines, Equivalent Circuit Representation, Theoretical Foundation, Circuit Parameters for a Parallel-Plate Transmission Line",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Special Termination Conditions (Analytical Treatment, MATLAB Simulations)",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "The Smith Chart (From Reflection Coefficient to Load Impedance, Impedance Transformation, Admittance Transformation, Parallel Series Connection), Introduction to ADS (Simple Examples)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "ADS Design Guides (Smith Chart and its Applications)",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Single- and Multi-port Networks (Interconnecting networks, Network properties and Applications, Scattering Parameters)",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Design and Analysis of multi-port network using ADS",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Impedance Matching and Tuning",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Passive RF Components (Coupler Design: analytical technique and ADS implementation; Power Combiner and Power Divider: analytical techniques and ADS implementation; Multi-band Component Design Techniques)",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "RF Filter Design",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Vector Network Analyzer and Simple Calibration Approach",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Active RF Components (RF Field Effect Transistors, MOSFETs, HEMTs)",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Power Amplifier (Biasing and Matching Networks Design Techniques and ADS Implementation; Stability Considerations, Constant Gain, Constant VSWR Circles, Power Amplifier Topologies, Power Amplifier Operation Modes, Multi-band Matching Techniques for Power Amplifiers)",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Quizzes and Projects",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Mid-term Exam"
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Project Presentations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Final Exam"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 5,
+    "Midsem": 20,
+    "HW assignments": 30,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": "RF Circuit Design Theory and Applications, 2nd edition \u2013 R. Ludwig and G. Bogdanov, Pearson Economy",
+    "Reference Book": "Secrets of RF Circuit Design \u2013 Joseph Carr, McGraw Hill"
+  }
+}

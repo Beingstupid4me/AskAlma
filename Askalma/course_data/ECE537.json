@@ -1,0 +1,75 @@
+{
+  "Course Code": "ECE537",
+  "Course Name": "Wireless Communication : Evolution from 3G to 5G",
+  "Credits": 4,
+  "Course Offered to": "UG / PG",
+  "Course Description": "development of cellular standards from 3G to 5G, and Wi-Fi standards from IEEE 802.11a to IEEE 802.11ac. This course will introduce students to channel capacity in non-fading and fading channel conditions, multiple access techniques (including multiple antenna systems), cellular system design, and advanced wireless techniques such as Multi-user MIMO, Carrier Bonding/ Aggregation etc. Lectures will be based on required reading from textbook / reference book sections, magazine and journal articles or supplemental handouts. Active class participation is mandatory - required reading must be done before class, and in-class time will be divided between lectures, group discussions and on\u2013spot presentations. The course grade will be based on class participation, several paper surveys based on the required and supplemental reading, several homework assignments based on the required reading, end semester",
+  "Prerequisites": {
+    "Mandatory": [
+      "ECE240 Principles of Communication Systems",
+      "Matlab"
+    ],
+    "Desirable": [
+      "ECE5xx Principles of Digital Communication",
+      "Matlab"
+    ],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to differentiate between multiple access schemes and state their pros and cons.",
+    "CO2": "Students will be able to analyze the benefits of MIMO wireless systems",
+    "CO3": "Students will be able to analyze the impact of channel conditions on the maximum channel capacity",
+    "CO4": "Students will be able to simulate the performance of adaptive modulation and coding schemes in different channel conditions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1234",
+      "Lecture Topic": "Statistical Multipath Channel models Multiple Access techniques (FDM, TDM, CDMA, OFDMA, SC-FDMA, FDD-TDD) and Interference Management Capacity in Wireless Channels",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "End of chapter problems from the text"
+    },
+    {
+      "Week": "56789",
+      "Lecture Topic": "Transmit Precoding and Receiver Shaping Parallel Decomposition of the MIMO Channel MIMO Channel Capacity Beamforming The V-BLAST architecture Space-time codes Diversity-Multiplexing Trade-offs MIMO-OFDM Systems Multi-User MIMO Multi-User detection Cooperative Relaying Techniques",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "End of chapter problems from the text"
+    },
+    {
+      "Week": "1011",
+      "Lecture Topic": "Adaptive Modulation Adaptive coding schemes Adaptive Modulation and Coding schemes Trellis coded modulation",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "End of chapter problems from the text"
+    },
+    {
+      "Week": "1213",
+      "Lecture Topic": "Standards MIMO techniques in Wi-Fi standards Instructor chosen topic Project Presentations",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "End of chapter problems from the text"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "15",
+    "Midsem": "10",
+    "HW assignments": "30",
+    "Endsem": "20"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Wireless Communication by Andrea Goldsmith",
+      "Fundamentals of Wireless Communication by David Tse and Pramod Viswanath",
+      "From IEEE, Open source etc."
+    ],
+    "Reference Book": [
+      "From IEEE, Open source etc."
+    ]
+  }
+}

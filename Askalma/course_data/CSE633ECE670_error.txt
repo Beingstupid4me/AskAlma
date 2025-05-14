@@ -1,0 +1,217 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format as per the user's instructions. Let me go through each field one by one.
+
+First, "Course Code" seems straightforward; looking at the table, it's listed under Unnamed: 0 with values ECE 670/CSE 633. So I'll take that as the Course Code.
+
+Next is "Course Name," which appears to be "Robotics" based on the content provided in the table.
+
+For "Credits," the value is clearly stated as 4, so that's easy to fill in.
+
+Moving on to "Course Offered to," it mentions both UG/PG, indicating that this course is offered to undergraduate and postgraduate students.
+
+The "Course Description" is quite lengthy. It repeats the same information multiple times, which might be a formatting issue. I'll include the entire text as provided without making any changes since the user hasn't specified trimming or altering it.
+
+Looking at "Prerequisites," there's a section under Pre-requisite with mandatory and desirable prerequisites. Both are listed as "No pre-requisite as such. A basic familiarity with concepts of Linear Algebra." Since both categories have the same information, I'll include them in the Prerequisites object accordingly.
+
+The "Course Outcomes" section is marked with placeholders (CO1 to CO4) but no specific descriptions. Given that there's no additional data, I'll set each outcome as an empty string.
+
+For the "Weekly Lecture Plan," it starts from Week 1 and goes up to Week 23, with each week having a lecture topic and COs Met. However, some weeks have incomplete or placeholder information (like Week 45). Since these are placeholders, I'll mark them as null in the JSON.
+
+The "Assessment Plan" includes various types of evaluations like Homework, Mid-sem, Quiz, End-sem, and Project with their respective percentages. This seems complete, so I'll structure it accordingly.
+
+Lastly, "Resource Material" lists textbooks and reference books. The user provided three references: Siciliano et al., Corke's book, and Spong et al.'s Dynamics of Robotic Arms. I'll include each as separate entries in the Resource Material object.
+
+I need to ensure that all fields are correctly formatted with appropriate data types—numbers where applicable (like Credits) and strings or null for others. Also, handling missing values gracefully by using empty strings or null is important.
+</think>
+
+```json
+{
+  "Course Code": "ECE 670/CSE 633",
+  "Course Name": "Robotics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide a comprehensive knowledge in robotics from theory to implementation. The course will cover fundamental concepts related to mathematical modelling, path planning and control of various robotic systems including robot manipulators, ground robots and drones. We will use several software platforms like Simulink, Matlab Robotics Toolbox, ROS and Gezebo for simulations and projects. Further hardware demos will be shown using Qbot 2e (ground robot), 3dr solo (drone) and rotary inverted pendulum (robot arm) available in control lab.",
+  "Prerequisites": {
+    "Mandatory": "No pre-requisite as such. A basic familiarity with concepts of Linear Algebra",
+    "Desirable": "No pre-requisite as such. A basic familiarity with concepts of Linear Algebra",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "",
+    "CO2": "",
+    "CO3": "",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to robotic systems (manipulator, ground robot, drone etc.), overview of robotics engineering : modelling, planning and control",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Mathematical Modelling - Coordinate transformation, rigid body representation",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "manipulators : forward kinematics, inverse kinematics, velocity kinematics",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 45,
+      "Lecture Topic": "Euler-Lagrange and Newton-Euler formulation of dynamics, quarternion representation (discussion on dynamics of quadrotors), mobile robots : nonholonomic constraints, kinematic model : unicycle and bicycle",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 67,
+      "Lecture Topic": "Path and Trajectory Planning - graph-based planning : Dijkstra and A star, configuration space, obstacles",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 89,
+      "Lecture Topic": "sampling based planning : probabilistic road map and randomly exploring rapid trees, artificial potential fields, introduction to trajectory planning",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Controls - state space representation, linearization, linear Control : pole placement and LQR , Lyunov stability theory",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "nonlinear control",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Project Presentation - Tentative topics : SLAM, Perception (Visual Servoing), Machine learning based path planning etc.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 24,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Homework": 15,
+    "Mid-sem": 25,
+    "Quiz": 15,
+    "End-sem": 25,
+    "Project": 20
+  },
+  "Resource Material": {
+    "Textbook": "Robotics: Modelling, Planning and Control by Bruno Siciliano, Lorenzo Sciavicco, Luigi Villani and Giuseppe Oriolo",
+    "Reference": "Robotics, Vision and Control : Fundamental Algorithms in Matlab by Peter Corke",
+    "Robotics Dynamics and Control by Mark W. Spong, Seth Hutchinson and M. Vidyasagar",
+    "Learning Robotics using Python by Lentin Joseph"
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECE 670/CSE 633",
+  "Course Name": "Robotics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide a comprehensive knowledge in robotics from theory to implementation. The course will cover fundamental concepts related to mathematical modelling, path planning and control of various robotic systems including robot manipulators, ground robots and drones. We will use several software platforms like Simulink, Matlab Robotics Toolbox, ROS and Gezebo for simulations and projects. Further hardware demos will be shown using Qbot 2e (ground robot), 3dr solo (drone) and rotary inverted pendulum (robot arm) available in control lab.",
+  "Prerequisites": {
+    "Mandatory": "No pre-requisite as such. A basic familiarity with concepts of Linear Algebra",
+    "Desirable": "No pre-requisite as such. A basic familiarity with concepts of Linear Algebra",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "",
+    "CO2": "",
+    "CO3": "",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to robotic systems (manipulator, ground robot, drone etc.), overview of robotics engineering : modelling, planning and control",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Mathematical Modelling - Coordinate transformation, rigid body representation",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "manipulators : forward kinematics, inverse kinematics, velocity kinematics",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 45,
+      "Lecture Topic": "Euler-Lagrange and Newton-Euler formulation of dynamics, quarternion representation (discussion on dynamics of quadrotors), mobile robots : nonholonomic constraints, kinematic model : unicycle and bicycle",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 67,
+      "Lecture Topic": "Path and Trajectory Planning - graph-based planning : Dijkstra and A star, configuration space, obstacles",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 89,
+      "Lecture Topic": "sampling based planning : probabilistic road map and randomly exploring rapid trees, artificial potential fields, introduction to trajectory planning",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Controls - state space representation, linearization, linear Control : pole placement and LQR , Lyunov stability theory",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "nonlinear control",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Project Presentation - Tentative topics : SLAM, Perception (Visual Servoing), Machine learning based path planning etc.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 24,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Homework": 15,
+    "Mid-sem": 25,
+    "Quiz": 15,
+    "End-sem": 25,
+    "Project": 20
+  },
+  "Resource Material": {
+    "Textbook": "Robotics: Modelling, Planning and Control by Bruno Siciliano, Lorenzo Sciavicco, Luigi Villani and Giuseppe Oriolo",
+    "Reference": "Robotics, Vision and Control : Fundamental Algorithms in Matlab by Peter Corke",
+    "Robotics Dynamics and Control by Mark W. Spong, Seth Hutchinson and M. Vidyasagar",
+    "Learning Robotics using Python by Lentin Joseph"
+  }
+}

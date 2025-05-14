@@ -1,0 +1,92 @@
+{
+  "Course Code": "MTH371",
+  "Course Name": "Stochastic Processes and Applications",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is a second course in Probability Theory and Stochastic Processes. It assumes a background in elementary probability theory which will be reviewed and overviewed initially. The course then develops the necessary mathematics and intuition to understand discrete and continuous stochastic processes. Students will learn not merely results but proofs as well. This will help students firmly understand the underlying mathematics and provide the intuition for setting up a model in a specific application or a problem. These problems can be from diverse fields such as engineering, physics, operations research, economics, finance, or statistics.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH 201 (Probability & Statistics)"
+    ],
+    "Desirable": [
+      "ECE 501 (Probability and Random Processes)"
+    ],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students learn and strengthen their understanding of basics of random variable, and the simplest and most important classes of stochastic processes, namely, Poisson, Gaussian and finite Markov chains.",
+    "CO2": "Students learn about renewal theory which is a generalization of Poisson processes and will thoroughly learn the mathematical foundations of various results.",
+    "CO3": "Students learn about generalization of Markov chains to countable state spaces and continuous time.",
+    "CO4": "Students learn the basics of random walks and martingales, and their applications"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Review of probability; Bernoulli process; conditional expectations; moment generating functions; Markov and Chebyshev inequalities; central limit theorem",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2-3",
+      "Lecture Topic": "Poisson process; Gaussian process; covariance matrices and properties; finite Markov chains",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4-6",
+      "Lecture Topic": "Renewal theory: basics, discrete version, Blackwell and other theorems",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6-8",
+      "Lecture Topic": "Continuous time Markov chains: basics, birth-death chains, reversibility, uniformizability",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9-11",
+      "Lecture Topic": "Random Walks and Martingales",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12-13",
+      "Lecture Topic": "Special topics including real-world applications",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": null
+  },
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Stochastic Processes: Theory for Applications, by Robert G. Gallager"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "Introduction to Stochastic Processes, Second Edition, by Gregory F. Lawler"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "Adventures in Stochastic Processes, by Sidney Resnick"
+    }
+  ]
+}
