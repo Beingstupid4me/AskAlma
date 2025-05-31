@@ -1,0 +1,89 @@
+### Course Overview
+
+**Course Code:** CSE735  
+**Course Name:** Advanced Topics in Mobile Computing  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG) students  
+
+This course is designed to provide an in-depth understanding of advanced topics in mobile computing. The primary focus will be on recent advancements and research papers that highlight technologies such as sensing, activity inference, mobile communications, road and traffic sensing, and participatory sensing systems. Students will gain insights into how these technologies can be integrated to create next-generation mobile computing systems.
+
+---
+
+### Course Prerequisites
+
+- **Mandatory Pre-requisite:** CSE232 Computer Networks  
+- **Desirable Pre-requisites:** Operating System, Mobile Computing or Mobile Programming  
+
+Note: Additional pre-requisites may be required if necessary. Please consult the instructor for further details.
+
+---
+
+### Course Outcomes (COs)
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Identify and analyze the key challenges and issues in mobile computing domains.
+2. **CO2:** Critique and evaluate research papers related to mobile computing technologies.
+3. **CO3:** Design and develop advanced mobile computing solutions using various components such as sensors, communication protocols, and data analysis techniques.
+4. **CO4:** Integrate multiple components of mobile computing to create robust and efficient systems for real-world applications.
+
+---
+
+### Weekly Lecture Plan
+
+| Week Number | Lecture Topic                     | COs Met       |
+|-------------|----------------------------------|----------------|
+| 1           | Course overview, introduction to mobile computing | CO1            |
+| 2-3         | Mobile Communication, Opportunistic communication, Acoustic communication | CO1, CO2, CO3   |
+| 4-5         | Energy management                | CO1, CO2, CO3   |
+| 6-7         | Road and traffic sensing, Localization and location-based services | CO1, CO2, CO3   |
+| 8-9         | Mobile sensor-based participatory sensing system | CO1, CO2, CO3   |
+| 10-11      | Sensing and activity inference    | CO1, CO2, CO3   |
+| 12          | Privacy and security              | CO1, CO2, CO3   |
+| 13          | Mobile devices and ICTD         | CO1, CO2, CO3   |
+
+Assignments will be provided for weeks where topics are covered.
+
+---
+
+### Weekly Lab Plan
+
+| Week Number | Laboratory Exercise               | COs Met       |
+|-------------|----------------------------------|----------------|
+| 1           | Introduction to mobile computing tools and platforms | CO1            |
+| 2-3         | Hands-on with mobile communication protocols   | CO1, CO2, CO3   |
+| 4-5         | Energy management lab exercises        | CO1, CO2, CO3   |
+| 6-7         | Lab on road and traffic sensing systems    | CO1, CO2, CO3   |
+| 8-9         | Participatory sensing system implementation | CO1, CO2, CO3   |
+| 10-11      | Activity inference lab exercises       | CO1, CO2, CO3   |
+| 12          | Privacy and security lab activities     | CO1, CO2, CO3   |
+
+Detailed lab manuals will be provided at the start of each session.
+
+---
+
+### Assessment Plan
+
+The course assessment is divided as follows:
+
+- **Written paper critiques:** 35%  
+- **Class participation and presentation:** 15%  
+- **Project work:** 40%  
+- **Endsem (end-of-semester examination):** 10%  
+
+Additional assessments may be included at the discretion of the instructor.
+
+---
+
+### Resource Materials
+
+The following resources will be used for this course:
+
+- **Textbook:** IEEE/ACM transactions and conference proceedings, including MobiSys, MobiCom, and Sensys.  
+- **Reference Material:** All papers related to mobile computing topics will be made available by the instructor on the course website.
+
+---
+
+### Conclusion
+
+This course offers a comprehensive exploration of advanced mobile computing technologies. Through a combination of lectures, labs, and assessments, students will gain hands-on experience in designing and implementing innovative solutions for real-world challenges. The course is structured to ensure a deep understanding of the subject matter while encouraging critical thinking and creativity.

@@ -1,0 +1,428 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: The table shows "Course Code" as DES102 and "Course Name" as Introduction to HCI (IHCI). So I'll extract those directly.
+
+Next, Credits are listed under "Credits" in row 3 of the table. It's a number, so that should be straightforward—4 credits.
+
+The Course Offered to is all first-year undergraduates, which is straightforward too: All UG 1st Year.
+
+For the Course Description, it spans multiple rows from 5 to 20. I need to combine these into one string since there's no single cell for this information.
+
+Prerequisites are listed under "Pre-requisite" with "Mandatory", "Desirable", and "Other". The table shows Pre-requisite (Mandatory) as "Pre-requisite (Desirable)" as "", and "Pre-requisite(other)" as "". So all three categories will be filled accordingly, including empty strings where necessary.
+
+COs Met is spread across multiple rows from 12 to 36. Each row has a Week Number, Lecture Topic, COs Met, etc. I'll need to extract the COs Met columns into an array of arrays since each week's COs are listed as ["CO1", "CO2"], etc.
+
+The Weekly Lecture Plan starts at row 14 and goes up to row 36. Each entry has Week Number, Lecture Topic, COs Met, and Assignments. I'll structure this as a list of objects with the keys provided: "Week Number", "Lecture Topic", "COs Met", and "Assignments".
+
+Assessment Plan is located at rows 40 to 56. It includes Quiz exams (40), Midsem (not specified, so maybe null or empty?), HW assignments (40), Endsem (25). Wait, looking back, row 39 mentions Assignments as 40% and Project as 10%, but the actual assessment plan is under rows 40-56. It seems Midsem isn't specified here, so I'll set it to null.
+
+Resource Material includes Textbook (row 48) and Reference (row 49). So that's straightforward.
+
+I also need to ensure all missing values are handled gracefully, using empty strings or nulls as needed. For example, if a prerequisite is not specified, it should be an empty string or null.
+
+Finally, I'll structure everything into the JSON format provided, making sure each key corresponds correctly and data types are appropriate—numbers where possible, arrays for COs Met and Weekly Lecture Plan.
+</think>
+
+```json
+{
+  "Course Code": "DES102",
+  "Course Name": "Introduction to HCI (IHCI)",
+  "Credits": 4,
+  "Course Offered to": "All UG 1st Year",
+  "Course Description": "This course will provide a theoretical and practical understanding of human-computer interaction (HCI) design including concepts of user centered and design thinking, usability, interfaces, rapid prototyping, and evaluation. This is a project-based course where students can work on different user-centric prototypes.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to discuss and distinguish human computer interaction, user experience design, and design thinking.",
+    "CO2": "Students will be able to apply user centered design, and techniques for gathering data, rapid prototyping, as well as conveying design concepts.",
+    "CO3": "Students will be able to assess usefulness and usability of interaction designs.",
+    "CO4": "Students will be able to ideate, prototype, and evaluate new design concepts as part of group projects."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to HCI / Chapter 1",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial/Demonstration": "What is HCI and its real-time applications. | Course Structure, Timeline and expectations"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "What is Design (Pt. 1) / Chapter 1 & 2",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial/Demonstration": "Find a poorly designed item (anything). Submit either a picture or sketch and describe why it is poorly designed."
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "What is Design (Pt. 2) / Chapter 1 & 2",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial/Demonstration": "Quiz-1"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "What is Interaction (Pt. 1) / Chapter 3",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Describe the steps you take to complete a task using an app or website | Tasks: individual interaction, Decide your group project"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "What is Interaction (Pt. 2) / Chapter 3",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Quiz-2 | Collaboration: group interaction: | Scenarios"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "What is the User Perspective (Pt. 1) / Chapters 4, 5, and 6",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Introduction to Requirements Gathering | Interviews, Surveys, Focus Groups"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "What is the User Perspective (Pt. 2) / Chapters 4, 5, and 6",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Working in Groups - Get to know your team | Interview your team members | Interviews, Surveys, Focus Groups"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "What is an Interface (Pt. 1) / Chapter 7",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Post a picture of an interface that you use everyday. Describe 3 ways you think it could be improved. Choose topic (tutorial), Working in Groups | Introduction to Interfaces, Information Design | Accessibility and Inclusiveness, Interface Metaphors"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "What is Data Requirement, Gathering and Analysis / Chapters 8, 9,10, and 11",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Quiz-3 - Introduce Figma (tutorial) | Introduction to Requirements Gathering and Analysis | Figma tutorial"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Iterative Design (Pt. 1) / Chapters 12 and 13",
+      "COs Met": ["CO2", "CO3"],
+      "Assignment/Labs/Tutorial/Demonstration": "Homepage, Navigation prototyping | Introduction to Requirements Gathering and Analysis | Feedback 1: Critique homepage and navigation of another team"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Iterative Design (Pt. 2) / Chapters 12 and 13",
+      "COs Met": ["CO2", "CO3"],
+      "Assignment/Labs/Tutorial/Demonstration": "1) 1st prototype. 2) Interview members from another team to understand user needs. | Introduction to Prototyping | Iteration 1: Revise homepage and navigation - - Prototype an Interaction scenario, Studio"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Iterative Design (Pt. 3) / Chapters 12 and 13",
+      "COs Met": ["CO2", "CO3"],
+      "Assignment/Labs/Tutorial/Demonstration": "Quiz-4 | Introduction to Prototyping | Feedback 2: Critique interaction scenario of another team"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Evaluation / Chapters 14, 15, and 16",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial/Demonstration": "Quiz-5 | Introduction to Evaluation | Iteration 2: Revise interaction scenario -- Types of Evaluation"
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 16,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 17,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 18,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 19,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 20,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 21,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 22,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2"],
+      "Assignment/Labs/Tutorial/Demonstration": "Assignments | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 23,
+      "Lecture Topic": "Mid-Term Exam - Multiple Choice Questions",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial/Demonstration": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [
+      "Quiz-1",
+      "Quiz-2",
+      "Quiz-3",
+      "Quiz-4",
+      "Quiz-5"
+    ],
+    "Midsem": null,
+    "HW assignments": ["Assignments/ Quizes"],
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": "Interaction Design: Beyond Human-Computer Interaction. 2019. (5th Edition) by Jenny Preece, Helen Sharp, Yvonne Rogers (Wiley)",
+    "Reference": "Research papers that to be discussed in class"
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "DES102",
+  "Course Name": "Introduction to HCI (IHCI)",
+  "Credits": 4,
+  "Course Offered to": "All UG 1st Year",
+  "Course Description": "This course will provide a theoretical and practical understanding of human-computer interaction (HCI) design including concepts of user centered and design thinking, usability, interfaces, rapid prototyping, and evaluation. This is a project-based course where students can work on different user-centric prototypes.",
+  "Pre-requisites": "",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to discuss and distinguish human computer interaction, user experience design, and design thinking.",
+    "CO2": "Students will be able to apply user centered design, and techniques for gathering data, rapid prototyping, as well as conveying design concepts.",
+    "CO3": "Students will be able to assess usefulness and usability of interaction designs.",
+    "CO4": "Students will be able to ideate, prototype, and evaluate new design concepts as part of group projects."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to HCI / Chapter 1",
+      "COs Met": ["CO1"],
+      "Assignments": "What is HCI and its real-time applications. | Course Structure, Timeline and expectations"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "What is Design (Pt. 1) / Chapter 1 & 2",
+      "COs Met": ["CO1"],
+      "Assignments": "Find a poorly designed item (anything). Submit either a picture or sketch and describe why it is poorly designed."
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "What is Design (Pt. 2) / Chapter 1 & 2",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz-1 | User-Centered Design, Neilsen's Heurisitcs"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "What is Interaction (Pt. 1) / Chapter 3",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Describe the steps you take to complete a task using an app or website | Tasks: individual interaction, Decide your group project | Personas"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "What is Interaction (Pt. 2) / Chapter 3",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz-2 | Collaboration: group interaction: | Scenarios"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "What is the User Perspective (Pt. 1) / Chapters 4, 5, and 6",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Introduction to Requirements Gathering | Interviews, Surveys, Focus Groups"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "What is the User Perspective (Pt. 2) / Chapters 4, 5, and 6",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Working in Groups - Get to know your team | Interview your team members | Interviews, Surveys, Focus Groups"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "What is an Interface (Pt. 1) / Chapter 7",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Post a picture of an interface that you use everyday. Describe 3 ways you think it could be improved. Choose topic (tutorial), Working in Groups | Introduction to Interfaces, Information Design | Accessibility and Inclusiveness, Interface Metaphors"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "What is Data Requirement, Gathering and Analysis / Chapters 8, 9,10, and 11",
+      "COs Met": ["CO2"],
+      "Assignments": "Quiz-3 - Introduce Figma (tutorial) | Introduction to Requirements Gathering and Analysis | Figma tutorial"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Iterative Design (Pt. 1) / Chapters 12 and 13",
+      "COs Met": ["CO2"],
+      "Assignments": "Homepage, Navigation prototyping | Introduction to Requirements Gathering and Analysis | Feedback 1: Critique homepage and navigation of another team"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Iterative Design (Pt. 2) / Chapters 12 and 13",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "1) 1st prototype. 2) Interview members from another team to understand user needs. | Introduction to Prototyping | Iteration 1: Revise homepage and navigation - - Prototype an Interaction scenario, Studio"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Iterative Design (Pt. 3) / Chapters 12 and 13",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Quiz-4 | Collaboration: group interaction: | Scenarios"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Evaluation / Chapters 14, 15, and 16",
+      "COs Met": ["CO4"],
+      "Assignments": "Quiz-5 | Introduction to Evaluation | Iteration 2: Revise interaction scenario -- Types of Evaluation"
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Laboratory Exercise | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Laboratory Exercise | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 16,
+      "Lecture
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "DES102",
+  "Course Name": "Introduction to HCI (IHCI)",
+  "Credits": 4,
+  "Course Offered to": "All UG 1st Year",
+  "Course Description": "This course will provide a theoretical and practical understanding of human-computer interaction (HCI) design including concepts of user centered and design thinking, usability, interfaces, rapid prototyping, and evaluation. This is a project-based course where students can work on different user-centric prototypes.",
+  "Pre-requisites": "",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to discuss and distinguish human computer interaction, user experience design, and design thinking.",
+    "CO2": "Students will be able to apply user centered design, and techniques for gathering data, rapid prototyping, as well as conveying design concepts.",
+    "CO3": "Students will be able to assess usefulness and usability of interaction designs.",
+    "CO4": "Students will be able to ideate, prototype, and evaluate new design concepts as part of group projects."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to HCI / Chapter 1",
+      "COs Met": ["CO1"],
+      "Assignments": "What is HCI and its real-time applications. | Course Structure, Timeline and expectations"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "What is Design (Pt. 1) / Chapter 1 & 2",
+      "COs Met": ["CO1"],
+      "Assignments": "Find a poorly designed item (anything). Submit either a picture or sketch and describe why it is poorly designed."
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "What is Design (Pt. 2) / Chapter 1 & 2",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz-1 | User-Centered Design, Neilsen's Heurisitcs"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "What is Interaction (Pt. 1) / Chapter 3",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Describe the steps you take to complete a task using an app or website | Tasks: individual interaction, Decide your group project | Personas"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "What is Interaction (Pt. 2) / Chapter 3",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz-2 | Collaboration: group interaction: | Scenarios"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "What is the User Perspective (Pt. 1) / Chapters 4, 5, and 6",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Introduction to Requirements Gathering | Interviews, Surveys, Focus Groups"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "What is the User Perspective (Pt. 2) / Chapters 4, 5, and 6",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Working in Groups - Get to know your team | Interview your team members | Interviews, Surveys, Focus Groups"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "What is an Interface (Pt. 1) / Chapter 7",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Post a picture of an interface that you use everyday. Describe 3 ways you think it could be improved. Choose topic (tutorial), Working in Groups | Introduction to Interfaces, Information Design | Accessibility and Inclusiveness, Interface Metaphors"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "What is Data Requirement, Gathering and Analysis / Chapters 8, 9,10, and 11",
+      "COs Met": ["CO2"],
+      "Assignments": "Quiz-3 - Introduce Figma (tutorial) | Introduction to Requirements Gathering and Analysis | Figma tutorial"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Iterative Design (Pt. 1) / Chapters 12 and 13",
+      "COs Met": ["CO2"],
+      "Assignments": "Homepage, Navigation prototyping | Introduction to Requirements Gathering and Analysis | Feedback 1: Critique homepage and navigation of another team"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Iterative Design (Pt. 2) / Chapters 12 and 13",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "1) 1st prototype. 2) Interview members from another team to understand user needs. | Introduction to Prototyping | Iteration 1: Revise homepage and navigation - - Prototype an Interaction scenario, Studio"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Iterative Design (Pt. 3) / Chapters 12 and 13",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Quiz-4 | Collaboration: group interaction: | Scenarios"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Evaluation / Chapters 14, 15, and 16",
+      "COs Met": ["CO4"],
+      "Assignments": "Quiz-5 | Introduction to Evaluation | Iteration 2: Revise interaction scenario -- Types of Evaluation"
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Laboratory Exercise | Platform (Hardware/Software)"
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Weekly Lab Plan",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Laboratory Exercise | Platform (Hardware/Software)"
+    }

@@ -1,0 +1,120 @@
+{
+  "Course Code": "DES518",
+  "Course Name": "Introduction to Motion Graphics.",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to: (i) Define functions and significant of Motion Graphics; (ii) Introduction to the principles of motion graphics production.; (iii) The basic software/tools used in the manipulation and control of motion graphics.; (iv) Developing own a short visual story from a script.",
+  "Prerequisites": {
+    "Mandatory": "Having basic skill of Graphic tool like Illustrator and Photoshop.",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to Motion Graphics",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week Number": "2 to 3",
+      "Lecture Topic": "Introduction to Visual Storytelling and Info Graphics tools",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week Number": "4 to 5",
+      "Lecture Topic": "Typographic Design and Design Fundamentals",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week Number": "6 to 7",
+      "Lecture Topic": "Visualization for Motion Graphics and Concept Development",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3"
+      ]
+    },
+    {
+      "Week Number": "8 to 9",
+      "Lecture Topic": "Template Creations and Effects Animation",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week Number": "10 to 11",
+      "Lecture Topic": "Motion Graphics Theams, Sound and Camera",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Basic Character Animation",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Understanding of Different File formate, Render a project",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO3",
+        "CO4"
+      ]
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Class Participation",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Assignment",
+      "% Contribution in Grade": "30",
+      "Animated Logo, Kinetic Typography, Info graphic": true
+    },
+    {
+      "Type of Evaluation": "Class Test",
+      "% Contribution in Grade": "30",
+      "Title Sequence Of a project": true
+    },
+    {
+      "Type of Evaluation": "Project",
+      "% Contribution in Grade": "30",
+      "Create a motion graphics project from a variety of static sources.": true
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "Fundamentals of Adobe After Effect.",
+      "Fundamentals of Adobe After Effect.",
+      "Fundamentals of Adobe After Effect."
+    ]
+  }
+}

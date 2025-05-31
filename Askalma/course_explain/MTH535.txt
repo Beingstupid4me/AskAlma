@@ -1,0 +1,57 @@
+**Course Overview:**
+
+The course MTH546, titled "Measure and Probability Theory," is a 4-credit course offered to both undergraduate (UG) and postgraduate (PG) students. This course provides an in-depth exploration of measure theory and its applications to probability theory. The first half of the course focuses on foundational concepts from measure theory, such as σ-algebras, measures, integration, and convergence theorems. These topics are essential for understanding advanced mathematical fields like Riemannian geometry, functional analysis, dynamical systems, and more. The second half of the course applies these theoretical concepts to probability, offering a rigorous framework for probabilistic reasoning.
+
+**Prerequisites:**
+
+To successfully engage with this course, students must have completed **MTH 301 (Real Analysis - I)** or an equivalent course. Additionally, **MTH 402 (Real Analysis - II)** or **MTH 503 (Complex Analysis)** is a desirable prerequisite for those aiming to achieve the learning outcomes of this course.
+
+**Learning Outcomes:**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Rigorously establish the existence of Lebesgue measure and understand its properties.
+- **CO2:** Work with integrations in a measure-theoretic framework and apply convergence theorems effectively.
+- **CO3:** Apply measure theory concepts to analyze probability measures, including distributions, laws of large numbers, and central limit theorems.
+
+**Weekly Lecture Plan:**
+
+The course is structured into 13 weeks, each focusing on specific topics that build upon one another:
+
+- **Week 1:** Review of relevant topics from Analysis. This foundational week ensures students are prepared for the advanced concepts to come.
+- **Week 2:** Introduction to σ-algebras of sets, monotone class theorem, and σ-finite measures. These concepts are pivotal in constructing measure theory.
+- **Week 3:** Construction of Lebesgue measure on real numbers. This topic solidifies students' understanding of measure theory's applications.
+- **Week 4:** Integration theory, including Fatou’s lemma. Students will learn the theoretical underpinnings of integration in a measure-theoretic context.
+- **Week 5:** Monotone and dominated convergence theorems, along with the Radon-Nikodym theorem. These are essential for advanced applications in probability and analysis.
+- **Week 6:** Product measures and Fubini’s theorem. These topics expand students' ability to handle multi-dimensional problems.
+- **Week 7:** Review of basic probability theory. This week bridges measure theory with probabilistic concepts, providing a rigorous foundation.
+- **Week 8:** Distribution functions on the real line. Students will explore how measure theory underpins probabilistic distributions.
+- **Week 9:** Borel-Cantelli lemmas and Laws of Large Numbers. These are critical for understanding probabilistic behavior in large samples.
+- **Week 10:** Weak convergence, characteristic functions. These tools are essential for analyzing the behavior of random variables.
+- **Week 11:** Central Limit Theorem. This cornerstone theorem will be thoroughly explored to highlight its significance in probability theory.
+- **Week 12:** Optional topics on Ergodic theorems or Martingales (if time permits). These advanced topics provide a glimpse into current research areas.
+- **Week 13:** Comprehensive review of course material. This final week prepares students for the end-of-course assessment.
+
+**Assessment Strategy:**
+
+The course employs a balanced assessment strategy to evaluate student understanding and progress:
+
+- **Homework (40%):** Regular assignments will be given throughout the course, with solutions provided after submission to encourage self-assessment.
+- **Mid-Semester Examination (20%):** This examination evaluates students' grasp of foundational concepts covered in the first half of the course. It serves as a formative assessment tool.
+- **End-Semester Examination (40%):** The final examination will assess all topics covered during the course, reflecting their importance in evaluating overall understanding.
+
+**Learning Resources:**
+
+The course provides comprehensive learning materials to support student success:
+
+1. **Textbooks:**
+   - "Real and Complex Analysis" by Walter Rudin
+   - "Probability and Measure" by Patrick Billingsley
+
+2. **Reference Books:**
+   - "Introduction to Probability and Measure" by K.R. Parthasarathy
+   - "Measure Theory and Probability Theory" by Krishna Athreya and Soumendra N. Lahiri
+   - "An Introduction to Measure Theory" by Terence Tao
+   - "Probability and Stochastics" by Erhan Çınlar
+
+These resources offer in-depth coverage of measure theory and its probabilistic applications, providing students with a robust foundation for further studies in mathematics and related fields.

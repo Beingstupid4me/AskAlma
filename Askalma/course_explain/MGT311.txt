@@ -1,0 +1,40 @@
+**Course Overview:**  
+The course MGT311, titled "Emerging Issues in IT Management (EIITM)" course is designed to provide students with an advanced understanding of modern IT challenges, emphasizing governance, risk management, sustainability, and ethical considerations. This comprehensive program aims to prepare students for the complexities of IT management by integrating theoretical knowledge with practical applications.
+
+**Course Prerequisites:**  
+Students are required to have a foundational understanding of information technology, as specified in the mandatory prerequisites. Desirable prerequisites include familiarity with IT governance frameworks such as COBIT 5 and ITIL Version 5, which will be beneficial for this course.
+
+**Learning Outcomes (COs):**  
+1. **CO1:** Students will gain expertise in applying basic principles of IT management and governance to address organizational challenges.
+2. **CO2:** Students will develop the ability to manage issues related to data privacy, ethical legal frameworks, and cybersecurity.
+3. **CO3:** Students will learn to handle sustainable IT practices and their implications across various industries.
+
+**Weekly Lecture Plan (Assignments):**  
+- **Week 1:** Introduction to Strategic IT Management Issues
+- **Weeks 2-3:** IT Governance and Risk Management with COBIT 5 and TOGAF Models
+- **Week 4:** IT Process Management using ITIL Version 5
+- **Weeks 5-6:** Data Security and Privacy, including Vulnerability Analysis
+- **Week 7:** Advanced Cybersecurity Strategies
+- **Week 8:** Legal Aspects of Data Privacy and Cybersecurity
+- **Week 9:** Green IT Introduction and Sustainability Initiatives
+- **Week 10:** Implementing Green IT in Organizations
+- **Week 11:** Cloud Computing and Green Practices
+- **Week 12:** Social Impact of IT on Society and Digital Divide
+- **Week 13:** Project Presentations
+
+**Assessment Plan:**  
+The course is assessed through a combination of assignments, mid-term exams, surprise tests, project presentations, and final exams. The weightage distribution is as follows:  
+- Assignments: 20%
+- Mid-Term Exam: 20%  
+- Surprise Tests: 10%  
+- Project Presentation + Group Case Presentation: 20%  
+- Final End-Term Exam: 30%
+
+**Learning Resources:**  
+The course utilizes a variety of textbooks to enhance learning, including:  
+1. *IT Governance: How Top Performers Manage IT Decision Rights for Superior Results* by Peter Weill and Jeanne W. Ross  
+2. *Implementing Effective IT Governance and IT Management* by Gad J. Selig and Van Haren Publishing  
+3. *IT Strategy and Management* by Sanjiva Shankar Dubey, PHI Learning  
+4. *Dawn of the Code War: America's Battle Against Russia, China, and the Rising Global Cyber Threat* by John P. Carlin, Garrett M. Graff, Kevin Stillwell, and Hachette Audio  
+
+This structured approach ensures that students gain a holistic understanding of IT management principles and their practical applications in addressing contemporary challenges.

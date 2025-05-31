@@ -1,0 +1,146 @@
+{
+  "Course Code": "MTH545",
+  "Course Name": "Finite and spectral element methods",
+  "Credits": "4",
+  "Course Offered to": [
+    "UG",
+    "PG"
+  ],
+  "Course Description": "This is an introductory course to mathematical theory behind finite and spectral element methods for solving differential equations. Students will get an idea about high order numerical approximations of partial differential equations with applications to complex geometries. We begin with different function spaces, weak derivatives to analyze a differential equation in minimal Pre-requisite (Desirable)",
+  "Prerequisites": {
+    "Mandatory": [
+      "Linear Algebra (MTH100)",
+      "Calculus",
+      "Real Analysis 1 (MTH240)",
+      "Differential equations (MTH204)",
+      "Functional analysis",
+      "Programming experience with any language"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": [
+    "CO3",
+    "CO4",
+    "CO1",
+    "CO2"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "12",
+      "Lecture Topic": "Introduction to distribution theory",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "COs met Assignment/Labs/Tutorial",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Variational formulations for differential equations",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Finite element formulation for one dimension problems",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": "16",
+      "Lecture Topic": "Polynomial approximation theory",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Assignment 5"
+    },
+    {
+      "Week": "17",
+      "Lecture Topic": "CO3, CO4 Assignment 7",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment 6"
+    },
+    {
+      "Week": "18",
+      "Lecture Topic": "Introduction to spectral elements : Fundamental concepts in one dimension",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment 7"
+    },
+    {
+      "Week": "19",
+      "Lecture Topic": "Error estimates with hp elements, Implementation of one-dimensional spectral element solver",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 8"
+    },
+    {
+      "Week": "20",
+      "Lecture Topic": "Introduction to multi dimensional spectral elements, Implementation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "21",
+      "Lecture Topic": "Introduction to least squares finite and spectral element method",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "22",
+      "Lecture Topic": "Variational formulations for Stokes and Navier Stokes equations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": "30"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "J.T. Oden, J.N. Reddy"
+    ],
+    "Reference Book": "S. Kesavan"
+  }
+}

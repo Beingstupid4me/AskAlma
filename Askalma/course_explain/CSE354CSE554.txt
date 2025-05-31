@@ -1,0 +1,70 @@
+**Course Overview**
+
+The course CSE354/CSE554, titled "Networks and Systems Security II" is a 4-credit module designed for Btech 3rd/4th year, M.Tech, and PhD students. This advanced course builds upon the foundational concepts introduced in "Networks and Systems Security I, CSE352/CSE552" delving deeper into practical tools and techniques for identifying and exploiting network and system vulnerabilities. The course emphasizes hands-on experience with security tools and frameworks, preparing students to design secure systems and networks.
+
+**Prerequisites**
+
+To successfully engage with this course, students are expected to have completed the following prerequisites:
+
+- **CSE231**: C/C++ Programming
+- **CSE232**: Operating Systems
+- **FCS (Foundations of Computer Security)**: A basic understanding of computer security principles is highly recommended.
+
+Students should also possess a foundational knowledge of network and systems security, as well as proficiency in programming languages such as C/C++ and familiarity with basic operating system concepts.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Use various network security tools effectively.
+2. **CO2**: Identify and analyze basic network and system-level vulnerabilities using appropriate techniques.
+3. **CO3**: Design and implement secure network access control mechanisms.
+4. **CO4**: Utilize system and network-based cryptographic frameworks, such as OpenSSL, for secure communication.
+5. **CO5**: Employ various network evasion tools to exploit vulnerabilities in real-world systems.
+
+**Weekly Syllabus and Topics**
+
+The course is structured into 13 weekly sessions, each focusing on specific topics that build upon the previous weeks' content:
+
+- **Week 1**: Basics of systems and network security, historical security models.
+- **Week 2**: Network access controls - Firewalls (CO1, CO3).
+- **Week 3**: Network access controls - ISP-scale blacklists, DNS filtering, DNS injection/middleboxes (CO3).
+- **Week 4**: Network security assessment tools (wireshark, tcping, tcptraceroute, iperf, dig, nslookup, nmap, zmap, shodan, censys) (CO1, CO3).
+- **Week 5**: Buffer overflow vulnerabilities - Stack smashing, R2Libc (CO2).
+- **Week 6**: Offensive tools for exploiting remote vulnerabilities (shell code generation, password sniffing, cracking using Metasploit) (CO2, CO3).
+- **Week 7**: More on offensive tools - Threat hunting using Metasploit (CO2, CO3).
+- **Week 8**: Basics of confidentiality, integrity, and authentication paradigms (CO4).
+- **Week 9**: CIA implementations - SSL v1/v2/v3, TLS v1.1/v1.2/v.1.3 (CO4).
+- **Week 10**: CIA implementations - VPNs and tunnelling protocols (CO3, CO4).
+- **Week 11**: SSL MITM tools (ssltrip, Burp Suite) (CO3, CO4).
+- **Week 12**: Basics of Network Anonymity - Mix Networks and Onion Routing (CO2, CO3).
+- **Week 13**: Practical Network Anonymity and Privacy - Tor network setup (CO5).
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application skills:
+
+- **Assignments**: 40% of the final grade. These include coding exercises, lab reports, and case studies.
+- **Exercises**: 30% of the final grade. These are problem-solving tasks related to network security concepts.
+- **Midterm Exam**: 10% of the final grade. A comprehensive exam covering the first half of the course material.
+- **Final Exam**: 15% of the final grade. An end-of-term exam assessing overall understanding of the course content.
+- **Quiz**: 5% of the final grade. Short, periodic quizzes to evaluate comprehension of key concepts.
+
+**Resource Materials**
+
+The following textbooks and resources are recommended for this course:
+
+1. **Textbook**:  
+   - "The Hacker Playbook 2: Practical Guide to Penetration Testing" by Peter Kim.
+   
+2. **Textbook**:  
+   - "Network Security: Private Communication in a Public World" by Charlie Kaufman, Radia Perlman, and Mike Speciner (PHI Learning Pvt. Ltd).
+
+3. **Textbook**:  
+   - "Computer Security: Principles and Practices" by William Stallings and Lawrie Brown (Pearson Education).
+
+These resources provide comprehensive coverage of the topics discussed in the course and are essential for a deeper understanding of network and systems security.
+
+**Conclusion**
+
+This course offers an in-depth exploration of advanced network and systems security concepts, with a strong emphasis on hands-on practical experience. By leveraging cutting-edge tools and frameworks, students will gain the skills necessary to identify vulnerabilities, design secure systems, and implement robust security measures. The combination of theoretical knowledge and practical application ensures that students are well-prepared for real-world challenges in the field of network and systems security.

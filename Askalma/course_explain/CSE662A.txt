@@ -1,0 +1,72 @@
+### Course Overview: CSE662A - Special Topics in Computer Vision
+
+This is an advanced course on **Computer Vision** designed for both undergraduate and graduate students. The primary objective of this course is to provide a comprehensive understanding of selected topics in computer vision while equipping students with the skills to develop practical applications using existing tools. Students will engage in theoretical and programming assignments aimed at solving real-world problems in computer vision.
+
+#### Prerequisites:
+The prerequisite for this course includes **Image Analysis (CSE)** and **Digital Signal Processing (ECE)**. These foundational courses are essential as they provide the necessary background knowledge required to succeed in this advanced course.
+
+#### Course Outcomes (COs):
+By the end of this course, students will be able to:
+
+- **CO1:** Apply different techniques of feature extraction and image/video segmentation.
+- **CO2:** Apply different techniques of action/emotion recognition.
+- **CO3:** Look up relevant literature and identify potential solutions for a given computer vision problem.
+- **CO4:** Evaluate and compare the quantitative performance of various vision algorithms.
+- **CO5:** Implement and evaluate state-of-the-art methods in computer vision.
+
+#### Weekly Lecture Plan:
+The course is structured into 9 weeks, each focusing on specific topics to ensure a gradual progression from foundational concepts to advanced techniques:
+
+1. **Week 1: Review of Image Processing**  
+   - Introduction to fundamental concepts in image processing.
+   - CO4 will be addressed through this week's lecture.
+
+2. **Week 2: Introduction to Computer Vision**  
+   - Overview of computer vision and its applications.
+   - CO4 is also covered here.
+
+3. **Week 3: Local Features Extraction**  
+   - Techniques for extracting local features in images.
+   - Assignments will include practical exercises on feature extraction.
+
+4. **Week 4: Global Features Extraction**  
+   - Methods for extracting global features and their applications.
+   - CO1, CO4, and CO5 are addressed here.
+
+5. **Week 5: Interactive Segmentation**  
+   - Hands-on session with interactive segmentation techniques.
+   - (HW 1) will be assigned to reinforce learning.
+
+6. **Week 6: Superpixel Segmentation**  
+   - Advanced methods for superpixel segmentation.
+   - CO1 and CO4 are the focus areas.
+
+7. **Week 7: Object Co-segmentation**  
+   - Techniques for co-segmenting multiple objects in an image.
+   - (Quiz 1) will assess understanding of this topic.
+
+8. **Week 8: Semantic Segmentation**  
+   - Deep dive into semantic segmentation techniques.
+   - CO1, CO4, and CO5 are addressed here.
+
+9. **Week 9: Video Object Segmentation & Tracking**  
+   - Extension of segmentation to video analysis.
+   - (HW2) will be assigned for this week.
+
+#### Assessment Strategy:
+The course assessment is designed to evaluate both theoretical understanding and practical application skills:
+
+- **Assignments:** 40% of the final grade. These include coding exercises, feature extraction tasks, and segmentation projects.
+- **Quizzes:** 20% of the final grade. Quizzes will be conducted weekly to assess progress on specific topics.
+- **End-Semester Examination:** 40% of the final grade. The examination will cover all course material, emphasizing practical applications.
+
+#### Learning Resources:
+Students are encouraged to utilize the following reference materials for additional insights and hands-on practice:
+
+1. **"Computer Vision: Algorithms and Applications"** by Richard Szeliski.
+2. **"Computer Vision: A Modern Approach"** by David Forsyth and Jean Ponce.
+3. **"Computer Vision: Models, Learning, and Inference"** by Simon J. D. Prince.
+
+Additional resources, including lecture notes and supplementary materials, will be posted on the course page for student access.
+
+This structured approach ensures a well-rounded learning experience, combining theoretical knowledge with practical application, preparing students to tackle real-world computer vision challenges effectively.

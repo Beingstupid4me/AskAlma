@@ -1,0 +1,199 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided sheet and structure it into a JSON format as specified. Let me go through each section step by step.
+
+First, looking at the Course Code and Name. They seem straightforward: CSE501 and "Designing Human Centred Systems". Credits are listed multiple times with 4, so I'll take that as 4.
+
+Pre-requisites are all marked as Pre-requisite (Mandatory), which probably means they're all mandatory. So the Mandatory pre-req is "Human Computer Interaction (HCI: DES204)" and there's no other pre-reqs or anti-reqs.
+
+---
+
+The rest of the sheet is empty.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this website so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This course is heavily inspired by the course that Prof. Jason Hong teaches at CMU, Designing Human-Centered Systems.
+</think>
+
+```json
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE501",
+  "Course Name": "Designing Human Centred Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Why are things so hard to use these days? Why does not this thing I just bought work? Why is this web site so hard to use? Why are users not liking my design? Why is my app not getting popular? These are frustrations that we have all faced from systems not designed

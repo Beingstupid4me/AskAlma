@@ -1,0 +1,37 @@
+**Course Overview:**  
+The course, coded as ESC205A-Environmental Sciences, is a 2-credit course designed for undergraduate students. It provides an in-depth understanding of environmental science principles, sustainable development practices, and their applications in contemporary issues. The course spans 13 weeks, with a focus on both theoretical knowledge and practical skills.
+
+**Prerequisites:**  
+No pre-requisites are required for this course. Students are expected to have a basic understanding of ecological concepts and an interest in environmental management.
+
+**Learning Outcomes (COs):**  
+By the end of this course, students will be able to:  
+1. Understand the importance of environment and resource management.  
+2. Analyse and incorporate environmental implications into daily decision-making processes.  
+3. Apply principles of sustainable development to real-world scenarios.  
+4. Evaluate environmental impacts using various tools and techniques.  
+5. Develop solutions for contemporary environmental challenges.
+
+**Weekly Syllabus and Topics:**  
+1. **Week 1:** Introduction to Environmental Science and Sustainable Development: Earth, Man, and environment; ecosystems, physical, chemical, and biological factors in the environment.  
+2. **Week 2:** Ecology and Biodiversity: Structure and functions of ecosystems, biodiversity conservation.  
+3. **Week 3:** Natural Resources: Forest, water, energy, and land resources management.  
+4-5. **Weeks 4-5:** Air Quality Management: Causes, health impacts, and pollution control strategies.  
+6. **Week 6:** Water Quality Management: Pollution sources, treatment, and management techniques.  
+7. **Week 7:** Solid and Hazardous Waste Management: Types of waste, environmental issues, and management practices.  
+8-9. **Weeks 8-9:** Environmental Management System (EMS): ISO 14000 series, environmental policy, performance evaluation, ecolabelling, and corporate social responsibility.  
+10. **Week 10:** Energy and Environment: Renewable vs non-renewable energy sources and their impacts.  
+11. **Week 11:** Environmental Decision-Making Tools: Environmental impact assessment, risk assessment, monitoring techniques, life cycle assessment, and environmental modelling.  
+12-13. **Weeks 12-13:** Contemporary Environmental Issues: Rainwater harvesting, global warming, climate change, carbon footprints, green economy, and sustainable urbanism.
+
+**Assessment Strategy:**  
+The course is evaluated through a combination of assessments designed to reinforce learning outcomes and evaluate understanding:  
+1. **Midterm Exam (20%):** Covers foundational concepts and their applications in environmental decision-making.  
+2. **Assignments and Quizzes (20%):** Includes case studies, project work based on field visits, and practical problem-solving tasks.  
+3. **Project Work (30%):** A comprehensive project involving field visit(s) to analyze environmental impacts and develop solutions for sustainable development.  
+4. **Major Exam (30%):** Comprehensive evaluation of all topics covered during the course.
+
+**Learning Resources:**  
+1. Gilbert M.M. and Wendell E. (2008). *Introduction to Environmental Engineering and Science*. Prentice Hall, 2008.  
+2. Canter L.W. (1996). *Environmental Impact Assessment*, 2nd Edn. New York, McGraw Hill.  
+3. Odum E.P. (2007). *Ecology: A Bridge between Science and Society*.

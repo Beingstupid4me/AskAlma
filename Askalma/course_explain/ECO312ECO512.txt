@@ -1,0 +1,62 @@
+### Course Overview  
+**Course Code:** ECO312/ECO512  
+**Course Name:** Industrial Organization (IO)  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+**Course Description:** This course provides an in-depth introduction to the theoretical foundations of industrial organization. It explores how firms operate in competitive markets, focusing on strategic decision-making under market power. Key topics include profit maximization, advertising, product differentiation, pricing strategies, and market entry/exit dynamics. The course also integrates empirical methods to analyze real-world scenarios, offering students a comprehensive understanding of firm behavior in complex market structures.
+
+### Prerequisites  
+- **Mandatory:** ECO101 or ECO311 (Microeconomics)  
+- **Desirable:** Completion of Game Theory (ECO425/ECO625)  
+- **Other:** None specified  
+
+---
+
+
+### Learning Outcomes (Course Outcomes)  
+By the end of this course, students will be able to:  
+- **CO1**: Understand how to approach problems in IO by analyzing strategic interactions between firms.  
+- **CO2**: Model decisions that influence profit, such as advertising, product differentiation, and collusion.  
+- **CO3**: Analyze decision-making processes in monopolies, duopolies, and vertically controlled markets.  
+- **CO4**: Justify the motivations behind a firm's entry into or exit from a market.  
+- **CO5**: Implement basic empirical and applied theory techniques in IO, particularly for advanced-level courses (5XX).
+
+---
+
+### Weekly Lecture Plan  
+The course is divided into 13 weeks, with each week focusing on specific topics that align with the learning outcomes:  
+
+| Week | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials |
+|------|------------------------------------|---------|---------------------------|
+| 1    | Introduction to Industrial Organization | CO1     | Assignment 1 (For 3XX)   |
+| 2-3  | Non-Cooperative Game Theory         | CO1, CO2 | Assignment 1 (For 3XX)   |
+| 4    | The Theory of the Firm            | CO1     | Assignment 2              |
+| 5-6  | Monopoly                           | CO3     | Assignment 2              |
+| 7-8  | Product Selection, Quality, and Advertising | CO2, CO3 | Assignment 3               |
+| 9    | Price Discrimination              | CO1, CO3 | Assignment 3               |
+| 10   | Vertical Control                   | CO3     | Assignment 4               |
+| 11-12| Short Run Price Competition       | CO1, CO3 | Assignment 4               |
+| 13   | Product Differentiation: Price Competition and Non-Price Competition | CO2    | Project (For 5XX)         |
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application of concepts. The breakdown is as follows:  
+
+| Type of Evaluation       | % Contribution in Grade (3XX) | % Contribution in Grade (5XX) |
+|---------------------------|-------------------------------|-------------------------------|
+| Homework Assignments      | 30%                           | 20%                           |
+| Mid-Semester Examination   | 30%                           | 30%                           |
+| Final Examination         | 40%                           | 30%                           |
+| Project                    | 20%                           | 20%                           |
+
+The mid-semester and final examinations carry significant weightage because they assess students' ability to synthesize and apply course concepts in complex scenarios.
+
+---
+
+### Resource Materials  
+The primary textbook for this course is **"Industrial Organization: Markets and Strategies"** by Belleflamme, Paul, and Martin Peitz (2015). This book provides a comprehensive introduction to the field. For advanced-level courses (5XX), students are recommended to use **"The Theory of Industrial Organization"** by Jean Tirole (Eastern Economy Edition). Additional scholarly papers will be provided for 5XX students as part of their learning materials.
+
+--- 
+
+This structured approach ensures that students gain a thorough understanding of industrial organization, from foundational theories to practical applications.

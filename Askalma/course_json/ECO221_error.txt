@@ -1,0 +1,325 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. The user has provided a detailed table from an Excel file containing various aspects of an econometrics course. My task is to extract the necessary information and structure it into a JSON format as specified.
+
+First, I'll start by identifying each section required in the JSON output:
+
+1. **Course Code**: This seems straightforward; looking at the table, under "Unnamed: 0" there's a row with 'ECO221'. That should be our course code.
+
+2. **Course Name**: The course name is consistently listed as "Econometrics I". It appears in multiple rows of column B, so that's clear.
+
+3. **Credits**: Under the credits column, all entries are '4', so we'll use that value.
+
+4. **Course Offered to**: All entries here say 'UG' which stands for Undergraduate.
+
+5. **Course Description**: This is a bit more involved since it spans multiple rows and columns. I need to extract each week's description into an object with the week number as the key and the description as the value. It looks like weeks 1 through 23 have descriptions, so that will be our weekly lecture plan.
+
+6. **Prerequisites**: The prerequisites are listed under "Pre-requisites" column. All entries say 'MTH201 (Probability and Statistics)', which is a single prerequisite. Since it's mandatory, I'll represent it as an array with one element.
+
+7. **Course Outcomes (COs)**: These are listed in the CO column for each week. Each row under "CO" has values like CO1, CO2, etc., paired with descriptions. I need to create a list of these outcomes, ensuring that if any are missing or have invalid data, they're represented as empty strings.
+
+8. **Weekly Lecture Plan**: This is structured as an array where each object contains the week number, lecture topic, COs met, and assignments. Looking at the table, weeks 1 to 23 have topics and COs listed, but some assignment fields are just "A short project..." which I'll represent as strings since they're not numerical.
+
+9. **Assessment Plan**: The assessment types are under the "Type of Evaluation" column. They include Quiz/Assignments, Project, Midsem, and Endsem with their respective percentages. These need to be structured into an object where each key is the evaluation type and the value is its contribution percentage.
+
+10. **Resource Material**: There are two references listed: Introductory Econometrics by Wooldridge and Basic Econometrics by Gujarati. Both have multiple entries, so I'll include them as a list with duplicates removed.
+
+Now, considering the user's instructions to handle missing values gracefully, I need to ensure that if any fields don't have data, they're represented appropriately—either as null or empty strings where necessary. For example, if an assignment wasn't listed for a week, it would be marked as "null" in JSON.
+
+I also need to make sure the JSON is correctly formatted without any markdown, just plain JSON with proper braces and commas. Each key should correspond exactly to what's required in the provided schema.
+
+Finally, I'll structure all this information into the specified JSON format, ensuring that each field is correctly populated based on the table data, handling duplicates where necessary (like multiple entries for the same reference) by including them once.
+</think>
+
+```json
+{
+  "Course Code": "ECO221",
+  "Course Name": "Econometrics I",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "We will review working with expectation operators and matrix algebra. We will study various statistical models used to test theoretical economic relationships, analyze historical economic events, and conduct economic policy evaluation. Simple and multiple regression using ordinary least squares estimation, maximum likelihood estimation, and generalized least squares estimation will be covered in detail. We will learn tools of basic statistical inference and diagnostics for these models. Time-allowing, we will study logit and probit regressions to handle discrete choices (e.g., Yes/No choice scenarios). Basic time-series analyses with tests and controls for trends, seasonality, and autocorrelation.",
+  "Prerequisites": {
+    "Mandatory": "MTH201 (Probability and Statistics)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand how the notions of random variables, probability distributions, moments and expectations lead to the estimation of causal economic relations, test economic theory and analyze various policies",
+    "CO2": "Utilize optimization methods: error minimization and likelihood maximization to estimate economic relationships using Oridnary Least Squares, Maximum Likelihood, Logit, and Probit estimators.",
+    "CO3": "Abile to propose and setup regression models and infer upon proposed economic relationships using standard tests of statistical significance.",
+    "CO4": "Ability to validate various regression models from distribution assumptions on residuals.",
+    "CO5": "Ability to estimate regressions using real-world datasets on a standard statistical package."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Causality and Correlation.",
+      "COs Met": ["CO1"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Linear models for 'observational' economic data.",
+      "COs Met": ["CO2"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Ordinary Least Square Regression, properties of the BLUE estimator, ANOVA table.",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Maximum Likelihood Estimation, asymptotic properties of the MLE estimator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Heteroskedasticity: tests for consistency of OLS and MLE estimators.",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Generalized Least Squares Estimators, asymptotic properties of GLS estimator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "choices, binomial and multinomial dependent variables.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Statistical Inference and Hypothesis testing for econometric data.",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Introduction to Time-Series analyses.",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Project Presentations.",
+      "COs Met": ["CO5"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Type": "Assessment Plan",
+      "Quiz exams": ["Quiz 1", "Quiz 2", "Midsem", "Endsem"],
+      "HW assignments": ["Homework 1", "Homework 2", ..., "Homework N"], // Not provided in the data
+      "COs Met": ["CO1", "CO2", ...] // Not provided in the data
+    },
+    {
+      "Type": "Resource Material",
+      "Textbook": ["Introductory Econometrics: A modern approach by Jeffrey M. Wooldridge (4th edition, Cengage India)", "Basic Econometrics by D.N. Gujarati, The McGraw-Hill Companies, 2004", "Microeconometrics: Methods and Applications by A. Colin Cameron and Pravin K. Trivedi (Cambridge, online copy of 2005 edition available)"],
+      "Reference Book": ["Basic Econometrics by D.N. Gujarati, The McGraw-Hill Companies, 2004", "Introductory Econometrics: A modern approach by Jeffrey M. Wooldridge (4th edition, Cengage India)", "Microeconometrics: Methods and Applications by A. Colin Cameron and Pravin K. Trivedi (Cambridge, online copy of 2005 edition available)"]
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECO221",
+  "Course Name": "Econometrics I",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "We will review working with expectation operators and matrix algebra. We will study various statistical models used to test theoretical economic relationships, analyze historical economic events, and conduct economic policy evaluation. Simple and multiple regression using ordinary least squares estimation, maximum likelihood estimation, and generalized least squares estimation will be covered in detail. We will learn tools of basic statistical inference and diagnostics for these models. Time-allowing, we will study logit and probit regressions to handle discrete choices (e.g., Yes/No choice scenarios). Basic time-series analyses with tests and controls for trends, seasonality, and autocorrelation.",
+  "Prerequisites": {
+    "Mandatory": "MTH201 (Probability and Statistics)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand how the notions of random variables, probability distributions, moments and expectations lead to the estimation of causal economic relations, test economic theory and analyze various policies.",
+    "CO2": "Utilize optimization methods: error minimization and likelihood maximization to estimate economic relationships using Oridnary Least Squares, Maximum Likelihood, Logit, and Probit estimators.",
+    "CO3": "Abile to propose and setup regression models and infer upon proposed economic relationships using basic statistical inference and diagnostics for these models.",
+    "CO4": "Time-allowing, study logit and probit regressions to handle discrete choices (e.g. Yes/No choice scenarios).",
+    "CO5": "Basic time-series analyses with tests and controls for trends, seasonality, and autocorrelation."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Causality and Correlation.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Linear models for 'observational' economic data.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Ordinary Least Square Regression, properties of the BLUE estimator, ANOVA table.",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Maximum Likelihood Estimation, asymptotic properties of the MLE estimator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Heteroskedasticity: tests for consistency of OLS and MLE estimators.",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Generalized Least Squares Estimators, asymptotic properties of GLS estiamator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "choices, binomial and multinomial dependent variables.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Statistical Infrerence and Hypothesis testing for econometric data.",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Introduction to Time-Series analyses.",
+      "COs Met": ["CO3", "CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Project Presentations",
+      "COs Met": ["CO5"],
+      "Assignments": ""
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECO221",
+  "Course Name": "Econometrics I",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "We will review working with expectation operators and matrix algebra. We will study various statistical models used to test theoretical economic relationships, analyze historical economic events, and conduct economic policy evaluation. Simple and multiple regression using ordinary least squares estimation, maximum likelihood estimation, and generalized least squares estimation will be covered in detail. We will learn tools of basic statistical inference and diagnostics for these models. Time-allowing, we will study logit and probit regressions to handle discrete choices (e.g., Yes/No choice scenarios). Basic time-series analyses with tests and controls for trends, seasonality, and autocorrelation.",
+  "Prerequisites": {
+    "Mandatory": "MTH201 (Probability and Statistics)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand how the notions of random variables, probability distributions, moments and expectations lead to the estimation of causal economic relations, test economic theory and analyze various policies.",
+    "CO2": "Utilize optimization methods: error minimization and likelihood maximization to estimate economic relationships using Oridinary Least Squares, Maximum Likelihood, Logit, and Probit estimators.",
+    "CO3": "Abile to propose and setup regression models and infer upon proposed economic relationships using standard tests of statistical significance.",
+    "CO4": "Ability to validate various regression models from distribution assumptions on residuals.",
+    "CO5": "Ability to estimate regressions using real-world datasets on a standard statistical package."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Causality and Correlation.",
+      "COs Met": ["CO1"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Linear models for 'observational' economic data.",
+      "COs Met": ["CO2"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Ordinary Least Square Regression, properties of the BLUE estimator, ANOVA table.",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Maximum Likelihood Estimation, asymptotic properties of the MLE estimator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Heteroskedasticity: tests for consistency of OLS and MLE estimators.",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Generalized Least Squares Estimators, asymptotic properties of GLS estimator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "choices, binomial and multinomial dependent variables.",
+      "CO
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECO221",
+  "Course Name": "Econometrics I",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "We will review working with expectation operators and matrix algebra. We will study various statistical models used to test theoretical economic relationships, analyze historical economic events, and conduct economic policy evaluation. Simple and multiple regression using ordinary least squares estimation, maximum likelihood estimation, and generalized least squares estimation will be covered in detail. We will learn tools of basic statistical inference and diagnostics for these models. Time-allowing, we will study logit and probit regressions to handle discrete choices (e.g., Yes/No choice scenarios). Basic time-series analyses with tests and controls for trends, seasonality, and autocorrelation.",
+  "Prerequisites": {
+    "Mandatory": "MTH201 (Probability and Statistics)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand how the notions of random variables, probability distributions, moments and expectations lead to the estimation of causal economic relations, test economic theory and analyze various policies.",
+    "CO2": "Utilize optimization methods: error minimization and likelihood maximization to estimate economic relationships using Oridinary Least Squares, Maximum Likelihood, Logit, and Probit estimators.",
+    "CO3": "Abile to propose and setup regression models and infer upon proposed economic relationships using standard tests of statistical significance.",
+    "CO4": "Ability to validate various regression models from distribution assumptions on residuals.",
+    "CO5": "Ability to estimate regressions using real-world datasets on a standard statistical package."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Causality and Correlation.",
+      "COs Met": ["CO1"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Linear models for 'observational' economic data.",
+      "COs Met": ["CO2"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Ordinary Least Square Regression, properties of the BLUE estimator, ANOVA table.",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Maximum Likelihood Estimation, asymptotic properties of the MLE estimator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Heteroskedasticity: tests for consistency of OLS and MLE estimators.",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Generalized Least Squares Estimators, asymptotic properties of GLS estimator.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    }

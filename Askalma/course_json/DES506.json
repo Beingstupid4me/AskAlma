@@ -1,0 +1,158 @@
+{
+  "Course Code": "DES506",
+  "Course Name": "Advanced topics in Human Centered Computing (ATHC)",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "The course provides an advanced level understanding of current-day HCC frameworks and research methodologies. The aim of the course is to develop ability to conduct research in the area of HCC. During the course, the students will learn about existing frameworks and research methodologies that are currently used and also how to apply them.",
+  "Prerequisites": {
+    "Mandatory": "HCI, DES 204",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Knowledge of current-day HCC frameworks and research methodologies",
+    "CO2": "Ability to identify and apply, critique, and justify the suitable research framework for a given problem",
+    "CO3": "Ability to develop research hypothesis and generate new ideas related to a research problem",
+    "CO4": "Ability to evaluate and criticise existing computing and design solutions identifying the critical flaws in methodology, experimentation, evaluation etc. and ability to propose alternate solutions/approachs to address the flaws."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Feminist HCI Lens Methodology",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Feminist HCI Applications",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "DBIR Methodology",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "DBIR Applications",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Aspiration-based design Methodology",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Aspiration-based design Applications",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Asset-based design Methodology",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Asset-based design Applications",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "HCC for Development",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "HCC for Development",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Emerging Themes in HCC",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Emerging Themes in HCC",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment, Project"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "60",
+    "Endsem": "30"
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": ""
+  }
+}

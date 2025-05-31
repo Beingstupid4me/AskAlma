@@ -1,0 +1,55 @@
+# Course Overview  
+**Course Code:** CSE563  
+**Course Name:** Multimedia Computing and Applications  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+
+## Course Description  
+By the end of this course, students will gain a comprehensive understanding of the core concepts and emerging technologies in multimedia computing. The curriculum is designed to cover advanced topics such as content-based retrieval, multimedia data processing, summarization, mining, and analysis. Students will also explore applications in social media, including event detection, sentiment analysis, and recommendation systems. Through hands-on assignments and projects, students will develop the ability to analyze, design, and evaluate multimedia systems. The course emphasizes both theoretical knowledge and practical implementation skills.
+
+## Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+- **CO1:** Understand advanced computing fundamentals in multimedia applications and social media contexts.  
+- **CO2:** Apply techniques for content-based retrieval, summarization, and data mining across various multimedia platforms.  
+- **CO3:** Analyze and evaluate algorithms for multimedia processing tasks such as classification, event detection, and sentiment analysis.  
+- **CO4:** Design and implement multimedia systems to solve real-world problems in social media and beyond.  
+
+## Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic                     | COs Met   | Assignments/Labs/Tutorial/Demonstration |
+|-------------|-----------------------------------|------------|-----------------------------------------|
+| 1           | Introduction to Multimedia Computing | CO1        | None                                    |
+| 2           | Content-Based Retrieval          | CO2, CO3   | None                                    |
+| 3           | Content-Based Retrieval          | CO2, CO3   | None                                    |
+| 4           | Multimedia Content Processing    | CO2, CO3   | None                                    |
+| 5           | Multimedia Content Processing    | CO2, CO3   | None                                    |
+| 6           | Multimedia Summarization        | CO2, CO3   | None                                    |
+| 7           | Multimedia Data Mining          | CO2, CO3   | None                                    |
+| 8           | Introduction to Social Networks & Challenges | CO1, CO2, CO3 | None |
+| 9           | Classification of Social Media Content | CO2, CO3 | None |
+| 10          | Event Detection and Tracking, and Hot Emerging Event Detection | CO2, CO3 | None |
+| 11          | Multi-Source Data Fusion & Data Organization | CO2, CO3 | None |
+| 12          | Knowledge Graph: Knowledge Organization | CO2, CO3 | None |
+| 13          | Student Presentations            | CO4        | None                                    |
+
+## Assessment Strategy  
+
+| Type of Evaluation       | % Contribution in Grade |
+|---------------------------|------------------------|
+| Assignments                 | 25%                   |
+| Project                    | 40%                   |
+| Mid-Semester Examination   | 10%                   |
+| End-Semester Examination   | 25%                   |
+
+## Resources  
+
+### Course References  
+- **R. Steinmetz, "Multimedia: Computing, Communications & Applications", Pearson Education, 2012.**  
+- **R. Steinmetz and K. Nahrstedt, "Multimedia Systems", Springer, 2013.**  
+- **R. Steinmetz and K. Nahrstedt, "Multimedia Applications", Springer, 2013.**  
+- **R. R. Shah and R. Zimmermann, "Multimodal Analysis of User-Generated Multimedia Content", Springer, 2017.**  
+- **Research papers that will be discussed in class**  
+
+### Additional Resources  
+- **Textbook:** None specified in the provided data.

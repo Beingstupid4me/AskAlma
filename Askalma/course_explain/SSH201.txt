@@ -1,0 +1,53 @@
+**Course Overview**
+
+The course titled "Research Methods in Social Science" (SSH201) is a 4-credit-hour module designed for undergraduate students. This course provides an introduction to the foundational concepts and methodologies employed by social scientists, including economists, anthropologists, psychologists, and sociologists. The primary objective of this course is to equip students with the skills necessary to formulate research questions, design studies, collect data, analyze it using appropriate techniques, and interpret results. The curriculum integrates both quantitative and qualitative research methods, utilizing tools such as statistical software (R, SPSS) and qualitative analysis platforms like QDA Miner. The learning experience combines theoretical instruction with hands-on lab sessions, allowing students to apply their knowledge in practical settings.
+
+**Prerequisites**
+
+To successfully engage with this course, students are required to have completed SSH101: "Critical Thinking and Readings in Social Sciences." This foundational course ensures that students possess the necessary background knowledge and analytical skills to participate effectively in SSH201. No other prerequisites are specified for this module.
+
+**Course Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Demonstrate a thorough understanding of the foundational concepts and principles of social research methods.
+- **CO2:** Identify social issues, formulate research questions, and design a clear research agenda.
+- **CO3:** Analyze qualitative and quantitative data using statistical software such as R, SPSS, and QDA Miner.
+- **CO4:** Independently design a research study to investigate real-world phenomena.
+
+**Weekly Lecture Plan**
+
+The course is structured into 12 weekly sessions, each focusing on specific aspects of social research methods:
+
+- **Week 1:** Introduction to the role of social research and its importance in understanding social phenomena. This session aligns with CO1.
+- **Week 2:** Designing research projects and formulating research questions. This addresses CO2.
+- **Week 3:** Sampling methods, covering both CO2 and CO4.
+- **Week 4:** From conceptualization to measurement, focusing on CO2 and CO4.
+- **Week 5:** Survey research, incorporating CO2, CO3, and CO4.
+- **Week 6:** Experiment research, addressing CO2, CO3, and CO4.
+- **Week 7:** Content analysis, covering CO2, CO3, and CO4.
+- **Week 8:** Interviewing techniques, focusing on CO2, CO3, and CO4.
+- **Week 9:** Qualitative field studies and quantitative data analysis (Part 1), addressing CO2, CO3, and CO4.
+- **Week 10:** Quantitative data analysis (Part 2), covering CO2, CO3, and CO4.
+- **Week 11:** Analyzing qualitative data, focusing on CO2, CO3, and CO4.
+- **Week 12:** Writing a research report, aligning with CO5.
+
+**Assessment Plan**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application of the material. The breakdown is as follows:
+
+- **Homework Assignments:** 20% contribution to the final grade, focusing on reinforcing concepts covered in lectures.
+- **Test 1 (Midsem):** 20% weightage, assessing students' grasp of research design and methodology.
+- **Final Exam:** 20% weightage, evaluating comprehensive understanding of all course topics.
+- **Research Proposal:** 15% contribution, requiring students to outline their chosen research topic and methodology.
+- **Proposal Presentation:** 5% weightage, allowing students to present and defend their research proposals.
+
+The final exam carries a significant weight (20%), reflecting its importance in evaluating overall understanding of the course material. This assessment structure ensures that both theoretical knowledge and practical skills are adequately evaluated.
+
+**Resource Materials**
+
+The primary textbook for this course is "The Practice of Social Research" by Earl R. Babbie, published by International Thomson Publishing Services. Additional readings may be assigned by the instructor at the discretion of the professor to supplement the textbook content. These supplementary materials will be provided as needed throughout the course.
+
+**Conclusion**
+
+This course offers a comprehensive exploration of social research methods, equipping students with the tools and knowledge necessary to conduct rigorous and impactful research. Through a combination of theoretical instruction and hands-on laboratory sessions, students will gain practical experience in designing studies, collecting data, and analyzing results. The course is structured to ensure that students achieve the outlined learning outcomes while developing critical thinking and problem-solving skills essential for their academic and professional pursuits.

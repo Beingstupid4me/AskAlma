@@ -1,0 +1,78 @@
+### Course Overview  
+**Course Code:** MTH517  
+**Course Name:** Combinatorial Optimization  
+**Credits:** 4  
+**Offered To:** Undergraduate and Postgraduate (UG+PG)  
+
+This course provides an in-depth exploration of combinatorial optimization, focusing on the study of algorithms and techniques for solving discrete optimization problems. The course emphasizes the application of polyhedral theory to model and solve real-world combinatorial problems efficiently. Students will gain a comprehensive understanding of fundamental concepts, advanced algorithms, and their applications across various domains.
+
+---
+
+### Prerequisites  
+- **Mandatory:** Completion of prerequisite courses in linear programming or convex optimization (e.g., MTH374/574).  
+- **Desirable:** Familiarity with algorithmic design and analysis.  
+- **Other:** Students are expected to have a strong foundation in discrete mathematics and basic optimization techniques.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Identify and apply basic algorithmic questions about convex sets to model combinatorial problems.  
+2. **CO2:** Apply polyhedral results and algorithms for flows, matchings, arborecences, etc., to model combinatorial problems.  
+3. **CO3:** Use the ellipsoid algorithm to solve combinatorial optimization problems with exponentially many constraints.  
+4. **CO4:** Identify and model problems using matroids and submodular functions, and apply algorithms for solving such problems.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|---------|---------------------------|
+| 1           | Background on Polyhedra, Linear Programming, Complementary Slackness   | CO1     | Assignment 1               |
+| 2           | Algorithmic problems on Convex Sets | CO1     | Assignment 1               |
+| 3-5         | The Ellipsoid Algorithm and Applications                                | CO3     | Assignment 2               |
+| 6           | Integer Programming: TUM, TDI, Cutting Planes, Lagrangean relaxation   | CO2     | Assignment 2               |
+| 7           | Spanning Trees and Arboresences: Polyhedral results and packing spanning trees | CO2     | Quiz 2                    |
+| 8           | Flows and Cuts: Goldberg-Tarjan, Gomory-Hu Trees, Min-cost flows        | CO2     | Quiz 2                    |
+| 9           | Matchings: Bipartite Matchings, Non-bipartite matching                  | CO2     | Assignment 3               |
+| 10-11       | b-matchings, T-joins, T-cuts                                              | CO2     | Assignment 4               |
+| 12-13       | Matroids: Duality, Intersection, Union, Partitioning                      | CO4     | Assignment 4, Quiz 2      |
+
+---
+
+### Assessment Plan  
+
+The course assessment is designed to evaluate both theoretical understanding and practical application of the concepts covered. The breakdown is as follows:  
+- **Assignments:** 10% (Includes problem-solving tasks and case studies)  
+- **Quizzes:** 20% (Weekly quizzes to assess understanding of key topics)  
+- **Mid Semester Exam:** 30% (Comprehensive exam covering the first half of the course)  
+- **End Semester Exam:** 40% (Final exam assessing overall understanding of the course material)  
+
+Additional evaluation methods may include participation in tutorials, group projects, or presentations, as needed.
+
+---
+
+### Learning Resources  
+
+The following resources will be used to support your learning:  
+1. **Textbooks:**  
+   - "Geometric Algorithms and Combinatorial Optimization" by M. Groetschel, L. Lovasz, and A. Schrijver.  
+   - "Combinatorial Optimization: Algorithms and Complexity" by K.orte and P. Vygen.  
+   - "Combinatorial Optimization" (3-Volumes) by A. Schrijver.  
+   - "Iterative Methods in Combinatorial Optimization" by R. Ravi, M. Singh, and Q. Lau.  
+   - "Combinatorial Optimization: Algorithms and Complexity" by Papadimitriou and Steiglitz.  
+
+2. **Other Appropriate Resources:**  
+   - Additional materials assigned by the instructor, including lecture notes, research papers, and online resources.
+
+---
+
+### Course Structure  
+
+This course is divided into weekly modules, each focusing on specific topics and learning outcomes. The first half of the course emphasizes foundational concepts and algorithms, while the latter half delves into advanced topics such as matroids, submodular functions, and their applications. Each week includes a combination of lectures, problem-solving sessions, and assignments to reinforce your understanding.
+
+---
+
+### Conclusion  
+
+This course provides a comprehensive exploration of combinatorial optimization, equipping you with the theoretical knowledge and practical skills to tackle complex discrete optimization problems. By the end of the course, you will be proficient in applying advanced algorithms and models to real-world scenarios, making you well-prepared for further studies or professional endeavors in this field.

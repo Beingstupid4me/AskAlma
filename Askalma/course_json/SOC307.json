@@ -1,0 +1,151 @@
+{
+  "Course Code": "SOC307",
+  "Course Name": "Digital Social Research",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "With the digital social data growing at an accelerated pace on an everyday basis, there is an urgent need for social researchers to decrypt, examine and interpret this unusually large-scale complex data fill. Doing this systemically will not only help in deciphering and understanding the social world we live in but will also help strategically combat the complex challenges of the contemporary social world. With a growing demand for such skills both in the academic and the commercial sectors, this course anchored in sociology and anthropology will provide the learners an objective view of social data issues viz. reliability, replicability, reproducibility, validity and generalizability of the data and the associated methods.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "Pre-requisite (Desirable)",
+    "Other": "Pre-requisite (Other)"
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to distinguish method and design, and apply research techniques specific to digital data collection and analysis.",
+    "CO2": "The students will be able to assess the significance of digital data for social research vis-\u00e0-vis conventional social research.",
+    "CO3": "The students will learn about the ethical issues related to digital social research and how to address them.",
+    "CO4": "The course will enable the students to develop research proposals that make appropriate use of the learnt methods."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction: Social Research and Digital Data",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Why Digital Social Research: Moving from Cyber to Digital?",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Doing Sociology with Digital Data",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Theoretical Overview of Digital Social Research",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Methodological Devices: Making Digital Social | Digital Social",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Formulating Research Questions",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Designing and Administering Online Research",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Collecting and Interpreting Digital Data",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Virtual Ethnography",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Ethical Implications of Digital Social Research",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Limitations of Digital Data Analysis",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Student Presentations and Digital Journal Review",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Summing up and Review",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quizzes": 20,
+    "Class Participation (Attendance)": 10,
+    "Assignments": 30,
+    "Mid Semester Exam": 20,
+    "End Semester Exam": 20
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": ""
+  }
+}

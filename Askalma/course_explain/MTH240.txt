@@ -1,0 +1,46 @@
+Course Overview  
+This course MTH240, named "Real Analysis I" provides an in-depth exploration of real analysis, single-variable calculus, and multivariable calculus with vector calculus concepts. It begins with the real number system, sequences, series, differentiation, integration, and extends to functions of several variables, including multiple integrals.
+
+**Course Outcomes (COs):**
+
+1. **CO1:** Students will understand the properties of the real number system, including supremum, infimum, completeness axiom, Archimedean property, and density.
+2. **CO2:** Students will apply differentiation and integration techniques to solve problems involving sequences and series.
+3. **CO3:** Students will analyze functions of several variables, evaluate integrals in multiple dimensions, and apply calculus principles to geometric problems.
+
+**Weekly Lecture Plan:**
+
+- **Week 1:** Real Number System (Lectures: 3)  
+  Topics include countable sets, supremum, infimum, completeness axiom, Archimedean property.
+  
+- **Weeks 2–4:** Sequences and Series of Real Numbers (Lectures: 9)  
+  Covers convergence/divergence, bounded sequences, Cauchy sequences, Bolzano-Weierstrass theorem, limit superior/inferior, alternating series.
+
+- **Weeks 5–9:** Single-variable Differential & Integral Calculus (Lectures: 15)  
+  Focuses on limits, continuity, differentiability, Mean Value Theorems, Taylor's theorem, Riemann integrals, improper integrals.
+
+- **Weeks 10–13:** Multivariable Differential and Integral Calculus (Lectures: 12)  
+  Topics include functions of several variables, partial derivatives, directional derivatives, maxima/minima, multiple integrals.
+
+**Assessment Strategy:**
+
+- **Quiz 1:** 10% (Weightage: 10%) - Covers foundational concepts from Weeks 1–3.
+- **Midsem Exam:** 20% (Weightage: 20%) - Focuses on material from Weeks 1–9.
+- **Endsem Examination:** 45% (Weightage: 45%) - Comprehensive assessment of the entire syllabus, emphasizing deeper conceptual understanding and application.
+- **Homeworks:** Best 10 out of 12 assignments contribute to 25% of the final grade.
+
+**Learning Resources:**
+
+1. **Textbook:** G. B. Thomas and R. L. Finney, Calculus, Pearson  
+   Offers comprehensive coverage from single-variable to multivariable calculus.
+   
+2. **Reference Books:**  
+   - R. Goldberg, Methods of Real Analysis, Oxford & Ibh  
+   - K. A. Ross, Elementary Analysis: The Theory of Calculus, Springer  
+   - Walter Rudin, Principles of Mathematical Analysis, McGraw-Hill  
+   - N. Piskunov, Differential and Integral Calculus, Volume I, CBS  
+   - James Stewart, Calculus, Brooks/Cole Cengage Learning  
+
+These resources provide additional depth and alternative explanations for complex topics.
+
+**Conclusion:**  
+This course is structured to build a strong foundation in real analysis and calculus, preparing students for advanced studies in mathematics, physics, engineering, and related fields. The combination of theoretical instruction and practical application ensures a well-rounded learning experience.

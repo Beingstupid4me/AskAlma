@@ -1,0 +1,52 @@
+### Course Overview  
+This course is designed to provide an in-depth understanding of parallel computing principles and their practical applications. The focus will be on harnessing the power of Graphics Processing Units (GPUs) using CUDA and OpenCL frameworks. Students will gain hands-on experience through lab exercises, case studies, and a final project that involves solving computationally intensive problems.
+
+#### Course Details  
+- **Course Code**: CSE560  
+- **Course Name**: GPU Computing  
+- **Credits**: 4  
+- **Offered To**: Undergraduate/Graduate students (UG/PG)  
+
+#### Course Description  
+This course introduces parallel computing paradigms with a focus on GPU programming to leverage the massive parallelism of modern GPUs. Students will learn about CUDA and OpenCL frameworks, along with their industry standards like GLSL. The curriculum is project-based, encouraging students to tackle scientific computational challenges using these tools.
+
+#### Prerequisites  
+- **Mandatory**: CSE101 Introduction to Programming, CSE102 Data Structures & Algorithms, and proficiency in C/C++ programming (students must have experience writing programs of reasonable length).  
+- **Desirable**: Familiarity with basic computer architecture concepts.  
+
+#### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. Understand parallel computing paradigms and GPU architecture.  
+2. Develop CUDA-based solutions for computationally intensive tasks.  
+3. Analyze algorithms and implement parallel solutions using CUDA and OpenCL.  
+4. Evaluate the performance of GPU-based implementations using appropriate benchmarks.
+
+#### Weekly Lecture Plan  
+The course is structured into 13 weeks, each focusing on specific topics:  
+
+| Week | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials | Platform (Hardware/Software) |
+|------|------------------------------------|------------------|----------------------------|------------------------------|
+| 1    | Introduction and overview         | CO1, CO2         | Weekly programming assignments | CUDA C                       |
+| 23   | Basics on architecture and programming: CPU/GPU architecture, Flynn’s taxonomy, SIMT execution model | CO1, CO2          | Weekly programming assignments | CUDA C                       |
+| 45   | Introduction to CUDA C            | CO2              | Weekly programming assignments | CUDA C                       |
+| 67   | Parallel programming paradigms: parallel algorithm design, analytical modelling of parallel programs, limits on achievable performance, Amdahl’s law, Gustafson’s law, scalability, work optimality, message passing, shared address space machines, basic communication operations, concurrency | CO1, CO3            | Weekly programming assignments | CUDA C                       |
+| 8-10 | Parallel computing using CUDA: data transfer and CUDA streams, performance considerations, floating-point accuracy, synchronisation, communication, reduction trees, parallel prefix sum, optimisations | CO1, CO2           | Weekly programming assignments | CUDA C                       |
+| 11-12| OpenMP, OpenACC, Multi-GPU systems, GPGPU-computing using OpenCL and OpenGL | CO4              | Weekly programming assignments | CUDA C                       |
+| 13   | Case studies                        | CO3              | Case study review             | CUDA C                       |
+
+#### Assessment Plan  
+The course assessment is divided as follows:  
+
+- **Mid-Semester Examination**: 15% (Theory component)  
+- **End-Semester Examination**: 30% (Theory component)  
+- **Project Evaluation**: 30%  
+- **Assignments**: 20%  
+- **Quiz**: 5%  
+
+The mid-sem examination will focus on theoretical concepts, while the end-sem examination will include both theoretical and practical aspects. The project evaluation will account for the quality of implementation, analysis, and presentation.
+
+#### Resource Materials  
+1. **Textbook**: David B. Kirk, and Wen-mei W. Hwu, *Programming Massively Parallel Processors: A Hands-On Approach*, Elsevier.  
+2. **Reference Book**: Anand J. Gopinath, et al., *NVIDIA CUDA Programming Guide*, NVIDIA Corporation.
+
+This course will equip students with the knowledge and skills to design and implement efficient GPU-based solutions for a wide range of computational challenges.

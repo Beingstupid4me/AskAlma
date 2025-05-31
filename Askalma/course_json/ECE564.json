@@ -1,0 +1,36 @@
+{
+  "Course Code": "CSE564",
+  "Course Name": "Reinforcement Learning",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "The course will introduce reinforcement learning. We will consider exact versions of value and policy iteration, followed by approximations based on gradient methods, temporal difference based methods, and last but not least, simulation based methods like Q-learning.",
+  "Prerequisites": {
+    "Mandatory": "MTH201 Probability & Statistics",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to implement and analyze exact dynamic programming (value and policy iteration) algorithms",
+    "CO2": "Students will be able to describe and implement approximations in value and policy space",
+    "CO3": "Students will be able to describe and implement approximations in value and policy space",
+    "CO4": "Students will be able to execute projects using commonly available RL libraries"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "25",
+    "Midsem": "25",
+    "HW assignments": "",
+    "Endsem": "25"
+  },
+  "Resource Material": {
+    "Textbook": "Reinforcement Learning: An introduction by Sutton and Barto",
+    "Reference Book": ""
+  }
+}

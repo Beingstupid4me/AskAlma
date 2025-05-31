@@ -1,0 +1,71 @@
+### Course Overview  
+**Course Code:** DES516s  
+**Course Name:** Introduction to 3D Animation  
+**Credits:** 2  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+**Course Description:** This course introduces students to the fundamentals of animation, focusing on both traditional and digital techniques. Students will learn about the basics of animation workflows, character modeling, and animation principles using Maya software. The course also covers advanced topics such as posing, movement, and technical aspects of animation.
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisites:** None specified.  
+**Desirable Prerequisites:** Basic understanding of computer graphics and familiarity with 3D modeling tools.  
+**Other Prerequisites:** Students are expected to have access to Maya software for assignments and projects.
+
+---
+
+### Learning Outcomes (Course Outcomes)  
+1. **CO1:** Understanding the basic workflow and animation principles.  
+2. **CO2:** Getting familiar with Maya tools for animation.  
+3. **CO3:** Implementing animation fundamentals and Maya techniques to create character animations.  
+
+---
+
+### Weekly Lecture Plan  
+| Week Number | Lecture Topic | COs Met | Assignments/Laboratory Exercises | Platform (Hardware/Software) |  
+|-------------|---------------|---------|----------------------------------|-----------------------------|  
+| 1           | Introduction to Animation Film Workflow, Language of Drawings and Posing in Maya | CO1     | Assignment: Understanding animation basics | Maya/Photoshop/Adobe Premier and After Effect |  
+| 2           | Introduction to Animation Basics and Principles, Language of Drawings and Posing in Maya | CO1, CO2 | Assignment: Practicing posing techniques | Maya/Photoshop/Adobe Premier and After Effect |  
+| 3           | Introduction to 3D Animation, Language of Drawings and Posing in Maya | CO1, CO2 | Assignment: Character animation basics | Maya/Photoshop/Adobe Premier and After Effect |  
+| 4           | Advance Body Mechanism Technical Part of Animation | CO1, CO2 | Assignment: Advanced posing exercises | Maya/Photoshop/Adobe Premier and After Effect |  
+| 5           | Technical Part of Animation | CO1, CO2, CO3 | Project Demonstration | Maya/Photoshop/Adobe Premier and After Effect |  
+| 6           | Project Demos | CO2, CO3 | Assignment: Final project preparation | Maya/Photoshop/Adobe Premier and After Effect |  
+
+---
+
+### Weekly Lab Plan  
+| Week Number | Laboratory Exercise | COs Met | Platform (Hardware/Software) |  
+|-------------|----------------------|---------|-----------------------------|  
+| 1           | Introduction to Animation Film Workflow | CO1     | Maya/Photoshop/Adobe Premier and After Effect |  
+| 2           | Language of Drawings and Posing in Maya | CO1, CO2 | Maya/Photoshop/Adobe Premier and After Effect |  
+| 3           | Introduction to Animation Basics and Principles | CO1, CO2 | Maya/Photoshop/Adobe Premier and After Effect |  
+| 4           | Introduction to 3D Animation | CO1, CO2 | Maya/Photoshop/Adobe Premier and After Effect |  
+| 5           | Advance Body Mechanism Technical Part of Animation | CO1, CO2, CO3 | Maya/Photoshop/Adobe Premier and After Effect |  
+| 6           | Technical Part of Animation | CO2, CO3 | Maya/Photoshop/Adobe Premier and After Effect |  
+
+---
+
+### Assessment Plan  
+| Type of Evaluation | % Contribution in Grade |  
+|---------------------|-------------------------|  
+| Class Participation | 10%                    |  
+| Assignment         | 40%                    | Character Posing/Idle/Walk Cycle/Combate Action |  
+| Class Test        | 20%                    | Character Posing/Idle/Walk Cycle/Combate Action |  
+| Project           | 30%                    | Deliverables: A final project consisting of building an animation story based on all animation techniques taught in the class |  
+
+---
+
+### Resource Materials  
+| Type | Title |  
+|------|-------|  
+| Textbook | The Animator's Survival Kit (DVD) |  
+| Textbook | Mastering MAYA 2017-18 |  
+| Textbook | The Illusion of Life |  
+| Textbook | Animation from Pencils to Pixels |  
+| Textbook | The Animator’s Workbook |  
+| Textbook | Cartoon Character Animation with Maya |  
+| Textbook | Beginner’s guide to Sketching |  
+
+--- 
+
+This narrative provides a comprehensive and detailed overview of the course, incorporating all the provided data points while maintaining a logical flow and structure.

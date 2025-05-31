@@ -1,0 +1,61 @@
+**Course Overview: Basic Electronics**
+
+**Course Code**: ECE113  
+**Course Name**: Basic Electronics  
+**Credits**: 4  
+**Offered To**: Undergraduate (UG) students  
+
+---
+
+### **Course Description**
+This course introduces the foundational concepts of electrical circuits, focusing on circuit elements such as resistors, capacitors, and inductors. It covers essential topics including Kirchhoff’s laws, network theorems, transient responses, steady-state analysis, operational amplifiers, and diode-based circuits. The curriculum is designed to provide a comprehensive understanding of both theoretical principles and practical applications.
+
+### **Prerequisites**
+- **Mandatory**: None specified.
+- **Desirable**: Basic high school physics knowledge for a smooth learning experience.
+
+### **Learning Outcomes (COs)**
+By the end of this course, students will be able to:
+1. Describe ideal circuit elements and their non-ideal behaviors.
+2. Explain and apply Kirchhoff’s Laws and Network Theorems in problem-solving.
+3. Analyze RC, RL, and RLC circuits under various conditions (transient and steady-state).
+4. Classify and implement operational amplifier configurations.
+5. Understand diode operation and design basic rectifier and filter circuits.
+
+### **Weekly Lecture Plan**
+
+| Week Number | Lecture Topic                     | COs Met       | Assignments/Labs/Tutorials |
+|-------------|----------------------------------|---------------|---------------------------|
+| 1           | Basic components of Electrical Circuits: Fundamental Electrical variables – charge, current, voltage and power; independent and dependent voltage and current sources, Ideal circuit elements – Resistor, Capacitor and Inductor. Constitutional relationship – Ohms Law; | CO1          | Lab experiments on use of oscilloscope |
+| 2           | Basic concepts of Analysis of Resistive Networks: Nodes, Paths and Loops, Kirchoff’s Voltage and Current Laws, Series and Parallel connection of Resistances and division voltage and current. Loop and Node Analysis. | CO1, CO2     | Lab experiments on use of oscilloscope |
+| 3           | Network Theorems: Thevenin’s Theorem, Norton’s Theorem | CO2          | Experiments and assignment problems in Kirchoff’s Laws and Loop and Node Analysis. |
+| 4           | Superposition Theorem and Maximum Power Transfer Theorem. | CO2          | Assignments on Network Theorems and Applications |
+| 5           | RC and RL circuits’ response to Step and Direct input | CO3          | Assignments and experiments on Network Theorems and Applications. |
+| 6           | RLC circuits’ response to Step and Direct input | CO3          | Asignments and experiments on RL, RC circuits. |
+| 7           | Concepts of impedance/admittance, Phasors and Representation | CO3          | Asignments and experiments on RLC circuits. |
+| 8           | RC, RL and RLC circuits’ response to Alternating inputs (the response to alternating input will be handled only under steady state condition) | CO3          | Assignments and experiments on RLC circuits | 
+| 9           | Operational Amplifier – Inverting configuration | CO4          | Assignments and experiments on the use of Operational Amplifier |
+| 10          | Operational Amplifier – Non-Inverting, Integrating and Differentiating configuration (explain virtual ground concept in the process and introduce the term feedback) | CO4          | Assignments and experiments on the use of Operational Amplifiers |
+| 11          | Diodes: Basic principle, Clipper, Clamper circuits and application | CO5          | Assignments and experiments on clipper, clamper circuits |
+| 12          | LED, Zener Diode and Solar Cell | CO5          | Assignments and Experiments on Diode applications |
+| 13          | Half Wave and Full Wave Rectifiers – Wave form and Ripple & its reduction. (8) | CO5          | Assignments and Experiments on Diode Rectifiers and filters |
+
+### **Assessment Plan**
+
+| Type of Evaluation        | % Contribution in Grade | Week(s)       |
+|---------------------------|-------------------------|---------------|
+| Assignments                 | 15%                    | Throughout the semester |
+| Class tests                | 15%                    | Weeks 3,7,9,10,11,12 |
+| Laboratory                 | 20%                    | Week 8        |
+| Mid Sem                   | 20%                    | Week 14       |
+| End Sem                   | 30%                    | Week 15       |
+
+### **Resource Material**
+
+| Type | Title                                      | Book          |
+|------|--------------------------------------------|---------------|
+| Book  | Engineering Circuit analysis, William H. Hayt Jr., Jack E. Kemmerly and Steven M. Durbin, 8th Edition, Tata McGraw Hill. | Engineering Circuit analysis, William H. Hayt Jr., Jack E. Kemmerly and Steven M. Durbin, 8th Edition, Tata McGraw Hill. |
+| Book  | Circuits Devices and Systems, Ralph J. Smith and Richard C. Dorf, 5th Edition, John Wiley and Sons. | Circuits Devices and Systems, Ralph J. Smith and Richard C. Dorf, 5th Edition, John Wiley and Sons. |
+
+---
+

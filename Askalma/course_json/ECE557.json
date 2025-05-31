@@ -1,0 +1,130 @@
+{
+  "Course Code": "ECE557",
+  "Course Name": "Speech Recognition and Understanding",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an introductory course on Speech Recognition and Understanding offered to undergraduate and graduate students. The goal is to develop understanding of traditional as well as contemporary speech processing techniques and enable students to develop applications using existing tools. Students will be given theory and programming assignments targeted towards solving real-world speech recognition problems. Groups of two or three will do a course project and show a demonstration at the end of the semester.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Signals & Systems",
+      "Machine Learning/Statistical Machine Learning (co-requisite)"
+    ],
+    "Desirable": [
+      "Digital Signal Processing",
+      "Python/Matlab programming"
+    ],
+    "Other": [
+      "Language Models N-Gram"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Describe fundamentals of speech production, distinguish between speaker dependent and independent components of speech and develop appropriate representations.",
+    "CO2": "Model recognition problems using traditional (HMM+GMM) and advanced techniques (DNN) for automatic speech recognition (ASR).",
+    "CO3": "Integrate language models with speech recognizers to develop specific and generic speech recognition applications.",
+    "CO4": "Build Speech and Speaker Recognition Systems"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to speech processing",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW-0 (ungraded - review)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Speech production fundamentals",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Filter Banks, Spectrograms, Cepstrum and the Mel Scale",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "MFCC feature representations of Speech",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW-1 (MFCC from scratch)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "GMM based acoustic modeling",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Fundamentals of Speech Recogntion",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Hidden Markov Models for ASR",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "(Quiz 1), HW-2 (DTW/HMM based Recognition)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Language Models N-Gram",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "HW-3"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Deep Learning Models for ASR",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "End-to-End Speech Recognition",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Speaker Recognition",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "HW-4"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 20,
+    "Midsem": 20,
+    "HW assignments": 40,
+    "Endsem": 20
+  },
+  "Resource Material": {
+    "Textbook": "Rabiner and Schafer, \"Digital Processing of Speech Signals\"",
+    "Reference Book": "Jurafsky, Martin, \"Speech and Language Processing\""
+  }
+}

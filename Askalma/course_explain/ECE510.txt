@@ -1,0 +1,62 @@
+### Course Overview  
+**Course Code:** ECE510  
+**Course Name:** Digital Hardware Design (DHD)  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+
+This course provides an in-depth understanding of Field Programmable Gate Arrays (FPGAs) and their applications in digital system design. FPGAs are highlighted for their distributed and parallel architecture, which allows complete control over arithmetic operations and complex logic designs. The course combines theoretical concepts with practical labs to reinforce learning outcomes.
+
+---
+
+### Prerequisites  
+**Mandatory Pre-requisite:** ECE270 Embedded Logic Design  
+**Desirable Pre-requisite:** None specified  
+
+Students are expected to have a foundational understanding of digital logic design, as provided in ECE270. This course builds upon that knowledge to explore advanced FPGA-based implementations.
+
+---
+
+### Learning Outcomes (COs)  
+1. **CO1:** Students will be able to design and implement sequential and combinational logic on FPGA devices using hardware description languages like Verilog.  
+2. **CO2:** Students will master the design and implementation of algorithms using hardware-level synthesis tools (HLS).  
+3. **CO3:** Students will understand how to integrate FPGA switches, VGA interfaces, memory units, and embedded hardware components into complex systems.  
+4. **CO4:** Students will be proficient in designing new hardware Intellectual Property (IP) blocks with appropriate AXI interfaces for scalable architectures.  
+5. **CO5:** Students will gain hands-on experience in testing and troubleshooting FPGA-based designs using simulation tools.  
+6. **CO6:** Students will develop the ability to analyze and optimize digital systems for performance, power consumption, and resource utilization.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic (Theory)                     | Lab Topic                          | COs Met          | Assignments/Labs/Tutorials |
+|-------------|------------------------------------------|------------------------------------|-------------------|----------------------------|
+| 1-3         | FPGA Architecture (CLB, BRAM, DSP48)      | Combinational logic design, Synchronous and asynchronous logic design, Arithmetic circuits | CO1, CO3          | Lab + Homework: Verilog code for comparators, decoders/encoders, ALU, counters, pulse-width modulation, Fibonacci sequence |
+| 4           | FPGA Architecture (Clock control)         | IP blocks, Finite State Machines    | CO1, CO3          | Lab + Homework: Door lock code, traffic lights, sequence detectors |
+| 5-6         | AXI Protocol                              | VGA-based game design               | CO1, CO2, CO3     | Lab + Homework: VGA stripes, screen saver, video game simulation |
+| 7-9         | HLS Design flow                          | Algorithms to architecture          | CO2, CO3          | Lab + Homework: Algorithm-to-architecture conversion |
+| 10-13       | Ultrascale Architecture                  | HLS Design Flow                     | CO2, CO3          | Lab + Homework: HLS design flow implementation |
+
+---
+
+### Assessment Strategy  
+
+The course is assessed through a combination of quizzes, assignments, mid-term, and end-term examinations. Each component contributes to the final grade as follows:  
+- **Quiz:** 20% (Evaluates understanding of weekly concepts)  
+- **Assignment/Lab:** 20% (Assesses practical implementation skills)  
+- **Mid-Semester Exam:** 25% (Comprehensive evaluation of first half of the course)  
+- **End-Semester Exam:** 35% (In-depth assessment of overall learning outcomes)  
+
+The end-semester examination carries a significant weight, reflecting its importance in evaluating students' mastery of FPGA-based digital system design.
+
+---
+
+### Learning Resources  
+
+1. **Textbook:**  
+   - "Digital Design and Computer Architecture" by D. Harris and S. Harris, Morgan Kauffmann, 2012.  
+   - "Learning by Doing: Digital Signal Processing with Field Programmable Gate Arrays" by Uwe Meyer-Baese, Springer, 2007.  
+
+2. **Internet Resource:**  
+   - Verilog tutorials available at [asic-world.com/verilog](http://www.asic- world.com/verilog/veritut.html).  
+
+These resources provide a solid foundation for understanding FPGA architecture and digital design principles.

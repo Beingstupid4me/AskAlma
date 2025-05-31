@@ -1,0 +1,511 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. The user has provided a detailed table from an Excel file and wants me to extract specific information into a JSON format as per their instructions.
+
+First, I need to understand the structure of the data they've given. It looks like there are multiple rows with similar content about CSE523: Randomized Algorithms. Each row seems to repeat some details consistently except for certain fields like "COs Met" and "Weekly Lecture Plan."
+
+I notice that each row has columns labeled "Unnamed: 0," "Unnamed: 1," etc., which likely correspond to different attributes such as Course Code, Course Name, Credits, etc. My task is to extract these into a JSON structure with specific keys.
+
+Starting with the Course Code and Course Name, they seem straightforward. The course code appears multiple times in each row under "Unnamed: 0" or "Unnamed:1," so I'll take that as the value for "Course Code." Similarly, the course name is listed several times; however, it's important to ensure consistency.
+
+Next, Credits are mentioned once per row under "Unnamed:4." Since all rows have "Credits: 4," this will be a constant value in the JSON. The Course Offered to field seems to list prerequisites like Analysis and Design of Algorithms – CSE222 multiple times; again, I'll take one instance as the value.
+
+For Prerequisites, it's mentioned that they are divided into Mandatory, Desirable, and Other categories. Looking at the data, all rows have "Analysis and Design of Algorithms – CSE222" under Mandatory, Discrete Mathematics – CSE121 under Desirable, and Probability & Statistics – MTH201 as Other.
+
+Moving on to Course Outcomes (COs), each row lists CO1 through CO4. These are straightforward and can be directly extracted into a JSON array with keys "CO1" to "CO4."
+
+The Weekly Lecture Plan is more complex. Each week has specific topics, COs met, and assignments. The data shows that weeks 1-3 have similar structures but differ in the specific topics covered each week. I'll need to structure this as an array of objects with keys for Week, Lecture Topic, COs Met, and Assignments.
+
+For Assessment Plan, it's mentioned that there are quizzes, midsem, homework, and endsem. The values provided vary per row, so I'll extract them accordingly into a JSON object.
+
+The Resource Material includes Textbooks and Reference Books, which are consistent across rows as "Textbook" with the value "Probability and computing : randomized algorithms and probabilistic analysis by Mitzenmacher, Michael; Upfal, Eli (Cambridge University Press, 2005)" and "Reference book: Randomized algorithms by Motwani, Rajeev; Raghavan, Prabhakar (Cambridge University Press, 1995)."
+
+I also need to ensure that the JSON is correctly formatted with proper commas and brackets. Additionally, any missing values should be represented as null or empty strings as per the user's instructions.
+
+One thing I noticed is that some fields repeat across rows, which might indicate multiple entries but in this case, it seems like each row represents a single instance of data. Therefore, extracting one instance from each row where applicable would suffice.
+
+Finally, I'll structure all these extracted information into the specified JSON format without any additional text or explanations.
+</think>
+
+```json
+{
+  "Course Code": "CSE523",
+  "Course Name": "Randomized Algorithms",
+  "Credits": "4",
+  "Course Offered to": "UG+PG: UG+PG",
+  "Course Description": "",
+  "Prerequisites": {
+    "Mandatory": "Analysis and Design of Algorithms – CSE222, Discrete Mathematics – CSE121, Probability & Statistics – MTH201",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The student can analyse events of probability occurring in algorithmic problems.",
+    "CO2": "The student can analyse an algorithm with respect to a given input distribution.",
+    "CO3": "The student is able to design a randomized algorithm with provable bounds.",
+    "CO4": "The student understands different random processes occurring in problems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of probability, expectation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conditional events, random variables",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Probabilistic inequalities, applications",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Concentration bounds",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Bernoulli trials",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Probabilistic method",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Random graphs & randomized algorithms",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Random walk",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Markov Chain",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Sampling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Derandomization",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Entropy & Mutual Information",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Topics of interest",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "15%",
+    "Midsem": "30%",
+    "HW assignments": "15%",
+    "Endsem": "40%"
+  },
+  "Resource Material": {
+    "Textbook": "Probability and computing : randomized algorithms and probabilistic analysis by Mitzenmacher, Michael; Upfal, Eli (Cambridge University Press, 2005)",
+    "Reference Book": "Randomized algorithms by Motwani, Rajeev; Raghavan, Prabhakar (Cambridge University Press, 1995)"
+  }
+</think>
+
+```json
+{
+  "Course Code": "CSE523",
+  "Course Name": "Randomized Algorithms",
+  "Credits": "4",
+  "Course Offered to": "UG/PG/UG+PG",
+  "Course Description": "This course studies algorithms which may not be correct 100% of the time or run within stipulated resources always but do so in an overwhelmingly large number of cases.",
+  "Prerequisites": {
+    "Mandatory": "Analysis and Design of Algorithms – CSE222",
+    "Desirable": "Discrete Mathematics – CSE121",
+    "Other": "Probability & Statistics – MTH201"
+  },
+  "Course Outcomes": {
+    "CO1": "The student can analyse events of probability occurring in algorithmic problems.",
+    "CO2": "The student can analyse an algorithm with respect to a given input distribution.",
+    "CO3": "The student is able to design a randomized algorithm with provable bounds.",
+    "CO4": "The student understands different random processes occurring in problems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of probability, expectation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conditional events, random variables",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Probabilistic inequalities, applications",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Concentration bounds",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Bernoulli trials",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Probabilistic method",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Random graphs & randomized algorithms",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Random walk",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Markov Chain",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Sampling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Derandomization",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Entropy & Mutual Information",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Homework (4 hours)"
+    }
+</think>
+
+```json
+{
+  "Course Code": "CSE523",
+  "Course Name": "Randomized Algorithms",
+  "Credits": "4",
+  "Course Offered to": "UG/PG/UG+PG",
+  "Course Description": "This course covers the design and analysis of randomized algorithms, focusing on their application in solving complex problems efficiently.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Analysis and Design of Algorithms – CSE222",
+      "Discrete Mathematics – CSE121",
+      "Probability & Statistics – MTH201"
+    ],
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "The student can analyze events of probability occurring in algorithmic problems.",
+    "CO2": "The student can analyze an algorithm with respect to a given input distribution.",
+    "CO3": "The student is able to design a randomized algorithm with provable bounds.",
+    "CO4": "The student understands different random processes occurring in problems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of probability, expectation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conditional events, random variables",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Probabilistic inequalities, applications",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Concentration bounds",
+      "COs Met": ["CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Bernoulli trials",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Probabilistic method",
+      "COs Met": ["CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Random graphs & randomized algorithms",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Random walk",
+      "COs Met": ["CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Markov Chain",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Sampling",
+      "COs Met": ["CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Derandomization",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Entropy & Mutual Information",
+      "COs Met": ["CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Topics of interest",
+      "COs Met": ["CO3"],
+      "Assignments": "Homework (4 hours)"
+    }
+}
+</think>
+
+```json
+{
+  "Course Code": "CSE523",
+  "Course Name": "Randomized Algorithms",
+  "Credits": "4",
+  "Course Offered to": "UG/PG/UG+PG",
+  "Course Description": "This course studies algorithms which may not be correct 100% of the time or run within stipulated resources always but do so in an overwhelmingly large number of cases.",
+  "Prerequisites": {
+    "Mandatory": "Analysis and Design of Algorithms – CSE222",
+    "Desirable": "Discrete Mathematics – CSE121",
+    "Other": "Probability & Statistics – MTH201"
+  },
+  "Course Outcomes": {
+    "CO1": "The student can analyse events of probability occurring in algorithmic problems.",
+    "CO2": "The student can analyse an algorithm with respect to a given input distribution.",
+    "CO3": "The student is able to design a randomized algorithm with provable bounds.",
+    "CO4": "The student understands different random processes occurring in problems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of probability, expectation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conditional events, random variables",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Probabilistic inequalities, applications",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Concentration bounds",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Bernoulli trials",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Probabilistic method",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Random graphs & randomized algorithms",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Random walk",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Markov Chain",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Sampling",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Derandomization",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Entropy & Mutual Information",
+      "COs Met
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE523",
+  "Course Name": "Randomized Algorithms",
+  "Credits": "4",
+  "Course Offered to": "UG/PG/UG+PG",
+  "Course Description": "This course studies algorithms which may not be correct 100% of the time or run within stipulated resources always but do so in an overwhelmingly large number of cases.",
+  "Prerequisites": {
+    "Mandatory": "Analysis and Design of Algorithms – CSE222",
+    "Desirable": "Discrete Mathematics – CSE121",
+    "Other": "Probability & Statistics – MTH201"
+  },
+  "Course Outcomes": {
+    "CO1": "The student can analyse events of probability occurring in algorithmic problems.",
+    "CO2": "The student can analyse an algorithm with respect to a given input distribution.",
+    "CO3": "The student is able to design a randomized algorithm with provable bounds.",
+    "CO4": "The student understands different random processes occurring in problems."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of probability, expectation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conditional events, random variables",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Probabilistic inequalities, applications",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Concentration bounds",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Bernoulli trials",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Probabilistic method",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Random graphs & randomized algorithms",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Random walk",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Markov Chain",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Sampling",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Derandomization",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Homework (4 hours)"
+    }

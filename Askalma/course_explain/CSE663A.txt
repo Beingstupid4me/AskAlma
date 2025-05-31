@@ -1,0 +1,56 @@
+### Course Overview  
+**Course Code:** CSE663A  
+**Course Name:** Meta-Learning  
+**Credits:** 2  
+**Offered To:** M.Tech, B.Tech 4th year, and PhD (CS).  
+**Description:** Meta-Learning refers to the problem of developing machine learning/deep learning models that can adapt to new tasks/domains/environments with minimal retraining or without significant loss of performance. This course will focus on understanding the core concepts of meta-learning, its applications in industry, and its connections to broader AI research goals such as continual learning and robust generalization.  
+
+### Prerequisites  
+- **Mandatory:** AI, Machine Learning, or Deep Learning  
+- **Desirable:** Familiarity with basic machine learning concepts and programming experience  
+- **Other:** None specified  
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. Discuss the basic concepts of meta-learning and its applications in few-shot classification.  
+2. Explain the core challenges in out-of-distribution generalization and causality in machine learning, and how meta-learning addresses these challenges.  
+3. Understand and apply logical inductive biases via meta-interpretive learning to achieve certain goals of meta-learning.  
+4. Apply meta-learning techniques to practical problems in e-commerce, advertising, and finance.  
+
+### Weekly Lecture Plan  
+The course is divided into weekly modules, each focusing on specific topics and outcomes:  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|------------------|----------------------------|
+| 12          | Refresher of Deep Learning       | CO1               | None                        |
+| 23          | Basics of Meta-Learning: Metric/Model/Optimisation-based | CO1              | None                        |
+| 4           | Meta-Learning for Transfer, Concept-drift, Continual learning and Reinforcement Learning | CO2              | None                        |
+| 5           | Learning from almost No Data: Meta-interpretive Program Synthesis | CO3              | None                        |
+| 6           | Selected applications of Meta-learning in E-commerce, Advertising and Finance | CO4              | None                        |
+| 7           | Causality, Disentangled Representations and Causal Reinforcement Learning | CO2              | None                        |
+
+### Weekly Lab Plan  
+The lab sessions will complement the theoretical concepts covered in lectures:  
+
+| Week Number | Laboratory Exercise               | COs Met          | Platform (Hardware/Software) |
+|-------------|-----------------------------------|------------------|----------------------------|
+| 12          | Deep Learning Refresher Lab       | CO1               | Python, TensorFlow           |
+| 23          | Introduction to Meta-Learning    | CO1               | Python, PyTorch             |
+| 4           | Meta-Learning Techniques Lab     | CO2               | Python, Scikit-learn       |
+| 5           | Meta-Interpretive Learning Lab   | CO3               | Python, TensorFlow          |
+| 6           | Meta-Learning Applications Lab   | CO4               | Python, Keras              |
+| 7           | Causality and Representation Learning Lab | CO2             | Python, PyTorch            |
+
+### Assessment Plan  
+The course will be evaluated through a combination of exams and vivas:  
+
+| Type of Evaluation | % Contribution in Grade |
+|--------------------|------------------------|
+| Exam                | 50%                   |
+| Viva               | 50%                   |
+
+### Resource Materials  
+Students are recommended to refer to the following materials for additional learning:  
+- **Lectures and Paper Reading:** Slides, lecture notes, and research papers will be provided.  
+
+This course provides a comprehensive understanding of meta-learning, its applications, and its connections to broader AI research goals. Students are encouraged to engage with the material actively and participate in discussions to enhance their learning experience.

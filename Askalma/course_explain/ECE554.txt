@@ -1,0 +1,48 @@
+**Course Overview**:  
+ECE 554: Compressed Sensing is a senior-level course focusing on the fundamentals of Compressed Sensing (CS), its applications in signal processing, machine learning, and computer vision. The course aims to equip students with the ability to model physical problems using CS principles, implement algorithms in practical applications, understand research papers, and work on advanced projects.
+
+**Prerequisites**:  
+The prerequisite for this course is MTH100: Mathematics I. Additional prerequisites or other requirements can be inserted if needed.
+
+**Learning Outcomes**:  
+By the end of this course, students will be able to:  
+- **CO1**: Model physical problems (related to Compressed Sensing) using appropriate mathematical frameworks.  
+- **CO2**: Implement Compressed Sensing algorithms in various applications and understand their limitations.  
+- **CO3**: Understand and critically analyze current research papers published in top-tier journals and conferences related to Compressed Sensing.  
+- **CO4**: Advanced project work in this area, demonstrating the ability to apply theoretical knowledge to real-world problems.  
+- **CO5**: Present solutions and findings effectively, both in written and oral formats.
+
+**Weekly Lecture Plan**:  
+The course is divided into 13 weeks, each focusing on specific topics such as functional analysis, algorithms, applications, and projects. Each week includes a mix of lectures, tutorials, and lab exercises to reinforce learning.
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials | Platform (Hardware/Software) |
+|-------------|-----------------------------------|------------------|-----------------------------|------------------------------|
+| Week 1      | Some Fundamentals of Functional Analysis & Linear Inverse Problems | CO1, CO2         | Quiz#1: Linear Inverse Problems | Online platform                |
+| Week 2      | Compressed Sensing: Theory & Workshop on Linear Algebra Tools       | CO1, CO2         | Quiz#1: Linear Inverse Problems | Online platform                |
+| Week 3      | Compressed Sensing Algorithms - Optimization                         | CO1, CO2         | Lab Exercise: Optimization Algorithms | MATLAB                       |
+| Week 4      | Compressed Sensing Algorithms - Greedy                                  | CO1, CO2         | Quiz#2: Algorithms             | Online platform                |
+| Week 5      | Applications - Machine Learning & Signal Processing                 | CO1, CO2         | Lab Exercise: Applications     | Python                        |
+| Week 6      | Structured Sparsity                                                      | CO1, CO2         | Quiz#3: Application            | Online platform                |
+| Week 7      | Low-rank Matrix Recovery - Theory and Applications                     | CO1, CO2         | Lab Exercise: Matrix Completion | MATLAB                       |
+| Week 8      | Low-rank Matrix Recovery - Algorithms (Factorization and Completion) | CO1, CO2        | Quiz#4: Matrix Completion     | Online platform                |
+| Week 9      | Dictionary Learning Algorithms & Applications in Inverse Problems    | CO1, CO2         | Lab Exercise: Dictionary Learning | Python                        |
+| Week 10     | Supervised Dictionary Learning                                         | CO1, CO2         | Quiz#5: Dictionary Learning | Online platform                |
+| Week 11     | Transform Learning | CO1, CO2         | Lab Exercise: Transform Learning | MATLAB                       |
+| Week 12     | Student Paper Presentations | C03              | -                            | -                            |
+| Week 13     | Student Project Presentations | C03, C04        | Quiz#6: Transform Learning    | -                            |
+
+**Assessment Plan**:  
+The course is assessed through quizzes, mid-semester examination, end-semester examination, and a project. The end-semester examination carries a significant weight of X%, reflecting its importance in evaluating overall understanding.
+
+| Type of Evaluation | % Contribution in Grade |
+|---------------------|------------------------|
+| Quiz                | 40                     |
+| Mid-sem            | 10                     |
+| End-sem             | 10                     |
+| Project             | 40                     |
+
+**Resource Materials**:  
+- **Textbook**: ECE 554: Compressed Sensing  
+- **Reference Book**: Sparse and redundant representation - Michael Elad  
+
+This structured narrative provides a comprehensive overview of the course, covering all essential components such as prerequisites, learning outcomes, weekly syllabus, assessment plan, and resource materials.

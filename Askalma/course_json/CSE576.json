@@ -1,0 +1,86 @@
+{
+  "Course Code": "CSE576",
+  "Course Name": "Smart Sensing for Internet of Things (IoT)",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will introduce students to sensors and sensing systems that are in the 'real-world' and are increasingly connected to the internet and are accessible via web technologies. The objective of the course is to understand IoT sensing systems, protocols and technologies. An integral part of the course will be a IoT project that the students will have to design, build and demonstrate. The \ufb01nal project will span the full research cycle - from problem formulation to obtaining & analyzing results to paper writing. Speci\ufb01cally, the course aims to provide students with a comprehensive introduction to this area, a training in sensing mechanisms, protocols for such devices, as well as an in-depth understanding of networking mechanisms. The course will enable students to understand deployment and con\ufb01guration of these sensors in the real world with a focus on energy ef\ufb01ciency, challenging deployment conditions, routing and data-gathering. A substantial emphasis will be placed on software implementation. All students are expected to learn (largely on their own) how to program (hardware) and run simulations. Students are required to complete a group project as part of this course. This course also aims to train students in the craft of academic research. For this end the students will be asked to critique several papers on IoT. By the end of the course, students are expected to be able to read research papers in a critical and analytical manner.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisites"
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to explain the fundamental concepts of IoT and its applications.",
+    "CO2": "Students will demonstrate knowledge of various wireless communication standards and their relevance to IoT.",
+    "CO3": "Students will design and implement low-power sensor systems for real-world IoT applications.",
+    "CO4": null
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Introduction to IoT, RF and Wireless Technology Overview, Communication channels and techniques, Wireless technology overview and standards, WiFi and cellular: next generation and IoT, Sensors and Sensing Systems",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "None specified"
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Estimation Theory, Low Power Sensors and Sensing",
+      "COs Met": null,
+      "Assignments": "None specified"
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Hardware Platforms & SW Architecture, SW and HW: platforms and development, Device architecture, Embedded software development",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "None specified"
+    },
+    {
+      "Week": "7-8",
+      "Lecture Topic": "Introduction to Contiki OS, Time Synchronization, Localization and Mobility",
+      "COs Met": null,
+      "Assignments": "None specified"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Low Power Networking Protocols, 6LowPAN",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "None specified"
+    },
+    {
+      "Week": "10-11",
+      "Lecture Topic": "Security and Privacy, Cloud computing and data analytics, Energy harvesting",
+      "COs Met": null,
+      "Assignments": "None specified"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Recent research results in IoT, Challenges: business models, monetization, hype",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "None specified"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Projects in Infrastructure, Homes, Healthcare, Project presentations",
+      "COs Met": null,
+      "Assignments": "None specified"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 15,
+    "Midsem": 20,
+    "HW assignments": 25,
+    "Endsem": 20
+  },
+  "Resource Material": {
+    "Textbook": "Sensors on the Move",
+    "Reference Book": "IoT and Big Data"
+  }
+}

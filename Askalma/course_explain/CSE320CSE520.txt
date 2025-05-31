@@ -1,0 +1,85 @@
+### Course Overview
+
+**Course Code:** CSE320/CSE520  
+**Course Name:** Advanced Algorithms  
+**Credits:** 4  
+
+This graduate-level course is designed to provide an in-depth exploration of advanced algorithmic techniques. The curriculum focuses on both theoretical foundations and practical applications, with a significant emphasis on developing skills in algorithm design, analysis, and optimization. Students are expected to engage with complex topics such as string matching, polynomial algorithms, numerical methods, primality testing, flow networks, and linear programming. Additionally, the course includes an optional graduate project that requires students to write a survey paper.
+
+---
+
+### Prerequisites
+
+**Mandatory Prerequisites:**  
+- CSE102: Advanced Data Structures and Algorithms  
+
+**Desirable Prerequisites:** None specified.  
+
+Students are expected to have a strong foundation in basic algorithms and data structures, as well as proficiency in mathematical proofs and problem-solving techniques.
+
+---
+
+### Learning Outcomes (COs)
+
+By the end of this course, students will be able to:  
+- **CO1:** Understand higher-level theoretical concepts used in computer science.  
+- **CO2:** Develop skills in analyzing and mathematically proving algorithmic facts.  
+- **CO3 (Graduate version):** Be able to appreciate and understand theoretical sections of research papers.
+
+---
+
+### Weekly Lecture Plan
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |
+|-------------|----------------------------------|-------------------|----------------------------|
+| 1           | String matching – Introduction, Rabin Karp, KMP              | CO1, CO2         | N/A                         |
+| 2           | Polynomials – representation, DFT, FFT                      | CO3, CO4         | N/A                         |
+| 3           | Numerical algorithms – GCD, Euclidean alg., Extended Euclid | CO5, CO6         | N/A                         |
+| 4           | Numerical algorithms – Chinese remainder th., Euler’s th., Fermat’s th., RSA, Diffie-Hellman | CO7, CO8        | N/A                         |
+| 5           | Primality testing                                                   | CO9             | N/A                         |
+| 6           | Overflow week OR Integer factorization, AKS polytime primality algorithm | CO10          | N/A                         |
+| 7           | Linear programming – intro, slack form, normal form            | CO11            | N/A                         |
+| 8           | Linear programming – Simplex algo                              | CO12            | N/A                         |
+| 9           | Linear programming – duality, fundamental theorem               | CO13            | N/A                         |
+| 10          | Flow networks – max flow min cut                               | CO14            | N/A                         |
+| 11          | Flow networks – max flow min cut algorithms                   | CO15            | N/A                         |
+| 12          | Bipartite matching and maximum bipartite matching             | CO16            | N/A                         |
+
+---
+
+### Weekly Lab Plan
+
+| Week Number | Laboratory Exercise               | COs Met           | Platform (Hardware/Software) |
+|-------------|----------------------------------|-------------------|----------------------------|
+| 1           | N/A                              | N/A               | N/A                         |
+| 2           | N/A                              | N/A               | N/A                         |
+| 3           | N/A                              | N/A               | N/A                         |
+| 4           | N/A                              | N/A               | N/A                         |
+| 5           | N/A                              | N/A               | N/A                         |
+| 6           | N/A                              | N/A               | N/A                         |
+
+---
+
+### Assessment Plan
+
+| Type of Evaluation       | % Contribution in Grade |
+|---------------------------|-------------------------|
+| Quiz                      | X%                     |
+| Assignments                | Y%                     |
+| Mid-sem                  | Z%                     |
+| Survey Paper              | W%                     |
+| End-sem                  | V%                     |
+
+The exact percentages will be determined based on the course requirements and workload.
+
+---
+
+### Resources
+
+**Textbook:**  
+- Introduction to Algorithms, Cormen-Leiserson-Rivest-Stein, PHI  
+
+**Reference Material:**  
+- Introduction to Algorithms, Cormen-Leiserson-Rivest-Stein, PHI  
+
+These resources will be used as primary references for the course.

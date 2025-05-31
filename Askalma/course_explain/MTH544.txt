@@ -1,0 +1,72 @@
+### Course Overview
+**Course Name:** Calculus on ℝⁿ and Applications  
+**Course Code:** MTH544  
+**Credits:** 4  
+**Offered To:** Undergraduate/Graduate Students  
+
+---
+
+### Course Description
+This course provides an introductory overview of smooth differential forms on smooth manifolds. It serves as a sequel to multivariable calculus, extending concepts to higher-dimensional vector spaces and manifolds. The primary focus is on understanding calculus in ℝⁿ, starting with n = 3, before generalizing to more complex scenarios. The course also integrates applied themes, concluding with three distinct applications: engineering via optimization on manifolds, mathematics via de Rham cohomology of manifolds, and physics via modeling Maxwell’s equations using differential forms.
+
+Key topics include:
+- Review of multivariable calculus concepts (e.g., partial derivatives, multiple integrals).
+- Introduction to differential forms through integration, exterior derivatives, wedge products, and properties in ℝⁿ.
+- Exploration of Riemannian metrics, Hodge star maps, and inner products of differential forms.
+- Stokes’ theorem, smooth manifolds, vector fields, pull-backs, and push-forwards.
+- Applications in engineering, mathematics, and physics.
+
+---
+
+### Prerequisites
+**Mandatory:**
+- MTH100 (Linear Algebra)
+- MTH203 (Multivariable Calculus) or MTH240 (Real Analysis I)
+
+**Desirable:**
+- Familiarity with metric spaces, point-set topology, basic differential geometry, and linear optimization.
+
+---
+
+### Course Outcomes
+By the end of this course, students will be able to:
+1. Explain basic definitions and facts related to differential forms in ℝ³.
+2. Prove essential properties and perform computations with differential forms in specified coordinates on basic model manifolds.
+3. Define smooth manifolds, vector fields, and apply pullback/pushforward maps of forms and vector fields.
+4. Apply concepts to solve problems in engineering (optimization), mathematics (cohomology), and physics (Maxwell’s equations).
+
+---
+
+### Weekly Lecture Plan
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Quizzes |
+|-------------|----------------------------------|-------------------|----------------------|
+| Weeks 1-2   | Smooth functions in ℝⁿ, Taylor’s theorem, partial derivatives, vector fields, multivariable calculus operators, norms, inner products, determinants of vectors, dual vector spaces, bilinear and multilinear forms on vector spaces, alternating algebra of multilinear forms, introduction to tensors, basics of curves and surfaces in ℝ³ | CO1          | HW 1                  |
+| Weeks 3-4   | Tangent vectors, tangent spaces, derivation, introduction to 1- and 2-forms in ℝ³ via pairing with vectors | CO1          | HW 2                  |
+| Weeks 5-7   | Introduction to differential forms and their integration, exterior derivative and wedge product of differential forms, metric structure of ℝⁿ, hodge star maps, inner product of differential forms | CO2          | HW 3 and Quiz 1       |
+| Weeks 8-9   | Stokes’ theorem, introduction to smooth manifolds | CO2 and CO3      | HW 4                  |
+| Weeks 10-11 | Pull backs and push forward maps, closed and exact differential forms, vector fields, orientation of manifolds, review of linear optimization basics | CO3          | HW 5                  |
+| Weeks 12-13 | Applications: linear optimization on manifolds, de Rham cohomology, Maxwell’s equations via differential forms. | CO4          | Quiz 2                |
+
+---
+
+### Assessment Plan
+**Type of Evaluation:**  
+- Quizzes: 15% (2 quizzes)  
+- Assignments: 25% (5 homeworks)  
+- Midsem: 20%  
+- Endsem: 40%  
+
+---
+
+### Resource Materials
+- **Textbook:** A Geometric Approach to Differential Forms, Second Edition by David Bachman  
+- **Reference Books:**  
+  - Analysis on Manifolds by James R. Munkres  
+  - An Introduction to Manifolds, Second Edition by Loring Tu  
+  - Optimization Algorithms on Matrix Manifolds by P.-A. Absil, R. Mahony, and Rodolphe Sepulchre  
+  - Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning by Jean Gallier and Jocelyn Quaintance (Online)  
+
+---
+
+This structured course provides a comprehensive understanding of differential forms on smooth manifolds, blending theoretical concepts with practical applications. Students will gain the necessary tools to tackle complex problems in various fields through a blend of lectures, assignments, quizzes, and assessments.

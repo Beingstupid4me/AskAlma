@@ -1,0 +1,63 @@
+**Course Overview**
+
+This course MTH212, named "Abstract algebra 1" provides a comprehensive introduction to abstract algebra, focusing on groups, rings, and fields. It is designed for undergraduate students in their second year, offering 4 credits. The course aims to build a strong foundation in these algebraic structures while emphasizing both theoretical understanding and practical problem-solving skills.
+
+---
+
+**Prerequisites**
+
+- **Mandatory:** MTH 100 or equivalent (Linear Algebra)
+
+---
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Explain algebraic properties of important families of groups.
+- **CO2:** Classify groups up to isomorphism and understand their algebraic properties.
+- **CO3:** Discuss algebraic properties of rings and fields (particularly finite fields) and classify them up to isomorphism.
+- **CO4:** Understand the algebraic properties of rings and fields (including finite fields) and classify them up to isomorphism.
+- **CO5:** Write formal mathematical proofs.
+
+---
+
+**Weekly Syllabus**
+
+| Week Number | Lecture Topic                     | COs Met       | Assignments               |
+|-------------|-----------------------------------|----------------|---------------------------|
+| 1 & 2       | Equivalence relation and partition. Groups and subgroups, Cyclic groups, Abelian groups, Matrix groups, Quaternionic group. | CO1&4         | Tutorial Sheet 1          |
+| 3           | Lagrange's theorem, normal subgroup, quotient groups, isomorphism theorems, Group actions. | CO1,2&4       | Tutorial Sheet 2          |
+| 4-6         | Permutation groups, Simple groups, Simplicity of the alternating group. Burnside's lemma and its applications. | CO1,2&4       | Tutorial Sheet 3          |
+| 7           | Centralizers and Normalizers, class equation and its applications. Dihedral Groups. | CO1,2&4       | Tutorial Sheet 4          |
+| 8-9         | Sylow's Theorems and their applications. | CO1,2&4       | Tutorial Sheet 5          |
+| 10          | Direct product of groups, Fundamental Theorem of Finite Abelian groups. | CO1,2&4       | Tutorial Sheet 6          |
+| 11-13       | Rings and Fields, Matrix rings and Group rings, units and zero divisors, ideals, quotient rings, principal ideal, prime ideal, maximal ideal, nil and nilpotent ideals, integral domain. | CO3&4         | Tutorial Sheet 7          |
+| 14-16       | Isomorphism of rings, Direct product of rings, Polynomial rings, The Chinese Remainder Theorem. | CO3&4         | Tutorial Sheet 8          |
+| 17-19       | Principal ideal domain, Euclidean domain, Unique factorization domain (basic algebraic properties only). | CO3&4         | Tutorial Sheet 9          |
+
+---
+
+**Assessment Plan**
+
+| Type of Evaluation | % Contribution in Grade |
+|---------------------|------------------------|
+| Quizzes             | 30%                    |
+| Minor Assignments   | 30%                    |
+| Major Assignments    | 40%                    |
+
+---
+
+**Resource Materials**
+
+1. **Textbook:** I.N. Herstein, *Topics in Algebra*, Wiley India Pvt Ltd, 2006.
+2. **Textbook:** J.A. Gallian, *Contemporary Abstract Algebra*, Narosa Book Distributors Private Ltd, 2004.
+3. **Textbook:** D.S. Dummit and R.M. Foote, *Abstract Algebra*, Wiley, 2003.
+4. **Reference book:** Niels Lauritzen, *Concrete Abstract Algebra*, Cambridge University Press.
+5. **Reference book:** Charles Pinter, *A Book of Abstract Algebra*, Dover Publications Inc.
+
+---
+
+**Note**
+
+This course is designed to provide a balanced evaluation through quizzes, minor assignments, and major assignments. The end-semester examination will carry significant weightage (40%) to assess overall understanding and mastery of the subject matter.

@@ -1,0 +1,54 @@
+**Course Overview**
+
+This course, with the code DES563 and title "Computer Aided Drug Design," is a 4-credit program offered to both undergraduate and postgraduate students. The primary objective of this course is to provide students with a comprehensive understanding of computational methods used in drug design. This includes principles and practices of molecular mechanics, biomolecular simulations, and techniques like Molecular Docking.
+
+**Prerequisites**
+
+Students enrolling in this course are expected to have a basic understanding of biology, chemistry, physics, and proficiency in Python programming. These foundational skills are essential for grasping the computational tools and concepts covered in this course.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Describe the relationship between protein function and its structure.
+- **CO2:** Develop models of biomolecules using molecular mechanics and perform small-scale simulations.
+- **CO3:** Analyze simulation data to derive biophysical parameters.
+- **CO4:** Apply computational techniques for drug design, including Molecular Docking.
+
+**Weekly Lecture Plan**
+
+The course is structured into 15 weeks, each focusing on specific topics with associated learning outcomes (COs) and assignments or assessments:
+
+- **Week 1:** Introduction to Drug Discovery. This week covers the foundational concepts of drug discovery and sets the stage for the course.
+- **Week 2-3:** Structure-Function Relationship. Students will explore how protein structure influences function, aligning with CO1.
+- **Week 4:** Introduction to Biomolecular Simulations. This session introduces the application of simulations in current research fields, linking to CO2 and CO3.
+- **Week 5:** Molecular Force Fields and Thermostats. Students will learn about these concepts, contributing to CO2 and CO3.
+- **Week 6:** Molecular Dynamics Basics. Focuses on simulation techniques and data extraction, aligning with CO2, CO3, and CO4.
+- **Week 7:** Steered Molecular Dynamics. This week builds on the previous session, further developing students' understanding of molecular simulations (CO2, CO3, CO4).
+- **Weeks 8-9:** Analysis of Biophysical Parameters. Students will apply their knowledge to analyze simulation data (CO2, CO3, CO4).
+- **Weeks 10-11:** QSAR/Pharmacophore Models. This section focuses on QSAR and pharmacophore concepts, enhancing students' ability to design computational experiments (CO4).
+- **Weeks 12-13:** Computational Drug Designing with AUTODOCK. Students will engage in hands-on projects using molecular docking tools, tying into CO3 and CO4.
+- **Weeks 14-15:** Project Presentations. Students will present their computational drug design projects, demonstrating their understanding of the course material.
+
+**Assessment Plan**
+
+The course assessment is divided as follows:
+
+- **Mid-Semester Examination (20%)**: Evaluates students' grasp of foundational concepts.
+- **End-Semester Examination (30%)**: Assesses comprehensive understanding of all topics covered during the course.
+- **Project 1 (30%)**: A major project involving computational drug design, including Molecular Docking with AUTODOCK.
+- **Assignment+Quiz (20%)**: Regular assignments and quizzes to reinforce learning.
+
+**Resource Materials**
+
+The primary textbooks for this course are:
+
+1. "Molecular Modelling: Principles and Applications" by Andrew R. Leach
+2. "Computational Drug Design" by David C Young
+3. "A First Course in Systems Biology" by Voit E (2012)
+
+These resources provide a solid foundation for understanding the computational methods and concepts covered in this course.
+
+**Conclusion**
+
+This course is designed to equip students with the skills necessary to engage in computational drug design, from molecular simulations to practical applications of Molecular Docking. Through a combination of lectures, assignments, and hands-on projects, students will gain both theoretical knowledge and practical experience. The structured assessment plan ensures that students can demonstrate their understanding through various evaluations, culminating in a comprehensive project that showcases their ability to apply computational techniques in drug design.

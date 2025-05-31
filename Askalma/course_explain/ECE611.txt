@@ -1,0 +1,67 @@
+# Course Overview  
+**Course Code:** ECE611  
+**Course Name:** Memory Design and Test  
+**Credits:** 4  
+**Offered To:** UG/PG  
+**Duration:** [One Semester]  
+
+This course provides an in-depth exploration of memory design principles, focusing on the challenges and innovations involved in designing memory blocks. Students will gain hands-on experience with CAD tools used in VLSI design, culminating in a project that simulates real-world industrial processes. The course covers essential topics such as SRAM cell design, peripheral circuits, cache hierarchy, DRAM and NVM design, and memory test methods like BIST.
+
+---
+
+# Prerequisites  
+**Mandatory Prerequisites:**  
+- Digital Circuits (ECE111)  
+- Basic Electronics (ECE113)  
+
+**Desirable Prerequisites:**  
+- Digital VLSI Design (ECE314/514)  
+- Integrated Electronics (ECE214)  
+
+---
+
+# Learning Outcomes  
+By the end of this course, students will be able to:  
+
+- **CO1:** Evaluate and design SRAM cells and peripheral circuits.  
+- **CO2:** Analyze the impact of memory architecture on power, performance, and area at both chip and system-on-chip (SoC) levels.  
+- **CO3:** Understand the role of cache hierarchy in optimizing memory subsystems.  
+- **CO4:** Design specific peripheral circuits for DRAM, NVM, and other memory technologies.  
+- **CO5:** Implement test strategies, including BIST, for SRAM and embedded memories.  
+
+---
+
+# Weekly Lecture Plan  
+| Week Number | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials  
+|-------------|-----------------------------------|---------|---------------------------  
+| Week 1      | Introduction to Types of Memories and Memory Signal Flow | CO1     | N/A                        
+| Week 2      | Introduction to Important Memory Timings and 6T SRAM Cell | CO1     | N/A                        
+| Week 3      | Figures of Merit of SRAM Cell + Cell Sizing and Optimization | CO1     | N/A                        
+| Week 4      | SRAM Cell Layout + Repair + I/O Circuits                | CO1 & CO2 | N/A                        
+| Week 5      | Address Organization + Mismatch                         | CO1 & CO2 | N/A                        
+| Week 6      | Process Variations + Selftiming Fundamentals            | CO1 & CO2 | N/A                        
+| Week 7      | Cache Hierarchy and Design Choices                     | CO3     | N/A                        
+| Week 8-9    | DRAM Cell, Sensing Scheme, and Periphery Circuit Design | CO4     | N/A                        
+| Week 10-11  | NVM Cell and Design Complexity                        | CO4     | N/A                        
+| Week 12     | Test Path and Testability Design                       | CO5     | N/A                        
+| Week 13     | Review and Term Project Evaluation                     | CO1, CO2, CO3 | N/A  
+
+---
+
+# Assessment Strategy  
+The course assessment is divided as follows:  
+- **Mid-Semester Examination:** 25%  
+- **Homework Assignments:** 10%  
+- **Quiz:** 15%  
+- **End-Semester Examination:** 25%  
+- **Course Project:** 25%  
+
+---
+
+# Learning Resources  
+**Reference Books:**  
+- N. Weste and D. Harris, *CMOS VLSI Design: A Circuits and Systems Perspective*. Third Edition. Pearson, 2006.  
+- Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic; *Digital Integrated Circuits: A Design Perspective*, Phi Learning, 2009.  
+
+**Additional Resources:**  
+- Additional materials will be provided in class.

@@ -1,0 +1,47 @@
+Course Overview  
+This course provides an in-depth exploration of urban governance practices, focusing on the interplay between 'space' and 'political power'. Designed to enhance students' analytical skills, it integrates theoretical concepts with practical insights. The curriculum is structured around weekly lectures that progressively build understanding, complemented by assignments and assessments.
+
+Prerequisites  
+Students must have completed SOC101 Introduction to Sociology and Anthropology to ensure foundational knowledge necessary for this course.
+
+Learning Outcomes (COs)  
+By the end of the course, students will be able to:  
+- CO1: Evaluate urban governance practices.  
+- CO2: Explain the concept of 'urban space'.  
+- CO3: Explain the spatial roots of political power.  
+- CO4: Explain the concept of 'space' as dynamic, shaped by political power.  
+- CO5: Evaluate how 'digital' mediates both 'space' and 'political power'.
+
+Weekly Lecture Plan  
+The course is divided into 13 weeks, each focusing on specific topics to ensure comprehensive coverage:  
+
+| Week | Topic                  | COs Met          |
+|------|------------------------|-------------------|
+| 1    | Introduction: Urban Governance and Politics | CO-1, CO-2        |
+| 2    | What is Political Power? Power and Authority | CO-1, CO-2, CO-3   |
+| 3    | Geographies of Power and Resistence | CO-1, CO-3, CO-4   |
+| 4    | The Distinctiveness of Urban Space | CO-1, CO-3, CO-4   |
+| 5    | Understanding Urban Governance | CO-1, CO-3, CO-4, CO-5 |
+| 6    | Planning and Governing the Urban Space: The Case of Delhi | CO-1, CO-2, CO-3   |
+| 7    | How Urban Governance Actually Works? Everyday Politics in Delhi | CO-1, CO-3, CO-4, CO-5 |
+| 8    | Urban Space and the Digital Re-Configuration | CO-1, CO-3, CO-4   |
+| 9    | Understanding Urban Governance | CO-1, CO-3, CO-4, CO-5 |
+| 10   | Planning and Governing the Urban Space: The Case of Delhi | CO-2, CO-3, CO-4   |
+| 11   | How Urban Governance Actually Works? Everyday Politics in Delhi | CO-2, CO-3, CO-4   |
+| 12   | Urban Space and the Digital Re-Configuration | CO-2, CO-3, CO-4   |
+| 13   | Revisions | CO-1, CO-2, CO-3, CO-4< CO5 | CO-1, CO-2, CO-3, CO-4< CO5 |
+
+Assessment Plan  
+The course concludes with a comprehensive assessment plan:  
+- **Projects**: 30% of the final grade.  
+- **Presentations**: 20%.  
+- **Mid Semester exam**: 25%.  
+- **Final Exam**: 25%.  
+- **Teaching Resources**: 20%.  
+
+Learning Resources  
+Students are encouraged to refer to recommended textbooks and reference books:  
+- **Textbook**: Garth Myers "Urban Politics and Policy and Southern Urban Planet" in Rethinking Urbanism Bristol University Press, Bristol, 2020.  
+- **Reference Book**: Amita Baviskar Uncivil City: Ecology, Equity and the Commons in Delhi, Sage, New Delhi,2020.
+
+This structured approach ensures a holistic understanding of urban governance, combining theoretical knowledge with practical applications to foster critical thinking and problem-solving skills among students.

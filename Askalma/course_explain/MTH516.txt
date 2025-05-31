@@ -1,0 +1,36 @@
+**Course Overview: Analytic Number Theory (MTH516)**  
+This course is designed for students pursuing PG and Ph.D programs and provides an in-depth exploration of analytic number theory. The primary focus is on the Riemann Zeta function and its applications to understanding the distribution of prime numbers, culminating in a proof of the Prime Number Theorem (PNT). This theorem is a cornerstone of modern mathematics, with profound implications for the study of primes.
+
+**Prerequisites:**  
+Students must have completed **MTH 341/541** as a mandatory prerequisite and **MTH 211** as a desirable prerequisite. These courses provide foundational knowledge in number theory and complex analysis, which are essential for understanding the advanced topics covered in this course.
+
+**Learning Outcomes (COs):**  
+By the end of this course, students will be able to:  
+- **CO1:** Understand and explain the properties of the Riemann Zeta function and its connection with prime numbers.  
+- **CO2:** Apply analytic tools to solve problems related to arithmetic functions and their mean values.  
+- **CO3:** Analyze the distribution of prime numbers and understand various forms of the PNT.  
+- **CO4:** Demonstrate the ability to prove key results in number theory, such as the PNT and its consequences.
+
+**Weekly Lecture Plan:**  
+The course is divided into 11 weeks, with each week focusing on specific topics:  
+- **Weeks 1:** Introduction to the Riemann Zeta function and the Prime Number Theorem (PNT).  
+- **Weeks 2–3:** Study of arithmetic functions, including additive and multiplicative functions.  
+- **Weeks 4–5:** Exploration of Euler's totient function, the Von Mangoldt function, and divisor functions.  
+- **Weeks 6–7:** Advanced topics in arithmetic functions, such as Dirichlet products and summatory functions.  
+- **Weeks 8–9:** Examination of prime number distribution, including Chebyshev estimates and Mertens' theorems.  
+- **Weeks 10–11:** Further analysis of primes, Dirichlet series, and the Riemann Zeta function's analytic continuation.  
+
+**Assessment Plan:**  
+The course is assessed through a combination of assignments, presentations, mid-semester exams, and an end-semester examination:  
+- **Assignments (20%):** Bi-weekly assignments are designed to reinforce concepts discussed in lectures.  
+- **Presentations (15%):** Students will present on specific topics related to analytic number theory.  
+- **Mid-Semester Exam (25%):** Covers foundational material from the first half of the course.  
+- **End-Semester Exam (40%):** Comprehensive exam assessing all topics covered during the course.  
+
+**Resource Materials:**  
+The primary resources for this course include:  
+1. **"Introduction to Analytic Number Theory" by Tom M. Apostol** – A comprehensive textbook covering foundational topics in analytic number theory.  
+2. **"Notes on Analytic Number Theory" by A. A. Karatsuba and S.M. Voronin** – Detailed notes that supplement the course material.  
+3. Additional resources, including research papers and supplementary readings, will be assigned by the instructor as needed.  
+
+This structured approach ensures a thorough understanding of analytic number theory, with a strong emphasis on both theoretical foundations and practical applications. Students are encouraged to engage actively with the lectures, assignments, and resources to fully grasp the material and achieve the course outcomes.

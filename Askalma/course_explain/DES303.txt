@@ -1,0 +1,70 @@
+### Course Overview  
+**Course Code:** DES303  
+**Course Name:** Film Making and Radio Podcasting  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+
+This course is designed to provide a comprehensive understanding of film making and radio podcasting. It combines technical skills with creative processes, emphasizing the importance of editing in creating visually compelling narratives. Students will learn essential tools such as NLE software for audio and video editing, while also gaining hands-on experience in assembling podcasts and short video projects. The course is structured to build foundational knowledge in audio file formats, soundtracks, video shooting, and editing techniques, culminating in the creation of professional-grade final products.
+
+---
+
+### Prerequisites  
+- **Mandatory:** Basic aesthetic ability to assemble films or podcasts.  
+- **Desirable:** None specified.  
+- **Other:** None specified.  
+
+Students are encouraged to have a foundational understanding of visual storytelling but no prior experience with NLE software is required. The course will gradually build technical skills while focusing on creative problem-solving.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Understand audio file formats and codecs, enabling them to arrange soundtracks, edit vocals, and create podcasts.  
+- **CO2:** Arrange soundtracks, edit vocals, and create podcast episodes effectively.  
+- **CO3:** Understand film shooting and editing concepts, including sequencing or editing video shots in a scene.  
+- **CO4:** Shoot, capture, and output short video projects with technical precision.  
+- **CO5:** Shoot, capture, and output short video projects independently, demonstrating mastery of the techniques covered in the course.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met | Assignments/Labs/Tutorial Notes                          |
+|-------------|-----------------------------------|---------|--------------------------------------------------------|
+| 1           | NLE Audio Overview               | CO1     | Introduction to NLE software, basic audio editing.      |
+| 2           | Audio File Format                | CO1     | Understanding different audio file formats.            |
+| 3           | Audio Codecs                     | CO1     | Exploring common audio codecs and their uses.          |
+| 4           | Audio Mastering                 | CO1, CO2| Techniques for mastering audio quality in podcasts.   |
+| 5           | Musical Terms                    | CO2     | Understanding terminology related to podcasting.       |
+| 6           | Harmonics                        | CO2     | Exploring the role of harmonics in audio production.    |
+| 7           | Scripting Audio Podcasts        | CO2     | Developing scripts for audio podcasts.                 |
+| 8           | Video Formats                    | CO3     | Introduction to video file formats and their uses.     |
+| 9           | Picture Composition              | CO3     | Basic principles of visual storytelling in video.      |
+| 10          | History of Film Making           | CO3     | Overview of historical milestones in film production.   |
+| 11          | Developments in Editing, Hollywood and Soviet Montages Montage | CO3 | Exploring the evolution of editing techniques.        |
+| 12          | Continuity Editing               | CO3, CO4| Understanding continuity editing and its importance.    |
+| 13          | Lab Assignments                  | CO3, CO4| Hands-on lab exercises on video shooting and editing. |
+
+---
+
+### Assessment Strategy  
+
+| Type of Evaluation         | % Contribution in Grade       |
+|----------------------------|------------------------------|
+| Mid-term Exam               | 10%                          |
+| Final Exam                  | 20%                          |
+| Lab Assignments             | 20%                          |
+| Class Participation (Audio Podcast, Video Project) | 30%                        |
+| Additional Evaluation Type | 10%                          |
+
+The assessment strategy is designed to evaluate both theoretical knowledge and practical application. Mid-term and final exams will assess understanding of course concepts, while lab assignments and class participation will focus on technical skills and creative output.
+
+---
+
+### Learning Resources  
+
+**Textbook:**  
+- "Picture Composition for Film & Television" by Peter Ward  
+- Course Material & Net Resources: Includes PDFs, online tutorials, and access to Adobe Elements and Audacity manuals.  
+
+This course provides a blend of theoretical knowledge and practical training, ensuring students are well-equipped to create high-quality audio and video content. Additional resources will be provided through the university’s learning management system for further study and reference.

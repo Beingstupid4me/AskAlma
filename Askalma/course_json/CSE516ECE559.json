@@ -1,0 +1,198 @@
+{
+  "Course Code": "CSE516/ECE559",
+  "Course Name": "Theories of Deep Learning",
+  "Credits": 4,
+  "Course Offered to": [
+    "UG/PG"
+  ],
+  "Course Description": "Deep Learning (under the broader umbrella of Machine Learning) nowadays is a popular approach that allows computers to learn attributes from data. The aim is to enhance our understanding in terms of a hierarchy of concepts, where each such concept comprises of simpler ones. Alongside the proliferating application of these techniques for image, audio or time-series data, practitioners have developed a good understanding of the properties that make these deep nets effective. There are now a number of theories being developed to give a more formal mathematical understanding to accompany these observations; this course will explore some of these varying perspectives.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Linear algebra",
+      "Mathematics III"
+    ],
+    "Desirable": [
+      "Signals and System",
+      "Python/Matlab programming"
+    ],
+    "Other": [
+      "Machine Learning / Statistical ML"
+    ]
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students will be able to explain why deep learning leads to more expressive representation models.",
+      "CO2": "Students will be able to identify tools from Random Matrix/Information theory and apply them to achieve training acceleration/generalization in very deep models.",
+      "CO3": "Students will be able to analyse and explain the training dynamics of deep nets using various visualization techniques.",
+      "CO4": ""
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to theoretical aspects in Deep Learining (DL)",
+      "COURSEs MET": [
+        "CO1"
+      ],
+      "Assignments": "HW-0"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Ingredients of DL",
+      "COURSEs MET": [
+        "CO1"
+      ],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Expressivity theorems in DL",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "HW-1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Data classes and curse of dimentionality",
+      "COURSEs MET": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Deep MF and approximation guarentees",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Geometric perspective of expressivity",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": "HW-2"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "DL through lense of Random Matrix Theory (RTM)",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Evolution for signal variances and covariances in infinite depth DNN",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": "Mid-Sem"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Random DNN - Input/output Jacobian",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "DNN gaussian vs orthogonal initialization",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "DL through lense of Information Theory",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": "HW-3"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Mutal infomation estimation in DNN",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Optimization algorithms",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignments": "HW-4"
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Advanced optimizers and second-order algorithms",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Loss landscape of DNNs",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignments": "Quiz 3"
+    },
+    {
+      "Week": 16,
+      "Lecture Topic": "Saliency map Visualization",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 17,
+      "Lecture Topic": "Spectral Visualization: Generalization error in DNNs",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 18,
+      "Lecture Topic": "Discussion: Adversiarial examples and why they are universal",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [
+      "Quiz 1",
+      "Quiz 2",
+      "Quiz 3"
+    ],
+    "Midsem": "Mid-Sem",
+    "HW assignments": [
+      "HW-0",
+      "HW-1",
+      "HW-2",
+      "HW-3",
+      "HW-4"
+    ],
+    "Endsem": "End-sem"
+  },
+  "Resource Material": {
+    "Textbook": "Deep Learning by Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "Reference": "Will be provided in class"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "Course Code": "CSE342/CSE542",
+  "Course Name": "Statistical Machine Learning",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will introduce students to salient topics in machine learning and pattern classification. Fundamentals and advanced theoretical and mathematical concepts related to classification techniques and learning paradigms will be discussed. The programming assignments will provide hands-on experience of implementing some of these techniques. The project component of this course will test the student's ability to design, apply, and evaluate classifiers on appropriate datasets. The application domain for the projects will be from diverse areas such as object recognition, handwritten character recognition, and emotion recognition.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH201 Probability & Statistics"
+    ],
+    "Desirable": [
+      "CSE101 Intro to Programming"
+    ],
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to understand the various key paradigms for machine learning and pattern classification",
+    "CO2": "Students will be able to apply suitable feature extraction and classification technique to solve a given pattern classification problem",
+    "CO3": "Students will be able to design a complete machine learning/pattern classification algorithm and evaluate the performance",
+    "CO4": null,
+    "CO5": null
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Mathematical review, Introduction to Pattern Recognition and Evaluation Metrics",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 234,
+      "Lecture Topic": "Bayesian Decision Theory",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Back of the book problems and paper review"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Parameter Estimation",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Back of the book problems"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Discriminant Analysis: PCA, LDA, ICA",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Coding assignment and problems"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Parameter Estimation: MLE, MAP, EM",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Coding assignment and problems"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 10
+    },
+    "Assignment": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 25
+    },
+    "Mid-sem": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 15
+    },
+    "Project": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 30
+    },
+    "End-sem": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 20
+    }
+  },
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Pattern Classification by David G. Stork, Perter E. Hart and Richard O. Duda"
+    },
+    {
+      "Type": "Reference Book",
+      "Title": "Pattern Recognition and Machine Learning by Christopher Bishop"
+    }
+  ]
+}

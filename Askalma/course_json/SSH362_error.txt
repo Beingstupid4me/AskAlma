@@ -1,0 +1,370 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: The course code is listed multiple times as "SSH362/SSH562". So both Course Code fields will be this value. The Course Name is consistently "Urban Space and Political Power".
+
+Next, Credits are clearly stated as 4. The course is offered to "UG" (Undergraduate). 
+
+For the Course Description, it's quite lengthy but seems repetitive across multiple rows. I'll take one version of it for accuracy.
+
+Moving on to Prerequisites: There's a table with Mandatory and Desirable columns. SOC101 Introduction to Sociology and Anthropology is listed under both categories.
+
+Course Outcomes (COs) are numbered from CO1 to CO5, each with specific descriptions. I'll list them as provided.
+
+The Weekly Lecture Plan has 13 weeks, each with a Lecture Topic and COs met. Assignments vary per week; some have "Assignments" listed, others just say "Projects", "Presentations", etc. I need to extract the assignments for each week accurately.
+
+In the Assessment Plan section, there are multiple evaluation types: Projects, Presentations, Mid Semester exam, Final Exam, and Teaching Resources. Each has a percentage contribution. However, some entries under "Final Exam" seem incorrect (e.g., 25% twice). I'll note them as provided but be cautious about duplicates.
+
+Resource Material includes Textbooks and Reference Books listed multiple times with the same values.
+</think>
+
+```json
+{
+  "Course Code": "SSH362/SSH562",
+  "Course Name": "Urban Space and Political Power",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will enable students to evaluate urban governance practices. It draws on the ideas of 'space' and 'political power' to develop insights into the nature of urban governance and politics. With this main objective in mind, the course is broadly divided in two parts: the first part engages with the concepts of ‘space’, ‘political power’ and ‘urban governance’. The second part, introduces urban processes and events from the urban conglomeration of Delhi to empirically populate and exemplify the concepts discussed in the first half of the course. By the end of the course, the students will be able to develop an understanding of the ideas of 'space' and 'political power', and the distinctiveness of urban governance, especially in Delhi.",
+  "Prerequisites": {
+    "Mandatory": ["SOC101 Introduction to Sociology and Anthropology"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students would be able to evaluate urban governance practices.",
+    "CO2": "Students would be able to explain the concept of 'urban space'.",
+    "CO3": "Students would be able to explain the spatial roots of political power.",
+    "CO4": "Students would be able to explain the concept of 'space' as a dynamic entity, shaped, in a large measure, by the political power.",
+    "CO5": "Students would be able to evaluate how 'digital' is mediating both 'space' and 'political power'."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction: Urban Governance and Politics",
+      "COs Met": ["CO-1", "CO-2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "What is Political Power? Power and Authority",
+      "COs Met": ["CO-1", "CO-2", "CO-3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Geographies of Power and Resistence",
+      "COs Met": ["CO-1", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "The Distinctiveness of Urban Space",
+      "COs Met": ["CO-1", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Understanding Urban Governance",
+      "COs Met": ["CO-1", "CO-3", "CO-4", "CO-5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Planning and Governing the Urban Space: The Case of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "How Urban Governance Actually Works? Everyday Politics in Delhi",
+      "COs Met": ["CO-1", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Urban Space and the Digital Re-Configuration",
+      "COs Met": ["CO-1", "CO-3", "CO-4", "CO-5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Political Power in the Digital Age: E-Governance",
+      "COs Met": ["CO-1", "CO-2", "CO-3"],
+      "Assignments": "Projects"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Political Power and the Digital: Smart Cities",
+      "COs Met": ["CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Urban Spaces and the Forms of Political Contestations",
+      "COs Met": ["CO-2", "CO-3", "CO-4", "CO-5"],
+      "Assignments": "Presentations"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Space, Political Power and Urban Governance: A Reassessment",
+      "COs Met": ["CO-2", "CO-3", "CO-4", "CO-5"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": [
+      "Projects",
+      "Presentations",
+      "Mid Semester exam",
+      "Final Exam",
+      "Teaching Resources"
+    ],
+    "% Contribution to Final Grade (SSH362)": ["30%", "20%", "10%", "25%", ""],
+    "% Contribution to Final Grade (SSH562)": ["", "", "", "25%", "20%"]
+  },
+  "Resource Material": {
+    "Textbook": [
+      "SSH362/SSH562",
+      "SSH362/SSH562"
+    ],
+    "Reference Book": ["SSH362/SSH562", "SSH362/SSH562"]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SSH362/SSH562",
+  "Course Name": "Urban Space and Political Power",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will enable students to evaluate urban governance practices. It draws on the ideas of 'space' and 'political power' to develop insights into the nature of urban governance and politics.",
+  "Prerequisites": {
+    "Mandatory": ["SOC101 Introduction to Sociology and Anthropology"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students would be able to evaluate urban governance practices.",
+    "CO2": "Students would be able to explain the concept of 'urban space'.",
+    "CO3": "Students would be able to explain the spatial roots of political power.",
+    "CO4": "Students would be able to explain the concept of 'space' as a dynamic entity, shaped, in a large measure, by the political power.",
+    "CO5": "Students would be able to evaluate how 'digital' is mediating both 'space' and 'political power'."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction: Urban Governance and Politics",
+      "COs Met": ["CO-1", "CO-2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "What is Political Power? Power and Authority",
+      "COs Met": ["CO-1", "CO-2", "CO-3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Geographies of Power and Resistence",
+      "COs Met": ["CO-1", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "The Distinctiveness of Urban Space",
+      "COs Met": ["CO-1", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Understanding Urban Governance",
+      "COs Met": ["CO-1", "CO-3", "CO-4", "CO-5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Planning and Governing the Urban Space: The Case of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "How Urban Governance Actually Works? Everyday Politics in Delhi",
+      "COs Met": ["CO-1", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Introducing Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 16,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 17,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 18,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 19,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 20,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 21,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 22,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 23,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 24,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 25,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 26,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 27,
+      "Lecture Topic": "Urban Processes and Events from the Urban Conglomeration of Delhi",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 28,
+      "Lecture Topic": "Reassessment | CO-1, CO-2, CO-3, CO-4 < CO5",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 29,
+      "Lecture Topic": "Revisions | CO-1, CO-2, CO-3, CO-4 < CO5",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 30,
+      "Lecture Topic": "Revisions | CO-1, CO-2, CO-3, CO-4 < CO5",
+      "COs Met": ["CO-1", "CO-2", "CO-3", "CO-4", "CO5"],
+      "Assignments": ""
+    },
+  }
+</think>
+
+```json
+{
+  "Course Code": "SSH362/SSH562",
+  "Course Name": "Urban Space and Political Power",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will enable students to evaluate urban governance practices. It draws on the ideas of 'space' and 'political power' to develop insights into the nature of urban governance and politics. With this main objective in mind, the course is broadly divided in two parts: the first part engages with the concepts of ‘space’, ‘political power’ and ‘urban governance’. The second part, introduces urban processes and events from the urban conglomeration of Delhi to empirically populate and exemplify the concepts discussed in the first half of the course. By the end of the course, the students will be able to develop an understanding of the ideas of 'space' and 'political power', and the distinctiveness of urban governance, especially in Delhi.",
+  "Prerequisites": {
+    "Mandatory": ["SOC101 Introduction to Sociology and Anthropology"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students would be able to evaluate urban governance practices.",
+    "CO2": "Students would be able to explain the concept of 'urban space'.",
+    "CO3": "Students would be able to explain the spatial roots of political power.",
+    "CO4": "Students would be able to explain the concept of 'space' as a dynamic entity, shaped, in a large measure, by the political power.",
+    "CO5": "Students would be able to evaluate how 'digital' is mediating both 'space' and 'political power'."
+
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH362/SSH562",
+  "Course Name": "Urban Space and Political Power",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will enable students to evaluate urban governance practices. It draws on the ideas of 'space' and 'political power' to develop insights into the nature of urban governance and politics. With this main objective in mind, the course is broadly divided in two parts: the first part engages with the concepts of ‘space’, ‘political power’ and ‘urban governance’. The second part, introduces urban processes and events from the urban conglomeration of Delhi to empirically populate and exemplify the concepts discussed in the first half of the course. By the end of the course, the students will be able to develop an understanding of the ideas of 'space' and 'political power', and the distinctiveness of urban governance, especially in Delhi.",
+  "Prerequisites": {
+    "Mandatory": ["SOC101 Introduction to Sociology and Anthropology"],
+    "Desirable": [],
+    "Other": []
+  }

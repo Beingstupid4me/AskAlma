@@ -1,0 +1,122 @@
+{
+  "Course Code": "MTH377/MTH577",
+  "Course Name": "Convex Optimization",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Convex optimization problems constitute an important class of optimization problems for which there is a complete mathematical theory as well as efficient algorithms. As such they have been usefully applied in diverse areas of economics, operations research and engineering. The philosophy behind the course is that an initial investment in structure theory of convex sets and functions yields rich dividends in terms of a better vision of convex (and even non-convex) optimization problems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100",
+      "MTH203"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to appreciate the structure theory of convex sets and functions",
+    "CO2": "Students are able to recognize, formulate and solve a convex optimization problem.",
+    "CO3": "Students are able to appreciate and use the duality theory of convex optimization",
+    "CO4": "",
+    "CO5": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Convex Sets - Affine Sets, Cones, Hyperplanes and Polyhedra",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Convexity Preserving Operations; Separating and Supporting Hyperplane Theorems",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Problem Set 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": "Problem Set 2"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Convex Functions and Properties; Convexity Preserving Operations",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Optimization Problems and Equivalent Transformations",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Problem Set 3"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Lagrangian Dual Problem; Strong Duality and Slater\u2019s Constraint Qualification",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Geometric and Economic Interpretation of Duality",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Problem Set 4"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Complementary Slackness Condition of Optimality; Karush-Kuhn-Tucker Optimality Conditions",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Problem Set 5"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Sensitivity Analysis",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Applications- Least Squares Approximation, Linear Classification, Portfolio Choice Model, Principal Agent Model",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Coding Assignment": 20,
+    "Quiz": 20,
+    "Midterm": 30,
+    "Endterm": 30
+  },
+  "Resource Material": {
+    "Textbook": "Convex Optimization by Stephen Boyd and Lieven Vanderberghe",
+    "Supporting References": [
+      "Linear Algebra and Its Applications by David Lay, Steven R. Lay and Judi McDonald",
+      "Mathematics for Economists by Carl Simon and Lawrence Blume",
+      "Nonlinear Programming by Dimitri Bertsekas"
+    ]
+  }
+}

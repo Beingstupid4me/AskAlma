@@ -1,0 +1,92 @@
+{
+  "Course Code": "MTH513",
+  "Course Name": "Abstract Algebra II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course discusses factorization theory in integral domains, and basic properties of solvable groups, nilpotent groups and rings with chain conditions. This course also introduces Galois Theory, which was initiated by Galois in the 19th century. As applications of Galois Theory, solvability of polynomials by radicals, and classical straightedge (ruler) and compass constructions will be discussed.",
+  "Prerequisites": {
+    "Mandatory": "Math I (MTH100), Abstract Algebra I",
+    "Desirable": "Math II (MTH212)",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "To be able to explain factorization theory in integral domains, basic properties of solvable groups, nilpotent groups, rings with chain conditions, and several field extensions.",
+    "CO2": "To be able to solve mathematical problems applying the results presented in the course.",
+    "CO3": "To be able to explain insolvability of polynomials of degree greater than or equal to 5 by radicals applying Galois Theory.",
+    "CO4": "To be able to explain impossibility of certain geometric constructions applying Galois Theory",
+    "CO5": "To be able to produce examples and counterexamples illustrating the mathematical concepts presented in the course."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Solvable groups, Nilpotent groups, Jordan-Holder Theorem",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Factorization Theory in Integral domains: Prime and irreducible elements, Principal ideal domains, Euclidean domains, Unique factorization domains, Eisenstein's Irreducibility Criterion.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Rings with Chain conditions: Noetherian rings, Artinian rings",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Fields: Prime fields, Extension of fields, Algebraic extensions, Separable and Inseparable extensions, Cyclotomic polynomials and extensions.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Galois Theory: Galois fields and their structure, The Galois group of a polynomial, Normal extensions and Fundamental Theorem of Galois Theory",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Radical extensions and solvability of polynomials by radicals, applications to the classical straightedge and compass constructions.",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 20,
+    "Midsem": 30,
+    "Endsem": 50,
+    "HW assignments": ""
+  },
+  "Resource Material": {
+    "Textbook": [
+      "1. P. J. McCarthy, Algebraic extensions of Fields, Dover publications.",
+      "2. Thomas W. Judson, Abstract Algebra: Theory and Applications, Orthogonal publishing I3c.",
+      "3. G. Bini and F. Flamini, Finite commutative rings and their applications, Springer",
+      "4. D. S. Dummit and R. M. Foote, Abstract Algebra, 3rd edition, Wiley (2003).",
+      "5. Nathan Jaconson, Basic Algebra, vol. 1 HPC."
+    ],
+    "Reference Book": ""
+  }
+}

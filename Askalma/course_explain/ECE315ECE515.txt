@@ -1,0 +1,62 @@
+**Course Details**
+
+- **Course Code**: ECE 315/ECE515  
+- **Course Name**: Analog CMOS Circuit Design  
+- **Credits**: 4  
+- **Offered To**: Undergraduate (UG) and Postgraduate (PG) students  
+
+**Course Overview**
+
+This course provides an in-depth exploration of Analog CMOS Circuit Design, focusing on the principles and practices of designing analog circuits using CMOS technology. The course is designed for both undergraduate (UG) and postgraduate (PG) students, offering a comprehensive understanding of circuit design fundamentals.
+
+**Prerequisites**
+
+The mandatory prerequisites include a foundational knowledge of Circuit or Network Analysis, while Electronics Device is listed as a desirable prerequisite. Students are expected to have a basic understanding of electronic devices before enrolling in this course.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Analyze and evaluate CMOS active circuits such as Current Mirrors, Differential Amplifiers, and Power Amplifiers.
+- **CO2:** Solve, analyze, design, and simulate moderately complex MOS-based circuits using industry-standard tools like LTSpice and Eldo.
+- **CO3:** Understand the principles of feedback and stability in circuit analysis and design.
+- **CO4:** Acquire skills to solve, analyze, design, and simulate moderately complex MOS-based circuits with advanced applications.
+- **CO5:** Utilize commercial tools such as ELDO and Cadence Analog Suite for circuit simulation and design.
+
+**Weekly Syllabus and Topics**
+
+The course is structured into 13 weeks, each focusing on specific topics that build upon the previous weeks' content:
+
+- **Week 1:** Introduction to the semiconductor industry, layout design flow, and basic CMOS building blocks.
+- **Week 2:** Single Stage MOS Amplifiers, including Common Source (CS), Common Gate (CG), and Common Drain (CD) Amplifiers.
+- **Weeks 3 & 4:** Analysis of CS, CG, and CS with source degeneration amplifiers; introduction to cascode and folded cascade configurations.
+- **Weeks 5-7:** Examination of current mirrors, differential amplifiers, and Gilbert cells, including both single-ended and differential mode operations.
+- **Weeks 8-9:** Frequency response analysis, feedback principles, and stability in CMOS circuits.
+- **Weeks 10-13:** Multi-stage Op Amp design, noise analysis, and advanced topics such as common-mode rejection ratio (CMRR) calculation.
+
+**Weekly Lab Plan**
+
+The weekly lab plan emphasizes hands-on learning through assignments:
+
+- **Week 1:** Introduction to LTSpice and Eldo TAs' tutorials.
+- **Weeks 2-7:** Assignments focusing on circuit analysis, verification using simulation tools, and basic design projects.
+- **Weeks 8-13:** Advanced assignments involving frequency response analysis, feedback circuits, and multi-stage Op Amp designs.
+
+**Assessment Plan**
+
+The course employs a comprehensive assessment strategy to evaluate students' understanding and application of concepts:
+
+- **Assignments:** 15% contribution towards the final grade, focusing on circuit analysis and simulation.
+- **Class Tests:** 15% each for two tests, assessing theoretical knowledge and problem-solving skills.
+- **Mid-Semester Examination (Mid-Sem):** 20% weightage, covering core concepts and design principles.
+- **End-Semester Examination (End-Sem):** 20% weightage, focusing on advanced topics and comprehensive understanding.
+- **Project:** 30% contribution, emphasizing the application of learned concepts in designing a CMOS-based circuit.
+
+**Resource Materials**
+
+Students are provided with essential textbooks to support their learning:
+
+1. *Design of Analog CMOS Circuits* by Behzad Razavi, Tata McGraw Hill
+2. *CMOS Analog Circuit Design* by Allen and Holberg, 3rd Indian Edition, Oxford University Press
+
+These resources offer in-depth insights into CMOS circuit design principles and practices, complementing the course's theoretical and practical components.

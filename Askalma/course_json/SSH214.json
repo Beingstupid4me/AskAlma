@@ -1,0 +1,177 @@
+{
+  "Course Code": "SSH214",
+  "Course Name": "Introduction To The Study Of Literature",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "Develop and encourage the students to grow and evolve through the literary journey Expose the students to a range of literary genres (involving both fiction and non-fiction): poetry, drama, novel and short story Introduce the students to a wide range of writings of authors from different cultures and ages across the world To sensise students to some of the important common social issues which writers of different backgrounds have examined.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (Mandatory)",
+    "Desirable": "Pre-requisite (Desirable)",
+    "Other": "Pre-requisite (Other)"
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "The student understands how literature provides a window to comprehend the society.",
+      "CO2": "The student is able to interpret texts using the process of literary analysis for all the 3 main literary genres namely prose, poetry and drama.",
+      "CO3": "The student is able to appreciate what makes a work of literature worthy and important - common social issues which authors in spite of their different backgrounds often examined.",
+      "CO4": "To sensise students to some of the important common social issues which writers of different backgrounds have examined."
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the Study of literature, brief overview. How does literature provide a window to the society and what what makes it worthy.",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "How did Literature evolve, Kinds of different Literary genres.Discussion on writings of authors from diffrent cultures and ages across the globe.",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Literary devices of a Short Story. Two Specific Texts (short stories) of American Literature to be discussed - The Yellow Wall Paper by Charlotte Perkins Gilman and The Story of An Hour by Kate Chopin.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Read the link of the specified short story\nRead the link of the specified short story"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Evolution of poetry, what makes it different from prose.",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Discussion on the themes of specific texts of few selected short poems.",
+      "COs Met": [
+        "C03",
+        "C02"
+      ],
+      "Assignments": "Literary Quiz"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Novel- its evolution. Discussion on few award-winning novels and the common social issues which authors, inspite of their different backgrounds have examined.",
+      "COs Met": [
+        "C03",
+        "C02"
+      ],
+      "Assignments": "Students read a novel of their choice and are required to submit the assignment based on it."
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Discussion of Specific Texts eg. Pride and Prejudice by Jane Austen, Autobiography of Frederick Douglass etc.",
+      "COs Met": [
+        "C03",
+        "C02"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Drama- its evolution. Discussion on literary devices and some noted dramas.",
+      "COs Met": [
+        "C03",
+        "C02"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Creative writing",
+      "COs Met": [
+        "C03",
+        "C02",
+        "C01"
+      ],
+      "Assignments": "Creative Writing in Class"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Group Activity ( drama/ poetry)",
+      "COs Met": [
+        "C03",
+        "C02",
+        "C01"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Contemporary writers in English language in India.",
+      "COs Met": [
+        "C03",
+        "C02",
+        "C01"
+      ],
+      "Assignments": "Read about the suggested writers for discussion"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Regional Language writers of various Indian languages, their works, themes e.g. Munshi Premchand etc.",
+      "COs Met": [
+        "C03",
+        "C02",
+        "C01"
+      ],
+      "Assignments": "Read the suggested authors for discussion"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Discussion on appreciation of literature, writers , themes, common social issues.revision and recap",
+      "COs Met": [
+        "C03",
+        "C02",
+        "C01"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": [
+      {
+        "% Contribution in Grade": 20,
+        "Type": "Assignments"
+      },
+      {
+        "% Contribution in Grade": 20,
+        "Type": "Mid Term Exam"
+      },
+      {
+        "% Contribution in Grade": 10,
+        "Type": "(Surprise) Tests"
+      },
+      {
+        "% Contribution in Grade": 40,
+        "Type": "End Semester Exam"
+      },
+      {
+        "% Contribution in Grade": 10,
+        "Type": "Participation"
+      }
+    ],
+    "Evaluation Types": [
+      "Assignments",
+      "Mid Term Exam",
+      "(Surprise) Tests",
+      "End Semester Exam",
+      "Participation"
+    ]
+  },
+  "Resource Material": {
+    "Textbook": "A Glossary of Literary Terms by M. H. Abrams",
+    "Reference Book": "Various Internet Resources including ebooks"
+  }
+}

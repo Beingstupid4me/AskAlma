@@ -1,0 +1,79 @@
+# Course Overview: Computer, Information Ethics and Society (SSH224)
+
+This course is designed for undergraduate students pursuing degrees in various disciplines, including but not limited to computer science, information technology, and related fields. The primary objective of this course is to explore the ethical challenges faced by computer scientists in today's digital society. Students will gain a deep understanding of the codes of ethics, legal issues, and social implications associated with technology.
+
+## Prerequisites
+
+While there are no mandatory prerequisites for this course, it is recommended that students have a foundational knowledge of computer science principles and basic ethical reasoning. Desirable prerequisites include an introductory course in computer ethics or related fields.
+
+## Learning Outcomes (COs)
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Understand and apply different ethical philosophies and frameworks to the domain of information ethics.
+2. **CO2**: Identify and interpret the codes of professional conduct relating to computer science and information technology.
+3. **CO3**: Analyze the local and global impact of computing on individuals, organizations, and society.
+
+## Weekly Lecture Plan
+
+The course is structured into 13 weekly sessions, each focusing on specific topics that align with the learning outcomes:
+
+- **Week 1**: Introduction to Computer Ethics and Cyber Ethics  
+  - CO1: Understanding ethical problems faced by computer scientists.
+  
+- **Week 2**: Moral Reasoning and Thinking in Philosophy  
+  - CO1: Developing critical thinking skills for evaluating ethical issues.
+
+- **Week 3**: Ethical Concepts and Theories  
+  - CO1: Exploring foundational ethical theories and their applications.
+
+- **Week 4**: Consequentialism and Computing  
+  - CO1: Analyzing consequentialist approaches in computing.
+
+- **Week 5**: Digital Divide and Distributive Justice  
+  - CO3: Examining the role of technology in social justice issues.
+
+- **Week 6**: Professional Ethics and Responsibility  
+  - CO2: Understanding professional codes of conduct.
+
+- **Week 7**: Privacy  
+  - CO1, CO3: Investigating privacy issues in digital society.
+
+- **Week 8**: Privacy (cont.)  
+  - CO1, CO3: Continuing analysis of privacy challenges.
+
+- **Week 9**: Security  
+  - CO3: Exploring security practices and ethical considerations.
+
+- **Week 10**: Ethical Issues in Artificial Intelligence  
+  - CO1, CO3: Examining AI's impact on ethics.
+
+- **Week 11**: Community and Personal Identity  
+  - CO3: Analyzing the ethical implications of digital identity formation.
+
+- **Week 12**: Ethics and Intellectual Property  
+  - CO2: Understanding intellectual property rights in a technological context.
+
+- **Week 13**: Course Wrap-Up  
+  - CO1, CO2: Reviewing key concepts and preparing for final assessment.
+
+## Assessment Strategy
+
+The course employs a comprehensive assessment strategy to evaluate student learning:
+
+- **Response Papers (2)**: 20% of the grade. These papers will address specific ethical issues in computing.
+- **Presentation**: 10%. Students will present on a chosen topic related to the course content.
+- **Attendance and Class Participation**: 10%. Active participation in discussions is essential for engagement.
+- **Mid-Semester Exam**: 20%. This exam will assess foundational knowledge covered in the first half of the course.
+- **End-Semester Exam**: 40%. The final exam will evaluate overall understanding of the course material.
+
+## Reading Materials
+
+The course provides a blend of theoretical and practical resources to support student learning:
+
+- **Textbook**: "Ethics and Technology: Controversies, Questions and Strategies for Ethical Computing" by H. Tavani (4th Edition), Wiley.
+- **Papers**: Works by S. Turkle, G. Bostrom, H. Nissenbaum, and others, available through the instructor.
+
+## Conclusion
+
+This course offers a unique opportunity to explore the ethical dimensions of computing while developing critical thinking and problem-solving skills. Through a combination of lectures, discussions, and assessments, students will gain a comprehensive understanding of the challenges and opportunities in this rapidly evolving field.

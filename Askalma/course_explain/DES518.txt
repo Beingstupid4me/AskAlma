@@ -1,0 +1,75 @@
+### Course Overview  
+**Course Code:** DES518  
+**Course Name:** Introduction to Motion Graphics  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+**Course Description:** This course introduces students to the fundamentals of motion graphics, including the principles and tools used in its production. Students will learn how to define functions, understand the significance of motion graphics, and utilize software tools like Adobe After Effects, Photoshop, and Illustrator for creating visual content. The course also includes hands-on assignments and projects to apply these concepts effectively.
+
+---
+
+### Prerequisites  
+- **Mandatory Prerequisites:**  
+  Students must have a basic skill in graphic design tools such as **Illustrator** and **Photoshop**.  
+
+- **Desirable Prerequisites (Optional):** None specified.
+
+---
+
+### Learning Outcomes (COs)  
+1. **CO1:** Understand the basics of motion graphics, including its definition and significance.  
+2. **CO2:** Acquire knowledge of essential tools used in motion graphics production, such as Adobe After Effects, Photoshop, and Illustrator.  
+3. **CO3:** Develop skills in designing typographic elements, visualization for motion graphics, and creating animations.  
+4. **CO4:** Design a short visual story from a given script using animation techniques.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met        | Assignments/Labs/Tutorial/Demonstration |
+|-------------|----------------------------------|----------------|-----------------------------------------|
+| 1           | Introduction to Motion Graphics   | CO1             | Introduction to Motion Graphics          |
+| 2-3         | Introduction to Visual Storytelling and Info Graphics Tools | CO1, CO2       | Introduction to Visual Storytelling and Info Graphics Tools Lab Exercise |
+| 4-5         | Typographic Design and Design Fundamentals | CO1, CO2      | Typographic Design and Design Fundamentals Lab Exercise |
+| 6-7         | Visualization for Motion Graphics and Concept Development | CO2, CO3       | Visualization for Motion Graphics and Concept Development Lab Exercise |
+| 8-9         | Template Creations and Effects Animation | CO2, CO3, CO4  | Template Creations and Effects Animation Lab Exercise |
+| 10-11       | Motion Graphics Theams, Sound and Camera | CO2, CO3, CO4  | Motion Graphics Theams, Sound and Camera Lab Exercise |
+| 12          | Basic Character Animation         | CO2, CO3, CO4  | Basic Character Animation Lab Exercise   |
+| 13          | Understanding of Different File Formats, Render a Project | CO2, CO3, CO4 | Understanding of Different File Formats, Render a Project Lab Exercise |
+
+---
+
+### Weekly Lab Plan  
+
+| Week Number | Laboratory Exercise                     | COs Met        | Platform (Hardware/Software)            |
+|-------------|----------------------------------------|----------------|------------------------------------------|
+| 1           | Introduction to Motion Graphics         | CO1             | Illustrator/Photoshop/After Effect and Adobe Premier |
+| 2-3         | Introduction to Visual Storytelling and Info Graphics Tools | CO1, CO2       | Illustrator/Photoshop/After Effect and Adobe Premier |
+| 4-5         | Typographic Design and Design Fundamentals | CO1, CO2      | Illustrator/Photoshop/After Effect and Adobe Premier |
+| 6-7         | Visualization for Motion Graphics and Concept Development | CO2, CO3       | Illustrator/Photoshop/After Effect and Adobe Premier |
+| 8-9         | Template Creations and Effects Animation | CO2, CO3, CO4  | Illustrator/Photoshop/After Effect and Adobe Premier |
+| 10-11       | Motion Graphics Theams, Sound and Camera | CO2, CO3, CO4  | Illustrator/Photoshop/After Effect and Adobe Premier |
+| 12          | Basic Character Animation             | CO2, CO3, CO4  | Illustrator/Photoshop/After Effect and Adobe Premier |
+| 13          | Understanding of Different File Formats, Render a Project | CO2, CO3, CO4 | Illustrator/Photoshop/After Effect and Adobe Premier |
+
+---
+
+### Assessment Plan  
+
+| Type of Evaluation         | % Contribution in Grade |
+|----------------------------|------------------------|
+| Class Participation         | 10%                   |
+| Assignment                  | 30%                   | Animated Logo, Kinetic Typography, Info graphic |
+| Class Test                 | 30%                   | Title Sequence of a Project |
+| Project                    | 30%                   | Create a Motion Graphics Project from a Variety of Static Sources |
+
+---
+
+### Resources  
+
+| Type              | Title                          |
+|-------------------|---------------------------------|
+| Textbook           | Fundamentals of Adobe After Effect. |
+
+---
+
+**Note:** Additional resources or rows may be inserted as needed based on the specific requirements of the course.

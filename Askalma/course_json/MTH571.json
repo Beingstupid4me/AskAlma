@@ -1,0 +1,174 @@
+{
+  "Course Code": "MTH571",
+  "Course Name": "Integral Transforms and their Applications",
+  "Credits": 4,
+  "Course Offered to": "UG/PG students with instructor consent",
+  "Course Description": "The course is designed as an introduction to the theory and applications of integral transforms to problems in linear differential equations, and to boundary and initial value problems in partial differential equations. The course assumes very limited knowledge of vector calculus, ordinary differential equations, complex variables contour integration, partial differential equations and continuum mechanics. Many new applications in applied mathematics, physics, chemistry, biology and Engineering are included. This course will serve as a reference for advanced study and research in this subject as well as for its applications in the fields of neuroscience, signal processing, informatics and communications. The course is open to all MTech, PhD students and some advanced undergraduates, honors students through instructor consent.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite (Mandatory)",
+      "MTH-204",
+      "MTH-341"
+    ],
+    "Desirable": [
+      "Pre-requisite (Desirable)",
+      "For PhD students course equivalent to MTH-204 (partial differential equation) and/or MTH-341 (complex variables)"
+    ],
+    "Other": [
+      "Pre-requisite(other)",
+      "For PhD students course equivalent to MTH-204 (partial differential equation) and/or MTH-341 (complex variables)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students learn the techniques of Integral transform and are able to solve integral equations.",
+    "CO2": "Students apply the transform techniques to solve difference equations, ODEs, PDEs",
+    "CO3": "Students are able to model physical systems involving non-linear DEs.",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Basic concepts of integral transforms. Fourier transforms: Introduction, basic properties, applications to solutions of ODEs, PDEs.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 1)"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Fourier sine and cosine transforms, application to solutions of PDEs, evaluation of definite integrals. Laplace transforms: Introduction, existence criteria",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Practice Problems (Set 1)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Laplace transforms: Convolution, differentiation, integration, inverse transform, Tauberian Theorems, Watson\u2019s Lemma, solutions to ODEs, PDEs (IVP, BVP).",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 2)"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Applications of joint Fourier-Laplace transform, definite integrals, summation of infinite series, transfer functions, impulse response function of linear systems.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 3)"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Hankel Transforms: Intro, properties and applications to PDEs; Mellin transforms: Intro, properties, applications; Generalized Mellin transforms.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 4)"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Hilbert Transforms: Intro, definition, basic properties, Hilbert transforms in complex plane, applications; asymptotic expansions of 1-sided Hilbert transforms.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 5)"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Stieltjes Transform: definition, properties, applications, inversion theorems, properties of generalized Stieltjes transform; Legendre transforms: Intro, definition, properties, applications.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 6)"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Z Transforms: Intro, definition, properties; dynamic linear system and impulse response, inverse Z transforms, summation of infinite series, applications to finite diff. eqns.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Practice Problems (Set 7)"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Radon transforms: Intro, properties, derivatives, convolution theorem, applications, inverse radon transform",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 8)"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Fractional Calculus and its applications: Intro, fractional derivatives, integrals, laplace transform of fractional integrals & derivatives",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 9)"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Integral transforms in fractional equations: fractional ODEs, integral equations, IVPs for fractional DEs, fractional PDEs, green\u2019s function for fractional Des",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 10)"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Additional problem solving sessions",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Practice Problems (Set 11)"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Some additional topics (external visitor): Orr sommerfeld equation, Proper Orthogonal Decomposition",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Practice Problems (Set 12)"
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": {
+      "Quizzes/Assignments": 30,
+      "Midsem": 30,
+      "Endsem": 40
+    },
+    "COs Met": [
+      "CO1",
+      "CO2",
+      "CO3",
+      "CO4"
+    ]
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Advanced topics in Applied Mathematics by S. Nair",
+      "Intro. To Applied Mathematics, G. Strang",
+      "Integral transforms and their Applications, L .Debnath"
+    ],
+    "Reference": [
+      "Fractional calculus, Oldham and Spanier",
+      "Handbook of mathematical fucntions, M. Abramowitz & I. Stegun"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+### Course Overview  
+**Course Code:** CSE528  
+**Course Name:** Introduction to Blockchain and Cryptocurrency  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+
+This course provides an in-depth introduction to blockchain technology and its applications in cryptocurrency. It covers the foundational concepts, including how cryptocurrencies like Bitcoin and Ethereum function, the role of blockchain in decentralized consensus protocols, digital coin mining, security, privacy, scalability, and their practical uses in smart contracts and financial exchanges.
+
+---
+
+### Prerequisites  
+- **Mandatory Pre-requisite:** Applied Cryptography ( recommended to have a solid understanding of cryptographic primitives such as encryption, hashing, and digital signatures).  
+- **Desirable Pre-requisite:** None specified.  
+- **Other Pre-requisites:** Basic knowledge of programming concepts is recommended for assignments involving smart contracts.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+1. **CO1:** Understand how Bitcoin and other cryptocurrencies operate in real-world scenarios.  
+2. **CO2:** Grasp the cryptographic primitives that power blockchain infrastructure and cryptocurrency infrastructures.  
+3. **CO3:** Anticipate future directions of cryptocurrency, including privacy, multiparty computation, and anonymity.  
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials/Projects               |
+|-------------|-----------------------------------|------------------|----------------------------------------------------|
+| 1           | Introduction to Cryptography and Cryptocurrency (Reference book Ch. 1) | CO1, CO2        | None                                               |
+| 2           | Bitcoin (Reference book Ch. 3)     | CO1, CO2        | Homework: 6 hours per week                           |
+| 3           | Wallet: managing and protecting crypto assets (Reference book Ch. 4)   | CO1             | Lab Exercise: 6 hours per week                      |
+| 4           | Consensus: network models, corruption tolerance, sybil resistance (Ch. 3, 6, 7 of Foundation of Consensus) | CO1, CO2       | Homework: 6 hours per week                         |
+| 5           | Nakamoto Consensus: security, attacks and incentives (Ch. 14, 15 and 17 Foundation of Consensus) | CO1, CO2       | Lab Exercise: 6 hours per week                      |
+| 6           | Randomness beacons, VDFs, and applications to consensus (https://eprint.iacr.org/2018/601.pdf, https://eprint.iacr.org/2018/712.pdf) | CO1, CO2       | Homework: 6 hours per week                         |
+| 7           | Ethereum: Decentralized Apps, EVM, and the Ethereum blockchain (Ethereum white paper, Ethereum yellow paper, Solidity documentation) | CO1, CO2       | Lab Exercise: 6 hours per week                      |
+| 8           | Hyperledger Fabric (https://www.hyperledger.org/use/tutorials)         | CO1, CO2        | Assignment: Programming Assignment                  |
+| 9           | Scaling the blockchain (https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf) | CO1             | Mid-term Assignment: Source code & video for programming assignment |
+| 10          | Privacy: de-anonymizing the blockchain and mixing (Reference book Ch. 6)   | CO1, CO2, CO3    | Lab Exercise: 6 hours per week                      |
+| 11          | zkSNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge): a proof construction where one can prove possession of certain information (https://eprint.iacr.org/2012/718.pdf) | CO1, CO2, CO3    | Lab Exercise: 6 hours per week                      |
+| 12          | zkSNARK applications: confidential transactions and Zcash (https://eprint.iacr.org/2014/349.pdf) | CO1, CO2, CO3    | Project Presentation                               |
+| 13-16       | Project Presentation             | All COs          | Project: Each group chooses a topic in the beginning and gives a presentation. (This is not programming assignment.) |
+
+---
+
+### Assessment Plan  
+
+| Type of Evaluation        | % Contribution in Grade | Times/Details                                                                 |
+|----------------------------|-------------------------|-----------------------------------------------------------------------------|
+| Homework                   | 20%                    | 3 times, each worth 6 hours per week                                         |
+| Assignment                 | 30%                    | Programming Assignment and Lab Exercises                                       |
+| end-sem                  | 20%                    | End-term Exam                                                                 |
+| Project                   | 30%                    | End-term Presentation                                                     |
+
+Additional assessments may be included as needed.
+
+---
+
+### Resource Materials  
+
+- **Textbook:** Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction, Princeton University Press, 2016.  
+- **Reference Books:** Foundation of Consensus, http://elaineshi.com/docs/blockchain-book.pdf

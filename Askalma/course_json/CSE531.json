@@ -1,0 +1,108 @@
+{
+  "Course Code": "CSE 531",
+  "Course Name": "Multi-agent Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The goal of this course is to provide fundamental understanding of multi-agent systems. We will study different multi-agent system techniques for decision-making. These techniques are general and have wide range of applications like e-commerce, robotics, air-traffic control, etc. In this course, we will use multi-robot systems domain as the targeted application domain for assignments and final project. The course has both theoretical and implementation parts. From theoretical perspective, all the major multi-agent system concepts and design techniques will be studied through lectures, presentations and discussions. The implementation component is in the form of assignments and final project.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite (Mandatory)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Formulate a multi-agent system problem in c",
+    "CO2": "Ability to use different multi-agent system solution techniques for a given p",
+    "CO3": "Ability to investigate the application of multi-agent system concept to other proble",
+    "CO4": "Ability to investigate the application of multi-agent system concept to other proble"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Multi-agent formulation: utility, MDP and planning",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Noncooperative games",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "N-person game",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Stackelberg games",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Repeated games",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Cooperative game \u2013 coalition formation",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Negotiation",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Auctions",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Swarm intelligence",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "25",
+    "HW assignments": "20",
+    "Endsem": "35"
+  },
+  "Resource Material": {
+    "Textbook": "Leyton-Brown, Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations, Cambridge University Press, 2008 [http://www.masfoundations.org]",
+    "Reference Book": "Jose Vidal: Fundamentals of Multiagent Systems - [http://multiagent.com]"
+  }
+}

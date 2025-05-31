@@ -1,0 +1,59 @@
+### Course Overview  
+The course BIO545, titled **BIOSTATISTICS** is a 4-credit elective course offered to students pursuing B-Tech and M-Tech programs. This course aims to provide students with a strong foundation in quantitative biology and statistical methods, enabling them to analyze biological data effectively and understand applied biostatistics concepts.
+
+---
+
+### Prerequisites  
+Students are expected to have a basic understanding of **Biology** before enrolling in this course. The prerequisites include familiarity with fundamental biological concepts, which will be essential for grasping the statistical methods covered in this course.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. Develop skills to solve statistical problems related to biological queries.  
+2. Summarize theoretical and quantitative concepts such as Mendelian genetics, GWAS, eQTl analysis, and population genetics.  
+3. Solve quantitative problems related to population genetics.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Lab/Tutorials |
+|-------------|-----------------------------------|------------------|---------------------------|
+| Week 1      | Sampling methods and Sample size determination, Statistical Epidemiology | CO1, CO2         | Programming-based numerical solutions. |
+| Week 2      | Longitudinal Data Analysis, Categorical Data Analysis                   | CO1, CO2         | Programming-based numerical solutions. |
+| Week 3      | Time to event data analysis, Clinical Trials                              | CO1, CO2         | Programming-based numerical solutions. |
+| Week 4      | Quantitative Genetics: Relationship between genotype and phenotype       | CO1, CO2         | Programming-based numerical solutions. |
+| Week 5      | Determining gene number for a polygenic characteristic                  | CO1, CO2         | Programming-based numerical solutions. |
+| Week 6      | Statistical methods for quantitative characteristics                     | CO1, CO2         | Programming-based numerical solutions. |
+| Week 7      | Phenotypic and genotypic variance, Heritability calculation             | CO1, CO2         | Programming-based numerical solutions. |
+| Week 8      | Predicting the response to selection                                    | CO1, CO2         | Programming-based numerical solutions. |
+| Week 9      | Horizontal gene transfer analysis                                         | CO1, CO3         | Programming-based numerical solutions. |
+| Week 10     | Introduction to population genetics                                       | CO1, CO3         | Programming-based numerical solutions. |
+| Week 11     | Hardy-Weinberg law and its extensions                                     | CO1, CO3         | Programming-based numerical solutions. |
+| Week 12     | Estimation of genomic frequencies using Hardy-Weinberg law                | CO1, CO3         | Programming-based numerical solutions. |
+| Week 13     | Quantitative aspects of Mendelian and non-Mendelian genetics             | CO1, CO2         | Programming-based numerical solutions. |
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application of concepts. The breakdown is as follows:  
+
+- **Mid-Semester Examination (30%)**: Covers the first half of the course material, focusing on foundational concepts like statistical methods and data analysis techniques.  
+- **End-Semester Examination (30%)**: Assesses comprehensive understanding of all topics covered during the course, including advanced concepts in population genetics and quantitative traits.  
+- **Assignments/Labs/Tutorials (20%)**: Includes practical tasks and case studies to apply statistical methods to biological data.  
+- **Quiz (20%)**: Regular quizzes to assess students' grasp of key concepts and theories discussed in lectures.
+
+The mid-sem examination carries a significant weight because it evaluates the foundational knowledge necessary for understanding more complex topics later in the course.
+
+---
+
+### Learning Resources  
+
+1. **Textbooks**  
+   - "Genetics: A Conceptual Approach" by Benjamin D. Pierce  
+   - "Principles and Practice of Biostatistics" by B. Antonisamy  
+
+2. **Reference Materials**: Additional reading materials will be provided to supplement the textbooks.
+
+These resources are essential for reinforcing the concepts covered in lectures and completing assignments effectively.

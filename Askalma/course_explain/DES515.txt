@@ -1,0 +1,99 @@
+### Course Overview  
+**Course Name:** Information systems in Public Health  
+**Course Code:** DES515  
+**Credits:** 2  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+
+This course provides an in-depth understanding of public health information systems. It covers key concepts, sources of public health information, ethical considerations, and the role of various systems in supporting public health initiatives. The course is designed to equip students with the knowledge and skills necessary to analyze, design, and implement effective public health information systems.
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisites:** None specified.  
+**Desirable Prerequisites:** Basic understanding of public health concepts and familiarity with information systems.  
+**Other Prerequisites:** None  
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Understand the scope and concerns of public health.  
+- **CO2:** Appreciate the subtleties of diverse forms of information about population health.  
+- **CO3:** Understand the existing use of information systems in supporting public health efforts.  
+- **CO4:** Understand the role of ethics in public health practice and research.  
+
+---
+
+### Weekly Lecture Plan  
+**Week 1:** Scope and Concerns of Public Health - Introduction to public health, its importance, and challenges.  
+**COs Met:** CO1  
+**Assignments/Labs/Tutorials:** Discussion on the relevance of public health information systems.  
+
+**Week 2:** Determinants of Health - Overview of factors influencing health outcomes.  
+**COs Met:** CO1  
+**Assignments/Labs/Tutorials:** Case studies analyzing determinants of health.  
+
+**Week 3:** Sources of Public Health Information - Identification and evaluation of reliable sources.  
+**COs Met:** CO2, CO3  
+**Assignments/Labs/Tutorials:** Research and presentation on sources of public health information.  
+
+**Week 4:** Priority Health Metrics (Indicators of Sustainable Development Goals) - Role in guiding public health strategies.  
+**COs Met:** CO1, CO2, CO3  
+**Assignments/Labs/Tutorials:** Analysis of health metrics and their implications.  
+
+**Week 5:** Historical Perspective of Information Systems in Public Health - Evolution and impact over time.  
+**COs Met:** CO3  
+**Assignments/Labs/Tutorials:** Essay on the historical role of information systems.  
+
+**Week 6:** Information Systems in High-Income Countries (Part 1) - Overview and case studies.  
+**COs Met:** CO2, CO3  
+**Assignments/Labs/Tutorials:** Group discussion on case studies.  
+
+**Week 7:** Information Systems in High-Income Countries (Part 2) - Advanced topics and applications.  
+**COs Met:** CO2, CO3  
+**Assignments/Labs/Tutorials:** Individual research project on high-income country systems.  
+
+**Week 8:** Information Systems in Low- and Middle-Income Countries (Part 1) - Challenges and opportunities.  
+**COs Met:** CO2, CO3  
+**Assignments/Labs/Tutorials:** Case study analysis of low- and middle-income country systems.  
+
+**Week 9:** Information Systems in Low- and Middle-Income Countries (Part 2) - Best practices and innovations.  
+**COs Met:** CO2, CO3  
+**Assignments/Labs/Tutorials:** Group presentation on best practices.  
+
+**Week 10:** New Communication Technologies and Social Media in Public Health - Impact and applications.  
+**COs Met:** CO2, CO3  
+**Assignments/Labs/Tutorials:** Interactive session on social media tools for public health.  
+
+**Week 11:** Ethical Principles in Public Health - Guidelines and case studies.  
+**COs Met:** CO1, CO4  
+**Assignments/Labs/Tutorials:** Reflective discussion on ethical challenges.  
+
+**Week 12:** Key Ethical Issues in Public Health Research - Ethical considerations in research design.  
+**COs Met:** CO1, CO4  
+**Assignments/Labs/Tutorials:** Group activity on ethical issues in research.  
+
+**Week 13:** Challenges and Way Forward - Strategies for addressing public health challenges.  
+**COs Met:** CO2  
+**Assignments/Labs/Tutorials:** Field visit or external resource presentation.  
+
+---
+
+### Assessment Strategy  
+The course will be assessed through the following methods:  
+- **Assignment:** 30% (Includes discussions, case studies, and research papers)  
+- **Quiz:** 10% (Testing understanding of key concepts)  
+- **Mid-Semester Examination:** 20% (Comprehensive evaluation of first half of the course)  
+- **End-Semester Examination:** 20% (Comprehensive evaluation of entire course content)  
+- **Project:** 20% (Application of knowledge in a real-world context)  
+
+---
+
+### Learning Resources  
+**Textbook:** Oxford Textbook of Global Public Health (2015) by [Authors]  
+**Reference:** Ortmann L.W. et al. (2016) Public Health Ethics: Cases Spanning the Globe, published by Springer Cham.  
+**Additional Resource:** Epidemiology, Leon Gordis, Fifth Edition, Elsevier.  
+
+---
+
+This structured approach ensures a comprehensive and engaging learning experience for all students enrolled in DES515.

@@ -1,0 +1,55 @@
+**Course Overview**
+
+**Course Code:** ENT412  
+**Course Name:** Entrepreneurial Khichadi  
+**Credits:** 4  
+**Offered To:** B.Tech. post 4 semesters (students from 3rd year), M.Tech., and Ph.D.  
+
+This course is designed to introduce students to the fundamentals of entrepreneurship, equipping them with essential skills and knowledge to develop viable business ventures. The curriculum emphasizes team-based learning, practical case studies, and comprehensive assessments. Students will engage in weekly lectures, assignments, and presentations to achieve the following course outcomes.
+
+**Prerequisites**
+
+- **Mandatory:** None specified.
+- **Desirable:** Basic understanding of business concepts is recommended but not mandatory.
+- **Other:** None specified.
+
+**Learning Outcomes (COs)**
+
+1. **CO1:** Students will master key elements of entrepreneurship, including attributes like flexibility, ethical values, and problem-solving skills.
+2. **CO2:** Students will develop proficiency in team dynamics, leadership, and aligning goals with business objectives.
+3. **CO3:** Students will synthesize strategies for creating successful ventures, covering areas such as innovation, marketing, and financial management.
+4. **CO4:** Students will demonstrate the ability to propose, analyze, and present comprehensive business plans tailored for entrepreneurial success.
+
+**Weekly Lecture Plan**
+
+- **Week 1:** Introduction to entrepreneurship and course outline.
+- **Week 2:** Formation of student teams for class projects.
+- **Week 3:** Leadership skills and core employee hiring strategies.
+- **Week 4:** Creative thinking and innovation techniques.
+- **Week 5:** Design and analysis of product prototypes.
+- **Week 6:** Marketing strategies and competitive analysis.
+- **Week 7:** Case studies and team project presentations.
+- **Week 8:** Business model development and revenue models.
+- **Week 9:** Financial planning and cash-flow management.
+- **Week 10:** Intellectual property and legal aspects.
+- **Week 11:** Investor pitch preparation and valuation methods.
+- **Week 12:** Final business plan development.
+- **Week 13:** Final presentations.
+
+**Assessment Plan**
+
+- **Attendance & Class Participation:** 20%
+- **Weekly Classwork & Presentations:** 30%
+- **Project Work & Business Plan:** 20%
+- **Final Presentations:** 30%
+
+**Resource Materials**
+
+- **Textbooks:**
+  - "Innovation and Entreprenuership" by Peter F. Drucker
+  - "The Lean startup" by Eric Ries
+  - "The Art of the Start" by Guy Kawasaki
+  - "Business Model Generation" by Alexander Osterwalder, Yves Pigneur
+  - "The Hard Thing about Hard Things" by Ben Horowitz
+
+This comprehensive narrative provides a detailed overview of the course structure and its components, ensuring all elements are addressed as per the user's requirements.

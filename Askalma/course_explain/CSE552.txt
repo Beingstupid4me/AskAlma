@@ -1,0 +1,106 @@
+### Course Overview
+
+**Course Code:** CSE552  
+**Course Name:** Security Engineering  
+**Credits:** 4  
+
+This course is designed to provide students with a comprehensive understanding of computer software security principles and practices. The primary objective is to equip students with the knowledge and skills required to identify, analyze, and mitigate security threats in modern computing environments. The course covers a wide range of topics, including traditional security models, access controls, vulnerabilities, defenses, secure coding practices, cryptographic primitives, authentication frameworks, and applied cryptography.
+
+---
+
+### Prerequisites
+
+**Mandatory Pre-requisites:**  
+- **CSE231 (C/C++ Programming):** A solid foundation in C/C++ programming is required to understand and implement security concepts.  
+
+**Desirable Pre-requisites:**  
+- **Foundations of Computer Security (FCS):** Prior exposure to basic computer security concepts will be beneficial but not mandatory.  
+
+**Other Pre-requisites:**  
+- None specified.
+
+---
+
+### Learning Outcomes
+
+Upon successful completion of this course, students will be able to:  
+1. **CO1:** Comprehend and apply different forms of access control primitives in various software systems.  
+2. **CO2:** Identify software vulnerabilities, particularly those related to buffer overflows, and implement effective defense mechanisms.  
+3. **CO3:** Gain hands-on experience with security primitives in modern operating systems and platforms.  
+4. **CO4:** Use various libraries and tools to achieve secure system configurations, including confidentiality, integrity, and authentication.
+
+---
+
+### Weekly Syllabus and Topics
+
+**Week 1:**  
+- Introduction to Computer Systems Security: Basic concepts of security, traditional security models, and their applicability.  
+
+**Week 2:**  
+- Access Controls: Implementation in various operating systems, vulnerabilities, and defense mechanisms (e.g., Denial of Service attacks).  
+
+**Week 3:**  
+- Buffer Overflow Vulnerabilities: Identification, exploitation, and mitigation techniques.  
+
+**Week 4:**  
+- Stack Smashing Attacks: Understanding the mechanics and defenses against such attacks.  
+
+**Week 5:**  
+- Lab Exercise: Basic buffer overflow vulnerability analysis using formatted output tools.  
+
+**Week 6:**  
+- Lab Exercise: Implementation of Dynamic Memory Allocation vulnerabilities and fixes.  
+
+**Week 7:**  
+- Mid-term Review: Recap of key concepts covered in the first half of the course.  
+
+**Week 8:**  
+- Return2Libc Attacks: Understanding how to exploit such vulnerabilities and defenses against them.  
+
+**Week 9:**  
+- Applied Cryptography: History, stream ciphers, block ciphers (e.g., DES, AES), and encryption using OpenSSL tools.  
+
+**Week 10:**  
+- Message Authentication and Integrity: Implementation of public key cryptography and hashing algorithms.  
+
+**Week 11:**  
+- Lab Exercise: Using OpenSSL for cryptographic operations and generating digital signatures.  
+
+**Week 12:**  
+- Lab Exercise: Confidentiality and authentication using secure coding libraries.  
+
+**Week 13:**  
+- Key Derivation Functions (KDFs) and Public Key Infrastructure (PKI): Understanding their roles in security systems.  
+
+**Week 14:**  
+- Authentication Protocols: Needham-Schroeder Protocol, Kerberos, and Public Key Infrastructure (PKI).  
+
+**Week 15:**  
+- X.509 Certificates and OpenSSL Certificates: Introduction to Linux PAM and their practical applications.  
+
+**Week 16:**  
+- Lab Exercise: Working with X.509 certificates and implementing PKI in Linux environments.  
+
+---
+
+### Assessment Strategy
+
+The course assessment is divided into three components:  
+1. **Assignments (55%):** Regular assignments are given to reinforce concepts covered in lectures, labs, and readings. These include both theoretical questions and practical coding exercises.  
+2. **Midterm Examination (15%):** A written examination assessing students' understanding of the material covered in the first half of the course.  
+3. **Final + Quiz (20% + 10%):** The final assessment includes a written examination and a quiz to evaluate students' grasp of advanced topics and their ability to apply theoretical knowledge to practical scenarios.
+
+---
+
+### Learning Resources
+
+The following resources are recommended for this course:  
+1. **Textbook:** *Craft of Systems Security* by S. Smith and J. Marchesini (Addison-Wesley, 2007).  
+2. **Textbook:** *Secure Coding in C/C++* by Robert C. Seacord (Second Edition, ISBN-13: 978-0321822130).  
+3. **Textbook:** *Computer Security: Principles and Practices* by W. Stallings and L. Browne (Second Edition, ISBN-13: 978-0312775069).  
+
+These textbooks provide comprehensive coverage of the course topics and are essential for understanding the concepts and practical implementations covered in class.
+
+---
+
+This concludes the detailed narrative description of the course based on the provided Excel data.

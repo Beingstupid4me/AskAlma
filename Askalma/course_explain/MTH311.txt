@@ -1,0 +1,56 @@
+### Course Overview  
+The course is coded as **MTH311** and is titled **Combinatorics and its Applications**. It carries a credit value of **4 credits** and is offered to both **UG/PG** students. The primary aim of this course is to introduce students to fundamental combinatorial concepts, with a focus on enumeration techniques. Key topics include permutation groups, linear codes, Stirling numbers, generating functions, Burnside’s Lemma, Polya’s counting theory, error-correcting codes, and applications in finite fields.
+
+The course description emphasizes the importance of combinatorics in various fields such as mathematics, computer science, and cryptography. Students will learn to apply combinatorial structures to solve mathematical problems and understand their real-world applications. The curriculum is designed to cover essential topics like permutation groups, generating functions, Stirling numbers, Catalan numbers, Bell numbers, and the application of group theory in enumeration.
+
+### Prerequisites  
+Students are required to have completed **Math 1** with a focus on Algebra as a prerequisite for this course. No additional prerequisites are specified beyond this requirement.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Develop familiarity with fundamental combinatorial objects and their applications in other fields of mathematics and computer science.  
+- **CO2**: Use combinatorial structures to represent mathematical problems and solve them effectively.  
+- **CO3**: Compute the number of combinatorial objects given a hypothetical scenario.  
+- **CO4**: Apply algebraic methods to solve combinatorial problems.
+
+### Weekly Syllabus and Topics  
+
+#### Week 1-2:  
+The course begins with an introduction to linear recurrences, generating functions, Fibonacci numbers, and Stirling numbers of the second kind. Students will also complete tutorial sheets to reinforce their understanding of these concepts.
+
+#### Week 3-4:  
+This section covers formal power series, Bell numbers, Catalan numbers, and Stirling numbers of the first kind. Tutorial sheets are provided for practice.
+
+#### Week 5-6:  
+Students will explore the application of generating functions in unlabeled counting, including integer partitions and money-changing problems. Tutorial sheets are assigned to apply these concepts.
+
+#### Week 7-8:  
+The focus shifts to permutation groups and symmetry groups, with an introduction to Burnside’s lemma and its applications in enumeration. Tutorial sheets are provided for hands-on practice.
+
+#### Week 9-10:  
+This section delves into the cycle index and Polya’s theory of counting, with tutorial sheets to apply these theories.
+
+#### Week 11-12:  
+Students will study error-correcting codes and linear codes, with tutorial sheets to reinforce their understanding.
+
+#### Week 13:  
+The course concludes with optional topics such as graph enumeration, systems of distinct representatives, and de Bruijn sequences. Tutorial sheets are provided for additional practice.
+
+### Assessment Strategy  
+
+- **Quizzes**: 20% contribution to the final grade, focusing on reinforcing concepts covered in lectures.
+- **Minor Test**: 30% contribution, assessing students' understanding of key topics after each major section.
+- **Major Test**: 50% contribution, evaluating comprehensive knowledge and application of course material.
+
+Additional evaluation methods may be included if specified by the instructor.
+
+### Learning Resources  
+
+#### Resource Material  
+The following reference books are recommended for this course:  
+1. **H. Wilf: Generatingfunctionology** - A comprehensive guide to generating functions and their applications.  
+2. **R.P. Stanley: Enumerative Combinatorics Vol. 1** - An in-depth exploration of combinatorial enumeration techniques.  
+3. **J.H. van Lint and R.M. Wilson: A Course in Combinatorics** - Covers a wide range of topics in combinatorics, including coding theory.  
+4. **Alan Tucker: Applied Combinatorics** - Focuses on the practical applications of combinatorial methods in various fields.
+
+These resources are essential for students to deepen their understanding of the course material and complete assignments effectively.

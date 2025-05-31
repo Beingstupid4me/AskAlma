@@ -1,0 +1,56 @@
+---
+
+**Course Overview**
+
+**Course Code:** DES204  
+**Course Name:** Human Computer Interaction  
+**Credits:** 4  
+**Offered To:** UG/PG  
+**Course Description:** This course provides a comprehensive understanding of human computer interaction, focusing on user-centered design, modern interfaces, rapid prototyping, usability, and evaluation. It equips students with the skills to design intuitive and effective user interfaces.
+
+**Prerequisites:** None specified  
+
+**Learning Outcomes (COs):**  
+- **CO1:** Broad understanding of HCI fundamentals and latest technologies.  
+- **CO2:** Knowledge of user-centered design and rapid prototyping techniques.  
+- **CO3:** Ability to evaluate multiple interface alternatives using quantitative and qualitative methods.  
+- **CO4:** Proficiency in statistical analysis and effective presentation of research findings.
+
+**Weekly Lecture Plan**
+
+| Week | Lecture Topic                     | COs Met       | Assignments/Reflections |
+|------|-----------------------------------|---------------|--------------------------|
+| 1    | Introduction to HCI and Interaction Design Process             | CO1, CO2      | Course orientation quiz  |
+| 2    | Scientific Foundations and Concepts of Interaction         | CO1, CO2      | Reading assignment        |
+| 3    | Cognitive, Social, and Emotional Interaction                | CO1           | Group discussion          |
+| 4    | Introduction to User Interfaces                                | CO1, CO2      | Individual task           |
+| 5    | 3D User Interfaces (Virtual and Augmented Reality)         | CO1           | Case study analysis       |
+| 6    | Affective/Empathic Computing and Interaction Design        | CO1, CO2      | Research paper presentation|
+| 7    | Ideation and Design Process, User Modeling                   | CO2           | Assignment submission     |
+| 8    | Rapid Prototyping                  | CO2           | Peer review               |
+| 9    | Usability Testing Methods (Fitts's Law, Heuristics)        | CO1, CO3      | Group project proposal    |
+| 10   | Quantitative and Qualitative Research Methods              | CO1, CO4      | Individual report         |
+| 11   | Case Studies in HCI                      | CO2           | Presentations             |
+| 12   | Student Presentations and Feedback                       | CO3, CO4      | Final review              |
+
+**Assessment Plan**
+
+| **Type of Evaluation**       | **% Contribution in Grade** | **% Contribution in Grade** | **% Contribution in Grade** | **% Contribution in Grade** |
+|-------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
+| Assignment                    | 25                          | 25                          | 25                          | 25                          |
+| Project                      | 40                          | 40                          | 40                          | 40                          |
+| Mid-sem Examination          | 10                          | 10                          | 10                          | 10                          |
+| End-sem Examination         | 20                          | 20                          | 20                          | 20                          |
+| Class Participation           | 5                           | 5                           | 5                           | 5                           |
+
+**Resource Materials**
+
+- **Textbooks:**  
+  - "Human Computer Interaction: An Empirical Research Perspective" by I. Schott Mackenzie  
+  - "Research Methods in Human-Computer Interaction" by Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser  
+  - "3D User Interfaces: Theory and Practice (2nd Edition)" by Joseph J. LaViola Jr., Ernst Kruijff, Ryan P. McMahan, Doug Bowman, Ivan P. Poupyrev  
+  - "Interaction Design: Beyond Human-Computer Interaction (4th Edition)" by Jenny Preece, Helen Sharp, Yvonne Rogers  
+
+- **Reference:** Research papers to be discussed in class.
+
+This structured approach ensures a comprehensive and engaging learning experience for all students enrolled in the course.

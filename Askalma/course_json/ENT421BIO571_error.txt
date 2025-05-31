@@ -1,0 +1,169 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at "Course Code," I see it's listed as BIO571/ENT421 in row 3 of Table1. So that should be straightforward.
+
+Next is "Course Name." From the same table, it's Healthcare Innovation and Entrepreneurship Essentials in row 2.
+
+For "Credits," the value is given as 2 in row 3.
+
+Moving on to "Course Offered to," which is listed under row 4 as UG/PG. I'll make sure that's correctly captured.
+
+The "Course Description" spans rows 5-8 and includes details about introducing students to Healthcare Innovation, focusing on Digital Health and Entrepreneurship. It mentions Biotechnology, Medical Devices, and Digital Health/IT. The objective is to generate startup ideas by identifying gaps and opportunities in the Indian and US ecosystems.
+
+Pre-requisites are listed under row 7 as UG, Masters, and Ph.D. students. I'll note that "Mandatory" pre-requisite is specified for some rows, so I should include only those marked as mandatory.
+
+Looking at the COs Met section (rows 12-13), each week's topic corresponds to specific COs. For example, Week 1 covers Healthcare Value Chain and meets all four COs. I'll need to map each week's lecture topics to their respective COs.
+
+The Weekly Lecture Plan starts from row 15. Each week has a topic and COs met. Some weeks have multiple topics spread over two rows (like Weeks 2 &3). I'll structure this as an array of objects, ensuring that each entry includes the week number, lecture topic, COs met, and assignments.
+
+Assignments are listed under the Weekly Lecture Plan in some rows. For example, HW1 is assigned in Week 2&3, and so on. These should be included with their respective weeks.
+
+The Assessment Plan section (rows 27-34) includes various types of evaluations like Mid-Sem, Assignments, End-Sem, Pitch, Quizzes, each with a percentage contribution. I'll structure this as an object mapping evaluation types to their percentages.
+
+Resource Material is listed at the end under rows 35 and beyond. It includes Textbook and Reference Book details. I'll create an object with these two keys pointing to their respective titles.
+
+I need to ensure that all missing values are handled gracefully, using empty strings or nulls where necessary. For example, if a week doesn't have an assignment, it should be represented as "null" in the JSON.
+
+Also, for "Credits," since it's present and valid, I'll include it as a number. If there were no credits specified, it would default to null.
+
+I must structure everything into the provided JSON format without any markdown or additional text. Each section is clearly defined, so I'll map each extracted piece accordingly.
+
+Finally, I'll double-check that all data points are correctly placed and formatted according to the JSON specifications.
+</think>
+
+```json
+{
+  "Course Code": "BIO571/ENT421",
+  "Course Name": "Healthcare Innovation and Entrepreneurship Essentials",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The objective of this course is to introduce students to the Healthcare Innovation with a specific focus on Digital Health and Entrepreneurship. It covers Biotechnology, Medical Device and Digital Health/IT. The course will aim to generate healthcare startup ideas after identifying the gaps and opportunities in the Indian and US ecosystem.",
+  "Prerequisites": {
+    "Mandatory": ["UG", "Masters", "Ph.D."]
+  },
+  "Course Outcomes": {
+    "CO1": "Students can analyze and critique Digital Health and Health IT Startups in India and the US",
+    "CO2": "Students can analyze and critique the Biotech and Biopharma Startups in India and US",
+    "CO3": "Students can analyze and critique the Medical Device Startups in India and US",
+    "CO4": "Students can create new ideas for healthcare startups"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Healthcare Value Chain",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": 2 & 3,
+      "Lecture Topic": "Healthcare Innovation Ecosystem",
+      "COs Met": null,
+      "Assignments": "HW1"
+    },
+    {
+      "Week": 4, 5 & 6,
+      "Lecture Topic": "Digital Health/IT startups- gaps, opportunities, regulations",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 1 [Week 4]"
+    },
+    {
+      "Week": 7, 8 & 9,
+      "Lecture Topic": "Biotech startups- gaps, opportunities, regulations",
+      "COs Met": ["CO2"],
+      "Assignments": "HW2, Quiz 2 [Week 8]"
+    },
+    {
+      "Week": 10, 11,
+      "Lecture Topic": "Medical devices startups- gaps, opportunities, regulations",
+      "COs Met": ["CO3"],
+      "Assignments": "Quiz 3 [Week 11]"
+    },
+    {
+      "Week": 12 & 13,
+      "Lecture Topic": "Growth hacking your health venture",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-Sem": 15,
+    "Assignments": 10,
+    "End-Sem": 30,
+    "Pitch": 30,
+    "Quizzes": 15
+  },
+  "Resource Material": {
+    "Textbook": "Biodesign: The Process of Innovating Medical Technologies 2nd Edition (Yock, Zenios, Mackower et al)",
+    "Reference": "The Business of Healthcare Innovation (Lawton Robert Burns), National Digital Health Blueprint"
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "BIO571/ENT421",
+  "Course Name": "Healthcare Innovation and Entrepreneurship Essentials",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The objective of this course is to introduce students to the Healthcare Innovation with a specific focus on Digital Health and Entrepreneurship. It covers Biotechnology, Medical Device and Digital Health/IT. The course will aim to generate healthcare startup ideas after identifying the gaps and opportunities in the Indian and US ecosystem.",
+  "Prerequisites": {
+    "Mandatory": ["UG", "Masters", "Ph.D."]
+  },
+  "Course Outcomes": {
+    "CO1": "Students can analyze and critique Digital Health and Health IT Startups in India and the US",
+    "CO2": "Students can analyze and critique the Biotech and Biopharma Startups in India and US",
+    "CO3": "Students can analyze and critique the Medical Device Startups in India and US",
+    "CO4": "Students can create new ideas for healthcare startups"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Healthcare Value Chain",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": null
+    },
+    {
+      "Week": 2 & 3,
+      "Lecture Topic": "Healthcare Innovation Ecosystem",
+      "COs Met": null,
+      "Assignments": "HW1"
+    },
+    {
+      "Week": 4, 5 & 6,
+      "Lecture Topic": "Digital Health/IT startups- gaps, opportunities, regulations",
+      "COs Met": ["CO1"],
+      "Assignments": "Quiz 1 [Week 4]"
+    },
+    {
+      "Week": 7, 8 & 9,
+      "Lecture Topic": "Biotech startups- gaps, opportunities, regulations",
+      "COs Met": ["CO2"],
+      "Assignments": "HW2, Quiz 2 [Week 8]"
+    },
+    {
+      "Week": 10, 11,
+      "Lecture Topic": "Medical devices startups- gaps, opportunities, regulations",
+      "COs Met": ["CO3"],
+      "Assignments": "Quiz 3 [Week 11]"
+    },
+    {
+      "Week": 12 & 13,
+      "Lecture Topic": "Growth hacking your health venture",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-Sem": 15,
+    "Assignments": 10,
+    "End-Sem": 30,
+    "Pitch": 30,
+    "Quizzes": 15
+  },
+  "Resource Material": {
+    "Textbook": "Biodesign: The Process of Innovating Medical Technologies 2nd Edition (Yock, Zenios, Mackower et al)",
+    "Reference": "The Business of Healthcare Innovation (Lawton Robert Burns), National Digital Health Blueprint"
+  }
+}

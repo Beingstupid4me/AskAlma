@@ -1,0 +1,73 @@
+# Course Overview  
+**Course Code:** CSE441/541  
+**Course Name:** Advanced Biometrics  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+
+This course is designed to provide an in-depth understanding of advanced biometric systems and their applications. It covers the fundamental concepts, algorithms, and techniques used in biometric technologies, including face recognition, fingerprint analysis, and iris recognition. The course also integrates topics from machine learning, image processing, and pattern recognition to equip students with the necessary skills for designing and implementing biometric systems.
+
+---
+
+# Prerequisites  
+**Mandatory Pre-requisite:** MTH201 Probability & Statistics  
+**Desirable Pre-requisite:** CSE343/CSE543 Machine Learning  
+**Other Pre-requisites:** Pattern Recognition or Machine Learning  
+
+Students are expected to have a basic understanding of probability and statistics, as well as machine learning concepts. Exposure to pattern recognition techniques is highly recommended but not mandatory.
+
+---
+
+# Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Understand the fundamental principles and algorithms used in biometric systems, including face, fingerprint, and iris recognition.  
+2. **CO2:** Evaluate the performance of biometric systems using appropriate metrics and techniques.  
+3. **CO3:** Design and implement biometric systems for real-world applications, considering factors such as accuracy, reliability, and security.  
+4. **CO4:** Analyze and solve theoretical and practical problems related to biometrics, working independently or in groups.
+
+---
+
+# Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met        | Assignments/Labs/Tutorials                                                                 |
+|-------------|-----------------------------------|----------------|-------------------------------------------------------------------------------------------|
+| 1           | Introduction to Biometrics and Modality | CO1             | Paper Reading                                                                                   |
+| 2           | Performance Evaluation of Biometric Systems | CO1, CO2       | Coding Assignment                                                                        |
+| 3           | Physiological Biometrics: Face, Fingerprint, and Iris | CO1, CO2, CO3   | Coding Assignment and Paper Reading                                                        |
+| 4           | Behavioral Biometrics              | CO1, CO2, CO3   | Coding Assignment and Paper Reading                                                        |
+| 5           | Continuous Authentication          | CO1, CO2, CO3   | Coding Assignment and Paper Reading                                                        |
+| 6           | Privacy and Template Protection, Presentation Attacks | CO1, CO2, CO3   | Coding Assignment                                                                            
+| *Please insert more rows if required*  
+
+---
+
+# Weekly Lab Plan  
+
+| Week Number | Laboratory Exercise                | COs Met        | Platform (Hardware/Software)                                                              |
+|-------------|------------------------------------|----------------|-------------------------------------------------------------------------------------------|
+| Course does not have a lab component | N/A                                | N/A             |                                                                                             |
+
+---
+
+# Assessment Plan  
+
+| Type of Evaluation       | % Contribution in Grade | Week(s)        |
+|---------------------------|------------------------|-----------------|
+| Quiz                      | 10                     | Throughout the course |
+| Assignment                 | 25                    | Ongoing          |
+| Paper Presentation         | 10                    | Mid-sem         |
+| Project                   | 40                    | Ongoing, End-sem|
+| Mid-sem Exam              | 10                    | Week 6          |
+| End-sem Exam              | 10                    | Week 12         |
+
+---
+
+# Resource Materials  
+
+**Type:**  
+- **Textbook:** Handbook of Biometrics, by Jain, Flynn, and Ross (2008)  
+- **Reference:** Same as above  
+- **Internet Resource:** Additional materials will be provided in class  
+
+--- 
+
+This narrative provides a comprehensive overview of the course structure, prerequisites, learning outcomes, weekly schedule, assessment details, and resource materials. The focus is on creating a well-organized and detailed narrative that aligns with the structured Excel data while maintaining clarity and completeness.

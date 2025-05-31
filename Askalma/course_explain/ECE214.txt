@@ -1,0 +1,81 @@
+### Course Overview  
+**Course Name:** Integrated Electronics: Circuits and Systems  
+**Course Code:** ECE 214  
+**Credits:** 4  
+**Offered To:** Undergraduate Students (UG)  
+
+This course provides a comprehensive understanding of electronic circuits and systems, focusing on the analysis and design of both analog and digital circuits. The curriculum begins with an overview of semiconductor technology, including Bipolar Junction Transistors (BJTs), Metal Oxide Field Effect Transistors (MOSFETs), and their respective models. Subsequent weeks delve into amplifiers, biasing techniques, power amplifier design, and advanced topics such as CMOS digital logic circuits and memory elements. The course integrates theoretical concepts with practical laboratory exercises to reinforce learning outcomes.
+
+---
+
+### Prerequisites  
+- **Pre-requisite (Mandatory):** Digital Circuits (CSE111) or its equivalent  
+- **Desirable:** Basic Electronics (ECE113)  
+- **Other:** Introductory Engineering Design (DES130)  
+
+Students are expected to have a foundational understanding of digital and analog electronics before enrolling in this course.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Derive small-signal models for BJTs and MOSFETs.  
+- **CO2:** Apply biasing techniques to BJT and MOSFET circuits.  
+- **CO3:** Analyze single-stage and multi-stage amplifier circuits.  
+- **CO4:** Design and analyze CMOS digital logic circuits.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met       | Assignments/Labs/Tutorials          |
+|-------------|-----------------------------------|----------------|---------------------------------------|
+| 1           | Active Devices and Controlled Source Models    | CO1            | Reading Assignment                    |
+| 2           | Bipolar Junction Transistor (BJT) and MOSFET Overview | CO1            | Lab & Written Assignment on Circuit Analysis (KCL, KVL) |
+| 3           | BJT and MOSFET Small-Signal Models          | CO1            | Lab & Written Assignment on Circuit Analysis (Small Signal Model) |
+| 4           | Biasing Techniques for BJT and MOSFET       | CO2            | Lab & Written Assignment on Circuit Analysis (Small Signal Model) |
+| 5           | Single-Stage Amplifiers              | CO2, CO3      | Lab & Written Assignment on Transistor Biasing        |
+| 6           | Cascode Amplifier, Differential Amplifiers, and Op-Amp Basics | CO2, CO3 | Lab & Written Assignment on Amplifier Design          |
+| 7           | Power Amplifiers – Small-Signal vs Large-Signal Behavior   | CO2, CO3      | Lab & Written Assignment on Power Amplifier Design    |
+| 8           | Power Amplifiers (continued)            | CO3            | Lab & Written Assignment on Power Amplifier Design    |
+| 9           | TTL and CMOS Inverter Circuit Analysis     | CO4            | Lab & Written Assignment on CMOS Logic Design        |
+| 10          | Digital CMOS Logic Circuits              | CO4            | Lab & Written Assignment on CMOS Logic Design        |
+| 11          | Memory and Advanced Digital Circuits      | CO4            | Lab & Written Assignment on Memory and Advanced Digital Circuits |
+
+---
+
+### Weekly Lab Plan  
+
+| Week Number | Laboratory Exercise                  | COs Met       | Platform (Hardware/Software)         |
+|-------------|-------------------------------------|----------------|---------------------------------------|
+| 1           | Hybrid Parameters of Passive and Active Circuits   | CO1            | Hardware                             |
+| 2           | Characteristics of Basic Active Devices          | CO1            | Hardware                             |
+| 3           | MOSFET Characteristics Study                | CO1            | Hardware                             |
+| 4           | MOSFET Common-Source Amplifier              | CO1, CO2, CO3  | Hardware                             |
+| 5           | Feedback Bias and Active Biasing Techniques   | CO2, CO3      | Hardware                             |
+| 6           | Single-Stage Common-Emitter BJT Amplifier     | CO2, CO3      | Hardware                             |
+| 7           | Two-Stage Common-Source MOSFET Amplifier    | CO2, CO3      | Hardware                             |
+| 8           | MOSFET Current Mirror Circuit               | CO2, CO3      | Hardware                             |
+| 9           | Power Amplifier Design                  | CO2, CO3      | Hardware                             |
+| 10          | Power Amplifier (continued)              | CO3            | Hardware                             |
+
+---
+
+### Assessment Plan  
+
+| Type of Evaluation       | % Contribution in Grade |
+|---------------------------|------------------------|
+| Assignment                 | 10%                   |
+| Quiz                     | 10%                   |
+| Mid-Semester Examination   | 30%                   |
+| End-Semester Examination   | 30%                   |
+| LAB                      | 20%                   |
+
+---
+
+### Resource Materials  
+
+- **Textbook:** Microelectronic Circuits, 6th Edition by Adel Sedra and Kenneth Smith, Oxford University Press.  
+- **Reference Book:** Foundations of Analog and Digital Electronics Circuits by Anant Agarwal and Jeffrey H. Lang.
+
+This course is designed to provide a thorough understanding of electronic circuits and systems through a combination of theoretical instruction and practical laboratory work. Students are encouraged to actively participate in both lectures and labs to achieve the learning outcomes effectively.

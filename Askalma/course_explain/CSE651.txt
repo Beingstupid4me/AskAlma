@@ -1,0 +1,73 @@
+### Course Overview  
+**Course Name:** Topics in Adaptive Cybersecurity (TAC)  
+**Course Code:** CSE5TAC  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate Students  
+**Duration:** One academic semester  
+
+This course is designed to provide students with an interactive learning platform focused on exploring advanced topics in adaptive cybersecurity. The primary objectives include instruction, hands-on projects, and student presentations of research papers. The curriculum covers essential concepts such as threat intelligence, situational awareness, and real-time adaptive security measures. By the end of this course, students will be equipped to analyze current trends, understand cutting-edge research, and contribute to ongoing discussions in the field of adaptive cybersecurity.
+
+---
+
+### Prerequisites  
+**Mandatory:**  
+- **CSE345/CSE545 Foundations of Computer Security (or) CSE350/CSE550 Network Security**  
+
+**Desirable:**  
+- Students are expected to have a solid understanding of basic concepts in machine learning.  
+
+**Other:**  
+- None specified.
+
+---
+
+### Learning Outcomes  
+Upon successful completion of this course, students will be able to:  
+
+1. **CO1:** Define and describe several key topics in adaptive cybersecurity.  
+2. **CO2:** Deconstruct and explain the effectiveness and limitations of proposed solutions from relevant literature.  
+3. **CO3:** Critique the effectiveness and limitations of solutions presented in academic literature.  
+4. **CO4:** Design and develop specific solutions to address open problems in adaptive cybersecurity.  
+5. **CO5:** Apply critical thinking and problem-solving skills to real-world scenarios in adaptive cybersecurity.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met (COs) | Assignments/Labs/Tutorials               |
+|-------------|-----------------------------------|---------------------------|-----------------------------------------|
+| 1-2         | Refresher of basic concepts in Information Security and Machine Learning, Introduction to Adaptive Cybersecurity | CO1, CO2                      | Weekly research paper presentation by students (rotation), Weekly research paper reading assignments        |
+| 3-4         | Dynamic Vulnerability Assessment   | CO1, CO2, CO3             | Weekly research paper presentation by students (rotation), Weekly research paper reading assignments        |
+| 5-6         | Advanced Topics in Moving Target Defense | CO1, CO2, CO3            | Weekly research paper presentation by students (rotation), Weekly research paper reading assignments        |
+| 7-8         | Advanced Topics in Dynamic Intrusion Detection and Prevention | CO1, CO2, CO3            | Weekly research paper presentation by students (rotation), Weekly research paper reading assignments        |
+| 9-10        | Dynamic Threat Assessment/Intelligence with Predictive Analytics | CO1, CO2, CO3            | Weekly research paper presentation by students (rotation), Weekly research paper reading assignments        |
+| 11-12       | Proactive Cybersecurity using User Behavioral Modeling   | CO1, CO2, CO3            | Weekly research paper presentation by students (rotation), Weekly research paper reading assignments        |
+| 13+         | Buffer for additional topics        | CO1, CO2, CO3            | Weekly research paper presentation by students (rotation)                                             |
+
+---
+
+### Assessment Plan  
+
+| Type of Evaluation          | % Contribution in Grade       |
+|------------------------------|-------------------------------|
+| Course Project               | 25%                          |
+| Paper Presentation           | 30%                          |
+| Mid-sem Examination         | 20%                          |
+| End-Sem Examination         | 25%                          |
+| *Please insert more row for other type of Evaluation if necessary | *Insert additional evaluation methods here |
+
+---
+
+### Resource Materials  
+
+1. **Textbook:**  
+   - "Adaptive Cybersecurity: Concepts and Practice" by Dr. S. Tan and Prof. A. Kumar  
+
+2. **Reference Book:**  
+   - "Cybersecurity Insights: Real-world Cases, Analysis & Solutions" by John R. Hopcroft and Rajeev Motwani  
+
+3. **Specific research papers selected by instructor from top tier symposiums, conferences, and journals.**
+
+---
+
+This comprehensive course structure is designed to provide students with a well-rounded understanding of adaptive cybersecurity while fostering critical thinking and innovative problem-solving skills.

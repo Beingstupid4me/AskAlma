@@ -1,0 +1,63 @@
+### Course Overview  
+The course titled **Statistical Inference (MTH372)** is a 4-credit undergraduate/graduate program designed to provide students with a comprehensive understanding of parametric and non-parametric statistical inference. The course also introduces foundational concepts in building statistical linear models, focusing on estimation, hypothesis testing, confidence intervals, and the application of linear regression and ANOVA techniques. Students will gain hands-on experience through simulations, real data analysis, and practical assignments using tools like MATLAB.
+
+---
+
+### Prerequisites  
+Students enrolling in this course are expected to have completed **Probability and Statistics** (MTH201) or an equivalent foundational course in probability theory. Additionally, a basic understanding of statistical signal processing or econometrics is recommended. Students who have completed **Statistical Signal Processing/Econometrics I** (MTH356) will find this course particularly beneficial.
+
+---
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+1. **CO1**: Understand and apply principles of data reduction, including sufficient, minimal, and complete statistics, as well as likelihood and invariance principles.  
+2. **CO2**: Master methods of point estimation, such as moments, maximum likelihood, and expectation minimization, while evaluating estimators based on criteria like mean squared error, unbiasedness, sufficiency, and consistency.  
+3. **CO3**: Conduct hypothesis testing using techniques like the likelihood ratio test, invariant tests, power functions, and most powerful tests.  
+4. **CO4**: Construct confidence intervals for known probability distributions and apply these methods to real-world data analysis.  
+5. **CO5**: Build and analyze simple statistical models, including linear regression and ANOVA, using appropriate software tools.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met   | Assignments/Labs/Tutorials               |
+|-------------|-----------------------------------|------------|------------------------------------------|
+| 1           | Principles of Data Reduction    | CO1        | Tutorial 1: Data reduction techniques     |
+| 2           | Methods of Point Estimation     | CO1, CO4   | Tutorial 2: Estimation methods          |
+| 3           | Hypothesis Testing               | CO2, CO4   | Tutorial 3: Building hypothesis tests    |
+| 4           | Interval Estimation              | CO2, CO4   | Tutorial 4: Interval estimation techniques|
+| 5           | Random Sampling and Properties of Sample Mean and Variance | CO3, CO4 | Tutorial 5: Random sampling concepts     |
+| 6           | Student’s t and F Distributions | CO3, CO4   | Tutorial 6: Distribution properties      |
+| 7           | Hypothesis Testing (Continued)   | CO2, CO4   | Tutorial 7: Advanced hypothesis testing|
+| 8           | Interval Estimation (Continued) | CO2, CO4   | Tutorial 8: Real-life interval estimation|
+| 9           | Linear Regression Basics        | CO4, CO5   | Assignment 1: Linear regression models  |
+| 10          | Analysis of Variance            | CO4, CO5   | Assignment 2: ANOVA analysis             |
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application. The breakdown is as follows:  
+- **Assignments**: 20% (Includes problem-solving tasks and real-world data analysis)  
+- **Quiz**: 20% (Evaluates understanding of key concepts covered in lectures)  
+- **Mid-Semester Examination**: 25% (Assesses comprehensive grasp of course material up to the midpoint)  
+- **End-Semester Examination**: 35% (Comprehensive evaluation of all topics covered during the semester)
+
+Additional assessment types, such as lab reports or group projects, may be included at the discretion of the instructor.
+
+---
+
+### Learning Resources  
+Students are encouraged to utilize the following resources for this course:  
+1. **Textbooks**:  
+   - "Introduction to Mathematical Statistics" by Robert V. Hogg and Allen T. Craig  
+   - "An Introduction to Probability and Statistics" by Vijay K. Rohatgi and A.K. Md Ehsanes Saleh (2nd Edition)  
+
+2. **Reference Material**:  
+   - "Statistical Inference, Second edition" by George Casella and Roger L. Berger  
+
+These resources provide a solid foundation for understanding the theoretical concepts covered in the course. MATLAB will be used extensively for practical assignments to reinforce learning outcomes.
+
+---
+
+### Conclusion  
+This course offers a rigorous exploration of statistical inference, equipping students with the tools to analyze data and make informed decisions. Through a combination of lectures, tutorials, and hands-on assignments, students will gain both theoretical knowledge and practical skills in statistical modeling and analysis.

@@ -1,0 +1,51 @@
+### Course Overview  
+This course ECE534, named "Optical Communications Systems" provides an in-depth introduction to modern fiber-optic communication systems. It covers fundamental principles, including components such as optical fibers, light sources, detectors, and their integration into communication systems. The course also delves into system design, performance calculations, and practical considerations like dispersion, loss, and noise. Additionally, it introduces students to advanced topics such as wavelength division multiplexing (WDM) and coherent optical communications.
+
+---
+
+### Prerequisites  
+- **Mandatory Pre-requisites**: ECE240 Principles of Communication Systems  
+- **Desirable Pre-requisites**: None specified  
+- **Other Pre-requisites**: None specified  
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1**: Analyze and compare key optical communication components from both physical and system perspectives.  
+2. **CO2**: Design digital fiber-optic links with an understanding of their performance characteristics.  
+3. **CO3**: Perform engineering calculations for fiber-optic systems, identify trade-offs, and apply knowledge to modern systems.  
+4. **CO4**: Gain practical exposure to optical communication software tools used in designing and analyzing fiber-optic links.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|---------------------|----------------------------|
+| Week 1,2     | Evolution of light wave systems; optical fibers; step-index & graded-index mode theory | CO1                 | None                        |
+| Week 3-4     | Dispersion in fibers; dispersion limits and solutions (dispersion-shifted, flattened fibers); fiber losses and nonlinear effects | CO1                 | None                        |
+| Week 5-6     | LED structures; spectral distribution; semiconductor lasers; threshold conditions; transmitter design | CO1, CO2             | 2 Assignments                |
+| Week 7-8     | PIN and APD diodes; photo detector noise; signal impairments; receiver design | CO1, CO2             | 2 Assignments                |
+| Week 9       | Amplifiers: basic concepts; semiconductor optical amplifiers; Raman, Brillouin, and erbium-doped fiber amplifiers; pumping requirements; cascaded amplifiers | CO3                 | 2 Assignments                |
+| Week 10-11   | Power budget and bandwidth limitations in point-to-point systems; OSNR evaluation in high-speed optical transmission; dispersion management; nonlinearity management | CO3, CO4             | 2 Assignments                |
+| Week 12     | Basic coherent systems; coherent detection principles (homodyne and heterodyne detection) | CO3, CO4             | 2 Assignments                |
+| Week 13     | WDM lightwave systems; components of WDM systems; performance issues in WDM systems | CO3, CO4             | None                        |
+
+---
+
+### Assessment Strategy  
+- **Mid-sem**: 25% contribution  
+- **End-sem**: 45% contribution  
+- **Project**: 20% contribution  
+- **Assignment**: 10% contribution  
+
+The end-semester examination carries a significant weight (45%), reflecting its importance in evaluating overall understanding. The project contributes 20%, while assignments and mid-sem evaluations account for the remaining 30%.
+
+---
+
+### Learning Resources  
+1. **Textbook**: G. Keiser, "Optical Fiber Communication Systems", McGraw Hill, New York 2000.  
+2. **Reference Book**: John M. Senior, “Optical Fiber Communications: Principles and Practice” (second edition), Prentice Hall of India.  
+
+These resources provide comprehensive coverage of the course topics and are recommended for deeper understanding and practical exposure to optical communication tools.

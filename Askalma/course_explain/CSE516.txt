@@ -1,0 +1,95 @@
+# Course Overview: Theories of Deep Learning (CSE516/ECE559)
+
+## 1. Course Code and Name
+This course is coded as **CSE516/ECE559** and is titled **Theories of Deep Learning**.
+
+## 2. Credits and Offering Details
+The course carries **4 credits** and is offered to both **UG (Undergraduate)** and **PG (Post-Graduate)** students.
+
+## 3. Course Description
+Deep learning, a subset of machine learning, has revolutionized how computers learn from data by automatically identifying hierarchical patterns. This course delves into the theoretical foundations that explain why deep learning models are so effective in tasks such as image recognition, audio processing, and time-series analysis. Students will explore advanced mathematical concepts and tools that underpin these models, with a focus on their practical applications.
+
+### Key Features of the Course:
+- **Assessment Methodology**: The course is evaluated through individual projects rather than traditional end-semester exams.
+- **Assignments**: Include mathematically intensive problem sets and computational experiments to reinforce theoretical concepts.
+- **Computational Experiments**: These are integral to the learning process, allowing students to explore theories in a hands-on manner and develop essential skills for working with deep learning models.
+
+### Scope of Topics:
+Students have significant flexibility in selecting topics of interest but must adhere to specific restrictions. Details on these will be provided during the first week of classes.
+
+## 4. Prerequisites
+To succeed in this course, students are expected to have completed or be familiar with the following prerequisites:
+
+- **Mathematics III**: A foundational course in linear algebra.
+- **Python/Matlab Programming**: Proficiency in either Python or Matlab is required for computational experiments.
+- **Machine Learning / Statistical ML**: A basic understanding of machine learning principles and statistical methods.
+
+## 5. Learning Outcomes (COs)
+By the end of this course, students will be able to:
+
+1. **CO1**: Explain why deep learning leads to more expressive representation models by building upon traditional machine learning concepts.
+2. **CO2**: Identify tools from random matrix theory and information theory that accelerate training or improve generalization in very deep models.
+3. **CO3**: Analyze and explain the training dynamics of deep neural networks using visualization techniques.
+
+## 6. Weekly Syllabus and Topics
+The course is structured over 13 weeks, with each week focusing on specific topics:
+
+### Week 1: Introduction to Theoretical Aspects in Deep Learning (DL)
+- Overview of DL concepts.
+- Importance of theoretical foundations in advancing the field.
+
+### Week 2: Ingredients of DL
+- Core components and principles underlying deep learning models.
+
+### Week 3: Expressivity Theorems in DL
+- Mathematical frameworks explaining the power of deep networks.
+
+### Week 4: Data Classes and Curse of Dimensionality
+- Understanding data representation and challenges in high-dimensional spaces.
+
+### Week 5: Deep Learning Through Lens of Matrix Factorization (MF)
+- Application of MF techniques in DL models.
+
+### Week 6: Review of MF Techniques
+- Recap of matrix factorization methods relevant to deep learning.
+
+### Week 7: Supervised and Unsupervised Learning via MF
+- Integration of MF approaches in supervised and unsupervised tasks.
+
+### Week 8: Deep MF and Approximation Guarantees
+- Theoretical guarantees for deep neural networks using MF.
+
+### Week 9: Geometric Perspective of Expressivity
+- Exploring expressivity through geometric viewpoints.
+
+### Week 10: DL Through Lens of Random Matrix Theory (RTM)
+- Role of RTM in understanding deep network behavior.
+
+### Week 11: Evolution of Signal Variances and Covariances in Infinite Depth DNN
+- Analyzing signal dynamics in deep neural networks.
+
+### Week 12: Random DNN - Input/Output Jacobian
+- Investigating Jacobian properties in random deep neural networks.
+
+### Week 13: DNN Gaussian vs Orthogonal Initialization
+- Impact of initialization techniques on network performance.
+
+## 7. Assessment Strategy
+The course employs a multi-component assessment strategy:
+
+- **Assignments**: 20% contribution, focusing on problem-solving and computational experiments.
+- **Quizzes**: 20% (best two out of three) to assess understanding of key concepts.
+- **Mid-Semester Examination**: 20% to evaluate progress halfway through the course.
+- **End-Semester Examination**: 40% comprehensive final assessment.
+
+### Contextualizing Assessment Weights:
+The end-semester examination carries a significant weight (40%) as it evaluates students' overall understanding of theoretical concepts and their ability to apply them in diverse contexts.
+
+## 8. Learning Resources
+Students are provided with essential learning materials, including:
+
+- **Textbook**: *Deep Learning* by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+- **Reference Material**: Additional resources will be provided during the course.
+
+## Conclusion
+This course offers a comprehensive exploration of deep learning theory, combining theoretical insights with practical computational experiments. Through weekly topics and assessments, students will gain a deep understanding of the principles that drive this transformative field in machine learning.

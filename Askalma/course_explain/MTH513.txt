@@ -1,0 +1,62 @@
+# Abstract Algebra II: Course Overview and Detailed Narrative
+
+## **Course Overview**
+This course, titled "Abstract Algebra II" (MTH513), is a core component of the undergraduate/graduate mathematics curriculum. It carries 4 academic credits and is offered to both undergraduate and postgraduate students. The course is designed to deepen students' understanding of advanced algebraic structures, with a primary focus on factorization theory in integral domains, solvable groups, nilpotent groups, rings with chain conditions, and Galois Theory. Additionally, the course explores applications such as the insolvability of polynomials by radicals and classical geometric constructions.
+
+### **Course Prerequisites**
+The prerequisite for this course is a solid foundation in Abstract Algebra I (MTH512). Students are expected to have completed Math I (MTH100) and Abstract Algebra I (MTH212) with a strong grasp of basic algebraic concepts. No specific desirable prerequisites are mentioned, but students should be prepared for an advanced-level course.
+
+### **Course Outcomes**
+By the end of this course, students will be able to:
+- **CO1:** Explain factorization theory in integral domains and its applications.
+- **CO2:** Solve mathematical problems using results from solvable groups, nilpotent groups, rings with chain conditions, and field extensions.
+- **CO3:** Understand the insolvability of polynomials of degree five or higher by radicals.
+- **CO4:** Apply Galois Theory to determine the impossibility of certain geometric constructions.
+- **CO5:** Produce examples and counterexamples illustrating key algebraic concepts.
+
+### **Weekly Lecture Plan**
+The course is structured over 13 weeks, with each week focusing on specific topics:
+
+1. **Week One: Introduction to Solvable Groups**  
+   - Topics covered: Definition and properties of solvable groups.
+   - Assignments: Tutorial sheet on group theory basics.
+
+2. **Weeks Two-Four: Factorization Theory in Integral Domains**  
+   - Topics include prime and irreducible elements, principal ideal domains (PIDs), Euclidean domains, unique factorization domains (UFDs), and Eisenstein's Irreducibility Criterion.
+   - Assignments: Tutorial sheets on integral domains.
+
+3. **Week Five: Rings with Chain Conditions**  
+   - Focus on Noetherian and Artinian rings.
+   - Assignments: Problem set on ring theory.
+
+4. **Weeks Six-Eight: Field Extensions**  
+   - Topics include prime fields, algebraic extensions, separable and inseparable extensions, and cyclotomic polynomials.
+   - Assignments: Tutorial exercises on field extensions.
+
+5. **Weeks Nine-Eleven: Galois Theory**  
+   - Covers Galois fields, the Galois group of a polynomial, normal extensions, and the Fundamental Theorem of Galois Theory.
+   - Assignments: Case studies on Galois groups.
+
+6. **Week Twelve-Thirteen: Radical Extensions and Geometric Constructions**  
+   - Topics include radical extensions, solvability of polynomials by radicals, and applications to classical straightedge and compass constructions.
+   - Assignments: Project on constructible numbers.
+
+### **Assessment Plan**
+The course is assessed through a combination of quizzes, mid-semester exams, and end-of-semester examinations:
+- **Quiz:** 20% contribution.  
+- **Mid-Semester Examination:** 30% weightage.  
+- **End-Semester Examination:** 50% significance.
+
+### **Resource Materials**
+The following textbooks and references are recommended for this course:
+1. **P. J. McCarthy, Algebraic extensions of Fields, Dover publications.**  
+2. **Thomas W. Judson, Abstract Algebra: Theory and Applications, Orthogonal publishing I3c.**  
+3. **G. Bini and F. Flamini, Finite commutative rings and their applications, Springer.**  
+4. **D. S. Dummit and R. M. Foote, Abstract Algebra, 3rd edition, Wiley (2003).**  
+5. **Nathan Jacobson, Basic Algebra, vol. 1, HPC.**  
+6. **Michael Artin, Algebra, PHI.**  
+7. **J. Rotman, Galois Theory, Springer.**  
+8. **B.R. McDonald, Finite Rings with Identity, Dekker, New York (1974).**
+
+### **Conclusion**
+This course is designed to provide a comprehensive understanding of advanced algebraic structures and their applications. Through a structured syllabus, regular assessments, and recommended resources, students will gain the necessary skills and knowledge to excel in both theoretical and practical aspects of abstract algebra.

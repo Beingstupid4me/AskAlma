@@ -1,0 +1,52 @@
+**Course Overview**  
+The course is an in-depth exploration of urban sociology, focusing on the evolution, characteristics, and challenges of cities. It integrates theoretical concepts with practical applications to provide a holistic understanding of urban phenomena.
+
+**Prerequisites**  
+Students must have completed **SOC101 (Introduction to Sociology & Anthropology)** as a mandatory prerequisite. Desirable prerequisites include familiarity with basic sociological theories and an interest in urban issues.
+
+**Learning Outcomes**  
+By the end of this course, students will be able to:  
+- Define and contextualize key concepts such as city, urbanism, and urbanization.  
+- Identify and analyze urban spaces and phenomena.  
+- Critically evaluate the role of technology in urban development and change.  
+- Propose innovative solutions using technology for addressing urban challenges.
+
+**Weekly Lecture Plan**  
+The course is structured into 13 weeks, each focusing on specific themes:  
+
+| Week Number | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials | Platform (Hardware/Software) |  
+|-------------|----------------------------------|---------|---------------------------|------------------------------|  
+| 1           | Introducing the City             | CO1     | Quiz 1                    | Online platform                |  
+| 2           | Conceptualizing the City       | CO1, CO2| Home Assignment            | Online platform                |  
+| 3           | Contextualizing the City       | CO1, CO2| Group Discussion           | Online platform                |  
+| 4           | Rural in Urban                  | CO1, CO2| Case Study Analysis        | Online platform                |  
+| 5           | Urban beyond the city: Suburban and Periurban | CO1, CO2 | Quiz 2                    | Online platform                |  
+| 6           | Class-ing it up: Gentrification   | CO2     | Review of Concept Papers  | Online platform                |  
+| 7           | Whose City is it, anyway: Urban Spatial Segregation | CO2    | Group Project Report and Presentation | Online platform                |  
+| 8           | Contested City and Right to the City: Experience from the Margins | CO2     | Final Group Project Submissions | Online platform                |  
+| 9           | Global Cities and the World City Hypothesis | CO3    | Quiz 3                    | Online platform                |  
+| 10          | Smart Cities in Information Age   | CO3     | Home Assignment 2          | Online platform                |  
+| 11          | Technically Right: Network Technology and the Science of Cities | CO3, CO4 | Lab Exercise               | Online platform                |  
+| 12          | Group Presentations              | CO1, CO2, CO3, CO4 | Final Group Project Submissions | Online platform                |  
+| 13          | Summing up and Review           | CO1, CO2, CO3, CO4 | -                         | Online platform                |  
+
+**Assessment Strategy**  
+The course employs a comprehensive assessment strategy to evaluate student learning:  
+
+| Type of Evaluation         | % Contribution in Grade | % Contribution in Grade |  
+|----------------------------|-------------------------|-------------------------|  
+| Quizzes                     | 10%                    | 10%                    |  
+| Class Participation (Attendance) | 10%                  | 10%                    |  
+| Home Assignment             | 10%                    | 10%                    |  
+| Mid Term Examination        | 20%                   | 20%                    |  
+| Group Project Report and Presentation | 30%                 | 30%                    |  
+| End Term Exam              | 20%                   | 20%                    |  
+
+**Resource Materials**  
+- **Textbooks**:  
+  - Lin, J., & Mele, C. (Eds.). (2013). *The Urban Sociology Reader*. New York: Routledge.  
+  - Rao, M. S. A., ed. (1974) *Urban Sociology in India: Reader and Source Book*. New Delhi: Orient Longman.  
+  - Gottdiener, Mark and Ray Hutchison (2006) *The New Urban Sociology*. Boulder: West View Press.  
+- **Other Appropriate Resources**: Assignments, case studies, and other materials will be provided by the instructor as needed.
+
+This structured course data has been transformed into a detailed narrative that covers all aspects of the course, ensuring clarity and comprehensiveness for students and educators alike.

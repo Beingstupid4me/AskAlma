@@ -1,0 +1,150 @@
+{
+  "Course Code": "BIO523",
+  "Course Name": "Chemoinformatics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The objective of this course is to provide introduction to chemoinformatics, an interdisciplinary area on the interface of chemistry, informatics and biology. The student will be provided with understanding of fundamentals of chemoinformatics and its applications. Through lectures, hands-on exercises and assignments, the student is expected to achieve a good grasp of the concepts and applications of chemoinformatics.",
+  "Prerequisites": {
+    "Mandatory": "Knowledge of chemistry, algorithms, programming and machine learning (Desirable)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to explain basic concepts of chemoinformatics.",
+    "CO2": "Students are able to explain and implement computation of molecular descriptors and chemical similarity.",
+    "CO3": "Students are able to classify small molecules and interpret results from chemoinformatics analysis.",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Motivation for data and informatics driven view of chemistry, Applications for drug discovery, Scope, opportunities and challenges",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "3 hours"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to Organic structures and their properties",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Representation and manipulation of 2D & 3D molecular structures",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Exercises + Assignment-1)"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Open source tools for Chemoinformatics",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Molecular descriptors-I",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Molecular descriptors-II",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Exercises + Assignment-2)"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Computational models and analyss: QSAR",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Chemical similarity methods-I",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Exercises + Mini Project)"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Chemical similarity methods-II",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Case Studies: Classification of molecules",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Analysis of high-throughput screening data and Virtual screening",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Combinatorial chemistry and library design",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "3+2 hours (Exercises)"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Open challenges in Chemoinformatics",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "3+2 hours (Mini-Project Presentations)"
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-Sem": "20",
+    "Assignments": "30",
+    "Mini-Project": "20",
+    "End-Sem": "30"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "An Introduction to Chemoinformatics, Leach and Gillet (Springer)",
+      "Practical Chemoinformatics, Karthikeyan and Vyas (Springer)"
+    ],
+    "Reference Book": [
+      "Organic Chemistry by Morrison and Boyd (Pearson India)"
+    ]
+  }
+}

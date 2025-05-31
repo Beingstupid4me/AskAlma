@@ -1,0 +1,67 @@
+### Course Overview  
+The course, **MTH545: Finite and Spectral Element Methods**, is an introductory program designed to provide students with a foundational understanding of the mathematical theory behind finite and spectral element methods for solving differential equations. The course emphasizes high-order numerical approximations and their applications in complex geometries. Students will gain insights into variational formulations, finite element techniques, and spectral element methods, as well as practical programming skills using these methodologies.
+
+---
+
+### Prerequisites  
+To successfully engage with this course, students are expected to have completed the following prerequisites:  
+- **Linear Algebra (MTH100)**  
+- **Calculus (MTH203)** or **Real Analysis 1 (MTH240)**  
+- **Differential Equations (MTH204)** or **Functional Analysis**  
+Additionally, students should possess basic programming experience with any language. Desirable prerequisites include familiarity with numerical methods and an understanding of partial differential equations.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Analyze the theory behind variational formulations of differential equations.  
+- **CO2**: Understand and apply finite element and spectral element formulations for solving problems in one dimension.  
+- **CO3**: Perform error analysis using high-order approximations.  
+- **CO4**: Implement numerical solutions using low and high-order finite elements.
+
+---
+
+### Weekly Lecture Plan  
+The course is divided into 14 weeks, with each week focusing on specific topics:  
+
+| Week | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |
+|------|------------------------------------|-------------------|----------------------------|
+| 1    | Introduction to distribution theory | CO1               | Assignment 1                |
+| 2    | Sobolev spaces                      | CO1               | Assignment 2                |
+| 3    | Variational formulations for DEs   | CO1, CO2          | Assignment 3                |
+| 4    | Finite element formulation (1D)   | CO2, CO3          | Assignment 4                |
+| 5    | Polynomial approximation theory    | CO2, CO3          | Assignment 5                |
+| 6    | Spectral elements in 1D           | CO3, CO4          | Assignment 6                |
+| 7    | Error estimates with hp elements   | CO2, CO3          | Assignment 7                |
+| 8    | Implementation of 1D spectral solver| CO2, CO3         | Assignment 8                |
+| 9    | Introduction to multi-dimensional spectral elements | CO1, CO2, CO3, CO4 | Assignment 9                |
+| 10   | Least squares finite and spectral element methods | CO1, CO2, CO3, CO4 | Assignment 10               |
+| 11   | Variational formulations for Stokes equations | CO1, CO2, CO3, CO4 | Assignment 11               |
+| 12-13| Advanced topics in multi-dimensional spectral elements | CO1, CO2, CO3, CO4 | No specific topics or assignments for this week. |
+| 14   | Review and Q&A                     | CO1, CO2, CO3, CO4 | -                          |
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application:  
+
+| Type of Evaluation         | % Contribution in Grade |
+|----------------------------|-------------------------|
+| Assignment (Programming)    | 30%                    |
+| Presentation               | 40%                    |
+| Endsem (End-semester examination) | 30%                   |
+
+---
+
+### Learning Resources  
+The course provides a comprehensive set of learning materials to support student success:  
+
+1. **Textbook**:  
+   - *An introduction to the mathematical theory of finite elements* by J.T. Oden and J.N. Reddy  
+   - *Spectral methods: fundamentals in single domains* by C. Canuto, M.Y. Hussaini, A. Quarteroni, T.A. Zhang  
+
+2. **Reference Books**:  
+   - *An introduction to the finite element method* by J.N. Reddy  
+   - *Functional analysis and applications* by S. Kesavan  
+
+These resources will guide students through the theoretical foundations and practical implementations of finite and spectral element methods.

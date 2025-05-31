@@ -1,0 +1,87 @@
+### Course Overview: CSE749 - Network Anonymity and Privacy
+
+This course is designed for Ph.D. and M.Tech students with a focus on advanced topics in network anonymity and privacy. It is also open to interested B.Tech students who wish to audit the class. The course delves into the theoretical foundations, practical challenges, and cutting-edge research in network anonymity and privacy.
+
+---
+
+### Prerequisites
+
+Students are expected to have a solid foundation in computer networks and an introductory course in systems and network security. Familiarity with concepts such as Foundations of Computer Security is required. This course serves as a semi-seminar format, encouraging interactive discussions and student presentations.
+
+---
+
+### Learning Outcomes (COs)
+
+By the end of this course, students will be able to:
+
+1. **Understand Core Concepts**: Grasp fundamental principles of network anonymity and privacy, including metrics like k-anonymity and l-diversity.
+2. **Analyze Modern Systems**: Critically evaluate contemporary systems such as Tor, GNUnet, and Freenet for their effectiveness in maintaining anonymity.
+3. **Grapple with Attacks**: Learn about various attacks on anonymity networks and how to defend against them.
+4. **Evaluate Trade-offs**: Understand the balance between privacy and performance in network design.
+5. **Explore Research Frontiers**: Identify emerging research areas in network surveillance, censorship resistance, and decoy routing systems.
+
+---
+
+### Weekly Syllabus
+
+The course is structured over 13 weeks, with each week focusing on a specific topic:
+
+1. **Week 1-2**: Introduction to Anonymous Communication Systems  
+   - Overview of early efforts like Onion Routing, Mixminion, Freenet, and Crowds.
+   
+2. **Week 3**: Metrics of Anonymity  
+   - Exploring k-anonymity, l-diversity, and modern systems like Tor.
+
+3. **Week 4-5**: Modern Anonymity Networks  
+   - Detailed study of GNUnet, I2P, JAP, and practical traffic analysis against Tor.
+
+4. **Week 6**: Network Censorship and Anti-Censorship  
+   - Understanding mechanisms for network censorship and strategies to resist them.
+
+5. **Week 7-8**: Scope for Future Research  
+   - Identifying potential research directions in network anonymity and privacy.
+
+6. **Week 9-10**: System Design Paradigms  
+   - Comparing onion routing vs probabilistic designs (e.g., Crowds) and MIXnets-based systems.
+
+7. **Week 11-12**: Traffic Analysis Attacks  
+   - Theory, implementation, threat analysis, and defense mechanisms against traffic analysis attacks.
+
+8. **Week 13**: Real-Time Anonymous Communication and Network Surveillance  
+   - Challenges in real-time anonymity and principles of network neutrality.
+
+---
+
+### Assessment Strategy
+
+The course assessment is designed to evaluate both theoretical knowledge and practical application:
+
+- **Presentations (25%)**: Students will present relevant papers, fostering engagement with course material.
+- **Class Participation (10%)**: Active participation in discussions enhances understanding and critical thinking.
+- **Attendance (5%)**: Regular attendance ensures students stay updated with the syllabus and discussions.
+- **Mid-Term Exam (10%)**: A comprehensive exam covering the first half of the course content.
+- **Weekly Reviews (10%)**: Students submit weekly write-ups on paper reviews, critique, or design issues.
+- **Final Survey Paper (30%)**: A survey paper reviewing multiple papers, emphasizing research trends and challenges.
+
+The final grade is a balanced reflection of both theoretical knowledge and practical application.
+
+---
+
+### General References
+
+For further reading, students are encouraged to explore the following resources:
+
+1. **Textbook**: "Anonbib" by Freehaven (https://freehaven.net/anonbib/)
+2. **Additional Reading**: "Privacy-Pubs.html" by Joseph F. Bonini (http://www.cs.yale.edu/homes/jf/Privacy-Pubs.html)
+3. **Course Materials**: "595n-s07/papers.html" from UCSB (http://www.cs.ucsb.edu/~ravenben/classes/595n-s07/papers.html)
+4. **Research Papers**: Several papers on anoncommunication systems available at https://www1.cs.columbia.edu/~smb/classes/s05/
+
+---
+
+### List of Papers
+
+The course will include a curated list of recent and seminal papers in network anonymity and privacy, with details to be announced.
+
+---
+
+This structured approach ensures a comprehensive understanding of network anonymity and privacy, equipping students with the knowledge and skills to tackle real-world challenges in this field.

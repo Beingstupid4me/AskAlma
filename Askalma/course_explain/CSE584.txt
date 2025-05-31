@@ -1,0 +1,75 @@
+**Course Overview**
+
+The course is coded as **CSE584**, titled **Program Verification**, and carries **4 credits**. It is offered to postgraduate (PG) and undergraduate (UG) students under the categories of PG or UG, with a specific focus on being counted towards the **M.Tech CSE program** with an emphasis on **AI specialization**. The course is designed for advanced third and fourth-year undergraduates and postgraduate students pursuing computer science with a strong interest in computer science and its applications.
+
+The course description highlights that program verification involves proving the correctness of programs with respect to specific properties, ensuring no bugs exist or validating arbitrary assertions without executing the program. This technique has been successfully applied across various domains such as network protocols, cryptographic systems, hardware design, algorithms, and safety-critical systems. The course focuses on modern techniques for making program verification practical for general-purpose programs, utilizing tools like **Coq** (a dependent typed functional programming language) and **F*** (a newer functional programming language with enhanced features for general-purpose programs). The course is self-contained, covering necessary functional programming concepts and assumes a foundational understanding of logic and mathematics typically gained in the first two years of a computer science undergraduate program.
+
+---
+
+**Prerequisites**
+
+The prerequisite structure includes both mandatory and desirable requirements:
+
+- **Mandatory Prerequisites**: 
+  - A basic course in **discrete mathematics and logic**, equivalent to what is typically covered in the first two years of a CSE or related undergraduate program.
+  
+- **Desirable Prerequisites**: 
+  - Knowledge of data structures (DSA) and proficiency in at least one general-purpose programming language such as Python, C, C++, or Java.
+
+Additionally, the course is suitable for students who have completed courses equivalent to **CSE121** or **MTH210**, which provide foundational knowledge in discrete mathematics and logic.
+
+---
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1**: Comprehend and write functional programs with dependent types in Coq/F*.
+- **CO2**: Express program correctness using mathematical objects and apply basic proof strategies (e.g., first-order logic, structural induction).
+- **CO3**: Apply advanced proof techniques to real-world programs involving higher-order functions and complex types.
+- **CO4**: Understand the mechanisms of interactive theorem provers for proof deduction and verification.
+
+---
+
+**Weekly Lecture Plan**
+
+The course is structured into 14 weeks, with each week focusing on specific topics:
+
+| Week Number | Lecture Topic                     | Course Outcomes Met |
+|-------------|-----------------------------------|----------------------|
+| Week 1      | Overview, Functional programming in Coq | CO1                  |
+| Week 2      | Simple programs and proof techniques | CO1, CO2            |
+| Week 3      | Structured data: Inductive types and proofs | CO1, CO2           |
+| Week 4      | Structured data: Inductive types and proofs | CO1, CO2           |
+| Week 5      | Polymorphism and higher order functions | CO1, CO2, CO3       |
+| Week 6      | Polymorphism and higher order functions | CO1, CO2, CO3       |
+| Week 7      | Refinement types in F*             | CO1, CO2, CO3       |
+| Week 8      | Writing complex functional programs and advanced proof tactics | CO1, CO2, CO3     |
+| Week 9      | Writing complex functional programs and advanced proof tactics | CO1, CO2, CO3     |
+| Week 10     | Theory: Curry-Howard Correspondance | CO4                  |
+| Week 11     | Theory: predicate abstraction         | CO4                  |
+| Week 12     | Theory: BMC and imperative programs   | CO4                  |
+| Week 13-14  | Optional Topics: Hoare Logic/Operational Semantics/Typed Lambda Calculus | CO4               |
+
+Assignments are included in each week's schedule, with Weeks 5 to 9 also featuring homework/assignment components.
+
+---
+
+**Assessment Strategy**
+
+The course employs a comprehensive assessment strategy:
+
+- **Class Project**: Contributes 20% of the final grade and focuses on applying verification techniques to real-world programs.
+- **Homeworks/Assignments**: Account for 40% of the grade, with weekly assignments reinforcing concepts covered in lectures.
+- **Mid-Semester Evaluation**: Involves homework/assignment evaluation and contributes 20% to the final grade.
+- **End-Semester Evaluation**: Includes homework/assignment assessment and contributes another 20%.
+
+---
+
+**Learning Resources**
+
+The course provides extensive learning materials, including:
+
+- A **textbook**: A free e-book titled "Software Foundations" by the University of Pennsylvania's CIS department, available at [https://softwarefoundations.cis.upenn.edu/lf-current/index.html](https://softwarefoundations.cis.upenn.edu/lf-current/index.html).
+
+This resource is designed to supplement lectures and assignments, offering in-depth coverage of functional programming concepts and verification techniques.

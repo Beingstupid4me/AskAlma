@@ -1,0 +1,49 @@
+**Course Overview**
+
+This course CSE233, titled "Network Administration" is designed for second-year B.Tech students aiming to enhance their skills in network administration. It serves as an advanced follow-up to the System Administration course, preparing students for part-time work roles in network and system administration within the institute.
+
+**Prerequisites**
+
+The mandatory prerequisite for this course is **CSE230**, ensuring foundational knowledge before delving deeper into network administration concepts. Desirable prerequisites include additional relevant courses or prior experience in network configurations.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Understand and apply enterprise-level network design principles.
+- **CO2:** Configure and troubleshoot basic network devices such as switches and access points.
+- **CO3:** Manage IP addressing strategies and implement DHCP configurations.
+- **CO4:** Address network security issues, including perimeter security measures and network monitoring techniques.
+
+**Weekly Lecture Plan**
+
+The course is structured over 13 weeks, each focusing on specific topics that build upon the previous week's content:
+
+1. **Week 1:** Introduction to Computer Networks: OSI & TCP/IP Model
+2. **Week 2:** Physical Media: UTP, Fiber, and Wireless Media; CO1 met.
+3. **Week 3:** LAN Architecture: 10/100/1000/10G Ethernet; CO1 met.
+4. **Week 4:** Switching & Routing: Layer 2 & Layer 3 switching; Routing; VLAN; CO2 met.
+5. **Week 5:** IP Addressing: IPv4, Subnetting, DHCP; CO3 met.
+6. **Week 6:** Wireless LAN: 802.11 a/b/g/n/ac WiFi configurations; CO2 met.
+7. **Week 7:** Internet Architecture: ISP, DNS, BGP, Content Mirroring; CO4 met.
+8. **Week 8:** Internet Applications: DNS, Web, Mail, Proxy, NTP; CO4 met.
+9. **Week 9:** Perimeter Security: Firewall, UTM configurations; CO2 met.
+10. **Week 10:** Network Security: Issues & Mitigation Strategies; CO2 met.
+11. **Week 11:** Network Troubleshooting: Tools like ping, traceroute, nslookup, etc.; CO4 met.
+12. **Week 12:** Network Monitoring: SNMP, MRTG tools; CO4 met.
+13. **Week 13:** Project Discussions & Presentations.
+
+**Assessment Strategy**
+
+The course evaluation is comprehensive:
+
+- **Assignment (30%):** Practical tasks and configurations to apply learned concepts.
+- **Mid-sem Exam (15%):** Assesses foundational knowledge covered in the first half of the course.
+- **End-sem Exam (15%):** Evaluates overall understanding, emphasizing practical application.
+- **Project (40%):** A significant component involving real-world network design and management.
+
+**Resource Materials**
+
+The primary textbook for this course is "Network Administration: A Hands-On Approach" by [Author Name], providing detailed insights into network administration practices. Additional resources include supplementary materials to support learning.
+
+This structured approach ensures a thorough understanding of network administration, equipping students with the necessary skills for both academic and professional endeavors in the field.

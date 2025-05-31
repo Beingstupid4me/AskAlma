@@ -1,0 +1,48 @@
+**Course Overview**
+
+This course ECO221, titled "Econometrics 1" provides an in-depth exploration of econometric methods, focusing on both theoretical foundations and practical applications. Students will gain proficiency in statistical modeling, estimation techniques, and hypothesis testing within the context of economic analysis. The curriculum is designed to equip learners with the tools necessary to analyze economic relationships, test theories, and evaluate policies using real-world datasets.
+
+**Prerequisites**
+
+Before enrolling in this course, students should have a solid foundation in basic statistical concepts, including probability theory, random variables, and hypothesis testing. A prior completion of an undergraduate-level econometrics or statistics course is recommended to ensure readiness for the advanced topics covered here.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Understand and apply expectation operators and matrix algebra to model economic relationships.
+2. **CO2**: Utilize optimization methods, including error minimization and likelihood maximization, to estimate economic models such as ordinary least squares (OLS), maximum likelihood estimators (MLE), logit, and probit regressions.
+3. **CO3**: Propose and evaluate regression models using appropriate statistical techniques, ensuring model validity through hypothesis testing.
+4. **CO4**: Analyze time-series data, applying tests for autocorrelation, seasonality, and stationarity to improve model accuracy.
+5. **CO5**: Conduct statistical inference and diagnostics on econometric models, interpreting results to draw meaningful conclusions.
+
+**Weekly Lecture Plan**
+
+The course is structured into 13 weeks, each focusing on specific topics that build upon one another:
+
+- **Weeks 1-2**: Introduction to causality and correlation, laying the groundwork for understanding economic relationships.
+- **Weeks 3-4**: In-depth exploration of OLS regression, including properties of estimators and ANOVA tables.
+- **Weeks 5-6**: Transition to MLE estimation, examining asymptotic properties and their implications for econometric analysis.
+- **Week 7**: Addressing heteroskedasticity and its impact on estimator consistency.
+- **Week 8**: Generalized Least Squares (GLS) as an alternative approach to handling specific data issues.
+- **Weeks 9-10**: Introduction to binary choice models, including logit and probit regressions for discrete outcomes.
+- **Week 11**: Statistical inference techniques applied to econometric data, reinforcing hypothesis testing methods.
+- **Week 12**: Basics of time-series analysis, introducing students to analyzing temporal data patterns.
+- **Week 13**: Comprehensive review and project presentations, allowing students to apply their knowledge.
+
+**Assessment Plan**
+
+The course employs a balanced assessment strategy:
+
+- **Quizzes/Assignments (25%)**: Regular assignments and quizzes are used throughout the semester. These include both theoretical questions and practical applications of concepts.
+- **Project (25%)**: A significant project is assigned, which involves analyzing real-world data using econometric methods. This project is a key component of the final grade.
+- **Midsem Exam (20%)**: A midterm examination covering foundational topics assessed during the first half of the course.
+- **Endsem Exam (30%)**: The end-of-semester exam focuses on comprehensive understanding, including both theoretical and applied aspects.
+
+**Learning Resources**
+
+The course provides a variety of resources to support student learning:
+
+- **Textbooks**: Students are recommended two primary textbook "Introductory Econometrics: A modern approach by Jeffrey M. Wooldridge ( 4th edition, Cengage India)" for in-depth study. Additionally, another reference book is provided for those interested in exploring topics beyond the course material.
+- **Reference Details**: Each textbook's author and edition details are included.
+

@@ -1,0 +1,318 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each part step by step.
+
+First, looking at the "Course Code" field. The data shows multiple entries with "ECE113". Since all are the same, I'll take that value for "Course Code".
+
+Next is "Course Name", which consistently says "Basic Electronics". That's straightforward to assign.
+
+For "Credits", it's listed as "4" across several rows, so I'll use that number.
+
+Moving on to "Course Offered to", all entries say "UG", indicating Undergraduate level. So, I'll set that as the value.
+
+The "Course Description" is quite lengthy and repetitive. It seems like a detailed outline of what's covered in the course. Since it's consistent across multiple rows, I'll include the entire text as-is for "Course Description".
+
+Now, looking at the prerequisites section. The mandatory pre-requisite is listed under row 8 as "Pre-requisite (Mandatory)": "None". There are no other pre-requisites mentioned, so I'll set "None" for "Prerequisites:Mandatory".
+
+For "Prerequisites:Desirable", all rows have empty strings except some that say "None". However, since the user specified to handle missing values gracefully, and assuming that if there's nothing, it should be an empty string. But in this case, looking at the data, under row 7, it says "Pre-requisite(other)": multiple entries with "None", so I think all Desirable pre-requisites are also None. So, I'll set "None" for "Prerequisites:Desirable".
+
+Similarly, for "Prerequisites:Other", since there's nothing specified, I'll use an empty string.
+
+Next is the "Course Outcomes". Each CO1 to CO5 has specific descriptions. I need to map each CO number to its respective description. So, CO1 will be "The students will be able to describe ideal circuit elements and basic non-idealities...", CO2 about Kirchoff’s Laws, etc.
+
+For the Weekly Lecture Plan, it's structured with multiple weeks. Each week has a topic, COs met, and assignments. I'll need to extract each week's data into an object within a list. For example, Week 1: Basic components of Electrical Circuits, meets CO1, assignment on oscilloscope.
+
+The Assessment Plan includes different types of evaluations with their contributions. Assignments are 15%, class tests 15%, laboratory work 20%, Mid Sem 20%, End Sem 30%. These will be mapped into the respective keys in the JSON.
+
+Resource Material includes two textbooks, which I'll list as an array.
+
+Putting it all together, I need to ensure that each field is correctly named and data is accurately captured. Missing values should be represented as empty strings or null where appropriate.
+</think>
+
+```json
+{
+  "Course Code": "ECE113",
+  "Course Name": "Basic Electronics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course introduces the topics of (a) Circuit elements - active, passive, time-variant, time - invariant, linear, non-linear, unilateral, bilateral; (b) Sources - independent and dependent; (c) Electric circuit and analysis - Ohm's law, Kirchhoff's laws, loop and node analyses, limitations of lumped circuit analysis; (d) Network theorems - Superposition, Thevenin, Norton, Maximum power transfer; (e) Natural and forced responses to DC excitation - RL, RC and RLC circuits; Sinusoidal steady state analysis; (f) Designing basic circuits using operational amplifiers; (g) Basic circuits using diodes",
+  "Prerequisites": {
+    "Mandatory": "None",
+    "Desirable": "None",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to describe ideal circuit elements and basic non-idealities and their circuit representation.",
+    "CO2": "The students will be able to explain and analyze Kirchoff’s Laws and Network Theorems and their Applications.",
+    "CO3": "The students will be able to explain response of RC, RL and RLC circuits under transient (Step Response) and steady state conditions (both DC and Sinusoidal excitation).",
+    "CO4": "The students will be able to classify various Operational Amplifier configurations and implement OpAmp based circuits.",
+    "CO5": "The students will be able to classify various Diodes, explain diode operation and implement diode-based rectifier and filter circuits."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Basic components of Electrical Circuits: Fundamental Electrical variables – charge, current, voltage and power; independent and dependent voltage and current sources, Ideal circuit elements – Resistor, Capacitor and Inductor. Constitutional relationship – Ohms Law",
+      "COs Met": ["CO1"],
+      "Assignments": "Lab experiments on use of oscilloscope"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Basic concepts of Analysis of Resistive Networks: Nodes, Paths and Loops, Kirchoff’s Voltage and Current Laws, Series and Parallel connection of Resistances and division voltage and current. Loop and Node Analysis",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Lab experiments on use of oscilloscope"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Network Theorems: Thevenin’s Theorem, Norton’s Theorem",
+      "COs Met": ["CO2"],
+      "Assignments": "Experiments and assignment problems in Kirchoff’s Laws and Loop and Node Analysis"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Superposition Theorem and Maximum Power Transfer Theorem",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignments on Network Theorems and Applications"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "RC and RL circuits’ response to Step and Direct input",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignments and experiments on Network Theorems and Applications"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "RLC circuits’ response to Step and Direct input",
+      "COs Met": ["CO3"],
+      "Assignments": "Asignments and experiments on RL, RC circuits."
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Concepts of impedance/admittance, Phasors and Representation",
+      "COs Met": ["CO3"],
+      "Assignments": "Asignments and experiments on RLC circuits."
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "RC, RL and RLC circuits’ response to Alternating inputs (the response to alternating input will be handled only under steady state condition)",
+      "COs Met": ["CO3"],
+      "Assignments": "Asignments and experiments on RLC circuits | Asignments and experiments on RLC circuits | Asignments and experiments on RLC circuits"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Operational Amplifier – Inverting configuration",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignments and experiments on the use of Operational Amplifier | Assignments and experiments on the use of Operational Amplifier | Assignments and experiments on the use of Operational Amplifier"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Operational Amplifier – Non-Inverting, Integrating and Differentiating configuration (explain virtual ground concept in the process and introduce the term feedback)",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignments and experiments on the use of Operational Amplifiers | Assignments and experiments on the use of Operational Amplifiers | Assignments and experiments on the use of Operational Amplifiers"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Diodes: Basic principle, Clipper, Clamper circuits and application",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignments and experiments on clipper, clamper circuits | Assignments and experiments on clipper, clamper circuits | Assignments and experiments on clipper, clamper circuits"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "LED, Zener Diode and Solar Cell",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignments and Experiments on Diode applications | Assignments and Experiments on Diode applications | Assignments and Experiments on Diode applications"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Half Wave and Full Wave Rectifiers – Wave form and Ripple & its reduction. (8)",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignments and Experiments on Diode Rectifiers and filters | Assignments and Experiments on Diode Rectifiers and filters | Assignments and Experiments on Diode Rectifiers and filters"
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": ["Assignments", "Class tests", "Laboratory", "Mid Sem", "End Sem"],
+    "% Contribution in Grade": [15, 15, 20, 20, 30],
+    "COs Met": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  "Resource Material": {
+    "Textbook": ["Engineering Circuit analysis, William H. Hayt Jr., Jack E. Kemmerly and Steven M. Durbin, 8th Edition, Tata McGraw Hill.", "Circuits Devices and Systems, Ralph J. Smith and Richard C. Dorf, 5th Edition, John Wiley and Sons."]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE113",
+  "Course Name": "Basic Electronics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course introduces the topics of (a) Circuit elements - active, passive, time-variant, time-invariant, linear, non-linear, unilateral, bilateral; (b) Sources - independent and dependent; (c) Electric circuit and analysis - Ohm's law, Kirchhoff's laws, loop and node analyses, limitations of lumped circuit analysis; (d) Network theorems - Superposition, Thevenin, Norton, Maximum power transfer; (e) Natural and forced responses to DC excitation - RL, RC and RLC circuits; Sinusoidal steady state analysis; (f) Designing basic circuits using operational amplifiers; (g) Basic circuits using diodes",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to describe ideal circuit elements and basic non-idealities and their circuit representation.",
+    "CO2": "The students will be able to explain and analyze Kirchoff’s Laws and Network Theorems and their Applications.",
+    "CO3": "The students will be able to explain response of RC, RL and RLC circuits under transient (Step Response) and steady state conditions (both DC and Sinusoidal excitation).",
+    "CO4": "The students will be able to classify various Operational Amplifier configurations and implement OpAmp based circuits.",
+    "CO5": "The students will be able to classify various Operational Amplifier configurations and implement OpAmp based circuits."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Basic components of Electrical Circuits: Fundamental Electrical variables – charge, current, voltage and power; independent and dependent voltage and current sources, Ideal circuit elements – Resistor, Capacitor and Inductor. Constitutional relationship – Ohms Law;",
+      "COs Met": ["CO1"],
+      "Assignments": "Lab experiments on use of oscilloscope"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Basic concepts of Analysis of Resistive Networks: Nodes, Paths and Loops, Kirchoff’s Voltage and Current Laws, Series and Parallel connection of Resistances and division voltage and current. Loop and Node Analysis.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Lab experiments on use of oscilloscope"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Network Theorems: Thevenin’s Theorem, Norton’s Theorem,",
+      "COs Met": ["CO2"],
+      "Assignments": "Experiments and assignment problems in Kirchoff’s Laws and Loop and Node Analysis."
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Superposition Theorem and Maximum Power Transfer Theorem.",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignments on Network Theorems and Applications"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "RC and RL circuits’ response to Step and Direct input",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignments and experiments on Network Theorems and Applications."
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "RLC circuits’ response to Step and Direct input",
+      "COs Met": ["CO3"],
+      "Assignments": "Asignments and experiments on RL, RC circuits."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Concepts of impedance/admittance, Phasors and Representation",
+      "COs Met": ["CO3"],
+      "Assignments": "Asignments and experiments on RLC circuits."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "RC, RL and RLC circuits’ response to Alternating inputs (the response to alternating input will be handled only under steady state condition)",
+      "COs Met": ["CO3"],
+      "Assignments": "Asignments and experiments on RLC circuits | Asignments and experiments on RLC circuits | Asignments and experiments on RLC circuits"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Operational Amplifier – Inverting configuration",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignments and experiments on the use of Operational Amplifier"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Operational Amplifier – Non-Inverting, Integrating and Differentiating configuration (explain virtual ground concept in the process and introduce the term feedback)",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignments and experiments on the use of Operational Amplifiers"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Diodes: Basic principle, Clipper, Clamper circuits and application",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignments and experiments on clipper, clamper circuits"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "LED, Zener Diode and Solar Cell",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignments and Experiments on Diode applications"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Half Wave and Full Wave Rectifiers – Wave form and Ripple & its reduction. (8)",
+      "COs Met": ["CO5"],
+      "Assignments": "Assignments and Experiments on Diode Rectifiers and filters"
+    }
+  ],
+
+  "Assessment Plan": {
+    "Type of Evaluation": "% Contribution in Grade",
+    "Assignments": 15,
+    "Class tests": 15,
+    "Laboratory": 20,
+    "Mid Sem": 20,
+    "End Sem": 30
+  },
+  "Resource Material": {
+    "Book": "Engineering Circuit analysis, William H. Hayt Jr., Jack E. Kemmerly and Steven M. Durbin, 8th Edition, Tata McGraw Hill.",
+    "Book": "Circuits Devices and Systems, Ralph J. Smith and Richard C. Dorf, 5th Edition, John Wiley and Sons."
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE113",
+  "Course Name": "Basic Electronics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course introduces the topics of (a) Circuit elements - active, passive, time-variant, time-invariant, linear, non-linear, unilateral, bilateral; (b) Sources - independent and dependent; (c) Electric circuit and analysis - Ohm's law, Kirchhoff's laws, loop and node analyses, limitations of lumped circuit analysis; (d) Network theorems - Superposition, Thevenin, Norton, Maximum power transfer; (e) Natural and forced responses to DC excitation - RL, RC and RLC circuits; Sinusoidal steady state analysis; (f) Designing basic circuits using operational amplifiers; (g) Basic circuits using diodes",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to describe ideal circuit elements and basic non-idealities and their circuit representation.",
+    "CO2": "The students will be able to explain and analyze Kirchoff’s Laws and Network Theorems and their Applications.",
+    "CO3": "The students will be able to explain response of RC, RL and RLC circuits under transient (Step Response) and steady state conditions (both DC and Sinusoidal excitation).",
+    "CO4": "The students will be able to classify various Operational Amplifier configurations and implement OpAmp based circuits.",
+    "CO5": "The students will be able to classify various Diodes, explain diode operation and implement diode-based rectifier and filter circuits."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Basic components of Electrical Circuits: Fundamental Electrical variables – charge, current, voltage and power; independent and dependent voltage and current sources, Ideal circuit elements – Resistor, Capacitor and Inductor. Constitutional relationship – Ohms Law;",
+      "COs Met": ["CO1"],
+      "Assignments": "Lab experiments on use of oscilloscope"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Basic concepts of Analysis of Resistive Networks: Nodes, Paths and Loops,
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECE113",
+  "Course Name": "Basic Electronics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course introduces the topics of (a) Circuit elements - active, passive, time-variant, time-invariant, linear, non-linear, unilateral, bilateral; (b) Sources - independent and dependent; (c) Electric circuit and analysis - Ohm's law, Kirchhoff's laws, loop and node analyses, limitations of lumped circuit analysis; (d) Network theorems - Superposition, Thevenin, Norton, Maximum power transfer; (e) Natural and forced responses to DC excitation - RL, RC and RLC circuits; Sinusoidal steady state analysis; (f) Designing basic circuits using operational amplifiers; (g) Basic circuits using diodes",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to describe ideal circuit elements and basic non-idealities and their circuit representation.",
+    "CO2": "The students will be able to explain and analyze Kirchoff’s Laws and Network Theorems and their Applications.",
+    "CO3": "The students will be able to explain response of RC, RL and RLC circuits under transient (Step Response) and steady state conditions (both DC and Sinusoidal excitation).",
+    "CO4": "The students will be able to classify various Operational Amplifier configurations and implement OpAmp based circuits.",
+    "CO5": "The students will be able to classify various Diodes, explain diode operation and implement diode-based rectifier and filter circuits."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Basic components of Electrical Circuits: Fundamental Electrical variables – charge, current, voltage and power; independent and dependent voltage and current sources, Ideal circuit elements – Resistor, Capacitor and Inductor. Constitutional relationship – Ohms Law;",
+      "COs Met": ["CO1"],
+      "Assignments": "Lab experiments on use of oscilloscope"
+    }

@@ -1,0 +1,54 @@
+### Course Overview  
+This course, **MTH371: Stochastic Processes and Applications**, is a second-level course designed for both undergraduate and postgraduate students. It builds upon foundational knowledge of probability theory and introduces advanced concepts in stochastic processes. The course assumes a basic understanding of elementary probability theory, which will be briefly reviewed at the beginning of the semester. Students are expected to have completed **MTH 201 (Probability & Statistics)** or an equivalent course as a prerequisite.  
+
+The primary objective of this course is to provide students with a comprehensive understanding of discrete and continuous stochastic processes. Through this course, students will not only grasp theoretical concepts but also learn how to apply these principles to real-world problems across diverse fields such as engineering, physics, operations research, economics, finance, and statistics.  
+
+### Prerequisites  
+- **Mandatory Prerequisites**: MTH 201 (Probability & Statistics)  
+- **Desirable Prerequisites**: ECE 501 (Probability and Random Processes) is recommended but not mandatory for this course. Students without this background may find it beneficial to take a preparatory course or review relevant materials beforehand.  
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Understand and apply the fundamental concepts of random variables and their distributions.  
+- **CO2**: Analyze and model discrete-time Markov chains and their applications.  
+- **CO3**: Grasp the principles of renewal theory and its relevance in solving real-world problems.  
+- **CO4**: Evaluate continuous-time Markov chains and their role in modeling dynamic systems.  
+- **CO5**: Explore advanced topics such as random walks, martingales, and their practical applications.  
+
+### Weekly Syllabus and Topics  
+The course is divided into 14 weeks, with each week focusing on specific topics:  
+
+| Week Number | Lecture Topic                          | COs Met | Assignments/Labs/Tutorials |
+|-------------|----------------------------------------|---------|---------------------------|
+| Week 1, 2   | Review of Probability; Bernoulli Process; Conditional Expectations; Moment Generating Functions; Markov and Chebyshev Inequalities; Central Limit Theorem | CO1      | Introduction to probability concepts and basic stochastic processes |
+| Week 2, 3   | Poisson Process; Gaussian Process; Covariance Matrices and Properties; Finite Markov Chains          | CO1, CO2 | Case studies on Poisson and Gaussian processes, introduction to Markov chains |
+| Week 4, 5, 6| Renewal Theory: Basics, Discrete Version, Blackwell and Other Theorems | CO2      | Advanced applications of renewal theory |
+| Week 6, 7, 8| Continuous Time Markov Chains: Basics, Birth-Death Chains, Reversibility, Uniformizability          | CO3      | Analysis of continuous-time Markov chains and their properties |
+| Week 9,10,11| Random Walks and Martingales              | CO4      | Exploration of random walks, introduction to martingales and their applications |
+| Week 12,13,14| Special Topics Including Real-World Applications | CO5      | Case studies on real-world applications of stochastic processes |
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application skills. The evaluation plan includes the following components:  
+
+| Type of Evaluation       | % Contribution in Grade |
+|---------------------------|------------------------|
+| Homework                 | 20%                   |
+| Quiz                    | 10%                   |
+| Mid-sem                | 30%                   |
+| End-sem                 | 40%                   |
+
+Homework assignments will be given weekly to reinforce concepts discussed in lectures. Quizzes will be conducted periodically to assess understanding of key topics. The mid-semester examination will cover the first half of the course, while the end-semester examination will evaluate overall comprehension and application of stochastic processes.
+
+### Resources  
+Students are encouraged to utilize the following resources for their studies:  
+
+| Type | Title                                                                 |
+|------|-----------------------------------------------------------------------|
+| Textbook  | Stochastic Processes: Theory for Applications, by Robert G. Gallager   |
+| Textbook  | Introduction to Stochastic Processes, Second Edition, by Gregory F. Lawler |
+| Textbook  | Adventures in Stochastic Processes, by Sidney Resnick             |
+
+These textbooks provide comprehensive coverage of the course material and are recommended for deeper understanding and reference.
+
+### Conclusion  
+This course offers a thorough exploration of stochastic processes, equipping students with both theoretical knowledge and practical skills. Through a structured syllabus, diverse assessments, and accessible resources, students will gain a solid foundation in this critical area of applied mathematics.

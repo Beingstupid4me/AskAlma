@@ -1,0 +1,64 @@
+# Course Overview  
+**Course Code:** ECE579  
+**Course Name:** Nonlinear and Adaptive Control of Robotic Systems  
+**Credits:** 4  
+
+---
+
+### **1. Course Description**  
+This course provides an introduction to nonlinear dynamical systems and emphasizes the role of control theory in robotics engineering. The curriculum includes modeling robotic systems, designing controllers for trajectory tracking applications, discussing advanced nonlinear and adaptive control strategies for fully-actuated robot manipulators and underactuated systems like surface vehicles and drones. Theoretical analysis using Lyapunov stability theory is also covered, along with practical demonstrations through live demos of control design on a Rotary Inverted Pendulum.
+
+---
+
+### **2. Prerequisites**  
+- A basic familiarity with Linear Systems and Linear Algebra Control Theory (ECE570) or analogous Classical Control (ECE571).  
+
+---
+
+### **3. Learning Outcomes (COs)**  
+Upon completion of this course, students will be able to:  
+- Understand the fundamentals of nonlinear dynamical systems and control.  
+- Model robotic systems and design nonlinear controllers.  
+- Analyze controllers while ensuring stability and performance requirements are met.  
+- Design nonlinear controllers for fully-actuated robot manipulators using model-based approaches.  
+- Apply adaptive control techniques to handle real-time uncertainties in robotic systems.  
+- Design synchronization strategies for multi-robot systems, including bilateral tele-operation and leader-follower formation control.
+
+---
+
+### **4. Weekly Lecture Plan**  
+| Week Number | Lecture Topic                                                                                     | COs Met | Assignment/Labs/Tutorial |
+|-------------|-----------------------------------------------------------------------------------------------|---------|--------------------------|
+| 1           | Introduction to Nonlinear Dynamical Systems and Control Overview of Robotics: Emphasize on the role of Control in Robotics Engineering. Introduction to the Euler-Lagrange model of robotic systems (robot manipulators, surface robots, quadrotors). | CO1      | NA |
+| 2           | Introduction to Nonlinear Dynamical Systems and Control Overview of Robotics: Emphasize on the role of Control in Robotics Engineering. Introduction to the Euler-Lagrange model of robotic systems (robot manipulators, surface robots, quadrotors). | CO2      | NA |
+| 3           | Introduction to Nonlinear Dynamical Systems and Control Overview of Robotics: Emphasize on the role of Control in Robotics Engineering. Introduction to the Euler-Lagrange model of robotic systems (robot manipulators, surface robots, quadrotors). | CO1, CO2 | NA |
+| 4           | Equilibrium points, Linearization, Lyapunov Stability Theory                                                                                   | CO1      | NA |
+| 5           | Model-based nonlinear controller design for robot manipulators, backstepping control including actuator dynamics.                                                                                     | CO2, CO3 | Assignment 6        |
+| 6           | Output-feedback extension, actuator saturation, actuation delay, safety constraints using Barrier Lyapunov functions, Adaptive control of robot manipulators, adaptive backstepping including actuator dynamics. | CO2, CO3, CO4 | Assignment 7       |
+| 7           | Nonlinear Control of underactuated robotic systems like surface vehicles and drones etc.                                                                                                         | CO2, CO3, CO4 | NA            |
+| 8           | Synchronization of multi-robot systems, Bilateral tele-operation with communication delay                                                                                       | CO5, CO3 | NA              |
+| 9           | Leader-follower formation control of multiple surface vehicles                                                                                                                                          | CO5, CO3 | NA              |
+| 10          | Term Paper/Project                                                                                                                                    | CO5      | Term Paper/Project |
+
+---
+
+### **5. Assessment Plan**  
+| Type of Evaluation | % Contribution in Grade | Week of Submission |
+|--------------------|------------------------|--------------------|
+| Homework          | 30%                   | Throughout the course |
+| Mid-sem          | 15%                   | Week 6             |
+| Quiz              | 15%                   | Week 7             |
+| End-sem          | 25%                   | Week 12            |
+| Term Paper/Project| 15%                   | Week 13            |
+
+---
+
+### **6. Resource Materials**  
+- **Textbook:** "Robot Dynamics and Control" by Mark W. Spong and M. Vidyasagar.  
+- **Reference Books:**  
+  - "Nonlinear Systems" by H. Khalil  
+  - "Applied Nonlinear Control" by J.J.E. Slotine and W. Li  
+
+---
+
+This structured course data has been transformed into a comprehensive narrative format that covers all aspects of the course, including prerequisites, learning outcomes, weekly syllabus, assessment plan, and resource materials. The narrative is organized with clear headings for each section to enhance readability and logical flow.

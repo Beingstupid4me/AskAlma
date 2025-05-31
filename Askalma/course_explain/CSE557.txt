@@ -1,0 +1,51 @@
+**Course Overview**
+
+The course titled **Big Data Analytics (CSE557)** is a 4-credit course offered to both undergraduate (UG) and postgraduate (PG) students. This course provides an in-depth understanding of distributed processing frameworks, including Hadoop, Spark, and Giraph. The primary focus is on applying these frameworks to solve real-world problems involving large datasets.
+
+**Prerequisites**
+
+The mandatory prerequisite for this course is **CSE202 DBMS**, ensuring that students have a foundational knowledge of database management systems. Desirable prerequisites include familiarity with programming languages such as Python, C, or Java and experience working with Unix environments.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Explain algorithms for handling big data.
+- **CO2:** Collect, manage, store, and query various forms of big data.
+- **CO3:** Design solutions for big data problems using Map-Reduce/Spark frameworks.
+- **CO4:** Apply hands-on experience with Hadoop, Spark, and Giraph.
+- **CO5:** Implement advanced topics in big data analytics.
+
+**Weekly Lecture Plan**
+
+The course is structured over 13 weeks, with each week focusing on specific topics:
+
+- **Week 1:** Introduction to Big Data Analytics (CO1)
+- **Week 2:** Overview of Hadoop, HDFS, Apache Spark, and Giraph (CO2)
+- **Week 3:** Map Reduce Design Patterns (CO1, CO3)  
+  - A lab assignment on Map-Reduce will be conducted.
+- **Week 4:** Finding Similar Items using Spark (CO1, CO3)  
+  - A lab assignment on Spark will be conducted.
+- **Week 5:** Frequent Patterns Finding on Big Data Platforms (CO1, CO3)  
+  - A lab assignment on Neo4j will be conducted.
+- **Week 6:** Social Network Analysis: BFS, Page Rank, and Graph Patterns Finding (CO1, CO3)  
+  - A project on Spark/MapReduce will be assigned.
+- **Week 7:** K-Means and Cure with Parallelism (CO1, CO3)
+- **Week 8:** Data Streams: Data Model, Sampling, Counting Elements, and Estimating Moments (CO1, CO3)
+- **Week 9:** Advance Topics in BDA (CO1, CO3)  
+  - Additional topics may be covered as needed.
+- **Weeks 10-13:** Review of Advanced Topics and Student Presentations
+
+**Assessment Plan**
+
+The course assessment is divided into three components:
+
+- **Mid-Term Exam:** 20% contribution to the final grade
+- **End-Semester Examination:** 30% contribution to the final grade
+- **Labs and Project:** 50% contribution, including lab assignments, project work, and presentations
+
+**Resource Material**
+
+The primary textbook for this course is **"Massive Data Analytics" by Rajaraman and Ullman**, which provides a comprehensive overview of big data analytics techniques. Additional reference materials include supplementary readings and online resources recommended throughout the course.
+
+This structured approach ensures that students gain a thorough understanding of big data analytics, from foundational concepts to advanced applications, preparing them for real-world challenges in this field.

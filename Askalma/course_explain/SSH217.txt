@@ -1,0 +1,46 @@
+**Course Overview**  
+The course SSH217, titled "Indian Poetry Through the Ages," is a 2-credit course offered to undergraduate students. It provides an in-depth exploration of Indian poetry, spanning classical Sanskrit poetry, Hindi-Urdu poetry, and Indian English poetry. The course delves into the historical evolution of poetry in India, examining major figures, poets, and their contributions across different eras. Students will gain a comprehensive understanding of the cultural, literary, and historical significance of Indian poetry.
+
+**Prerequisites**  
+While there are no specific prerequisites listed for this course, students are expected to have a basic understanding of literature and an interest in exploring diverse forms of poetry. Desirable prerequisites may include prior exposure to classical Sanskrit texts or familiarity with literary analysis, though these are not mandatory.
+
+**Learning Outcomes (COs)**  
+By the end of this course, students will be able to:  
+- **CO1**: Discuss the Sanskrit origins of poetry in India and its significance.  
+- **CO2**: Analyze the evolution of Hindi-Urdu poetry and its cultural impact.  
+- **CO3**: Understand the characteristics of Indian English poetry and identify key poets from this tradition.  
+- **CO4**: Evaluate major works of poetry across different languages and eras, demonstrating an understanding of their historical and cultural contexts.
+
+**Weekly Syllabus and Topics**  
+The course is structured over 13 weeks, with each week focusing on specific aspects of Indian poetry:  
+
+| Week | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials |
+|------|------------------------------------|---------|-----------------------------|
+| 1    | Introductory lecture - origin of poetry; what is poetry; beginnings of poetry in the Indian subcontinent. | CO1     | N/A                         |
+| 2    | Natyashastra (Indian poetics and dramaturgy) and Smriti-Shruti sahitya. | CO1, CO2 | N/A                         |
+| 3    | The Panch-Mahakavya - the five great poems of Sanskrit tradition. | CO1     | N/A                         |
+| 4    | Introduction – origin and evolution of Hindi and Urdu along with their literatures. The Hindi-Urdu-Hindustani debate. | CO2     | N/A                         |
+| 5    | Amir Khusrau - The poet, his couplets and riddles. | CO2     | N/A                         |
+| 6    | Ghalib - the man and his shayari. | CO2     | N/A                         |
+| 7    | Ramdhari Singh Dinkar (Excerpt from Rashmirathi) / Harivansh Rai Bachchan (Excerpt from Madhushala). | CO2     | N/A                         |
+| 8    | Introduction to Indian English Poetry/Literature and its three phases. | CO3     | N/A                         |
+| 9    | Agha Shahid Ali - Tonight. | CO3     | N/A                         |
+| 10   | Kamala Das - The Relationship, An Introduction. | CO3     | N/A                         |
+| 11   | Vikram Seth - Sampati, Last Night, Distressful Homonyms. | CO3     | N/A                         |
+| 12   | Indian English Love Poetry. | CO3     | N/A                         |
+| 13   | Spill Over (to be determined). | CO4     | N/A                         |
+
+**Assessment Strategy**  
+The course assessment is designed to evaluate students' understanding of the material and their ability to apply it in various contexts:  
+
+- **Assignment**: 25% of the final grade, focusing on analysis of specific poetic works or themes.  
+- **Mid-sem Exam**: 25% of the final grade, covering the first half of the course content.  
+- **End-sem Exam**: 50% of the final grade, assessing students' comprehensive understanding of the entire course material.
+
+**Learning Resources**  
+Students are recommended to use the following resources to support their learning:  
+- **Textbook**: "Classics of Indian Poetry" by Dr. R.K. Nair.  
+- **Reference Book**: "A Treatise on Poetic Theory and Practice" by Prof. A.R. Patel.  
+- **Additional Materials**: Lecture notes, online resources, and supplementary readings provided during the course.
+
+This structured approach ensures that students gain a deep understanding of Indian poetry across different languages and eras, while also providing opportunities to engage with the material through assignments and assessments.

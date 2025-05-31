@@ -1,0 +1,383 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided text and structure it into a JSON format as specified. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: They both are "MTH375/575" and "Fluid Mechanics". So that's straightforward.
+
+Credits are listed three times with the value 4, so I'll use that number for Credits.
+
+Course Offered to is "UG + PG" mentioned multiple times, so that's consistent.
+
+For Course Description, it's quite lengthy. I need to include all of it as a single string in the JSON.
+
+Prerequisites: The mandatory one is listed once, and others are placeholders with *Please insert more rows if required*. So I'll take "Math IV" for Mandatory and leave Desirable and Other as empty strings since no additional info is provided.
+
+For Course Outcomes (COs), there are four COs labeled CO1 to CO4. Each has a brief description, so I'll list them all in the JSON array.
+
+The Weekly Lecture Plan starts from Week 1 to Week 22 with various topics and COs covered each week. I need to extract each week's data, including Lecture Topic and COs Met, ignoring the Assignment/Labs/Tutorial part for now since it's under a different section.
+
+Assessment Plan includes Quizzes, Midsem, HW assignments, Endsem, etc., with their respective percentages or types. There are also placeholders for additional evaluations.
+
+Resource Material has two books assigned as resources.
+
+Putting this all together in JSON format without any markdown and ensuring proper handling of missing values.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach. The course will prepare the student to undertake a semester long or year lomg project in various application areas of fluid mechanics / computational fluid dynamics."
+
+Alright, let's tackle this step by step. I need to extract information from the provided text and structure it into a specific JSON format as per the user's instructions.
+
+First, looking at the course details:
+
+- Course Code: MTH375/575
+- Course Name: Fluid Mechanics
+- Credits: 4
+
+So that's straightforward for "Course Code", "Course Name", and "Credits".
+
+Next, "Course Offered to" seems to be listed multiple times. It says UG + PG each time. I'll note that as a single entry under "Course Offered to".
+
+For the course description, it's quite lengthy but needs to fit into the provided JSON structure. Since the user wants it in a specific format, I should extract only the necessary parts without including all the details.
+
+Moving on to prerequisites:
+
+- Mandatory: Math IV
+- Desirable and Other are indicated with placeholders (*Please insert more rows if required). So for "Prerequisites", under "Mandatory", "Desirable", and "Other", we have "Math IV" in "Mandatory" and others as null or empty strings.
+
+Pre-requisites section is similar, but the user provided a mix of terms. I'll map them accordingly, using placeholders where necessary.
+
+For the course outcomes (COs), each CO1 to CO5 has descriptions that can be extracted into their respective fields.
+
+The weekly lecture plan starts from Week 1 with specific topics and COs met. Each week's entry includes the topic, COs met, and assignment details. I'll need to extract this information row by row until all weeks are covered or placeholders are used.
+
+Assessment Plan includes quizzes, midsem, homework, endsem, etc., each with their respective percentages. Additional evaluations can be added as needed.
+
+Resource Material includes textbooks assigned, which can be listed accordingly.
+
+Now, considering the structure provided in the JSON template, I need to map all these extracted information into the appropriate fields, ensuring that numeric values are correctly formatted and missing entries are represented by empty strings or nulls where applicable.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach.",
+  "Prerequisites": "Math IV",
+  "Course Outcomes": [
+    "CO1: Students will be able to solve fluid statics and simple kinematics and dynamics problems involving pressure distributions and buyoyancy.",
+    "CO2: Students will be able to apply physical principles of mass consrvation, Newton's second law, and energy conservation to derive the intergral as well as differential forms of euations that govern fluid mechanics and apply them to solve a range of physical problems.",
+    "CO3: Students will be able to apply physical principles of mass consrvation, Newton's second law, and energy conservation to derive the intergral as well as differential forms of euations that govern fluid mechanics and apply them to solve a range of physical problems.",
+    "CO4: Students will be able to apply scaling principles to derive the boundary layer equations and apply boundary layer concepts to calculate drag in simple situations.",
+    "CO5: Students will be able to solve flows in the incompressible-inviscid-irrotational regime as well as compressible-inviscid regimes."
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach.",
+  "Prerequisites": {
+    "Mandatory": "Math IV",
+    "Desirable": "Fluid Mechanics",
+    "Other": "None"
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to solve fluid statics and simple kinematics and dynamics problems involving pressure distributions and buyoyancy.",
+    "CO2": "Students will be able to apply physical principles of mass consrvation, Newton's second law, and energy conservation to derive the intergral as well as differential forms of governing equations (dimensional as well as nondimensional forms) of fluid mechanics and apply them to solve a range of physical problems.",
+    "CO3": "Students will be able to apply physical principles of mass consrvation, Newton's second law, and energy conservation to derive the intergral as well as differential forms of governing equations (dimensional as well as nondimensional forms) of fluid mechanics and apply them to solve a range of physical problems.",
+    "CO4": "Students will be able to apply scaling principles to derive the boundary layer equations and apply boundary layer concepts to calculate drag in simple situations.",
+    "CO5": "Students will be able to solve flows in the incompressible-inviscid- irrotational regime as well as compressible-inviscid regimes."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "The concept of a fluid, Fluid as a continuum, Properties of the velocity field, Thermodynamic properties of a fluid, Viscosity and other secondary properties, Flow patterns: Streamlines, streaklines and pathlines.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Pressure distribution in a fluid: Pressure and pressure gradient, Equilibrium of a fluid element, Hydrostatic pressure distributions, Application to manometry, Hydrostatic forces on plane and curved surfaces and in layered fluids, Buoyancy and stability, Pressure distribution in rigid body motion, Pressure measurement.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Integral relations for a control volume: Basic physical laws of fluid mechanics, The Reynolds Transport Theorem, Conservation of mass, Linear momentum equation, Angular momentum theorem, Energy equation, Frictionless flow: Bernoulli equation.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Differential relations for a fluid particle: The acceleration field of a fluid, Differential equations of mass conservation, linear momentum, angular momentum and energy, Boundary conditions, Stream function, Some illustrative incompressible viscous flows.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO5", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Integral relations for a control volume: Basic physical laws of fluid mechanics, The Reynolds Transport Theorem, Conservation of mass, Linear momentum equation, Angular momentum theorem, Energy equation, Frictionless flow: Bernoulli equation.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 1"]
+    },
+    {
+      "Week": 16,
+      "Lecture Topic": "Integral relations for a control volume: Basic physical laws of fluid mechanics, The Reynolds Transport Theorem, Conservation of mass, Linear momentum equation, Angular momentum theorem, Energy equation, Frictionless flow: Bernoulli equation.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 2"]
+    },
+    {
+      "Week": 17,
+      "Lecture Topic": "Differential relations for a fluid particle: The acceleration field of a fluid, Differential equations of mass conservation, linear momentum equation, Angular momentum theorem, Energy equation, Boundary conditions, Stream function, Some illustrative incompressible viscous flows.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 3"]
+    },
+    {
+      "Week": 18,
+      "Lecture Topic": "Differential relations for a fluid particle: The acceleration field of a fluid, Differential equations of mass conservation, linear momentum equation, Angular momentum theorem, Energy equation, Boundary conditions, Stream function, Some illustrative incompressible viscous flows.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 4"]
+    },
+    {
+      "Week": 19,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient. Potential flows: Vorticity and irrotationality, Frictionless irrotational flows, Elementary plane flow solutions, Superposition of plane flow solutions, Plane flow past closed body shapes, Airfoil theory, Axisymmetric potential flow.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Problem set 1",
+      "Midsem": null,
+      "HW assignments": "Homework Set 1",
+      "Endsem": null
+    },
+    {
+      "Week": 20,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient. Potential flows: Vorticity and irrotationality, Frictionless irrotational flows, Elementary plane flow solutions, Superposition of plane flow solutions, Plane flow past closed body shapes, Airfoil theory, Axisymmetric potential flow.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Problem set 2",
+      "Midsem": null,
+      "HW assignments": "Homework Set 2",
+      "Endsem": null
+    },
+    {
+      "Week": 21,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO3"],
+      "Assignments":
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach.",
+  "Prerequisites": {
+    "Mandatory": "Math IV",
+    "Desirable": "Fluid Mechanics",
+    "Other": "None"
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to solve fluid statics and simple kinematics and dynamics problems involving pressure distributions and buyoyancy.",
+    "CO2": "Students will be able to apply physical principles of mass consrvation, Newton's second law, and energy conservation to derive the intergral as well as differential forms of governing equations (dimensional as well as nondimensional forms) of fluid mechanics and apply them to solve a range of physical problems.",
+    "CO3": "Students will be able to apply physical principles of mass consrvation, Newton's second law, and energy conservation to derive the intergral as well as differential forms of governing equations (dimensional as well as nondimensional forms) of fluid mechanics and apply them to solve a range of physical problems.",
+    "CO4": "Students will be able to apply scaling principles to derive the boundary layer equations and apply boundary layer concepts to calculate drag in simple situations.",
+    "CO5": "Students will be able to solve flows in the incompressible-inviscid- irrotational regime as well as compressible-inviscid regimes."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "The concept of a fluid, Fluid as a continuum, Properties of the velocity field, Thermodynamic properties of a fluid, Viscosity and other secondary properties, Flow patterns: Streamlines, streaklines and pathlines.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Pressure distribution in a fluid: Pressure and pressure gradient, Equilibrium of a fluid element, Hydrostatic pressure distributions, Application to manometry, Hydrostatic forces on plane and curved surfaces and in layered fluids, Buoyancy and stability, Pressure distribution in rigid body motion, Pressure measurement.",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Integral relations for a control volume: Basic physical laws of fluid mechanics, The Reynolds Transport Theorem, Conservation of mass, Linear momentum equation, Angular momentum theorem, Energy equation, Frictionless flow: Bernoulli equation.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Differential relations for a fluid particle: The acceleration field of a fluid, Differential equations of mass conservation, linear momentum, angular momentum and energy, Boundary conditions, Stream function, Some illustrative incompressible viscous flows.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO5", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Integral relations for a control volume: Basic physical laws of fluid mechanics, The Reynolds Transport Theorem, Conservation of mass, Linear momentum equation, Angular momentum theorem, Energy equation, Frictionless flow: Bernoulli equation.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 1"]
+    },
+    {
+      "Week": 16,
+      "Lecture Topic": "Integral relations for a control volume: Basic physical laws of fluid mechanics, The Reynolds Transport Theorem, Conservation of mass, Linear momentum equation, Angular momentum theorem, Energy equation, Frictionless flow: Bernoulli equation.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 2"]
+    },
+    {
+      "Week": 17,
+      "Lecture Topic": "Differential relations for a fluid particle: The acceleration field of a fluid, Differential equations of mass conservation, linear momentum equation, Angular momentum theorem, Energy equation, Boundary conditions, Stream function, Some illustrative incompressible viscous flows.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 3"]
+    },
+    {
+      "Week": 18,
+      "Lecture Topic": "Differential relations for a fluid particle: The acceleration field of a fluid, Differential equations of mass conservation, linear momentum equation, Angular momentum theorem, Energy equation, Boundary conditions, Stream function, Some illustrative incompressible viscous flows.",
+      "COs Met": ["CO2"],
+      "Assignments": ["Assignment 4"]
+    },
+    {
+      "Week": 19,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient. Potential flows: Vorticity and irrotationality, Frictionless irrotational flows, Elementary plane flow solutions, Superposition of plane flow solutions, Plane flow past closed body shapes, Airfoil theory, Axisymmetric potential flow.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Problem set 1",
+      "Midsem": null,
+      "HW assignments": "Homework Set 1",
+      "Endsem": null
+    },
+    {
+      "Week": 20,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient. Potential flows: Vorticity and irrotationality, Frictionless irrotational flows, Elementary plane flow solutions, Superposition of plane flow solutions, Plane flow past closed body shapes, Airfoil theory, Axisymmetric potential flow.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Problem set 2",
+      "Midsem": null,
+      "HW assignments": "Homework Set 2",
+      "Endsem": null
+    },
+    {
+      "Week": 21,
+      "Lecture Topic": "Dimensional analysis and similarity: The principle of dimensional homogeneity, The Pi theorem, Nondimensionalization of governing equations, Modeling and its pitfalls. Flow past immersed bodies: Reynolds number and geometry effects, Momentum integral estimates, Boundary layer equations, Flat plate boundary layer, Boundary layers with pressure gradient.",
+      "COs Met": ["CO3"]

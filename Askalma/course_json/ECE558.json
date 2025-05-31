@@ -1,0 +1,155 @@
+{
+  "Course Code": "ECE558",
+  "Course Name": "Transform Learning and Applications",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Transform learning (TL) is currently an active research area and is being explored in several | Transform learning (TL) is currently an active research area and is being explored in several | Transform learning (TL) is currently an active research area and is being explored in several | Transform learning (TL) is currently an active research area and is being explored in several",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to model physical problems.",
+    "CO2": "Students will be able to do signal and image analysis using transform learning",
+    "CO3": "Students are able to understand and present current research papers published in top-tier journals and conferences in this area",
+    "CO4": "Students are able to do advanced project work in this area"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Mathematical preliminaries: Signal spaces and operators, concept of basis, orthogonal and biorthogonal basis, inner product, norm, Frames, Riesz basis",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Introduction to transforms, Sampling rate conversions, upsampling and downsampling, 1-D discrete wavelet transform, example of Haar wavelet with connection to filterbank",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Computational efficiency in realizing filterbanks- Polyphase components",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Lifting Framework of wavelet Designing",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "2-D separable and non-separable wavelet transform, Integer wavelet transform; Ridgelets, Curvelets, and directional filterbanks",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Dyadic Wavelet Transform Learning in forward and inverse problems",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Rational Wavelet Transform Learning in forward and inverse problems",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Learning Sparsifying Filterbanks",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Deep Transform Learning- Recent approaches",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Spasifying Transform Learning- Online learning, overcomplete learning, High dimensional learning; recent approaches",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Recent approaches to transform leraning continued\u2026",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Student Paper Presentations",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Student Project Presentations",
+      "Assignment/Labs/Tutorial": "",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": [
+      "Assignment",
+      "Mid-sem",
+      "End-sem",
+      "Project"
+    ],
+    "% Contribution in Grade": [
+      "20",
+      "20",
+      "20",
+      "40"
+    ]
+  },
+  "Resource Material": {
+    "Textbook": "C. S. Burrus, R. A. Gopinath, and H. Guo. Introduction to Wavelets and Wavelet Transforms - A Primer. Prentice Hall, 1997.",
+    "Reference Book": "C. S. Burrus, R. A. Gopinath, and H. Guo. Introduction to Wavelets and Wavelet Transforms - A Primer. Prentice Hall, 1997."
+  }
+}

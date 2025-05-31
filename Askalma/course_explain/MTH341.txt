@@ -1,0 +1,61 @@
+**Course Overview**
+
+This course is coded as MTH341/541 and is titled "Complex Analysis." It offers 4 academic credits and is available for study during both undergraduate (UG) and postgraduate (PG) periods. The primary objective of this course is to provide students with a comprehensive understanding of the theory of functions of complex variables, their properties, and applications in various fields such as physics and engineering.
+
+**Prerequisites**
+
+To successfully engage with this course, students are required to have completed "Real Analysis - I" and "Multivariable Calculus." These foundational courses ensure that students possess the necessary mathematical maturity and background to delve into the intricacies of complex analysis. While no other pre-requisites are specified at this time, it is advisable for interested students to consult with academic advisors or course coordinators for further guidance.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Demonstrate a thorough understanding of the geometry of complex numbers and their properties.
+2. **CO2:** Analyze functions of a complex variable, compute their derivatives, integrals, and explore concepts like singularities and zeros.
+3. **CO3:** Evaluate complicated real integrals using residue calculus techniques.
+4. **CO4:** Apply the theory of complex analysis to solve problems in physics and engineering.
+5. **CO5:** Understand and utilize conformal mapping for various applications.
+
+**Weekly Syllabus and Topics**
+
+The course is structured into 13 weeks, each focusing on specific topics with corresponding homework assignments:
+
+- **Weeks 1 & 2:** Review of complex numbers and analytic functions; introduction to derivatives in the complex plane.
+- **Weeks 3 & 4:** Exploration of hyperbolic functions and contour integrals.
+- **Weeks 5 & 6:** Study of branch cuts, antiderivatives, Cauchy-Goursat theorem, and Cauchy Integral formula.
+- **Weeks 7 & 8:** Examination of power series expansions, convergence, and integration/differentiation techniques.
+- **Weeks 9 & 10:** Discussion on singularities, residues, and applications of the residue theorem.
+- **Weeks 11 & 12:** Advanced topics including Jordan’s Lemma, Argument principle, Rouché’s Theorem, and conformal mapping.
+- **Week 13:** Comprehensive review for end-of-term examination.
+
+**Assignments**
+
+Each week includes homework assignments designed to reinforce the concepts covered in lectures. These assignments are labeled as "HW X," where X corresponds to the week number.
+
+**Assessment Strategy**
+
+The course assessment is structured as follows:
+
+- **Homework (30%):** Regular assignments contribute significantly to the final grade, emphasizing consistent practice and understanding.
+- **Mid-Semester Examination (20%):** A comprehensive evaluation of foundational concepts covered in the first half of the course.
+- **Tutorials/Viva/Presentation (10%):** Assessment through interactive sessions, supplementary explanations, or presentations.
+- **End-Semester Examination (40%):** A cumulative assessment covering the entire syllabus, reflecting overall understanding and application skills.
+
+Additional evaluations may be included at the discretion of the course instructor to cover any unaccounted aspects of student performance.
+
+**Learning Resources**
+
+To support your learning journey in this course, we recommend the following key texts:
+
+1. **Textbook:** "Complex Variables, 2nd ed" by Stephen D. Fisher.
+2. **Reference Books:**
+   - "Complex Variables & Applications – Churchill and Brown"
+   - "Complex Analysis – Theodore W. Gamelin"
+   - "Functions of one complex variable I – John B. Conway"
+   - "Fundamentals of Complex Analysis with Applications to Engineering, Science, and Mathematics (3rd Edition) – Edward B. Saff and A.D. Snider"
+
+These resources provide a solid foundation for understanding the principles and applications of complex analysis.
+
+---
+
+This structured narrative provides a comprehensive overview of MTH341/541 "Complex Analysis," encompassing all essential aspects from course objectives to assessment methods, ensuring a holistic learning experience.

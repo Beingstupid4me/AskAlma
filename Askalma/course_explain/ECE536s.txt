@@ -1,0 +1,64 @@
+**Course Overview**
+
+The course, titled "Optical Networking," is coded as ECE536s and carries 2 credits. It is designed for both undergraduate (UG) and postgraduate (PG) students. The primary objective of this course is to equip students with a comprehensive understanding of optical core networking systems. Students will learn about the architecture used in these networks, the technologies involved in optical core networks, and the algorithms/schemes used for routing and wavelength assignment (RWA) and routing and spectrum allocation (RSA). Additionally, the course will delve into challenging issues encountered in optical core networks.
+
+**Prerequisites**
+
+The prerequisites for this course include a solid foundation in communication networks and programming skills. Students are expected to have prior knowledge of basic communication network principles and proficiency in programming, which will be essential for understanding the advanced concepts covered in this course.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Understand the design principles of optical networks and propose suitable schemes/approaches for different planning and operational problems.
+- **CO2:** Formulate optimization problems for routing and wavelength assignment (RWA) / routing and spectrum allocation (RSA) approaches.
+- **CO3:** Simulate their proposed schemes/approximations and validate the simulation results.
+- **CO4:** Apply these skills to real-world scenarios, demonstrating a deep understanding of optical core networking systems.
+
+**Weekly Lecture Plan**
+
+The course is structured over 12 weeks, with each week focusing on specific topics:
+
+1. **Week 1:** Introduction to optical networks - Understanding basic concepts and terminologies.
+2. **Week 2:** Synchronous Optical Network (SONET) - Exploring the architecture and applications of SONET.
+3. **Week 3:** Wavelength-division multiplexing (WDM) optical networks and their limitations - Analyzing the advantages and challenges of WDM networks.
+4. **Week 4:** Wavelength routing network - Delving into the principles of wavelength routing in optical networks.
+5. **Week 5:** Routing - Exploring various routing algorithms and techniques used in optical networks.
+6. **Week 6:** Wavelength assignment - Understanding the process of assigning wavelengths in optical networks.
+7. **Week 7:** Virtual topology design - Learning about designing virtual topologies for efficient network operation.
+8. **Week 8:** Integer linear programming (ILP) formulation for routing and wavelength assignment (RWA) - Studying optimization techniques for RWA.
+9. **Week 9:** Elastic optical networks (EONs) - Examining the role of EONs in modern optical networking.
+10. **Week 10:** Spectrum allocation policies - Understanding different policies for spectrum allocation in optical networks.
+11. **Week 11:** Different aspects related to routing and spectrum allocation (RSA) - Exploring advanced topics in RSA.
+12. **Week 12:** Fragmentation problem and defragmentation approaches - Addressing challenges in network fragmentation.
+
+**Assignments**
+
+- **Programming Assignment 1:** Assigned after Week 5, focusing on basic concepts of optical networks.
+- **Programming Assignment 2:** Assigned after Week 8, involving optimization techniques for RWA.
+- **Programming Assignment 3:** Assigned after Week 10, covering spectrum allocation policies.
+
+**Assessment Strategy**
+
+The course assessment is divided as follows:
+
+- **Mid-Semester Examination (Mid-sem):** Contributes 20% to the final grade. This exam will assess students' understanding of fundamental concepts covered in the first half of the course.
+- **End-Semester Examination (End-sem):** Contributes 30% to the final grade. This comprehensive exam will evaluate students' grasp of all topics covered during the course.
+- **Quiz:** Regular quizzes throughout the semester, contributing 10% to the final grade.
+- **Assignments:** Three programming assignments, each contributing 10% to the final grade.
+
+**Learning Resources**
+
+The course provides a wealth of learning materials to support student understanding:
+
+- **Textbooks:**
+  1. Biswanath Mukherjee, "Optical WDM Networks," Springer, 2006.
+  2. R.Ramaswami, K.Sivarajan, G. Sasaki, "Optical Networks - A Practical Perspective," 3rd Ed., Elsevier Publication, 2009.
+  3. Siva Ram Murthy, Mohan Gurusamy, "WDM Optical Networks: concepts, Design, and Algorithms," Prentice–Hall, 2002.
+  4. Eiji Oki, "Linear Programming and Algorithms for Communication Networks," CRC Press, 2012.
+
+- **Reading Materials:** Links to research papers will be provided for further reading and exploration of advanced topics.
+
+**Conclusion**
+
+This course offers a comprehensive overview of optical networking systems, equipping students with the knowledge and skills necessary to design and implement efficient optical networks. Through a combination of theoretical instruction and practical assignments, students will gain a deep understanding of the principles and technologies underlying modern optical core networks. The assessment strategy ensures that both theoretical knowledge and practical application are evaluated effectively.

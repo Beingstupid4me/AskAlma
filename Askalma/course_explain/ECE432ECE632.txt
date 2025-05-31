@@ -1,0 +1,60 @@
+### Course Overview  
+This course, **ECE432 / ECE632: Radar Systems**, is designed for senior undergraduate and graduate students in electrical and computer engineering. It provides a comprehensive introduction to the principles of radar systems, focusing on their design, operation, and applications. The course combines theoretical concepts with practical applications, emphasizing key topics such as radar cross-section, clutter, and signal processing techniques.
+
+---
+
+### Prerequisites  
+To successfully engage with this course, students are expected to have completed **ECE 201: Signals and Systems**. Familiarity with **MATLAB** is highly desirable, as it will be used for assignments and simulations throughout the course.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Derive radar systems parameters such as bandwidth, carrier frequency, waveform, and power to achieve specific radar characteristics.  
+- **CO2**: Process radar signals to estimate range, velocity, and angular positions of targets.  
+- **CO3**: Explain the functionalities of common radar applications, including military, remote sensing, and automotive uses.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met       | Assignment/Labs/Tutorial            |
+|-------------|-----------------------------------|---------------|-------------------------------------|
+| Week 1      | Introduction - What is radar?     | CO01          | Reading Assignment, homework        |
+| Week 2-3    | Radar Phenomenology              | CO01          | Reading Assignment, homework        |
+| Week 4-5    | Types of Radar                    | CO01          | Reading Assignment, homework        |
+| Week 6-9    | Radar Signal Processing           | CO02          | Reading Assignment, homework        |
+| Week 10-12   | Common Radar Applications         | CO03          | Reading Assignment, homework        |
+| Week 13     | Mid-Semester Examination         | CO01-CO03     | N/A                                 |
+| Week 14    | Project Work                      | CO01-CO03     | N/A                                 |
+| Week 15-17   | Final Preparation                | CO01-CO03     | N/A                                 |
+| Week 18     | End-Semester Examination        | CO01-CO03     | N/A                                 |
+
+### Assessment Plan  
+
+The course assessment is designed to evaluate both theoretical understanding and practical application of radar systems. The breakdown is as follows:  
+- **Homework (15%)**: Regular assignments to reinforce concepts covered in lectures.  
+- **Quiz (10%)**: Short assessments to test understanding of key topics.  
+- **Mid-Semester Examination (25%)**: Comprehensive evaluation of material covered in the first half of the course.  
+- **Project (20%)**: An individual project involving radar system design and implementation, with a final presentation.  
+- **End-Semester Examination (30%)**: A cumulative assessment covering the entire course content.
+
+The end-semester examination carries a significant weightage due to its importance in evaluating overall understanding of radar systems and their applications.
+
+---
+
+### Resource Materials  
+
+#### Textbooks:  
+1. **"High Resolution Radar"** by David Werner  
+   This textbook provides a detailed overview of modern radar systems, focusing on high-resolution techniques and their applications.  
+
+#### References:  
+1. **"Introduction to Radar Systems, 3rd edition"** by M. Skolnik  
+   A comprehensive reference covering the fundamentals of radar systems, including signal processing and system design.  
+2. **"Radar Cross Section, SciTech Publishing"** by E. F. Knott, J. F. Shaeffer, and M. T. Tuley  
+   This book delves into the principles of radar cross-section analysis, a critical aspect of radar system design.
+
+---
+
+This course will equip students with the knowledge and skills needed to design, analyze, and implement radar systems, preparing them for advanced studies or professional practice in this field.

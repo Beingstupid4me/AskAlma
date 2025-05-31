@@ -1,0 +1,54 @@
+### Course Overview  
+This course ECE557, named "Speech Recognition and Understanding" is designed for both undergraduate and graduate students aiming to gain a comprehensive understanding of speech recognition and processing techniques. The primary objective is to equip learners with the ability to analyze and process speech signals, develop applications using existing tools, and integrate advanced methods like deep learning for real-world problems.
+
+---
+
+### Prerequisites  
+Students are expected to have a foundational knowledge in digital signal processing (DSP), probability theory, and basic classification techniques. Proficiency in programming languages such as Python or MATLAB is also required, as these will be used extensively throughout the course.
+
+---
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+- **CO1:** Understand and describe the fundamentals of speech production, including speaker-dependent and independent components.  
+- **CO2:** Model recognition problems using traditional techniques (Hidden Markov Models + Gaussian Mixture Models) and advanced deep learning approaches (Deep Neural Networks).  
+- **CO3:** Apply language models to enhance speech recognition systems for both specific and generic applications.  
+- **CO4:** Develop end-to-end speech recognition systems, including speaker recognition, based on the acquired knowledge.
+
+---
+
+### Weekly Lecture Plan  
+The course is divided into eight weeks, each focusing on key aspects of speech processing:  
+1. **Introduction to Speech Processing**: Overview of speech signals and their significance in human communication.  
+2. **Review of DSP, Probability, and Classification**: Revisit essential concepts necessary for the course, such as digital signal processing techniques, probability theory, and classification methods.  
+3. **Speech Production Fundamentals**: Detailed exploration of speech production mechanisms, including articulation and resonance.  
+4. **Filter Banks, Spectrograms, Cepstrum, and Mel Scale**: Understanding the tools used to analyze speech signals in the frequency domain.  
+5. **MFCC Feature Representations**: Learning how Mel Frequency Cepstral Coefficients (MFCCs) are used to represent speech signals for recognition tasks.  
+6. **GMM-Based Acoustic Modeling**: Introduction to Gaussian Mixture Models and their application in automatic speech recognition (ASR).  
+7. **Hidden Markov Models for ASR**: Development of ASR systems using Hidden Markov Models, focusing on state transitions and emission probabilities.  
+8. **Deep Learning Models for ASR**: Exploration of advanced deep learning techniques, such as Recurrent Neural Networks (RNNs) and Transformers, for speech recognition.  
+
+Assignments will be provided weekly to reinforce the concepts covered in each lecture.
+
+---
+
+### Assessment Plan  
+The course assessment is designed to evaluate both theoretical understanding and practical application:  
+- **Assignments (40%)**: Practical tasks aimed at applying the concepts learned in lectures. These include programming exercises, analysis of speech signals, and implementation of basic ASR systems.  
+- **Quizzes (20%)**: Short assessments conducted each week to test comprehension of key topics covered in previous weeks.  
+- **Mid-Semester Examination (20%)**: A comprehensive exam covering the first half of the course material.  
+- **Project (20%)**: An individual project where students will develop a complete speech recognition system, demonstrating their ability to integrate various techniques learned throughout the course.  
+
+Additional evaluations may be conducted based on student performance and contributions during class discussions.
+
+---
+
+### Resource Materials  
+The following materials will support your learning:  
+1. **Textbook**: *Digital Processing of Speech Signals* by Rabiner and Schafer. This book provides a foundational understanding of speech processing techniques.  
+2. **Reference Book**: *Speech and Language Processing* by Jurafsky and Martin, which offers a comprehensive overview of modern speech recognition systems.  
+3. Notes and references will be provided online through the course portal for further study.
+
+---
+
+This structured approach ensures that students gain both theoretical knowledge and practical skills in speech recognition and processing, preparing them for advanced applications in this field.

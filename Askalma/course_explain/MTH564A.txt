@@ -1,0 +1,52 @@
+**Course Overview**
+
+The course MTH564A titled "Introduction to Riemannian Geometry with Some Applications" is designed to provide students with a comprehensive understanding of Riemannian Geometry and its applications in various fields such as physics, computer vision, and more. This 2-credit course is suitable for both undergraduate and postgraduate students. The course description highlights the evolution of Riemannian Geometry as a tool used in Relativity Theory to understand the universe's physics and its modern applications in Riemannian Computing in Computer Vision (RCCV). The primary objective of this course is to equip students with the necessary mathematical tools to pursue further studies in these emerging fields.
+
+**Prerequisites**
+
+To successfully engage with this course, students are required to have a solid foundation in certain prerequisite areas. Specifically, students must have completed MTH100 (Linear Algebra), MTH203 (Multivariable Calculus), and either MTH240 (Real Analysis 1) or MTH562 (Point Set Topology). Additionally, MTH544 (Calculus on R^n) is a mandatory prerequisite. These prerequisites ensure that students have the necessary background to understand the advanced concepts covered in this course.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Determine whether a Riemannian structure can be applied to solve a problem.
+2. **CO2:** Decide which Riemannian metric is most suitable for studying a given problem.
+3. **CO3:** Utilize techniques such as the Riemannian metric, exponential map, geodesics, and other tools in solving problems.
+4. **CO4:** Recognize whether a geometric entity is a Grassmann manifold.
+
+**Weekly Syllabus and Topics**
+
+The course is structured into weekly lectures, each focusing on specific topics that build upon each other to achieve the learning outcomes. Below is an overview of the topics covered each week:
+
+- **Week 1-2:** Introduction to Basic Topology - open sets, closed sets, basis for a topology, connected sets, compact sets, continuous functions. Definition of a differentiable manifold and examples.
+- **Week 3-4:** Lie bracket, covariant differentiation along a curve, Levi-Civita connection.
+- **Week 5-6:** Exponential map, geodesics in Riemannian manifolds, curvature.
+- **Week 7:** Grassmann Manifold.
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application of the concepts covered. The evaluation plan includes:
+
+1. **Assignments and Presentations (25%):** Students will receive weekly assignments that involve solving problems and presenting solutions in class. Credit will be awarded based on the written solutions and random in-class presentations.
+2. **Mid-Semester Examination (25%):** This exam will assess students' understanding of the material covered in the first half of the course.
+3. **End-Semester Examination (50%):** The final examination will cover the entire syllabus, emphasizing problem-solving and conceptual understanding.
+
+**Learning Resources**
+
+The following resources are recommended to support your learning:
+
+- **Textbook:** "Riemannian Geometry" by Manfredo Do Carmo.
+- **Reference Books:**
+  - "Riemannian Computing in Computer Vision" by P.K. Turaga and A. Srivastava
+  - "Morse Theory" by J. Milnor
+  - "Principles of Mathematical Analysis" by W. Rudin
+  - "Topology" by J. Munkres
+  - "Differential Topology" by V. Guillemin and A. Pollack
+  - "Calculus on Manifolds" by M. Spivak
+
+Additional resources will be assigned by the instructor as needed to supplement your learning experience.
+
+---
+
+This structured approach ensures a comprehensive understanding of Riemannian Geometry, its applications, and the necessary skills to excel in this course.

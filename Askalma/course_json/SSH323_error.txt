@@ -1,0 +1,404 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I'm trying to help this user extract information from a provided text file and structure it into a specific JSON format. Let me break down what they need.
+
+First, looking at the JSON template they provided, I see several keys like "Course Code", "Course Name", "Credits", etc., each with their own structures. My task is to map the information from the given table1 content into these keys correctly.
+
+Starting with the Course Code and Course Name: The first non-empty cell under "Unnamed: 1" is "New Media and Politics". So, I'll set "Course Name" to that string.
+
+Next, Credits are listed as 4 in row 3. That's straightforward; I'll assign "4" directly.
+
+For the course offered to, it says UG multiple times, so "UG" makes sense for the value.
+
+The Course Description is quite lengthy and repetitive. It seems like a detailed explanation of the course content. Since it's provided multiple times, perhaps it should be included as-is in the "Course Description" field without any changes.
+
+Looking at prerequisites: The table shows "Pre-requisite (Mandatory)" with nothing inside, so that field will be null or an empty string.
+
+For Course Outcomes (COs), there are five CO1 to CO5. Each is listed twice, but I think the last one should be unique. Maybe it's a typo and should be CO5 only once. So, I'll list them as CO1: ..., CO2: ..., CO3: ..., CO4: ..., CO5: ... each with their respective descriptions.
+
+The Weekly Lecture Plan has 13 weeks, each with a lecture topic and COs met. I need to extract the week number, topic, and COs into an array of objects. Each COs met should be an array of strings like ["CO1", "CO2"] etc.
+
+Assessment Plan includes Quiz exams, Midsem, HW assignments, Endsem. The text mentions quizzes assigned as 20%, mid-term as 20%, policy review as 20%, and quiz as another 20%. Wait, that adds up to more than 100%, which might be a mistake. Also, the End-sem is mentioned with an asterisk, so I'll include it but note its unclear status.
+
+Resource Material includes two textbooks: "Populism and the Media" by Luca Manucci and another by Ralph Schroeder. The third resource seems incomplete ("Also by same author..."), so maybe just include the first two full titles.
+
+Putting this all together, I need to structure each section with proper JSON formatting, ensuring numbers are correctly formatted as strings where necessary (like COs Met being arrays of strings) and handling missing values gracefully.
+</think>
+
+```json
+{
+  "Course Code": "SSH323",
+  "Course Name": "New Media and Politics",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description/ Objectives": "Conventional views on the global rise of populism, fake news and extreme polarisation evaluate these in terms of the 'the failure of the neoliberal economics' and/or a result of 'destabilised cultural identity'. But could this have happened without the Internet? This course offers a 'new' media perspective to answer this puzzle, and combines varied explanations to develop macro- level theoretical insights around contemporary politics and implications for policy and regulation. (In PART I) we begin by questioning the binaries in debates around 'hacktivism' which either ignore the difference between old and new media or adopts a heavy ‘technological determinism’ in their explanations. Instead, we develop arguments around the newness of Internet-enabled political action, covering key and historical and technological development relating to spatial nature of new populism ('counter public sphere' Fraser 1992), social movements (Wellman and Raini 2012) as well as communicative power (Castells 2009). (In PART II) we consider several prominent case studies and examples to evaluate these theoretical and conceptual insights. We begin with the 'occupy' movements that spread across the world after the financial crisis in early 2010s, and then analyse the use of new media in the uprisings in Arab world and Asia. Taking a series of case studies we theorise the power of Twitter, Facebook and WhatsApp as 'new' intermediaries and analyse the populist trend in terms of the changing balance between the state and society and the slow erosion of established institutions. These cases focus primarily on populist politics but also include new environmental movements, civic activism and digital journalism. In terms of pedagogical approach, and evaluating criteria, our course will rely on active learning that requires all students to develop a strong research orientation and would help them develop independent projects that showcase these insights in terms of policy analysis, journalism as well as technology development.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will begin by recalling and critically questioning conventional assumptions and technological deterministic claims about online media and their effects",
+    "CO2": "Having done away with conventional views, students will learn to classify and discuss key concepts in 'new' political processes, develop a political map of internet since the Cold-War era, in the process lelearning key communicative, spatial and social dimensions of these technological developments",
+    "CO3": "Moving on, students will then learn to independently apply and critique theories of networked individualism in relation to the emergence of (un)mediated public sphere and correlate it with the rise of populism in the 21st century",
+    "CO4": "Students will independently undertake research projects to hypothesize role of new media and its relation to populist politics, with a focus on South Asia and India",
+    "CO5": "Students will be able to respond to, and develop new policy guidelines for the future and construct alternative perspectives from to the thinking of the state on the question of new media and the internet."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Explaining Populism & technological determinism",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "New' mediation: Worldwide trends in internet use and popular politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Key concepts 1:Occupy as spatial politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Key concepts 2: Communicative power and social movements",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Key concepts 3: Collective identity in the era of 'Networked individualism'",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Historical and political origins of the internet based activism",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Populism and the rise of Twitter in the American politics",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "Project proposal"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Popular revolts in the Arab world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 1"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "New populism in East Europe and post-Communist world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 2"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Social media and rise of AAP in urban India",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Project: Post-field report"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Journalism and 'post-truth' politics in South Asia",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "XR: Networked environmental action and climate politics",
+      "COs Met": ["CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Media policy in the age of populist politics",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Final Project Presentations",
+      "COs Met": [],
+      "Assignments": ""
+    }
+</think>
+
+```json
+{
+  "Course Code": "SSH323",
+  "Course Name": "New Media and Politics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description/ Objectives": "Conventional views on the global rise of populism, fake news and extreme polarisation evaluate these in terms of the 'the failure of the neoliberal economics' and/or a result of 'destabilised cultural identity'. But could this have happened without the Internet? This course offers a 'new' media perspective to answer this puzzle, and combines varied explanations to develop macro- level theoretical insights around contemporary politics and implications for policy and regulation.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": "Pre-requisite (Mandatory)"
+  },
+  "Course Outcomes": {
+    "CO1": "Students will begin by recalling and critically questioning conventional assumptions and technological deterministic claims about online media and their effects",
+    "CO2": "Having done away with conventional views, students will learn to classify and discuss key concepts in 'new' political processes, develop a political map of internet since the Cold-War era, in the process lelearning key communicative, spatial and social dimensions of these technological developments",
+    "CO3": "Moving on, students will then learn to independently apply and critique theories of networked individualism in relation to the emergence of (un)mediated public sphere and correlate it with the rise of populism in the 21st century",
+    "CO4": "Students will independently undertake research projects to hypothesize role of new media and its relation to populist politics, with a focus on South Asia and India",
+    "CO5": "Students will be able to respond to, and develop new policy guidelines for the future and construct alternative perspectives from to the thinking of the state on the question of new media and the internet."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Explaining Populism & technological determinism",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "New' mediation: Worldwide trends in internet use and popular politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Key concepts 1:Occupy as spatial politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Key concepts 2: Communicative power and social movements",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Key concepts 3: Collective identity in the era of 'Networked individualism'",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Historical and political origins of the internet based activism",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Populism and the rise of Twitter in the American politics",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Popular revolts in the Arab world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 1"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "New populism in East Europe and post-Communist world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 2"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Social media and rise of AAP in urban India",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Project: Post-field report"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Journalism and 'post-truth' politics in South Asia",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "XR: Networked environmental action and climate politics",
+      "COs Met": ["CO5"],
+      "Assignments": "Project: Final presentation"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Media policy in the age of populist politics",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4", "CO5"],
+      "Assignments": ""
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Assessment Plan",
+      "COs Met": [],
+      "Assignments": []
+    }
+</think>
+
+```json
+{
+  "Course Code": "SSH323",
+  "Course Name": "New Media and Politics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description/ Objectives": "Conventional views on the global rise of populism, fake news and extreme polarisation evaluate these in terms of the 'the failure of the neoliberal economics' and/or a result of 'destabilised cultural identity'. But could this have happened without the Internet? This course offers a 'new' media perspective to answer this puzzle, and combines varied explanations to develop macro-level theoretical insights around contemporary politics and implications for policy and regulation.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": "Pre-requisite (Mandatory)"
+  },
+  "Course Outcomes": {
+    "CO1": "Students will begin by recalling and critically questioning conventional assumptions and technological deterministic claims about online media and their effects",
+    "CO2": "Having done away with conventional views, students will learn to classify and discuss key concepts in 'new' political processes, develop a political map of internet since the Cold-War era, in the process lelearning key communicative, spatial and social dimensions of these technological developments",
+    "CO3": "Moving on, students will then learn to independently apply and critique theories of networked individualism in relation to the emergence of (un)mediated public sphere and correlate it with the rise of populism in the 21st century",
+    "CO4": "Students will independently undertake research projects to hypothesize role of new media and its relation to populist politics, with a focus on South Asia and India",
+    "CO5": "Students will be able to respond to, and develop new policy guidelines for the future and construct alternative perspectives from to the thinking of the state on the question of new media and the internet"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Explaining Populism & technological determinism",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "New' mediation: Worldwide trends in internet use and popular politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Key concepts 1:Occupy as spatial politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Key concepts 2: Communicative power and social movements",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Key concepts 3: Collective identity in the era of 'Networked individualism'",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Historical and political origins of the internet based activism",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Populism and the rise of Twitter in the American politics",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Popular revolts in the Arab world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 1"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "New populism in East Europe and post-Communist world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 2"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Social media and rise of AAP in urban India",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Project proposal"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Journalism and 'post-truth' politics in South Asia",
+      "COs Met
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH323",
+  "Course Name": "New Media and Politics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description/ Objectives": "Conventional views on the global rise of populism, fake news and extreme polarisation evaluate these in terms of the 'the failure of the neoliberal economics' and/or a result of 'destabilised cultural identity'. But could this have happened without the Internet? This course offers a 'new' media perspective to answer this puzzle, and combines varied explanations to develop macro-level theoretical insights around contemporary politics and implications for policy and regulation.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": "Pre-requisite (Mandatory)"
+  },
+  "Course Outcomes": {
+    "CO1": "Students will begin by recalling and critically questioning conventional assumptions and technological deterministic claims about online media and their effects",
+    "CO2": "Having done away with conventional views, students will learn to classify and discuss key concepts in 'new' political processes, develop a political map of internet since the Cold-War era, in the process lelearning key communicative, spatial and social dimensions of these technological developments",
+    "CO3": "Moving on, students will then learn to independently apply and critique theories of networked individualism in relation to the emergence of (un)mediated public sphere and correlate it with the rise of populism in the 21st century",
+    "CO4": "Students will independently undertake research projects to hypothesize role of new media and its relation to populist politics, with a focus on South Asia and India",
+    "CO5": "Students will be able to respond to, and develop new policy guidelines for the future and construct alternative perspectives from to the thinking of the state on the question of new media and the internet"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Explaining Populism & technological determinism",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "New' mediation: Worldwide trends in internet use and popular politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Key concepts 1:Occupy as spatial politics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Key concepts 2: Communicative power and social movements",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Key concepts 3: Collective identity in the era of 'Networked individualism'",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Historical and political origins of the internet based activism",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Populism and the rise of Twitter in the American politics",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Popular revolts in the Arab world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 1"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "New populism in East Europe and post-Communist world",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Methods tutorial 2"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Social media and rise of AAP in urban India",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Project proposal"
+    }

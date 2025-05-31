@@ -1,0 +1,410 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. The user has provided a JSON structure and some table data related to a course on Nanoelectronics. My task is to extract the relevant information from the given content and structure it into the specified JSON format.
+
+First, I'll start by identifying each section of the JSON that needs to be filled. Looking at the provided schema, there are several keys like "Course Code", "Course Name", "Credits", etc., which I need to extract from the table data.
+
+Starting with "Course Code" and "Course Name": These seem straightforward since they're in the first few rows of the table. The course code is consistently ECE517, so that's easy. The course name appears multiple times as "Introduction to Nanoelectronics", which I'll use for all instances.
+
+Next, "Credits" are listed as 4 four times, so that should be a single value of 4.
+
+Moving on to "Course Offered to": This is also consistent across the table with "UG/PG" repeated multiple times. So, it's safe to assign this once.
+
+The "Course Description" repeats the same text five times. Since all entries are identical, I'll take that as the value for this field.
+
+For pre-requisites, the table shows "Pre-requisite (Mandatory)", "Fundamentals of Solid-State Devices", and others. It seems like there's one mandatory prerequisite: "Basic understanding of P-N junction and MOSFET". The other prerequisites are listed under "Desirable" and "Other", but I notice that some fields have multiple entries, which might indicate multiple prerequisites. However, since the schema expects an array for "Mandatory", "Desirable", and "Other", each as a list or null, I'll structure them accordingly.
+
+Looking at the course outcomes (COs), there are five rows with CO1 to CO4. Each row has specific descriptions. I need to map these into an array under "Course Outcomes".
+
+The weekly lecture plan is spread across multiple rows in the table. Each week number corresponds to a lecture topic and the COs met, along with assignments. I'll create an array where each element represents a week's plan, including the week number, topic, COs met, and assignment details.
+
+For the assessment plan, there are several evaluation types: Assignment, Paper presentation, Mid-sem, and End-sem. Each has a percentage contribution to the grade. I'll structure this as an object with keys for each evaluation type and their respective values.
+
+The resource material section includes both references and internet resources. References are listed multiple times, so I'll compile them into an array. Internet resources also have multiple entries, which I'll add as another array under "Internet Resource".
+
+I need to ensure that all missing fields are represented as null or empty strings. Since the data provided is complete for each section, there's no need for defaults here.
+
+Finally, I'll make sure to structure everything into a JSON object without any additional text or explanations, just the raw JSON.
+</think>
+
+```json
+{
+  "Course Code": "ECE517",
+  "Course Name": "Introduction to Nanoelectronics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Nanoelectronics is an interdisciplinary area of research which has a huge potential and is currently attracting a great deal of attention. The objective of this course is to understand the basic principles that govern the operation and electrical characteristics of nanoelectronic devices and become familiar with the recent research being undertaken in nanoelectronics.",
+  "Prerequisites": {
+    "Mandatory": ["Basic understanding of P-N junction and MOSFET"],
+    "Desirable": ["Fundamentals of Solid-State Devices", "Pre-requisite (Other)"],
+    "Other": ["Pre-requisite (Other)", "Pre-requisite (Other)"]
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+      "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+      "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+      "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+    },
+    {
+      "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+      "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+      "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+      "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+    },
+    {
+      "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+      "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+      "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+      "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+    },
+    {
+      "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+      "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+      "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+      "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+    },
+    {
+      "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+      "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+      "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+      "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "bottom-up" approach to build devices, trends and ITRS perspective,
+      "COs Met": ["CO1", "CO2", "CO4"],
+      "Assignment/Labs/Tutorial": "Choosing Topic for Seminar"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Particle, Basic Postulates, Wave Function, Schrodinger’s equation, Expectation Value, Particle in a Box, Finite Potential Well",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Energy Bands, Density of States, Distribution Functions, Fermi Level, Quantum Well, Quantum Wire, Quantum",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Transport in Confined Materials, Ballistic Transport",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Effects, Limits on Subthreshold Swing and its consequences, Challenges in Scaling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": "Assignment 1"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Strain, FDSOI MOSFET, FinFETs, III-V Materials",
+      "COs Met": ["CO3", "CO4"]
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "2-D Materials: Graphene, Transition Metal Dichalcogenide (TMD)",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "1-D Materials: CNT, Nanowires",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "CNT, Graphene Nanoribbon and Nanowire based FETs",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Steep Subthreshold Slope Devices: Tunnel FET, NCFET, IMOS",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Nanoelectromechanical Switches (NEMS)",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Novel Devices: Single Electron Transistors, Molecular Devices",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Summing Up and Presentation",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": 20,
+    "HW assignments": null,
+    "Endsem": 50
+  },
+  "Resource Material": {
+    "Textbook": null,
+    "Reference Book": null
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE517",
+  "Course Name": "Introduction to Nanoelectronics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Nanoelectronics is an interdisciplinary area of research which has a huge potential and is currently attracting a great deal of attention. The objective of this course is to understand the basic principles that govern the operation and electrical characteristics of nanoelectronic devices and become familiar with the recent research being undertaken in nanoelectronics.",
+  "Prerequisites": {
+    "Mandatory": "Basic understanding of P-N junction and MOSFET",
+    "Desirable": "Fundamentals of Solid-State Devices",
+    "Other": "Pre-requisite (Other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+    "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+    "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+    "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "bottom-up" approach to build devices, trends and ITRS perspective,
+      "COs Met": ["CO1", "CO2", "CO4"],
+      "Assignment/Labs/Tutorial": "Choosing Topic for Seminar"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Particle, Basic Postulates, Wave Function, Schrodinger’s equation, Expectation Value, Particle in a Box, Finite Potential Well",
+      "COs Met": ["CO1", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Energy Bands, Density of States, Distribution Functions, Fermi Level, Quantum Well, Quantum Wire, Quantum",
+      "COs Met": ["CO1", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Transport in Confined Materials, Ballistic Transport",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Effects, Limits on Subthreshold Swing and its consequences, Challenges in Scaling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": "Assignment 1"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Strain, FDSOI MOSFET, FinFETs, III-V Materials",
+      "COs Met": ["CO3", "CO4"]
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "2-D Materials: Graphene, Transition Metal Dichalcogenide (TMD)",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "1-D Materials: CNT, Nanowires",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "CNT, Graphene Nanoribbon and Nanowire based FETs",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Steep Subthreshold Slope Devices: Tunnel FET, NCFET, IMOS",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Nanoelectromechanical Switches (NEMS)",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Novel Devices: Single Electron Transistors, Molecular Devices",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Summing Up and Presentation",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": 20,
+    "HW assignments": null,
+    "Endsem": 50
+  },
+  "Resource Material": {
+    "Textbook": null,
+    "Reference Book": null
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECE517",
+  "Course Name": "Introduction to Nanoelectronics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Nanoelectronics is an interdisciplinary area of research which has a huge potential and is currently attracting a great deal of attention. The objective of this course is to understand the basic principles that govern the operation and electrical characteristics of nanoelectronic devices and become familiar with the recent research being undertaken in nanoelectronics.",
+  "Prerequisites": {
+    "Mandatory": "Basic understanding of P-N junction and MOSFET",
+    "Desirable": "Fundamentals of Solid-State Devices",
+    "Other": "Pre-requisite (Other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+    "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+    "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+    "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "bottom-up" approach to build devices, trends and ITRS perspective,
+      "COs Met": ["CO1", "CO2", "CO4"],
+      "Assignment/Labs/Tutorial": "Choosing Topic for Seminar"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Particle, Basic Postulates, Wave Function, Schrodinger’s equation, Expectation Value, Particle in a Box, Finite Potential Well",
+      "COs Met": ["CO1", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Energy Bands, Density of States, Distribution Functions, Fermi Level, Quantum Well, Quantum Wire, Quantum",
+      "COs Met": ["CO1", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Transport in Confined Materials, Ballistic Transport",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Effects, Limits on Subthreshold Swing and its consequences, Challenges in Scaling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": "Assignment 1"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Strain, FDSOI MOSFET, FinFETs, III-V Materials",
+      "COs Met": ["CO3", "CO4"]
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "2-D Materials: Graphene, Transition Metal Dichalcogenide (TMD)",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "1-D Materials: CNT, Nanowires",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "CNT, Graphene Nanoribbon and Nanowire based FETs",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Steep Subthreshold Slope Devices: Tunnel FET, NCFET, IMOS",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Nanoelectromechanical Switches (N
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECE517",
+  "Course Name": "Introduction to Nanoelectronics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Nanoelectronics is an interdisciplinary area of research which has a huge potential and is currently attracting a great deal of attention. The objective of this course is to understand the basic principles that govern the operation and electrical characteristics of nanoelectronic devices and become familiar with the recent research being undertaken in nanoelectronics.",
+  "Prerequisites": {
+    "Mandatory": "Basic understanding of P-N junction and MOSFET",
+    "Desirable": "Fundamentals of Solid-State Devices",
+    "Other": "Pre-requisite (Other)"
+  },
+  "Course Outcomes": {
+    "CO1": "Clearly explains distinct phenomena that are important in nanoelectronic devices.",
+    "CO2": "Is able to describe the operating principles, merits, demerits and challenges of some of the futuristic nanoelectronic devices.",
+    "CO3": "Is able to compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.",
+    "CO4": "Is able to describe the challenges of scaling of conventional MOSFETs and possible solutions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "bottom-up" approach to build devices, trends and ITRS perspective,
+      "COs Met": ["CO1", "CO2", "CO4"],
+      "Assignment/Labs/Tutorial": "Choosing Topic for Seminar"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Particle, Basic Postulates, Wave Function, Schrodinger’s equation, Expectation Value, Particle in a Box, Finite Potential Well",
+      "COs Met": ["CO1", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Energy Bands, Density of States, Distribution Functions, Fermi Level, Quantum Well, Quantum Wire, Quantum",
+      "COs Met": ["CO1", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Transport in Confined Materials, Ballistic Transport",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Effects, Limits on Subthreshold Swing and its consequences, Challenges in Scaling",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": "Assignment 1"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Strain, FDSOI MOSFET, FinFETs, III-V Materials",
+      "COs Met": ["CO3", "CO4"]
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "2-D Materials: Graphene, Transition Metal Dichalcogenide (TMD)",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "1-D Materials: CNT, Nanowires",
+      "COs Met": ["CO1", "CO3"]
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "CNT, Graphene Nanoribbon and Nanowire based FETs",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Steep Subthreshold Slope Devices: Tunnel FET, NCFET, IMOS",
+      "COs Met": ["CO1", "CO2", "CO3"]
+    }

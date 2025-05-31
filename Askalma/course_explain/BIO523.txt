@@ -1,0 +1,70 @@
+### Course Overview  
+**Course Code:** BIO523  
+**Course Name:** Chemoinformatics  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG) students  
+
+This course provides an introduction to chemoinformatics, an interdisciplinary field at the intersection of chemistry, informatics, and biology. The primary objective is to equip students with a solid understanding of the fundamentals of chemoinformatics and its practical applications in areas such as drug discovery. Through a combination of lectures, hands-on exercises, and assignments, students will gain the ability to analyze and interpret data, apply computational tools, and solve real-world problems in this field.
+
+---
+
+### Prerequisites  
+- **Knowledge of Chemistry:** Basic understanding of chemical principles and structures.  
+- **Algorithms and Programming:** Familiarity with algorithms and programming concepts is desirable but not mandatory.  
+- **Machine Learning:** A basic understanding of machine learning techniques will be beneficial for certain topics covered in the course.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Explain basic concepts of chemoinformatics and its relevance in modern scientific research.  
+2. **CO2:** Implement computational tools for the calculation of molecular descriptors and analysis of chemical similarity.  
+3. **CO3:** Classify small molecules based on structural and physicochemical properties, using chemoinformatics methods.  
+4. **CO4:** Interpret results from chemoinformatics analyses to draw meaningful conclusions about molecular behavior and reactivity.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met (COs) | Assignments/Labs/Tutorials                                                                 |
+|-------------|----------------------------------|---------------------------|------------------------------------------------------------------------------------------|
+| 1           | Motivation for data and informatics-driven view of chemistry, applications in drug discovery | CO1                   | 3 hours lecture + 3 hours tutorial                                                        |
+| 2           | Introduction to organic structures and their properties                                  | CO1, CO2                | 3+2 hours (Exercises)                                                                  |
+| 3           | Representation and manipulation of 2D & 3D molecular structures                           | CO1, CO2, CO3          | 3+2 hours (Exercises + Assignment-1)                                                  |
+| 4           | Open-source tools for chemoinformatics                                                  | CO1, CO2, CO3          | 3+2 hours (Exercises)                                                                  |
+| 5           | Molecular descriptors-I                | CO1, CO2                 | 3+2 hours (Exercises)                                                                  |
+| 6           | Molecular descriptors-II              | CO1, CO2                 | 3+2 hours (Exercises + Assignment-2)                                                  |
+| 7           | Computational models and analysis: QSAR      | CO1, CO2, CO3          | 3+2 hours (Exercises)                                                                  |
+| 8           | Chemical similarity methods-I          | CO1, CO2, CO3          | 3+2 hours (Exercises + Mini Project)                                                  |
+| 9           | Chemical similarity methods-II         | CO1, CO2, CO3          | 3+2 hours (Exercises)                                                                  |
+| 10          | Case studies: Classification of molecules   | CO1                    | 3+2 hours (Exercises)                                                                  |
+| 11          | Analysis of high-throughput screening data and virtual screening | CO1                  | 3+2 hours (Exercises)                                                                  |
+| 12          | Combinatorial chemistry and library design | CO1                  | 3+2 hours (Exercises)                                                                  |
+| 13          | Open challenges in chemoinformatics      | CO1                    | 3+2 hours (Mini-Project Presentations)                                                |
+
+---
+
+### Assessment Strategy  
+
+| Type of Evaluation       | Contribution to Grade (%) | Week(s) or Duration                                                                 |
+|---------------------------|--------------------------|-------------------------------------------------------------------------------------|
+| Mid-Semester Examination   | 20                     | Week 8 – Mid-Semester Exam                                                        |
+| Assignments                | 30                     | Throughout the semester (various weeks)                                           |
+| Mini-Project              | 20                     | Week 13 – Mini-Project Presentations                                              |
+| End-Semester Examination   | 30                     | Week 14 – End-Semester Exam                                                      |
+
+---
+
+### Learning Resources  
+
+#### Textbooks  
+1. **An Introduction to Chemoinformatics** by Alan Leach and John Gillet (Springer)  
+2. **Practical Chemoinformatics** by Karthikeyan Karthikeyan and Ravi Vyas (Springer)  
+3. **Organic Chemistry** by Melvin G. Morrison and Edward J. Boyd (Pearson India)  
+
+#### Reference Book  
+1. **Advanced Organic Chemistry: Reaction Mechanisms and Structure** by John R. Taylor (Oxford University Press)  
+
+---
+
+This structured course design ensures that students gain a comprehensive understanding of chemoinformatics, develop essential skills in computational methods, and apply these tools to solve real-world problems in drug discovery and related fields.

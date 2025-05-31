@@ -1,0 +1,151 @@
+{
+  "Course Code": "SOC 212",
+  "Course Name": "Key Concepts in Economic Sociology",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "Traditional economic analysis takes the rational individual as its starting point. Economic Sociology on the other hand encourages students to see rational self-interest and action as embedded in society, influenced by group dynamics, legal institutions, power, organizations and even culture.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "HSS 2XX",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to read and comprehend and present on Key Concepts in social science material.",
+    "CO2": "Students are able to make cross-disciplinary connections between the sphere of 'economics' and social facts and to conceptualise the links between the Economy and society.",
+    "CO3": "Students are able to understand and explain different methodological approaches of mainstream economics and sociology to develop a comparative understanding on contemporary issues.",
+    "CO4": "Students are able to apply their knowledge of economic sociology to real-world scenarios."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to Economic Sociology",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Reading of Key text"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Brief histories of Economics and Sociology",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Identifying Argument in Text"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Formalism and Substanvism in Economic Sociology- Karl Polanyi",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Economies and Culture",
+      "COURSEs MET": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Reading of Key text"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "New Economic Sociology- Embeddedness- Granovetter",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Open Book assignment"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "New Traditions of Economic Sociology- Swedberg",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Presentations"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Forms of Exchange: Gifting",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Presentations"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Forms of Exchange: Reciprocity",
+      "COURSEs MET": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Presentations"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Understanding Markets- social meanings",
+      "COURSEs MET": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Understanding Money- Social meanings",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Open Book assignment"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Development in Economic Sociology",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Reading of Key text"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Globalisation in Economic Sociology",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Quiz"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Summing up: Globalization and after",
+      "COURSEs MET": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Reading of Key text"
+    }
+  ],
+  "Assessment Plan": {
+    "Close reading, presentation and analysis of key text": 20,
+    "Quiz exams": 20,
+    "Midsem": null,
+    "HW assignments": 10,
+    "Endsem": 50
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": [
+      "Wilk,RichardR.EconomiesandCultures.Boulder,Colorado:WestviewPress,1996",
+      "Hann,Chris.andKeithHart.EconomicAnthropology.Cambridge,UK:PolityPress,2011",
+      "Durkheim, E. Division of Labour in Society (relevant chapters)",
+      "Granovetter, M. \u201cEconomic action and social structure: the problem of embeddedness\u201d, AJS, Vol 91, Issue 3 November 1985",
+      "Granovetter, M. and R. Swedberg (eds) 2011. The sociology of Economic life.Westview: Colorado",
+      "Mauss,M. The Gift. Routledge: London. 1990"
+    ]
+  }
+}

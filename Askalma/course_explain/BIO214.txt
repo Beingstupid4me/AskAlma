@@ -1,0 +1,47 @@
+**Course Overview**
+
+The course titled **Genetics and Molecular Biology (BIO214)** is a 4-credit module offered to undergraduate students under the Core curriculum. This foundational course provides an in-depth understanding of genetics, molecular biology, and their quantitative aspects. The primary objective is to equip students with knowledge in solving statistical problems related to genetic inheritance, summarizing non-mendelian inheritance and gene transfer mechanisms, understanding molecular regulation through epigenome and proteome, addressing population genetics concepts, and exploring developmental genetics principles.
+
+**Prerequisites**
+
+This course does not require any specific prerequisites. Students are expected to have a basic understanding of biological processes and an interest in quantitative analysis within the context of genetics.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Solve statistical problems related to mendelian inheritance.
+2. **CO2**: Summarize non-mendelian inheritance and gene transfer mechanisms.
+3. **CO3**: Understand and explain molecular regulation through epigenome and proteome.
+4. **CO4**: Address quantitative problems in population genetics.
+
+**Weekly Syllabus and Topics**
+
+- **Weeks 1-2-3**: Introduction to DNA structure, variations, quantitative genetics, mendelian inheritance, non-mendelian genetics, gene interactions (epistasis), bacterial and viral gene transfers, evolution, and transposable elements. Assignments include statistical analysis related to mendelian inheritance.
+  
+- **Weeks 4-5-6**: Detailed exploration of gene regulation in prokaryotes and eukaryotes, introduction to epigenomics and proteomics.
+
+- **Weeks 7-8**: Focus on molecular biology aspects of the epigenome and proteome involved in gene regulation. Assignments include RNA extraction and reverse transcription tasks.
+
+- **Week 9-10**: Introduction to population genetics concepts.
+
+- **Week 11**: Overview of developmental genetics principles.
+
+- **Weeks 12-13**: Discussion on data sources in genomics, proteomics, and population genetics for quantitative analysis. Assignments involve solving numerical problems related to population genetics.
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical knowledge and practical application:
+
+- **Mid-Semester Examination (30%)**: Covers foundational concepts and their applications.
+- **End-Semester Examination (30%)**: Comprehensive evaluation of all topics covered during the term.
+- **Assignments (20%)**: Include statistical analysis, RNA extraction, and solving numerical problems.
+- **Quiz (20%)**: Tests understanding of key concepts through short assessments.
+
+**Learning Resources**
+
+The primary textbooks for this course are:
+1. *Genetics: A Conceptual Approach* by Benjamin Pierce
+2. *Molecular Biology of the Gene* by John Watson et al.
+
+These texts provide essential theoretical frameworks and practical insights into genetics and molecular biology, serving as foundational references throughout the course.

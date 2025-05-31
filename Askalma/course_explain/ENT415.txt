@@ -1,0 +1,41 @@
+**Course Overview**  
+The course ENT415, titled "New Venture Planning," is a 4-credit program designed for B.Tech post-4th semester, M.Tech, and Ph.D. students. It equips learners with essential tools, legal frameworks, and strategies to successfully launch new ventures. The curriculum is divided into three modules: Explore, Identify, and Execute, each focusing on critical aspects of entrepreneurship.
+
+**Course Description**  
+This course provides a comprehensive understanding of the entrepreneurial journey, emphasizing the challenges and opportunities involved in starting a venture. Students will learn about legal entity selection, fundraising strategies, team formation, and business model development. The curriculum integrates theoretical concepts with practical applications through case studies, assignments, and presentations.
+
+**Prerequisites**  
+- **Mandatory:** A strong foundation in basic entrepreneurship principles.
+- **Desirable:** Familiarity with business planning tools and market analysis techniques.
+- **Other:** Basic understanding of legal frameworks for business operations.
+
+**Learning Outcomes (COs)**  
+By the end of this course, students will be able to:  
+1. Understand the entrepreneurial mindset and its application in real-world scenarios.  
+2. Identify viable business opportunities and formulate effective strategies.  
+3. Develop a minimal viable product (MVP) using lean startup methodologies.  
+4. Apply business model canvas techniques for fundraising and growth strategies.  
+5. Conduct a comprehensive industry analysis to inform venture planning.
+
+**Weekly Lecture Plan**  
+- **Week 1 & 2:** Introduction to entrepreneurship, exploring opportunities, and the plunge decision.  
+- **Week 3 & 4:** Theory of effectuation and lean startup methodologies.  
+- **Week 5 & 6:** Cost leadership, differentiation, focus strategies, and industry analysis tools (Porters 5 forces, PESTEL model).  
+- **Week 7 & 8:** Growth strategies and bootstrapping techniques.  
+- **Week 9 & 10:** Understanding financing options and business growth strategies.  
+- **Week 11:** Exploring alternative business models and funding mechanisms.  
+- **Week 12 & 13:** Student team presentations using the business model canvas.
+
+**Assessment Plan**  
+The course assessment is designed to evaluate both theoretical knowledge and practical application:  
+- **Class Participation and Attendance (40%)**: Active engagement in discussions and consistent attendance are crucial for success.  
+- **Dorm Room Presentation (15%)**: A presentation based on a venture idea using the business model canvas.  
+- **Assignments (15%)**: Practical tasks to apply learned concepts, such as market analysis reports or funding proposals.  
+- **Final BMC Presentation (30%)**: A comprehensive presentation demonstrating understanding of venture planning and execution.
+
+**Resource Materials**  
+Students are provided with essential textbooks and reference materials to support their learning:  
+- *Textbook*: "The Lean Startup and Business Model Generation" by [Author Name].  
+- *Reference*: Case studies from Harvard Business Review (HBR).  
+
+This structured approach ensures that students gain a thorough understanding of venture planning, equipping them with the necessary skills to launch successful enterprises.

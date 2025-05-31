@@ -1,0 +1,108 @@
+### Course Overview  
+This course CSE555, titled "Introduction to Spatial Computing" is designed to provide an in-depth understanding of spatial computing, focusing on the fundamental concepts, techniques, and applications in this field. It introduces students to the core principles of geospatial science, systems, and services, including spatial data representation, analysis, indexing, query processing, and advanced topics such as spatial networks and data mining. The course also explores emerging trends in spatial computing and culminates in a comprehensive project that allows students to apply their knowledge to real-world problems.
+
+By the end of this course, students will be able to:  
+1. Understand the fundamental concepts of spatial data representation and analysis.  
+2. Apply spatial query languages and algorithms to solve real-world problems.  
+3. Design and implement efficient spatial indexes for large datasets.  
+4. Evaluate and optimize spatial network queries.  
+5. Conduct spatial data mining and analyze trends in spatio-temporal data.  
+
+The course is structured to include three homework assignments, a mid-term project review, two exams (midsem and endsem), and a final term project. The assessment breakdown is as follows:  
+- Mid-term Exam: 15%  
+- Final Exam: 15%  
+- Homework Assignments: 33%  
+- Term Project: 37%
+
+---
+
+### Prerequisites  
+Students enrolling in this course are expected to have a solid foundation in the following areas:  
+- **Basic knowledge of data structures**: Equivalent to CSE102 Data Structures and Algorithms.  
+- **Understanding of databases**: Equivalent to CSE202 Fundamentals of Database Systems.  
+- **Mathematical proficiency**: Basic understanding of geometry, algebra, and statistics.  
+- **Programming skills**: Proficiency in at least one programming language (e.g., Python, Java, or C++).  
+
+**Desirable prerequisites**: Basic familiarity with geographic information systems (GIS) and experience with spatial databases.
+
+---
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+1. **CO1**: Demonstrate a thorough understanding of fundamental spatial data concepts, including models of geospatial information, spaces, and their representations.  
+2. **CO2**: Apply spatial query languages and algorithms to solve basic spatial analysis problems.  
+3. **CO3**: Design and implement efficient spatial indexes for large datasets, ensuring scalability and performance.  
+4. **CO4**: Evaluate and optimize spatial network queries, considering computational complexity and algorithmic efficiency.  
+5. **CO5**: Conduct spatial data mining, comparing different approaches to solve known problems and analyzing their strengths and limitations.
+
+---
+
+### Weekly Syllabus and Topics  
+
+#### Week 1: Introduction  
+- Overview of spatial computing and its applications.  
+- Review of fundamental concepts in relational databases.  
+- Requirements for spatial databases and their importance in geospatial applications.  
+
+**Assignments**:  
+- Homework 1: Textbook problems on fundamental spatial concepts (e.g., spaces, models of geospatial information).  
+- Programming assignment: Implementation of Google’s Geo-location API to solve basic spatial queries.  
+- Duration: Two weeks.
+
+#### Week 2-3: Fundamental Spatial Concepts  
+- Spaces: Euclidean, set-based, and topological spaces.  
+- Models of geospatial information: Field vs. object models.  
+
+**Assignments**:  
+- Textbook problems on fundamental spatial concepts.  
+- Programming assignment: Use of Google’s Geo-location API for spatial queries.  
+- Duration: Two weeks.
+
+#### Week 4-5: Representation and Algorithms  
+- Spaghetti and node-arc-area models.  
+- Fundamental geometric algorithms, including topological and set-based algorithms.  
+- Triangulation algorithms and space-filling curves.  
+
+**Assignments**:  
+- Textbook problems on representation, algorithms, and query languages.  
+- Programming assignment: Use of Flickr/Twitter Geo-location API for spatial queries.  
+- Duration: Two weeks.
+
+#### Week 6: Mid-term Project Reviews  
+- Student presentations and feedback on initial project proposals.  
+- Discussion of common challenges and best practices in project development.
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical knowledge and practical skills, with the following components:  
+
+1. **Mid-term Exam (15%)**: Covers fundamental concepts, including spatial data models, algorithms, and query processing.  
+2. **Final Exam (15%)**: Assesses comprehensive understanding of advanced topics such as spatial networks, data mining, and emerging trends in spatial computing.  
+3. **Homework Assignments (33%)**: Includes both theoretical problems and programming tasks to reinforce course concepts.  
+4. **Term Project (37%)**: A group project requiring the design, implementation, and evaluation of a spatial computing solution.  
+
+The mid-term exam will be conducted in class, while the final exam will be cumulative and held at the end of the term.
+
+---
+
+### Learning Resources  
+1. **Main Textbooks**:  
+   - Michael Worboys and Matt Duckham. *GIS: A Computing Perspective*. CRC Press, 2004.  
+   - Shashi Shekhar and Sanjay Chawla. *Spatial Databases: A Tour*. Prentice Hall, 2003.  
+
+2. **Supplementary Resources**:  
+   - Hanan Samet. *Foundations of Multidimensional and Metric Data Structures*. Morgan Kaufmann, 2006.  
+   - Shashi Shekhar and Hui Xiong. *Encyclopedia of GIS*. Springer, 2008.  
+
+3. **Online Resources**:  
+   - Additional reading materials, lecture slides, and supplementary notes will be provided via the course’s online learning platform.
+
+---
+
+### Final Project Presentations  
+The final project presentations will take place during Week 13. Each group will present their project, followed by a Q&A session with the instructors and other participants.  
+
+--- 
+
+This comprehensive narrative provides a detailed overview of the course structure, requirements, and resources, ensuring students have a clear understanding of what to expect throughout the term.

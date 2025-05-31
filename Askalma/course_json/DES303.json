@@ -1,0 +1,118 @@
+{
+  "Course Code": "DES303",
+  "Course Name": "Film Making and Radio Podcasting",
+  "Credits": 4,
+  "Course Offered to": "UG PG",
+  "Course Description": "You cannot be a good film maker if you don\u2019t know how to edit audio sound track and video film footage. One of the worlds greatest film maker Eisenstein stated: \"Cinematography is, first and foremost, montage.\" Eisenstein believed that film montage could create ideas or have an impact beyond the individual images. Two or more images edited together create a \"tertium quid\" (third thing) that makes the whole greater than the sum of its individual parts. Similarly Alfred Hitchcock said \u201cFor me, cinema is essentially emotion. It is pieces of film joined together that create an idea, which in turn creates an emotion in the mind of the audience. Not through spoken words, but through the visuals. It's a visual medium. And montage is the main thing. All moviemaking is pure montage.\" It is believed by some that good films are made more on the editing table. This course will not only give you the basic technical skills but will also hand hold you into making a aesthetically correct decisions in assembling a film.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand Audio File Formats and Codecs",
+    "CO2": "Arrange Sound Tracks, Edit Vocal and Create Podcast",
+    "CO3": "Understand Film Shooting and Editing Concepts",
+    "CO4": "Sequence or Edit Video shots in a scene",
+    "CO5": "Shoot, capture and output short video projects"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "NLE Audio Overview",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Audio File Format",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Audio Codecs",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Audio Mastering",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Musical Terms",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Harmonics",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Scripting Audio Podcasts",
+      "COs Met": [
+        "CO2"
+      ]
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Video Formats",
+      "COs Met": [
+        "CO3"
+      ]
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Picture Composition",
+      "COs Met": [
+        "CO3"
+      ]
+    },
+    {
+      "Week": "10 & 11",
+      "Lecture Topic": "History of Film Making",
+      "COs Met": [
+        "CO3"
+      ]
+    },
+    {
+      "Week": "12 & 13",
+      "Lecture Topic": "Developments in Editing, Hollywood and Soviet Montages Montage",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Continuity Editing",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-term Exam": 10,
+    "Final Exam": 20,
+    "Lab Assignments": 20,
+    "Class Participation Audio Podcast Video Project": 30
+  },
+  "Resource Material": {
+    "Textbook": "Picture Composition for Film & Television by Peter Ward Course Material & Net Resources",
+    "Reference Book": "None provided"
+  }
+}

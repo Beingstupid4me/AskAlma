@@ -1,0 +1,92 @@
+{
+  "Course Code": "MTH240",
+  "Course Name": "Real Analysis I",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course covers topics in real analysis, single-variable and multivariable calculus, and vector calculus. The course starts with the real number system, then discusses sequences and series in detail. Single-variable calculus is covered in detail with emphasis on rigour and proofs. In the final section of the course, concepts and methods of multivariable calculus are covered but with less emphasis on proofs.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH240"
+    ],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are familiar with the real number system, can determine convergence-divergence of sequences and series, and are able to construct epsilon-delta proofs related to limits and continuity.",
+    "CO2": "Students are familiar with the concepts of differentiation and integration and are able to apply the methods of single-variable calculus.",
+    "CO3": "Students are able to apply concepts of continuity, differentiability, extrema and integrability of multivariable functions and evaluate various integrals (line, double, triple and surface integrals).",
+    "CO4": "Students are able to apply concepts of continuity, differentiability, extrema and integrability of multivariable functions and evaluate various integrals (line, double, triple and surface integrals)."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Real Numbers: Countable and uncountable sets, Supremum, Infimum, Completeness Axiom, Archimedean Property, Density Property . (3 lectures)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW1"
+    },
+    {
+      "Week": "2 to 4",
+      "Lecture Topic": "Sequences and Series of real numbers: Definition of a sequence, bounded sequence, convergence & divergence of a sequence, Operations on sequences, Cauchy sequence, Cauchy\u2019s criterion for convergence, Monotone sequence, Bolzano-Weierstrass theorem, limit superior and inferior, examples of some special sequences. Definition of a series, convergence and divergence of series, absolute and conditional convergence, Alternating series. Comparison, Ratio, Root, Cauchy\u2019s condensation and Leibnitz tests for convergence of series. Rearrangements, Riemann\u2019s Theorem (statement only).",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": [
+        "HW2",
+        "HW3",
+        "HW4"
+      ]
+    },
+    {
+      "Week": "5 to 9",
+      "Lecture Topic": "Single-variable Differential & Integral Calculus: Limits of real-valued functions, continuity, Boundary value theorem, Intermediate Value Theorem, uniform continuity, differentiability, Mean Value Theorems and applications, Taylor's theorem, L\u2019Hospital\u2019s Rule, Taylor series and applications. Definition of Riemann integral, Properties of the integral, fundamental theorems, Applications to area, arc length, volume and surface area, Improper integrals of first and second kind, Beta and Gamma functions, Differentiation under the integral sign and applications.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": [
+        "HW5",
+        "HW6",
+        "HW7",
+        "HW8",
+        "HW9"
+      ]
+    },
+    {
+      "Week": "10 to 13",
+      "Lecture Topic": "Multivariable Differential and Integral Calculus in several variables: Functions of several variables, limits, continuity, Partial derivatives, Mixed derivative theorem (statement only), chain rule, directional derivatives, Maxima & minima and method of Lagrange multiplies. Double & triple integrals, Fubini\u2019s Theorem for regular domains (statement only), the Jacobian & change of variables, Applications to area, volume, mass and moments.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": [
+        "HW10",
+        "HW11",
+        "HW12"
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 10,
+    "Midsem": 20,
+    "HW assignments": 25,
+    "Endsem": 45
+  },
+  "Resource Material": {
+    "Textbook": [
+      "G. B. Thomas and R. L. Finney, Calculus, Pearson",
+      "R. Goldberg , Methods of Real Analysis, Oxford & Ibh",
+      "K. A. Ross, Elementary Analysis: The Theory of Calculus, Springer",
+      "Walter Rudin, Principles of Mathematical Analysis, McGraw-Hill",
+      "N. Piskunov, Differential and Integral Calculus, Volume I, CBS",
+      "James Stewart, Calculus, Brooks/Cole Cengage Learning"
+    ],
+    "Reference Book": [
+      "",
+      "R. Goldberg , Methods of Real Analysis, Oxford & Ibh",
+      "K. A. Ross, Elementary Analysis: The Theory of Calculus, Springer",
+      "Walter Rudin, Principles of Mathematical Analysis, McGraw-Hill",
+      "N. Piskunov, Differential and Integral Calculus, Volume I, CBS",
+      ""
+    ]
+  }
+}

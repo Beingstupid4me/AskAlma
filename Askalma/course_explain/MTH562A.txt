@@ -1,0 +1,60 @@
+**Course Overview**
+
+The course code MTH562A is titled "Point Set Topology" and is worth 2 credits. It is designed for students pursuing both undergraduate (UG) and postgraduate (PG) studies, providing a foundational understanding of topology, which is essential for advanced studies in analysis, geometry, algebraic topology, and related fields.
+
+**Course Description**
+
+This course introduces the fundamental concepts of point set topology, focusing on the basic definitions and constructions used in topology. The curriculum covers topics such as topological spaces, connectedness, compactness, separation axioms, metrization theorems, and complete metric spaces. By the end of this course, students will be able to:
+
+1. **CO1**: Determine whether a given set is open or closed.
+2. **CO2**: Assess the continuity of mappings between topological spaces and construct such mappings.
+3. **CO3**: Identify connected sets; determine compactness through finite products; and understand concepts like first and second countability, normality, and metrizability.
+4. **CO4**: Differentiate between various topological properties such as normality, metrization, and completeness.
+
+**Learning Outcomes**
+
+The course is structured to ensure a comprehensive understanding of point set topology through weekly lectures that build upon each other. The topics covered include:
+
+- Week 1: Introduction to topological spaces, basis for topology, standard topology on the real line, order topology, product topology, subspace topology, closed sets, limit points, Hausdorff axiom, metric topology.
+- Week 4: Connectedness, path-connectedness, local connectedness, components, and applications of connectedness.
+- Week 5: Compactness, Tube lemma, Lebesgue number lemma, limit point compactness, sequential compactness, locally compact spaces, one-point compactification.
+- Week 6: Axioms of countability, regularity, normality, Urysohn's Lemma, and the Urysohn Metrization Theorem.
+- Week 7: Complete metric spaces, Baire's theorem, and Ascoli's theorem.
+
+**Weekly Lecture Plan**
+
+| Week | Lecture Topic                     | COs Met          | Assignments/Other Notes |
+|------|-----------------------------------|------------------|-------------------------|
+| 123  | Topology basics                   | CO1 & CO2        | Relevant homework problems assigned. |
+| 4    | Connectedness                    | CO3              | Relevant homework problems assigned. |
+| 5    | Compactness                      | CO3              | Relevant homework problems assigned. |
+| 6    | Axioms of countability, regularity, normality | CO3 & CO4      | Relevant homework problems assigned. |
+| 7    | Urysohn's Lemma and metrization | CO4              | Relevant homework problems assigned. |
+
+**Assessment Plan**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application of concepts:
+
+- **Assignments and Presentations**: 25% (Five sets of assignments, each worth five points, with ten problems per set. Students earn credit based on written solutions and in-class presentations.)
+- **Mid Semester Exam**: 25%
+- **End Semester Exam**: 50%
+
+**Grading Scheme**
+
+The final grade is determined as follows:
+- A: ≥75%
+- B: ≥60%
+- C: ≥45%
+- D: ≥30%
+
+This grading scheme may be adjusted by up to 5% based on the instructor's discretion.
+
+**Resource Materials**
+
+- **Textbook**: *Topology* by J.R. Munkres
+- **Reference Books**: 
+  - *A Course in Point Set Topology* by John B. Conway
+  - *Elements of Point Set Topology* by John D. Baum
+- **Other Resources**: Additional materials will be provided or assigned by the instructor.
+
+This structured approach ensures that students gain a thorough understanding of point set topology, preparing them for advanced studies and applications in related fields.

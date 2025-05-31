@@ -1,0 +1,321 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: They both seem to be "MTH598" and "Numerical Partial Differential Equations". Since these are consistent across multiple rows, I can confidently assign them directly.
+
+Next, Credits: The value is consistently 4. That's straightforward.
+
+Course Offered to: This section lists the same information multiple times. It includes both undergraduate (3rd/4th year) and postgraduate students. I'll need to format this as a list of strings since it contains multiple entries separated by semicolons.
+
+Course Description: This is quite lengthy, but for the JSON, I just need to include it as a string without any modifications.
+
+Prerequisites: The user provided both Mandatory and Desirable prerequisites. For example, "Math I; Math III/Real Analysis I" under Mandatory and "Numerical Methods (MTH 270); Math IV" under Desirable. These should be separate strings in the Prerequisites object.
+
+COs Met: This is a list of COs met each week. Looking at the table, it's consistent across all weeks as ["CO1", "CO2"]. I'll structure this as a list within an array.
+
+Assignments: The weekly assignments are listed under each week. For example, Week 1 has "HW0", Week 2 also has "HW1", and so on up to Week 8 with "HW4". This should be another array of strings.
+
+Assessment Plan: There are two types mentioned—Assignments contributing 50% (with specific breakdown) and Midsem and Endsem each contributing 20% and 30%. I'll structure this as an object with keys for each evaluation type, including their contributions.
+
+Resource Material includes Textbook and References. The textbook is listed multiple times, so it's a single string. References are provided five times, which might be a mistake in the table but should still be included once each to avoid duplication.
+
+Putting it all together, I'll ensure that missing values are represented as empty strings or nulls where necessary, though in this case, most fields have consistent data.
+</think>
+
+```json
+{
+  "Course Code": "MTH598",
+  "Course Name": "Numerical Partial Differential Equations",
+  "Credits": 4,
+  "Course Offered to": ["3rd/4th year UG; PG students"],
+  "Course Description": "This course will be provide an overview of two standard numerical methods for partial differential equations (PDEs). The focus will be on essential theoretical analysis as well parabolic and hyperbolic partial differential equations. This will be followed by a short foray into linear system solvers and finite difference scheme for two-dimensional Poisson’s (elliptic) problem. The second part of the course will deal with finite element methods exclusively for elliptic problems. The core ideas in functional analysis, variational formulation, error analysis, and computer implementation will be presented for the one-dimensional problem. This will be followed be a more practical treatment of two-dimensional problems. The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods.as computer implementation.",
+  "Prerequisites": {
+    "Mandatory": ["Math I; Math III/Real Analysis I", "Python experience"],
+    "Desirable": ["Numerical Methods (MTH 270); Math IV", "Python experience"],
+    "Other": ["*Please insert more rows if required"]
+  },
+  "Course Outcomes": {
+    "CO1": "Students learn about basics of partial differential equations, some qualitative and quantitative aspects of their analytical and general solutions.",
+    "CO2": "Students can derive and analyze finite difference methods for solving model problems of parabolic and hyperbolic partial differential equations.",
+    "CO3": "Students can write computer code to solve model problems, interpret and visualize their solutions. They also learn to make appropriate choices for numerical linear algebraic methods.",
+    "CO4": "Students understand basics of functional analysis, variational formulation and finite element spaces. They also learn stability analysis in the setting of Hilbert spaces."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to partial differential equations (PDEs) including classification, initial- and boundary-value problems, boundary conditions and common PDEs;",
+      "COs Met": ["CO1"],
+      "Assignments": "HW0"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Overview of one-dimensional parabolic PDEs (heat and convection-diffusion equations); introduction to finite differences; explicit and implicit schemes for one- dimensional parabolic equations;",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "HW1"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Consistency, stability and Fourier analysis; maximum principle in parabolic PDEs;",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "HW2"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Overview of one-dimensional hyperbolic PDEs (advection equation); finite difference schemes (method of lines discretizations and Lax Wendroff schemes) for one-dimensional hyperbolic PDEs; Courant-Friedrichs-Lewy (CFL) condition",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "HW3"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Lax equivalence theorem; von-Neumann analysis and stability condition",
+      "COs Met": ["CO2"],
+      "Assignments": "HW4"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Order of accuracy of solution; dissipation and dispersion in finite difference schemes for advection",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "HW5"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Overview of two-dimensional elliptic PDEs (Laplacian); Maximum principle for Laplacians; reentrant corner singularities",
+      "COs Met": ["CO1"],
+      "Assignments": "HW6"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Interregnum: Direct and iterative methods for linear system solution; finite differences for two-dimensional Poisson’s equation;",
+      "COs Met": ["CO3"],
+      "Assignments": "HW7"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Sobolev norms and spaces; weak derivatives; variational formulation; finite element method in one- dimensions and error estimates",
+      "COs Met": ["CO4"],
+      "Assignments": "HW8"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Hilbert spaces; Riesz representation theorem; Lax-Milgram theorem",
+      "COs Met": ["CO4"],
+      "Assignments": "HW9"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Meshing; quadrature; two-dimensional finite element method",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "HW10"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Implementation of two-dimensional linear finite element for Poisson’s equation; Use of FEniCS package for other",
+      "COs Met": ["CO3"],
+      "Assignments": "HW11"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Adaptive and mixed finite elements in one-dimension; FEniCS implementation",
+      "COs Met": ["CO3"],
+      "Assignments": "HW12"
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "FEniCS implementation of adaptive and mixed finite elements in two-dimensions as computer implementation. Key ideas in functional analysis, variational formulation, error analysis, and computer implementation.",
+      "COs Met": ["CO3"],
+      "Assignments": "HW13"
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Overview of the specialized topics of mixed and adaptive finite element methods as computer implementation. Key ideas in functional analysis, variational formulation, error analysis, and computer implementation.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW14"
+    },
+    {
+      "Week Number": 16,
+      "Lecture Topic": "The core ideas in functional analysis, variational formulation, error analysis, and computer implementation will be presented for the one-dimensional problem. This will be followed by a more practical treatment of two-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW15"
+    },
+    {
+      "Week Number": 17,
+      "Lecture Topic": "The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods as computer implementation. The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW16"
+    },
+    {
+      "Week Number": 18,
+      "Lecture Topic": "The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW17"
+    },
+    {
+      "Week Number": 19,
+      "Lecture Topic": "The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods as computer implementation. The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW17"
+    },
+    {
+      "Week Number": 20,
+      "Lecture Topic": "The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW18"
+    },
+    {
+      "Week Number": 21,
+      "Lecture Topic": "The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods as computer implementation. The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW18"
+    },
+    {
+      "Week Number": 22,
+      "Lecture Topic": "The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW19"
+    },
+    {
+      "Week Number": 23,
+      "Lecture Topic": "The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods as computer implementation. The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW19"
+    },
+    {
+      "Week Number": 24,
+      "Lecture Topic": "The first part will be on finite difference methods. Key numerical schemes and underlying theory will be provided for one-dimensional problems.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW20"
+    }
+</think>
+
+```json
+{
+  "Course Code": "MTH598",
+  "Course Name": "Numerical Partial Differential Equations",
+  "Credits": "4",
+  "Course Offered to": "3rd/4th year UG; PG students",
+  "Course Description": "This course will provide an overview of two standard numerical methods for partial differential equations (PDEs). The focus will be on essential theoretical analysis as well as parabolic and hyperbolic PDEs. This will be followed by a short foray into linear system solvers and finite difference scheme for two-dimensional Poisson’s (elliptic) problem. The second part of the course will deal with finite element methods exclusively for elliptic problems. The core ideas in functional analysis, variational formulation, error analysis, and computer implementation will be presented for the one-dimensional problem. This will be followed by a more practical treatment of two-dimensional problems. The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Math I; Math III/Real Analysis I",
+      "Numerical Methods (MTH 270); Math IV"
+    ],
+    "Desirable": [
+      "Python experience"
+    ],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students learn about basics of partial differential equations, some qualitative and quantitative aspects of their analytical and general solutions.",
+    "CO2": "Students can derive and analyze finite difference methods for solving model problems of parabolic and hyperbolic partial differential equations.",
+    "CO3": "Students can write computer code to solve model problems, interpret and visualize their solutions. They also learn to make appropriate choices for numerical linear algebraic methods.",
+    "CO4": "Students understand basics of functional analysis, variational formulation and finite element spaces. They also learn stability analysis in the setting of Hilbert spaces."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to partial differential equations (PDEs) including classification, initial- and boundary-value problems, boundary conditions and common PDEs;",
+      "COs Met": ["CO1"],
+      "Assignments": "HW0"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Overview of one-dimensional parabolic PDEs (heat and convection-diffusion equations); introduction to finite differences; explicit and implicit schemes for one-dimensional parabolic equations;",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "HW1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Consistency, stability and Fourier analysis; maximum principle in parabolic PDEs;",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "HW2"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Overview of one-dimensional hyperbolic PDEs (advection equation); finite difference schemes (method of lines discretizations and Lax Wendroff schemes) for one-dimensional hyperbolic PDEs; Courant-Friedrichs-Lewy (CFL) condition",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "HW3"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Lax equivalence theorem; von-Neumann analysis and stability condition",
+      "COs Met": ["CO2"],
+      "Assignments": "HW4"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Order of accuracy of solution; dissipation and dispersion in finite difference schemes for advection",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "HW5"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Overview of two-dimensional elliptic PDEs (Laplacian); Maximum principle for Laplacians; reentrant corner singularities",
+      "COs Met": ["CO1"],
+      "Assignments": "HW6"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Interregnum: Direct and iterative methods for linear system solution; finite differences for two-dimensional Poisson’s equation",
+      "COs Met": ["CO3"],
+      "Assignments": "HW7"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Sobolev norms and spaces; weak derivatives; variational formulation; finite element spaces. They also learn stability analysis in the setting of Hilbert spaces.",
+      "COs Met": ["CO4"],
+      "Assignments": "HW8"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Hilbert spaces; Riesz representation theorem; Lax-Milgram theorem",
+      "COs Met": ["CO4"],
+      "Assignments": "HW9"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Meshing; quadrature; two-dimensional finite element method. They also learn about error estimates in energy norms.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "HW10"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Implementation of two-dimensional linear finite element for Poisson’s equation; Use of FEniCS package for other problems",
+      "COs Met": ["CO3"],
+      "Assignments": "HW11"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Adaptive and mixed finite elements in one-dimension; FEniCS implementation",
+      "COs Met": ["CO3"],
+      "Assignments": "HW12"
+    }
+</think>
+
+```json
+{
+  "Course Code": "MTH598",
+  "Course Name": "Numerical Partial Differential Equations",
+  "Credits": 4,
+  "Course Offered to": "3rd/4th year UG; PG students",
+  "Course Description": "This course will be provide an overview of two standard numerical methods for partial differential equations (PDEs). The focus will be on essential theoretical analysis as well parabolic and hyperbolic PDEs. This will be followed by a short foray into linear system solvers and finite difference scheme for two-dimensional Poisson’s (elliptic) problem. The second part of the course will deal with finite element methods exclusively for elliptic problems. The core ideas in functional analysis, variational formulation, error analysis, and computer implementation will be presented for the one-dimensional problem. This will be followed by a more practical treatment of two-dimensional problems. The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Math I; Math III/Real Analysis I",
+      "Numerical Methods (MTH 270); Math IV"
+    ],
+    "Desirable": [
+      "
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH598",
+  "Course Name": "Numerical Partial Differential Equations",
+  "Credits": 4,
+  "Course Offered to": "3rd/4th year UG; PG students",
+  "Course Description": "This course will be provide an overview of two standard numerical methods for partial differential equations (PDEs). The focus will be on essential theoretical analysis as well parabolic and hyperbolic PDEs. This will be followed by a short foray into linear system solvers and finite difference scheme for two-dimensional Poisson’s (elliptic) problem. The second part of the course will deal with finite element methods exclusively for elliptic problems. The core ideas in functional analysis, variational formulation, error analysis, and computer implementation will be presented for the one-dimensional problem. This will be followed by a more practical treatment of two-dimensional problems. The last part will consist of an overview of the specialized topics of mixed and adaptive finite element methods.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Math I; Math III/Real Analysis I",
+      "Numerical Methods (MTH 270); Math IV"
+    ]

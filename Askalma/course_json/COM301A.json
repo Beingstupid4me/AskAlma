@@ -1,0 +1,143 @@
+{
+  "Course Code": "COM301",
+  "Course Name": "Technical Communication",
+  "Credits": "2",
+  "Course Offered to": "2nd Year Standing or higher",
+  "Course Description": "Technical Writing is a two-credit, practice-oriented course that provides a complete process for planning, writing, and editing technical documents, with a greater focus on critical thinking and structuring. Students will explore the principles of effective written communication and critical reading, examine a variety of professional writing samples to gain an understanding of the skills needed to successfully communicate through professionally written e-mails, scientific reports, proposals and reviews. They will also learn the techniques of objective reporting on scientific and technical material; strategies of reading and writing research papers; drafting research abstracts, creating research pitch, techniques of poster designing, and making presentations. Additionally, this course will also teach students to draft their resumes, academic cover letters, statement of purpose, make editorial changes, usage of resources for literature survey, plagiarism, and the specific use of style sheets.",
+  "Prerequisites": {
+    "Mandatory": "101",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students should be able to learn the principles of effective technical communication, that is, the ability to say something with clear logical progression of thoughts, cutting down on clutter, simplify obscure sentences to communicate with clarity of expression.",
+    "CO2": "Students are expected to actively engage with the techniques and strategies of effective technical communication in their approaches to reading, evaluating and analysing a research paper; writing short research essays papers, including making the research pitch, organising sources and drafting literature review in the correct/required format, and writing abstracts.",
+    "CO3": "Students are expected to present ideas/arguments of their technical writing through properly designed posters templates/presentations and short research papers. Additionally, the students will be able to note the issues of plagiarism in academic work and the importance of citation.",
+    "CO4": "Students are expected to critically engage with their own writing, make editorial changes, writing justification for topics chosen, and also objectively participate in self reviewing.",
+    "CO5": "able to apply the strategies of effective communication to a. engaging in formal means of written communication including writing formal cover letters for specific official purposes; b. Designing other formal write ups like making short resume taking into account their academic"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "Session 1",
+      "Lecture Topic": "Introduction to the principles of effective technical writing and the importance of avoiding clutter.",
+      "COs Met": ["CO1"],
+      "Assignments": "Class activity on reorganising complicated sentences, removing the clutter. Students solve a range of difficult, complex, long sentences to making simpler versions without changing the meaning or tampering with the essential information necessarily provided."
+    },
+    {
+      "Week": "Session 2",
+      "Lecture Topic": "How to draft a short technical report? The session will focus on the discussion of a basic format including the following: Identifying the purpose/objective, drafting the justification, document the methodology following and the content, analysing results, and | CO2 | Students write a short report on the exercise based on the rubric discussed in class. Class exercise: Creating a short scientific report.",
+      "COs Met": ["CO2"],
+      "Assignments": "Students write a short report on the exercise based on the rubric discussed in class. Class exercise: Creating a short scientific report."
+    },
+    {
+      "Week": "Session 3",
+      "Lecture Topic": "students emphasising practical and efficient methods for reading research papers, Annotating strategies, creating mind maps for better comprehension.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Students read in groups a sample of a research paper following the reading strategies shared in class, make notes, and work on the initial phases of the mind map."
+    },
+    {
+      "Week": "Session 4",
+      "Lecture Topic": "How to do literature survey on a topic, document and acknowledge the sources, write short review notes on specific topics. Notes on the pitfalls of plagiarism will be also be discussed.",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Students work towards drafting literature review for their short research paper"
+    },
+    {
+      "Week": "Session 5",
+      "Lecture Topic": "How to write a research paper : Module 1 includes art of abstract writing, creating research pitch and an outline, understanding the structure-content coherence as within parts of a research paper. Notes on drafting proposals and statement of purpose based on | CO2 & 5 | Students work on Abstract writing and research pitch for writing a short research paper",
+      "COs Met": ["CO2", "CO5"],
+      "Assignments": "Students work on Abstract writing and research pitch for writing a short research paper"
+    },
+    {
+      "Week": "Session 6",
+      "Lecture Topic": "How to write a research paper : Module 2 includes Drafting the analysis, methodology and discussion of results, writing the conclusion, critically examining the segment wise progression, end/footnotes, and references. The session will also deal with self- editorial and peer-editorial techniques required for drafting a good | CO2 & 4 | Students continue working on the paper which would also be evaluated",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Students continue working on the paper which would also be evaluated"
+    },
+    {
+      "Week": "Session 7",
+      "Lecture Topic": "The techniques of poster designing and discussion of the short research paper.",
+      "COs Met": ["CO3"],
+      "Assignments": "Students work on designing poster based on a paper they are working in the past two sessions"
+    },
+    {
+      "Week": "Session 8",
+      "Lecture Topic": "Techniques of Communicating “one self” : How would you draft your CV and also write effective emails for research/professional communication showcasing your skills as a professional | CO5",
+      "COs Met": ["CO5"],
+      "Assignments": "Students write formal emails according to the topics given to them and also design their short resume."
+    },
+    {
+      "Week": "Session 9",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Short scientific report",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Review",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Abstract",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Research Pitch",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Short paper",
+      "% Contribution in Grade": "25"
+    },
+    {
+      "Type of Evaluation": "Poster",
+      "% Contribution in Grade": "15"
+    },
+    {
+      "Type of Evaluation": "Formal emails/cover letter",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Curriculum vitae/resume",
+      "% Contribution in Grade": "10"
+    }
+  ],
+  "Resource Material": [
+    {
+      "Session and Type of Resource": "Session 1:Lecture slides",
+      "Title": "The lecture slides will be shared with students for a ready reference. the Slide contains examples of simplifying clutter and ways to arrive to well constructed sentences."
+    },
+    {
+      "Session and Type of Resource": "Session 2: Lecture slides and Excepts from articles & websites for the exercise on scientific report writing.",
+      "Title": "Please refer to folder \" 2\" for the relevant resources."
+    },
+    {
+      "Session and Type of Resource": "Session 3: Lecture slides, articles and journal papers",
+      "Title": "Please refer to folder \"session 3\" for the relevant resources."
+    },
+    {
+      "Session and Type of Resource": "Session 4: Lecture slides, articles and journal papers",
+      "Title": "Please refer to folder \"session 4\" for the relevant resources."
+    },
+    {
+      "Session and Type of Resource": "Session 5: Lecture slides, articles and journal papers",
+      "Title": "Please refer to folder \"session 5\" for the relevant resources."
+    },
+    {
+      "Session and Type of Resource": "Session 6: Lecture slides, articles and journal papers",
+      "Title": "Please refer to folder \"session 5\" for the relevant resources for students"
+    },
+    {
+      "Session and Type of Resource": "Session 7: Lecture slides, articles and journal papers",
+      "Title": "Please refer to folder \"session 7 for the relevant resources."
+    },
+    {
+      "Session and Type of Resource": "Session 8:Lecture slides, articles and journal papers",
+      "Title": "Please refer to folder \"session 8 for the relevant resources."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: The course code is ECO312/ECO512, and the name is Industrial Organization (IO). That's straightforward.
+
+Next, Credits are mentioned as 4, so that's easy to fill in. 
+
+For the Offering, it says UG/PG, which I'll keep as a string since there's no numeric value.
+
+The Course Description is quite lengthy but seems redundant. It repeats itself multiple times. However, for the JSON, I need to include it as a single string without any changes.
+
+Prerequisites are listed under Unnamed columns. The Mandatory one is ECO101 or ECO311 Microeconomics, and Desirable is Game Theory. There's no Other prerequisite mentioned, so that field should be empty.
+
+Course Outcomes (COs) are labeled CO1 to CO5 with specific descriptions. I'll map each description to its respective CO number.
+
+The Weekly Lecture Plan has multiple weeks with topics and COs met. Each week seems to have two or more lectures, sometimes combined into one entry. For example, Week 1 is a single lecture on Introduction to IO covering CO1. Weeks 2 &3 are Non-Cooperative Game Theory for 3XX, which I'll note as such in the assignment description.
+
+Assignments vary per week and sometimes include notes like "(For 3XX)". I'll keep these as strings since they're part of the content but not numeric values.
+
+Assessment Plan includes different types with percentages. Homework is 30%, Midsem 30% for both 3XX and 5XX, Final exam 40% for 3XX and Project 20%. I'll structure this as an object with keys for each evaluation type and their respective contributions.
+
+Resource Material has a textbook for both 3XX and 5XX. Since the Desirable prerequisite is Game Theory, which isn't specified in the file, I'll include it as "Game Theory" under Prerequisites.
+
+I need to ensure all fields are correctly mapped, using null or empty strings where necessary. Also, converting Credits to a number since it's valid, while other values like COs Met should be lists of strings.
+
+Finally, I'll structure everything into the JSON format without any markdown or additional explanations.
+</think>
+
+```json
+{
+  "Course Code": "ECO312/ECO512",
+  "Course Name": "Industrial Organization (IO)",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will introduce basic theoretical models of IO. It will implement applied microenomic theory and game theory to understand how firms take decisions in various settings. The models include profit maximization when there is market power, advertising, heterogeneity in quality, vertical control, models of entry, accommodation and exit, and many others. The course helps one understand how to set up an objective function for a firm facing different challenges in a complex market structure. It will aid the student in understanding real world scenarios. Finally there will also be a short section on some empirical methods used in IO.",
+  "Prerequisites": {
+    "Mandatory": "ECO101 or ECO311 Microeconomics",
+    "Desirable": "Game Theory",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identifying how to approach a problem in IO in a strategic setting",
+    "CO2": "Determining how to model decision that influence profit, like advertising, quality, collusion etc.",
+    "CO3": "Discussing decisions in monopolies, duopolies, vertical control.",
+    "CO4": "Justifying and explaining what motivates a firm to enter or exit a market.",
+    "CO5": "Identifying and Implementing some basic empirical and applied theory techniques in IO (for 5XX)."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Industrial Organization",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2 & 3,
+      "Lecture Topic": "Non-Cooperative Game Theory (Mainly for 3XX)",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1 (For 3XX)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "The Theory of the Firm",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1 (For 3XX)"
+    },
+    {
+      "Week": 3 & 4,
+      "Lecture Topic": "Monopoly",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 5 & 6,
+      "Lecture Topic": "Product Selection, Quality, and Advertising",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 7 & 8,
+      "Lecture Topic": "Price Discrimination",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 8 & 9,
+      "Lecture Topic": "Vertical Control",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 10 & 11,
+      "Lecture Topic": "Short Run Price Competition",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 11 & 12,
+      "Lecture Topic": "Product Differentiation: Price Competition and Non-Price Competition",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 12 & 13,
+      "Lecture Topic": "Entry, Accomodation, and Exit",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Empirical and Applied Theory Models (For 5XX)",
+      "COs Met": ["CO5"],
+      "Assignments": "Project (For 5XX)"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": {
+      "Type": "% Contribution in Grade",
+      "3XX": 30,
+      "5XX": 30
+    },
+    "HW assignments": {
+      "Type": "% Contribution in Grade",
+      "3XX": 30,
+      "5XX": 20
+    },
+    "Endsem": {
+      "Type": "% Contribution in Grade",
+      "3XX": 40,
+      "5XX": 30
+    }
+  },
+  "Resource Material": {
+    "Textbook (3XX and 5XX)": "Belleflamme, Paul, and Martin Peitz. Industrial organization: markets and strategies. Cambridge University Press, 2015.",
+    "Textbook (5XX only)": "Tirole, J., The Theory of Industrial Organization, Eastern Economy Edition.",
+    "Reference Book": ""
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECO312/ECO512",
+  "Course Name": "Industrial Organization (IO)",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will introduce basic theoretical models of IO. It will implement applied microenomic theory and game theory to understand how firms take decisions in various settings. The models include profit maximization when there is market power, advertising, heterogeneity in quality, vertical control, models of entry, accommodation and exit, and many others. The course helps one understand how to set up an objective function for a firm facing different challenges in a complex market structure. It will aid the student in understanding real world scenarios. Finally there will also be a short section on some empirical methods used in IO.",
+  "Prerequisites": {
+    "Mandatory": "ECO101 or ECO311 Microeconomics",
+    "Desirable": "Game Theory",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identifying how to approach a problem in IO in a strategic setting",
+    "CO2": "Determining how to model decision that influence profit, like advertising, quality, collusion etc.",
+    "CO3": "Discussing decisions in monopolies, duopolies, vertical control.",
+    "CO4": "Justifying and explaining what motivates a firm to enter or exit a market.",
+    "CO5": "Identifying and Implementing some basic empirical and applied theory techniques in IO (for 5XX)."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Industrial Organization",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2 & 3,
+      "Lecture Topic": "Non-Cooperative Game Theory (Mainly for 3XX)",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1 (For 3XX)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "The Theory of the Firm",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment 1 (For 3XX)"
+    },
+    {
+      "Week": 3 & 4,
+      "Lecture Topic": "Monopoly",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 5 & 6,
+      "Lecture Topic": "Product Selection, Quality, and Advertising",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 7 & 8,
+      "Lecture Topic": "Price Discrimination",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 8 & 9,
+      "Lecture Topic": "Vertical Control",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 10 & 11,
+      "Lecture Topic": "Short Run Price Competition",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 11 & 12,
+      "Lecture Topic": "Product Differentiation: Price Competition and Non-Price Competition",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 12 & 13,
+      "Lecture Topic": "Entry, Accomodation, and Exit",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Empirical and Applied Theory Models (For 5XX)",
+      "COs Met": ["CO5"],
+      "Assignments": "Project (For 5XX)"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": {
+      "Type": "% Contribution in Grade",
+      "3XX": 30,
+      "5XX": 30
+    },
+    "HW assignments": {
+      "Type": "% Contribution in Grade",
+      "3XX": 30,
+      "5XX": 20
+    },
+    "Endsem": {
+      "Type": "% Contribution in Grade",
+      "3XX": 40,
+      "5XX": 30
+    }
+  },
+  "Resource Material": {
+    "Textbook (3XX and 5XX)": "Belleflamme, Paul, and Martin Peitz. Industrial organization: markets and strategies. Cambridge University Press, 2015.",
+    "Textbook (5XX only)": "Tirole, J., The Theory of Industrial Organization, Eastern Economy Edition.",
+    "Reference Book": ""
+  }
+}

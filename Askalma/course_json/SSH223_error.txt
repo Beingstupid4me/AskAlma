@@ -1,0 +1,431 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided table and structure it into a JSON object as per the given format. Let me go through each section step by step.
+
+First, looking at the "Course Code" column under "Unnamed: 0", all entries are SSH223 except for row 4 where it's empty. So I'll take the first value which is SSH223.
+
+Next, "Course Name" in the same row has "Perspectives on Knowledge" repeated multiple times. That should be straightforward.
+
+For "Credits", again looking at the first data row after the header, all entries are 4 except for some empty cells. I'll use 4 as the value.
+
+Moving to "Instructor", the values under "Unnamed: 1" show "Dr. Raj Ayyar" multiple times with an empty cell in row 5. So the instructor is Dr. Raj Ayyar.
+
+Course Offered to has consistent "UG" entries, so that's easy.
+
+The Course Description/ Objectives section is quite lengthy and repetitive. I need to include it as a single string since it's too long for multiple lines.
+
+For the prerequisites, each row under "Unnamed: 3" has "Pre-requisites", which are empty except in rows where there might be more details. Since all other columns have empty strings here, I'll represent Prerequisites as an object with Mandatory, Desirable, and Other keys, all set to empty strings.
+
+The Course Outcomes section lists CO1 through CO4 with their descriptions. Each CO is a key with its respective description.
+
+Looking at the Weekly Lecture Plan, each row from 15 onwards has "Week Number", "Lecture Topic", "COs Met", and "Assignment/Labs/Tutorial". I'll create an array for each week, extracting these values. Some weeks have missing data, so I'll use empty strings where necessary.
+
+The Assessment Plan includes sections like Learning Team Projects, Research Papers, Mid-Term, Class Attendance and Participation, and End-Sem with their respective percentages or conditions. These will be structured as objects within an array since there are four assessment types.
+
+Resource Material has two columns: Type and Title. The values under Type are "Text" multiple times, but the Title varies across different textbooks. I'll create a list of these resources.
+
+I also need to handle missing values gracefully by using empty strings or null where appropriate. For example, in some rows, "Assignment/Labs/Tutorial" might be empty, so I'll represent those as empty strings.
+
+Finally, I'll ensure that numerical values like Credits are numbers and not strings. Since the credit is consistently 4, it's a straightforward number.
+</think>
+
+```json
+{
+  "Course Code": "SSH223",
+  "Course Name": "Perspectives on Knowledge",
+  "Credits": 4,
+  "Instructor": "Dr. Raj Ayyar",
+  "Course Offered to": "UG",
+  "Course Description/ Objectives": "The basic objective for this course is to broaden and deepen students’ understanding of issues concerning knowledge. The course is a basic introduction to epistemology (theory of knowledge). A major focus of the course is to address philosophical theories of knowledge. Additionally, we will address issues of knowledge that have moved from specialized reflections to general social discourse in the information age. The course culminates with discussions on the contemporary context of knowledge, where the professional training that the students receive in IT can be linked to broader social and cultural currents.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identify the meta-issues concerning knowledge and critically reflect on them",
+    "CO2": "Demonstrate awareness of the diversity of epistemic and sociological of knowledge traditions",
+    "CO3": "specific arguments, methodologies and approaches to questions regarding knowledge",
+    "CO4": "Develop an awareness of themselves as knowledge producers in the information society."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction to the Course; Introduction to the question of knowledge. Setting the frames of the course. Discussion of the syllabus. Plato’s parable of the Cave in the ‘Republic’. Introduction to Plato’s Dialogue “Theaetetus”; The Question: What is Knowledge; The Argument: Why perception is not knowledge; The method of Socratic argument; the philosopher as a ‘midwife’.",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "Introduction to modern epistemology. Descartes, Locke, Berkeley, Hume. The Cartesian ‘evil genius’ and the Cogito.",
+      "COs Met": ["CO2", "CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "British empiricism continued. Kant’s ‘solution’ to the Humean dissolution of knowledge.",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "Distinction between rationalist and empiricist models of knowledge.",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Buddhist epistemology: a discussion.",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Jnana and Pramana: a discussion.",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "Discussion of Indian and Western perspectives on knowledge.",
+      "COs Met": ["CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Ludwig Wittgenstein: Logical atomism, and beyond. The philosopher as a fly trapped in a fly bottle.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "9",
+      "Lecture Topic": "Galileo’s arguments and methods. Thought experiment. Observation and Experiment.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Observation and Experiment. Galileo and the Church – book of nature and the book of God.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Poststructuralist models of knowledge. Michel Foucault and the anchoring of the sciences and various social practices in discourses of power. Sexuality and knowledge.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Wrap up of the poststructuralist position.",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Internet and Knowledge. Knowledge and Freedom. Knowl",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignment/Labs/Tutorial": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Learning Team Projects": 20,
+    "Research Papers": 20,
+    "Mid-Term": 20,
+    "Class Attendance and Participation": 10,
+    "End-Sem": 30
+  },
+  "Resource Material": {
+    "Text": [
+      {
+        "Title": "Chisholm, Roderick: Theory of Knowledge (Prentice Hall, 1989)",
+        "Reference": ""
+      },
+      {
+        "Title": "Gaarder, Jostein: Sophie's World (20th Anniversary edition, 2015)",
+        "Reference": ""
+      },
+      {
+        "Title": "Berger and Luckmann: The Social Construction of Reality (Penguin, 1967)",
+        "Reference": ""
+      }
+    ],
+    "Reference": [
+      {
+        "Title": "The Knowledge Book: Key Concepts in Philosophy, Science and Culture by Steve Fuller",
+        "Reference": ""
+      },
+      {
+        "Title": "A Treatise of Human Nature by David Hume",
+        "Reference": ""
+      }
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SSH223",
+  "Course Name": "Perspectives on Knowledge",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The basic objective for this course is to broaden and deepen students’ understanding of issues concerning knowledge. The course is a basic introduction to epistemology (theory of knowledge). A major focus of the course is to address philosophical theories of knowledge. Additionally, we will address issues of knowledge that have moved from specialized reflections to general social discourse in the information age. The course culminates with discussions on the contemporary context of knowledge, where the professional training that the students receive in IT can be linked to broader social and cultural currents.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identify the meta-issues concerning knowledge and critically reflect on them",
+    "CO2": "Demonstrate awareness of the diversity of epistemic and sociological of knowledge traditions",
+    "CO3": "specific arguments, methodologies and approaches to questions regarding knowledge",
+    "CO4": "Develop an awareness of themselves as knowledge producers in the information society"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the Course; Introduction to the question of knowledge. Setting the frames of the course. Discussion of the syllabus. Plato’s parable of the Cave in the ‘Republic’. Introduction to Plato’s Dialogue “Theaetetus”; The Question: What is Knowledge; The Argument: Why perception is not knowledge; The method of Socratic argument; the philosopher as a ‘midwife’.",
+      "COs Met": ["CO1"],
+      "Assignments": "Formation of Learning Teams. Learning team activity preparation."
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Introduction to modern epistemology. Descartes, Locke, Berkeley, Hume.",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Peer critique of learning team activity"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "British empiricism continued. Kant’s ‘solution’ to the Humean dissolution of knowledge.",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning team preparation and activity."
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Distinction between rationalist and empiricist models of knowledge",
+      "COs Met": ["CO3"],
+      "Assignments": "Researching samples of media bias"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Buddhist epistemology: a discussion",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team presentation."
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Jnana and Pramana: a discussion",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Discussion of Indian and Western perspectives on knowledge",
+      "COs Met": ["CO4"],
+      "Assignments": "Reading assignment. Application of class discussion in individual"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Ludwig Wittgenstein: Logical atomism, and beyond. The philosopher as a fly trapped in a fly bottle.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Reading assignment."
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Galileo’s arguments and methods. Thought experiment. Observation and Experiment. Galileo and the Church –",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Reading and research assignment."
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Observation and Experiment. Galileo and the Church – book of nature and the book of God.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Learning team presentations."
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Poststructuralist models of knowledge. Michel Foucault and the anchoring of the sciences and various social practices in discourses of power. Sexuality and knowledge.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Reading assignment."
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Wrap up of the poststructuralist position. CO2, CO3, CO4",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "Research paper submission."
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Internet and Knowledge. Knowledge and Freedom. Knowl",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": "Hot seat exercise"
+    }
+]
+</think>
+
+```json
+{
+  "Course Code": "SSH223",
+  "Course Name": "Perspectives on Knowledge",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description/ Objectives": "The basic objective for this course is to broaden and deepen students’ understanding of issues concerning knowledge. The course is a basic introduction to epistemology (theory of knowledge). A major focus of the course is to address philosophical theories of knowledge. Additionally, we will address issues of knowledge that have moved from specialized reflections to general social discourse in the information age. The course culminates with discussions on the contemporary context of knowledge, where the professional training that the students receive in IT can be linked to broader social and cultural currents.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identify the meta-issues concerning knowledge and critically reflect on them",
+    "CO2": "Demonstrate awareness of the diversity of epistemic and sociological of knowledge traditions",
+    "CO3": "specific arguments, methodologies and approaches to questions regarding knowledge",
+    "CO4": "Develop an awareness of themselves as knowledge producers in the information society."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the Course; Introduction to the question of knowledge. Setting the frames of the course. Discussion of the syllabus. Plato’s parable of the Cave in the ‘Republic’. Introduction to Plato’s Dialogue “Theaetetus”; The Question: What is Knowledge; The Argument: Why perception is not knowledge; The method of Socratic argument; the philosopher as a ‘midwife’.",
+      "COs Met": ["CO1"],
+      "Assignments": "Formation of Learning Teams. Learning team activity preparation. (Present a video clip or newsprint article and tract it assumptions next week)"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Introduction to modern epistemology. Descartes, Locke, Berkeley, Hume.",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Peer critique of learning team activity. Reading assignment"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "British empiricism continued. Kant’s ‘solution’ to the Humean dissolution of knowledge.",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning team preparation and activity. Peer critique of learning team presentations. Reading assignment"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Distinction between rationalist and empiricist models of knowledge.",
+      "COs Met": ["CO3"],
+      "Assignments": "Researching samples of media bias. Learning team presentation. Peer critique and discussion"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Buddhist epistemology: a discussion.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and presentation. Peer critique"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Jnana and Pramana: a discussion.",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Discussion of Indian and Western perspectives on knowledge.",
+      "COs Met": ["CO4"],
+      "Assignments": "Reading assignment. Application of class discussion in individual task"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Ludwig Wittgenstein: Logical atomism, and beyond. The philosopher as a fly trapped in a fly bottle.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Reading assignment. Learning team activity",
+      "HW assignments": "..."
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Galileo’s arguments and methods. Thought experiment. Observation and Experiment.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Reading assignment. Learning team presentations. Peer critique"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Observation and Experiment. Galileo and the Church – book of nature and the book of God.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Learning team presentations. Peer critique"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Poststructuralist models of knowledge. Michel Foucault and the anchoring of the sciences and various social practices in discourses of power. Sexuality and knowledge.",
+      "COs Met": ["
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH223",
+  "Course Name": "Perspectives on Knowledge",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description/ Objectives": "The basic objective for this course is to broaden and deepen students’ understanding of issues concerning knowledge. The course is a basic introduction to epistemology (theory of knowledge). A major focus of the course is to address philosophical theories of knowledge. Additionally, we will address issues of knowledge that have moved from specialized reflections to general social discourse in the information age. The course culminates with discussions on the contemporary context of knowledge, where the professional training that the students receive in IT can be linked to broader social and cultural currents.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Identify the meta-issues concerning knowledge and critically reflect on them",
+    "CO2": "Demonstrate awareness of the diversity of epistemic and sociological of knowledge traditions",
+    "CO3": "specific arguments, methodologies and approaches to questions regarding knowledge",
+    "CO4": "Develop an awareness of themselves as knowledge producers in the information society."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the Course; Introduction to the question of knowledge. Setting the frames of the course. Discussion of the syllabus. Plato’s parable of the Cave in the ‘Republic’. Introduction to Plato’s Dialogue “Theaetetus”; The Question: What is Knowledge; The Argument: Why perception is not knowledge; The method of Socratic argument; the philosopher as a ‘midwife’.",
+      "COs Met": ["CO1"],
+      "Assignments": "Formation of Learning Teams. Learning team activity preparation. (Present a video clip or newsprint article and tract it assumptions next week)"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Introduction to modern epistemology. Descartes, Locke, Berkeley, Hume.",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Peer critique of learning team activity. Reading assignment"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "British empiricism continued. Kant’s ‘solution’ to the Humean dissolution of knowledge.",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning team preparation and activity. Peer critique of learning team presentations. Reading assignment"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Distinction between rationalist and empiricist models of knowledge.",
+      "COs Met": ["CO3"],
+      "Assignments": "Researching samples of media bias. Learning team presentation. Peer critique and discussion"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Buddhist epistemology: a discussion.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and presentation. Peer critique"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Jnana and Pramana: a discussion.",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Discussion of Indian and Western perspectives on knowledge.",
+      "COs Met": ["CO4"],
+      "Assignments": "Reading assignment. Application of class discussion in individual task"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Ludwig Wittgenstein: Logical atomism, and beyond. The philosopher as a fly trapped in a fly bottle.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Reading assignment. Learning team activity",
+      "HW assignments": "..."
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Galileo’s arguments and methods. Thought experiment. Observation and Experiment.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Reading assignment. Learning team presentations. Peer critique"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Observation and Experiment. Galileo and the Church – book of nature and the book of God.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Learning team presentations. Peer critique"
+    }

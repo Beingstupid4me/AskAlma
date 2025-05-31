@@ -1,0 +1,44 @@
+**Course Overview**  
+This course ECE564/CSE564, named "Reinforcement Learning" provides an in-depth introduction to reinforcement learning (RL), focusing on both theoretical foundations and practical applications. Students will gain a comprehensive understanding of RL algorithms, their mathematical underpinnings, and their implementation in real-world scenarios. The course is designed for undergraduate and postgraduate students with a basic background in mathematics and programming.
+
+**Prerequisites**  
+Students are expected to have completed **MTH201 Probability & Statistics** as a mandatory prerequisite. Desirable prerequisites include familiarity with linear algebra and calculus, though these are not strictly required. Additional information or resources may be provided if needed to address gaps in preparation.
+
+**Learning Outcomes (COs)**  
+By the end of this course, students will be able to:  
+- **CO1**: Implement and analyze exact dynamic programming algorithms for value and policy iteration.  
+- **CO2**: Describe and implement approximations in both value and policy spaces.  
+- **CO3**: Describe and implement algorithms for model-free RL scenarios.  
+- **CO4**: Execute projects using commonly available RL libraries.
+
+**Weekly Lecture Plan**  
+The course is structured into 10 weeks, with each week focusing on specific topics and aligning with the learning outcomes:  
+
+| Week | Lecture Topic                     | COs Met   | Assignments/Labs/Tutorials |  
+|------|-----------------------------------|------------|---------------------------|  
+| 1    | Mathematical review               | CO1        | Assignment                 |  
+| 234  | The problem of sequential decision making under uncertainty, Bellman's optimality condition and dynamic programming methods | CO1, CO2   | Back-of-the-book problems and pseudocode |  
+| 456  | Monte Carlo Methods, Temporal Difference Learning, and n-Step Bootstrapping | CO3, CO4   | Back-of-the-book problems and pseudocode |  
+| 78910| On-Policy Prediction and Control with approximation | CO2, CO3, CO4 | Coding assignment and problems |  
+| 1011 | Policy Gradient                   | CO2, CO3, CO4 | Coding assignment and problems |  
+| 111213| Deep reinforcement learning       | CO2, CO3, CO4 | Paper readings and as part of course project |  
+
+*Please insert more rows if needed.*
+
+**Weekly Lab Plan**  
+The course does not include a lab component. All practical work is integrated into the weekly assignments and coding exercises.
+
+**Assessment Plan**  
+The course assessment is divided equally among four components:  
+- **Quiz**: 25% of the final grade, focusing on theoretical concepts and basic applications.  
+- **Mid-sem**: 25% of the final grade, covering foundational topics from the first half of the course.  
+- **Project**: 25% of the final grade, involving the implementation and evaluation of RL algorithms.  
+- **End-sem**: 25% of the final grade, assessing overall understanding and application of course material.
+
+*Please insert more rows if needed.*
+
+**Resource Materials**  
+The primary resource for this course is:  
+- **Textbook**: *Reinforcement Learning: An Introduction by Sutton and Barto*.  
+
+Additional resources will be provided as necessary.

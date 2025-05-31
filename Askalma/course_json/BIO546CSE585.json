@@ -1,0 +1,113 @@
+{
+  "Course Code": "BIO546/CSE585",
+  "Course Name": "Computing For Medicine",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This objective of this course is to train students in creation of computing solutions that are relevant to medicine. The course will pick timely and relevant topics in computing such as the building blocks of electronic health records, modeling and visualizing diseases, pathogen and human factors involved in spread and the ever increasing role of information management and computing in managing diseases.",
+  "Prerequisites": {
+    "Mandatory": "Any 3rd, 4th year UG, Masters, and Ph.D. student"
+  },
+  "Course Outcomes": {
+    "CO1": "Students can build interoperable data exchange solutions for medicine and public health",
+    "CO2": "Students can understand and critique existing modeling methods for medical and public health data",
+    "CO3": "Students can produce models for the spread of infectious diseases",
+    "CO4": "Students can Develop new interventions during epidemics and health emergencies"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Computing and Healthcare - The Big Picture (Health Perspective)",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Build the National Health Stack: Interoperability, Data Standards (HL7, DICOM, FHIR)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW 1. Tutorial / Workshop on HL7 / DICOM / FHIR"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Clinical Vocabularies and Ontologies",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Quiz 1 [Week 4]"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Anonymization techniques for sharing data between hospitals",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW2"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Computing the Host and Pathogen Factors for Disease",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Agent based models (ABM)s, Epidemics / infectious diseases",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Building ABMs for Epidemics like COVID",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW3"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Predictive & Causal Modeling",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Managing Infodemic by Identifying and Mitigating Fake News",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Managing Infodemic with NLP and Effective Risk Communication",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 20,
+    "Assignments": 15,
+    "Endsem": 25,
+    "Project": 25,
+    "Quizzes": 15
+  },
+  "Resource Material": {
+    "Textbook": "All required materials will be provided to students during the semester.",
+    "Reference Book": "National Digital Health Blueprint (2) Biomedical Informatics (Andreas"
+  }
+}

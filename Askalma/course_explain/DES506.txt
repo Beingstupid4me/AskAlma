@@ -1,0 +1,77 @@
+### Course Overview
+
+This course DES506, titled **Advanced Topics in Human Centered Computing (ATHC)**, is designed for both undergraduate and postgraduate students. It carries 4 credits and provides an advanced understanding of current-day Human Centered Computing (HCC) frameworks and research methodologies. The primary objective of this course is to equip students with the ability to conduct research in the area of HCC.
+
+The course description highlights that it will cover existing frameworks, research methodologies, and their practical applications. Students will learn how to apply these frameworks and methodologies to real-world problems. The course also emphasizes the importance of understanding the critical flaws in computing and design solutions and proposing alternative approaches to address these issues.
+
+---
+
+### Prerequisites
+
+While there are no mandatory prerequisites explicitly listed for this course, it is recommended that students have a foundational knowledge of Human Centered Computing (HCC). Specifically, **HCD 204** (Design of Interactive Systems) is strongly encouraged as a prerequisite. Students who lack this background may find the course challenging and are advised to consult with the instructor if they have any doubts.
+
+---
+
+### Learning Outcomes
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Demonstrate a deep understanding of current-day HCC frameworks and research methodologies.
+2. **CO2**: Identify and apply suitable research frameworks for given problems while critiquing and justifying their use.
+3. **CO3**: Develop research hypotheses and generate innovative ideas related to research problems in HCC.
+4. **CO4**: Evaluate existing computing and design solutions, critically analyzing their methodology, experimentation, evaluation, and propose alternative approaches to address any critical flaws.
+
+---
+
+### Weekly Lecture Plan
+
+The course is divided into 12 weeks, each focusing on specific topics that build upon the learning outcomes:
+
+- **Week 1**: Introduction to HCC frameworks and research methodologies. This foundational week sets the stage for understanding how these frameworks are applied in real-world scenarios.
+- **Week 2**: Feminist HCI Lens Methodology. Students will learn about the application of feminist principles in Human Centered Computing.
+- **Week 3**: Feminist HCI Applications. Building on the previous week, students will explore practical applications of feminist principles in HCC.
+- **Weeks 4–5**: DBIR Methodology and Applications. These weeks focus on Design-Based Iterative Research (DBIR) methodologies and their practical implementations.
+- **Weeks 6–7**: Aspiration-based design Methodology and Applications. Students will learn about aspiration-based approaches and how they are applied in HCC.
+- **Weeks 8–9**: Asset-based design Methodology and Applications. This section covers asset-based approaches and their real-world applications.
+- **Weeks 10–11**: HCC for Development. These weeks focus on the application of HCC principles in development contexts, with both general topics and specific case studies.
+- **Weeks 12–13**: Emerging Themes in HCC. This section explores cutting-edge topics and trends in HCC, preparing students for advanced research.
+- **Week 14**: Emerging Themes in HCC (continued). The final week allows for deeper exploration of emerging themes and their implications.
+
+Each week includes assignments that reinforce the concepts covered in lectures, ensuring a hands-on approach to learning.
+
+---
+
+### Assessment Plan
+
+The course assessment is designed to evaluate both theoretical knowledge and practical application:
+
+- **Assignments**: 60% of the grade. These include critical reviews of research papers, which account for 15 out of 20 submissions contributing to 60 marks.
+- **Class Participation**: 0% of the grade. While attendance is mandatory, participation does not contribute to the final grade but is encouraged for a better understanding of the material.
+- **Project**: 30% of the grade. Students will work on an in-depth project involving reading and analyzing research papers or exploring new research areas.
+
+---
+
+### Resource Material
+
+The course provides comprehensive resource materials to support learning:
+
+- **Textbook**: *Research Methods in Human Centered Computing* by Dr. Anurag Desai.
+- **Reference Materials**: Research papers from journals such as CHI, CSCW, ToCHI, UIST, and UbiComp.
+
+These resources are essential for understanding the theoretical foundations and practical applications of HCC.
+
+---
+
+### Anti-Plagiarism Guidelines
+
+Plagiarism is strictly prohibited. Students are encouraged to refer to external resources or discuss ideas with peers but must ensure all submitted work is 100% original. Proper documentation and citations are required, and any form of academic dishonesty will be dealt with according to the Institute's guidelines.
+
+---
+
+### Class Attendance Policy
+
+Regular attendance is mandatory, with a penalty system in place for absences. Students who are late by more than 5 minutes or absent without prior notice (accompanied by Institute-validated proof) will receive an absence mark. Missing classes results in a penalty of -1 per absence, with the maximum penalty capped at -20.
+
+---
+
+This structured approach ensures that students gain a comprehensive understanding of Human Centered Computing frameworks and methodologies while preparing them for advanced research and practical applications in the field.

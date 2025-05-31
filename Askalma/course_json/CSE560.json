@@ -1,0 +1,112 @@
+{
+  "Course Code": "CSE560",
+  "Course Name": "GPU Computing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will introduce parallel computing paradigms with focus on GPGPU programming to harness the massively parallel GPU architecture in solving computationally demanding tasks. The NVIDIA CUDA and industry standard OpenCL frameworks will be introduced and used with most of the labs. This is a project based course where the students will work on scientific computational problems.",
+  "Prerequisites": {
+    "Mandatory": "CSE101 Intro to Programming",
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand concepts behind parallel computing",
+    "CO2": "Students are able to understand parallel computing paradigms, GPU architecture and GPGPU development frameworks (CUDA, OpenCL, and GLSL)",
+    "CO3": "Students are able to analyse an algorithms to provide parallel solutions to computationally challenging problems",
+    "CO4": "Students are able to implement such solutions on GPU using CUDA, and show effectiveness of the GPU based solutions using standard benchmarks and tools"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction and overview: advances in architecture and technology, need for parallel computing, examples, and challenges.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Weekly programming assignments and homeworks to implement and analyse data structures covered in class. Homeworks contain both theoretical and programming problems."
+    },
+    {
+      "Week": 23,
+      "Lecture Topic": "Basics on architecture and programming: CPU/GPU architecture, multicore architecture, Flynn\u2019s taxonomy, SIMT execution model",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Weekly programming assignments and homeworks to implement and analyse data structures covered in class. Homeworks contain both theoretical and programming problems."
+    },
+    {
+      "Week": 45,
+      "Lecture Topic": "Introduction to CUDA C: kernel based data parallel execution model, memory model and locality, CUDA threads, atomics, GPU utilisation",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Weekly programming assignments and homeworks to implement and analyse data structures covered in class. Homeworks contain both theoretical and programming problems."
+    },
+    {
+      "Week": 67,
+      "Lecture Topic": "Parallel programming paradigms: parallel algorithm design, analytical modelling of parallel programs, limits on achievable performance, Amdahl\u2019s law, Gustafson\u2019s law, scalability, work optimality, message passing, shared address space machines, basic communication operations, concurrency",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Weekly programming assignments and homeworks to implement and analyse data structures covered in class. Homeworks contain both theoretical and programming problems."
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Parallel computing using CUDA: data transfer and CUDA streams, performance considerations, floating-point accuracy, synchronisation, communication, reduction trees, parallel prefix sum, optimisations",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Weekly programming assignments and homeworks to implement and analyse data structures covered in class. Homeworks contain both theoretical and programming problems."
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "OpenMP, OpenACC, Multi-GPU systems, GPGPU-computing using OpenCL and OpenGL",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Weekly programming assignments and homeworks to implement and analyse data structures covered in class. Homeworks contain both theoretical and programming problems."
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Case studies",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 15
+    },
+    "Endsem": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 30
+    },
+    "Project": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 30
+    },
+    "Assignment": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 20
+    },
+    "Quiz": {
+      "Type of Evaluation": "Evaluation",
+      "% Contribution in Grade": 5
+    }
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Title": "David B. Kirk, and Wen-mei W. Hwu, Programming massively parallel processors: a hands-on approach, Elsevier."
+      },
+      {
+        "Title": "A. Grama, A. Gupta, G. Karypis, and V. Kumar, Introduction to parallel computing, 2nd edition."
+      }
+    ]
+  }
+}

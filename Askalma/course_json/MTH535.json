@@ -1,0 +1,133 @@
+{
+  "Course Code": "MTH546",
+  "Course Name": "Measure and probability theory",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The first half of this course will consists of topics from measure theory, which can be considered to be a branch of mathematical analysis dealing with the foundations required to associate a notion of measure (such as volume) to subsets of a set. This study provides foundational tools for many areas of mathematics, such as Riemannian geometry, probability theory, functional analysis, dynamical systems, etc. As a specific application, we revisit probability theory using the framework of measure theory in the second half of the course.",
+  "Prerequisites": {
+    "Mandatory": "Real Analysis - I or Math - III or equivalent",
+    "Desirable": "Real Analysis - II or equivalent, Complex Analysis or equivalent",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to rigorously establish the existence of Lebesgue measure",
+    "CO2": "Students are able to work with Integrations",
+    "CO3": "Students are able to apply measure theory to understand probability theory"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of relevant topics from Analysis",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "\u03c3-algebras of sets, monotone class theorem, \u03c3-finite measures",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Construction of Lebesgue measure",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Homework 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Integration, Fatou lemma",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Monotone & dominated conv theorems, Radon- Nikodym theorem",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Product measures, Fubini theorem",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Review of basic probability theory",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Distribution functions of probability measures on R",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Borel-Cantelli lemma, Weak and Strong Laws of Large Numbers",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Homework 3"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Weak convergence, characteristic functions",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Central limit theorem",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Homework 4"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Optional topic (time permitting): Ergodic theorems or Martingales",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Review of course",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "40",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "(1) Real and complex analysis, by Walter Rudin; (2) Probability and measure, by Patrick Billingsley."
+    ],
+    "Reference Books": [
+      "(1) Introduction to probability and measure, by K.R. Parthasarathy; (2) Measure Theory and Probability Theory, by Krishna Athreya and Soumendra N. Lahiri; (3) An Introduction to measure theory, by Terence Tao; (4) Probability and Stochastics, by \u00c7\u0131nlar, Erhan"
+    ]
+  }
+}

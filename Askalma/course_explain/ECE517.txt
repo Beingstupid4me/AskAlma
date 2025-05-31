@@ -1,0 +1,62 @@
+**Course Overview**
+
+The course ECE517, titled "Introduction to Nanoelectronics," is a 4-credit offering designed for both undergraduate and postgraduate students. This interdisciplinary course delves into the fundamentals of nanoelectronic devices, exploring their operation, electrical characteristics, and recent advancements in the field.
+
+**Course Prerequisites**
+
+To successfully engage with this course, students should have a basic understanding of P-N junctions and MOSFETs. These foundational concepts are crucial for grasping the more intricate topics covered throughout the semester.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Clearly explain distinct phenomena that are important in nanoelectronic devices.
+- **CO2:** Describe the operating principles, merits, demerits, and challenges of various futuristic nanoelectronic devices.
+- **CO3:** Compute a given parameter or physical quantity for a nanoelectronic device by applying appropriate equations or formula.
+- **CO4:** Discuss the challenges of scaling conventional MOSFETs and possible solutions.
+
+**Weekly Lecture Plan**
+
+The course is structured over 13 weeks, with each week focusing on specific topics:
+
+1. **Week 1:** Introduction to nanoelectronics, bottom-up approach, trends, and ITRS perspective.
+2. **Week 2:** Quantum mechanics basics: Particle description, Schrödinger’s equation, expectation value, particle in a box, finite potential well.
+3. **Week 3:** Energy bands, density of states, distribution functions, Fermi level, quantum wells, wires, and dots.
+4. **Week 4:** Transport in confined materials, ballistic transport.
+5. **Week 5:** Effects of subthreshold swing limitations and their consequences.
+6. **Week 6:** Strain effects, FinFETs, III-V materials.
+7. **Week 7:** 2-D materials: Graphene, transition metal dichalcogenides (TMD).
+8. **Week 8:** 1-D materials: Carbon nanotubes and nanowires.
+9. **Week 9:** CNT-based FETs, graphene nanoribbon-based FETs.
+10. **Week 10:** Steep subthreshold slope devices: Tunnel FET, NCFET, IMOS.
+11. **Week 11:** Nanoelectromechanical switches (NEMS).
+12. **Week 12:** Novel devices: Single electron transistors and molecular devices.
+13. **Week 13:** Summing up and presentation.
+
+**Assessment Strategy**
+
+The course assessment is divided as follows:
+
+- **Assignments:** 10% (Various topics throughout the semester)
+- **Paper Presentation:** 20% (Presentation on a chosen topic related to nanoelectronics)
+- **Mid-Semester Examination:** 20%
+- **End-Semester Examination:** 50%
+
+**Resource Materials**
+
+Students are provided with a comprehensive set of resources to support their learning:
+
+- **Textbooks:**
+  - Arthur Beiser, "Concepts of Modern Physics"
+  - S. M. Sze, "Physics of Semiconductor Devices," John Wiley and Sons
+  - D. A. Neaman, "Semiconductor Physics and Devices"
+  
+- **References:**
+  - International Technology Roadmap for Semiconductors (ITRS), 2013 edition.
+  - R. Murali, "Graphene Nanoelectronics: From Materials to Circuits"
+
+- **Online Resources:**
+  - Resources at Nanohub (https://nanohub.org/)
+  - Reliable internet sources for additional information.
+
+This structured approach ensures a thorough understanding of nanoelectronics, from foundational concepts to advanced topics, supported by both theoretical knowledge and practical application.

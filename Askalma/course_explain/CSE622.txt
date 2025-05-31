@@ -1,0 +1,122 @@
+### Course Overview: Introduction to Quantum Computing
+
+This course is designed as an introductory module in quantum computing, offering students a foundational understanding of the principles, models, and algorithms that underpin this transformative field. The course is structured to cater to both computer science undergraduates and postgraduates, providing a blend of theoretical knowledge and practical applications.
+
+#### Course Code: CSE622
+- **Course Name:** Introduction to Quantum Computing  
+- **Credits:** 4  
+- **Offered To:** UG+PG (Undergraduate + Postgraduate) students  
+
+The course is delivered over a comprehensive period, with weekly lectures and hands-on lab sessions. Students are expected to engage deeply with the material through assignments, quizzes, and practical exercises.
+
+---
+
+### Course Description
+
+This course introduces students to the fundamental concepts of quantum computing, emphasizing its potential to revolutionize computational problem-solving. While certain problems can be solved more efficiently using quantum models compared to classical platforms (like digital circuits or Turing machines), other scenarios may yield results comparable to or even inferior to classical approaches. The curriculum is divided into two main halves:
+
+1. **First Half:**  
+   - Introduction to the postulates of quantum computing, including operations and operators.
+   - Study of basic structures in quantum computing models, such as circuits and algorithms.
+   - Exploration of intriguing solutions like quantum teleportation, super-dense coding, and the Deutsch-Jozsa algorithm.
+
+2. **Second Half:**  
+   - Advanced topics include quantum Fourier transformation, amplitude amplification, and eigenvalue estimation.
+   - Examination of key quantum algorithms like Grover’s search, Shor's factoring, and BB84 protocols.
+   - Discussion of recent advancements in quantum computing research.
+
+Students are encouraged to read recent or classical research papers and simulate algorithms using quantum circuit simulators (e.g., Microsoft LIQUi) to gain practical insights into the system.
+
+---
+
+### Prerequisites
+
+To successfully engage with this course, students should have a solid foundation in the following areas:
+
+- **Mandatory:**  
+  - **MTH100 Linear Algebra:** Essential for understanding the mathematical underpinnings of quantum computing.
+  - **Probability and Statistics:** Required for analyzing quantum algorithms and their outcomes.
+
+- **Desirable:**  
+  - **Analysis and Design of Algorithms:** A strong background in classical algorithm design will be beneficial.
+
+Students are encouraged to consult with the course instructor if they have additional prerequisites or concerns regarding their preparedness for the course.
+
+---
+
+### Course Outcomes (COs)
+
+By the end of this course, students will be able to:
+
+- **CO1:** Understand the principles of quantum computing and its applications in various domains.  
+- **CO2:** Analyze and design quantum algorithms and circuits using different models.  
+- **CO3:** Implement simple quantum algorithms and explain their functionality through written homeworks and simulator-based exercises.  
+- **CO4:** Present research papers, conduct paper readings, and apply advanced concepts to real-world problems.
+
+---
+
+### Weekly Lecture Plan
+
+The course is structured into 13 weeks of lectures, with each week focusing on specific topics:
+
+| Week Number | Lecture Topic                     | COs Met          |
+|-------------|-----------------------------------|-------------------|
+| 1           | Principles of Quantum Computing    | CO1               |
+| 2           | Principles of Quantum Computing    | CO1               |
+| 3           | Principles of Quantum Computing    | CO1               |
+| 4           | Models of Quantum Computing        | CO2               |
+| 5           | Models of Quantum Computing        | CO2               |
+| 6           | Simple Circuits and Algorithms   | CO3               |
+| 7           | Amplitude Amplification-based Algorithms | CO3 |
+| 8           | Quantum Fourier Transform-based Algorithms | CO3 |
+| 9           | Quantum Fourier Transform-based Algorithms | CO3 |
+| 10          | Quantum Cryptography and Other Topics, Paper Presentation/Report Submission | CO4 |
+| 11          | Quantum Cryptography and Other Topics, Paper Presentation/Report Submission | CO4 |
+| 12-13       | Advanced Topics                   | Written Homeworks |
+
+---
+
+### Weekly Lab Plan
+
+The laboratory sessions are designed to reinforce the theoretical concepts covered in lectures. Students will engage with practical exercises using quantum circuit simulators:
+
+| Week Number | Laboratory Exercise               | COs Met          | Platform (Hardware/Software) |
+|-------------|-----------------------------------|-------------------|------------------------------|
+| 1           | Basic Quantum Operations          | CO1               | Quantum Circuit Simulator     |
+| 2           | Quantum Teleportation              | CO1               | Quantum Circuit Simulator     |
+| 3           | Super-Dense Coding                | CO1               | Quantum Circuit Simulator     |
+| 4           | Deutsch-Jozsa Algorithm         | CO2               | Quantum Circuit Simulator     |
+| 5           | Grover’s Search Algorithm         | CO2               | Quantum Circuit Simulator     |
+| 6           | Shor's Factoring Algorithm        | CO3               | Quantum Circuit Simulator     |
+| 7           | BB84 Protocol Implementation      | CO3               | Quantum Circuit Simulator     |
+| 8           | Advanced Quantum Algorithms       | CO4               | Quantum Circuit Simulator     |
+
+---
+
+### Assessment Plan
+
+The course assessment is designed to evaluate students' understanding and application of quantum computing concepts:
+
+| Type of Evaluation         | Contribution in Grade (%) |
+|----------------------------|---------------------------|
+| End Semester Examination    | 35-40                     |
+| Mid Semester Examination     | 30-35                     |
+| Paper Reading                | 10                      |
+| Quizzes and Homework        | 20-October                |
+
+---
+
+### Resource Material
+
+Students are provided with the following resources to support their learning:
+
+- **Textbook:**  
+  - "Quantum Computation and Quantum Information" by Michael Nielsen and Isaac Chuang.  
+  - "An Introduction to Quantum Computing" by Kaye, Laflamme, and Mosca.
+
+- **Additional Reading Materials:**  
+  - Research papers and supplementary notes provided during the course.
+
+---
+
+This structured approach ensures that students gain a comprehensive understanding of quantum computing, from foundational principles to advanced topics, while developing practical skills through laboratory exercises. The assessment plan is designed to evaluate both theoretical knowledge and practical application, ensuring a well-rounded learning experience.

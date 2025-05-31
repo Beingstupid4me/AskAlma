@@ -1,0 +1,79 @@
+{
+  "Course Code": "BIO534",
+  "Course Name": "Introduction to Computational Neuroscience",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This introductory neuroscience provides basic understanding of neuronal systems and their respective mathematical models that describes the behavior of the neurons under various conditions. The aim of this course is to encourage Computational biology students to diversify into the area of neuroscience. This course in not about neural networks and machine learning, but about the use of the tools of dynamical systems theory to understand oscillatory properties of single cell neurons. Nonlinear ODE and PDE models will be constructed, analyzed and simulated using MATLAB to understand different firing patterns of the neuronal systems under normal and pathalogical conditions.",
+  "Prerequisites": {
+    "Mandatory": "Calculus, linear algebra and ODE/PDE and coding in MATLAB",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Explain and classify different properties of neurons like spike, threshold, depolarization and electrophysiological properties of neurons",
+    "CO2": "Develop and analyze computational models of neurons like Hodgkin-Huxley and Integrate and Fire models. Introduce neuronal simulations.",
+    "CO3": "various phase portraits of Hodgkin-Huxley model to understand different dynamical properties of neurons through simulations",
+    "CO4": "Ability to build simple PDE models of diffusion to understand signal propagation in neuronal systems",
+    "CO5": "Hypothesizing, designing and analyzing new models of neurons for different pathological cases."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1-2",
+      "Lecture Topic": "Description of neuronal properties like spikes, threshold, depolarization, repolarization, classification of different neurons and its firing properties, neurocomputational and electrophysiological properties.",
+      "COs Met": ["CO1"],
+      "Assignments": "Projects will be designed based on the recent papers and will be given to the students. They need to simulate and generate the results from the paper in groups. At the end of the semester, they need to present."
+    },
+    {
+      "Week Number": "3-4",
+      "Lecture Topic": "Geometric and directional field analysis of one and two dimensional nonlinear models of neurons. Introduction to neuronal simulations.",
+      "COs Met": ["CO2"],
+      "Assignments": "Projects will be designed based on the recent papers and will be given to the students. They need to simulate and generate the results from the paper in groups. At the end of the semester, they need to present."
+    },
+    {
+      "Week Number": "5-6",
+      "Lecture Topic": "Introduction to planar vector fields, equilibria and phase portraits of nonlinear neuronal ODE models of HH and IF types.",
+      "COs Met": ["CO3"],
+      "Assignments": "Projects will be designed based on the recent papers and will be given to the students. They need to simulate and generate the results from the paper in groups. At the end of the semester, they need to present."
+    },
+    {
+      "Week Number": "7-9",
+      "Lecture Topic": "Linear cable theory and conductance based PDE models of neurons.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Projects will be designed based on the recent papers and will be given to the students. They need to simulate and generate the results from the paper in groups. At the end of the semester, they need to present."
+    },
+    {
+      "Week Number": "10-11",
+      "Lecture Topic": "Bifurcations, equilibrium, limit cycle.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Projects will be designed based on the recent papers and will be given to the students. They need to simulate and generate the results from the paper in groups. At the end of the semester, they need to present."
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Geometric analysis of bursting neurons.",
+      "COs Met": ["CO5"],
+      "Assignments": "Projects will be designed based on the recent papers and will be given to the students. They need to simulate and generate the results from the paper in groups. At the end of the semester, they need to present."
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Applications of neuronal models to Diabetes and cancer systems.",
+      "COs Met": ["CO5"],
+      "Assignments": "Projects will be designed based on the recent papers and will be given to the students. They need to simulate and generate the results from the paper in groups. At the end of the semester, they need to present."
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [
+      "Quiz-I (Prior to midsem)",
+      "Quiz-II (Prior to endsem)"
+    ],
+    "Midsem": "Midsem",
+    "HW assignments": ["Home work"],
+    "Endsem": "Endsem"
+  },
+  "Resource Material": {
+    "Reference Book": [
+      "(i) Dynamical systems in Neuroscience. Eugene Izhikevich, MIT press",
+      "(ii) Nonlinear dynamics and chaos, Steven Strogatz, Levant Press"
+    ]
+  }
+}
+  

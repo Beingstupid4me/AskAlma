@@ -1,0 +1,120 @@
+{
+  "Course Code": "ECE579",
+  "Course Name": "Nonlinear and Adaptive Control of Robotic Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide an introduction to nonlinear dynamical systems and emphasizes the role of control theory as one of the crucial components of robotics engineering. The course includes modeling the robotic system and designing controllers for trajectory tracking applications which include advanced nonlinear and adaptive controllers using Euler-Lagrange Model of Robotic Systems. The control design problem will be discussed for fully-actuated robot manipulators and underactuated robotic systems like surface vehicles, drones etc. Further, synchronization problems related to multi-robot systems will be introduced, which include applications like bilateral tele-operation, leader-follower formation control etc. Theoretical analysis on the stability of the closed-loop system for the developed controllers will also be covered in details using Lyapunov stability theory.",
+  "Prerequisites": {
+    "Mandatory": "A basic familiarity with concepts of Linear Systems and Linear Algebra Control Theory (ECE570) or analogous Classical Control (although not mandatory)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand the fundamentals of nonlinear dynamical systems and control, familiarize with basic t Ability to model a robotic system and design nonlinear controllers Analyze the controllers while ensuring",
+    "CO2": "Understand the fundamentals of nonlinear dynamical systems and control, familiarize with basic t Ability to model a robotic system and design nonlinear controllers Analyze the controllers while ensuring",
+    "CO3": "Understand the fundamentals of nonlinear dynamical systems and control, familiarize with basic t Ability to model a robotic system and design nonlinear controllers Analyze the controllers while ensuring",
+    "CO4": "Understand the principles of adaptive control, which is a real- time uncertainty handling mechanism",
+    "CO5": "Design nonlinear controllers for multi- robot systems using a synchronization framework"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Nonlinear Dynamical Systems and Control Overview of Robotics: Emphasize on the role of Control Euler-Lagrange Model of a Robotic System (Robot Manipulator, Surface Robot, Quadrotor etc.)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to Nonlinear Dynamical Systems and Control Overview of Robotics: Emphasize on the role of Control Euler-Lagrange Model of a Robotic System (Robot Manipulator, Surface Robot, Quadrotor etc.)",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Introduction to Nonlinear Dynamical Systems and Control Overview of Robotics: Emphasize on the role of Control Euler-Lagrange Model of a Robotic System (Robot Manipulator, Surface Robot, Quadrotor etc.)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Equilibrium points, Linearization, Lyapunov Stability Theory",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Model-based nonlinear controller design for robot manipulators, backstepping control including actuator dynamics",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Output-feedback extension, actuator saturation, actuation delay, safety constraints using Barrier Lyapunov functions, Adaptive control of robot manipulators, adaptive backstepping including actuator dynamics",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Nonlinear Control of underactuated robotic systems like surface vehicles and drones etc.",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Synchronization of multi-robot systems, Bilateral tele-operation with communication delay",
+      "COs Met": [
+        "CO5",
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Leader-follower formation control of multiple surface vehicles",
+      "COs Met": [
+        "CO5",
+        "CO3"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Term Paper/ Project",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Homework": 30,
+    "Mid-sem": 15,
+    "Quiz": 15,
+    "End-sem": 25,
+    "Term Paper/ Project": 15
+  },
+  "Resource Material": {
+    "Textbook": "ECE579",
+    "Reference Book": "Applied Nonlinear Control by Slotine and Li"
+  }
+}

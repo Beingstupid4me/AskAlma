@@ -1,0 +1,91 @@
+### Course Overview 
+## Course Code
+ECE 670/CSE 633
+
+## Course Name
+Robotics
+
+## Credits
+4
+
+## Course Offered To
+Undergraduate and Postgraduate students 
+This course provides a comprehensive understanding of robotics, covering fundamental concepts from theory to implementation. Students will explore topics such as mathematical modeling, path planning, and control systems for various robotic systems, including manipulators, ground robots, and drones. The course utilizes software platforms like Simulink, Matlab Robotics Toolbox, ROS, and Geazebo for simulations and projects. Hardware demos are also conducted using the Qbot 2e (ground robot), 3dr Solo (drone), and Rotary Inverted Pendulum (robot arm) available in the control lab.
+
+### Prerequisites  
+Students should have a basic familiarity with linear algebra concepts. No specific pre-requisites are required beyond this foundational knowledge.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Explain the physical behavior and working principles of various robotics systems.  
+- **CO2**: Develop a solid foundation in path and trajectory planning algorithms.  
+- **CO3**: Utilize stability theory and controller design methods for robot systems.  
+- **CO4**: Implement computer programs to simulate and control robotic systems' behavior.
+
+### Weekly Lecture Plan  
+The course is structured into weekly modules, each focusing on specific topics and outcomes:  
+
+1. **Week 1**  
+   - **Topic**: Introduction to Robotic Systems (Manipulators, Ground Robots, Drones)  
+   - **Coverage**: Overview of robotics engineering, including modeling, planning, and control.  
+   - **COs Met**: CO1  
+
+2. **Week 2**  
+   - **Topic**: Mathematical Modeling – Coordinate Transformations and Rigid Body Representation  
+   - **Coverage**: Detailed exploration of coordinate transformations and rigid body dynamics.  
+   - **COs Met**: CO1  
+
+3. **Week 3**  
+   - **Topic**: Manipulators: Forward Kinematics, Inverse Kinematics, Velocity Kinematics  
+   - **Coverage**: Application of kinematic principles to robotic manipulators.  
+   - **COs Met**: CO1, CO4  
+
+4. **Week 45**  
+   - **Topic**: Dynamics Formulations (Euler-Lagrange and Newton-Euler), Quaternions, Quadrotor Dynamics  
+   - **Coverage**: Advanced dynamics modeling of quadrotors and mobile robots.  
+   - **COs Met**: CO1, CO4  
+
+5. **Week 67**  
+   - **Topic**: Path and Trajectory Planning (Graph-Based Methods)  
+   - **Coverage**: Introduction to graph-based planning algorithms like Dijkstra and A*.  
+   - **COs Met**: CO2, CO4  
+
+6. **Week 89**  
+   - **Topic**: Sampling-Based Planning (Probabilistic Roadmap, RRT)  
+   - **Coverage**: Exploration of probabilistic methods for path planning.  
+   - **COs Met**: CO2, CO4  
+
+7. **Week 10-11**  
+   - **Topic**: Controls – State Space Representation and Linear Control  
+   - **Coverage**: Basics of control theory and linear control methods like pole placement and LQR.  
+   - **COs Met**: CO3, CO4  
+
+8. **Week 12**  
+   - **Topic**: Nonlinear Control Systems  
+   - **Coverage**: Advanced control strategies for nonlinear systems.  
+   - **COs Met**: CO3, CO4  
+
+9. **Week 13**  
+   - **Topic**: Project Presentation  
+   - **Coverage**: Students present projects on topics like SLAM, perception, machine learning-based path planning.  
+   - **COs Met**: CO4  
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application:  
+
+- **Homework (15%)**: Assignments to reinforce concepts covered in lectures.  
+- **Mid-Semester Exam (25%)**: Comprehensive evaluation of foundational topics.  
+- **Quiz (15%)**: Short assessments to test understanding of key concepts.  
+- **End-Semester Exam (25%)**: In-depth evaluation of the entire course content.  
+- **Project (20%)**: Practical implementation and presentation of a robotics project.  
+
+### Learning Resources  
+Students are provided with essential resources to support their learning:  
+
+- **Textbook**: *Robotics: Modelling, Planning and Control* by Bruno Siciliano et al.  
+- **Reference Material**: *Robotics, Vision and Control: Fundamental Algorithms in Matlab* by Peter Corke.  
+- **Additional Resources**:  
+  - *"Robot Dynamics and Control"* by Mark W. Spong et al.  
+  - *"Learning Robotics using Python"* by Lentin Joseph.  
+
+These resources are available in the university library and online platforms, ensuring comprehensive support for students throughout the course.

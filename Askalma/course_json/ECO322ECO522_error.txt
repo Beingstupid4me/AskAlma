@@ -1,0 +1,256 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. The user has provided a JSON template and some structured data from an Excel file. My task is to extract the necessary information from the Excel content and map it into the specified JSON format.
+
+First, I'll look at the Excel sheet provided. It seems to be divided into several sections: Course Code, Course Name, Credits, etc., each with their respective details. The user has already outlined what each field in the JSON should represent, so my job is to extract the relevant data from the Excel content and place it correctly.
+
+Starting with "Course Code," I notice that in the Excel sheet, columns 3-6 under "Unnamed: 0" have entries like ECO 322/522. Since there are four such columns, but only one is filled (ECO 322/522), perhaps this indicates multiple courses with similar codes. However, the JSON expects a single string for "Course Code," so I'll take the first occurrence: ECO 322/522.
+
+Next, "Course Name" seems straightforward; it's consistently listed as "Econometrics II." So that's easy to map.
+
+For "Credits," all entries are "4," so that's simple enough.
+
+Moving on to "Course Offered to," the Excel content lists both "UG/PG" across multiple rows. Since this field is a classification, I'll take the common value provided: UG/PG.
+
+The "Course Description" is quite lengthy and repetitive in each row. It seems like it's describing the same course repeatedly. To avoid redundancy, I should extract one instance of this description to represent the course content accurately.
+
+Looking at "Prerequisites," there are mandatory prerequisites listed as "ECO221Econometrics-I OR any equivalent course in statistics." The other prerequisites under "Pre-requisite (Highly Desirable)" and "Pre-requisite(other)" seem to be empty. Since the user specified that if a value is missing, it should be represented as an empty string, I'll note them accordingly.
+
+For "Course Outcomes," each row has suggestions for verbs like "Describe," "Formulate," etc., but they repeat across rows. To avoid duplication and ensure clarity, I'll extract one instance of these outcomes to represent the course objectives succinctly.
+
+The "Weekly Lecture Plan" is structured with multiple weeks (Week 1-2, Week 3-4, etc.), each containing a lecture topic and COs met. Since this field expects an array of objects, I'll parse each week's data into separate entries within the array, ensuring that each entry includes the week number, lecture topic, COs met, and assignments.
+
+The "Assessment Plan" section lists Quiz exams, Midsem, HW assignments, and Endsem with their respective percentages. These are straightforward to map directly into the JSON structure.
+
+Lastly, the "Resource Material" includes Course Textbooks and References. I'll extract each reference as a separate object within the array, ensuring that "Textbook" and "Reference Book" are correctly mapped.
+
+I also need to ensure that all numeric values like "Credits," "% Contribution in Grade" remain as numbers and not strings. Additionally, any missing data should be represented as empty strings or nulls where appropriate.
+
+After carefully mapping each field from the Excel content into the JSON structure, I'll make sure there are no typos or formatting issues to ensure the JSON is valid and parsable.
+</think>
+
+```json
+{
+  "Course Code": "ECO 322/522",
+  "Course Name": "Econometrics II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide training in advanced applied econometrics through two (broad) modules: A) Panel Data Analysis; and B) Microeconometrics. Panel data (or longitudinal data) run over time and for different observation units like individuals, households, firms, regions, countries, etc. The repeated nature of the individual-level data enables more realistic econometric modeling (e.g., incorporating dynamics at the individual level); more robust estimation methods (e.g., controlling for unobserved heterogeneity) and more powerful statistical inference procedures (e.g. testing for longrun purchasing power parity by pooling a number of countries). We will study the development of the linear regression model in panel data settings involving 'fixed' and 'random' effects, and the statistical properties of the relevant estimators. Microeconometrics is the study of economic behavior of individuals or firms employing micro-level discrete response data and regression methods for panel data. The purpose of this module is to expose students to powerful econometric techniques frequently used in applied microeconomic research and quantitative policy analysis.",
+  "Prerequisites": {
+    "Mandatory": "ECO221Econometrics-I OR any equivalent course in statistics (Examples: Statistical Inference/Stochastic Processes and Applications/Probability and Random Processes/Statistical Signal Processing/Statistical Computation)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "Week 1-2",
+      "Lecture Topic": "Introduction to Panel Data Analysis: Advantages of Panel Data; Heterogeniety Bias; Selectivity Bias; Analysis of Covariance.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 3-4",
+      "Lecture Topic": "Regression Methods for Panel Data: (a) Fixed effects models; (b) Random effects models; (c) serial correlation in panel data; (d) modeling arbitrary error structure using maximum likelihood estimation and generalized lease squares; (e) tests for model misspecification.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 5-6",
+      "Lecture Topic": "Dynamic models with variable intercepts: MLE; GLS; and Instrumental Variable (IV) Estimator; Simulating standard errors.",
+      "COs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 7",
+      "Lecture Topic": "Discrete Data: Some discrete response models; Static models with heterogeneity; Dynamic discrete choice models (The general model, initial conditions, and state dependency versus heterogeneity).",
+      "COs Met": ["CO2"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 8",
+      "Lecture Topic": "Microeconomic Data Structures: Observational data; data from social experiments; data from natural experiments; and some practical considerations",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 9",
+      "Lecture Topic": "Theory of probabilistic choice behavior: multiple alternative choice problems; independence of irrelevant alternatives (ordinal utilities versus scaled cardinal utilities); and probabilistic nature of individual choices.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 10",
+      "Lecture Topic": "Multinomial models: Additive random utility models (RUM); multinomial logit model; multinomial probit model",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 11-12",
+      "Lecture Topic": "Ordered, Requential and Ranked Choice Outcomes: Random parameters logit; nested logit; conditional logit; multivariate discrete outcomes models",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 13",
+      "Lecture Topic": "Project presentations",
+      "COs Met": ["CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "Week 14",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 15",
+      "Lecturer Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 16",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 17",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 18",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 19",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 20",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 21",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 22",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 23",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECO 322/522",
+  "Course Name": "Econometrics II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide training in advanced applied econometrics through two (broad) modules: A) Panel Data Analysis; and B) Microeconometrics. Panel data (or longitudinal data) run over time and for different observation units like individuals, households, firms, regions, countries, etc. The repeated nature of the individual-level data enables more realistic econometric modeling (e.g., incorporating dynamics at the individual level); more robust estimation methods (e.g., controlling for unobserved heterogeneity) and more powerful statistical inference procedures (e.g. testing for longrun purchasing power parity by pooling a number of countries). We will study the development of the linear regression model in panel data settings involving 'fixed' and 'random' effects, and the statistical properties of the relevant estimators. Microeconometrics is the study of economic behavior of individuals or firms employing micro-level discrete response data and regression methods for panel data. The purpose of this module is to expose students to powerful econometric techniques frequently used in applied microeconomic research and quantitative policy analysis.",
+  "Prerequisites": {
+    "Mandatory": "ECO221Econometrics-I OR any equivalent course in statistics (Examples: Statistical Inference/Stochastic Processes and Applications/Probability and Random Processes/Statistical Signal Processing/Statistical Computation)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Introduction to Panel Data Analysis: Advantages of Panel Data; Heterogeniety Bias; Selectivity Bias; Analysis of Covariance.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Regression Methods for Panel Data: (a) Fixed effects models; (b) Random effects models; (c) serial correlation in panel data; (d) modeling arbitrary error structure using maximum likelihood estimation and generalized lease squares; (e) tests for model misspecification.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Dynamic models with variable intercepts: MLE; GLS; and Instrumental Variable (IV) Estimator; Simulating standard errors.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Discrete Data: Some discrete response models; Static models with heterogeneity; Dynamic discrete choice models (The general model, initial conditions, and state dependency versus heterogeneity).",
+      "COURSEs Met": ["CO2"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Microeconomic Data Structures: Observational data; data from social experiments; data from natural experiments; and some practical considerations",
+      "COURSEs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Theory of probabilistic choice behavior: multiple alternative choice problems; independence of irrelevant alternatives (ordinal utilities versus scaled cardinal utilities); and probabilistic nature of individual choices.",
+      "COURSEs Met": ["CO2", "CO3"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Multinomial models: Additive random utility models (RUM); multinomial logit model; multinomial probit model",
+      "COURSEs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "11-12",
+      "Lecture Topic": "Ordered, Requential and Ranked Choice Outcomes: Random parameters logit; nested logit; conditional logit; multivariate discrete outcomes models",
+      "COURSEs Met": ["CO3", "CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Project presentations",
+      "COURSEs Met": ["CO4"],
+      "Assignments": "Four assignments; two qizzes; and a short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    }
+</think>
+
+```json
+{
+  "Course Code": "ECO 322/522",
+  "Course Name": "Econometrics II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide training in advanced applied econometrics through two (broad) modules: A) Panel Data Analysis; and B) Microeconometrics. Panel data (or longitudinal data) run over time and for different observation units like individuals, households, firms, regions, countries, etc. The repeated nature of the individual-level data enables more realistic econometric modeling (e.g., incorporating dynamics at the individual level); more robust estimation methods (e.g., controlling for unobserved heterogeneity) and more powerful statistical inference procedures (e.g. testing for longrun purchasing power parity by pooling a number of countries). We will study the development of the linear regression model in panel data settings involving 'fixed' and 'random' effects, and the statistical properties of the relevant estimators. Microeconometrics is the study of economic behavior of individuals or firms employing micro-level discrete response data and regression methods for panel data
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECO 322/522",
+  "Course Name": "Econometrics II",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will provide training in advanced applied econometrics through two (broad) modules: A) Panel Data Analysis; and B) Microeconometrics. Panel data (or longitudinal data) run over time and for different observation units like individuals, households, firms, regions, countries, etc. The repeated nature of the individual-level data enables more realistic econometric modeling (e.g., incorporating dynamics at the individual level); more robust estimation methods (e.g., controlling for unobserved heterogeneity) and more powerful statistical inference procedures (e.g. testing for longrun purchasing power parity by pooling a number of countries). We will study the development of the linear regression model in panel data settings involving 'fixed' and 'random' effects, and the statistical properties of the relevant estimators. Microeconometrics is the study of economic behavior of individuals or firms employing micro-level discrete response data and regression methods for panel data

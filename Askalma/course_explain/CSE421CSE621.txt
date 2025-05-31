@@ -1,0 +1,49 @@
+### Course Overview  
+The course titled "Complexity Theory" (Course Code: CSE421/CSE621) is a 4-credit module offered to both undergraduate and postgraduate students. This course provides an in-depth exploration of computational problems from the perspective of computational resources, such as time, space, circuit size, and depth. It examines how these resources influence problem-solving difficulty and their relationships with different models of computation, including non-deterministic, non-uniform, and randomized models. The course also delves into the classification of problems into complexity classes and their implications for algorithm design, cryptography, and theoretical computer science.
+
+### Prerequisites  
+The prerequisite structure for this course is as follows:  
+- **Mandatory Prerequisites:**  
+  - CSE102 (Discrete Mathematics)  
+  - MTH201 (Calculus)  
+  - CSE322 (Data Structures and Algorithms)  
+  - CSE121 (Introduction to Programming)  
+
+These courses provide the foundational knowledge necessary for understanding the advanced concepts covered in Complexity Theory. Students are expected to have a strong grasp of logical reasoning, algorithmic thinking, and mathematical proofs before enrolling in this course.
+
+- **Desirable Prerequisites:**  
+  - Exposure to theoretical computer science topics such as automata theory or formal languages is recommended but not mandatory.  
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Demonstrate a deep understanding of different models of computation and their interrelationships.  
+2. **CO2:** Analyze and bound the resource usage required for solving computational problems under various models of computation.  
+3. **CO3:** Classify problems into appropriate complexity classes and understand their hierarchical relationships.  
+4. **CO4:** Apply techniques to place problems in complexity class hierarchies, including demonstrating separations, collapses, or completeness.  
+5. **CO5:** Articulate the major unresolved questions in computational complexity, such as P vs NP, and recognize their significance in computer science.
+
+### Syllabus  
+The course is structured over 12 weeks, with each week focusing on specific topics:  
+
+- **Week 1:** Introduction to computational problems and models of computation.  
+- **Week 2:** Turing machines and time/space complexity measures.  
+- **Week 3:** Universal machine and the relationship between deterministic and non-deterministic classes.  
+- **Week 4:** Complexity class hierarchies (P, NP, PSPACE, EXP, LOG, NLOG).  
+- **Week 5:** Complete problems in these classes.  
+- **Week 6:** Circuits and non-uniform models of computation (AC, NC).  
+- **Week 7:** Randomized algorithms and complexity classes.  
+- **Week 8:** Oracle results and advanced topics.  
+
+The course concludes with a flipped classroom model, emphasizing the importance of logical reasoning and maturity in understanding advanced theoretical concepts.
+
+### Assessment Strategy  
+The course is evaluated through a combination of quizzes, midsem, homework, and endsem:  
+- **Quizzes (25%):** Weekly quizzes to assess understanding of weekly topics.  
+- **Midsem Exam (30%):** Covers the first half of the syllabus, emphasizing problem-solving and theoretical analysis.  
+- **Homework Assignments (25%):** Bi-weekly assignments that include both theoretical proofs and algorithm design problems.  
+- **Endsem Exam (20%):** Comprehensive examination assessing overall understanding of the course material.
+
+### Resources  
+The primary textbook for this course is "Complexity Theory: A Modern Approach" by Sanjeev Arora and Boaz Barak, supplemented by "Introduction to the Theory of Computation" by Michael Sipser. Additional resources include lecture notes and supplementary readings provided during class.  
+
+This structured approach ensures a comprehensive understanding of computational complexity theory, preparing students for advanced research and applications in theoretical computer science, cryptography, and algorithm design.

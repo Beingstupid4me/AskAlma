@@ -1,0 +1,59 @@
+# Course Overview  
+**Course Code:** CSE 531  
+**Course Name:** Multi-agent Systems  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+
+## Prerequisites  
+- **Mandatory Prerequisites:** None specified.  
+- **Desirable Prerequisites:** None specified.  
+- **Other Prerequisites:** None specified.  
+
+## Learning Outcomes  
+Upon completion of this course, students will be able to:  
+1. **CO1:** Formulate a multi-agent system problem in terms of utility, Markov Decision Processes (MDP), and planning.  
+2. **CO2:** Apply different multi-agent system solution techniques to problems involving noncooperative games.  
+3. **CO3:** Investigate the application of multi-agent system concepts to other problems.  
+
+## Weekly Syllabus and Topics  
+The course is divided into weekly modules, each focusing on specific topics and learning outcomes:  
+
+- **Week 1:** Introduction to Multi-agent Systems (MAS) - Formulating MAS problems using utility, MDP, and planning.  
+  - Assignments: Problem set 1  
+- **Week 2:** Noncooperative Games - Analyzing game-theoretic models in multi-agent systems.  
+  - Assignments: Case study analysis  
+- **Week 3:** N-person Game Theory - Extending game theory concepts to multi-agent interactions.  
+  - No specific topics or assignments for this week.  
+- **Week 4:** Stackelberg Games - Exploring hierarchical decision-making in multi-agent systems.  
+  - Assignments: Midterm preparation guide  
+- **Week 5:** Repeated Games - Understanding the dynamics of repeated interactions in MAS.  
+  - Assignments: Group project proposal  
+- **Weeks 6-7:** Cooperative Game Theory - Studying coalition formation and its implications.  
+  - Assignments: Case study on cooperative games  
+- **Week 8:** Negotiation Processes - Analyzing negotiation strategies in multi-agent systems.  
+  - Assignments: Negotiation simulation exercise  
+- **Week 9:** Auctions - Designing and analyzing auction mechanisms for resource allocation.  
+  - Assignments: Auction mechanism evaluation report  
+- **Weeks 10-12:** Swarm Intelligence - Investigating collective behavior in multi-agent systems.  
+  - Assignments: Final project concept proposal  
+
+## Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application of concepts:  
+
+- **Homework (20%):** Weekly assignments to reinforce lecture topics.  
+- **Mid-sem Exam (25%):** Covers the first half of the course material, emphasizing problem-solving skills.  
+- **End-sem Exam (35%):** Comprehensive final exam assessing overall understanding of multi-agent systems.  
+- **Mini-project (20%):** A group project to design and implement a multi-agent system solution.  
+
+## Learning Resources  
+Students are provided with the following resources to support their learning:  
+
+1. **Textbook:**  
+   - Leyton-Brown, *Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations*, Cambridge University Press, 2008.  
+   - Michael Wooldridge: *An Introduction to MultiAgent Systems*, John Wiley & Sons; 2nd Edition edition.  
+   - Jose Vidal: *Fundamentals of Multiagent Systems* - [http://multiagent.com]  
+
+2. **Reference Material:**  
+   - Additional readings and supplementary materials will be provided as needed.  
+
+This structured approach ensures a comprehensive understanding of multi-agent systems, their applications, and the ability to design and implement effective solutions.

@@ -1,0 +1,186 @@
+{
+  "Course Code": "ECE611",
+  "Course Name": "Memory Design and Test",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This circuit design course brings students face to face with the challenges in designing a Memory Block. The course will introduce the challenges in designing the most commonly used 6T SRAM cell and then the peripheral circuits like sense amplifiers, decoders, write drivers etc. The course then introduces the cache hierarchy. Then the design specificities linked to DRAM design and NVM Design are covered. The last part of the course introduces the memory test methods, including BIST and test features in embedded memories. A course project using state-of-the-art computer aided design (CAD) tools in VLSI gives students hands-on exposure to design in an industrial technology/process.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Digital Circuits (ECE111)",
+      "Basic Electronics (ECE113)"
+    ],
+    "Desirable": [
+      "Digital VLSI Design (ECE314/514)",
+      "Integrated Electronics (ECE214)"
+    ],
+    "Other": "null"
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students are able to evaluate and Design SRAM Cell and peripheral circuits",
+      "CO2": "Students are able to evaluate impact of different architectures on Power/Performance/ Area (PPA) of Memory and at SoC level and correspondingly choose correct architecture aligned to needs.",
+      "CO3": "Students understand and are able to estimate the impact of Memory choices on Cache subsystem performance.",
+      "CO4": "Students understand the differences in DRAMs; NVMs and SRAM and are able to design specific peripheral circuits like charge pumps etc.",
+      "CO5": "Students are able to understand the importance of Test and Testability for SRAMs and the concept of BIST"
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Types of Memories and Memory signal flow",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to important Memory Timings and Introduction to 6T SRAM Cell",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Figures of Merit of SRAM Cell + Cell sizing and optimization",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "SRAM Cell layout + Repair + I/O circuits",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Address organization + Mismatch",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Process Variations + Selftiming Fundamentals",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Cache Hierarchy and Design Choices",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "DRAM cell, Sensing scheme and periphery circuit design",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "DRAM cell, Sensing scheme and periphery circuit design",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "NVM cell and design complexity",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "NVM cell and design complexity",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Test path and Testability Design",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Review and Term project evaluation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": 16,
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Mid-sem",
+      "Contribution": 25
+    },
+    {
+      "Type": "Homework",
+      "Contribution": 10
+    },
+    {
+      "Type": "Quiz",
+      "Contribution": 15
+    },
+    {
+      "Type": "End-sem",
+      "Contribution": 25
+    },
+    {
+      "Type": "Project",
+      "Contribution": 25
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": [
+      "N. Weste and D. Harris, CMOS VLSI Design: A Circuits and Systems Perspective. Third Edition. Pearson, 2006.",
+      "Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic; Digital Integrated Circuits: A Design Perspective, Phi Learning, 2009."
+    ],
+    "Additional material will be provided in the class": ""
+  }
+}

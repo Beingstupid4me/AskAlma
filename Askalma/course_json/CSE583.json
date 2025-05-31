@@ -1,0 +1,39 @@
+{
+  "Course Code": "CSE583",
+  "Course Name": "Software Engineering/Development Using Open Source",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "Open Source Software (OSS) is one of the major sources of software, even for the commercial world, and the movement continues to impact the IT usage across the world. Associated with OSS are also some commonly used software engineering / development methods using open source tools such as Github for source code control, project management, issue tracking, test driven development, etc. Both the open source software, as well as the practices and tools they use, are now widely used in commercial software world also. With the wide range of available open source modules, it is possible today to develop even very sophisticated applications in a short duration using mostly OSS. In this course, we will go over the basic software engineering principles and concepts. Then we will study the OSS processes and methods (along with tools for supporting them), a few common architectures to develop software (e.g. microservices), and some commonly used OS frameworks and systems. Flipped-classroom may be used for some of the lectures (i.e. reading will be given and in the lecture we will discuss the reading). It is hoped that some experts will be invited to give guest lectures on open source. There will be a team project whose goal will be to develop a working prototype of a full-fledged system using OSS modules, while writing minimal code. That is, the project will be more about integrating different OS systems to build an application, and will require learning about the open source systems/components to be used, how to integrate them, etc. Open source processes and tools will be used for managing the project, its source code, testing, etc. Each team will also take up one technical topic, and will make a presentation to the class on the topic, including some details about the open source software on that topic and how to use it.",
+  "Prerequisites": {
+    "Mandatory": "Good proficiency in programming",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand basic software engineering concepts \u2013 process, testing, project management, etc.",
+    "CO2": "Understand main categories of OSS and different types of licensing",
+    "CO3": "Build application using open source processes and components",
+    "CO4": "Understand key aspects of service oriented and component based SE for building solutions"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Basic Software Engineering Principles",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Quiz on basic software engineering concepts"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "10%",
+    "Midsem": "20%",
+    "HW assignments": "30%",
+    "Endsem": "40%"
+  },
+  "Resource Material": {
+    "Textbook": "Software Engineering Using Open Source",
+    "Reference Book": "Open Source Software: Concepts and Applications"
+  }
+}

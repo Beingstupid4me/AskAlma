@@ -1,0 +1,95 @@
+{
+  "Course Code": "BIO213",
+  "Course Name": "Introduction to Quantitative Biology",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will discuss some fundamental aspects of ecological, evolutionary, genetic, and epidemic models as studied by quantitative approaches. Simple mathematical and computational tools will be taken up to carry out quantitative analysis of biological systems. In addition, students will be introduced to MATLAB. Assignments and project work will include quantitative study and data analysis for biological processes (using MATLAB).",
+  "Prerequisites": {
+    "Mandatory": "Basics of calculus and linear algebra(MTH100)",
+    "Desirable": "Some familiarity with MATLAB"
+  },
+  "Course Outcomes": {
+    "CO1": "An ability to build model for biological systems from evolution and ecology",
+    "CO2": "Some knowledge of constructing quantitative models like differential and difference equation for a given biological problem and implementing solving methods",
+    "CO3": "Some proficiency in using MATLAB to solve biological problems numerically",
+    "CO4": "An ability to utilize the knowledge gained from this course in more advanced topics"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Dynamic Modeling with Difference Equations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Quantitative exercise: Use matlab to get cobweb plots"
+    },
+    {
+      "Week": "3-4",
+      "Lecture Topic": "Linear Models of Structured Populations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Quantitative exercise: Use matlab to solve projection matrices and make inferences from it"
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Nonlinear Models of Interactions",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Quantitative exercise: Use matlab solve ODE"
+    },
+    {
+      "Week": "7-8",
+      "Lecture Topic": "Modeling Molecular Evolution",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Quantitative exercise: Use matlab to solve probabilistic models of DNA evolution"
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "Constructing Phylogenetic Trees",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Quantitative exercise: Use matlab to construct phylogentic tress"
+    },
+    {
+      "Week": "11-12",
+      "Lecture Topic": "Genetics",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Quantitative exercise: Use matlab to solve simple epidemic models"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 40,
+    "Midsem": 20,
+    "HW assignments": 15,
+    "Endsem": 25
+  },
+  "Resource Material": {
+    "Textbook": "Mathematical model in biology: an Introduction by ELIZABETH S. ALLMAN and JOHN A. RHODES",
+    "Reference Book": "Essential Cell Biologyby Bruce Alberts, Dennis Bray, Karen Hopkin, Alexander D Johnson, Alexander Johnson, Julian Lewis, Martin Raff, Keith Roberts, Peter Walter(Garland Science)"
+  }
+}

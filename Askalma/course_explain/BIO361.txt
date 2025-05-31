@@ -1,0 +1,48 @@
+**Course Overview**
+
+The course titled "Biophysics" is a 4-credit course offered as an elective for both undergraduate and postgraduate students. It provides a comprehensive understanding of the physical principles governing biomolecules, with a focus on proteins. The course spans a total of 15 weeks, combining theoretical concepts with practical applications to equip students with the necessary skills to analyze structural problems in biophysics.
+
+**Course Prerequisites**
+
+Students enrolling in this course are expected to have a basic understanding of biology, chemistry, physics, and Python programming. These foundational knowledge areas will enable them to grasp the advanced concepts covered in the course. Additionally, students should be comfortable with computational tools, as the course includes assignments that require computer simulations.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Understand the relationship between protein evolution and function, as well as the fundamental structural properties of proteins.
+- **CO2:** Decipher the fundamental forces acting on biomolecules and their interactions with surrounding environments.
+- **CO3:** Extract meaningful thermodynamic analysis from experimental data and explain the connection between statistical physics and protein structure prediction.
+- **CO4:** Apply statistical and statistical-mechanical ideas to solve complex biological systems, including protein folding and structural transitions.
+
+**Weekly Lecture Plan**
+
+The course is divided into 15 weeks, with each week focusing on specific topics that build upon one another to achieve the learning outcomes:
+
+- **Week 1:** Introduction to Biophysics: Overview of the course and its relevance in modern science. Students will also familiarize themselves with computational tools used throughout the course.
+- **Week 2:** Introduction to Statistical Mechanics: Basic concepts, including entropy, free energy, and partition functions, will be covered. Applications to biomolecular systems will be discussed.
+- **Week 3-4:** Electrostatics in Proteins and Water: Students will learn about charge distribution in proteins, hydrogen bonding, and the role of water in protein interactions. Assignments will involve analyzing protein structures using computational tools.
+- **Week 5:** Kinetics of Protein Folding: This week focuses on the factors influencing protein folding, including hydrophobicity and entropy effects. Students will participate in a group activity to simulate protein folding.
+- **Week 6:** Thermodynamics of Structural Transitions: The thermodynamic principles governing protein folding and denaturation will be explored. Assignments will involve analyzing experimental data from folding experiments.
+- **Week 7:** Denaturation and Renaturation: Students will study the kinetics and thermodynamics of protein unfolding and refolding. A case study on denaturation-resistant proteins will be conducted.
+- **Week 8:** Membrane Proteins: Structure and Function: This week covers the structure and function of membrane proteins, including channel formation and transport mechanisms. Assignments will involve designing a simple membrane protein model.
+- **Week 9-10:** Secondary Structure Prediction: Students will learn about the prediction of secondary structures in proteins using computational algorithms. A group project will involve predicting the secondary structure of a given protein sequence.
+- **Week 11-12:** Stability of Secondary Structures: This week focuses on the factors influencing the stability of alpha-helices and beta-sheets, including hydrogen bonding and entropy effects. Students will analyze experimental data from structural studies.
+- **Week 13:** Advanced Statistical Mechanics: Topics include the partition function, free energy diagrams, and phase transitions in biomolecular systems. Assignments will involve calculating thermodynamic properties using computational tools.
+- **Weeks 14-15:** Review and Q&A Session: This final week is dedicated to revising key concepts and addressing any doubts or questions from students.
+
+**Assessment Plan**
+
+The course assessment is divided into four components:
+
+- **Mid-Semester Examination (20%):** A written examination covering the first half of the course material, focusing on theoretical concepts and their applications.
+- **End-Semester Examination (30%):** A comprehensive written examination assessing students' understanding of all topics covered during the course.
+- **Assignments and Attendance (40%):** Assignments will account for 40% of the final grade. These include computational simulations, case studies, and group projects. Attendance at lectures is mandatory, with a 10% bonus awarded to regular attendees.
+
+**Resource Materials**
+
+The primary textbook for this course is "Protein Physics: A Course of Lectures" by Alexei V. Finkelstein and Oleg B. Ptitsyn. Additional recommended readings include "Physical Biology of the Cell" by Rob Phillips, Jane Kondev, Julie Theriot, and Hernan Garcia. Students are encouraged to refer to these resources for a deeper understanding of the course material.
+
+**Conclusion**
+
+This course provides students with a solid foundation in biophysics, focusing on proteins as key biomolecules. Through a combination of theoretical lectures, computational assignments, and practical applications, students will gain the knowledge and skills needed to analyze complex biological systems. The course is designed to be challenging yet rewarding, ensuring that students leave with a comprehensive understanding of the principles governing protein structure and function.

@@ -1,0 +1,52 @@
+**Course Overview**
+
+This course SSH124, titled "Critical Thinking" introduces the learner to the fundamentals of critical thinking and informal logic. It employs a mixed instructional methodology, combining lectures, Q&A sessions, learning team activities, video discussions, slides, print articles, and the primary textbook.
+
+**Prerequisites**
+
+- **Mandatory Pre-requisites**: None specified.
+- **Desirable Pre-requisites**: None mentioned in the provided data.
+- **Other Pre-requisites**: No specific information available.
+
+**Learning Outcomes (COs)**
+
+1. Demonstrate knowledge of underlying assumptions in statements, positions, and arguments.
+2. Apply distinctions between perceptions, opinions, facts, values, and knowledge.
+3. Define and recognize stereotypes, rationalization, prejudice, and their overlaps.
+4. Practice active listening in any discussion.
+5. Address 'loaded' issues with critical thinking.
+6. Uncover common prejudices using semantic maps and territories.
+7. Differentiate between Critical and Creative Thinking.
+8. Identify and explain formal and informal logic fallacies.
+
+**Weekly Syllabus and Topics**
+
+1. **Week 1**: Introduction to critical thinking, distinction between Critical and Creative Thinking, identifying assumptions.
+2. **Week 2**: Art of meaningful discussion, active listening, perception exercises.
+3. **Week 3**: Discussion on opinion formation, learning team presentations.
+4. **Week 4**: Exploration of 'truth' vs. 'fact', media bias samples.
+5. **Week 5**: Stereotypes and generalizations, inductive logic discussion.
+6. **Week 6**: David Hume's induction critique, group exercises.
+7. **Week 7**: Multi-perspective thinking vs single perspective, critical thinking implications.
+8. **Week 8**: General Semantics concepts, Hayakawa and Korzybski theories.
+9. **Week 9**: Critical thinking exercises, research paper preparation.
+10. **Week 10**: Po-beyond yes/no logic, research paper due.
+11. **Week 11**: Innovation vs. critical thinking, reflective exercise.
+12. **Week 12**: Fallacies analysis, deductive logic basics.
+
+**Assessment Plan**
+
+- **Learning Team Projects**: 20%
+- **Research Papers**: 20%
+- **Mid-Term Exam**: 20%
+- **Class Attendance and Participation**: 10% (requires minimum 70% attendance with at least five 'lunchbox philosophers' sessions)
+- **End-Sem Exam**: 30%
+
+**Resource Materials**
+
+- **Textbook**: "The Art of Thinking, 10th Ed." by Vincent Ryan Ruggiero
+- **Reference Books**: 
+  - 2012 edition by Bassham et al.
+  - S.I. Hayakawa's work
+  - "How Real is Real?" by Paul Watzlawick
+  - "Po-Beyond Yes and No" by Edward de Bono

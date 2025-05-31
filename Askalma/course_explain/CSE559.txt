@@ -1,0 +1,171 @@
+**Course Overview**
+
+The course **CSE559: Mining Large Networks (MLN)** is a 4-credit course offered to both undergraduate and postgraduate students. It focuses on the analysis of large-scale networks, which are fundamental tools for modeling complex systems in social sciences, technological infrastructure, and biological systems. The course equips students with advanced techniques and algorithms to analyze, model, and understand the structure and behavior of these networks.
+
+**Course Description**
+
+This course provides an in-depth exploration of network science, emphasizing both theoretical foundations and practical applications. Students will learn about the challenges and opportunities associated with analyzing massive datasets represented as networks. The curriculum covers a range of topics, including:
+
+- **Network Structure Analysis**: Understanding properties such as degree distribution, clustering coefficient, and community detection.
+- **Algorithmic Techniques**: Developing skills in algorithms for network analysis, including centrality measures, shortest path algorithms, and community detection methods.
+- **Modeling and Simulation**: Building models to simulate network evolution and behavior under various conditions.
+- **Real-World Applications**: Applying network science principles to real-world problems, such as social network analysis, recommendation systems, and biological networks.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+1. **CO1: Understand Network Structure and Properties**
+   - Analyze and visualize large-scale networks to identify key structural properties.
+   - Apply appropriate metrics (e.g., degree distribution, clustering coefficient) to characterize network topology.
+
+2. **CO2: Develop and Implement Network Analysis Tools**
+   - Design and implement algorithms for tasks such as community detection, link prediction, and anomaly detection.
+   - Evaluate the performance of these algorithms on real-world datasets.
+
+3. **CO3: Apply Network Science to Real-World Problems**
+   - Model real-world phenomena (e.g., information diffusion, disease spread) using network science concepts.
+   - Propose and evaluate solutions based on network analysis insights.
+
+4. **CO4: Understand Advanced Topics in Network Science**
+   - Explore advanced topics such as temporal networks, multilayer networks, and dynamic network evolution.
+   - Critically assess the applicability of different models and algorithms to specific problems.
+
+5. **CO5: Communicate Findings Effectively**
+   - Present complex network analysis results in a clear and concise manner.
+   - Use visualization tools to communicate insights effectively to both technical and non-technical audiences.
+
+**Weekly Lecture Plan**
+
+The course is structured into 13 weeks, with each week focusing on specific topics:
+
+1. **Week 1: Course Introduction**
+   - Overview of the course objectives and structure.
+   - Introduction to network representation and basic terminology.
+   - **COs Met**: CO1.
+
+2. **Week 2: Measuring Networks and Random Graph Models**
+   - Techniques for measuring network properties (e.g., degree distribution, clustering coefficient).
+   - Introduction to random graph models (e.g., Erdős–Rényi model) and their relevance in network analysis.
+   - **COs Met**: CO1.
+
+3. **Week 3: Link Analysis and PageRank**
+   - Detailed exploration of link analysis techniques.
+   - Application of PageRank algorithm for ranking nodes in a network.
+   - **Assignments/Quizzes**: Assignment 1, Quiz 1.
+
+4. **Week 4: Network Sampling Techniques**
+   - Overview of common sampling methods (e.g., BFS, snowball sampling).
+   - Analysis of the impact of sampling on network properties.
+   - **COs Met**: CO1.
+
+5. **Week 5: Community Structure in Networks**
+   - Identification and extraction of communities within networks.
+   - Evaluation of community detection algorithms.
+   - **COs Met**: CO1, CO2.
+   - **Assignments/Quizzes**: Assignment 2, Quiz 2.
+
+6. **Week 6: Community Detection Approaches**
+   - Detailed exploration of various community detection methods (e.g., modularity-based, hierarchical clustering).
+   - Comparison of different algorithms in terms of performance and applicability.
+   - **COs Met**: CO1, CO2.
+
+7. **Week 7: Link Prediction Techniques**
+   - Methods for predicting missing or future links in a network.
+   - Evaluation of link prediction models using appropriate metrics.
+   - **COs Met**: CO1, CO2.
+
+8. **Week 8: Network Effects and Cascade Behavior**
+   - Analysis of how information, influence, and diseases spread through networks.
+   - Case studies on cascade behavior in real-world networks.
+   - **COs Met**: CO1, CO2.
+   - **Assignments/Quizzes**: Assignment 3, Quiz 3.
+
+9. **Week 9: Influence Maximization and Outbreak Detection**
+   - Strategies for maximizing influence spread and detecting outbreaks in networks.
+   - Application of algorithms to real-world scenarios (e.g., social media, epidemiology).
+   - **COs Met**: CO1, CO2.
+   - **Assignments/Quizzes**: Assignment 4, Quiz 4.
+
+10. **Week 10: Network-Based Anomaly Detection**
+    - Techniques for detecting anomalies in network data.
+    - Case studies on anomaly detection in various domains (e.g., cybersecurity, finance).
+    - **COs Met**: CO2, CO3.
+
+11. **Week 11: Heterogeneous Networks and Metapaths**
+    - Introduction to heterogeneous networks and their properties.
+    - Use of metapaths for analyzing relationships in heterogeneous networks.
+    - **COs Met**: CO2, CO3.
+    - **Assignments/Quizzes**: Assignment 5 (to be inserted).
+
+12. **Week 12: Graph Representation Learning**
+    - Overview of graph embedding techniques and their applications.
+    - Hands-on session with popular graph representation learning methods.
+    - **COs Met**: CO2, CO3.
+
+13. **Week 13: Graph Convolutional Networks (GCNs)**
+    - Introduction to GCNs and their application in network analysis tasks.
+    - Case studies on the use of GCNs in real-world problems.
+    - **COs Met**: CO2, CO3.
+
+
+**Assessment Plan**
+
+The course employs a comprehensive assessment strategy:
+
+1. **Mid-Semester Evaluation (15%)**
+   - Includes quizzes, assignments, and possibly in-class presentations.
+   - Focuses on foundational concepts covered in the first half of the course.
+   - **COs Met**: CO1.
+
+2. **End-Semester Evaluation (25%)**
+   - Encompasses a combination of exams, projects, and presentations.
+   - Covers all topics discussed during the semester.
+   - **COs Met**: CO1, CO2, CO3, CO4, CO5.
+
+3. **Class Attendance (3%)**
+   - Mandatory attendance with penalties for excessive absences.
+   - Encourages regular participation and engagement in class discussions.
+   - **COs Met**: CO1.
+
+4. **Quiz (4) (10%)**
+   - Four short quizzes throughout the semester to assess understanding of key concepts.
+   - Quizzes are spaced evenly across different weeks to ensure continuous assessment.
+   - **COs Met**: CO1, CO2, CO3, CO4, CO5.
+
+5. **Assignment (4) (15%)**
+    - Four assignments that involve practical implementation of course concepts.
+    - Assignments are designed to reinforce theoretical knowledge and develop problem-solving skills.
+    - **COs Met**: CO1, CO2, CO3, CO4, CO5.
+
+6. **Project (25%)**
+    - Individual or group project where students apply course concepts to real-world problems.
+    - Projects involve data analysis, network modeling, and presentation of findings.
+    - **COs Met**: CO1, CO2, CO3, CO4, CO5.
+
+7. **Research Paper Discussion (4%)**
+    - Students are required to read and discuss recent research papers related to the course topics.
+    - Participation in discussions contributes to the final grade.
+    - **COs Met**: CO1, CO2, CO3, CO4, CO5.
+
+8. **Blog Writing (3%)**
+    - Students are encouraged to write short blog posts on topics relevant to the course.
+    - Blogs should reflect personal insights and understanding of the material.
+    - **COs Met**: CO1, CO2, CO3, CO4, CO5.
+
+**Resource Material**
+
+The course provides a range of resources to support learning:
+
+1. **Textbook**
+   - *Social Network Analysis: Theory and Practice* by Tanmoy Chakraborty.
+   - Offers comprehensive coverage of network analysis concepts and techniques.
+
+2. **Reference Books**
+   - *Social Network Analysis: Methods and Applications* by Stanley Wasserman and Katherine Faust.
+   - A detailed reference for advanced methods in social network analysis.
+
+3. **Research Papers**
+   - A list of recommended research papers is provided to supplement the course material.
+   - Access to these papers is available through the university library or online databases.
+

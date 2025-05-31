@@ -1,0 +1,57 @@
+### Course Overview  
+**Course Code:** ECE 516  
+**Course Name:** System on Chip Design and Test  
+**Credits:** 4  
+**Offered To:** UG/PG  
+**Course Description:** This course introduces students to the design trends in deep submicron (DSM) era, including scaling trends, clock cycle and power issues. It covers the role of interconnects in contemporary SoC Design, system-on-chip (SoC) and platform-based design, IP-based design for reusability, multiprocessor SoC platform design, 3D integration, on-chip optical communication, and wireless communication. Students will learn about design challenges, testability, and hands-on assignments to reinforce theoretical concepts.
+
+### Prerequisites  
+**Mandatory Prerequisites:**  
+- Introduction to VLSI Design  
+- Basic Computer Organization and Architecture  
+
+**Desirable Prerequisites:** None specified.  
+
+**Other Prerequisites (if any):** None specified in the provided data.  
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+1. **CO1:** Demonstrate knowledge and understanding of design trends, interconnects, platform-based design, reusability, and power distribution networks.  
+2. **CO2:** Understand concepts related to Test Access Mechanism (TAM), core-based testing, and IEEE P1500 standards for SoC test.  
+3. **CO3:** Analyze, simulate, and design complex CMOS circuits/sub-systems with a focus on low power and high-speed performance.
+
+### Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic                     | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|---------------------------|
+| 1           | Design Trends in DSM Era         | Reading Assignment 1       |
+| 2           | Reusability in SoC Design        | Reading Assignment 2       |
+| 34          | Delay in Long Wires and Performance Limitations               | Reading Assignment 3, Quiz I |
+| 5           | Interconnect Inductance            | Reading Assignment 4, Quiz II|
+| 6           | Power and Clock Distribution Networks |    Reading Assignment 5, Quiz III |
+| 7           | Fault Modeling                    | HW 1, Reading Assignment 6   |
+| 8           | Design for Testability (DFT)     | Reading Assignment 7, Quiz IV|
+| 9           | Test Access Mechanism (TAM)      | Reading Assignment 8, Quiz V |
+| 10          | Concept of Core-Based Test & IEEE P1500 Standard for SoC Test | HW 2, Reading Assignment 9 |
+| 11          | Design and Test of Low-Voltage CMOS Circuits, MTCMOS, and Variable Threshold CMOS | Reading Assignment 10, Quiz VI |
+| 12          | Power Minimization through Architecture Level Optimization | Reading Assignment 11, Quiz VII |
+| 13          | Future Trends: 3D Integration, On-Chip Optical Communication, Wireless Communication | Project Report & Poster |
+| 14          | Assessment Plan                  |                           |
+
+### Assessment Strategy  
+The course is assessed through a combination of assignments, quizzes, mid-semester and end-semester examinations, and a final project. The weightage distribution is as follows:  
+- **Homework:** 5%  
+- **Quizzes:** 5%  
+- **Reading Assignments:** 15%  
+- **Mid-Semester Examination:** 20%  
+- **End-Semester Examination:** 25%  
+- **Project:** 30%
+
+### Resource Materials  
+
+| Type | Title                                                                                   | Title                                                                                   |
+|------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| Reference | Analysis and Design of Digital Integrated Circuits - In Deep Submicron Technology, Third Edition, by Hodges, Jackson, and Saleh, McGraw-Hill, 2004. | Essentials of Electronic Testing for Digital, Memory, and Mixed-Signal VLSI Circuits, by Bushnell and Agrawal, Springer, 2005. |
+| Reference | Research Papers                                                                 | Research Papers                                                                 |
+
+These resources provide comprehensive coverage of the course topics, including design trends, testability, and advanced testing methodologies. Students are encouraged to refer to these materials for deeper understanding and hands-on implementation of concepts learned in class.

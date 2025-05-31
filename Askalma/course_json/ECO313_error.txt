@@ -1,0 +1,254 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, let's tackle this problem step by step. I need to extract information from the provided file content and structure it into a specific JSON format as outlined. 
+
+First, I'll start by identifying each section of the data in the table. The table has several columns that correspond to different parts of the JSON object.
+
+1. **Course Code**: Looking at row 3 (Unnamed: 2), the value is "ECO313". That's straightforward.
+   
+2. **Course Name**: Similarly, row 4 (Unnamed: 1) gives us "Market Design".
+
+3. **Credits**: Row 5 (Unnamed: 3) shows "4", so that's easy.
+
+4. **Course Offered to**: Row 6 (Unnamed: 4) indicates "UG" for Undergraduate.
+
+5. **Course Description**: This is a bit longer and spans multiple rows from row 5 to row 8. It seems the description repeats, but I'll take it as given since it's consistent across the provided data.
+
+6. **Prerequisites**: The prerequisites are listed in rows starting with "Pre-requisites" (row 7) up to row 13. Each prerequisite is under a column named "Mandatory", "Desirable", or "Other". From the data, all pre-requisites are "ECO311 Game Theory", so I'll structure that as an array.
+
+7. **Course Outcomes**: These are listed in rows starting from row 9 (CO1) to row 12 (CO4). Each CO is followed by a description:
+   - CO1: About analyzing bidder behavior in private auctions.
+   - CO2: Understanding mechanism design and revenue maximization.
+   - CO3: Discussing considerations in auction design.
+   - CO4: Focuses on multi-unit auctions.
+
+8. **Weekly Lecture Plan**: This section starts at row 13 (Unnamed: 0) with "Weekly Lecture Plan" followed by several rows detailing the week number, lecture topic, COs met, and assignments. Each entry is under a column named "Week Number", "Lecture Topic", "COs Met", and "Assignment/Labs/Tutorial". I'll need to extract each of these into an array.
+
+9. **Assessment Plan**: Rows starting from row 23 (Unnamed: 0) labeled "Assessment Plan" with columns for Type, % Contribution in Grade. The data shows assignments at 50%, endterm at 30%, student presentation at 20%. I'll structure this as an array of objects.
+
+10. **Resource Material**: Rows starting from row 28 (Unnamed: 0) list the type and titles of textbooks. There are four textbooks provided, so that's straightforward to structure as an array.
+
+Now, considering any missing values or edge cases:
+- If any field is missing, it should be represented as a null value.
+- For "COs Met", ensure each entry is an array of strings representing the COs met in each week.
+- "Assessment Plan" should have entries for each type with their respective percentages.
+
+I also need to make sure that numeric values like credits and contributions are correctly formatted, while others remain as strings where appropriate. For example, "CO1", "CO2", etc., are strings, so they shouldn't be converted to numbers unless specified otherwise.
+
+Finally, I'll structure all this information into the JSON format provided, ensuring proper syntax with keys in double quotes, values appropriately quoted or structured, and arrays correctly formatted.
+</think>
+
+{
+  "Course Code": "ECO313",
+  "Course Name": "Market Design",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The theory of auctions has been one of the most important successes of applied game theory. It has become a central institution for resource allocation in real world markets; instrumental in allocating resources as varied as natural resources, spectrum rights, electricity generating capacity and more. This course aims to prepare the students to be able to analyze auctions and internet marketplaces using tools from economics and game theory.",
+  "Prerequisites": {
+    "Mandatory": ["ECO311 Game Theory"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students can analyze bidder behavior in standard auction formats for selling single and multiple units of a good.",
+    "CO2": "Students understand and be able to work with the analystical framework of mechanism design which is the underlying science.",
+    "CO3": "Students can discuss the most important considerations that go into practical auction design.",
+    "CO4": "Students are familiar with multi-unit auctions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Auctions in a Private Values Environment, Revenue Equivalence Principle",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 34,
+      "Lecture Topic": "Mechanism Design and Revenue Maximizing Auctions",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 34,
+      "Lecture Topic": "VCG Mechanism and Bilateral Trade",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Collusion in Auctions",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 67,
+      "Lecture Topic": "Multi-unit Auctions of Homogenous Goods",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Double Auctions",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Matching Markets and Deferred Acceptance Algorithm",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 10, 11,
+      "Lecture Topic": "Combinatorial Auctions",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 1213,
+      "Lecture Topic": "Student Presentations",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Assignments",
+      "% Contribution in Grade": 50
+    },
+    {
+      "Type": "Endterm",
+      "% Contribution in Grade": 30
+    },
+    {
+      "Type": "Student Presentation",
+      "% Contribution in Grade": 20
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Auction Theory"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "Putting Auction Theory to Work"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "Combinatorial Auctions"
+    },
+    {
+      "Type": "Assigned Papers", 
+      "Title": ""
+    }
+  ]
+}
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECO313",
+  "Course Name": "Market Design",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The theory of auctions has been one of the most important successes of applied game theory. It has become a central institution for resource allocation in real world markets; instrumental in allocating resources as varied as natural resources, spectrum rights, electricity generating capacity and more. This course aims to prepare the students to be able to analyze auctions and internet marketplaces using tools from economics and game theory.",
+  "Prerequisites": {
+    "Mandatory": ["ECO311 Game Theory"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students can analyze bidder behavior in standard auction formats for selling single and multiple units of a good.",
+    "CO2": "Students understand and be able to work with the analystical framework of mechanism design which is the underlying science.",
+    "CO3": "Students can discuss the most important considerations that go into practical auction design.",
+    "CO4": "Students are familiar with multi-unit auctions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Auctions in a Private Values Environment, Revenue Equivalence Principle",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 34,
+      "Lecture Topic": "Mechanism Design and Revenue Maximizing Auctions",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 34,
+      "Lecture Topic": "VCG Mechanism and Bilateral Trade",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Collusion in Auctions",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 67,
+      "Lecture Topic": "Multi-unit Auctions of Homogenous Goods",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Double Auctions",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Matching Markets and Deferred Acceptance Algorithm",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 10, 11,
+      "Lecture Topic": "Combinatorial Auctions",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 1213,
+      "Lecture Topic": "Student Presentations",
+      "COs Met": ["CO3"],
+      "Assignment/Labs/Tutorial": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Assignments",
+      "% Contribution in Grade": 50
+    },
+    {
+      "Type": "Endterm",
+      "% Contribution in Grade": 30
+    },
+    {
+      "Type": "Student Presentation",
+      "% Contribution in Grade": 20
+    }
+  ],
+  "Resource Material": [
+    {
+      "Type": "Textbook",
+      "Title": "Auction Theory"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "Putting Auction Theory to Work"
+    },
+    {
+      "Type": "Textbook",
+      "Title": "Combinatorial Auctions"
+    },
+    {
+      "Type": "Assigned Papers", 
+      "Title": ""
+    }
+  ]
+}

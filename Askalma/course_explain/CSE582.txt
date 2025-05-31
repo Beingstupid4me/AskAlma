@@ -1,0 +1,60 @@
+**Course Overview**
+
+The course CSE582, titled "Software Production, Evolution, and Maintenance (SPEM)" is a 4-credit offering for both Postgraduate (PG) and Undergraduate (UG) students. It focuses on the development, evolution, maintenance, and preservation of large-scale software products using the Software Product Line (SPL) paradigm. The course also emphasizes continuous improvement through software evolution and maintenance processes.
+
+**Prerequisites**
+
+Students enrolling in this course should have a basic understanding of software engineering concepts and techniques. This foundational knowledge is essential for grasping the advanced topics covered in the course, such as product line engineering and maintenance practices.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Develop the framework of product line engineering for large-scale software production.
+- **CO2:** Implement software maintenance processes and techniques during software development.
+- **CO3:** Distinguish between existing software system artifacts and develop functionality and quality attributes through re-engineering.
+- **CO4:** Construct common and variable domain-specific requirements by analyzing challenges in domain-specific requirement engineering.
+
+**Weekly Lecture Plan**
+
+The course is structured over 13 weeks, with each week focusing on specific topics that align with the learning outcomes:
+
+- **Week 1:** Introduction to Software Evolution vs. Maintenance
+- **Week 2:** Overview of Software Evolution and Maintenance Models
+- **Week 3:** Software Product Line Engineering - A Motivation
+- **Week 4:** Software Framework and Variability
+- **Week 5:** Orthogonal Variability Model
+- **Week 6:** Domain-Specific Requirements Engineering
+- **Week 7:** Software Re-engineering
+- **Week 8:** Continued focus on Software Re-engineering
+- **Week 9:** Introduction to DevOps and Containers
+- **Week 10:** Microservice Architecture
+- **Week 11:** Continued exploration of Microservice Architecture
+- **Week 12:** Legacy Information Systems
+- **Week 13:** Student Presentations and Project Report Discussions
+
+Each week includes assignments, quizzes, or presentations to reinforce learning outcomes.
+
+**Assessment Strategy**
+
+The course employs a comprehensive assessment strategy to evaluate student understanding and mastery:
+
+- **Homework Exercises:** 20% of the final grade, focusing on practical application of concepts.
+- **Weekly Quizzes:** 10% of the final grade, assessing immediate comprehension of weekly topics.
+- **Mid-Semester Examination:** 20% of the final grade, evaluating cumulative understanding up to mid-term.
+- **End-Semester Examination:** 20% of the final grade, covering the entire syllabus.
+- **Term Project/Paper Report:** 20% of the final grade, emphasizing practical project work and research.
+
+This assessment structure ensures a balanced evaluation of both theoretical knowledge and practical skills.
+
+**Learning Resources**
+
+The course provides a range of resources to support learning:
+
+- Textbooks: 
+  - "Foundations, Principles, and Techniques" by Springer-Verlag (2005)
+  - Additional recommended readings on the latest research in software product line engineering and maintenance.
+  
+These resources are essential for gaining a deep understanding of the course material.
+
+This structured approach ensures that students gain both theoretical knowledge and practical skills, preparing them for real-world challenges in software development and maintenance.

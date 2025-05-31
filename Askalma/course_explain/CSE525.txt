@@ -1,0 +1,55 @@
+**Course Overview**
+
+The course is coded as CSE525 and is titled "Graduate Algorithms." It carries a credit value of 4 and is offered to postgraduate (PG) students pursuing their degrees in Computer Science. This advanced algorithms course builds upon foundational knowledge from undergraduate studies, delving deeper into essential algorithmic concepts such as asymptotic notation, recurrence relations, graph algorithms, heaps, dynamic programming, greedy algorithms, divide-and-conquer strategies, and an introduction to NP-completeness. The curriculum is structured to first review the undergraduate material in a fast-paced manner before advancing into more complex topics.
+
+**Prerequisites**
+
+The prerequisite for this course is "Undergraduate Algorithms." Additional prerequisites may be required if not specified here; further details can be found in the provided resources or by consulting with the course instructor.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Design and analyze algorithms using techniques such as divide-and-conquer, greedy algorithms, and dynamic programming.
+2. **CO2**: Utilize standard data structures like heaps, trees, and graphs for designing efficient algorithms.
+3. **CO3**: Prove the NP-completeness of problems using reduction techniques.
+4. **CO4**: State modern approaches to handling intractable problems, including randomization, approximation, backtracking search, and other advanced strategies.
+
+**Weekly Syllabus and Topics**
+
+The course is divided into 12 weeks, each focusing on specific topics that align with the learning outcomes:
+
+- **Week 1**: Review of Discrete Mathematics (CO1)
+- **Week 2**: Data Structures: Heaps, Hash Tables, Disjoint-set (CO2)
+- **Week 3**: Greedy Algorithm (CO1)
+- **Week 4**: Divide and Conquer (CO1)
+- **Week 5**: Dynamic Programming (CO1)
+- **Week 6**: Advanced Dynamic Programming (CO1)
+- **Week 7**: Graph Algorithms (CO1)
+- **Week 8**: NP-completeness (CO3)
+- **Week 9**: Advanced NP-completeness (CO3)
+- **Week 10**: Modern Techniques for Intractable Problems (CO4)
+- **Week 11**: Review of Previous Topics
+- **Week 12**: Review and Comprehensive Discussion
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application:
+
+- **Lecture Short Quizzes**: 10% Contribution, testing immediate comprehension of topics covered in lectures.
+- **Tests**: 20% Contribution, assessing deeper understanding through problem-solving exercises.
+- **Mid-sem Exam**: 30% Contribution, evaluating cumulative knowledge up to the midpoint of the course.
+- **Final Exam**: 40% Contribution, covering the entire syllabus and assessing comprehensive grasp of the material.
+
+Additional evaluation methods may be included if specified in further details; placeholders are provided for any additional assessments that might be relevant.
+
+**Learning Resources**
+
+The primary textbooks for this course are:
+
+1. *Fundamentals of Algorithmics* by Gilles Brassard & Paul Bratley (PHI) - Available in three copies.
+2. *Introduction to Algorithms* by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein (MIT Press) - Three copies available.
+
+These resources provide comprehensive coverage of the topics discussed in the course, serving as essential references for both theoretical understanding and practical implementation.
+
+This structured approach ensures that students gain a thorough understanding of advanced algorithms, their applications, and evaluation methods, preparing them for further studies or professional endeavors in computer science.

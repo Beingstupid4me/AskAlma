@@ -1,0 +1,74 @@
+### Course Overview  
+**Course Code:** CSE694F/ECE651  
+**Course Name:** Multimedia Security  
+**Credits:** 4  
+**Offered To:** UG/PG  
+This course is designed to provide an in-depth understanding of multimedia security principles and practices. It covers a wide range of topics, including the fundamentals of digital media systems, various security techniques for multimedia content, and advanced concepts such as information hiding, steganography, and forensic analysis. The course also delves into the application of these concepts in real-world scenarios, with a focus on developing practical skills through assignments and laboratory exercises.
+
+---
+
+### Prerequisites  
+- **Mandatory Pre-requisites:**  
+  Students are required to have completed the following courses:  
+  - CSE340/CSE540/ ECE350 Image Analysis/Digital Image Processing  
+  - ECE250 Signals and Systems  
+  - CSE344 Computer Vision  
+
+- **Desirable Pre-requisites:**  
+  Students with prior knowledge of Digital Signal Processing (DSP) or advanced programming skills in languages like MATLAB will have an advantage. Familiarity with multimedia content processing is also recommended.
+
+---
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+
+1. **CO1:** Understand and analyze the fundamental concepts of digital media systems and their security implications.  
+2. **CO2:** Apply various media security techniques for protection against unauthorized access and tampering.  
+3. **CO3:** Perform forensics and counter-forensics to detect and prevent multimedia content tampering.  
+4. **CO4:** Demonstrate an understanding of visual surveillance systems and their applications in real-world scenarios.  
+
+---
+
+### Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic                     | COs Met    | Assignments/Labs/Tutorial | Platform (Hardware/Software)  
+|-------------|-----------------------------------|------------|---------------------------|------------------------------  
+| 1           | Introduction - Digital Media Systems, Media Security Techniques, Applications | CO1        | Assignment - Analytical + Practical | Online Learning Management System  
+| 2           | Watermark Classification – Spatial domain; Detection of Watermark; Error analysis; Probability models | CO1,CO2    | Lab exercise               | MATLAB  
+| 3           | Basics of information theory; Entropy coding; Discrete Cosine Transform; Image Compression - JPEG | CO1,CO2    | Lab exercise               | Python  
+| 4           | Video fundamentals; Motion Estimation and compensation | CO1, CO2, CO3 | Quiz 1                    | Online Testing Platform  
+| 5&6         | Review of Discrete Wavelet Transform; Hiding in DWT domain Human Visual system; Adaptive watermarking; Information hiding capacity; Attacks on watermark | CO1, CO2, CO3 | Assignment - Analytical + Practical | MATLAB  
+| 7           | Audio authentication – Electrical Network Frequency (ENF); ENF estimation; Forgery detection | CO2,CO3    | Lab exercise               | Python  
+| 8           | Media Forensics – Camera identification; Passive forgery detection. Vehicle forensics | CO2,CO3    | Quiz 2                    | Online Testing Platform  
+| 9           | Forensic Detectors Adversarial Processing and Counter-forensics | CO2,CO3    | Assignment - Analytical + Practical | MATLAB  
+| 10          | Steganography/Steganalysis; Review of popular algorithms | CO2,CO3    | Lab exercise               | Python  
+| 11&12       | Visual Surveillance Person Reidentification | CO4        | Assignment - Analytical + Practical | MATLAB  
+| 13          | Recent trends and challenges           | CO4        | *Please insert more rows if required | Online Research Platform  
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical knowledge and practical skills. The breakdown of the evaluation is as follows:  
+
+- **Quiz:** 20% (Includes both theoretical and application-based questions)  
+- **Assignment:** 20% (Comprises both analytical and practical tasks)  
+- **Mid-sem:** 15% (Assesses understanding of the first half of the course material)  
+- **End-sem:** 20% (Evaluates comprehensive understanding of the entire course content)  
+- **Project:** 25% (Focuses on a real-world application of multimedia security techniques)  
+
+---
+
+### Learning Resources  
+The following resources will be used to support your learning:  
+
+1. **Textbook:**  
+   - *Digital Watermarking and Steganography* by Ingemar J. Cox, 2nd Edition, Morgan Kauffman Publication.  
+
+2. **Reference Books:**  
+   - *Watermark Systems Engineering* by Mauro Barni, CRC Press, 2004.  
+   - *JPEG2000 Standard for Image Compression* by T. Acharya and Wiley, 2005.  
+   - *Introduction to Data Compression (3rd edition)* by K. Sayood, Morgan Kaufmann, 2009.  
+
+---
+
+This course is a comprehensive journey into the world of multimedia security, blending theory with practical application. By the end of the course, you will have a solid foundation in the principles and practices of multimedia security, equipping you to tackle real-world challenges in this field.

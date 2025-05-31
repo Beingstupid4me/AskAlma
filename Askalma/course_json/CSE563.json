@@ -1,0 +1,152 @@
+{
+  "Course Code": "CSE563",
+  "Course Name": "Multimedia Computing and Applications",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "By the end of the course, the students will be familiar with the common computing fundamentals employed in a variety of multimedia and social media applications such as content-based multimedia processing, mining, retrieval and summarization, multimodal-based semantic and sentiment detection, and recommendations on social networks. The students will be exposed to the core techniques and algorithms spanning across the common and emerging multimedia applications such as the analysis of social media contents, users and their social relationships, and multimodal semantic and sentiment analysis. They will have experience in applying these techniques to novel situations and will be able to do analytical as well as empirical performance evaluation of the particular technique in the overall application context.",
+  "Prerequisites": {
+    "Mandatory": "CSE344/CSE544/ ECE344/ECE544 Computer Vision",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand advanced multimedia and social media computing applications and latest technologies",
+    "CO2": "Knowledge of crawling strategies and underlying content processing, content transformation, resource optimization, and multi-source data fusion techniques",
+    "CO3": "Enable in formulating novel approaches for future multimedia computing and social media computing applications",
+    "CO4": "Use evaluation strategies to analyze results, preparing report, and visually present the insights"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Multimedia Computing",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Content Based Retrieval",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Content Based Retrieval",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Multimedia Content Processing",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Multimedia Content Processing",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Multimedia Summarization",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Multimedia Data Mining",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Introduction to Social Networks & Challenges",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Classification of Social Media Content",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Event Detection and Tracking, and Hot Emerging Event Detection",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Multi-Source Data Fusion & Data Organization",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Knowledge Graph: Knowledge Organization",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Student Presentations",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Assignment": 25,
+    "Midsem": 10,
+    "HW assignments": null,
+    "Endsem": 25
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": [
+      "R. Steinmetz, \"Multimedia: Computing Communications & Applications \", Pearson Education, 2012.",
+      "R. Steinmetz and K. Nahrstedt, \"Multimedia Systems\", Springer, 2013.",
+      "R. Steinmetz and K. Nahrstedt, \"Multimedia Applications\", Springer, 2013.",
+      "R. R. Shah and R. Zimmermann, \"Multimodal Analysis of User-Generated Multimedia Content\", Springer, 2017.",
+      "Research papers that will be discussed in class"
+    ]
+  }
+}

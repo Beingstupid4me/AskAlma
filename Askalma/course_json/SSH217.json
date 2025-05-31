@@ -1,0 +1,127 @@
+{
+  "Course Code": "SSH217",
+  "Course Name": "Indian Poetry Through the Ages",
+  "Credits": "2",
+  "Course Offered to": "UG",
+  "Course Description": "The Course seeks to provide a historical glimpse to the poetry which has existed in the Indic tradition. It will dwell on classical Sanskrit poetry, Hindi-Urdu poetry, and Indian English poetry and major figures/poets who represent each of these phases.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite (Mandatory)"
+    ],
+    "Desirable": [
+      "Pre-requisite (Desirable)"
+    ],
+    "Other": [
+      "Pre-requisite(other)",
+      "Pre-requisite(other)",
+      "Pre-requisite(other)",
+      "Pre-requisite(other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to discuss the Sanskrit origins of poetry in India.",
+    "CO2": "Students are able to discuss evolution of Hindi and Urdu along with the poetry (and literature in the two languages)",
+    "CO3": "Students are able to analyse Indian English poetry, its characteristics and major poets from this phase.",
+    "CO4": "Students are able to discuss evolution of Hindi and Urdu along with the poetry (and literature in the two languages)"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introductory lecture - origin of poetry; what is poetry; beginnigs of poetry in the Indian subcontinent.",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Natyashastra (Indian poetics and dramaturgy) and Smriti-Shruti sahitya",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "The Panch-Mahakavya - the five great poems of Sanskrit tradition",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Introduction \u2013 Origin and evolution of Hindi and Urdu along with their literatures. The Hindi-Urdu-Hindustani debate.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Amir Khusrau - The poet, his couplets and riddles",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Ghalib - the man and his shayari",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Ramdhari Singh Dinkar (Excerpt from Rashmirathi) / Harivansh Rai Bachchan (Excerpt from Madhushala)",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Introduction to Indian English Poetry/Literature and its three phases",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Agha Shahid Ali - Tonight",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Kamala Das - The Relationship, An Introduction",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Vikram Seth - Sampati, Last Night, Distressful Homonyms",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Indian English Love Poetry",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Spill Over",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "25%",
+    "Midsem": "25%",
+    "HW assignments": "25%",
+    "Endsem": "50%"
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": ""
+  }
+}

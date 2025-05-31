@@ -1,0 +1,149 @@
+{
+  "Course Code": "CSE566/DES5MMS",
+  "Course Name": "Mobile & Middleware Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This objective of this course is to train students in building mobile and middleware systems that are relevant for variety of domains, including but not limited to, crowdsensing, crowdsourcing, public helath, education, etc. The course will teach contemporary middleware systems in practice and associated technologies to implement them. We will specifically be targetting middleware for unstructured data captured by mobile devices. Computer Science as well as Design students will benefit from in-depth understanding of how Middleware works and as well developing the capacity to develop them. We would discuss middleware related issues for data collection, data privacy, data processing, analysis, and Visualization etc. Students are",
+  "Prerequisites": {
+    "Mandatory": [
+      "Any 3rd, 4th year UG, Masters, and Ph.D. student"
+    ],
+    "Desirable": [
+      "CSE535 Mobile Computing: Students must have excellent programming skills with Kotlin/Java, and GoLang/C#/Node/Rust. Student should be well-versed with GitHub and other"
+    ],
+    "Other": ""
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Student will develop understanding of Middleware Systems &",
+      "CO2": "Students will be able to design and build RESTful Web Servies,",
+      "CO3": "Students will be able to design and and construct mobile database applications for unstructured data. Students will be able to design and and construct mobile database applications for unstructured data.",
+      "CO4": "Students will develop understanding of contemporary research in Middleware Systems, critique the design, and plan/suggest alternative"
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Middleware Systems and technologies",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "HW 1: A survey paper reading on contemporary middleware systems"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Middleware Systems in Practice, e.g., ODK, Amazon",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "C04"
+      ],
+      "Assignments": "HW 1: Reading material on Restful Architecture"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Restful Architecture",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW 1: Reading material on Restful Architecture"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "REST web services",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "CO2"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "REST web services",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment1: Building a basic web-based system with REST services, data Visualization, etc."
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "NoSQL Databases - Document-based and Graph based",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW3: Reading material on NoSQL Databases"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "NoSQL Databases - Document-based and Graph based",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment 2: Enhancing Assignment 1 with data now stored in Document based DB Assignment 3: Enhancing Assignment 1 with data now stored in graph based DB"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "NoSQL Databases - Document-based and Graph based",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment 2: Enhancing Assignment 1 with data now stored in Document based DB Assignment 3: Enhancing Assignment 1 with data now stored in graph based DB"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Mobile-based Data collection - lightweight mobile databases",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "HW 4: Reading Material on Mobile Based Data Collection tools"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Mobile-based Data Management - caching methods, query handling",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 4: Enhancing Assignment 2, with"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Mobile-based Data Management - caching methods, query handling",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 5: Enhancing Assignment 3, with"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Middleware Systems in Research, Project presentation",
+      "COs Met": [
+        "CO1",
+        "C04"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Middleware Systems in Research, Project presentation",
+      "COs Met": [
+        "CO1",
+        "C04"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 10,
+    "Assignments": 30,
+    "25": "",
+    "10": "",
+    "Endsem": ""
+  },
+  "Resource Material": {
+    "Textbook": "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage, Restful Web Services,",
+    "Reference Book": ""
+  }
+}

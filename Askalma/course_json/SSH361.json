@@ -1,0 +1,142 @@
+{
+  "Course Code": "SSH 361",
+  "Course Name": "Comparative Politics in Digital Era",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "How are big data changing ideals and practice of power? Are citizens more in control of their lives or being controlled by powerful elites? How does one understand the impact of the digital on politics in the non-Western context? This course offers some answers and concepts to discuss these themes by developing comparative and critical theoretical perspectives. In the first part we conceptualize the idea of power and knowledge through a variety of perspectives, ranging from the Hayek-ian and Marxist approach, as well as the widely accepted middle ground of Weberian view on knowledge, big data and its implication in politics. Towards the end of the section I, we move away from the meta-theory to adopt a more infra-theory approach and introduce students to critical framework drawn from the field of Science and Technology Studies (STS) which can help us conceptualize 'the digital' in its historical and non-Western context. In the second part of the course we consider the role of 'the digital' in relation to politics of power and resistance in various countries, adding a comparative dimension to theories of digital technology. Beginning with the West and the US in particular, we move to China, Africa and finally, India. In each case, we read analytical and empirical literature that focuses on the assemblage of digital media, technology and social change with a focus on Foucaldian perspectives on knowledge/power, data and surveillance technologies in politics.",
+  "Prerequisites": {
+    "Mandatory": "Social and Political Philosophy (SSH221)",
+    "Desirable": "Science, Technology and Society (SOC312)"
+  },
+  "Course Outcomes": {
+    "CO1": "Students get familiar with themes and perspectives in comparative politics and political theory, and begin to relate these to big data and digital technologies",
+    "CO2": "Critically examine the rise of big data from comparative and theoretical perspectives, and be able to respond in conceptual and theoretical terms",
+    "CO3": "Critically examine the rise of big data from comparative and theoretical perspectives, and be able to respond in conceptual and theoretical terms",
+    "CO4": "Students then move on and study infra-theoretical perspectives to understand 'the digital' in its specific historical context and be able to see advantages over conventional approaches discussed earlier",
+    "CO5": "Understand and evaluate the implications of the digital in near-term future"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Power and Resistance",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Crisis of the nation state",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Response paper 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Perspectives on Big Data - 1 (Hayek and Marx)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Perspectives on Big Data - 2 (Weber)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Response paper 2"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Conceptualising 'the digital': 1",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Conceptualising 'the digital': 2 (Surveillance State in the post 9/11 America Ultra-nationalism and the digital in Europe)",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Mid-term exam"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Conceptualising 'the digital': 2 (Surveillance State in the post 9/11 America Ultra-nationalism and the digital in Europe)",
+      "COs Met": [
+        "CO3",
+        "CO5"
+      ],
+      "Assignments": "Project proposal review (in groups)"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Conceptualising 'the digital': 2 (Surveillance State in the post 9/11 America Ultra-nationalism and the digital in Europe)",
+      "COs Met": [
+        "CO3",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "State capitalism and the digital in China",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Welfare State 2.0 in India",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": "Project report 2"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Digital Artefacts in World Politics",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": "Final presentation and viva"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Methodological discussion on studying digital politics",
+      "COs Met": [
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Essay guidelines and revision",
+      "COs Met": [
+        "CO4",
+        "CO5"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "20%",
+    "HW assignments": "",
+    "Endsem": "30%"
+  },
+  "Resource Material": {
+    "Textbook": "Stephen Coleman and Deen Freelon \"Handbook of Digital Politics\". Chapters will be assigned on a weekly basis.",
+    "Reference Book": "1. Taylor Owen - Disructive Power: Crisis of the State in the Digital Age; 2. Floarian Schneider - China's Digital Natioalism"
+  }
+}

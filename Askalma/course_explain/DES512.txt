@@ -1,0 +1,46 @@
+### Course Overview: Game Development & Design (4 Credits)
+
+This hands-on, project-based course is designed for students in both undergraduate (UG) and postgraduate (PG) programs. It provides a comprehensive introduction to game development using the Unreal Engine 4 (UE4) game engine. The course combines theoretical knowledge with practical skills, focusing on the creation of architectural visualizations, mini-games, and first-person shooters.
+
+#### Course Description
+The course begins with an introduction to UE4, covering essential topics such as level design, lighting, materials, particle effects, game AI, and physics. Students will learn to implement custom game logic using Blueprints Visual Scripting. The curriculum includes hands-on projects like architectural visualizations, a shooting gallery mini-game, and a first-person shooter. These projects are designed to enhance students' technical and creative abilities.
+
+#### Prerequisites
+- **Mandatory Prerequisites:** None specified.
+- **Desirable Prerequisites:** Basic familiarity with 3D modeling software (e.g., Blender) is recommended but not required.
+- **Other Prerequisites:** Access to a computer equipped with the necessary software and hardware for UE4 development.
+
+#### Learning Outcomes (COs)
+By the end of this course, students will be able to:
+1. **CO1:** Utilize and implement general game design theory and techniques in UE4.
+2. **CO2:** Design and utilize custom Blueprints scripts for game logic and interactions.
+3. **CO3:** Creatively design specific game elements based on the topics learned in class.
+4. **CO4:** Understand and implement basic AI concepts within a game.
+
+#### Weekly Lecture Plan
+The course is structured over 18 weeks, with each week focusing on specific topics and learning outcomes:
+
+- **Weeks 1–2:** Introduction to UE4, level design, lighting, materials, particle effects, camera sequencing, and post-processing effects.
+- **Week 3:** Advanced level design techniques, including interactivity and trigger events.
+- **Week 4:** Shooting gallery mini-game development, covering material editing, motion design, and user interface creation.
+- **Weeks 5–9:** Transition to first-person shooter development, focusing on audio effects, character enhancements (e.g., sprint, rifle zoom), game objectives, and AI concepts.
+- **Weeks 10–13:** Finalization of the first-person shooter, including state machines, ragdoll effects, andragdoll effect design.
+- **Weeks 14–18:** Project-based assignments for students to finalize their game designs.
+
+#### Assessment Strategy
+The course is assessed through a combination of assignments, projects, and final evaluation:
+- **Reading Assignments:** Bi-weekly reading exercises (10% contribution).
+- **Project 1 (Architectural Visualization):** 20% weight.
+- **Project 2 (Level Interactivity):** 20% weight.
+- **Project 3 (Shooting Gallery Mini-Game):** 20% weight.
+- **Project 4 (First Person Shooter):** 30% weight.
+
+#### Resources
+Students are provided with the following resources to support their learning:
+- **Textbooks:**
+  - "Unreal Engine 4.X by Example" by Benjamin Carnall (Packt Publishing).
+  - "Blueprints Visual Scripting for Unreal Engine" by Brenden Sewell (Packt Publishing).
+  - "Unreal Engine Game Development Cookbook" by John Doran (Packt Publishing).
+  - "The Art of Game Design: A Book of Lenses" by Jesse Schell (CRC Press).
+
+This course is an excellent opportunity for students to gain hands-on experience in game development while enhancing their technical and creative skills.

@@ -1,0 +1,97 @@
+{
+  "Course Code": "DES512",
+  "Course Name": "Game Development & Design",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This hands-on project-based course will introduce students to the fundamentals of game development & design using the Unreal 4 game engine. Topics include level design, lighting, materials, particle effects, game AI, game logic, user input mappings, audio, physics and motion. Students will learn to implement custom game logic using the Blueprints Visual Scripting system. In this course students will create an architectural visualization, a shooting gallery mini-game and a basic first person shooter.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to utilize and implement general game design theory and techniques",
+    "CO2": "Ability to design and utilize custom Blueprints scripts",
+    "CO3": "Ability to design and utilize custom Blueprints scripts",
+    "CO4": "Ability to creatively design specific game elements based on topics learned in class"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1 \u2013 2",
+      "Lecture Topic": "Level Design I \u2013 (Architectural Visualization) - Intro to the UE4 Editor - Adding Static Meshes & Materials - Creating and Detailing an Interior Room - Lighting Techniques - Post Processing Effects - Camera Sequencing - Particle Effects",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Reading Assignments bi-weekly"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Level Design II \u2013 (Adding Interactivity) - Introduction to Blueprints - Adding Physics to Static Meshes - Triggering Events (Lighting, Effects, Text) - Create a Key Pickup and HUD - Animating and Opening a Door in Blueprints",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "After learning to create an architectural visualization of an interior room, students will design two additional rooms to complete the space. These rooms will have interactive lighting, objects and effects. Students will create key pickup functionality in Blueprints in order to open a door and transition to a new level."
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Shooting Gallery Mini-Game - Intro to the Material Editor - Adding Motion to Objects - Spawning and Destroying Objects - Create a Destructible Mesh to Shatter Objects - Design a Simple User Interface - Creating a Win Condition",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "For the second level, students will design a complete shooting gallery mini-game. Students will be expected to create simple materials, create a new level of their own design, implement a simple user interface, and create a win condition."
+    },
+    {
+      "Week": "5 \u2013 9",
+      "Lecture Topic": "First Person Shooter - Audio and Particle Effects (Explosions) - Character Enhancements (Sprint, Rifle Zoom, Rate of Fire) - Game Objectives and Constraints, Collectible Objects & Win Condition - User Interface Design II - Material Design II - AI Side-Scroller (If Time Allows) - Animation Assets - Animation Notifications - Audio II - Character Animation & Blend Spaces - State Machines - Ragdoll Effect - Finalizing & Packaging Games",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Students will design a battlefield, create simple character enhancements and utilize basic AI concepts to create and customize their own first person shooter."
+    },
+    {
+      "Week": "10 \u2013 13",
+      "Lecture Topic": "First Person Shooter - Audio and Particle Effects (Explosions) - Character Enhancements (Sprint, Rifle Zoom, Rate of Fire) - Game Objectives and Constraints, Collectible Objects & Win Condition - User Interface Design II - Material Design II - AI Side-Scroller (If Time Allows) - Animation Assets - Animation Notifications - Audio II - Character Animation & Blend Spaces - State Machines - Ragdoll Effect - Finalizing & Packaging Games",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Students will design their own side-scroller and finalize/package all 4 projects."
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "",
+    "Endsem": ""
+  },
+  "Resource Material": {
+    "Textbook": [
+      {
+        "Title": "Carnall, Benjamin. Unreal Engine 4.X by Example",
+        "Publisher": "Packt Publishing"
+      },
+      {
+        "Title": "SEWELL, Brenden. Blueprints Visual Scripting for Unreal Engine",
+        "Publisher": "Packt Publishing"
+      },
+      {
+        "Title": "Doran, John. Unreal Engine Game Development Cookbook",
+        "Publisher": "Packt Publishing"
+      },
+      {
+        "Title": "Schell, Jesse. The Art of Game Design: A Book of Lenses",
+        "Publisher": "CRC Press"
+      }
+    ],
+    "Reference Book": null
+  }
+}

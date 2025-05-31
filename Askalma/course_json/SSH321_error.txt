@@ -1,0 +1,479 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format. Let me go through each section step by step.
+
+First, looking at the Course Code, it's consistently SSH321 across all rows, so that's straightforward.
+
+Next, the Course Name is "Applied Ethics" in every row of the Unnamed: 1 column, so I'll use that value.
+
+For Credits, the value is 4 and appears multiple times. So, I'll set Credits to 4.
+
+The Course Offered to section has "UG" (Undergraduate) across all rows, indicating it's offered at the undergraduate level.
+
+The Course Description is quite lengthy but consistent. It seems like a detailed description of what the course covers, so I'll include that as is.
+
+Moving on to Prerequisites, looking at Unnamed: 4 and beyond, each row under Pre-requisites has "Pre-requisites" repeated with different attributes. The Mandatory section lists nothing, Desirable also has nothing, and Other includes "UG" since it's a prerequisite for the course. So, I'll structure this as an array with three objects: Mandatory empty, Desirable empty, and Other containing "UG".
+
+For Course Outcomes (COs), there are four COs listed: CO1 to CO4. Each has specific descriptions provided in rows 10-13 of the file content.
+
+The Weekly Lecture Plan is spread across multiple rows starting from Week 1 to Week 13. Each row includes the Week number, Lecture Topic, COs Met, and Assignments. I'll create an array with each week's data as an object.
+
+In the Assessment Plan section, there are four types of evaluations: Mid-Term, Response papers, Project, and Class Participation. Each has a percentage contribution to the grade. So, I'll structure this as an object mapping each evaluation type to its respective percentage.
+
+Resource Material includes both a Primary Textbook and Additional Readings. The textbook is listed once with the full title, while Additional Readings are multiple entries, including some repeated titles and notes about additional readings assigned by the instructor.
+
+I need to ensure that all values are correctly formatted as strings or numbers where applicable. For example, Credits should be a number (4), Weekly Lecture Plan should be an array of objects, and Assessment Plan should map evaluation types to numbers.
+
+Finally, I'll make sure there are no missing fields represented as empty strings or nulls if data isn't available.
+</think>
+
+```json
+{
+  "Course Code": "SSH321",
+  "Course Name": "Applied Ethics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will introduce students to some of the fundamental debates in Applied Ethics. Applied Ethics offers a way to comprehend and analyse the fundamental moral and ethical problems of our times and generate arguments to justify ethical claims. The course will begin by introducing students to the major ethical theories like consequentialism, deontology, and virtue ethics. It will then demonstrate how these theories can be used to both understand and address some of the major ethical issues . Broad topics to be covered in this course include debates in environmental ethics, ethics of information technology, business ethics, bio ethics, animal rights, euthanasia, same-sex marriage, affirmative action, distributive justice and global poverty, abortion, torture, punishment, terrorism, privacy, surveillance, security, whistleblowing, civil disobedience etc. Specific Topics for instruction and discussion will be conveyed by the Instructor at the beginning of the semester.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": ["UG"]
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to understand and recognise key theories and issues in applied ethics",
+    "CO2": "Students will be able to apply ethical principles and precepts to contemporary ethical concerns",
+    "CO3": "Students will be able to demonstrate clarity, precision, and accuracy in reasoning, understand ethical dilemmas, and avoid fallacies in reasoning.",
+    "CO4": "Students will be able to explain, evaluate, and defend philosophical positions"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Reading and Writing in Philosophy",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Theories in Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Ticking time bomb and the problem of torture",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Climate change and intergenerational justice",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Climate change and intergenerational justice",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Whistleblowing and professional responsibility",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Whistleblowing and professional responsibility",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Ethics of Information Technology: Democracy in the age of Information Technology",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Revision",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Whistleblowing and professional responsibility",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-Term": 0.15,
+    "Response papers": 0.20,
+    "Project": 0.35,
+    "Class Participation": 0.10,
+    "End exam": 0.20
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Peter Singer. Practical Ethics, 3rd Edition, Cambridge University Press, USA, 2011."
+    ],
+    "Reference Book": [
+      "1.Jerome Van Den Hoven and John Weckert (Eds.). Information Technology and Moral Philosophy. Cambridge University Press, 2008.",
+      "2.Rachels J, Rachels S. The elements of moral philosophy. New York: McGraw-Hill; 2003.",
+      "3. Stephen Gardiner, Simon Caney, Dale Jamieson, Henry Shue (Eds.). Climate Ethics: Essential Readings. Oxford University Press. USA. 2010.",
+      "4. LaFollette H, editor. Ethics in practice: an anthology. John Wiley & Sons; 2014",
+      "5. Additional readings as assigned by the course instructor."
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SSH321",
+  "Course Name": "Applied Ethics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will introduce students to some of the fundamental debates in Applied Ethics. Applied Ethics offers a way to comprehend and analyse the fundamental moral and ethical problems of our times and generate arguments to justify ethical claims. The course will begin by introducing students to the major ethical theories like consequentialism, deontology, and virtue ethics. It will then demonstrate how these theories can be used to both understand and address some of the major ethical issues . Broad topics to be covered in this course include debates in environmental ethics, ethics of information technology, business ethics, bio ethics, animal rights, euthanasia, same-sex marriage, affirmative action, distributive justice and global poverty, abortion, torture, punishment, terrorism, privacy, surveillance, security, whistleblowing, civil disobedience etc. Specific Topics for instruction and discussion will be conveyed by the Instructor at the beginning of the semester.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [],
+    "Other": ["UG"]
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to understand and recognise key theories and issues in applied ethics",
+    "CO2": "Students will be able to apply ethical principles and precepts to contemporary ethical concerns",
+    "CO3": "Students will be able to demonstrate clarity, precision, and accuracy in reasoning, understand ethical dilemmas, and avoid fallacies in reasoning.",
+    "CO4": "Students will be able to explain, evaluate, and defend philosophical positions"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Reading and Writing in Philosophy",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Theories in Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ticking time bomb and the problem of torture",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Climate change and intergenerational justice",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Global poverty and the duty to aid",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Whistleblowing and professional responsibility",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Ethics of Information Technology: Democracy in the age of Information Technology",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"]
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"]
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Revision",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"]
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Whistleblowing and professional responsibility",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Ethics of Information Technology: Democracy in the age of Information Technology",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"]
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"]
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-Term": "15%",
+    "Response papers": "20%",
+    "Project": "35%",
+    "Class Participation": "10%",
+    "End exam": "20%"
+  },
+  "Resource Material": {
+    "Textbook": "Peter Singer. Practical Ethics, 3rd Edition, Cambridge University Press, USA, 2011.",
+    "Reference Book": "Peter Singer. Practical Ethics, 3rd Edition, Cambridge University Press, USA, 2011."
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "SSH321",
+  "Course Name": "Applied Ethics",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course will introduce students to some of the fundamental debates in Applied Ethics. The course will begin by introducing students to the major ethical theories like consequentialism, deontology, and virtue ethics. It will then demonstrate how these theories can be used to both understand and address some of the major ethical issues.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to understand and recognise key theories and issues in applied ethics",
+    "CO2": "Students will be able to apply ethical principles and precepts to contemporary ethical concerns",
+    "CO3": "Students will be able to demonstrate clarity, precision, and accuracy in reasoning, understand ethical dilemmas, and avoid fallacies in reasoning.",
+    "CO4": "Students will be able to explain, evaluate, and defend philosophical positions"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Reading and Writing in Philosophy",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Theories in Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ticking time bomb and the problem of torture",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Climate change and intergenerational justice",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Global poverty and the duty to aid",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Whistleblowing and professional responsibility",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Ethics of Information Technology: Democracy in the age of Information Technology",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Revision",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Project",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Revision",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Project",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-Term": "15
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH321",
+  "Course Name": "Applied Ethics",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "This course will introduce students to some of the fundamental debates in Applied Ethics. The course will begin by introducing students to the major ethical theories like consequentialism, deontology, and virtue ethics. It will then demonstrate how these theories can be used to both understand and address some of the major ethical issues.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to understand and recognise key theories and issues in applied ethics",
+    "CO2": "Students will be able to apply ethical principles and precepts to contemporary ethical concerns",
+    "CO3": "Students will be able to demonstrate clarity, precision, and accuracy in reasoning, understand ethical dilemmas, and avoid fallacies in reasoning.",
+    "CO4": "Students will be able to explain, evaluate, and defend philosophical positions"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Reading and Writing in Philosophy",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Theories in Applied Ethics",
+      "COs Met": ["CO1"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Ticking time bomb and the problem of torture",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Climate change and intergenerational justice",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Global poverty and the duty to aid",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Whistleblowing and professional responsibility",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Response paper"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Ethics of Information Technology: Democracy in the age of Information Technology",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Revision",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Project",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Ethics of Information Technology: Privacy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Revision",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Project",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Project"
+    }
+  ]

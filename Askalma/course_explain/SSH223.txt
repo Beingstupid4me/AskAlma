@@ -1,0 +1,55 @@
+SSH223: Perspectives on Knowledge is designed to explore foundational concepts of epistemology and their contemporary implications. This course introduces students to various philosophical theories of knowledge, including modern, Buddhist, and poststructuralist perspectives, while emphasizing critical thinking and connections with other disciplines.
+
+### **Course Overview**
+- **Course Code:** SSH223
+- **Course Name:** Perspectives on Knowledge
+- **Credits:** 4
+- **Offered To:** Undergraduate Students (UG)
+- **Course Description:** This course broadens understanding of knowledge issues, focusing on philosophical theories and contemporary contexts. It includes discussions on the Cartesian ‘evil genius’ argument, Buddhist epistemology, and the relationship between knowledge and power.
+
+### **Prerequisites**
+- **Mandatory:** None specified.
+- **Desirable:** None specified.
+- **Other:** None specified.
+
+### **Learning Outcomes (COs)**
+1. **CO1:** Identify meta-issues concerning knowledge and critically reflect on them.
+2. **CO2:** Demonstrate awareness of diverse epistemic and sociological perspectives on knowledge.
+3. **CO3:** Apply specific arguments, methodologies, and approaches to questions about knowledge.
+4. **CO4:** Develop awareness of oneself as a knowledge producer in the information society.
+
+### **Weekly Lecture Plan**
+- **Week 1:** Introduction to the course; Plato’s Cave Analogy.
+- **Week 2:** Modern epistemology (Descartes, Locke, Berkeley, Hume).
+- **Week 3:** British empiricism and Kant’s solution to Humean dissolution.
+- **Week 4:** Rationalist vs. empiricist models of knowledge.
+- **Week 5:** Buddhist epistemology discussion.
+- **Week 6:** Jnana and Pramana exploration.
+- **Week 7:** Indian and Western perspectives on knowledge.
+- **Week 8:** Wittgenstein’s Logical Atomism.
+- **Week 9:** Galileo’s arguments and methods.
+- **Week 10:** Observation and Experiment in scientific contexts.
+- **Week 11:** Poststructuralist models (Foucault, Sexuality).
+- **Week 12:** Wrap-up of poststructuralist position; research paper submission.
+
+### **Assessment Plan**
+- **Learning Team Projects:** 20%
+- **Research Papers:** 20%
+- **Mid-Term Exam:** 20%
+- **Class Attendance and Participation:** 10% (requires minimum 70% attendance)
+- **End-Sem Exam:** 30%
+
+### **Resource Materials**
+- **Textbooks:**
+  - Chisholm, Roderick: *Theory of Knowledge* (Prentice Hall, 1989).
+  - Gaarder, Jostein: *Sophie's World* (20th Anniversary edition, 2015).
+  - Berger and Luckmann: *The Social Construction of Reality* (Penguin, 1967).
+- **Reference:** *The Knowledge Book* by Steve Fuller.
+- **Plagiarism Policy:** Strict penalties for all forms of plagiarism.
+
+### **Additional Notes**
+- Disagreements with class viewpoints should be non-abusive ‘I’ statements.
+- Flexible syllabus; instructor may amend as needed.
+- Cooperation expected in case of rescheduling classes.
+
+This structured narrative covers all aspects of the course, ensuring comprehensive understanding and engagement.

@@ -1,0 +1,43 @@
+**Course Overview: Computational Gastronomy**
+
+**Course Code:** BIO544  
+**Course Name:** Computational Gastronomy  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+
+This course is designed to introduce students to the emerging field of Computational Gastronomy, which integrates food science with data-driven techniques. The primary objectives include understanding the science of food, analyzing culinary data using statistical methods, machine learning, and computational tools, and exploring opportunities in food-tech industries, entrepreneurship, policy-making, and sustainable development.
+
+**Prerequisites:**  
+- A strong command in programming (Python) and data analysis.  
+- Exposure to statistical analysis, data visualization, machine learning, and natural language processing is highly recommended.  
+
+**Course Outcomes (COs):**  
+1. **CO1:** Students will be able to explain the basic tenets of the science of food and its scope for data-driven analysis.  
+2. **CO2:** Students will learn to analyze and interpret major aspects of culinary data, applying statistical methods and visualization techniques.  
+3. **CO3:** Students will develop the ability to design classification and prediction models from culinary data using machine learning tools.
+
+**Weekly Lecture Plan:**  
+The course is structured over 14 weeks, with each week focusing on specific topics that build upon one another:  
+- Weeks 1 & 2: Introduction to the science of food, including its history, cultural influences, role of technology, and the integration of data science into culinary practices.  
+- Weeks 3 & 4: Culinary data analysis from a recipe perspective, covering data structures, compilation, curation, visualization, and global trends in cuisine.  
+- Weeks 5 & 6: Analysis of flavor data, exploring sensory attributes and molecular composition to understand food pairing.  
+- Weeks 7 & 8: Culinary data analysis focusing on health and nutrition, including data visualization techniques.  
+- Week 9: Modeling and prediction in cuisine classification, utilizing machine learning algorithms.  
+- Weeks 10 & 11: Prediction of taste and odor using machine learning models, with a focus on transforming recipes across cuisines.  
+- Weeks 12 & 13: Opportunities and challenges in data-driven culinary science, including food-tech innovations and sustainable practices.  
+
+**Weekly Lab Plan:**  
+The laboratory exercises complement the lectures by providing hands-on experience with data analysis tools and machine learning models. Each week includes practical tasks aimed at reinforcing theoretical concepts.
+
+**Assessment Plan:**  
+- **Mid-Semester Exam (15%):** Evaluates foundational knowledge of culinary data analysis.  
+- **Assignments (30%):** Includes a mix of reading materials, exercises, and projects across the course duration.  
+- **Mini-Project (20%):** A comprehensive project involving data analysis and modeling in a culinary context.  
+- **End-Semester Exam (35%):** Assesses overall understanding and application of concepts learned throughout the course.
+
+**Resource Materials:**  
+The course utilizes a combination of textbooks and research articles to provide a well-rounded learning experience:  
+- Textbooks include "Cooked: A Natural History of Transformation" by Michael Pollan.  
+- Research articles cover topics such as flavor networks, culinary data analysis in Indian cuisine, machine learning applications in food science, and the benefits of computational approaches in gastronomy.
+
+This structured approach ensures that students gain a comprehensive understanding of Computational Gastronomy, equipping them with the skills to analyze and innovate in this interdisciplinary field.

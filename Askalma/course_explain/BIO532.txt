@@ -1,0 +1,60 @@
+### Course Overview  
+This course BIO532, titled **Network Biology**, is a 4-credit interdisciplinary program designed to introduce students to the emerging field of network biology. The primary objective is to provide a comprehensive understanding of complex networks and their applications in modeling biological systems. Through a combination of lectures, exercises, and assignments, students will gain conceptual knowledge and practical skills in this field.
+
+---
+
+### Prerequisites  
+The course assumes basic familiarity with data structures, algorithms, and programming (desirable). Additionally, a fundamental understanding of biology is beneficial but not mandatory. Desirable prerequisites include knowledge of biological systems and an interest in interdisciplinary approaches.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Explain basic concepts of complex networks and their relevance in biological systems.  
+- **CO2**: Analyze network models of biological systems, such as protein interaction networks, gene regulatory networks, and metabolic networks.  
+- **CO3**: Interpret results from network analysis techniques applied to biological datasets.  
+- **CO4**: Code and implement simple network models to represent biological systems.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials               |  
+|-------------|----------------------------------|-------------------|------------------------------------------|  
+| 1           | Introduction to complex networks: History, Computational representation of networks, Applications in biology | CO1              | 4-5 hours (Exercises)                  |  
+| 2           | Introduction to systems biology and network models of biological systems | CO1, CO2         | 5-6 hours (Exercises)                  |  
+| 3           | Network metrics: Definitions, interpretations and application to biological networks | CO1, CO2         | 6-7 hours (Exercises+Assignment-1+Coding-1)|  
+| 4           | Protein-protein Interaction networks: Examples | CO2, CO3, CO4     | 4-5 hours (Exercises)                  |  
+| 5           | Small-world and scale-free networks: Biological implications | CO1, CO2, CO3, CO4 | 6-7 hours (Exercises+Assignment-2+Coding-2)|  
+| 6           | Modeling complex diseases as molecular networks | CO2, CO3, CO4     | 5-6 hours (Exercises)                  |  
+| 7           | Network metrics: Definitions, interpretations and application to biological networks | CO1, CO2, CO3    | 6-7 hours (Exercises+Assignment-3+Coding-3)|  
+| 8           | Gene Regulatory Networks          | CO2, CO3, CO4     | 4-5 hours (Exercises)                  |  
+| 9           | Modularity, Hierarchy, Motifs and biological implications | CO2, CO3, CO4    | 6-7 hours (Exercises+Mini Project)      |  
+| 10          | Residue Interaction Graph models of protein structures | CO2, CO3, CO4     | 6-7 hours (Exercises+Assignment-4)       |  
+| 11          | Metabolic networks                 | CO2, CO3         | 6-7 hours (Exercises)                  |  
+| 12          | Ecological networks               | CO2, CO3         | 6-7 hours (Exercises+Assignment-5)       |  
+| 13          | Brain Networks                    | CO2, CO3, CO4     | 6-7 hours (Mini-Project Presentations)   |  
+
+---
+
+### Assessment Plan  
+The course assessment is divided as follows:  
+- **Mid-Semester Examination**: 25% of the final grade.  
+- **Assignments**: 20% of the final grade, including both theoretical and practical tasks.  
+- **Coding Assignments**: 15% of the final grade, focusing on computational techniques.  
+- **Mini-Project Presentation**: 15% of the final grade, showcasing individual or group work.  
+- **End-Semester Examination**: 25% of the final grade, covering comprehensive material from the course.
+
+---
+
+### Resource Materials  
+The primary textbooks for this course are:  
+- **"The Structure of Complex Networks: Theory and Applications"** by Ernesto Estrada (Oxford University Press).  
+- **"Networks: An Introduction"** by M. E. J. Newman (Oxford University Press).
+
+These resources provide a solid foundation in network theory and its applications to biological systems.
+
+---
+
+### Conclusion  
+This course offers an in-depth exploration of network biology, combining theoretical concepts with practical applications. Through hands-on exercises and assignments, students will develop the skills needed to analyze and model complex biological networks. The comprehensive assessment strategy ensures that students achieve both theoretical understanding and practical proficiency in this field.

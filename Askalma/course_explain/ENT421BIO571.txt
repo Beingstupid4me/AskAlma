@@ -1,0 +1,67 @@
+**Course Overview**  
+The course titled "Healthcare Innovation and Entrepreneurship Essentials" is designed to provide students with an in-depth understanding of healthcare innovation, focusing on digital health, health IT, biotech, medical devices, and entrepreneurship. It is a 2-credit course offered to both undergraduate (UG) and postgraduate (PG) students. The primary objective of this course is to equip students with the knowledge and skills required to identify gaps in the healthcare ecosystem, develop innovative solutions, and create startup ideas. The course spans across multiple weeks, each focusing on specific topics that build upon the learning outcomes outlined below.
+
+**Prerequisites**  
+This course requires a basic understanding of healthcare systems, digital technologies, and entrepreneurial principles. Students must have completed foundational courses in health sciences or related fields to fully engage with the course content.
+
+---
+
+**Learning Outcomes (COs)**  
+1. **CO1**: Students will be able to analyze and critique digital health and health IT startups in India and the US by identifying their strengths, weaknesses, opportunities, and threats.
+2. **CO2**: Students will demonstrate an understanding of biotech and biopharma startups in India and the US by evaluating market trends, regulatory challenges, and competitive landscapes.
+3. **CO3**: Students will analyze and critique medical device startups in India and the US by examining technological advancements, regulatory requirements, and market acceptance.
+4. **CO4**: Students will create innovative ideas for healthcare startups that address real-world problems while adhering to ethical considerations and industry regulations.
+
+---
+
+**Weekly Syllabus and Topics**  
+The course is structured into weekly modules, each focusing on specific topics designed to progressively build knowledge and skills:
+
+1. **Week 1**: Introduction to the Healthcare Value Chain  
+   - Understanding the components of the healthcare value chain, including providers, payers, and technology.  
+   - COs Met: CO1
+
+2. **Week 2 & 3**: Healthcare Innovation Ecosystem  
+   - Overview of the global healthcare innovation ecosystem, focusing on emerging trends in India and the US.  
+   - COs Met: CO4
+
+3. **Week 4, 5, & 6**: Gaps, Opportunities, and Regulations in Digital Health/IT Startups  
+   - Analysis of gaps and opportunities in digital health solutions.  
+   - COs Met: CO1
+
+4. **Week 7, 8, & 9**: Biotech Startups: Gaps, Opportunities, and Regulations  
+   - Examination of biotech startups, including regulatory challenges and market trends.  
+   - COs Met: CO2
+
+5. **Week 10 & 11**: Medical Devices Startups: Gaps, Opportunities, and Regulations  
+   - Study of medical device startups, focusing on technological advancements and market acceptance.  
+   - COs Met: CO3
+
+6. **Week 12 & 13**: Growth Hacking Your Health Venture  
+   - Strategies for scaling health ventures, including business planning and marketing techniques.  
+   - COs Met: CO1, CO4
+
+---
+
+**Assessment Strategy**  
+The course employs a comprehensive assessment strategy to evaluate student learning:
+
+- **Mid-Semester Examination (Midsem)**: 15% of the final grade, focusing on foundational concepts covered in the first half of the course.  
+- **Assignments**: 10% of the final grade, including case studies, reports, and practical tasks related to each topic.  
+- **End-Semester Examination (Endsem)**: 30% of the final grade, assessing the comprehensive understanding of all topics covered throughout the course.  
+- **Pitch Evaluation**: 30% of the final grade, evaluating students' ability to propose innovative healthcare solutions and present them effectively.  
+- **Quizzes**: 15% of the final grade, conducted weekly to assess conceptual understanding and engagement with course material.
+
+---
+
+**Learning Resources**  
+The course provides a range of resources to support student learning:  
+- **Textbook**: *Biodesign: The Process of Innovating Medical Technologies* (2nd Edition) by Yock, Zenios, Mackower et al.  
+- **Reference Materials**: *The Business of Healthcare Innovation* by Lawton Robert Burns and *National Digital Health Blueprint*.  
+
+These resources are designed to complement the lectures and provide students with a deeper understanding of healthcare innovation principles and practices.
+
+---
+
+**Conclusion**  
+This course is an exciting journey into the world of healthcare innovation, equipping students with the knowledge and skills needed to thrive in this rapidly evolving field. By focusing on real-world applications and fostering critical thinking, the course prepares students to contribute meaningfully to the development of innovative healthcare solutions.

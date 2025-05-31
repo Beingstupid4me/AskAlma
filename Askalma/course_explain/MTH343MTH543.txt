@@ -1,0 +1,80 @@
+**Course Overview**
+
+This course is an introduction to dynamical systems, a mathematical framework for understanding time-dependent phenomena across various disciplines such as physics, biology, chemistry, and engineering. The course is designed for both undergraduate (UG) and postgraduate (PG) students and spans 4 academic credits.
+
+---
+
+**Prerequisites**
+
+To successfully engage with this course, students are expected to have completed the following prerequisites:
+
+- **Mandatory Prerequisites:**
+  - Linear Algebra (MTH100)
+  - Multivariable Calculus (MTH203)
+  - Real Analysis I (MTH240) or an equivalent set of courses.
+
+- **Desirable Prerequisites:**
+  - Ordinary Differential Equations/PDEs (MTH204)
+  - Real Analysis II (MTH340)
+  - Advanced Linear Algebra (MTH510)
+
+These prerequisites provide the foundational knowledge necessary to understand and analyze dynamical systems effectively.
+
+---
+
+**Course Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Define fundamental features of dynamical systems such as attractors, repellers, periodic points, and Devaney chaos. Students will also be able to construct examples demonstrating these features.
+  
+- **CO2:** Explain how changes in parameters affect the behavior of 1-D dynamical systems using examples like the logistic family.
+
+- **CO3:** Describe mechanisms that increase system complexity and identify such behaviors in popular examples of both 1-D and higher-dimensional dynamical systems.
+
+- **CO4:** Analyze complex behaviors arising in discrete-time dynamical systems of dimensions greater than one, applying concepts like hyperbolicity, symbolic dynamics, and applications to systems such as the logistic family, tent maps, Rössler attractors, Lorenz systems, and more.
+
+---
+
+**Weekly Lecture Plan**
+
+The course is structured into 13 weeks, each focusing on specific topics that build upon each other:
+
+- **Week 1:** Overview of dynamical systems; introduction to first examples.
+- **Week 2:** Newton's method; attractors and repellers; cobweb diagrams.
+- **Weeks 3–4:** Bifurcation analysis; exploration of the logistic family of maps.
+- **Week 5:** Sharkovsky's Theorem, Singer's theorem; continued exploration of the logistic family.
+- **Week 6–7:** Concepts of equivalence, transitivity, and Devaney chaos; examples include the logistic family, tent map, sawtooth transformation, and shift map.
+- **Week 8:** Introduction to the Perron-Frobenius Theorem with applications to population growth models (Leslie model) and Markov chains.
+- **Week 9:** Review of analysis tools: contraction mapping principle, inverse function theorem, implicit function theorem, and existence theorem for differential equations.
+- **Week 10:** Hyperbolicity; examples include Arnold's cat map.
+- **Weeks 11–12:** Study of Lotka-Volterra equations, Rössler attractor, and Lorenz system.
+- **Week 13:** Symbolic dynamics, topological entropy, and connections to information theory.
+
+---
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application:
+
+- **Quizzes (20%):** Regular assessments to test comprehension of key concepts.
+- **Mid-Semester Examination (20%):** Comprehensive evaluation of material covered in the first half of the course.
+- **Project Presentation (30%):** Students will present a project that applies dynamical systems theory to real-world problems, demonstrating CO4 outcomes.
+- **End-Semester Examination (30%):** A final examination covering the entire syllabus, emphasizing problem-solving and analytical skills.
+
+---
+
+**Resource Materials**
+
+The primary textbook for this course is *Dynamical Systems* by Shlomo Sternberg, available online. Additional reference materials include:
+
+1. **A First Course in Dynamics** by Boris Hasselblatt and Anatole Katok.
+2. **Introduction to the Modern Theory of Dynamical Systems** by Anatole Katok and Boris Hasselblatt.
+3. **Nonlinear Dynamics and Chaos: With Applications to Physics, Chemistry, and Engineering** by Steven H. Strogatz.
+4. **An Introduction to Chaotic Dynamical Systems** by Robert Devaney.
+
+These resources provide in-depth coverage of the topics discussed in class and are recommended for further study.
+
+---
+
+This structured approach ensures that students gain a comprehensive understanding of dynamical systems, from foundational concepts to advanced applications, preparing them for further studies or professional work in related fields.

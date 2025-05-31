@@ -1,0 +1,47 @@
+**Course Overview**
+
+This course CSE503, titled "Program Analysis" is an advanced graduate-level program designed to provide a comprehensive understanding of program analysis techniques. The focus will be on static analysis, dataflow analysis, symbolic execution, and runtime monitoring concepts. Students will gain hands-on experience in analyzing programs using tools like Soot and symbolic execution frameworks.
+
+**Prerequisites**
+
+To successfully engage with this course, students are expected to have completed the following prerequisites:
+- **CSE201 Advanced Programming**: A strong foundation in programming principles and practices.
+- **CSE322 Theory of Computation**: An understanding of computational models and their applications.
+
+While specific pre-requisites for other categories (e.g., Desirable or Other) are not detailed, students should ensure they possess a solid background in advanced programming concepts and computational theory to succeed in this course.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+- **CO1**: Implement dataflow analyses using tools like Soot.
+- **CO2**: Apply symbolic execution techniques to generate test cases for program analysis.
+- **CO3**: Analyze programs dynamically and identify runtime properties.
+- **CO4**: Understand and implement advanced static analysis techniques such as interprocedural analysis.
+
+**Weekly Syllabus & Topics**
+
+The course is structured into weekly modules, each focusing on specific topics:
+1. **Weeks 1-6**: Introduction to static program analysis, including monotone data flow frameworks, control flow graphs, pointer analysis, and Soot-based implementations.
+2. **Weeks 9-10**: Advanced topics such as interprocedural analysis and symbolic execution, with practical applications in test case generation.
+3. **Weeks 11-13**: Runtime monitoring concepts, including finite state properties, aspects, and security automata.
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application:
+- **End-Sem Exam (40%)**: Comprehensive evaluation of the entire syllabus.
+- **Mid-Sem Exam (25%)**: Midway assessment covering foundational topics.
+- **Quizzes (25%)**: Regular assessments on key concepts, with specific contributions to the final grade.
+- **Programming Assignments (10%)**: Practical implementation of analysis techniques using tools like Soot.
+
+**Learning Resources**
+
+The course provides a rich set of resources to support learning:
+- **Textbooks**: 
+  - "Principles of Program Analysis" by Nielson, Nielson, and Hankin.
+  - "Data Flow Analysis: Theory and Practice" by Khedker, Sanyal, and Karkare.
+  - "Compilers: Principles, Techniques, and Tools" by Aho, Lam, Sethi, and Ullman.
+- **Research Papers**: Assigned readings to deepen understanding of advanced topics.
+
+**Conclusion**
+
+This course offers an in-depth exploration of program analysis techniques, combining theoretical concepts with practical implementation. Students will gain valuable skills in static and dynamic analysis, preparing them for advanced research and professional challenges in software engineering.

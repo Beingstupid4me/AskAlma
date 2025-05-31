@@ -1,0 +1,278 @@
+{
+  "Course Code": "CSE529",
+  "Course Name": "Approximation Algorithms",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Design and analysis of approximation algorithms for NP-hard problems, including applications in communication, transportation, etc.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite"
+    ],
+    "Desirable": [
+      "Pre-requisite"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students can design and analyze approximation algorithms for NP-hard problems",
+    "CO2": "Students can apply various mathematical tools in order to analyze worst case performance of approximation algorithms",
+    "CO3": "Students can analyze and prove the limitations to approximability of problems",
+    "CO4": "Students can analyze and prove the limitations to approximability of problems"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction, MST heuristic for TSP",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Christofides' Algorithm, Makespan Greedy",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Set Cover : Greedy Algorithm",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Local Search : Max Leaf Spanning Tree",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Local Search : k-median",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Local Search : facility location",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "LP introduction, Simple rounding (vertex cover)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Cut LPs, Prize Collecting Steiner Tree (Rounding)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Shmoys Tardos Rounding for Makespan Weighted Sum of Completion Time Introduction to Primal Dual, Vertex Cover",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Shmoys Tardos Rounding for Makespan Weighted Sum of Completion Time Introduction to Primal Dual, Vertex Cover",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Shmoys Tardos Rounding for Makespan Weighted Sum of Completion Time Introduction to Primal Dual, Vertex Cover",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Goeman's Williamsons Algorithm (Steiner Forest)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "More primal dual : Multicut in Trees etc.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 14,
+      "Lecture Topic": "Iterative Rounding : Simple Examples",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 15,
+      "Lecture Topic": "Iterative Rounding: Steiner Network",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 16,
+      "Lecture Topic": "Introduction to PTAS, Bin Packing, Makespan on identical machines",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 17,
+      "Lecture Topic": "PTAS, FPTAS",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 18,
+      "Lecture Topic": "Randomized Algorithms : Set Cover, Max Sat",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 19,
+      "Lecture Topic": "Randomized Algorithms : Rent-or-Buy Steiner Trees",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 20,
+      "Lecture Topic": "Randomized Rounding : Max-Sat, Independent Set",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 21,
+      "Lecture Topic": "Randomized Rounding : Chernoff Bounds and Applications",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 22,
+      "Lecture Topic": "Randomized Rounding : Group Steiner Trees",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 23,
+      "Lecture Topic": "Semidefnite Programming",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 24,
+      "Lecture Topic": "SDP Rounding Max-Cut",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 25,
+      "Lecture Topic": "Hardness of approximation : Gap-preserving reduction",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 26,
+      "Lecture Topic": "Hardness of approximation : Unrelated machines scheduling,",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Midsem",
+      "% Contribution": 30
+    },
+    {
+      "Type": "Assignments",
+      "% Contribution": 10
+    },
+    {
+      "Type": "Quizzes",
+      "% Contribution": 20
+    },
+    {
+      "Type": "Endsem",
+      "% Contribution": 40
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "The Design of Approximation Algorithms, David P. Williamson and David",
+    "Reference Book": ""
+  }
+}

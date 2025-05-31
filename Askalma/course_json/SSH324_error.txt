@@ -1,0 +1,283 @@
+--- LLM RAW OUTPUT ---
+<think>
+Okay, so I need to extract information from the provided text and structure it into a specific JSON format as per the user's instructions. Let me go through this step by step.
+
+First, I'll look at the file content. It seems to be an Excel sheet with data organized in tables. The main goal is to parse this data into a JSON object following the specified schema.
+
+Starting with "Course Code": Looking at row 3 of the table, it's listed as SSH324. That should go under "Course Code".
+
+Next, "Course Name" also appears in row 2 and is consistently SSH324, so that's straightforward.
+
+For "Credits", I see a value of 4 in row 3, which seems to be the correct format for credits.
+
+Moving on to "Course Offered to": The value here is "UG" (Undergraduate), as seen in row 5.
+
+The "Course Description" spans multiple rows and columns. It's quite lengthy but consistent across several cells, so I'll take that entire text as the description.
+
+Prerequisites are listed under row 7 with "Mandatory" being SSH121 Introduction to Philosophy. There's no "Desirable" or "Other" information mentioned, so those fields will be empty strings.
+
+Course Outcomes (COs) have four levels: CO1 through CO4. Each is described in rows 13-16. I'll map each CO with their respective descriptions.
+
+The Weekly Lecture Plan starts at row 15 and goes up to row 28. Each week has a lecture topic, COs targeted, and assignments. I need to extract this data into an array of objects for each week.
+
+Assessment Plan is from rows 30-48, detailing different types of evaluations and their contributions to the final grade. This will be another array in the JSON.
+
+Resource Material includes two books under "Textbook" and one under "Reference Book". I'll list them accordingly.
+
+I need to ensure that all values are correctly formatted: numbers as integers where possible, strings otherwise. Missing values should be represented as empty strings or nulls if necessary.
+
+Finally, I'll structure everything into the JSON format without any markdown or additional explanations.
+</think>
+
+```json
+{
+  "Course Code": "SSH324",
+  "Course Name": "Philosophy of Mind",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "What is the nature of mind/consciousness - is it immaterial or material, or both? How do we understand the relation between the mind, brain and the body on the one hand, and the mind and the external world, on the other? What is it to have a mental representation or a 'thought'? Are such mental representations, intentional states, and 'experiencing' itself (such as experiencing pain) inseparable from self-consciousness, such that without self-consciousness there can be no consciousness? Can 'thinking' be processively or functionally reproduced in computers? Is the possibility of such reproduction essential to fully grasping what the mind is? These are some of the issues that this course will investigate, by first situating them within the broader epistemological and ontological debates in which they arose, before turning to more contemporary approaches and theoretical responses.",
+  "Prerequisites": {
+    "Mandatory": "SSH121 Introduction to Philosophy",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "To situate contemporary debates in the philosophy of mind with respect to epistemological and ontological problematics in the history of philosophy",
+    "CO2": "To articulate some of the basic problems, debates and systematic responses in the domain of the philosophy of mind.",
+    "CO3": "To critically analyse and evaluate these responses, with respect to the problems they address, and in relation to each other.",
+    "CO4": "To enable students to frame possible responses that bring to light implicit dimensions of these issues that have been insufficiently thematized"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction: Descartes and Mind-Body dualism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Kant: Copernican turn; The 'I think' argument , The link between Consciousness, self-consciousness and the 'Transcedental I'",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Hume: Empiricism, Skepticism and the argument against a permanent self",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Ryle: The Concept of Mind, 'Descartes Myth'",
+      "COs Met": ["CO2", "CO2", "CO3"],
+      "Assignments": "Short Response Paper"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Crane: The Mechanical Mind, Intro and 'The Puzzle of Representation'",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Crane: 'The Puzzle of Representation' continued",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Nagel, \"What is it Like to be a Bat\"",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Longer response Paper"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Turing: Computing Machinery and Intelligence",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Crane: The Mechanical Mind, 'Computers and Thoughts'",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Crane: 'Computers and Thoughts' continued",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Searle:“Minds, Brains, and Programs",Chinese Room Analogy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Class presentations"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Dennett: “Can Machines Think?”",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Review",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Final research paper topics"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Short paper",
+      "% Contribution to Final Grade": "15%"
+    },
+    {
+      "Type of Evaluation": "Long paper",
+      "% Contribution to Final Grade": "25%"
+    },
+    {
+      "Type of Evaluation": "Presentation",
+      "% Contribution to Final Grade": "15%"
+    },
+    {
+      "Type of Evaluation": "Final Paper",
+      "% Contribution to Final Grade": "35%"
+    },
+    {
+      "Type of Evaluation": "Class participation",
+      "% Contribution to Final Grade": "10%"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Rene Descartes, Meditations on First Philosophy",
+    "Reference Book": "Immanuel Kant, Critique of Pure Reason"
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH324",
+  "Course Name": "Philosophy of Mind",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "What is the nature of mind/consciousness - is it immaterial or material, or both? How do we understand the relation between the mind, brain and the body on the one hand, and the mind and the external world, on the other? What is it to have a mental representation or a 'thought'? Are such mental representations, intentional states, and 'experiencing' itself (such as experiencing pain) inseparable from self-consciousness, such that without self-consciousness there can be no consciousness? Can 'thinking' be processively or functionally reproduced in computers? Is the possibility of such reproduction essential to fully grasping what the mind is? These are some of the issues that this course will investigate, by first situating them within the broader epistemological and ontological debates in which they arose, before turning to more contemporary approaches and theoretical responses.",
+  "Prerequisites": {
+    "Mandatory": "SSH121 Introduction to Philosophy",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "To situate contemporary debates in the philosophy of mind with respect to epistemological and ontological problematics in the history of philosophy",
+    "CO2": "To articulate some of the basic problems, debates and systematic responses in the domain of the philosophy of mind.",
+    "CO3": "To critically analyse and evaluate these responses, with respect to the problems they address, and in relation to each other.",
+    "CO4": "To enable students to frame possible responses that bring to light implicit dimensions of these issues that have been insufficiently thematized"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction: Descartes and Mind-Body dualism",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading and Discussion"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Kant: Copernican turn; The 'I think' argument , The link between Consciousness, self-consciousness and the 'Transcedental I'",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Hume: Empiricism, Skepticism and the argument against a permanent self",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Ryle: The Concept of Mind, 'Descartes Myth'",
+      "COs Met": ["CO2", "CO2", "CO3"],
+      "Assignments": "Short Response Paper"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Crane: The Mechanical Mind, Intro and 'The Puzzle of Representation'",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Crane: 'The Puzzle of Representation' continued",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Nagel, \"What is it Like to be a Bat\"",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Longer response Paper"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Turing: Computing Machinery and Intelligence",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Crane: The Mechanical Mind, 'Computers and Thoughts'",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Crane: 'Computers and Thoughts' continued",
+      "COs Met": ["CO1", "CO2", "CO3"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Searle:“Minds, Brains, and Programs",Chinese Room Analogy",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Class presentations"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Dennett: “Can Machines Think?”",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Reading and analysis"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Review",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assignments": "Final research paper topics"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Short paper",
+      "% Contribution to Final Grade": "15%"
+    },
+    {
+      "Type of Evaluation": "Long paper",
+      "% Contribution to Final Grade": "25%"
+    },
+    {
+      "Type of Evaluation": "Presentation",
+      "% Contribution to Final Grade": "15%"
+    },
+    {
+      "Type of Evaluation": "Final Paper",
+      "% Contribution to Final Grade": "35%"
+    },
+    {
+      "Type of Evaluation": "Class participation",
+      "% Contribution to Final Grade": "10%"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Rene Descartes, Meditations on First Philosophy",
+    "Reference Book": "Immanuel Kant, Critique of Pure Reason"
+  }
+}

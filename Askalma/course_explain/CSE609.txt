@@ -1,0 +1,67 @@
+**Course Overview**
+
+- **Course Code:** CSE609  
+- **Course Name:** Statistical Computation  
+- **Credits:** 4  
+- **Offered To:** UG/PG  
+- **Course Description:** This course provides an in-depth understanding of statistical analysis methods, focusing on data collection, modeling, and inference. It covers both theoretical concepts and practical applications using computational tools.
+
+**Prerequisites**
+
+- **Mandatory:** MTH201 (Probability and Statistics)  
+- **Desirable:** Basic knowledge of R or MATLAB programming  
+
+**Learning Outcomes**
+
+- **CO1:** Students will explain various statistical approaches and their applications.  
+- **CO2:** Students will identify the relevance of different statistical methods for specific data analysis problems.  
+- **CO3:** Students will utilize computational tools for statistical modeling.  
+- **CO4:** Students will implement known statistical methods and critique results to draw conclusions.
+
+**Weekly Lecture Plan**
+
+| Week Number | Lecture Topic                     | COs Met          | Assignment/Lab/Tutorial Details                          |
+|-------------|-----------------------------------|------------------|----------------------------------------------------------|
+| 1           | Basics of Data Comprehension, Visualisation | CO1, CO2        | 3+2 hours (Exercises)                                  |
+| 2           | Samples and Populations, Sampling Distributions: Student-t, Chi-square | CO1, CO2, CO3   | 3+2 hours (Exercises)                                  |
+| 3           | Distribution contd., Mathematical functions and the | CO1, CO2        | 3+2 hours (Exercises + Assignment-1)                   |
+| 4           | Fitting distributions, Hypothesis testing, Parametric tests | CO1, CO2, CO3   | 3+2 hours (Exercises)                                  |
+| 5           | Hypothesis testing, Non-parametric tests | CO1, CO2, CO3, CO4 | 3+2 hours (Exercises + Assignment-2)                   |
+| 6           | Limit theorems and bounds          | CO1, CO2, CO3   | 3+2 hours (Exercises)                                  |
+| 7           | Parameter estimation | CO1, CO2        | 3+2 hours (Exercises + Assignment-3)                   |
+| 8           | Parameter estimation contd. | CO2, CO3, CO4    | 3+2 hours (Exercises)                                  |
+| 9           | Joint distributions | CO1, CO2, CO3   | 3+2 hours (Exercises)                                  |
+| 10          | Joint distributions contd. | CO2, CO3, CO4    | 3+2 hours (Exercises + Assignment-4)                   |
+| 11          | Approximate inference | CO1, CO2, CO3   | 3+2 hours (Exercises)                                  |
+| 12          | Structure estimation | CO2, CO3        | 3+2 hours (Exercises + Assignment-5)                   |
+| 13          | Project presentations | CO3, CO4        | 3+2 hours (Presentations)                              |
+
+**Weekly Lab Plan**
+
+| Week Number | Laboratory Exercise | COs Met | Platform (Hardware/Software) |
+|-------------|---------------------|---------|------------------------------|
+| 1           | Basics of Data Comprehension and Visualization | CO1, CO2 | [Platform Details]            |
+| 2           | Samples and Populations, Sampling Distributions: Student-t, Chi-square | CO1, CO2, CO3 | [Platform Details]            |
+| 3           | Distribution contd., Mathematical functions and the | CO1, CO2   | [Platform Details]            |
+| ...         | ...                 | ...     | ...                          |
+
+**Assessment Plan**
+
+| Type of Evaluation      | % Contribution in Grade | Week(s) for Mid-Sem | % Contribution in Grade | Week(s) for End-Sem |
+|--------------------------|------------------------|--------------------|------------------------|--------------------|
+| Mid-Sem                 | 20                   | Week 6              | 20                    | Week 13             |
+| Assignments              | 40                   | Throughout the semester | 40                    | Throughout the semester |
+| End-Sem                | 30                   | Week 15            | 30                    | Week 17            |
+| Presentation            | 10                   | Week 12            | 10                    | Week 14            |
+
+**Resource Materials**
+
+| Type      | Title/Link                                      | Source           |
+|-----------|--------------------------------------------------|-------------------|
+| Textbook   | Methods of multivariate analysis (Alvin C. Rencher) | CSE609            |
+| Textbook   | Handbook of Biological Statistics (John H. McDonald) | CSE609            |
+| Textbook + Link | Multivariate Data Analysis using R (Darren J wilkinson) | CSE609            |
+| Textbook   | Doing Bayesian Data Analysis (J.K. Kruschke)      | CSE609            |
+| Textbook + Link | Quick-R (by Robert I. Kabacoff)                  | CSE609            |
+
+This comprehensive narrative description of the course incorporates all provided data points, ensuring clarity, completeness, and contextual relevance.

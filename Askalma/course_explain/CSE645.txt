@@ -1,0 +1,84 @@
+**Course Overview**  
+The course titled "Privacy and Security in Online Social Media" (CSE 648) is designed to address the critical challenges and opportunities associated with the increasing adoption of online social media platforms. Given the widespread use of these platforms—such as Facebook, Twitter, Instagram, and LinkedIn—the course aims to equip students with a comprehensive understanding of privacy and security issues in this context. Students will learn to identify concerns like spam, phishing, identity theft, and hate speech while gaining practical skills through homework assignments and group projects. The ultimate goal is for students to not only appreciate these challenges but also propose solutions tailored to specific online social media scenarios.
+
+**Course Prerequisites**  
+While no specific prerequisites are listed in the provided data, a foundational understanding of internet technologies, basic programming concepts, and familiarity with online platforms would be beneficial for this course. Students should have a general awareness of how online social media operates to fully engage with the material.
+
+**Learning Outcomes (COs)**  
+By the end of this course, students will be able to:  
+- **CO1:** Recognize and articulate various privacy and security concerns (e.g., spam, phishing, identity theft) on online social media.  
+- **CO2:** Understand and describe methodologies used to address security and privacy challenges in online social media platforms.  
+- **CO3:** Critique research papers by summarizing their methodologies, results, and interpretations related to privacy and security issues.  
+- **CO4:** Design and implement project ideas aimed at addressing specific problems or emerging trends in online social media.  
+
+**Weekly Lecture Plan**  
+The course is structured into weekly modules, each focusing on a specific topic while integrating learning outcomes (COs) and assessments:  
+
+1. **Week 1: Trust, Credibility, and Reputations in Social Systems**  
+   - Introduction to privacy and security concepts in online social media.  
+   - COs: CO1, CO2, CO3.  
+   - Assignment: Homework 1 focusing on identifying trust and credibility issues.
+
+2. **Week 2: Detection of Spam, Phishing, Fraud, Hate Crime, Abuse, and Extremism**  
+   - Methodologies for detecting and mitigating online threats.  
+   - COs: CO1, CO2, CO3.  
+
+3. **Week 3: Project Ideas Proposal**  
+   - Students propose project ideas related to privacy or security challenges in online social media.  
+   - CO: CO4.  
+   - Assessment: Quiz 1.
+
+4. **Week 4: Information Privacy Disclosure and Its Effects on Online Social Media**  
+   - Case studies on information leakage and its implications.  
+   - COs: CO1, CO2, CO3.  
+
+5. **Week 5: Privacy Issues Related to Location-Based Services**  
+   - Exploration of location tracking and social footprinting.  
+   - COs: CO1, CO2, CO3.  
+   - Assessment: Assignment 2.
+
+6. **Week 6: Quiz and Project Reviews**  
+   - Review of quiz results and feedback on project proposals.  
+   - COs: CO4.  
+
+7. **Week 7: Privacy Issues in Location-Based Services**  
+   - Continued exploration of location-based privacy concerns.  
+   - COs: CO1, CO2, CO3.  
+   - Assessment: Quiz 2.
+
+8. **Week 8: Collateral Damage from Information Leakage (e.g., Photo Tagging)**  
+   - Analysis of potential risks and solutions.  
+   - COs: CO1, CO2, CO3.  
+   - Assignment: Assignment 3.
+
+9. **Week 9: Effective Privacy Settings and Policies on Online Social Media**  
+   - Development of privacy policies for online platforms.  
+   - COs: CO1, CO2, CO3.  
+   - Assessment: Quiz 3.
+
+10. **Week 10: Project Reviews and Presentations**  
+    - Student presentations and peer reviews of project ideas.  
+    - COs: CO1, CO2, CO3.  
+
+11. **Week 11: Policing Online Social Media**  
+    - Strategies for addressing online misconduct.  
+    - COs: CO1, CO2, CO3.  
+
+12. **Week 12: Final Project Presentations and Feedback**  
+    - Comprehensive presentations of final projects with instructor feedback.  
+    - COs: CO4.
+
+**Assessment Strategy**  
+The course employs a comprehensive assessment strategy to evaluate student learning:  
+- **Homework/Quizzes (35%):** Regular assignments and quizzes to assess understanding of key concepts.  
+- **Mid-Semester Exam/Hackathon (5%):** Evaluates foundational knowledge through problem-solving tasks.  
+- **Class Participation and Activities (5%):** Encourages active engagement in discussions and collaborative learning.  
+- **End-Semester Exam/Hackathon (15%):** Assesses cumulative knowledge with a final assessment focused on practical application.  
+- **Project (40%):** The most significant component, focusing on the development and presentation of a comprehensive project addressing real-world privacy or security challenges.
+
+**Resource Materials**  
+The course provides access to online resources, including lecture slides, recommended readings, and supplementary materials. Additional resources will be assigned by the instructor as needed.  
+
+---
+
+This narrative text captures all essential elements of the course structure, ensuring clarity and completeness while maintaining a logical flow.

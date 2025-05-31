@@ -1,0 +1,71 @@
+### Course Overview  
+**Course Code:** SOC202  
+**Course Name:** Contemporary India: Sociological Perspective  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) students  
+
+This course provides an in-depth exploration of contemporary issues in India, focusing on its sociocultural, political, economic, and technological dimensions. Grounded in sociology, the course integrates insights from other social sciences to critically examine India's transformation over time. Students will gain a comprehensive understanding of India's developmental challenges and fault lines while developing analytical skills to interpret diverse societal phenomena.
+
+---
+
+### Prerequisites  
+No specific prerequisites are required for this course. Students are expected to have a basic understanding of sociological concepts, though familiarity with social sciences is advantageous.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+- **CO1:** Analytically examine the social foundations of Indian society and comprehend diverse socio-cultural experiences.  
+- **CO2:** Understand the wide socio-cultural diversity in India and its implications for various population segments based on caste, class, ethnicity, age, gender, and religion.  
+- **CO3:** Critique the changes in Indian society during globalization and rapid economic change.  
+- **CO4:** Assess and interpret the social impact of media and digital culture on Indian dynamics.  
+- **CO5:** Critically examine inherent tensions and negotiations in India's development processes.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |  
+|-------------|-----------------------------------|------------------|-----------------------------|  
+| 1           | Introducing India: Historical Overview and Population Profile | CO1, CO2         | Assignment 1                |  
+| 2           | Themes and Approaches            | CO1, CO2         | -                           |  
+| 3           | Social Institutions: Structure and Changes-I | CO1, CO2, CO5    | Assignment 2                |  
+| 4           | Social Institutions: Structure and Changes-II | CO1, CO2        | -                           |  
+| 5           | Forms of Social Stratification and Social Mobility | CO2, CO3, CO5   | Quiz 1                     |  
+| 6           | Politics of Inclusion/Exclusion    | CO2, CO5         | -                           |  
+| 7           | Indian Economy: Historical Overview and Regional Disparities | CO1, CO2, CO3   | Assignment 3                |  
+| 8           | Development Indicators            | CO3, CO5         | -                           |  
+| 9           | Popular Culture and Mass Media- I | CO4, CO5        | Quiz 2                     |  
+| 10          | Popular Culture and Mass Media- II | CO4, CO5        | -                           |  
+| 11          | Technologies and Development-I     | CO3, CO4, CO5   | Assignment 4                |  
+| 12          | Technologies and Development-II    | CO3, CO4, CO5   | -                           |  
+| 13          | Summing up and Review            | CO1-CO5         | -                           |  
+
+---
+
+### Assessment Plan  
+
+| Type of Evaluation       | % Contribution in Grade | Week(s) of Evaluation |  
+|---------------------------|-------------------------|------------------------|  
+| Quizzes                    | 20%                     | Week 5, 9             |  
+| Class Participation (Attendance) | 10%                | Ongoing                 |  
+| Assignments               | 30%                     | Throughout the course |  
+| Mid Semester Exam         | 20%                     | Week 7                 |  
+| End Semester Exam        | 20%                     | Week 13                |  
+
+---
+
+### Resources  
+
+- **Textbooks:**  
+  - Ganguly, Sumit and Neil deVotta (eds) 2003, *Understanding Contemporary India*, Delhi, Viva Books.  
+  - Bhargave, Rajeev and Achin Vanaik, 2010, *Understanding Contemporary India*, Hyderabad, Orient Blackswan.  
+  - Dreze Jean and Amartya Sen, 1995, *India: Economic Development and Social Opportunity*, Oxford University Press, New Delhi.  
+  - Priyadarshi Praveen and Neera Chandhoke, 2009, *Contemporary India: Economy, Society and Politics*, New Delhi, Pearson Publishers.  
+
+- **Other Resources:** Appropriate resources will be assigned by the instructor as needed.
+
+---
+
+This structured approach ensures a comprehensive understanding of contemporary India's societal dynamics while equipping students with essential analytical skills.

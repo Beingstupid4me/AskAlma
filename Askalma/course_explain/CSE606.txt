@@ -1,0 +1,54 @@
+### Course Overview  
+The course titled "Data Warehouse" is a 4-credit course offered to both undergraduate (UG) and postgraduate (PG) students. This course aims to provide students with a comprehensive understanding of data warehouses, their design, implementation, and management. The curriculum is structured to equip students with the necessary skills to develop decision support systems (DSS) and apply them in real-world scenarios.  
+
+The course description highlights the growing demand for skilled professionals in the field of business intelligence and data warehousing. It emphasizes the critical shortage of human resources in this domain, making it an essential skill for students seeking careers in Indian industries and beyond. The course will guide students through the entire development lifecycle of a data warehouse, from its conceptualization to deployment, ensuring they understand how to embed these warehouses effectively into business applications.  
+
+### Prerequisites  
+The mandatory prerequisite for this course is **CSE202: Relational DBMS**, as it provides foundational knowledge in database design and management. Other prerequisites may include additional courses such as advanced database systems or data mining techniques, which could be specified in the provided Excel file if available.
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Relate data warehousing to decision-making processes and design appropriate solutions for business intelligence.  
+- **CO2**: Elicit required information for decisions, model information systems, and design dimension models using tools like Star Schema.  
+- **CO3**: Implement advanced database techniques such as transaction management, periodic snapshots, and snowflake schemas in a star schema design.  
+- **CO4**: Evaluate decisional tools, construct business intelligence OLAP operations, and complete a comprehensive project involving the development of a data warehouse and its integration into an organization's information system.
+
+### Weekly Lecture Plan  
+The course is divided into 13 weeks, each focusing on specific topics to ensure a gradual progression from foundational concepts to advanced applications. Below is a detailed breakdown:  
+
+| Week | Lecture Topic                     | COs Met   | Assignments/Labs/Tutorials |
+|------|------------------------------------|------------|-----------------------------|
+| 1    | Overview of Databases, Data Warehouse Definition, Decisions and their Types, Decision Making Process | CO1        | Introduction to data warehouses and decision-making processes. |
+| 2    | Influence and Augmented Influence Diagrams: Perspectives of DW - Basic Dimension Modeling | CO1        | Case study on influence diagrams in data warehouse design. |
+| 3    | Decisional and DW Information Models, Conversion to Dimension Model, Computer-Assisted Tools | CO1, CO2   | Assignment on modeling decisional processes using DW tools. |
+| 4    | Databases vs. Data Warehouses: Star Schema Design | CO2, CO3   | Exercise on designing a star schema for an e-commerce platform. |
+| 5    | The DW Process and ETL (Extract, Transform, Load) | CO1        | Practical session on implementing the ETL process in a data warehouse. |
+| 6    | Fact Design: Transaction, Periodic Snapshots, Evolving Snapshots, Granularity, Multiple and Type-Specific Stars | CO3        | Assignment on designing fact tables with different transaction types. |
+| 7    | Evaluation of Decisional Tools for Students | CO3        | Group project to evaluate decisional tools used in data warehouses. |
+| 8    | Dimension Design: Types, Properties, and Design Considerations | CO3        | Case study analysis on dimension design principles. |
+| 9    | Dimension Design: Bridges, Attribute and Recursive Hierarchies, Transactions, Snapshots | CO3        | Exercise on creating recursive hierarchies in a data warehouse. |
+| 10   | Operational Issues in Star Schema Design: NULLs, Special Rows in Dimensions, Snowflake Schema Issues | CO3        | Assignment on handling NULL values and snowflake schemas. |
+| 11   | Data Warehouse Consolidation and Agile DW Development | CO3        | Practical session on consolidating data warehouses for efficiency. |
+| 12   | Business Intelligence OLAP Operations: Mining, Visualization | CO4        | Exercise on creating OLAP cubes and visualizing data using BI tools. |
+| 13   | Project Evaluation | CO3, CO4    | Comprehensive project presentation and evaluation. |
+
+### Assessment Plan  
+The course assessment is designed to evaluate both theoretical knowledge and practical skills acquired throughout the course:  
+
+- **End-Sem Exam**: 25% of the final grade, focusing on comprehensive understanding of data warehouse concepts and their applications.  
+- **Mid-Sem Exam**: 25% of the final grade, assessing progress in key topics covered in the first half of the course.  
+- **Quiz (Quix)**: 15% of the final grade, testing foundational knowledge through multiple-choice questions on various topics.  
+- **Decisional Tool Construction**: 15% of the final grade, evaluating students' ability to design and implement decisional tools for data warehouses.  
+- **DW Construction**: 20% of the final grade, assessing the ability to design and manage a complete data warehouse system.  
+
+### Additional Resources  
+To support your learning, the following resources are recommended:  
+1. **Textbook**: "The Data Warehouse Toolkit" by R. Kimball and M. Ross (Wiley).  
+2. **Reference Material**: "Building the Data Warehouse" by P. Inmon (Wiley).  
+3. **Online Learning Platforms**: Coursera, Udemy, and LinkedIn Learning offer supplementary courses on data warehousing and business intelligence tools.  
+
+These resources provide in-depth insights into data warehouse design, implementation, and management, complementing the theoretical concepts covered in this course.  
+
+---
+
+This narrative provides a comprehensive overview of the "Data Warehouse" course, its structure, assessments, and recommended resources, ensuring students are well-prepared for their academic journey.

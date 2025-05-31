@@ -1,0 +1,48 @@
+### Course Overview  
+The course ECE230, titled "Fields and Waves" is a core component of the undergraduate curriculum for second-year engineering students. It carries 4 academic credits and is offered during the second year, spanning both semesters. The course provides an in-depth introduction to electrodynamics, including electrostatics, magnetostatics, electrodynamics, and electromagnetic wave propagation. These fundamental concepts are essential for students interested in fields such as radio frequency (RF), microwave, millimeter-wave, and optical systems.
+
+#### Prerequisites  
+Students enrolling in this course must have successfully completed the prerequisite course MTH203. No additional prerequisites or recommended courses are specified beyond this requirement.
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+
+1. **CO1**: Execute vector calculus operations (gradient, divergence, curl, line, surface, and volume integrals) in Cartesian and curvilinear coordinates.  
+2. **CO2**: Apply Coulomb's law, Gauss's law, and Poisson's equation to solve for electric field, flux density, and potentials for charge distributions in various configurations.  
+3. **CO3**: Utilize Biot-Savart's law and Ampere's law to determine magnetic fields and flux densities in different scenarios.  
+4. **CO4**: Analyze Maxwell's equations of time-harmonic fields to describe electromagnetic wave propagation in diverse media and boundary conditions.  
+5. **CO5**: Evaluate electromagnetic wave propagation through simple transmission lines.
+
+### Weekly Lecture Plan  
+The course is divided into 21 weeks, with each week focusing on specific topics that align with the learning outcomes:  
+
+- **Week 1**: Vector Analysis (Vector algebra, differential calculus, integral calculus, curvilinear coordinates) - CO1.  
+- **Week 2**: Electrostatics (Coulomb's law, electric field, Gauss's law, electric potential, energy and potential, electric fields in matter) - CO2.  
+- **Week 3**: Magnetostatics (Biot-Savart's law, magnetic field, Ampere's law, magnetic fields in matter) - CO3.  
+- **Week 4**: Electrodynamics (Electromotive force, electromagnetic induction, Maxwell's equations) - CO4.  
+- **Week 5**: Electromagnetic Waves Propagation (Helmholtz wave equation, electromagnetic waves in vacuum and matter, Poynting vector, reflection/transmission at normal incidence) - CO4.  
+- **Week 6**: Transmission Lines Equations and Parameters (Time domain and frequency domain analysis, standing wave ratio) - CO5.  
+
+No specific topics or assignments are mentioned for Weeks 7 through 21.
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application:  
+
+- **Midsem Exam**: 30% contribution, focusing on foundational concepts covered in the first half of the semester.  
+- **Endsem Exam**: 35% contribution, emphasizing comprehensive understanding of the entire syllabus.  
+- **Quiz**: 15% contribution, conducted periodically to assess regular progress and grasp of key topics.  
+- **Homework Assignments**: 20% contribution, reinforcing concepts through problem-solving exercises assigned weekly.
+
+Additional assessment methods may be included if specified by the instructor.
+
+### Learning Resources  
+The course provides a comprehensive set of resources to support student learning:  
+
+1. **Textbooks**:  
+   - *Introduction to Electrodynamics*, Third Edition, by David J. Griffiths.  
+   - *Engineering Electromagnetics*, Eighth Edition, by William H. Hayt Jr., John A. Buck, and S. M. Mahantappa.  
+   - *Principles of Electromagnetics*, Fourth Edition, by Mathew N.O. Sadiku.  
+
+These textbooks are recommended for in-depth study and provide supplementary material to complement the lectures.
+
+This structured approach ensures a thorough understanding of electrodynamics and its applications, preparing students for advanced studies and professional practice in related fields.

@@ -1,0 +1,63 @@
+**Course Overview**
+
+This course, titled "Theatre Appreciation" (Course Code: SSH211), is a 4-credit undergraduate program designed to provide students with a comprehensive understanding of theatre appreciation and its practical applications. The course spans an entire semester and is open to all undergraduates who meet the prerequisite requirements.
+
+**Course Description**
+
+"Theatre Appreciation" is structured to blend theoretical knowledge with hands-on experience. Students will explore the works of renowned theatre masters, including Jerzy Grotowsky, Badal Sircar, and Constantine Stanislavsky, while also engaging in practical exercises such as voice work, mime performances, and theatrical games. The course emphasizes the importance of communication skills and culminates in a series of assessments that evaluate both theoretical knowledge and practical performance.
+
+**Prerequisites**
+
+While there are no formal prerequisites for this course, students are expected to have an open mind and a strong desire to communicate effectively. This foundational skill is crucial for participating in class activities and performing on stage.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1**: Demonstrate a thorough understanding of the biographies and techniques proposed by theatre masters.
+- **CO2**: Overcome inhibitions and enhance their communication abilities through various exercises and performances.
+- **CO3**: Perform a mime show that showcases their ability to interpret and express theatrical techniques.
+- **CO4**: Develop the skills necessary to perform a short play, demonstrating their understanding of contemporary Indian playwrights' works.
+
+**Weekly Lecture Plan**
+
+The course is divided into 13 weekly sessions, each focusing on specific topics and learning outcomes. Below is a detailed breakdown of the weekly plan:
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Lectures/Assessment |
+|-------------|-----------------------------------|------------------|---------------------------------|
+| 1           | Introduction to Theatre, Dos and Don'ts | CO2               | Psycho physical Exercises on usage of space, trust games                   |
+| 2           | Jerzy Grotowsky. Theoretical understanding of his Thespian life of and techniques | CO1, CO3, CO4     | Practically experiencing and trying out the concept of Poor Theatre         |
+| 3           | Badal Sircar. Theoretical understanding of his Thespian life and techniques | CO1, CO3, CO4     | Practically experiencing and trying out the concept of Third Theatre        |
+| 4           | Voice exercises, practicing mime and movement, Theatre Games                   | CO2, CO3          | Solo Mime Practice              |
+| 5           | Solo Mime Performances by Students, Mid Term Mime Play Project               | CO3               | Mime play Project Preparations   |
+| 6           | Dramatic reading of a classic western play by students                         | CO1, CO4          |                   |
+| 7           | Studying concepts proposed by Constantine Stanislavsky                        | CO1               | Practising Concepts of Method Acting                                      |
+| 8           | Study of Theatrical concepts like Constructivism, Socialist Realism, Pavlovian Psychology etc | CO4               | Self study and Research in Theatre Concepts                              |
+| 9           | Dramatic reading of a contemporary play by a significant Indian playwrights    | CO4               |                   |
+| 10          | Theatrical improvisations in class based on Stanislavsk’s Method Acting        | CO4               | Watching a live performance      |
+| 11          | Dramatic reading of a contemporary play by a significant Indian playwrights    | CO1, CO4          |                   |
+| 12          | End Sem Play Project.                                                        | CO4               | Rehearsals for Play              |
+| 13          | Class Room Guidance for Public Performances                                  | CO4               | Public Performance             |
+
+**Assessment Plan**
+
+The course assessment is designed to evaluate both theoretical knowledge and practical performance skills. The breakdown is as follows:
+
+| Type of Evaluation         | % Contribution in Grade | Week/Component                  |
+|----------------------------|-------------------------|---------------------------------|
+| Mid Sem Exam                | 20%                    | Week 5                        |
+| End Sem Exam                | 20%                    | Week 13                       |
+| Class Participation and Attendance | 10%               | Ongoing                         |
+| Individual Performances   | 10%                    | Week 5                        |
+| Mime Play Project          | 20%                    | Ongoing                         |
+| Vocal Play Project         | 20%                    | Ongoing                         |
+
+**Learning Resources**
+
+Students are encouraged to utilize the following resources to enhance their learning experience:
+
+- **Class Notes**: Detailed notes on theatre masters such as Jerzy Grotowsky, Badal Sircar, and Constantine Stanislavsky, along with analyses of plays like "Les Fourberies de Scapin" by Molière, "Ghasi Ram Kotwal" by Vijay Tendulkar, and one-act plays by authors such as Saki, Josephina Niggli, Oliphant Down, Kenneth Lillington, and Rabindranath Tagore.
+- **Textbook**: *Theatre of the West* by Molière
+- **Reference Book**: *Classroom Experiments in Theatre* by Badal Sircar
+
+This course is designed to provide a well-rounded understanding of theatre appreciation while fostering practical skills through hands-on exercises and performances.

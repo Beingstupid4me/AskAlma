@@ -1,0 +1,70 @@
+**Course Overview**
+
+The course titled "Statistical Signal Processing" is designed for both undergraduate (UG) and postgraduate (PG) students. It carries a credit value of 4. The course delves into advanced techniques for statistical signal processing, detection, and parameter estimation. The curriculum is structured to provide a comprehensive understanding of the subject matter, starting with foundational topics in linear algebra and statistics before progressing into hypothesis testing, estimation techniques, and adaptive filtering approaches.
+
+**Prerequisites**
+
+To successfully engage with this course, students are expected to have completed the following prerequisites:
+
+- **Mandatory Prerequisites:**
+  - Signals & Systems
+
+- **Desirable Prerequisites:**
+  - Matlab Programming
+  - Probability and Statistics
+  - Linear Algebra
+
+These prerequisites ensure that students possess a solid foundation in signal processing fundamentals and mathematical tools necessary for the course.
+
+**Learning Outcomes**
+
+Upon completion of this course, students will be able to:
+
+1. **CO1:** Apply hypothesis testing techniques to solve signal detection problems.
+2. **CO2:** Evaluate detector performance using metrics such as ROC curves, sensitivity, specificity, etc.
+3. **CO3:** Choose appropriate estimation techniques (e.g., MLE, MAP, MMSE) based on the problem at hand.
+4. **CO4:** Design and implement adaptive filters for stochastic signals.
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met | Assignments/Labs/Tutorials                                                                 |
+|-------------|-----------------------------------|---------------------|-------------------------------------------------------------------------------------------|
+| 1           | Linear Algebra & Probability Review | CO1, CO2           | HW 1: Problems on sufficient statistics, probability concepts, Monte Carlo sampling.    |
+| 2           | Sufficient Statistics & Significance Testing | CO1, CO2          | HW 1: Additional problems on sufficient statistics, probability, and Monte Carlo sampling.|
+| 3           | Minimum Mean Square Error (MMSE), Cramér-Rao Lower Bound (CRLB), Best Unbiased Estimator (MVUE) | CO3               | - Problems on MMSE estimation and CRLB analysis.                                         |
+| 4           | General MVUE, BLUE                 | CO3                | - Problems on general MVUE and Best Linear Unbiased Estimator (BLUE).                     |
+| 5           | Maximum Likelihood (ML), MAP Estimation | CO3               | HW 2: Problems on ML estimation, MAP estimation.                                           |
+| 6           | Neyman-Pearson Detector, Likelihood Ratio Test (LRT), ROC Curves | CO1, CO2          | HW 3: NP detector design and LRT analysis.                                                |
+| 7           | Generalized Matched Filters, Estimator-Correlator | CO1, CO2         | HW 3: Problems on generalized matched filters and estimator-correlator techniques.        |
+| 8           | Estimator-Correlator & GLRT          | CO1, CO2          | HW 4: Design of GLRT-based detectors.                                                      |
+| 9           | Wiener Filter, Steepest Descent Algorithm | CO4               | - Problems on Wiener filter design and steepest descent algorithm implementation.            |
+| 10          | Least Squares Adaptive Filters (LMS), Variants of Least Squares Adaptive Filters | CO4              | HW 5: Implementation of LMS and least squares-based adaptive filters.                     |
+| 11          | Recursive Least Squares (RLS), Kalman Filter | CO4              | HW 6: Design of RLS-based adaptive filters and Kalman filter applications.                 |
+| 12          | Robust Least Squares Estimation        | CO4              | - Problems on robust least squares estimation techniques.                                    |
+
+Each week includes homework assignments that reinforce the concepts covered in lectures, with a focus on both theoretical understanding and practical application.
+
+**Assessment Strategy**
+
+The course employs a balanced assessment strategy to evaluate student learning:
+
+- **Assignments:** Contribute 30% of the final grade, focusing on problem-solving and theoretical understanding.
+- **Quiz:** Contributes 30%, testing immediate comprehension of topics covered in lectures.
+- **Mid-Semester Exam:** Contributes 20%, assessing cumulative knowledge up to the midpoint of the course.
+- **End-Semester Exam:** Contributes 20%, evaluating overall mastery of the subject.
+
+Additional evaluation methods may be included, as indicated by a placeholder in the Excel file.
+
+**Learning Resources**
+
+To support student learning, the following resources are recommended:
+
+1. **Textbooks:**
+   - "Fundamentals of Statistical Signal Processing (Volumes 1 & 2)" by Steven Kay
+   - "Adaptive Filter Theory" by Simon Haykin (4th Edition)
+
+These textbooks provide in-depth coverage of the course topics and serve as primary references for students.
+
+**Conclusion**
+
+This course offers a structured approach to mastering statistical signal processing, with a strong emphasis on practical applications through homework assignments. The combination of theoretical knowledge and hands-on experience ensures that students are well-prepared to tackle real-world problems in signal processing.

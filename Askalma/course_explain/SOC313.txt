@@ -1,0 +1,74 @@
+# Course Overview
+
+## Course Code and Name
+The course is coded as SOC313/SOC503 and titled "Sociology of India: Themes and Perspectives." It is a 4-credit course offered to both PhD and undergraduate (UG) students.
+
+## Course Description
+This course provides an in-depth exploration of the foundational concepts, contemporary debates, and key themes in Sociology and Social Anthropology within the Indian context. The primary objective is to equip students with the necessary sociological knowledge and analytical skills required for conducting research in these fields. The course is divided into two main parts: the first focuses on theoretical foundations, methodologies, reflexivity, and contextualization, while the second part delves into specific themes such as caste, class, gender, religion, social relations, and social stratification.
+
+## Prerequisites
+There are no mandatory prerequisites for this course. However, it is recommended that students have a basic understanding of sociological concepts to fully benefit from the course content.
+
+## Learning Outcomes (COs)
+By the end of the course, students will be able to:
+- **CO1:** Identify various Sociological Concepts, Themes, and Traditions.
+- **CO2:** Contextually situate sociological knowledge and research within India.
+- **CO3:** Develop a relevance of reflexivity and contextualization in sociological analysis.
+- **CO4:** Apply a critical analytical lens to study various themes in Sociology.
+- **CO5:** Construct an independent critical-reflexive approach toward research problems.
+
+## Weekly Syllabus and Topics
+
+| Week Number | Lecture Topic                     | CO Targetted |
+|-------------|-----------------------------------|--------------|
+| 1           | Introduction: Doing Sociology in India | CO1, CO2     |
+| 2           | Many Sociologies: India and the World | CO1, CO2, CO3|
+| 3           | Theory, Approaches, and Method    | CO1, CO2, CO3|
+| 4           | Reflexivity, Experience, and Contextualization | CO2, CO3   |
+| 5           | Themes in Sociology: Caste         | CO1, CO2, CO4, CO5 |
+| 6           | Themes in Sociology: Class        | CO1, CO2, CO4, CO5 |
+| 7           | Themes in Sociology: Gender/Sexuality | CO1, CO2, CO4, CO5 |
+| 8           | Themes in Sociology: Tribes       | CO1, CO2, CO4, CO5 |
+| 9           | Themes in Sociology: Religion     | CO1, CO2, CO4, CO5 |
+| 10          | Themes in Sociology: Social Relations and Structure | CO1, CO2, CO4, CO5 |
+| 11          | Themes in Sociology: Social Institutions | CO1, CO2, CO4, CO5 |
+| 12          | Themes in Sociology: Social Stratification and Inequality | CO1, CO2, CO4, CO5 |
+| 13          | Review and Revision                | CO1, CO2, CO4, CO5 |
+
+## Assignments
+- **Week 1:** Reading and Discussion
+- **Week 2:** Reading and Discussion
+- **Week 3:** Reading and Discussion
+- **Week 4:** Response Paper
+- **Week 5:** Reading and Discussion
+- **Week 6:** Commentary
+- **Week 7:** Reading and Discussion
+- **Week 8:** Reading and Discussion
+- **Week 9:** Response Paper
+- **Week 10:** Term Paper (Part I)
+- **Week 11:** Term Paper (Part II)
+- **Week 12:** Presentations
+
+## Assessment Strategy
+
+| Type of Evaluation | Contribution to Final Grade (%) |
+|--------------------|----------------------------------|
+| Term Paper          | 30%                            |
+| Presentations       | 20%                            |
+| Commentary          | 20%                            |
+| Response Paper      | 20%                            |
+| Class Discussions    | 10%                            |
+
+## Learning Resources
+
+1. **Veena das (Ed.),** *Oxford Handbook of Indian Sociology.* New Delhi: Oxford University Press, 2004.
+2. **Yogendra Singh (Ed),** *Indian Sociology: Identity, Communication, and Culture.* 2014.
+3. **Yogendra Singh (Ed),** *Indian Sociology: Emerging Concepts, Structure, and Change.* 2014.
+4. **Yogendra Singh (Ed),** *Indian Sociology: Development and Change.* 2014.
+5. **Sujata Patel (Ed.),** *The ISA Handbook of Diverse Sociological Traditions.* 2010.
+6. **T.N. Madan,** *Sociological Traditions: Methods and Perspectives in the Sociology of India.* 2011.
+7. **Guru, G., & Sarukkai, S.**, *The Cracked Mirror: An Indian Debate on Experience and Theory.* Oxford University Press, 2018.
+8. **Rege, S. (Ed.),** *Sociology of Gender: The Challenge of Feminist Sociological Thought.* 2003.
+9. **Srivastava, S., Arif, Y., & Abraham, J. (Eds.),** *Critical Themes in Indian Sociology.* 2018.
+
+This structured narrative provides a comprehensive overview of the course, its objectives, weekly topics, assignments, assessment criteria, and learning resources, ensuring a clear and organized understanding for students.

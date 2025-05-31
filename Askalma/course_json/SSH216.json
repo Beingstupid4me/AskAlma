@@ -1,0 +1,138 @@
+{
+  "Course Code": "SSH216",
+  "Course Name": "Introduction to Indian Mythology (IIM)",
+  "Credits": 2,
+  "Course Offered to": "UG",
+  "Course Description": "The primary aim of this course is to introduce students to vast, deep and rich world of Indian mythology. The course will seek to build a generic understanding of the Indian system of thought, with focus on stories as means of unraveling truth and building perspective.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisite"
+    ],
+    "Desirable": [
+      "Pre-requisite",
+      "Pre-requisite"
+    ],
+    "Other": [
+      "Pre-requisite",
+      "Pre-requisite",
+      "Pre-requisite",
+      "Pre-requisite"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Discuss and critique the concept of myth, mythology, history and related concepts.",
+    "CO2": "Discuss and critique specific characters and events from Mahabharat and Ramayana.",
+    "CO3": "Correlate and distinguish between the two epics.",
+    "CO4": "Correlate and distinguish between the two epics."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to the course",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Myth, Mythology, History - Understanding terminologies",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Origin Myths in Hindu Mythology",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Overview of the Ramayana",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "The story of Valmiki",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Birth of Ram and Sita - The Lore and Symbolism",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Ravana - Character Analysis",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Mahabharata - Overview",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Shakuntala and Dushyanta",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Dyut Sabha and Disrobing of Draupadi",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Analysis of the War",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Comparison of the two epics (continued into lecture 13)",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "50%",
+    "HW assignments": "20%",
+    "Endsem": "30%"
+  },
+  "Resource Material": {
+    "Textbook": "Reading list will be compiled and provided to students for photocopy.",
+    "Reference Book": "Reading list will be compiled and provided to students for photocopy."
+  }
+}

@@ -1,0 +1,62 @@
+### Course Overview  
+This is an introductory-level course on Social Psychology (Course Code: PSY302) designed for undergraduate students. The course spans 15 weeks and carries 4 academic credits. It provides a foundational understanding of Social Psychology, focusing on key theories, research methods, and real-world applications. Students will explore topics such as individual behavior in social contexts, group dynamics, decision-making processes, and the impact of social interactions on emotions and relationships.
+
+---
+
+### Prerequisites  
+Students are required to have completed an introductory course in Psychology (Introduction to Psychology) before enrolling in this course. This prerequisite ensures that students have a basic understanding of psychological principles, which will be built upon in this course.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Describe the origins and scope of Social Psychology, distinguishing it from other psychological disciplines.  
+- **CO2:** Compare and contrast various theories related to social behavior, as well as the research methods used to investigate social psychology problems.  
+- **CO3:** Apply theoretical knowledge and research skills to analyze real-world social phenomena.  
+- **CO4:** Develop a research proposal addressing a novel question in Social Psychology.
+
+---
+
+### Weekly Syllabus and Topics  
+
+| Week | Topic                     | COs Met       | Assignments/Reflections                                                                 |
+|------|----------------------------|---------------|------------------------------------------------------------------------------------------|
+| Week-1 | History and Foundations of Social Psychology          | CO1           | Introduction to key concepts and theories.                                              |
+| Week-2 | Research Methods in Social Psychology                | CO5           | Overview of research design and methodology.                                            |
+| Week-3 | Individual and the Social World                      | CO2, CO3, CO4  | Understanding individual behavior within social contexts.                              |
+| Week-4 | Understanding Others        | CO2, CO3, CO4  | Exploring interpersonal interactions and their impact on others.                       |
+| Week-5 | Social Judgement and Moral Decision Making          | CO2, CO3, CO4  | Examining the role of social context in decision-making processes.                      |
+| Week-6 | Attitudes, Behavior, and Rationalization             | CO2, CO3, CO4  | Investigating how attitudes influence behavior and thought patterns.                    |
+| Week-7 | Processes of Influencing Others                     | CO2, CO3, CO4  | Understanding persuasion and social influence techniques.                              |
+| Week-8 | Human Emotions               | CO2, CO3, CO4  | Exploring the biological and psychological basis of emotions.                         |
+| Week-9 | Persuasion, Advertising, and Behaviour Change       | CO2, CO3, CO4  | Analyzing persuasive techniques and their impact on behaviour.                        |
+| Week-10| Relationships                  | CO2, CO3, CO4  | Examining the dynamics of interpersonal and group relationships.                       |
+| Week-11| Discrimination, Stereotyping, Stigma, and Prejudice | CO2, CO3, CO4  | Understanding how social perceptions shape behaviour and outcomes.                     |
+| Week-12| Help, Hurting, and Cooperation                | CO2, CO3, CO4  | Exploring ethical dilemmas and the role of cooperation in social interactions.          |
+| Week-13| Groups and Group Behaviour              | CO2, CO3, CO4  | Investigating group dynamics and their impact on individual and collective behaviour.   |
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical knowledge and practical application skills. The breakdown is as follows:  
+
+| Type of Evaluation         | % Contribution to Final Grade | Coursework/Weighting Notes                          |
+|-----------------------------|-------------------------------|-------------------------------------------------------|
+| Homework Assignments        | 15%                           | Weekly assignments to reinforce concepts learned in class.      |
+| Exam 1                      | 20%                           | Covers foundational theories and research methods.          |
+| Exam 2                      | 20%                           | Focuses on advanced topics such as group behaviour and social influence.    |
+| Exam 3                      | 20%                           | Comprehensive assessment of all course material.            |
+| In-class Quizzes/Participation | 10%                          | Weekly quizzes to assess understanding of key concepts.       |
+| Final Project               | 15%                           | A research project exploring a contemporary issue in Social Psychology. |
+
+---
+
+### Learning Resources  
+Students are encouraged to utilize the following resources for their studies:  
+- **Textbook 1:** *Social Psychology (4th Ed.)* by Gilovich, Keltner, & Nisbett (2015). W.W. Norton & Company. ISBN: 978-0393913231.  
+- **Textbook 2:** *Social psychology alive.* by Olson, J. M., Breckler, S. J., & Wiggins, E. C. (2015). Course material will be supplemented with additional readings assigned weekly by the instructor.  
+
+---
+
+### Conclusion  
+This course provides a comprehensive introduction to Social Psychology, equipping students with the knowledge and skills to analyze and understand social behaviour in various contexts. Through a combination of lectures, discussions, assignments, and assessments, students will gain a deep understanding of the field's theoretical foundations, research methods, and practical applications.

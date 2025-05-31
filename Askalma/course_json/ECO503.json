@@ -1,0 +1,146 @@
+{
+  "Course Code": "ECO503",
+  "Course Name": "Decision Theory",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The theory of rational choice permeates every discipline that touches upon human behavior. This course provides foundations for rational decision making in certain and uncertain environments. Various representation theorems are discussed and the associated decision rules are illustrated in applications.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Students are able to understand the foundations for decision making under subjective uncertainty.",
+      "CO2": "Students are able to understand the foundations for decision making under objective uncertainty.",
+      "CO3": "Students are able to use the rational choice theories in substantive applications like insurance and portfolio choice.",
+      "CO4": ""
+    },
+    {
+      "CO1": "",
+      "CO2": "",
+      "CO3": "Students are able to use the rational choice theories in substantive applications like insurance and portfolio choice.",
+      "CO4": ""
+    },
+    {
+      "CO1": "",
+      "CO2": "",
+      "CO3": "Students are able to appreciate some statistical procedures as applications of rational choice theory.",
+      "CO4": ""
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Objective and Subjective Probability; Utility and Its Maximization",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Role of Theories; Separating Hyperplane Theorem Decisions under Risk: Von-Neumann-Morgenstern Theorem",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Problem Set 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Role of Theories; Separating Hyperplane Theorem Decisions under Risk: Von-Neumann-Morgenstern Theorem",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Attitudes towards Risk and Stochastic Dominance Orders",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Problem Set 2"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "De Finetti's Theorem",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Decisions under Uncertainty: Savage's Theorem",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Problem Set 3"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Allais Paradox, Ellsberg Paradox; Choquet Expected Utility",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Maxmin Expected Utility",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Applications",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Problem Set 4 Problem Set 5"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Sequential Decision Analysis Blackwell's Informativeness Order",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Problem Set 4 Problem Set 5"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Sequential Decision Analysis Blackwell's Informativeness Order",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Problem Set 4 Problem Set 5"
+    }
+  ],
+  "Weekly Lab Plan": [],
+  "Assessment Plan": [
+    {
+      "Type": "Quizzes",
+      "% Contribution in Grade": 50
+    },
+    {
+      "Type": "Midterm",
+      "% Contribution in Grade": 25
+    },
+    {
+      "Type": "Endterm",
+      "% Contribution in Grade": 25
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "Theory of Decision Under Uncertainty by Itzhak Gilboa",
+      "Microeconomic Foundations by David Kreps",
+      "Introduction to Statistical Decision Theory by John Pratt, Howard Raiffa and Robert Schlaifer"
+    ],
+    "Reference Book": ""
+  }
+}

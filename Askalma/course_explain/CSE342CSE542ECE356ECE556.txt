@@ -1,0 +1,65 @@
+### Course Overview  
+This course  "Statistical Machine Learning" (Course Code: CSE342/CSE542/ECE356/ECE556) is designed to provide an in-depth understanding of statistical machine learning and pattern classification. It combines theoretical concepts with practical applications, emphasizing hands-on experience through programming assignments and a project component. The course is suitable for both undergraduate and postgraduate students pursuing degrees in computer science or related fields.
+
+---
+
+### Prerequisites  
+Students are expected to have a foundational knowledge in the following areas:  
+- **Mandatory:** A solid understanding of probability and statistics (MTH201).  
+- **Desirable:** Basic programming skills, preferably in Python (CSE101).  
+Additional prerequisites or resources may be required based on individual student needs.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1** Understand and explain fundamental concepts in machine learning and pattern classification.  
+2. **CO2** Apply suitable techniques for feature extraction and classification to solve real-world problems.  
+3. **CO3** Design and evaluate machine learning algorithms for various applications.  
+4. **CO4** Implement and test classifiers on diverse datasets, focusing on performance evaluation.  
+5. **CO5** Analyze and interpret results to improve the effectiveness of machine learning models.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials         | Platform (Hardware/Software)  
+|-------------|----------------------------------|-------------------|------------------------------------|-------------------------------|
+| 1           | Mathematical review, Introduction to Pattern Recognition and Evaluation Metrics | CO3               | Assignment                        | Online platform or software   |
+| 234          | Bayesian Decision Theory         | CO1, CO2          | Back of the book problems and paper review | N/A                           |
+| 5           | Parameter Estimation            | CO1, CO2          | Back of the book problems          | N/A                           |
+| 6           | Discriminant Analysis: PCA, LDA, ICA | CO1, CO2, CO3    | Coding assignment and problems     | Coding environment             |
+| 7           | Parameter Estimation: MLE, MAP, EM | CO1, CO2, CO3    | Coding assignment and problems     | Coding environment             |
+| 8           | Non-parametric Estimation - Voronoi, Parzen Windows | CO1, CO2, CO3    | Coding assignment and problems     | Coding environment             |
+| 9           | Hidden Markov Models            | CO1, CO2, CO3    | Coding assignment and problems     | Coding environment             |
+| 10          | Neural Networks                  | CO1, CO2, CO3    | Coding assignment and problems     | Coding environment             |
+| 11          | Ensembles: Bagging, Boosting, Consistency of classifiers | CO1, CO2, CO3    | Coding assignment and problems     | Coding environment             |
+| 12          | Unsupervised Learning, Non-parametric Regression | CO1, CO2, CO3    | Coding assignment and problems     | Coding environment             |
+
+---
+
+### Assessment Strategy  
+
+| Type of Evaluation       | % Contribution in Grade | Week(s) of Evaluation | Platform (Hardware/Software)  
+|---------------------------|------------------------|-------------------------|-------------------------------|
+| Quiz                      | 10                     | Throughout the course  | Online platform or software   |
+| Assignment                | 25                    | Ongoing                 | Coding environment             |
+| Mid-sem                  | 15                    | Week 7                  | N/A                           |
+| Project                   | 30                    | Ongoing                 | Project-based platform        |
+| End-sem                  | 20                    | Week 13                 | N/A                           |
+
+---
+
+### Resource Materials  
+
+- **Textbook:**  
+  *Pattern Classification by David G. Stork, Peter E. Hart, and Richard O. Duda.*  
+- **Reference Book:**  
+  *Pattern Recognition and Machine Learning by Christopher Bishop.*  
+
+These resources provide comprehensive coverage of the course topics and are recommended for deeper understanding.
+
+---
+
+### Conclusion  
+This course offers a comprehensive exploration of statistical machine learning and pattern classification, blending theoretical knowledge with practical implementation. Through weekly lectures, assignments, and a final project, students will gain hands-on experience in designing and evaluating classifiers. The assessment strategy ensures a balanced evaluation of both theoretical understanding and practical skills.

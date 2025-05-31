@@ -1,0 +1,96 @@
+{
+  "Course Code": "ENT415",
+  "Course Name": "New Venture Planning",
+  "Credits": "4",
+  "Course Offered to": "B.Tech. post 4 semesters (students from 3rd year), M.Tech., and Ph.D.",
+  "Course Description": "The course covers the tools, legal entities, fundraising methods, team formation, and venture launch strategies for entrepreneurs. It is divided into three modules: Explore, Identify, and Execute. Module 1 focuses on understanding entrepreneurial dilemmas and business opportunities. Module 2 introduces lean startup methodologies and bootstrapping techniques. Module 3 covers growth strategies, market analysis, and financing options.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Get an insight of the practical challenges and opportunities involved in getting a venture off the ground and the rewards it offers"
+    ],
+    "Desirable": [
+      "Understand the importance of quick prototyping and the ability to pivot a venture based on early customer feedback."
+    ],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Get an insight of the practical challenges and opportunities involved in getting a venture off the ground and the rewards it offers",
+    "CO2": "Understand the importance of quick prototyping and the ability to pivot a venture based on early customer feedback.",
+    "CO3": "Visualize the advantages and pitfalls of the various fundraising options available",
+    "CO4": "Mastering tools such as Business Model Canvas to demonstrate proficiency for fundraising, team building, and marketing the startup idea."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1 and 2",
+      "Lecture Topic": "The Plunge Decision | Exploring Entrepreneurial Opportunities",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3 and 4",
+      "Lecture Topic": "The Theory of Effectuation in Entrepreneurship | The Lean Startup Methodology",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5 and 6",
+      "Lecture Topic": "Utilizing strategies of cost leadership, differentiation, and focus in new ventures | Industry Analysis tools like Porter's 5 forces and PESTEL Model",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7 and 8",
+      "Lecture Topic": "Growth and Scaling a venture | Bootstrapping",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9 and 10",
+      "Lecture Topic": "Understanding Financing Options | Funding and Growing a Business",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Exploring offbeat business and funding models",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12 and 13",
+      "Lecture Topic": "Student team Presentations on venture ideas using Business Model Canvas",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Class Participation and Attendance": "40%",
+    "Dorm Room Presentation": "15%",
+    "Assignments": "15%",
+    "Final BMC Presentation": "30%"
+  },
+  "Resource Material": {
+    "Textbook": "The Lean Startup and Business Model Generation",
+    "Reference Book": "HBR Case Studies"
+  }
+}

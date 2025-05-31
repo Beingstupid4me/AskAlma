@@ -1,0 +1,69 @@
+{
+  "Course Code": "MTH564A",
+  "Course Name": "Introduction to Riemannian Geometry with Some Applications",
+  "Credits": 2,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Riemannian Geometry evolved as a tool used by Relativity Theory, to understand the physics of the universe. More recently, it has found applications in fields such as Riemannian Computing in Computer Vision (RCCV), which has been defined as \"the scientific area that integrates tools from Riemannian geometry and statistics to develop theoretical and computational solutions for optimization and statistical inference problems driven by applications in computer vision.\" (Riemannian Comuputing in Computer Vision, by P.K. Turaga and A. Srivastava, p. 1) This course aims to equip students with some of the necessary mathematical tools needed to pursue further studies in these emerging fields. We will begin the course with some preliminaries. We will cover some very basic topology, just enough to be able to define a manifold. We will also spend some time on differentiable manifolds, tangent spaces, and vector fields, before we introduce the concept of a Riemannian metric. We will then study Riemannian manifolds, geodesics and the exponential map. Following this, the Grassmann manifold will be studied as a subtopic.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100",
+      "MTH203"
+    ],
+    "Desirable": [
+      "MTH240",
+      "MTH562"
+    ],
+    "Other": [
+      "MTH544"
+    ]
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Basic Topology - open sets, closed sets, basis for a topology, connected sets, compact sets, continuous functions. Definition of a differentiable manifold and examples.",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": "Relevant homework problems will be assigned"
+    },
+    {
+      "Week Number": 34,
+      "Lecture Topic": "The Lie bracket, covariant differentiation along a curve, the Levi-Civita connection.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": "Relevant homework problems will be assigned"
+    },
+    {
+      "Week Number": 56,
+      "Lecture Topic": "The exponential map, geodesics in Riemannian manifolds, curvature.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Relevant homework problems will be assigned"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "The Grassman Manifold",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": "Relevant homework problems will be assigned"
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments and presentation of solutions": 25,
+    "Mid Semester Exam": 25,
+    "End Semester Exam": 50
+  },
+  "Resource Material": {
+    "Textbook": "Riemannian Geometry, by Manfredo Do Carmo.",
+    "Reference Book": "Calculus on Manifolds, by M. Spivak"
+  }
+}

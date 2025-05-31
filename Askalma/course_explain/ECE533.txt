@@ -1,0 +1,53 @@
+**Course Overview**
+
+The course titled **Satellite Navigation and Sensor Fusion (ECE533)** is a comprehensive 4-credit module aimed at equipping students with advanced knowledge in satellite navigation systems and sensor fusion techniques. This course is designed for both undergraduate and postgraduate students, focusing on the integration of Global Positioning System (GPS) technologies, inertial measurement units (IMU), and Kalman filter algorithms to achieve accurate positioning and velocity estimation.
+
+**Course Description**
+
+This course delves into the foundational aspects of satellite navigation, starting with an introduction to radio navigation and GPS. Students will explore the intricacies of GPS signal structure, positioning algorithms, and receiver mechanisms. The curriculum also addresses challenges such as position error sources and their mitigation through various correction techniques. Additionally, the course introduces IMU technology, Kalman filter principles, and their applications in sensor fusion for autonomous systems.
+
+**Prerequisites**
+
+- **Mandatory:** Digital Signal Processing
+- **Desirable:** Probability and Random Processes
+
+**Course Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Describe the basics of satellite navigation.
+2. **CO2:** Summarize GPS signal structure, acquisition mechanisms, and receiver operation.
+3. **CO3:** Explain IMU dynamics and position/velocity determination using IMU observations.
+4. **CO4:** Implement sensor fusion algorithms for GNSS and IMU integration.
+5. **CO5:** Discuss recent advancements in satellite navigation technologies.
+
+**Weekly Lecture Plan**
+
+- **Week 1:** Introduction to radio navigation and GPS
+- **Week 2:** GPS signal specification and positioning algorithms
+- **Week 3:** Positioning errors, differential positioning systems
+- **Week 4:** Augmentation system for GPS
+- **Week 5:** GPS signal acquisition and receiver structure
+- **Week 6:** Effects of interference on weak signals
+- **Week 7:** Introduction to Galileo and other satellite navigation systems
+- **Week 8:** IMU dynamics and position/velocity estimation
+- **Week 9:** Introduction to sensor fusion and Kalman Filter
+- **Week 10:** Extended Kalman Filter implementation
+- **Week 11:** Unscented Kalman Filter application
+- **Week 12:** GNSS and IMU integration for positioning
+
+**Assessment Plan**
+
+The course assessment is structured as follows:
+
+- **Assignments (30%):** Practical tasks to apply GPS and IMU principles.
+- **Seminar (10%):** Presentation on recent satellite navigation developments.
+- **Midsem Exam (20%):** Comprehensive evaluation of foundational concepts.
+- **Endsem Exam (40%):** In-depth assessment of integrated systems.
+
+**Resource Materials**
+
+- **Textbook:** *Understanding GPS: principles and applications* by Kaplan, Elliott, and Christopher Hegarty
+- **Reference Book:** Additional reading materials available upon request
+
+This course provides a blend of theoretical knowledge and practical application, ensuring students are well-prepared for real-world challenges in autonomous systems.

@@ -1,0 +1,123 @@
+{
+  "Course Code": "BIO522",
+  "Course Name": "Algorithms for Computational Biology",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This is an introductory course on algorithms for computational biology. The goal is to make students familiar with the basics of algorithm designing techniques and their application in solving problems of molecular biology. Students will be trained for developing their own algorithms for solving real life biological problems. Hands on training will be given for commonly used softwares for genomic data analysis.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Familiarity with structural programming and molecular biology."
+    ],
+    "Desirable": [
+      "Familiarity with structural programming and molecular biology."
+    ],
+    "Other": [
+      "Familiarity with structural programming and molecular biology."
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Design algorithms for computational biology problems using algorithmic techniques like greedy, divide and conquer, dynamic programming etc.",
+    "CO2": "Analyze algorithms from computational complexity point of view.",
+    "CO3": "Utilize common bioinformatic tools for solving practical problems.",
+    "CO4": "Implement algorithms using common data structures like arrays, graphs and trees."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Background, algorithms, complexity, brute force, recursive techniques",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "5 Assignments"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Molecular biology primer, different data types. Anecdotes of breakthroughs.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "5 Labs"
+    },
+    {
+      "Week": "345",
+      "Lecture Topic": "Sequence alignment: pairwise, global, local, multiple sequence alignments, sequence database search, suffix trees; dynamic programming based algorithms, space efficient alignment using divide & conquer.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "1 project"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "addressing challenges with pseudoknots, application of dynamic programming.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "7.8",
+      "Lecture Topic": "Genome assembly - Overlap Layout Consensus and de Bruijn graph assembly, greedy algorithm for shortest common superstring.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Regulatory motif discovery: brute force, greedy algorithms, the Pattern Branching algorithm",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "10.11",
+      "Lecture Topic": "Analysis of bulk and single cell expression; data: normalisation, dimension reduction, clustering, biclustering, BiMax, a divide and conquer algorithm, differential expression analysis, pseudo time analysis using minimum spanning tree.",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Network analysis: clique finding, regulatory networks, co-expression networks, causality analysis (mutual entropy and partial correlation)",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Presentation of projects",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "15",
+    "Midsem": "15",
+    "HW assignments": "10",
+    "Endsem": "30"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Kleinberg, Jon, and Eva Tardos. Algorithm design. Pearson Education India, 2006.",
+      "Jones, Neil C., and Pavel Pevzner. An introduction to bioinformatics algorithms. MIT press, 2004."
+    ]
+  }
+}

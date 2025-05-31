@@ -1,0 +1,105 @@
+{
+  "Course Code": "CSE 640",
+  "Course Name": "Collaborative Filtering",
+  "Credits": 4,
+  "Course Offered to": "PG",
+  "Course Description": "Recommender systems have around for sometime. But in recent times with the boom of retail online trade recommendation systems and the hype around the NetFlix competition has made recommender systems a major topic in data mining. In this course we will learn about different aspects of recommender systems with particular emphasis on its algorithms.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH100 Maths I"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to demonstrate an understanding of concepts of recommender systems.",
+    "CO2": "Students will be able to implement both primitive (neighbourhood models) and state-of-the-art (latent factor models) algorithms for recommender systems.",
+    "CO3": "Students will be able to implement advanced projects in this area.",
+    "CO4": "Students will be able to implement advanced projects in this area."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "What is a recommender system? Applications and Motivations",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Reading assignment#1"
+    },
+    {
+      "Week": "2 and 3",
+      "Lecture Topic": "Explicit vs Implicit Ratings \u2013 advantages and disadvantages",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Reading assignment#2"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Bias Prediction \u2013 predicting user and item biases (statistical and optimization based methods)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Quiz#1: Implementing bias prediction in class"
+    },
+    {
+      "Week": "5 to 7",
+      "Lecture Topic": "Rating Prediction \u2013 local / neighbourhood models (Including review of some machine learning concepts \u2013 clustering, regression, classification)",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Assignment#1: Implement neighbourhood based models"
+    },
+    {
+      "Week": "8 to 10",
+      "Lecture Topic": "Rating Prediction \u2013 latent factor models / global models (modeling the problem as a matrix completion, theoretical guarantees, algorithms and performances)",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "C03"
+      ],
+      "Assignments": "Assignment#2: Implement latent factor models"
+    },
+    {
+      "Week": "11 and 12",
+      "Lecture Topic": "Hybrid models",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment#3: Implement hybrid model from papers"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Student Presentations",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz#3: Based on paper presentation"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [
+      "Quiz | 10"
+    ],
+    "Midsem": [
+      "Mid-sem | 10"
+    ],
+    "HW assignments": [],
+    "Endsem": [
+      "End-sem | 10"
+    ],
+    "Project": [
+      "Project | 40"
+    ]
+  },
+  "Resource Material": {
+    "Textbook": "CSE 640",
+    "Reference Book": "Recommender Systems Handbook, Ricci, F., Rokach, L., Shapira, B., Kantor, P.B. (Eds.), Springer"
+  }
+}

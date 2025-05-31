@@ -1,0 +1,71 @@
+**Course Overview: Computing For Medicine**
+
+The course is titled **Computing For Medicine (BIO546/CSE585)** and is worth **4 credits**, offered to both **UG/PG** students. This course is designed to equip students with the skills and knowledge required to apply computing solutions in the medical field. The primary objective is to train students in creating innovative computing tools that address contemporary challenges in medicine, public health, and related domains. The course will cover a range of topics, from foundational concepts like electronic health records (EHRs) to advanced modeling techniques for disease spread and management.
+
+**Course Prerequisites**
+
+To successfully engage with this course, students must meet the following prerequisites:
+
+- **Mandatory**: Any student pursuing a third or fourth-year undergraduate degree, as well as those in Master's or Ph.D. programs.
+- **Desirable**: Experience with relevant technologies and concepts will be beneficial but is not mandatory.
+
+**Course Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Develop interoperable data exchange solutions for medicine and public health.
+2. **CO2**: Understand and critique existing modeling methods used in medical and public health data.
+3. **CO3**: Create models that analyze the host and pathogen factors involved in disease transmission.
+4. **CO4**: Design interventions to manage epidemics and health emergencies effectively.
+5. **CO5**: Utilize natural language processing (NLP) techniques and effective risk communication strategies to address infodemics.
+
+**Weekly Lecture Plan**
+
+The course is structured into weekly modules, each focusing on specific topics that build upon the previous weeks' content:
+
+- **Week 1**: Overview of Computing in Healthcare - Understanding the role of computing in modern healthcare.
+- **Week 2**: National Health Stack - Exploring interoperability and data standards (HL7, DICOM, FHIR).
+- **Week 3**: Clinical Vocabularies and Ontologies - Learning about terminologies used in medical data management.
+- **Week 4 & 5**: Anonymization Techniques - Ensuring patient privacy through data sharing between healthcare institutions.
+- **Week 6**: Advanced Anonymization Methods - Deep dive into techniques for secure data sharing.
+- **Week 7**: Host and Pathogen Factors - Modeling the relationship between hosts, pathogens, and disease spread.
+- **Week 8 & 9**: Agent-Based Models (ABMs) - Applying ABMs to simulate disease transmission scenarios.
+- **Week 10**: Building ABMs for Epidemics like COVID-19 - Practical application of models in real-world scenarios.
+- **Week 11**: Randomization and Associative Modeling - Techniques for analyzing complex health data.
+- **Week 12**: Predictive & Causal Modeling - Developing models to predict disease outcomes and inform public health strategies.
+- **Week 13**: Managing Infodemics with NLP - Using text analysis to combat misinformation during epidemics.
+
+**Weekly Lab Plan**
+
+The laboratory component reinforces the theoretical concepts through hands-on exercises:
+
+- **Week 1**: Introduction to Computing Tools in Healthcare
+- **Week 2**: Hands-On with Interoperability Standards (HL7, DICOM, FHIR)
+- **Week 3**: Clinical Vocabularies and Ontology Exercises
+- **Week 4 & 5**: Anonymization Techniques Lab Workshops
+- **Week 6**: Advanced Anonymization Methods Practical Sessions
+- **Week 7**: Host and Pathogen Factors Modeling Lab
+- **Week 8 & 9**: ABM Simulations in Public Health Scenarios
+- **Week 10**: Case Studies on Epidemic Modeling
+- **Week 11**: Randomization and Associative Modeling Exercises
+- **Week 12**: Predictive & Causal Modeling Practical Workshops
+- **Week 13**: NLP Techniques for Infodemic Management
+
+**Assessment Strategy**
+
+The course employs a comprehensive assessment strategy to evaluate student understanding and application of concepts:
+
+- **Mid-Semester Exam (20%)**: Covers foundational topics, ensuring students have grasped key concepts early in the semester.
+- **Assignments (15%)**: Regular tasks that reinforce weekly lectures and labs, contributing to continuous evaluation.
+- **Quizzes (15% each)**: Short assessments at Weeks 4, 8, and 12 to gauge progress on specific topics.
+- **End-Semester Exam (25%)**: Comprehensive evaluation of all course material, reflecting its importance in finalizing student learning.
+- **Project (25%)**: A capstone project where students apply their knowledge to address a real-world medical challenge.
+
+**Learning Resources**
+
+Students are provided with essential materials during the semester. Key resources include:
+
+- **Textbook**: Comprehensive course materials distributed throughout the semester.
+- **Reference Materials**: "National Digital Health Blueprint" and "Biomedical Informatics" by Andreas, offering deeper insights into digital health advancements.
+
+This structured approach ensures a holistic learning experience, combining theoretical knowledge with practical application, preparing students to tackle complex challenges in healthcare computing.

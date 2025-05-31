@@ -1,0 +1,140 @@
+{
+  "Course Code": "CSE 641",
+  "Course Name": "Deep Learning",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Recent advances in machine learning and specifically deep learning techniques have made it a popular and often a default option in many problem domains. The objective of this course is to introduce students through some of the latest techniques in deep learning. The focus of the course will be hands on and the students should be able to design intelligent deep learning systems for solving the problems in the area of their interests.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Machine Learning"
+    ],
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to understand various deep learning models such CNN, Autoencoders, RNN etc.",
+    "CO2": "Students are able to analyze various applications solved through the use of deep learning models",
+    "CO3": "Students are able to design and implement their own deep learning models for the problem of their choice",
+    "CO4": "Students are able to design and implement their own deep learning models for the problem of their choice"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Machine Learning, Neural Network",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Training: Backpropagation",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Implement backprop"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Introduction to DL libraries",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Introduction to DL libraries",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Use the libraries for a toy problem"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "CNN",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "CNN Applications",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Implement a CNN application"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Autoencoder",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Autoencoder Applications",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Implement a Autoencoder application"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "RNN/LSTM",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "RNN/LSTM Applications",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Implement a RNN application"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Deep Reinforcement Learning",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Deep Reinforcement Learning Applications",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Implement a RL application"
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Model Compression",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": 10,
+    "HW assignments": null,
+    "Endsem": 10,
+    "Assignment": 50,
+    "Project": 30
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville",
+      "Neural Networks: Tricks of the Trade - Second Edition"
+    ]
+  }
+}

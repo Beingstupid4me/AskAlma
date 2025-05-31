@@ -1,0 +1,122 @@
+{
+  "Course Code": "MTH374/MTH574",
+  "Course Name": "Linear Optimisation",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course aims at introducing students to the application of optimization techniques to various areas of CSE and ECE. We will primarily focus on linear optimization (linear programming) and learn about the structural and algorithmic aspects of optimization problems. The theoretical assignments will aim at developing the necessary skills for analysing algorithms and formulation of LPs. Computational assignments will complement the theory by modeling real-world problems as linear programs and solve them using publicly available solvers. Towards the end of the course, we will briefly discuss convex programs and semi-definite programs (SDPs) with real-world applications and point to some of the existing solvers for this class of problems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Linear Algebra"
+    ],
+    "Desirable": [
+      "Introduction to Programming"
+    ],
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Should be able to formulate Linear/Non-Linear optimisation problems in the standard mathematical form.",
+    "CO2": "Should be able to apply algorithms/procedures like simplex and interior point methods to solve optimisation problems",
+    "CO3": "Should be able to use solvers to obtain solutions to moderately sized problems and obtain optimal solutions (or lower bounds)."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Linear Algebra Review",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW 1: Theory"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Linear Optimisation Problems - Modeling through examples",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW 1: Coding"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Geometry of Linear Programming",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Geometry of Linear Programming",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Simplex Method",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW 2: Coding"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Simplex Method",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Duality Theory",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Duality Theory + Theorem of the Alternative",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW 3: Coding"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Ellipsoid Method/Interior Point Methods",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Network Flow Problems",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW 4: Coding"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Integer Programming Formulations",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 25,
+    "Midsem": 25,
+    "HW assignments": 40,
+    "Endsem": 35
+  },
+  "Resource Material": {
+    "Textbook": "Introduction to Linear Optimisation by D. Bertsimas",
+    "Reference Book": null
+  }
+}

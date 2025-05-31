@@ -1,0 +1,89 @@
+{
+  "Course Code": "CSE580A",
+  "Course Name": "Ontology Modeling",
+  "Credits": 2,
+  "Course Offered to": "Senior UG, PG",
+  "Course Description": "Knowledge Graphs (semantic descriptions of entities and their relationships) are heavily used in knowledge enabled applications across several domains such as life science, geoscience, healthcare, Internet of Things, smart cities etc. Commercial enterprises such as Google, Microsoft, Amazon, LinkedIn, IBM, GE, Siemens, Accenture, etc., use knowledge graphs in several of their applications. Ontologies encode knowledge of a domain in a machine processable form and act as the schema for the data in the knowledge graphs. In this course, we will learn how to design ontologies to capture domain knowledge and use them to power intelligent applications.",
+  "Prerequisites": {
+    "Mandatory": "CSE102 Data Structures & CSE 201 Advanced Programming",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to design and construct ontologies with concepts (20-30), roles (5-10), and relationships between them.",
+    "CO2": "Students are able to demonstrate the utility of ontologies by using it in an application",
+    "CO3": "",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to course content What is an Ontology? What is OWL (Web Ontology Language)?",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Steps in designing an ontology Introduce Protege, and some of its plugins",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Tutorial on Protege"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Describe an in-class modeling exercise & build an ontology List some sample domains for students to work on. Student groups can pick one of these (or others of their choice) and work on them",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Introduce ontology reasoning and reasoners Introduce OWL API",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Tutorial on OWL API"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Introduce Ontology Design Patterns (ODPs) Redesign the in-class ontology using ODPs",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Discuss project progress Validating ontology, unit testing Anti-patterns",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Lifecycle of an ontology, ontology maintanance, version control Open problems in ontology modeling",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "15",
+    "Midsem": "15",
+    "HW assignments": "50",
+    "Endsem": "20"
+  },
+  "Resource Material": {
+    "Textbook": "Foundations of Semantic Web Technologies.",
+    "Reference Book": ""
+  }
+}

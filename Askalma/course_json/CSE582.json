@@ -1,0 +1,154 @@
+{
+  "Course Code": "",
+  "Course Name": "Software Production, Evolution and Maintenance (SPEM)",
+  "Credits": 4,
+  "Course Offered to": "PG / UG",
+  "Prerequisites": {
+    "Mandatory": [
+      "Basic understanding of software engineering concepts and techniques"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "Week 1",
+      "Lecture Topic": "Software Evolution Vs Maintenance",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Exercise"
+    },
+    {
+      "Week": "Week 2",
+      "Lecture Topic": "Software Evolution and Maintenance Models",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Quiz"
+    },
+    {
+      "Week": "Week 3",
+      "Lecture Topic": "Software Product Line Engineering - A Motivation",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Exercise / Presentation"
+    },
+    {
+      "Week": "Week 4",
+      "Lecture Topic": "Software Framework and Variability",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Quiz"
+    },
+    {
+      "Week": "Week 5",
+      "Lecture Topic": "Orthogonal Variability Model",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Exercise / Presentation"
+    },
+    {
+      "Week": "Week 6",
+      "Lecture Topic": "Domain-Specific Requirements Engineering",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Quiz"
+    },
+    {
+      "Week": "Week 7",
+      "Lecture Topic": "Software Re-engineeirng",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Exercise / Presentation"
+    },
+    {
+      "Week": "Week 8",
+      "Lecture Topic": "Continued from Week 6 and 7",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Quiz"
+    },
+    {
+      "Week": "Week 9",
+      "Lecture Topic": "Introduction to DevOps and Containers",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Exercise / Presentation"
+    },
+    {
+      "Week": "Week 10",
+      "Lecture Topic": "Microservice Architecture",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Quiz"
+    },
+    {
+      "Week": "Week 11",
+      "Lecture Topic": "Continued from week 10",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Exercise / Presentation"
+    },
+    {
+      "Week": "Week 12",
+      "Lecture Topic": "Legacy Information Systems",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Quiz"
+    },
+    {
+      "Week": "Week 13",
+      "Lecture Topic": "Student Presentations / Project Report discussions",
+      "COs Met": [],
+      "Assignments": "Report submission"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Weekly Homework Exercises",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "Weekly Quiz",
+      "% Contribution in Grade": "10"
+    },
+    {
+      "Type of Evaluation": "Mid-Sem",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "End-Sem",
+      "% Contribution in Grade": "20"
+    },
+    {
+      "Type of Evaluation": "Term Project / Paper Report",
+      "% Contribution in Grade": "20"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "Foundations, Principles, and Techniques\u201d Springer-Verlag, 2005",
+      "Maintenance - A Practitioner's Approach\u201d, 2014"
+    ],
+    "Reference Book": null
+  }
+}

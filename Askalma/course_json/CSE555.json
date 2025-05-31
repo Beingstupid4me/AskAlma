@@ -1,0 +1,110 @@
+{
+  "Course Code": "INTRODUCTION TO SPATIAL COMPUTING",
+  "Course Name": "Spatial Computing",
+  "Credits": 4,
+  "Course Offered to": "CSE102 Data Structures and Algorithms, CSE202 Fundamentals of Database Systems",
+  "Course Description": "This course introduces fundamental ideas underlying geospatial science, systems and services. These include spatial concepts and data models, spatial query languages, spatial storage and indexing, query processing and optimization, spatial networks, spatial data mining. Some future research trends in spatial computing would also be covered.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE102 Data Structures and Algorithms",
+      "CSE202 Fundamentals of Database Systems"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Understanding of spatial data, and how it is represented, and analyzed.",
+    "CO2": "Ability to solve basic spatial analysis problems.",
+    "CO3": "Some understanding of the current challenges and trends in spatial computing",
+    "CO4": "Understanding of research problems and approaches in spatial computing"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Spatial Computing",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Text book problems on fundamental spatial concepts, Programming assignment based on Google\u2019s geo-location API"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Fundamental spatial concepts",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Programming assignment based on Flickr/ Twitter geo-location API"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Spatial Query Languages",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Spatial Indexes",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Spatial Query Processing and Optimization",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Spatial Networks",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Spatial Data Mining",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Trends in Spatial Computing",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Final Project Presentations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "Mid-term Exam",
+    "Midsem": "15%",
+    "HW assignments": "Homework Assignments",
+    "Endsem": "Final Exam"
+  },
+  "Resource Material": {
+    "Textbook": "GIS A Computing Perspective; CRC Press; 2nd edition, 2004.",
+    "Reference Book": ""
+  }
+}

@@ -1,0 +1,66 @@
+### Course Overview  
+**Course Name:** Virtual Reality (CSE570)  
+**Credits:** 4  
+**Offered To:** Undergraduate and Postgraduate students  
+**Course Description:** This course provides an in-depth exploration of virtual reality (VR), focusing on its applications, technologies, and design principles. Students will learn about rendering techniques, geometric modeling, display optics, sensor tracking, vestibular systems, and interface design. Advanced topics such as telepresence, procedural modeling for large virtual worlds, and multi-model interactions will also be covered. The course is project-based, utilizing game engines to develop VR applications.  
+
+**Prerequisites:**  
+- **Mandatory Prerequisites:** CSE333/533 Computer Graphics  
+- **Desirable Prerequisites:** None specified.  
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. Apply learned concepts to design moderate-to-large VR-based systems.  
+2. Understand rendering in VR and its associated challenges.  
+3. Utilize geometric modeling algorithms to design virtual worlds.  
+4. Design user interactions for VR environments.  
+
+### Weekly Lecture Plan  
+**Week 1:** Introduction to VR, historical perspective. (CO1, CO2, CO3)  
+**Week 2:** Graphics pipeline and real-time rendering in VR. (CO2)  
+**Week 3:** Transformations, viewing, and projection. (CO2, CO3)  
+**Week 4:** Geometric modeling. (CO3)  
+**Week 5:** Light and optics, lens systems, and imaging. (CO2)  
+**Week 6:** Stereoscopy, depth, and motion perception. (CO1, CO2)  
+**Week 7:** Human perception: visual, audio, vestibular, and tactile. (CO1, CO4)  
+**Week 8:** Introduction to Augmented Reality (AR). (CO4)  
+**Week 9:** Multi-user interaction. (CO4)  
+**Week 10:** Tracking systems. (CO1, CO4)  
+**Week 11:** Procedural modeling and large virtual worlds. (CO1, CO3)  
+**Week 12:** Telepresence and interaction. (CO1, CO2, CO4)  
+**Week 13:** User interfaces, social interaction, and evaluation of VR systems. (CO1, CO4)  
+
+### Weekly Lab Plan  
+- **Week 1:** Introduction to VR tools and software platforms.  
+- **Week 2:** Basic rendering techniques in VR.  
+- **Week 3:** Geometric transformations and viewports.  
+- **Week 4:** Advanced geometric modeling exercises.  
+- **Week 5:** Lighting and optics simulations.  
+- **Week 6:** Stereoscopy basics and depth perception studies.  
+- **Week 7:** Human perception experiments (e.g., color, sound, motion).  
+- **Week 8:** AR integration in virtual environments.  
+- **Week 9:** Multi-user interaction design challenges.  
+- **Week 10:** Tracking system implementation.  
+- **Week 11:** Procedural modeling projects.  
+- **Week 12:** Telepresence interface design.  
+- **Week 13:** Final project presentations and evaluations.  
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical knowledge and practical skills:  
+- **Assignments (20%):** Weekly assignments, including coding exercises and design projects.  
+- **Quizzes (10%):** Short quizzes covering key concepts from lectures.  
+- **Laboratory Work (10%):** Hands-on experiments with VR tools and technologies.  
+- **Project (40%):** A comprehensive project involving the development of a VR application or system.  
+- **End-of-Semester Examination (20%):** Comprehensive exam assessing overall understanding of course material.  
+
+### Learning Resources  
+1. **Textbook:**  
+   - "Virtual Reality" by Steven M. LaValle, Cambridge University Press, 2016.  
+
+2. **References:**  
+   - *3D User Interfaces: Design and Applications* by Doug A. Bowman, Ernst Kruijff, Joseph J. LaViola, and Ivan Poupyrev, Addison-Wesley, 2005.  
+   - *Handbook on Virtual Environments* by K. S. Hale and K. M. Stanney, CRC Press, 2nd edition, 2015.  
+
+3. **Additional Resources:**  
+   - Online tutorials and resources from VR development platforms (e.g., Unity, Unreal Engine).  
+   - Access to academic papers and articles on virtual reality technologies.

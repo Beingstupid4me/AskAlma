@@ -1,0 +1,39 @@
+**Course Overview: Theories of Deep Learning**
+
+**Course Code:** CSE516/ECE559  
+**Course Name:** Theories of Deep Learning  
+**Credits:** 4  
+**Offered To:** Undergraduate and Postgraduate Students  
+
+This course delves into the theoretical foundations of deep learning, focusing on how computers learn from data through hierarchical concepts. It emphasizes the practical application of mathematical theories in understanding deep neural networks (DNNs). The course structure includes weekly lectures, assignments, quizzes, mid-semester, and end-semester evaluations.
+
+**Prerequisites:**  
+- **Mandatory:** Linear Algebra, Signals and Systems, Python/Matlab Programming, Mathematics III  
+- **Desirable:** Machine Learning or Statistical Machine Learning  
+
+Students are expected to have a foundational understanding of programming and mathematics before enrolling. Additional resources will be provided in class for those needing extra support.
+
+**Course Outcomes (COs):**  
+1. Students will understand why deep learning leads to more expressive models.  
+2. They will identify tools from Random Matrix/Information theory to optimize training in deep models.  
+3. They will analyze training dynamics using visualization techniques.  
+
+**Weekly Lecture Plan:**  
+- **Week 1:** Introduction to theoretical aspects of DL, focusing on expressivity theorems and data classes.  
+- **Weeks 2-4:** Exploration of DL through matrix factorization (MF), supervised/unsupervised learning, and deep MF approximation guarantees.  
+- **Weeks 5-6:** Geometric perspectives of expressivity and random matrix theory in DNNs.  
+- **Weeks 7-8:** Advanced topics on DNN initialization and information theory applications.  
+- **Week 9:** Optimization algorithms and loss landscape analysis.  
+- **Week 10:** Saliency maps, spectral visualization, and adversarial examples.  
+
+**Assessment Plan:**  
+- **Assignments (20%)**: Include mathematically involved problems and computational experiments.  
+- **Quizzes (20%)**: Best two out of three quizzes contribute to the final grade.  
+- **Mid-Semester Exam (20%)**: Covers foundational concepts taught in the first half of the course.  
+- **End-Semester Exam (40%)**: Comprehensive evaluation of the entire syllabus, emphasizing practical application and critical thinking.  
+
+**Resources:**  
+- **Textbook:** "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.  
+- **References:** Additional materials will be provided during class sessions.
+
+This course is designed to provide a comprehensive understanding of deep learning theory, equipping students with the knowledge and skills to apply these concepts in practical scenarios.

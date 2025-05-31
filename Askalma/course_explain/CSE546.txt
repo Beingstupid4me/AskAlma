@@ -1,0 +1,76 @@
+### Course Overview  
+**Course Code:** CSE 546  
+**Course Name:** Applied Cryptography  
+**Credits:** 4  
+**Offered To:** Undergraduate and Postgraduate students (UG/PG)  
+
+This course provides an in-depth exploration of cryptography, focusing on both theoretical foundations and practical applications. Students will gain a comprehensive understanding of cryptographic principles and their real-world implementation. The course assumes a basic familiarity with mathematics and computer science concepts but does not require prior expertise in cryptography.
+
+---
+
+### Prerequisites  
+**Mandatory Pre-requisite:** CSE 121 Discrete Mathematics  
+
+**Desirable Pre-requisites:** None specified  
+
+Students are expected to have a foundational understanding of discrete mathematics, as this course builds upon these concepts. Additional pre-requisites can be inserted if necessary.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+1. **CO1:** Analyze weak ciphers and break them using various cryptographic techniques.  
+2. **CO2:** Summarize the design principles of block ciphers, stream ciphers, hash functions, and public key cryptography schemes.  
+3. **CO3:** Explain why certain public key schemes (e.g., RSA and El Gamal) work and their underlying mathematical principles.  
+4. **CO4:** Apply cryptographic protocols to solve real-world security challenges.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |  
+|-------------|-----------------------------------|------------------|-----------------------------|  
+| 1           | Introduction and Perfect Security | CO1               | HW1                         |  
+| 2           | Stream Ciphers                   | CO1/CO2          |                             |  
+| 3           | Block Ciphers                    | CO1/CO2          | HW2                         |  
+| 4           | Continued: Stream and Block Ciphers | CO1/CO2        |                             |  
+| 5           | Hash Functions and MACs         | CO1/CO2          | HW3                         |  
+| 6           | Authenticated Encryption          | CO1/CO2          |                             |  
+| 7           | Mathematical Background (Number Theory and Algebra) | CO3             | HW4                         |  
+| 8           | Primality Testing                 | CO3              |                             |  
+| 9           | Public Key Cryptography (RSA, El Gamal) | CO3/CO4        | HW5                         |  
+| 10          | Continued: Advanced PKC Techniques | CO3/CO4        |                             |  
+| 11          | Zero-Knowledge Proofs            | CO3              | HW6                         |  
+| 12          | Advanced Cryptographic Protocols   | CO3/CO4        |                             |  
+| 13          | Continued: Advanced Protocols     | CO3/CO4        |                             |  
+
+---
+
+### Assessment Plan  
+
+The course assessment is designed to evaluate both theoretical understanding and practical application. The breakdown is as follows:  
+
+- **Project:** 20% (Includes a final project where students design and implement cryptographic solutions)  
+- **Assignments:** 20% (Weekly assignments to reinforce lecture concepts)  
+- **Mid-Semester Examination:** 25% (Evaluates understanding of core concepts covered in the first half of the course)  
+- **End-Semester Examination:** 35% (Comprehensive assessment of all course material)  
+
+Additional assessments can be inserted if necessary.
+
+---
+
+### Resource Materials  
+
+1. **Textbook:**  
+   - "Cryptography and Network Security" by William Stallings  
+
+2. **Reference Books:**  
+   - "Contemporary Cryptography" by Douglas Stinson  
+   - "An Introduction to Mathematical Cryptography" by Jonathan Katz and Yehuda Lindell  
+
+These resources provide in-depth coverage of the topics discussed in class, serving as valuable references for further study.
+
+---
+
+This structured narrative provides a comprehensive overview of the course, incorporating all provided data while maintaining logical flow and clarity.

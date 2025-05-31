@@ -1,0 +1,157 @@
+{
+  "Course Code": "CSE561",
+  "Course Name": "Probabilistic Graphical Models",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will introduce the basic concepts of probabilistic graphical models. Graphical Models are a unified framework that allow to express and manipulate complex probability distributions in a compact and efficient way. They allow to one to reach mathematically sound conclusions in presence of limited and noisy observations. Many machine learning applications are tackled by the use of these models",
+  "Prerequisites": {
+    "Mandatory": [
+      "Probability and Statistics"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to construct Bayesian and Markov network representation for a given problem.",
+    "CO2": "Students will know and able to apply techniques to do exact and approximate inference in the probabilistic graphical models.",
+    "CO3": "Students are able to understand how to learn parameters and structure for graphical models."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction and Probability Refresher",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Bayesian Networks",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Bayesian Networks",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Markov Networks",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Markov Networks",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Variable Elimination",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Clique Tree Inference",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Loopy BP",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "MaxProd BP",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Sampling: MCMC",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Gibbs Sampling",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Parameter Learning",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Parameter Learning",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type": "Quiz",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type": "Assignment",
+      "% Contribution in Grade": 10
+    },
+    {
+      "Type": "Mid-sem",
+      "% Contribution in Grade": 20
+    },
+    {
+      "Type": "End-sem",
+      "% Contribution in Grade": 30
+    },
+    {
+      "Type": "Homework",
+      "% Contribution in Grade": 10
+    },
+    {
+      "Type": "Presentation",
+      "% Contribution in Grade": 10
+    }
+  ],
+  "Resource Material": {
+    "Textbook": [
+      "Probabilistic Graphical Models: Principles and Techniques, Daphne Koller and Nir Friedman, MIT Press, 2009",
+      "Bayesian Reasoning and Machine Learning, David Barber, Cambridge University Press"
+    ]
+  }
+}

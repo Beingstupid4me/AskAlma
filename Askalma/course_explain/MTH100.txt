@@ -1,0 +1,51 @@
+### Course Overview  
+**Course Code:** MTH100  
+**Course Name:** Math 1  
+**Credits:** 4  
+**Offered To:** UG  
+**Course Description:** This first-level math course covers the fundamentals of linear algebra, including vector spaces, matrix algebra, linear transformations, eigenvalues and eigenvectors, orthogonality, properties of symmetric matrices, positive definite matrices, and Singular Value Decomposition (SVD). The course is designed to provide a strong foundation in linear algebra for subsequent curricula in Computer Science and Electronics Engineering. Additionally, the course introduces students to mathematical rigor and proofs, enhancing their analytical skills.  
+
+### Prerequisites  
+**Mandatory Prerequisites:** None specified.  
+**Desirable Prerequisites:** None specified.  
+**Other Prerequisites:** None specified.
+
+### Learning Outcomes (COs)  
+Upon successful completion of this course, students will be able to:  
+- **CO1:** Compute solutions, forms, and metrics related to linear algebra using the methods taught in this course.  
+- **CO2:** Test or classify given conditions using the criteria and methods covered in this course.  
+- **CO3:** Determine the truth or falsity of statements involving vector spaces and linear transformations and justify their answers using relevant techniques.  
+- **CO4:** Construct proofs for statements related to vector spaces, linear transformations, matrices, and other topics covered in this course.  
+
+### Weekly Syllabus and Topics  
+The course is divided into 15 weeks, with each week focusing on specific topics that align with the learning outcomes:  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|------------------|----------------------------|
+| Weeks 1-3   | Systems of linear equations, matrix operations, and invertibility | CO1, CO2, CO3, CO4 | Homework, tutorials, quizzes |
+| Weeks 4-6   | Vector spaces, subspaces, linear independence, basis, dimension | CO1, CO2, CO3, CO4 | Homework, tutorials, quizzes |
+| Weeks 7-9   | Linear transformations, rank, matrix of linear transformations, similarity transformation | CO1, CO2, CO3, CO4 | Homework, tutorials, quizzes |
+| Weeks 10-12| Eigenvalues and eigenvectors, diagonalization, complex eigenvalues | CO1, CO2, CO3, CO4 | Homework, tutorials, quizzes |
+| Weeks 13-15| Orthogonality, least squares, symmetric matrices, quadratic forms, SVD | CO1, CO2, CO3, CO4 | Homework, tutorials, quizzes |
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application of concepts:  
+
+| Type of Evaluation       | % Contribution in Grade |
+|---------------------------|------------------------|
+| Test                     | 10%                   |
+| Mid-Semester Exam        | 20%                   |
+| Weekly submission, quiz   | 25%                   |
+| End-Semester Exam        | 45%                   |
+
+Additional evaluation methods may include other assessments as needed.
+
+### Learning Resources  
+**Textbook:**  
+- David Lay: *Linear Algebra and Its Applications*, 3rd (Indian Edition), Pearson.  
+
+**Reference Books:**  
+1. Strang: *Linear Algebra and Its Applications*, 4th Edn, Cengage.  
+2. Hoffman & Kunze: *Linear Algebra*, Pearson.  
+
+These resources provide comprehensive coverage of the course material and are recommended for deeper understanding and additional practice.

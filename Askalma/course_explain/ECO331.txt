@@ -1,0 +1,39 @@
+# Course Overview  
+This course ECO331, named "Foundation of Finance" is designed to provide a comprehensive understanding of the foundational principles and practices in finance. It is a 4-credit course offered to undergraduate students (UG) and serves as an essential stepping stone for those interested in pursuing careers in finance or related fields. The course aims to equip students with the knowledge and skills necessary to make informed financial decisions, analyze financial data, and understand the complexities of financial systems.
+
+## Prerequisites  
+Students enrolling in this course are expected to have a basic understanding of economics and mathematics. While there are no specific prerequisites mentioned, a foundational knowledge of these subjects will be beneficial for success in this course.
+
+## Learning Outcomes (COs)  
+By the end of this course, students should be able to:  
+- **CO1:** Understand the fundamental concepts of the time value of money and apply them to calculate the value of cash flows relating to various financial instruments.  
+- **CO2:** Create and interpret financial statements such as balance sheets, income statements, and cash flow statements.  
+- **CO3:** Demonstrate proficiency in valuation techniques, including discounted cash flow (DCF) methods.  
+- **CO4:** Analyze the major types of financial decisions made by corporations using a structured framework.
+
+## Weekly Syllabus and Topics  
+The course is divided into 13 weeks, each focusing on specific topics to ensure a gradual progression from basic concepts to advanced applications:  
+
+- **Weeks 1-2:** Introduction to Financial Management and Time Value of Money (TVM). Students will learn how TVM principles are applied to evaluate financial instruments.  
+- **Weeks 3-5:** Elements of Balance Sheet, Income Statement, and Cash Flow Statements. This section emphasizes the creation and interpretation of these statements.  
+- **Weeks 6-8:** Capital Budgeting Techniques. Students will analyze investment opportunities using methods like net present value (NPV) and internal rate of return (IRR).  
+- **Weeks 9-10:** Cost of Capital. This topic covers how to determine the required return on capital for a company's investments.  
+- **Weeks 11-12:** Financing Decisions. Students will explore how a company can finance its operations and investments, including debt and equity financing.  
+- **Week 13:** Dividend Decision and Working Capital Management. This final week focuses on dividend policy and managing a company's short-term liquidity.
+
+**Note:** No specific topics or assignments are detailed for Week 4.
+
+## Assessment Strategy  
+The course assessment is designed to evaluate students' understanding of the material through various methods:  
+
+- **Quizzes (4 in total):** Each quiz contributes 10% to the final grade, totaling 40%. These assessments will test weekly learning outcomes and ensure consistent progress throughout the course.  
+- **Projects:** A comprehensive project worth 20% of the final grade will allow students to apply their knowledge to real-world scenarios or case studies.  
+- **End-Term Examination:** The final examination contributes 40% to the final grade and will assess students' overall understanding of the course material.
+
+The assessment weights are carefully chosen to ensure a balanced evaluation of both theoretical knowledge and practical application.
+
+## Learning Resources  
+Students are recommended to refer to the following textbooks for additional reading and practice:  
+1. *Fundamentals of Financial Management (13th edition)* by Brigham Eugene F, Houston Joel F. Cengage Learning  
+
+This textbook provides a thorough grounding in financial management principles and is an essential resource for this course.

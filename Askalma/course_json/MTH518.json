@@ -1,0 +1,86 @@
+{
+  "Course Code": "MTH518",
+  "Course Name": "Topics in Number Theory",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The aim of this course is to introduce various topics in Number Theory such as Farey fractions, continued fractions, partitions, quadratic forms and geometry of numbers.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH211 (Number Theory) or equivalent"
+    ],
+    "Desirable": null,
+    "Other": [
+      "*Please insert more rows if required",
+      "*Please insert more rows if required"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to explain the approximation of irrational numbers with rational numbers using the theory of Farey fractions",
+    "CO2": "Ability to explain the relation between convergents of a simple continued fraction and best approximations, and ability to construct the fundamental solution of Pell's equation.",
+    "CO3": "Ability to explain and develop combinatorial and algebraic proofs of several identities involving partition functions",
+    "CO4": "Ability to explain and develop combinatorial and algebraic proofs of several identities involving partition functions",
+    "CO5": "Ability to explain the theory of quadratic forms proof of Minkowski's and to demonstrate its convex body theorem applications. and to demonstrate its applications"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "One-two",
+      "Lecture Topic": "Farey Fractions and Irrational Numbers: Farey sequences, Rational approximations, Irrational Numbers, Hurwitz\u2019s Theorem.",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Tutorial Sheets"
+    },
+    {
+      "Week": "Three-Six",
+      "Lecture Topic": "Continued Fractions: Finite continued fractions, convergents to a continued fraction, continued fractions with positive quotients, simple continued fractions, the representation of an irreducible rational fraction by a simple continued fraction, the continued fraction algorithm and Euclid\u2019s algorithm, the difference between the fraction and its convergents, Infinite simple continued fractions, the representation of an irrational number by an infinite continued fraction, periodic continued fractions, representation of quadratic surds by continued fractions, Approximation by convergents, Hurwitz\u2019s Theorem, Pell\u2019s Equation.",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Tutorial Sheets"
+    },
+    {
+      "Week": "Seven-Nine",
+      "Lecture Topic": "Partitions: Partitions of Numbers, Generating functions, Geometric representations, Two theorems of Euler and further algebraic identities, Jacobi\u2019s triple product identity and its special cases, congruence properties of p(n), The Rogers-Ramanujan identities, Ramanujan\u2019s continued fraction.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Tutorial Sheets"
+    },
+    {
+      "Week": "Ten-Twelve",
+      "Lecture Topic": "Quadratic forms: Positive quadratic forms, Equivalence of quadratic forms, Hermite\u2019s Theorem, Sums of squares.",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Tutorial Sheets"
+    },
+    {
+      "Week": "Thirteen",
+      "Lecture Topic": "Geometry of Numbers: Blichfeldtz\u2019s Principle, Minkowski\u2019 s Convex Body Theorem and its applications.",
+      "COs Met": [
+        "CO5"
+      ],
+      "Assignments": "Tutorial Sheets"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 30,
+    "Midsem": 30,
+    "HW assignments": null,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": [
+      "G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers",
+      "I.Niven, H.S. Zuckerman, and H.L. Montgomery, An Introduction to the Theory of Numbers",
+      "G.E. Andrews, The Theory of Partitions",
+      "E. Landau, Elementary Number Theory"
+    ],
+    "Reference Book": [
+      "G.H. Hardy and E.M. Wright, An Introduction to the Theory of Numbers",
+      "I.Niven, H.S. Zuckerman, and H.L. Montgomery, An Introduction to the Theory of Numbers",
+      "G.E. Andrews, The Theory of Partitions",
+      "E. Landau, Elementary Number Theory"
+    ]
+  }
+}

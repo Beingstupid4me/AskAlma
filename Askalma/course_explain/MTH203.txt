@@ -1,0 +1,53 @@
+**Course Overview**
+
+The course is coded as MTH203 and titled "Mathematics III (Multivariate Calculus)." It carries 4 academic credits and is offered to undergraduate students in the Department of Mathematics. This course serves as an extension of calculus concepts into higher dimensions, focusing on multivariable functions, vector calculus, and complex analysis.
+
+**Course Description**
+
+The curriculum begins with an extension of limits, continuity, and differentiation to functions of several variables. Students will explore partial derivatives, directional derivatives, gradient vectors, extreme values, and Lagrange multipliers. The course then delves into integration in multiple dimensions, including double and triple integrals, with applications such as calculating areas, volumes, moments, and centers of mass. Vector calculus is introduced through topics like line and surface integrals, divergence, curl, Green's theorem, Stokes' theorem, and the divergence theorem. The latter part of the course transitions into complex analysis, covering complex numbers, analytic functions, Cauchy-Riemann equations, trigonometric and hyperbolic functions, logarithms, power series, Taylor series, complex integration, and residues.
+
+**Prerequisites**
+
+While there are no explicit prerequisites listed, students are expected to have a strong foundation in single-variable calculus. The course assumes familiarity with basic concepts from real analysis, particularly as covered in "Real Analysis-I (MTH240)." Students should be prepared for an intensive mathematical exploration requiring analytical thinking and problem-solving skills.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Apply concepts of continuity, differentiability, extrema, and integrability in multivariable functions.
+- **CO2:** Work with vector fields, evaluate line and surface integrals, calculate quantities like work, circulation, flux, and apply theorems such as Green's, Stokes', and divergence theorem.
+- **CO3:** Evaluate derivatives and integrals of complex functions, including applications of Cauchy’s theorem.
+- **CO4:** Determine convergence of complex series, power series, and represent complex functions using Taylor series.
+
+**Weekly Lecture Plan**
+
+The course is structured over 12 weeks, with each week focusing on specific topics:
+
+- **Weeks 1-3:** Introduction to multivariable calculus, limits, continuity, partial derivatives, directional derivatives, gradient vectors, extreme values, and Lagrange multipliers.
+- **Weeks 4-6:** Double and triple integrals, applications of multiple integrals, and vector functions.
+- **Weeks 7-9:** Vector calculus, including line integrals, surface integrals, Green's theorem, Stokes' theorem, divergence theorem, and complex integration.
+- **Weeks 10-12:** Complex numbers, analytic functions, Cauchy-Riemann equations, power series, Taylor series, and applications of complex analysis.
+
+**Assignments**
+
+Assignments are a critical component of the course. Students will complete weekly homework assignments, with the best 10 out of 12 submissions contributing to their final grade. Additional exercises may be provided during laboratory sessions.
+
+**Assessment Plan**
+
+The course assessment is divided as follows:
+
+- **Quiz 1:** 10%
+- **Midsem Exam:** 30%
+- **Quiz 2:** 10%
+- **Endsem Exam:** 40%
+- **Homeworks (Best 10 out of 12):** 10%
+
+The end-semester examination carries a significant weight, reflecting its importance in evaluating students' understanding of the course material.
+
+**Resource Materials**
+
+The primary textbook for this course is "Thomas' Calculus (11th Edition)" by Joel Hass, Frank R. Giordano, and Maurice D. Weir. Additionally, "Advanced Engineering Mathematics (9th Edition)" by Erwin Kreyszig is recommended for supplementary reading. Students are encouraged to utilize these resources for deeper understanding and additional practice.
+
+**Conclusion**
+
+This course provides a comprehensive exploration of multivariable calculus and complex analysis, equipping students with advanced mathematical tools essential for various fields in science and engineering. The structured approach, combined with practical assignments and assessments, ensures a thorough grasp of the subject matter.

@@ -1,0 +1,223 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, so I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through this step by step.
+
+First, I'll look at the table provided in the file. It seems to be divided into several sections: Course Details, Weekly Lecture Plan, Assessment Plan, and Resource Material. Each section has its own set of data that needs to be extracted and formatted correctly.
+
+Starting with "Course Code" and "Course Name". These are straightforward; I'll look for the columns labeled "Unnamed: 1" since "Unnamed: 0" is probably an index. Both Course Code and Course Name seem to repeat multiple times, so I can take any of them as they're all the same.
+
+Next, "Credits" should be extracted from the row where it's mentioned that Credits are 4 for each offering. That seems clear.
+
+For "Course Offered to", since all entries say "UG", I'll just note that down.
+
+The "Course Description" is a bit lengthy and appears in multiple rows. Since it's the same across different rows, I can take any of them or combine them if necessary. But looking at the structure, each CO (Course Outcome) has its own description, so maybe the overall course description should be included as a single string.
+
+Moving on to "Prerequisites", there are mandatory and desirable sections. In the provided data, under row 8, it says "Pre-requisite (Mandatory)" with "Nil" in both columns. So I'll note that as "Mandatory": null, "Desirable": null, and maybe an "Other" category if needed.
+
+The "Course Outcomes" section lists CO1 to CO4. Each CO has its description provided in the data starting from row 12 onwards. For example, CO1 is about writing formal proofs, which is a desirable outcome for students. I'll need to map each CO with their respective descriptions.
+
+For the "Weekly Lecture Plan", it's structured as an array of objects. Each week (Week Number) has a Lecture Topic and COs Met. Looking at rows 14-23, each week from 1 to 8 has specific topics and associated COs. I'll need to extract this into an array format with Week numbers starting from 1.
+
+The "Assessment Plan" includes Quiz exams, Midsem, HW assignments, and Endsem. From the data, Midsem is 30%, Quizzes are 30%, Major is 40%. Wait, in row 36, it says "Major | 40", so maybe that's the final exam or another major assessment. I'll structure this as a list with these values.
+
+Lastly, "Resource Material" includes Textbooks and Reference Books. There are three textbooks listed multiple times, each appearing under different rows. I'll compile them into an array of objects, noting both the title and the source.
+
+I also need to ensure that all missing values are handled gracefully, using empty strings or null where necessary. For example, if any CO doesn't have a description, it should be represented as an empty string.
+
+Putting this all together, I'll structure each section according to the provided JSON template, making sure data types are correct (e.g., numbers for Credits and Assignments, arrays for Lecture Plan and Assessment Plan). I'll avoid adding any extra text or markdown formatting, just the raw JSON.
+</think>
+
+```json
+{
+  "Course Code": "MTH502",
+  "Course Name": "Number Theory",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course is an elementary introduction to number theory with no algebraic prerequisites. Topics covered include primes, congruences, quadratic reciprocity, diophantine equations, Arithmetic functions, Lagrange's four-squares theorem and partitions.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "To be able to write down formal Mathematical proofs",
+    "CO2": "To be able to explain elementary results on distributions of prime numbers",
+    "CO3": "To be able to apply number-theoretic techniques to simply computations.",
+    "CO4": "To be able to describe properties of some special number- theorectic functions and their growth rates"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Divisibility: basic definition, properties, prime numbers, some results on distribution of primes.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Congruences, Complete and reduced residue systems, theorems of Fermat, Euler & Wilson, application to RSA cryptosystem. Linear congruences and Chinese Remainder Theorem.",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial 2"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Primitive roots and indic",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial 3"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Quadratic congruences, and Quadratic Reciprocity law",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial 4"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Arithmetical functions: examples, with some properties and their rate of growth.",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "Tutorial 5"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Numbers of special form: Perfect numbers; Mersenne Primes and Amicable numbers; Fermat's numbers; Fibonacci numbers.",
+      "COs Met": ["CO1", "CO3", "CO5"],
+      "Assignments": "Tutorial 6"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Diophantine equations: linear and quadratic, some general equations.",
+      "COs Met": ["CO1", "CO6"],
+      "Assignments": "Tutorial 7"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Representation of integers as sums of squares.",
+      "COs Met": ["CO1", "CO7"],
+      "Assignments": "Tutorial 8"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Partition: basic properties",
+      "COs Met": ["CO1", "CO8"],
+      "Assignments": "Tutorial 9"
+    }
+  ],
+  "Assessment Plan": [
+    "Quiz exams": 30,
+    "Midsem": 30,
+    "HW assignments": 40
+  ],
+  "Resource Material": {
+    "Textbook": [
+      { "Title": "David M. Burton, Elementary Number Theory, Tata McGraw Hill." },
+      { "Title": "Niven, Zuckerman and Montgomery, An introduction to the theory of" },
+      { "Title": "Hardy and Wright, An introduction to the theory of numbers, Oxford" },
+      { "Title": "Tom M. Apostol, Introduction to Analytic Number Theory, Springer." },
+      { "Title": "Alan Baker, A Concise Introduction to the Theory of Numbers, Cambridge University Press." }
+    ],
+    "Reference Book": [
+      { "Title": "David M. Burton, Elementary Number Theory, Tata McGraw Hill." },
+      { "Title": "Niven, Zuckerman and Montgomery, An introduction to the theory of" },
+      { "Title": "Hardy and Wright, An introduction to the theory of numbers, Oxford" },
+      { "Title": "Tom M. Apostol, Introduction to Analytic Number Theory, Springer." },
+      { "Title": "Alan Baker, A Concise Introduction to the Theory of Numbers, Cambridge University Press." }
+    ]
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH502",
+  "Course Name": "Number Theory",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course is an elementary introduction to number theory with no algebraic prerequisites. Topics covered include primes, congruences, quadratic reciprocity, diophantine equations, Arithmetic functions, Lagrange's four-squares theorem and partitions.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "To be able to write down formal Mathematical proofs",
+    "CO2": "To be able to explain elementary results on distributions of prime numbers",
+    "CO3": "To be able to apply number-theoretic techniques to simply computations.",
+    "CO4": "To be able to describe properties of some special number- theorectic functions and their growth rates"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Divisibility: basic definition, properties, prime numbers, some results on distribution of primes.",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Tutorial 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Congruences, Complete and reduced residue systems, theorems of Fermat, Euler & Wilson, application to RSA cryptosystem. Linear congruences and Chinese Remainder Theorem.",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial 2"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Primitive roots and indic",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial 3"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Quadratic congruences, and Quadratic Reciprocity law",
+      "COs Met": ["CO1", "CO3"],
+      "Assignments": "Tutorial 4"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Arithmetical functions: examples, with some properties and their rate of growth.",
+      "COs Met": ["CO1", "CO4"],
+      "Assignments": "Tutorial 5"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Numbers of special form: Perfect numbers; Mersenne Primes and Amicable numbers; Fermat's numbers; Fibonacci numbers.",
+      "COs Met": ["CO1", "CO3", "CO5"],
+      "Assignments": "Tutorial 6"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Diophantine equations: linear and quadratic, some general equations.",
+      "COs Met": ["CO1", "CO6"],
+      "Assignments": "Tutorial 7"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Representation of integers as sums of squares.",
+      "COs Met": ["CO1", "CO7"],
+      "Assignments": "Tutorial 8"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Partition: basic properties",
+      "COs Met": ["CO1", "CO8"],
+      "Assignments": "Tutorial 9"
+    }
+  ],
+  "Assessment Plan": [
+    "Quiz exams": 30,
+    "Midsem": 30,
+    "HW assignments": 40
+  ],
+  "Resource Material": {
+    "Textbook": [
+      { "Title": "David M. Burton, Elementary Number Theory, Tata McGraw Hill." },
+      { "Title": "Niven, Zuckerman and Montgomery, An introduction to the theory of" },
+      { "Title": "Hardy and Wright, An introduction to the theory of numbers, Oxford" },
+      { "Title": "Tom M. Apostol, Introduction to Analytic Number Theory, Springer." },
+      { "Title": "Alan Baker, A Concise Introduction to the Theory of Numbers, Cambridge University Press." }
+    ],
+    "Reference Book": [
+      { "Title": "David M. Burton, Elementary Number Theory, Tata McGraw Hill." },
+      { "Title": "Niven, Zuckerman and Montgomery, An introduction to the theory of" },
+      { "Title": "Hardy and Wright, An introduction to the theory of numbers, Oxford" },
+      { "Title": "Tom M. Apostol, Introduction to Analytic Number Theory, Springer." },
+      { "Title": "Alan Baker, A Concise Introduction to the Theory of Numbers, Cambridge University Press." }
+    ]
+  }
+}

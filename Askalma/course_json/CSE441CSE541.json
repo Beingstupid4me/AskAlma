@@ -1,0 +1,97 @@
+{
+  "Course Code": "CSE441/541",
+  "Course Name": "Advanced Biometrics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will introduce advanced topics in biometrics to students. The course will involve studying algorithms for image quality, feature extraction and matching. To understand the concepts involved, topics from machine learning, image processing and pattern recognition will also be presented. The projects will enable them to design, implement, and analyze biometric systems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH201 Probability & Statistics"
+    ],
+    "Desirable": [
+      "CSE343/CSE543 Machine Learning"
+    ],
+    "Other": [
+      "Pattern Recognition or Machine Learning"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "The students will get an overview of biometrics and in depth information regarding biometric modalities",
+    "CO2": "The students will be equipped with the necessary tools to design, implement and evaluate biometric systems",
+    "CO3": "The student will be able to analyze existing theories, methods and interpretation in the field of biometrics and working independently on solving theoretical and practical biometrics",
+    "CO4": null
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Biometrics and Modalities",
+      "COs Met": [
+        "C01"
+      ],
+      "Assignments": "Paper Reading"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Performance Evaluation of Biometric Systems",
+      "COs Met": [
+        "C01",
+        "C02"
+      ],
+      "Assignments": "Coding assignment"
+    },
+    {
+      "Week": 34567,
+      "Lecture Topic": "Physiological Biometrics: Face, Fingerprint and Iris",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "Assignments": "Coding assignment and paper reading"
+    },
+    {
+      "Week": 89,
+      "Lecture Topic": "Behavioral Biometrics",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "Assignments": "Coding assignment and paper reading"
+    },
+    {
+      "Week": 1011,
+      "Lecture Topic": "Continuous Authentication",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "Assignments": "Coding assignment and paper reading"
+    },
+    {
+      "Week": 1213,
+      "Lecture Topic": "Privacy and Template Protection, Presentation Attacks",
+      "COs Met": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "Assignments": "Coding assignment"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 10,
+    "Midsem": 10,
+    "HW assignments": 25,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": null,
+    "Reference Book": [
+      "Handbook of Biometrics, Jain, Flynn, Ross, 2008",
+      "Handbook of Biometrics, Jain, Flynn, Ross, 2008",
+      "Handbook of Biometrics, Jain, Flynn, Ross, 2008"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+**Course Overview**
+
+The course MTH 201, titled "Probability and Statistics," is designed for students in the UG - First year program. This 4-credit course provides a foundational understanding of probability theory and its practical applications in statistical analysis. The curriculum covers essential topics such as probabilistic models, expectation, correlation, hypothesis testing, and parameter estimation. The course aims to equip students with analytical skills necessary for various applications across different disciplines.
+
+**Prerequisites**
+
+While no specific prerequisites are listed for this course, it is advisable for students to possess a basic understanding of mathematical concepts, particularly those relevant to statistical analysis. Students are encouraged to ensure they have the necessary mathematical foundation before enrolling.
+
+**Learning Outcomes (COs)**
+
+Upon successful completion of this course, students will be able to:
+
+- **CO1**: Derive first and second-order statistics, conditional probability mass functions (PMFs), and probability density functions (PDFs) from common random variables.
+- **CO2**: Apply discrete and continuous probabilistic models to real-world problems, as presented in word problems.
+- **CO3**: Calculate properties of the sample mean and variance when drawn from a normal population.
+- **CO4**: Develop parameter estimates for common probability distributions and perform hypothesis testing based on random samples.
+- **CO5**: Conduct MATLAB experiments to analyze data, generate distributions, compute statistics, and demonstrate basic hypothesis testing.
+
+**Weekly Syllabus**
+
+The course is structured into weekly lectures, each focusing on specific topics that align with the learning outcomes. Below is an overview of the topics covered in each week:
+
+1. **Week 12**: Introduction to Set Theory, Probability Axioms, Conditional Probability, Bayes' Rule, and Total Probability Law.
+2. **Week 13**: Discrete Random Variables (RVs), PMFs, Expectation, Functions of RVs, and Second-order statistics.
+3. **Week 14**: Continuous RVs, PDFs, CDFs, Expectation, Variance, and Common Models.
+4. **Week 15**: Joint Distributions for Discrete RVs, Marginal and Conditional PMFs, Independence, Correlation, Covariance, and Scatter Plots.
+5. **Week 16**: Joint Distributions for Continuous RVs, PDFs, CDFs, Expectation, Variance, and Common Models.
+6. **Week 17**: Functions of RVs, Transformations, and Conditional Analysis.
+7. **Week 18**: Hypothesis Testing and Parameter Estimation Techniques.
+
+**Assessment Plan**
+
+The course employs a comprehensive evaluation strategy to assess students' understanding and application of the material:
+
+- **Quiz (25%)**: Regular quizzes are conducted to evaluate foundational concepts covered in lectures.
+- **Mid-Semester Examination (25%)**: A midterm exam assessing progress towards achieving the learning outcomes.
+- **Assignments (20%)**: Practical assignments involving MATLAB experiments to reinforce theoretical knowledge.
+- **End-Semester Examination (30%)**: A comprehensive final exam covering all topics discussed during the course.
+
+Additional evaluation methods may include other assessments as needed, with details provided in subsequent sections.
+
+**Resource Materials**
+
+The primary textbooks for this course are:
+
+1. "Probability and Stochastic Processes (2nd Ed)" by Roy Yates and David Goodman.
+2. "Introduction to Probability and Statistics for Scientists and Engineers" by Sheldon Ross (5th Ed).
+
+These texts provide detailed explanations, examples, and exercises that complement the course content.
+
+**Note**
+
+Please ensure all specified data points are included in your final submission. If additional rows or sections are required beyond those provided, insert them as needed while maintaining clarity and coherence in the narrative.

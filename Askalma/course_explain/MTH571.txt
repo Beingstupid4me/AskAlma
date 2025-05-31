@@ -1,0 +1,71 @@
+### Course Overview  
+**Course Code:** MTH571  
+**Course Name:** Integral Transforms and their Applications  
+**Credits:** 4  
+**Offered To:** UG/PG students with instructor consent  
+
+This course provides an introduction to the theory and applications of integral transforms, focusing on solving linear differential equations and boundary-initial value problems involving partial differential equations. The prerequisite knowledge is limited to vector calculus, ordinary differential equations, complex variables contour integration, partial differential equations, and continuum mechanics. The course also introduces advanced topics such as fractional calculus and its applications in various fields including neuroscience, signal processing, informatics, and communications. It is open to MTech, PhD students, and advanced undergraduates with instructor consent.
+
+---
+
+### Prerequisites  
+**Mandatory:** MTH-204 (Partial Differential Equations) or equivalent  
+**Desirable:** MTH-341 (Complex Variables) or equivalent  
+**Other:** None specified  
+
+Students are expected to have a foundational understanding of vector calculus, ordinary differential equations, and complex variables contour integration. The course assumes limited prior knowledge of partial differential equations and continuum mechanics.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Understand and apply integral transforms to solve linear differential equations.  
+2. **CO2:** Utilize Fourier, Laplace, Hankel, Hilbert, Stieltjes, and Z transforms to solve difference and partial differential equations.  
+3. **CO3:** Model physical systems involving non-linear differential equations using appropriate transform techniques.  
+
+---
+
+### Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorial |
+|-------------|-----------------------------------|------------------|---------------------------|
+| 1           | Basic concepts of integral transforms; Fourier transforms: Introduction, basic properties, applications to solutions of ODEs, PDEs.       | CO1              | Practice Problems (Set 1) |
+| 2           | Fourier sine and cosine transforms, application to solutions of PDEs, evaluation of definite integrals; Laplace transforms: Introduction, existence criteria. | CO1, CO2         | Practice Problems (Set 2) |
+| 3           | Laplace transforms: Convolution, differentiation, integration, inverse transform, Tauberian Theorems, Watson’s Lemma; solutions to ODEs and PDEs (IVP, BVP). | CO1, CO2         | Practice Problems (Set 3) |
+| 4           | Applications of joint Fourier-Laplace transform; definite integrals; summation of infinite series; transfer functions, impulse response function of linear systems. | CO1, CO2, CO3    | Practice Problems (Set 4) |
+| 5           | Hankel transforms: Intro, properties and applications to PDEs; Mellin transforms: Intro, properties, applications; generalized Mellin transforms. | CO1, CO2         | Practice Problems (Set 5) |
+| 6           | Hilbert transforms: Intro, definition, basic properties; Hilbert transforms in complex plane; asymptotic expansions of one-sided Hilbert transforms. | CO1              | Practice Problems (Set 6) |
+| 7           | Stieltjes transform: Definition, properties, applications; inversion theorems; generalized Stieltjes transform; Legendre transforms: Intro, definition, properties, applications. | CO1              | Practice Problems (Set 7) |
+| 8           | Z-transforms: Intro, definition, properties; dynamic linear systems and impulse response; inverse Z-transforms; summation of infinite series; applications to finite difference equations. | CO1, CO2         | Practice Problems (Set 8) |
+| 9           | Radon transforms: Intro, properties, derivatives, convolution theorem; applications; inverse Radon transform. | CO1              | Practice Problems (Set 9) |
+| 10          | Fractional calculus and its applications: Intro, fractional derivatives, integrals; Laplace transform of fractional integrals & derivatives. | CO2              | Practice Problems (Set 10) |
+| 11          | Integral transforms in fractional equations: fractional ODEs, integral equations, IVPs for fractional DEs, fractional PDEs, Green’s function for fractional DEs. | CO2, CO3         | Practice Problems (Set 11) |
+| 12          | Additional problem-solving sessions focusing on advanced topics and real-world applications. | CO1, CO2, CO3    | Practice Problems (Set 12) |
+| 13          | External visitor talks: Topics include the Orr-Sommerfeld equation, Proper Orthogonal Decomposition. | CO3              | Practice Problems (Set 13) |
+
+---
+
+### Assessment Strategy  
+The course is assessed through a combination of quizzes/assignments and end-of-semester examinations:  
+
+| Type of Evaluation       | Contribution to Grade (%) |
+|---------------------------|--------------------------|
+| Quizzes/Assignments      | 30                     |
+| Midsem                    | 30                     |
+| Endsem                    | 40                     |
+
+The midsem examination carries a significant weightage, reflecting its importance in evaluating overall understanding of the course material.
+
+---
+
+### Learning Resources  
+**Textbook:**  
+1. Advanced topics in Applied Mathematics by S. Nair  
+2. Introductory to Applied Mathematics, G. Strang  
+3. Integral transforms and their Applications, L. Debnath  
+
+**Reference Material:**  
+1. Fractional calculus, Oldham and Spanier  
+2. Handbook of mathematical functions, M. Abramowitz & I. Stegun  
+
+These resources provide comprehensive coverage of the course content and are recommended for deeper understanding and reference.

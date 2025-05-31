@@ -1,0 +1,56 @@
+**Course Overview**  
+The course is designated as **ECE538/CSE538**, titled **Wireless Networks**, and carries **4 credits**, being offered to both **UG (Undergraduate) and PG (Post-Graduate)** students. This course provides an in-depth exploration of mobile systems, including wireless LANs, cellular systems, and sensor networks. It focuses on the design of various layers within the network stack in the context of wireless communication and addresses the challenges inherent in mobile systems.
+
+**Course Prerequisites**  
+The mandatory prerequisite for this course is **CSE232 Computer Networks**, while **Operating System** and **Advanced Programming** are recommended prerequisites to ensure a strong foundation in networking concepts. Additional prerequisites or requirements can be found by inserting more rows as needed.
+
+**Learning Outcomes (COs)**  
+By the end of this course, students will be able to:  
+- **CO1**: Understand and classify various wireless and mobile systems.  
+- **CO2**: Explain the functionalities of various layers in the network stack within the context of wireless communication.  
+- **CO3**: Design basic simulations or experiments involving a wireless network of nodes.  
+- **CO4**: Analyze and discuss routing, transport layer issues over wireless networks and challenges in mobile systems.
+
+**Weekly Lecture Plan**  
+The course is structured into 13 weeks, each focusing on specific topics:  
+- **Week 1**: Course overview and introduction to wireless and mobile systems (C01).  
+- **Week 2**: Overview of the physical layer (C01, C02).  
+- **Weeks 3-4**: Wireless link layer: centralized and distributed MAC protocols (C01, C02, C03).  
+- **Week 5**: Wireless link layer: link adaptation and bit rate adaptation, error control (C01, C02, C03).  
+- **Week 6**: Link layer multicast, energy, and security concerns (C02).  
+- **Week 7**: New Wi-Fi standard 802.11ax (C02).  
+- **Week 8**: Millimeter Wave communication (C02).  
+- **Week 9**: Network layer: mobility management, cellular handoff, Mobile IP (C02, C03).  
+- **Week 10**: Multihop networks: routing protocols and opportunistic routing (C01, C02, C03, C04).  
+- **Week 11**: Transport layer: TCP over wireless, mobility (C02, C03, C04).  
+- **Week 12**: Transport layer: Multipath TCP (C02, C03, C04).  
+- **Week 13**: Future trends in wireless systems (C01, C02, C04).
+
+**Weekly Lab Plan**  
+The course includes weekly laboratory exercises to reinforce theoretical concepts:  
+- **Week 1**: Introduction to wireless communication basics.  
+- **Weeks 3-4**: Hands-on exploration of MAC protocols and link layer configurations.  
+- **Week 5**: Practical implementation of link adaptation techniques.  
+- **Week 6**: Lab exercise on link layer security concerns.  
+- **Week 7**: Investigation of the 802.11ax standard in a simulated environment.  
+- **Week 8**: Lab activity focusing on Millimeter Wave communication principles.  
+- **Week 9**: Analysis of cellular handoff mechanisms and Mobile IP functionality.  
+- **Week 10**: Lab exercise on routing protocols in multihop networks.  
+- **Week 11**: Transport layer lab: TCP over wireless medium.  
+- **Week 12**: Lab activity on Multipath TCP implementation.  
+- **Week 13**: Final project presentation and Q&A session.
+
+**Assessment Plan**  
+The course assessment is designed to evaluate both theoretical knowledge and practical skills:  
+- **Assignment (15%)**: Practical tasks completed during lab sessions.  
+- **Project (35%)**: A comprehensive project addressing a wireless communication challenge, with a written report due at the end of the term.  
+- **Quiz + Class Participation (10%)**: Regular quizzes to assess understanding of key concepts and active participation in class discussions.  
+- **Mid-Semester Examination (15%)**: Covers material from the first half of the course, reflecting its importance in evaluating foundational knowledge.  
+- **End-Semester Examination (25%)**: Comprehensive examination assessing overall understanding of the course content.
+
+**Resource Materials**  
+The following materials are recommended for this course:  
+- **Textbook**: *Mobile Communications (2nd ed.)* by Jochen Schiller, which provides a comprehensive overview of wireless communication principles.  
+- **Reference Material**: Research papers and technical articles to deepen understanding of advanced topics in wireless networks.
+
+This structured approach ensures that students gain both theoretical knowledge and practical skills in the field of wireless communications. The combination of lectures, labs, and assessments is designed to provide a well-rounded learning experience.

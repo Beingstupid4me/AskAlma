@@ -1,0 +1,75 @@
+### Course Overview  
+**Course Code:** DES102  
+**Course Name:** Introduction to HCI (IHCI)  
+**Credits:** 4  
+**Offered To:** All UG 1st Year  
+**Course Description:** This course provides a theoretical and practical understanding of human-computer interaction (HCI) design, focusing on user-centered and design thinking, usability, interfaces, rapid prototyping, and evaluation. It is project-based, allowing students to work on user-centric prototypes.  
+
+---
+
+### Prerequisites  
+- **Mandatory Prerequisites:** None specified.  
+- **Desirable Prerequisites:** Basic understanding of computer systems and familiarity with digital tools.  
+- **Other Prerequisites:** Students are expected to have a foundational knowledge of programming concepts.  
+
+---
+
+### Learning Outcomes (COs)  
+1. **CO1:** Students will be able to discuss and distinguish between human-computer interaction, user experience design, and design thinking.  
+2. **CO2:** Students will be able to apply user-centered design techniques, data gathering methods, rapid prototyping, and effective communication of design concepts.  
+3. **CO3:** Students will be able to assess the usefulness and usability of interaction designs through evaluation metrics.  
+4. **CO4:** Students will be able to ideate, prototype, and evaluate new design concepts as part of collaborative group projects.  
+
+---
+
+### Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorial/Demonstration | Material                          |
+|-------------|-----------------------------------|------------------|-----------------------------------------|------------------------------------|
+| 1           | Introduction to HCI / Chapter 1    | CO1              | What is HCI and its real-time applications. | Course Structure, Timeline and expectations | 
+| 2           | What is Design (Pt. 1) / Chapters 1 & 2 | CO1             | Find a poorly designed item (anything). Submit either a picture or sketch and describe why it is poorly designed. | **Textbook:** Interaction Design: Beyond Human-Computer Interaction. 2019. (5th Edition) by Jenny Preece, Helen Sharp, Yvonne Rogers (Wiley)  
+                                                                                             **Reference:** Research papers that to be discussed in class |
+| 3           | What is Design (Pt. 2) / Chapters 1 & 2 | CO1             | Quiz-1                                   | User-Centered Design, Neilsen's Heuristics | UCD and Software Engineering lifecycle process |
+| 4           | What is Interaction (Pt. 1) / Chapter 3 | CO1, CO2        | Describe the steps you take to complete a task using an app or website | Tasks: individual interaction, Decide your group project | Personas |
+| 5           | What is Interaction (Pt. 2) / Chapter 3 | CO1, CO2        | Quiz-2                                   | Collaboration: group interaction: | Scenarios |
+| 6           | What is the User Perspective (Pt. 1) / Chapters 4, 5, and 6 | CO1, CO2        | Introduction to Requirements Gathering | Interviews, Surveys, Focus Groups | Interviews, Surveys, Focus Groups |
+| 7           | What is the User Perspective (Pt. 2) / Chapters 4, 5, and 6 | CO1, CO2        | Working in Groups - Get to know your team | Interview your team members | Interviews, Surveys, Focus Groups |
+| **Mid-Term Exam:** Multiple Choice Questions | CO1-4           | Mid Recess Break                        | Midterm Exam Details                    | Online platform details will be provided via email. |
+
+---
+
+### Assessment Strategy  
+**Types of Evaluation:**  
+- Assignments: 40% (5 quizzes at 8 points each)  
+- Project: 35% (Deliverables: Basic working prototype, Prototype evaluation plan, Prototype evaluation report, Final presentation - Personal Report)  
+- End-Semester Examination: 25%  
+
+**Contribution to Grade:**  
+The assessment plan is designed to evaluate both theoretical understanding and practical application. The quizzes assess foundational knowledge, while the project evaluates design thinking and usability skills. The end-semester examination will comprehensively cover all course objectives.
+
+---
+
+### Resources  
+1. **Textbook:** Interaction Design: Beyond Human-Computer Interaction. 2019. (5th Edition) by Jenny Preece, Helen Sharp, Yvonne Rogers (Wiley).  
+2. **Reference:** Research papers that to be discussed in class.  
+
+---
+
+### Anti-Plagiarism Guidelines  
+You are encouraged to refer to external resources including but not limited to those provided below. However, any use of written text/source code/media/any other intellectual property in your submissions and presentations should be properly documented along with citations. When in doubt, please follow the guidelines provided by the Institute: [https://www.iiitd.ac.in/academics/resources/academic-dishonesty](https://www.iiitd.ac.in/academics/resources/academic-dishonesty).  
+
+---
+
+### Class Attendance Policy  
+- If you are late by more than 5 minutes or absent without prior notification and Institute validated proof to the Instructor, you will be marked absent for that day.  
+- We will send you back if you are late.  
+- We will not provide make-up activities or accept late submissions in any scenario except Institute validated leave. It is your responsibility to schedule a makeup activity no later than 1 week of the date of your return to the Institute.  
+
+---
+
+### Anti-Plagiarism Guidelines  
+You are encouraged to refer to external resources including but not limited to those provided below. However, any use of written text/source code/media/any other intellectual property in your submissions and presentations should be properly documented along with citations. When in doubt, please follow the guidelines provided by the Institute: [https://www.iiitd.ac.in/academics/resources/academic-dishonesty](https://www.iiitd.ac.in/academics/resources/academic-dishonesty).  
+
+--- 
+
+This concludes the comprehensive narrative description of the course data.

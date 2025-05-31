@@ -1,0 +1,78 @@
+**Course Overview**
+
+**Course Code:** ECO314  
+**Course Name:** Behavioural Economics  
+**Credits:** 4  
+**Offered To:** Undergraduate Students (UG)  
+
+---
+
+### **Course Description**
+This course provides a comprehensive exploration of behavioural economics, blending theoretical concepts with practical applications. It begins by introducing the foundational principles of behaviourism and cognitive science to explain human decision-making processes that deviate from traditional rationality assumptions. The curriculum is divided into weekly modules, each focusing on specific topics such as decision-making under certainty, uncertainty, risk theory, bounded rationality, intertemporal choice, and strategic interactions. These concepts are applied through laboratory experiments designed to assess and enhance students' understanding of human behaviour in economic contexts.
+
+The course also delves into advanced topics like altruism, social preferences, and the impact of strategic settings on decision-making. Students will engage with primary literature and textbooks to critically analyze these phenomena. The assessment plan includes summarizing key papers, designing lab experiments, a mid-semester examination, and a final exam, ensuring a well-rounded evaluation of both theoretical knowledge and practical skills.
+
+---
+
+### **Prerequisites**
+- **Mandatory:** MTH201 Probability and Statistics  
+- **Desirable:** Microeconomics  
+
+---
+
+### **Learning Outcomes (COs)**
+By the end of this course, students will be able to:  
+1. Identify how individuals influenced by behavioural biases behave differently from perfectly rational agents.  
+2. Explain the relevance of risk, uncertainty, and time in individual decisions.  
+3. Determine the role of social preferences and strategic settings in decision-making.  
+4. Implement theories to analyse experimental economics, policy choices, firm decisions, and financial market dynamics.  
+5. Design lab experiments to identify and estimate behavioural biases.  
+
+---
+
+### **Weekly Lecture Plan**
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorial |
+|-------------|----------------------------------|-------------------|---------------------------|
+| 1           | Decision Making in Economics under Certainty | CO1               | N/A                       |
+| 2 & 3       | Uncertainty, Risk and Prospect Theory | CO1, CO2         | Summary of Paper 1        |
+| 4           | Bounded Rationality              | CO1, CO2         | Summary of Paper 2        |
+| 5 & 6       | Intertemporal Choice            | CO1, CO2         | Summary of Paper 3        |
+| 7           | Human Sociality                  | CO1, CO3         | N/A                       |
+| 8 & 9       | Strategic Interaction            | CO3               | N/A                       |
+| 10          | Behavioural Experiments and zTree | CO4, CO5         | Design of Lab Experiments (Question, Idea, and Coding) |
+| 11          | Nudges                            | CO4               | N/A                       |
+| 12          | Brief Introduction to Behavioural Finance and Neuroeconomics | CO4         | N/A                       |
+
+---
+
+### **Assessment Plan**
+
+- **In-Class Summarizing of Papers (4):** 20% Contribution in Grade  
+- **Mid-Semester Examination:** 20% Weightage  
+- **Design of Lab Experiments (Question, Idea, and Coding):** 30% Weightage  
+- **Final Examination:** 30% Weightage  
+
+---
+
+### **Resource Materials**
+
+#### **Textbooks**
+1. Angner, E. (2012). *A course in behavioural economics*. Macmillan International Higher Education.  
+2. Dhami, S. (2016). *The foundations of behavioural economic analysis*. Oxford University Press.  
+3. Wilkinson, N., & Klaes, M. (2017). *An introduction to behavioural economics*. Macmillan International Higher Education.  
+4. Davis, D.D., & Holt, C.A. (1993). *Experimental economics*. Princeton university press.  
+5. Kagel, J.H., & Roth, A.E. (2016). *The handbook of experimental economics*. Vol. 2. Princeton university press.  
+
+#### **Papers**
+- Frank, R.H., Gilovich, T., & Regan, D.T. (1993). "Does studying economics inhibit cooperation?." *Journal of Economic Perspectives* 7(2), pp. 159-171.  
+- Kahneman, D., Knetsch, J.L., & Thaler, R.H. (1990). "Experimental tests of the endowment effect and the Coase theorem." *Journal of Political Economy* 98(6), pp. 1325-1348.  
+- Kahneman, D. (1979). *Prospect theory: An analysis of decisions under risk*. Econometrica 47, pp. 278.  
+- Koszegi, B. (2014). "Behavioural contract theory." *Journal of Economic Literature* 52(4), pp. 1075-1118.  
+- Laibson, D. (1997). "Golden eggs and hyperbolic discounting." *Quarterly Journal of Economics* 112(2), pp. 443-478.  
+- O'Donoghue, T., & Rabin, M. (1999). "Doing it now or later." *American Economic Review* 89(1), pp. 103-124.  
+- Simon, H.A. (1993). "Altruism and economics." *American Economic Review* 83(2), pp. 156-161.  
+
+---
+
+This structured course data provides a comprehensive overview of the course, including its objectives, content, assessment methods, and recommended resources. By following this framework, students can gain a deep understanding of behavioural economics through theoretical knowledge and practical application.

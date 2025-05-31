@@ -1,0 +1,49 @@
+### Course Overview  
+The course MTH576, titled "Categorical Data Analysis (CDA)," is a 4-credit course offered at both undergraduate and postgraduate levels. This course provides an in-depth exploration of categorical data analysis, focusing on the study of distributions such as Bernoulli, Binomial, and Poisson. Students will learn essential methods like odds ratio, relative risk, and multiple regression models for categorical data. The course emphasizes practical applications using real-world datasets, enabling students to draw meaningful conclusions and interpret results effectively.
+
+### Prerequisites  
+To successfully engage with this course, students are required to have a foundational understanding of probability and statistics (Mandatory Pre-requisite). Additionally, desirable pre-requisites include knowledge in statistical inference, econometrics, or related fields such as statistical signal processing or machine learning. These prerequisites ensure that students possess the necessary background to grasp advanced concepts covered in the course.
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+- **CO1:** Make inferences on categorical response data.  
+- **CO2:** Analyze count and rate data using appropriate statistical methods.  
+- **CO3:** Build and interpret codes in R for categorical data analysis.  
+- **CO4:** Apply multiple logistic regression models with continuous and categorical predictors, including interactions.  
+- **CO5:** Understand and apply log-linear models, independence graphs, and collapsibility to analyze complex datasets.
+
+### Weekly Syllabus and Assignments  
+The course is structured over 14 weeks, with each week focusing on specific topics and learning outcomes:  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignment/Labs/Tutorial |
+|-------------|-----------------------------------|------------------|--------------------------|
+| Week 1, 2    | Introduction to Categorical Response Data; Probability Distributions | CO1, CO3, CO4     | Assignment I: Analysis of Contingency Tables |
+| Week 2, 3, 4 | Two, Three and k- way Contingency Tables | CO1, CO3, CO4     | Assignment I: On Contingency Tables       |
+| Week 5, 6    | Generalized Linear Models for Binary, Count and Rate Data. Probit Analysis | CO2, CO3, CO4     | Assignment II: Logistic Regression        |
+| Weeks 7, 8, 9| Multiple Logistic Regression with Continuous and Categorical Predictors; Stepwise Variable Selection Algorithms | CO2, CO3, CO4     | Assignment II: On Logistic Regression    |
+| Weeks 9, 10, 11 | Multicategory Logit Models for Nominal Responses; Loglinear Models | CO2, CO3, CO4     | Assignment III: On Logit Models           |
+| Weeks 12, 13, 14 | Loglinear Models; Independence Graphs and Collapsibility | CO2, CO3, CO4     | Assignment IV: On Loglinear Models       |
+
+Assignments are designed to reinforce theoretical concepts with practical applications, ensuring students gain hands-on experience in analyzing categorical data.
+
+### Assessment Strategy  
+The course assessment is structured as follows:  
+- **Assignment:** 20% (Includes four assignments covering various topics)  
+- **Quiz:** 15% (Evaluates understanding of key concepts and methods)  
+- **Mid-Semester Examination:** 20% (Assesses comprehensive understanding of the first half of the course material)  
+- **End-Semester Examination:** 30% (Comprehensive evaluation of all course topics)  
+- **Project:** 15% (Encourages independent application of course concepts to real-world datasets)
+
+Additional evaluations may be included based on specific needs or requests.
+
+### Learning Resources  
+The course provides a range of resources to support student learning:  
+- **Textbook:** *An Introduction to Categorical Data Analysis* by Alan Agresti (2nd Edition)  
+- **Reference Materials:**  
+  - *The Statistical Analysis of Categorical Data* by E.B. Andersen  
+  - *Analysis of Categorical Data* by Alan Agresti  
+
+These resources are essential for deepening understanding and mastering the techniques covered in the course.
+
+### Conclusion  
+This course offers a comprehensive exploration of categorical data analysis, equipping students with the theoretical knowledge and practical skills necessary to analyze and interpret categorical datasets effectively. Through a structured syllabus, assignments, and assessments, students will gain a thorough understanding of the subject matter, preparing them for advanced applications in various fields.

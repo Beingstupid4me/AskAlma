@@ -1,0 +1,64 @@
+**Course Overview**
+
+**Course Code:** ECE 314/ECE514  
+**Course Name:** Digital VLSI Design  
+**Credits:** 4  
+
+This course introduces students to CMOS circuits, with a focus on developing first-order models for transistors, transfer characteristics of CMOS inverters, and performance estimation through logical effort, interconnects, combinational circuit design, sequential circuit design (including clocking and latching techniques), datapath subsystems (adders, shifters, multipliers), memory subsystems, and a course project using CAD tools in VLSI design.
+
+**Prerequisites**
+
+Students must have knowledge of digital logic, basic computer organization, and some understanding of RC circuits. These prerequisites are essential for grasping the advanced concepts covered in this course.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+- CO1: Evaluate characteristics of CMOS inverter and interconnects in terms of current and capacitance, estimating delay and power.
+- CO2: Quickly estimate the best number of stages for a path, minimum possible delay, and optimal gate sizes using logical effort.
+- CO3: Describe sources of power dissipation in CMOS chips and apply techniques to minimize power consumption.
+- CO4: Optimize combinational circuits for lower delay or energy; analyze sequential circuits including clocking and latching techniques.
+- CO5: Use CAD tools in VLSI design for state-of-the-art CMOS circuit development.
+
+**Weekly Lecture Plan**
+
+| Week | Lecture Topic | COs Met | Assignments/Labs/Tutorials |
+|------|---------------|---------|---------------------------|
+| 1    | Introduction (MOS transistors, CMOS Logic) | CO1      | Reading Assignment 1       |
+| 2    | CMOS circuit theory | CO1      | Quiz I                    |
+| 3    | MOS Capacitance model/ Parasitic capacitances | CO1     | Reading Assignment 2, Quiz 2, Tutorial on Cadence |
+| 4    | DC Transfer Characteristics of Inverter | CO1, CO2 | HW 1, Quiz 3              |
+| 5    | Delay Estimation | CO1, CO2 | Lab 1, Term project (problem definition) |
+| 6    | Logical effort and transistor sizing | CO2      | Reading Assignment 3, Quiz 4, Tutorial on Synopsys |
+| 7    | Combinational Circuit Design | CO4      | HW 2                    |
+| 8    | Sequential Circuit Design | CO4      | Lab 2, Quiz 5            |
+| 9-10 | Power Dissipation, Interconnects, Scaling | CO3, CO4, CO5 | Reading Assignment 4, HW 3, Quiz 6 |
+| 11   | Datapath Subsystems | CO3, CO4, CO5 | Lab 3, Quiz 7            |
+| 12   | Memory Subsystems | CO3, CO4, CO5 | Reading Assignment 5, HW 4, Quiz 8 |
+| 13   | Review and Term project evaluation | CO3, CO4, CO5 | Project Report             |
+
+**Assessment Plan**
+
+| Type of Evaluation | % Contribution in Grade |
+|---------------------|-------------------------|
+| Mid-sem            | 25                     |
+| Homework           | 10                     |
+| Quiz               | 5                      |
+| End-sem            | 25                     |
+| Laboratory         | 15                     |
+| Project            | 20                     |
+
+**Resource Materials**
+
+| Type | Title                  |
+|------|------------------------|
+| Textbook | N. Weste and D. Harris, CMOS VLSI Design: A Circuits and Systems Perspective. Third Edition. Pearson, 2006. |
+| Textbook | Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic; Digital Integrated Circuits: A Design Perspective, Phi Learning, 2009. |
+
+Please note that the course is split into ECE 314 and ECE 514, with additional assignments and evaluation for ECE 514.
+Okay, so I need to transform this structured Excel data into a detailed narrative text as per the user's instructions. Let me start by understanding what each part of the Excel sheet represents.
+
+First, there's a Course Code column which is "ECE 314/ECE 514". The Course Name is "Digital VLSI Design" for both codes. Credits are all 4. It's offered to both UG/PG students. The course description is quite detailed, covering topics from CMOS circuits to design projects using CAD tools.
+
+Looking at prerequisites, the mandatory one is knowledge of digital logic, basic computer organization, and some understanding of RC circuits. There are also additional rows marked with "Please insert more rows if required," so I'll need to handle that by indicating placeholders where more data might be added later.
+
+The course outcomes (CO1 to CO5) outline what students should be able to do after the course. The weekly lecture plan spans from Week 1 to Week 13, each with specific topics and associated assessments like quizzes, homework, labs, or projects. For example, Week 1 introduces MOS transistors and CMOS logic

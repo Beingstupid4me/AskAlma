@@ -1,0 +1,110 @@
+{
+  "Course Code": "ECE431 / ECE631",
+  "Course Name": "Antennas Theory and Design",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The course aims to introduce the principles of antenna theory and design as well as wave propagation to senior undergraduate and graduate students who have a background in fundamental electromagnetics. The course will enable the students to understand the operation of common antennas and provide them an opportunity to design and test antennas. Thus the course will combine both the theoretical and practical aspects of antenna design. This course may be useful to students interested in implementing wireless systems (communications and radar).",
+  "Prerequisites": {
+    "Mandatory": "ECE230 Fields and Waves"
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to analyze Maxwell's equations for wave propagation through different mediums (free space, lossy, dispersive).",
+    "CO2": "Students are able to design and/or analyze wire, loop, aperture, active and broadband antennas in theory and/ or using computational electromagnetic software.",
+    "CO3": "Students are able to extend the analysis and design from a single antenna to an antenna array.",
+    "CO4": "Students are able to measure (in simulations and/or experiments) the basic parameters of common antennas"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction - Review of vector calculus, review of Maxwells equations, Materials and free space, Wave propagation",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Why do antennas radiate? - Vector potential A for electric current source, vector potential F for magnetic current source, solution of inhomogeneous Helmholtz equation, far field radiation",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Radiation pattern, beamwidth, directivity, antenna efficiency and gain, bandwidth, input impedance, polarization, antenna effective length and effective area, Friis transmission equation",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Assignment / Lab / Tutorial"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Infinitesimal, small and half wavelength dipoles, effect of conductors near ground planes, monopoles, loop antennas",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment / Lab / Tutorial"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Antenna arrays - Two element array, N element array, planar array and adaptive beamforming",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Assignment / lab"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Aperture antennas - rectangular aperture, slot antennas and arrays",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Microstrip antennas - rectangular patch, linear and circular polarization, bandwidth, efficiency",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Assignment / lab"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Broadband antennas - Chu's limit, Yagi antenna, helical antenna",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Lab"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "New antennas - active antennas, wearable antennas",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Tutorial"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Project",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Homework": 15,
+    "Quiz": 10,
+    "Mid-sem": 25,
+    "End-sem": 30,
+    "Project": 20
+  },
+  "Resource Material": {
+    "Textbook": "Antennas Theory Analysis and Design, 3rd Edition, Constantine Balanis",
+    "Reference Book": "Antennas and Wave propagation, J. D. Kraus"
+  }
+}

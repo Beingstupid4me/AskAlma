@@ -1,0 +1,81 @@
+### Course Overview  
+**Course Code:** BIO533  
+**Course Name:** Systems and Synthetic Biology  
+**Credits:** 4  
+
+This course provides an in-depth exploration of systems biology, focusing on the application of mathematical techniques to understand and model biological systems. Students will gain proficiency in constructing mathematical models, analyzing complex biological networks, and synthesizing synthetic circuits for optimizing biological functions. The course combines theoretical concepts with practical applications, emphasizing hands-on computational tools such as MATLAB.
+
+---
+
+### Course Description  
+This course introduces students to the principles of systems biology and synthetic biology. It aims to equip learners with the ability to analyze biological systems using mathematical models, predict system behaviors under various conditions, and design synthetic circuits for optimizing functions. Key topics include differential equation modeling, bifurcation analysis, gene regulatory networks, and feedback mechanisms. The course also explores applications in areas such as developmental biology, signaling pathways, and evolutionary dynamics.
+
+---
+
+### Prerequisites  
+**Mandatory:**  
+- **IMB(BIO531)** and **CBB** (Core Bioinformatics and Computational Biology)  
+
+**Desirable:**  
+- Probability and statistics  
+
+**Other:**  
+- None specified.  
+
+Students are expected to have a foundational understanding of biological systems and basic computational skills.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Analyze differential equations using geometric methods like vector fields in a line and phase plane analysis.  
+2. **CO2:** Construct simple biological models from small networks and classify the types of bifurcations the model exhibits.  
+3. **CO3:** Interpret the dynamics of small network models and relate them to the functions of biological systems.  
+4. **CO4:** Write MATLAB codes to carry out differential equation simulations and analyze bifurcation behaviors in biological systems.  
+
+---
+
+### Weekly Lecture Plan  
+**Week 1-2-3:** Introduction to ordinary differential equations (ODEs) and vector field analysis in a line, introduction to 1D-bifurcation.  
+**COs Met:** CO1, CO2, CO4  
+**Assignments/Labs/Tutorials:** Assignment: ODE simulation using MATLAB and application of bifurcation concepts to biological problems taken from journal papers.  
+
+**Week 4-5-6:** Introduction to 2D ODEs and phase plane methods, introduction to bistability and limit cycle oscillations with examples from biological systems.  
+**COs Met:** CO1, CO2, CO4  
+**Assignments/Labs/Tutorials:** Assignment: ODE simulation using MATLAB and application of bifurcation concepts to biological problems taken from journal papers.  
+
+**Week 7-8-9:** Elements of transcription networks, dynamics, and response time of simple gene circuits; autoregulation as a network motif, response time of gene circuits, robustness to fluctuations, positive auto-regulation, and cell-cell variability.  
+**COs Met:** CO1, CO2, CO3, CO4  
+**Assignments/Labs/Tutorials:** Assignment: ODE simulation using MATLAB and problem-solving exercises related to gene circuit dynamics.  
+
+**Week 10:** Structure of the feed-forward loop circuit, dynamics of coherent FFL with AND-logic, sign-sensitive delay element, incoherent FFL, pulse generator, and response accelerator.  
+**COs Met:** CO1, CO2, CO3, CO4  
+**Assignments/Labs/Tutorials:** Assignment: ODE simulation using MATLAB and application of bifurcation concepts to biological problems taken from journal papers.  
+
+**Week 11-12-13:** Single-input module (SIM) network motif, temporal expression programs, topological generalizations of network motifs, bi-fans, dense-overlapping regulons, global structure of sensory transcription networks; networks motifs in developmental signal-transduction and neuronal networks, positive feedback loops and bistability motifs in signaling networks, negative feedback and oscillators, and the Barkai-Leibler model.  
+**COs Met:** CO1, CO2, CO3, CO4  
+**Assignments/Labs/Tutorials:** Assignment: Mathematical modeling of the lac operon using MATLAB to understand switching processes in small gene networks.  
+
+---
+
+### Assessment Plan  
+The course is assessed through a combination of evaluations:  
+- **Mid-Semester Exam (Mid-sem):** 15% contribution  
+- **End-Semester Examination (End-sem):** 25% contribution  
+- **Assignments:** 20% contribution  
+- **Quiz:** 20% contribution  
+- **Project:** 20% contribution  
+
+Additional evaluation types:  
+- **Other Evaluation Methods:** Please insert more rows if required.  
+
+---
+
+### Resource Material  
+1. **Textbook:**  
+   - Strogatz, Steven H., *Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*. Westview Press, 2015.  
+   - U. Alon, *An Introduction to Systems Biology: Design Principles of Biological Circuits*. CRC Press, 2007.  
+
+---
+
+This structured narrative provides a comprehensive overview of the course, covering all essential elements such as prerequisites, outcomes, weekly topics, and assessment strategies while maintaining clarity and coherence.

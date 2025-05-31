@@ -1,0 +1,29 @@
+Course Overview  
+This course ECO333, named "Derivatives and Risk Management" provides an in-depth exploration of financial risk management with a strong focus on derivatives. Designed for undergraduate students, it combines theoretical knowledge with practical applications to ensure comprehensive understanding.
+
+Prerequisites  
+Students must have completed either ECO331 (Foundations of Finance) or ECO332 (Valuation and Portfolio Management) to successfully engage with this course.
+
+Learning Outcomes  
+By the end of this course, students will be able to:  
+- Understand the concept of risk in finance.  
+- Analyze and apply principles of option pricing and strategies in managing financial risks.  
+- Evaluate and implement hedging strategies using derivative instruments to mitigate financial risks.  
+- Understand the structure and applications of forwards, futures, swaps, and other derivatives.  
+
+Weekly Syllabus and Topics  
+The course is divided into 13 weeks:  
+- Weeks 1-2: Introduction to risk concepts and derivative instruments.  
+- Weeks 3-6: Options market and strategies.  
+- Weeks 7-9: Principles of option pricing using Black-Scholes model.  
+- Weeks 10-11: Forwards, futures, swaps, and hedging strategies.  
+- Week 12: Weather, energy, and commodity derivatives.  
+
+Assessment Strategy  
+The course employs a comprehensive assessment strategy with quizzes (4 at 10% each), projects (20%), and an end-term examination (40%). This structure ensures both continuous evaluation and comprehensive understanding are emphasized.
+
+Learning Resources  
+Students have access to textbooks such as "Options, Futures, and Other Derivatives" by John C. Hull and online resources like www.cbotc.com for supplementary learning.
+
+Conclusion  
+This course equips students with the theoretical knowledge and practical skills necessary for addressing challenges in finance. Emphasizing real-world applications ensures students are well-prepared for their future careers.

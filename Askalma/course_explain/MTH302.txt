@@ -1,0 +1,66 @@
+**Course Overview**
+
+This course MTH302, titled "Algebra" introduces the core algebraic structures: groups, rings, and fields. It provides a foundational understanding of these structures, emphasizing both abstract concepts and concrete examples. The course is designed to enhance mathematical rigor, problem-solving skills, and proof-writing abilities.
+
+---
+
+**Prerequisites**
+
+- **Mandatory**: MTH 100 or equivalent (Linear Algebra)
+
+---
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Explain algebraic properties of groups, rings, and fields.
+2. **CO2**: Classify groups up to isomorphism.
+3. **CO3**: Discuss algebraic properties of rings and fields, including finite fields.
+4. **CO4**: Write formal mathematical proofs.
+5. **CO5**: Apply algebraic concepts to model and solve problems in communication and computer science.
+
+---
+
+**Weekly Lecture Plan**
+
+| Week Number | Lecture Topic                     | COs Met          | Assignment/Labs/Tutorial |
+|-------------|----------------------------------|-------------------|--------------------------|
+| 1           | Equivalence relation and partition. Groups and subgroups, Cyclic groups...       | CO1 & 4           | Tutorial Sheet 1         |
+| 2           | Lagrange's theorem, normal subgroup, quotient groups...                         | CO1, 2 & 4        | Tutorial Sheet 2         |
+| 3           | Permutation groups, Simple groups...                                              | CO1, 2 & 4        | Tutorial Sheet 3         |
+| 4           | Centralizers and Normalizers, class equation...                                    | CO1, 2 & 4        | Tutorial Sheet 4         |
+| 5           | Sylow's theorems and their applications...                                         | CO1, 2 & 4        | Tutorial Sheet 5         |
+| 6           | Direct product of groups, Fundamental Theorem of Finite Abelian Groups...      | CO1, 2 & 4        | Tutorial Sheet 6         |
+| 7           | Rings and Polynomial rings...                                                   | CO3 & 4           | Tutorial Sheet 7         |
+| 8-9         | Principal ideal domain, Euclidean domain...                                       | CO3 & 4           | Tutorial Sheet 8         |
+| 10          | Fields and field extensions...                                                   | CO3 & 4           | Tutorial Sheet 9         |
+| 11-12       | Unique factorization domains...                                                  | CO3 & 4           | Tutorial Sheet 10        |
+| 13          | Finite fields, Algebraic extensions...                                         | CO3, 4 & 5        | Tutorial Sheet 11        |
+
+---
+
+**Assessment Plan**
+
+| Type of Evaluation | % Contribution in Grade |
+|--------------------|------------------------|
+| Quizzes            | 30%                   |
+| Minor              | 0.3%                  |
+| Major             | 40%                   |
+| Other (if any)     | *Please insert more rows if required |
+
+---
+
+**Resource Materials**
+
+- **Textbook**: 
+  - I N Herstein, Topics in Algebra, 2nd Edition, Wiley India Pvt Ltd, 2006.
+  - J A Gallian, Contemporary Abstract Algebra, 4th Edition, Narosa Book Distributors Private Ltd, 2004.
+  - M Artin, Algebra, 2nd Edition, Pearson, 2010.
+  - D. S. Dummit and R. M. Foote, Abstract Algebra, 3rd edition, Wiley (2003).
+
+---
+
+**Conclusion**
+
+This course equips students with a comprehensive understanding of algebraic structures, emphasizing both theoretical knowledge and practical application. Through rigorous study and assignments, students will develop advanced problem-solving skills and prepare for further studies in mathematics and related fields.

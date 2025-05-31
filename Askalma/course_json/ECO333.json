@@ -1,0 +1,91 @@
+{
+  "Course Code": "ECO333",
+  "Course Name": "Derivatives and Risk Management",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The course aims at familiarizing the student with the concept of Financial Risk and the various instruments available for risk management. In the course of running a business, decisions are made in the presence of risk. Some risks are related to the nature of business. These risks are called business risks. Another class of risks deal with uncertainty of such factors as interest rates, exchange rates, stock prices and commodity prices. These are called financial risks. Although our financial system is replete with risks it also provides a means of dealing with these risks, in form of derivatives. Derivatives have been in existence for centuries, their growth has accelerated rapidly during the last 30 years or so. They are now used widely by corporations, financial institutions, professional investors and individuals.",
+  "Prerequisites": {
+    "Mandatory": "ECO331 or ECO332 Foundations of Finance OR Valuation and portfolio Management",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand the concept of risk in finance",
+    "CO2": "Understand the principles of option pricing and apply option strategies in risk management",
+    "CO3": "Understand frontiers of risk management like weather and energy derivatives",
+    "CO4": "Understanding of swap contracts",
+    "CO5": "Apply the principles of pricing forwards and futures and application of hedging strategies"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2",
+      "Lecture Topic": "Concept of Risk: Business Risk, Financial Risk, Exchange Risk, Liquidity Risk, Country Risk Introduction to the various derivative instruments",
+      "COs Met": [
+        "CO1"
+      ],
+      "Project": ""
+    },
+    {
+      "Week": "3-6",
+      "Lecture Topic": "The Options Market, Option payoff and strategies",
+      "COs Met": [
+        "CO2"
+      ],
+      "Project": ""
+    },
+    {
+      "Week": "7-9",
+      "Lecture Topic": "Principles of Option Pricing, Binomial Model and The Black Scholes (BS) Model",
+      "COs Met": [
+        "CO2"
+      ],
+      "Project": ""
+    },
+    {
+      "Week": "10-11",
+      "Lecture Topic": "Structure of Forward and Futures Markets, Future Hedging Strategies",
+      "COs Met": [
+        "CO5"
+      ],
+      "Project": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Swaps Markets",
+      "COs Met": [
+        "CO4"
+      ],
+      "Project": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Weather, Energy and Commodity Derivatives",
+      "COs Met": [
+        "CO3"
+      ],
+      "Project": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz (4 in number of 10% each)": "40%",
+    "Projects": "20%",
+    "End Term": "40%"
+  },
+  "Resource Material": {
+    "Textbook (Primary)": "Options, Futures and other Derivatives. John C.Hull (Pearson Education)",
+    "Other References": "An Introduction to Derivatives and Risk Management, Don M. Chance",
+    "Futures, Options and Swaps": "Robert W. Kolb (Blackwell)",
+    "Derivatives": "Fred D. Arditti (Harvard Business School Press)",
+    "Websites": [
+      "www.nseindia.com",
+      "www.sebi.com",
+      "www.cboe.com",
+      "www.cmegroup.com",
+      "www.cbotc.com",
+      "www.nymex.com",
+      "www.lifecofm.com",
+      "www.eurexexchnage.com",
+      "www.cft.go.v"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+### Course Overview  
+The course, coded as BIO512 and titled "Foundations of Modern Biology," is a 4-credit course offered to both undergraduate (UG) and postgraduate (PG) students. This core course aims to provide students with a comprehensive understanding of genetics and molecular biology. The curriculum focuses on three main areas: Mendelian genetics, molecular mechanisms of gene expression, and quantitative problem-solving in population and evolutionary genetics.
+
+The course is designed to build a strong foundation for students pursuing careers in biology, medicine, or related fields. It emphasizes critical thinking, analytical skills, and the application of theoretical concepts to real-world problems. The primary focus is on developing an understanding of genetic principles that are fundamental to modern biological research and practice.
+
+### Prerequisites  
+The course assumes prior knowledge of basic biological concepts but does not specify any particular prerequisites beyond general high school biology. Students are expected to have a basic understanding of cellular structure, DNA replication, and the basics of heredity.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+- **CO1:** Build simple probabilistic models for Mendelian and non-Mendelian genetics and apply these models to solve problems related to genetic inheritance.  
+- **CO2:** Construct and analyze pedigree charts to understand linkage equilibrium and population genetics principles.  
+- **CO3:** Solve problems involving molecular mechanisms of gene expression, including replication, transcription, and translation processes.  
+- **CO4:** Develop simple mathematical models to understand gene regulatory networks and the interplay between transcriptional and translational processes.
+
+### Weekly Lecture Plan  
+The course is divided into 15 weeks, with each week focusing on specific topics:  
+
+- **Weeks 1–3:** Introduction to genetics, cell division cycles (mitosis and meiosis), and the organization of transcription factors in chromosomes.  
+- **Weeks 4–6:** Mendelian inheritance principles, including laws of segregation and independent assortment, and their application to genetic analysis.  
+- **Weeks 7–9:** Advanced topics in genetics, such as multiple alleles, gene interactions, and pedigree analysis.  
+- **Week 10:** Molecular basis of genes, focusing on DNA structure and replication mechanisms in prokaryotes and eukaryotes.  
+- **Weeks 11–13:** Translation processes, genetic codes, and regulation mechanisms at the molecular level.  
+- **Weeks 14–15:** Review sessions and preparation for assessments.
+
+Assignments are included for each week to reinforce learning objectives. These include paper readings, MATLAB-based modeling of biological processes (e.g., mitosis and embryonic cell cycles), Punnett square constructions, and problem-solving exercises in genetics.
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical knowledge and practical application skills. The breakdown is as follows:  
+
+- **Mid-Semester Examination:** 25% of the final grade, focusing on key concepts covered in the first half of the course.  
+- **End-Semester Examination:** 25% of the final grade, covering the entire syllabus and assessing comprehensive understanding.  
+- **Assignments:** 15% of the final grade, including problem-solving tasks, case studies, and MATLAB-based simulations.  
+- **Quiz:** 20% of the final grade, testing weekly topics through short, frequent assessments.  
+- **Project:** 15% of the final grade, requiring students to apply course concepts to real-world biological problems or research questions.  
+
+### Learning Resources  
+The primary textbook for this course is "Genetics: A Conceptual Approach" by Benjamin Pierce. Additional recommended readings include "Molecular Biology of the Gene" by Watson et al. The course also provides supplementary materials such as lecture slides, online resources, and MATLAB tutorials to enhance learning.
+
+Instructor-provided notes and additional reading materials are available upon request for students who need further clarification or additional study resources.  
+
+This structured approach ensures that students gain a thorough understanding of genetics and molecular biology, preparing them for advanced studies and professional applications in the field.

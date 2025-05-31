@@ -1,0 +1,44 @@
+**Course Overview: CSE561 - Probabilistic Graphical Models**
+
+CSE561, titled "Probabilistic Graphical Models," is a 4-credit course designed for both undergraduate and graduate students. This course delves into the foundational concepts of probabilistic graphical models (PGMs), which serve as a powerful framework for representing complex probability distributions efficiently. By leveraging PGMs, students will learn to make mathematically sound conclusions even in the face of limited or noisy data, a critical skill in various machine learning applications.
+
+**Prerequisites:**
+
+The primary prerequisite for this course is **Probability and Statistics**, ensuring that students have a solid foundation in statistical theory before diving into graphical models. No other prerequisites are listed, indicating that the course assumes prior knowledge but does not require additional foundational courses beyond basic statistics.
+
+**Course Outcomes (COs):**
+
+1. **CO1:** Students will be able to construct Bayesian and Markov network representations for given problems.
+2. **CO2:** Students will master techniques for exact and approximate inference in probabilistic graphical models.
+3. **CO3:** Students will understand how to learn parameters and structures of graphical models from data.
+
+**Weekly Lecture Plan:**
+
+- **Week 1:** Introduction to PGMs and a refresher on probability basics, focusing on CO1.
+- **Weeks 2 & 3:** In-depth exploration of Bayesian Networks, emphasizing CO1.
+- **Weeks 4 & 5:** Transition to Markov Networks, continuing the focus on CO1.
+- **Week 6:** Variable Elimination method, introducing CO2.
+- **Week 7:** Clique Tree Inference, building on CO2.
+- **Weeks 8-9:** Loopy BP and MaxProd BP techniques, expanding CO2 knowledge.
+- **Weeks 10 & 11:** Sampling methods like MCMC and Gibbs Sampling, covering CO2.
+- **Weeks 12 & 13:** Parameter Learning, focusing on CO3.
+
+**Assessment Plan:**
+
+The course is assessed through a variety of methods to ensure comprehensive evaluation:
+- **Quiz (20%)**: Evaluates understanding of foundational concepts.
+- **Assignment (10%)**: Practical application of learned techniques.
+- **Mid-sem Exam (20%)**: Assesses progress halfway through the course.
+- **End-sem Exam (30%)**: Comprehensive assessment at the end, carrying significant weight.
+- **Homework (10%)**: Reinforces weekly topics with practical exercises.
+- **Presentation (10%)**: Opportunity to present and discuss a project or topic.
+
+**Resource Materials:**
+
+The primary textbooks for this course are:
+1. "Probabilistic Graphical Models: Principles and Techniques" by Daphne Koller and Nir Friedman.
+2. "Bayesian Reasoning and Machine Learning" by David Barber.
+
+These resources provide the theoretical depth necessary to understand and apply PGMs effectively.
+
+This structured approach ensures that students gain a thorough understanding of probabilistic graphical models, from foundational concepts to advanced inference techniques, preparing them for both academic and real-world applications in machine learning.

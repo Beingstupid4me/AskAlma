@@ -1,0 +1,75 @@
+### Course Overview  
+**Course Code:** CSE340/CSE540/ECE340  
+**Course Name:** Digital Image Processing  
+**Credits:** 4  
+**Offered To:** Undergraduate and Postgraduate students  
+
+This course provides an in-depth exploration of digital image processing, covering fundamental theories, algorithms, and practical applications. Students will gain hands-on experience with essential techniques used in the field.
+
+---
+
+### Prerequisites  
+- **Mathematics:** MTH100 (Calculus) and MTH201 (Probability & Statistics) are mandatory prerequisites.  
+- **Signals & Systems:** ECE250 is a desirable prerequisite for those with an electrical engineering background.  
+Other prerequisites may include foundational knowledge in computer science or engineering, which can be discussed with the instructor if needed.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Demonstrate a thorough understanding of fundamental spatial domain image processing techniques.  
+2. **CO2:** Analyze image transforms and apply them in both spatial and Fourier domains.  
+3. **CO3:** Apply image processing techniques in spatial and frequency domains for compression purposes.  
+4. **CO4:** Analyze and compare spatial and frequency domain properties relevant to image compression.  
+5. **CO5:** Examine feature representation, segmentation, and morphological transformations in digital images.
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|---------|---------------------------|
+| 1           | Introduction - Imaging Systems - Applications | CO1     | Assignment - Analytical + Practical |
+| 2           | Digital Image Fundamentals - Human Visual System - Digital Image Formation - Sampling and Quantization - Interpolation - Geometric Transformation | CO1, CO3 | Assignment - Analytical + Practical |
+| 3 & 4       | Image Processing Theory and Practice - Registration - Intensity Transformation - Histogram Processing - Convolution - Spatial Filtering | CO1, CO3 | Lab exercise                |
+| 5 & 6       | Fourier Transform - Convolution - Sampling and Reconstruction - Aliasing - DFT | CO2, CO3, CO4 | Assignment - Analytical + Practical |
+| 7 & 8       | DFT Properties and Filtering in Frequency Domain | CO2, CO3, CO4 | Assignment - Analytical + Practical |
+| 9           | Image Restoration - Noise Models - Linear and Non-linear Filters - Wiener Filtering - Constrained Least Squares Filtering - Reconstruction (if time permits) | CO1, CO2, CO3 | Lab exercise                |
+| 10          | Color Image Fundamentals             | CO1      | Assignment - Analytical + Practical |
+| 11          | DCT and Image Compression            | CO2, CO4 | Assignment - Analytical + Practical |
+| 12          | Morphological Image Processing       | CO1, CO5 | Assignment - Analytical + Practical |
+| 13          | Image Segmentation - Point, Line, and Edge Detection - Thresholding | CO1, CO5 | Lab exercise                |
+
+### Weekly Lab Plan  
+
+| Week Number | Laboratory Exercise               | COs Met | Platform (Hardware/Software) |
+|-------------|-----------------------------------|---------|-------------------------------|
+| 1           | Introduction to Digital Image Processing | CO1     | Software: MATLAB or Python; Hardware: Computer with image processing tools |
+| 2           | Digital Image Fundamentals - Sampling and Quantization | CO1, CO3 | Lab exercise                |  
+| 3 & 4       | Spatial Filtering and Histogram Equalization | CO1, CO3 | Lab exercise                |  
+| 5 & 6       | Fourier Transform and Convolution | CO2, CO3, CO4 | Lab exercise                |  
+| 7 & 8       | Frequency Domain Filtering | CO2, CO3, CO4 | Lab exercise                |  
+| 9           | Image Restoration Techniques | CO1, CO2, CO3 | Lab exercise                |  
+| 10          | Color Image Processing Basics | CO1      | Lab exercise                |  
+| 11          | JPEG Compression and DCT Transform | CO2, CO4 | Lab exercise                |  
+| 12          | Morphological Operations on Images | CO1, CO5 | Lab exercise                |  
+
+### Assessment Strategy  
+
+| Type of Evaluation | % Contribution in Grade |
+|----------------------|------------------------|
+| Quiz                 | 20%                   |
+| Assignment           | 20%                   |
+| Mid-sem             | 15%                   |
+| End-sem              | 25%                   |
+| Project              | 20%                   |
+
+This balanced assessment strategy ensures a comprehensive evaluation of students' understanding and application skills.
+
+---
+
+### Learning Resources  
+
+- **Textbook:** Gonzalez and Woods, *Digital Image Processing*, 3rd edition, Prentice Hall, 2008.  
+- **Additional References:**  
+  - Parkinson, M., & Watson, J. (1994). *Digital Image Processing: A hands-on approach*.  
+
+Students are encouraged to utilize these resources for deeper understanding and practical implementation of concepts.

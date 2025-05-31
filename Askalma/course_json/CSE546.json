@@ -1,0 +1,146 @@
+{
+  "Course Code": "CSE 546",
+  "Course Name": "Applied Cryptography",
+  "Credits": 4,
+  "Course Offered to": [
+    "UG/PG",
+    "UG/PG",
+    "UG/PG",
+    "UG/PG"
+  ],
+  "Course Description": "In this course on Applied cryptography, we will learn about the following topics: 1. Security notions, adversary powers, Perfect security 2. Stream ciphers, block ciphers, hash functions 3. Message authentication 4. Public key cryptography 5. Some interesting Cryptograhic protocols Some mathematics will be required, and will be taught as needed. No background is necessary. Interest in mathematics and theoretical computer science is a prerequisite.",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE121 Discrete Mathematics"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to analyze weak ciphers and break them.",
+    "CO2": "Students are able to summarize the design principles of block ciphers, stream ciphers and hash functions.",
+    "CO3": "Students are able to explain why some public key schemes (such as RSA and El Gamal) work.",
+    "CO4": "Students are able to explain why some public key schemes (such as RSA and El Gamal) work."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction and perfect security",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "HW1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Stream ciphers",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Block ciphers",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "HW2"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "\u2026 continued",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Hash functions and MAC",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "HW3"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Authenticated encryption",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Mathematical background (number theory and algebra)",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW4"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Primality testing",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "PKC RSA, El Gamal, etc",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW5"
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "\u2026 continued",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Zero knowledge proofs",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW6"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Some advanced protocols",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "\u2026 continued",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Project": 20,
+    "Assignment": 20,
+    "Mid-sem": 25,
+    "End-sem": 35
+  },
+  "Resource Material": {
+    "Textbook": "CSE 546",
+    "Reference Book": "(1) Douglas Stinson, (2) Katz and Lindell books on Cryptography"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "Course Code": "ECO201",
+  "Course Name": "Macroeconomics",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course will introduce basic models of macroeconomics along with real-world examples from various industrialized and developing economies. It will provide a unified framework to analyze aggregate behavior of agents in an economy using aggregate demand and supply analysis. We will study the impact of monetary policy and fiscal policy options on economic growth, labor market wages, income distribution, exchange rates, etc. in the short-run, medium-run, and long-run.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": [
+      "Students are able to explain basic macroeconomic models that provide a unified framework to analyze aggregate behavior of agents in an economy using aggregate supply and demand analysis."
+    ],
+    "CO2": [
+      "Students are able to explain how key macroeconomic variables are defined and calculated."
+    ],
+    "CO3": [
+      "Students are able to analyze how medium and long-run price adjustments affect equilibrium income, and distinguish between short-run and long-run macroeconomic effects."
+    ],
+    "CO4": [
+      "Students are able to examine the role of money in the economy, and understand the effects of changes in monetary policy on the economy."
+    ],
+    "CO5": [
+      "Students are able to assess how macroeconomic shocks affect inflation and unemployment. Also, assess the role of government debt and deficits on the economy."
+    ]
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Macroeconomics",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Inflation and unemployment",
+      "COs Met": [
+        "CO2",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "The Goods Market (Aggregate Demand and Aggregate Supply)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Capital Investments and Savings",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Fiscal Policy and Budget Deficits",
+      "COs Met": [
+        "CO2",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Government Debts and Deficits. Exchange rates and the Balance of Payments.",
+      "COs Met": [
+        "CO2",
+        "CO5"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Economic Growth in the Long-Run",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Review of syllabus",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": null,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Krugman, P., Wells, R., Macroeconomics, 2nd edition.",
+      "Mankiw, N.G., Principles of Macroeconomics, 6th edition.",
+      "Froyen, R.T., Macroeconomics: Theories and Policies, 10th edition."
+    ],
+    "Reference Book": null
+  }
+}

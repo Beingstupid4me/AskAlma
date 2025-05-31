@@ -1,0 +1,89 @@
+{
+  "Course Code": "MTH100",
+  "Course Name": "Math 1",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This first level math course covers basics of linear algebra including vector spaces, matrix algebra, linear transformations, eigenvalues and eigenvectors, orthogonality, properties of symmetric matrices, positive definite matrices, and SVD. The course is developed with an aim to provide a strong foundation in linear algebra which will be used in the subsequent curriculum by both CS and ECE students. Time permitting, some applications of linear algebra in engineering disciplines will be introduced. The course also attempts to increase the mathematical maturity of students by introducing proofs and mathematical rigour.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to compute solutions, forms and metrics related to linear algebra using the applicable results/methods (students provided with a full list)",
+    "CO2": "Students are able to test/classify for the given conditions using the given criteria or test (students provided with a full list)",
+    "CO3": "Students are able to determine the truth/falsity of statements involving vector spaces & linear transformations and justify or explain the answer using any of the techniques/results covered up to date",
+    "CO4": "Students are able to construct proofs for statements involving vector spaces and linear transformations using any of the results covered up to date"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1/2/3",
+      "Lecture Topic": "Systems of linear equations, row reduction and echelon forms, matrix equation of the form Ax = b, invertibility of matrices",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    },
+    {
+      "Week": "4/5/6",
+      "Lecture Topic": "Vector spaces and subspaces, linear dependence/independence, dimension, span, applications. Fundamental subspaces.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    },
+    {
+      "Week": "7/8/9",
+      "Lecture Topic": "Linear transformation, rank. Matrix of linear transformation, effect of change of basis, similarity transformation. Algebra of linear transformations. Determinants, properties of determinants, Cramers rule, volume.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    },
+    {
+      "Week": "10/11",
+      "Lecture Topic": "Eigenvalues and eigenvectors, diagonalization of a matrix, eigenvectors and linear transformations, complex eigenvalues.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    },
+    {
+      "Week": "12/13",
+      "Lecture Topic": "Orthogonality and least squares, inner product, length, orthogonal projections, Gram-Schmidt orthogonalization, QR decomposition. Symmetric matrices and Quadratic forms, diagonalization of symmetric matrices, positive definite matrices, SVD, application to image processing.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Homework, tutorial, quiz consisting of related short problems"
+    }
+  ],
+  "Assessment Plan": {
+    "Test": 10,
+    "Midsem": 20,
+    "Weekly submission, quiz": 25,
+    "Endsem": 45
+  },
+  "Resource Material": {
+    "Textbook": {
+      "Title": ". Hoffman & Kunze: Linear Algebra, Pearson."
+    },
+    "Reference Book": {
+      "Title": ". Hoffman & Kunze: Linear Algebra, Pearson."
+    }
+  }
+}

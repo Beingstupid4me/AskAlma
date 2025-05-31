@@ -1,0 +1,81 @@
+### Course Overview  
+**Course Code:** MTH341/541  
+**Course Name:** Complex Analysis  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+
+This course provides an in-depth introduction to the theory of functions of a complex variable. The study of complex analysis is fundamental for understanding various phenomena in physics, engineering, and applied mathematics. Key topics include the geometry of complex numbers, analytic functions, contour integration, series expansions, singularities, zeros, residue calculus, conformal mapping, and applications to real integrals and physical problems.
+
+---
+
+### Prerequisites  
+**Mandatory Pre-requisites:**  
+- Real Analysis - I  
+- Multivariable Calculus  
+
+**Desirable Pre-requisites (Not specified in the provided data):** None mentioned.  
+
+Students are expected to have a strong foundation in calculus and basic real analysis before enrolling in this course.
+
+---
+
+### Learning Outcomes (COs)  
+Upon successful completion of this course, students will be able to:  
+
+- **CO1:** Understand the geometry of complex numbers and their properties.  
+- **CO2:** Analyze functions of a complex variable, compute their derivatives, and evaluate integrals using contour integration techniques.  
+- **CO3:** Identify singularities and zeros of complex functions and apply them in problem-solving scenarios.  
+- **CO4:** Evaluate complicated real integrals using residue calculus and understand its applications.  
+- **CO5:** Apply the theory of complex analysis to solve problems in physics, engineering, and other related fields.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|---------|---------------------------|
+| 1 & 2       | Review of Complex Numbers        | CO1     | HW 1                      |
+| 3 & 4       | Hyperbolic Functions              | CO2     | HW 2                      |
+| 5 & 6       | Contour Integrals, Branch Cuts  | CO2     | HW 3                      |
+| 7 & 8       | Cauchy-Goursat Theorem, Cauchy's Integral Formula | CO2 | HW 4                      |
+| 9 & 10      | Convergence of Sequences/Series | CO2     | HW 5                      |
+| 11 & 12     | Residues and Singularities       | CO3     | HW 6                      |
+| 13         | Applications of Residues        | CO4     | HW 7                      |
+| *Additional Weeks* (if any) | [Insert topics as needed]      | CO5     | [Assignments as needed]   |
+
+---
+
+### Assessment Strategy  
+
+The course is evaluated through a combination of assignments, mid-term examination, tutorials/presentations, and end-term examination. The weightage distribution ensures a balanced assessment of both theoretical understanding and practical application.
+
+| Type of Evaluation        | % Contribution in Grade |
+|----------------------------|------------------------|
+| Homework                  | 30                     |
+| Mid-sem Examination       | 20                    |
+| Tutorials/Viva/Presentation| 10                    |
+| End-sem Examination      | 40                    |
+
+The mid-semester and end-semester examinations carry significant weightage, reflecting their importance in evaluating students' overall understanding of the course material.
+
+---
+
+### Learning Resources  
+
+**Textbooks:**  
+1. **Complex Variables, 2nd ed** by Stephen D. Fisher  
+   - A comprehensive introduction to complex analysis with numerous examples and exercises.  
+
+**Reference Books:**  
+1. **Complex Variables & Applications** by Ruel V. Churchill and James W. Brown  
+   - A classic text that provides a thorough understanding of complex functions and their applications.  
+2. **Complex Analysis** by Theodore W. Gamelin  
+   - Offers a modern approach to the subject with detailed explanations and exercises.  
+3. **Functions of One Complex Variable I** by John B. Conway  
+   - A rigorous treatment of complex analysis, ideal for advanced learners.  
+4. **Fundamentals of Complex Analysis with Applications to Engineering, Science, and Mathematics (3rd Edition)** by Edward B. Saff and Arthur D. Snider  
+   - Focuses on applications in engineering and science, making it a practical resource.
+
+---
+
+This structured course design ensures that students gain a thorough understanding of complex analysis, its theoretical foundations, and practical applications, preparing them for advanced studies and real-world challenges in mathematics, physics, and engineering.

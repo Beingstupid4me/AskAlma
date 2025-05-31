@@ -1,0 +1,75 @@
+### Course Overview  
+**Course Code:** ECE431 / ECE631  
+**Course Name:** Antennas Theory and Design  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students with a background in fundamental electromagnetics.  
+
+This course provides an introduction to the principles of antenna theory and design, complementing foundational knowledge in wave propagation. It combines theoretical concepts with practical applications, offering students the opportunity to design and test antennas. The curriculum is designed to equip students with the skills necessary to implement wireless systems, including communications and radar technologies.
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisites:**  
+- ECE230: Fields and Waves  
+
+**Desirable Prerequisites (Other):** None specified.  
+
+Students are expected to have a solid understanding of fundamental electromagnetics before enrolling in this course.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Analyze Maxwell's equations for wave propagation through different mediums (free space, lossy, dispersive).  
+- **CO2:** Design and/or analyze wire, loop, aperture, active, and broadband antennas in theory or using computational electromagnetic software.  
+- **CO3:** Extend the analysis and design from a single antenna to an antenna array.  
+- **CO4:** Measure basic parameters of common antennas (e.g., input impedance, radiation pattern).  
+
+---
+
+### Weekly Lecture Plan  
+The course is structured into 12 weeks, with each week focusing on specific topics and learning outcomes:  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |  
+|-------------|-----------------------------------|------------------|----------------------------|  
+| 1           | Introduction - Review of vector calculus, review of Maxwell's equations, materials and free space, wave propagation | CO1              | Assignment                 |  
+| 2           | Why do antennas radiate? - Vector potential A for electric current source, vector potential F for magnetic current source, solution of inhomogeneous Helmholtz equation, far field radiation | CO1              | Assignment                 |  
+| 3           | Radiation pattern, beamwidth, directivity, antenna efficiency and gain, bandwidth, input impedance, polarization, antenna effective length and effective area, Friis transmission equation | CO4              | Assignment/Lab/Tutorial    |  
+| 4           | Infinitesimal, small, and half-wavelength dipoles, effect of conductors near ground planes, monopoles, loop antennas | CO2              | Assignment/Lab/Tutorial    |  
+| 5           | Antenna arrays - Two-element array, N-element array, planar array, adaptive beamforming | CO3              | Assignment/Lab/Tutorial    |  
+| 6           | Aperture antennas - Rectangular aperture, slot antennas and arrays | CO2              | Assignment                |  
+| 7           | Microstrip antennas - Rectangular patch, linear and circular polarization, bandwidth, efficiency | CO2              | Assignment/Lab            |  
+| 8           | Broadband antennas - Chu's limit, Yagi antenna, helical antenna | CO2              | Lab                       |  
+| 9           | New antennas - Active antennas, wearable antennas | CO2              | Tutorial                 |  
+| 10          | Project                          | CO2,C04          | Project                     |  
+| 11          | *Please insert more rows if required* | *Please insert more rows if required* | *Please insert more rows if required* |  
+
+---
+
+### Assessment Plan  
+The course assessment is designed to evaluate students' understanding of the material and their ability to apply it in practical scenarios:  
+
+| Type of Evaluation         | % Contribution in Grade | Week(s) Covered |  
+|----------------------------|------------------------|-----------------|  
+| Homework                    | 15%                   | Throughout      |  
+| Quiz                       | 10%                   | Throughout      |  
+| Mid-sem Exam               | 25%                   | Week 6          |  
+| End-sem Exam               | 30%                   | Week 12         |  
+| Project                    | 20%                   | Week 9-12       |  
+
+Additional evaluation methods may include peer reviews or presentations, as specified in the course syllabus.
+
+---
+
+### Resource Materials  
+**Textbook:**  
+- Antennas Theory Analysis and Design, 3rd Edition, Constantine Balanis  
+
+**Reference Material:**  
+- Antennas and Wave Propagation, J. D. Kraus  
+
+These resources provide comprehensive coverage of the topics discussed in this course.  
+
+--- 
+
+This narrative text provides a detailed overview of the course structure, prerequisites, outcomes, weekly plans, assessment strategies, and resource materials. Let me know if you need further elaboration!

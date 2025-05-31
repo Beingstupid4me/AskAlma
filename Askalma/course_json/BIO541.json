@@ -1,0 +1,100 @@
+{
+  "Course Code": "BIO541",
+  "Course Name": "Data sciences in Genomics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The field of Genomics is expanding its horizon with help of high throughput technologies. Scientist are trying to answer fundamental questions related to health, society and human survival outside earth using genomics. With such increase of applications, it constantly needs computational experts for systematic analysis of data and acheiving meaning full insights. Infact the computational experts have now started taking lead in genomic projects. Hence this course is meant to guide students for data analysis approach and steps involved in computational genomics and make them familiar with latest development in genomics.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisites",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "students can understand source and properties of different kinds of genomic data",
+    "CO2": "students can use tools for regular processing different kinds of genomics data",
+    "CO3": "Students can undertsand the statistical approach used by tools for processing genomics data",
+    "CO4": "Students can perform few complex post processing of data to make meaningful clinical and biological inference"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to molecular cell biology, central dogma, measurements using microarray and ngs technologies;",
+      "COs Met": ["CO1"],
+      "Assignments": "Assignment: (i) Paper reading on cellular functions and biological processes and writing in own words"
+    },
+    {
+      "Week": "2-3",
+      "Lecture Topic": "Introduction to Genetics/Genomics; Applications to clinical diagnostics;",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment2 : R and Bioconductor; R packages for annotations, short reads handling, microarray analysis and visualizations;"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "NGS concepts and applications; DNA alignment algorithms and assessment; Data QC and Filtering",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment2 : R and Bioconductor; R packages for annotations, short reads handling, microarray analysis and visualizations;"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Applications of NGS in single cell study, bias, drop-out and noise in single cell data",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "6-7",
+      "Lecture Topic": "Unsupervised (Clustering and Biclustering) and supervised (Classification), statistical approach in Normalization and Differential gene expression (microarray, bulk RNA-seq and single cell RNA-seq)",
+      "COs Met": ["CO2", "CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Network inference methods, WGCNA, visualisation",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "Introduction to epigenome and analysis of epigenome ngs data, handling bias and noise, application of epigenome",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Assignment3: Processing ChIP-seq and RNA-seq datasets to make clinical inference"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Denovo assembly; Assembly assessment; Assembly refinement; Variant calling (SNPs, MNPs, small InDels)",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12-13",
+      "Lecture Topic": "Variant annotations and interpretation, statistical method for effect prediction and QTL; Visualization of genomic data, population Genomics",
+      "COs Met": ["CO3", "CO4"],
+      "Assignments": "Assignment 4: QTL analysis"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-sem": "20",
+    "End-sem": "20",
+    "Assignments": "20",
+    "Project": "40"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "B. Pierce, Genetics: A conceptual approach, ",
+      "B. Pierce, Genetics: A conceptual approach, ",
+      "B. Pierce, Genetics: A conceptual approach, ",
+      "B. Pierce, Genetics: A conceptual approach, "
+    ],
+    "Reference Book": [
+      "https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)",
+      "https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)",
+      "https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)",
+      "https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)"
+    ]
+  }
+}

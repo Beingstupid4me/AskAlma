@@ -1,0 +1,120 @@
+{
+  "Course Code": "MTH514",
+  "Course Name": "Coding Theory",
+  "Credits": 4,
+  "Course Offered to": [
+    "UG/PG"
+  ],
+  "Course Description": "This course deals with the design and study of error-detecting and error-correcting codes for the reliable transmission/storage of data over noisy communication channels.",
+  "Prerequisites": {
+    "Mandatory": "Math I (MTH100)",
+    "Desirable": "Abstract Algebra I",
+    "Other": [
+      "(MTH212) and Abstract Algebra II (MTH513)",
+      "equivalent courses"
+    ]
+  },
+  "Course Outcomes": [
+    {
+      "CO1": "Ability to explain theory of several classes of linear and non-linear codes Ability to construct a new code with better parameters from a code with given parameters",
+      "CO2": "Ability to explain the main coding theory problem and bounds in coding theory",
+      "CO3": "Ability to explain encoding and decoding procedures of several classical families of error-correcting codes",
+      "CO4": "Ability to explain encoding and decoding procedures of several classical families of error-correcting codes"
+    }
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "One",
+      "Lecture Topic": "Error-correcting codes: Error detection, error correction, communication channels, maximum likelihood decoding, Hamming distance, nearest neighbour decoding, distance of a code.",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    },
+    {
+      "Week Number": "Two-Three",
+      "Lecture Topic": "Linear codes: Generator and parity-check matrices, equivalence of Linear codes, encoding with a linear code, Syndrome decoding. Weight enumerators and the MacWilliams identity.",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    },
+    {
+      "Week Number": "Four-Six",
+      "Lecture Topic": "Bounds in coding theory: The main coding theory problem, sphere-covering bound, Gilbert-Varshamov bound, Hamming bound and perfect codes, Hamming codes, Golay codes, Singleton bound and MDS codes, Plotkin bound, Griesmer bound.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    },
+    {
+      "Week Number": "Seven",
+      "Lecture Topic": "Nonlinear codes, Weight enumerators and MacWillimas identity.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    },
+    {
+      "Week Number": "Eight",
+      "Lecture Topic": "Hadamard matrix codes and Nordstrom-Robinson code.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    },
+    {
+      "Week Number": "Nine",
+      "Lecture Topic": "Construction of linear codes: Propagation rules, Reed-Muller codes, Subfield codes.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    },
+    {
+      "Week Number": "Ten-Eleven",
+      "Lecture Topic": "Cyclic codes: Generator polynomials, generator and parity-",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    },
+    {
+      "Week Number": "Twelve-Thirteen",
+      "Lecture Topic": "Some special cyclic codes: BCH codes, encoding and",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Tutorial Sheet"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz": 30,
+    "Midsem": 30,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": [
+      "1. San Ling and Chaoping Xing, Coding Theory, Cambridge Univ",
+      "2. Raymond Hill, A first course in Coding Theory, Clarendon Pre",
+      "3. F. J. MacWilliams and N. J. A. Sloane, The Theory of error-co",
+      "4. Ron Roth, Introduction to Coding Theory, Cambridge Univers 5. W. C. Huffman and V. S. Pless, Fundamentals of error-correct",
+      "6. J. H. Van Lint, Introduction to Coding Theory, Springer."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+**Course Overview**
+
+This course MTH211, named "Number Theory" is an elementary introduction to number theory, designed for undergraduate students with no algebraic prerequisites. The primary focus is on foundational concepts such as primes, congruences, quadratic reciprocity, diophantine equations, arithmetic functions, and special numbers like perfect numbers and partitions. The course is structured to provide a comprehensive understanding of these topics through weekly lectures, assignments, and assessments.
+
+**Course Prerequisites**
+
+While no specific algebraic prerequisites are required, students should be prepared for the logical rigor of mathematical proofs. The course assumes basic familiarity with integers and their properties.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+1. **CO1**: Understand and construct formal mathematical proofs.
+2. **CO2**: Analyze elementary results related to prime number distributions.
+3. **CO3**: Apply number-theoretic techniques in simple computations.
+4. **CO4**: Discuss properties of special number-theoretic functions and their growth rates.
+5. **CO5**: Explain properties of numbers with specific forms, such as perfect numbers or Mersenne primes.
+6. **CO6**: Solve linear and quadratic diophantine equations.
+7. **CO7**: Describe solutions to complete Diophantine equations and the insolvability of non-linear ones.
+8. **CO8**: Understand the proof of Lagrange's four-square theorem and basic partition theory.
+
+**Weekly Syllabus**
+
+- **Week 1**: Introduction to divisibility, prime numbers, and their distribution.
+- **Week 2**: Congruences, residue systems, Fermat’s Little Theorem, Euler’s Theorem, Wilson’s Theorem, and applications in RSA cryptography. Linear congruences and the Chinese Remainder Theorem.
+- **Week 3**: Primitive roots and their properties.
+- **Week 4**: Quadratic residues and the Quadratic Reciprocity Law.
+- **Week 5**: Arithmetical functions, including examples and growth rates.
+- **Week 6**: Special forms of numbers, such as perfect numbers, Mersenne primes, amicable numbers, Fermat’s numbers, and Fibonacci numbers. Introduction to diophantine equations.
+- **Week 7**: Representation of integers as sums of squares.
+- **Week 8**: Basic properties of partitions.
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application:
+- **Midsem Exam (30%)**: Covers foundational topics, including divisibility, congruences, and prime distributions.
+- **Quizzes (30%)**: Regular assessments on weekly topics to reinforce learning.
+- **Endsem Major Exam (40%)**: Comprehensive evaluation of all course material, including diophantine equations and partition theory.
+
+**Resource Materials**
+
+The following textbooks are recommended for this course:
+1. David M. Burton, *Elementary Number Theory*, Tata McGraw Hill.
+2. Niven, Zuckerman, and Montgomery, *An Introduction to the Theory of Numbers*.
+3. Hardy and Wright, *An Introduction to the Theory of Numbers*, Oxford University Press.
+4. Tom M. Apostol, *Introduction to Analytic Number Theory*, Springer.
+5. Alan Baker, *A Concise Introduction to the Theory of Numbers*, Cambridge University Press.
+
+This structured approach ensures a thorough understanding of number theory, equipping students with both theoretical knowledge and practical problem-solving skills.

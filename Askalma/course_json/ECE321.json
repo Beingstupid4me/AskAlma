@@ -1,0 +1,55 @@
+{
+  "Course Code": "RF Circuit Design",
+  "Course Name": "RF Circuit Design (ECE321/ECE521)",
+  "Credits": 4,
+  "Course Offered to": [
+    "ECE321",
+    "ECE521"
+  ],
+  "Course Description": "This course is designed for exposure to circuits and systems design techniques for radio communications leading towards the recent research in the domain of advanced radio technology.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Foundations of Electromagnetic Fields and Waves"
+    ],
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "...",
+    "CO2": "...",
+    "CO3": "...",
+    "CO4": "..."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "...",
+      "COs Met": [],
+      "Assignments": "..."
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "...",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "..."
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 20,
+    "Midsem": 20,
+    "HW assignments": null,
+    "Endsem": 15
+  },
+  "Resource Material": {
+    "Textbook": "RF Circuit Design Theory and Applications, 2nd edition \u2013 R. Ludwig and G. Bogdanov, Pearson Economy",
+    "Reference Book": [
+      "Microwave Engineering, 3rd Edition \u2013 D. M. Pozar, Wiley",
+      "Secrets of RF Circuit Design \u2013 Joseph Carr, McGraw Hill",
+      "RF Circuit Design \u2013 R. Bowick, Newnes",
+      "IEEE Xplore, and IEL"
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+--- LLM RAW OUTPUT ---
+<think>
+Okay, so I need to extract information from the given file content and structure it into a specific JSON format. Let me start by understanding what's required.
+
+First, looking at the JSON template provided, there are several fields that need to be filled with data from the table in the file. The main sections are Course Code, Course Name, Credits, Course Offered to, Course Description, Prerequisites (Mandatory, Desirable, Other), Course Outcomes, Weekly Lecture Plan, Assessment Plan, and Resource Material.
+
+First, I'll extract the Course Code and Course Name directly from the first two rows of the table. The Credits are given as 4 in multiple rows, so that's straightforward. The course is offered to UG students based on the data provided.
+
+For the Course Description, it spans several rows but seems repetitive. It mentions training students in functional and technical aspects for supply chain modeling with real-world case studies. I'll take this description verbatim as per the first occurrence.
+
+Prerequisites are listed multiple times; they include Computer Programming and Excel skills along with awareness of e-commerce. These will be captured under "Mandatory" Pre-requisite.
+
+CO Outcomes (Course Outcomes) have specific verbs, but in the data provided, it's just CO1 to CO5 without detailed descriptions. The user wants them structured as a JSON array for each CO.
+
+The Weekly Lecture Plan has multiple weeks with topics and COs met. Each week is an object with Week Number, Lecture Topic, COs Met (array of CO codes), and Assignment/Labs/Tutorial (another array).
+
+The Assessment Plan includes various types of evaluations with their contribution percentages.
+
+Resource Material includes different types and book titles.
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses. Students will leverage their information technology background along with supply chain knowledge to bring specialized value proposition.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity of using Excell and other tools",
+    "Desirable": "Awareness of Ecommerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the impact of digital transformation on supply chains"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of this course is to provide students with a comprehensive understanding of effective supply chain management in the context of e-commerce. Students will learn about functional and technical aspects, including modeling, optimization techniques, and practical assessments.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity of using Excel and other tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the importance of data analytics in supply chain management, develop dashboards and business intelligence tools for decision making | understand the role of big data and machine learning in predicting trends and forecasting demand"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses. Students will leverage their IT background along with supply chain knowledge to develop models at three levels, simulate real business scenarios, and understand core concepts through practical assessments.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity of using Excel and other tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the role of information technology in supply chain management"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The objective of this course is to provide students with a comprehensive understanding of effective supply chain management in the context of e-commerce businesses. Students will learn functional and technical aspects of supply chain modeling, optimization, and decision-making at various levels (strategic, operational, and tactical). The course includes rigorous assignments, projects, and practical assessments that involve extensive hands-on exercises using real data to develop models for supply chain simulations.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity of using Excel and other tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": "None"
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in Excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the key concepts of E-Business implementation, including security, privacy, ethical aspects"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of this course is to provide students with a comprehensive understanding of supply chain modeling and its application in e-commerce businesses. Students will learn functional and technical aspects to design effective supply chain models for eCommerce, including strategic, operational, and tactical levels.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity of using Excel and other tools",
+    "Desirable": "Awareness of Ecommerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in Excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the impact of digital transformation on supply chains"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses, leveraging IT background and supply chain knowledge. Students will engage in rigorous assignments and projects focusing on real industry cases, developing models in Excel or real-time software to simulate supply chain management scenarios.",
+  "Prerequisites": "Computer Programming and familiarity with Excel tools; Awareness of E-commerce business aspects",
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business relevance to modern enterprises and develop inventory planning and optimization models.",
+    "b) Develop supply chain performance metrics & drivers for e-commerce businesses.",
+    "c) Develop models in Excel or real-time software to simulate e-commerce supply chain management scenarios.",
+    "d) Evaluate and optimize the overall performance of a supply chain network model for e-commerce businesses."
+  ],
+  "Weekly Lecture Plan": [
+    { 
+      "Week": 1, 
+      "Lecture Topic": "E Business Enterprise in a perspective, SCM and E Commerce .Levels of IT intervention in the enterprise.", 
+      "COs Met": ["CO1"], 
+      "Assignments": "Learning Diary , case solving" 
+    }, 
+    { 
+      "Week": 2, 
+      "Lecture Topic": "An Introduction to Supply Chain Management . Strategic, tactical, and operational decisions in supply chains. Supply chain performance measures. Supply chain inventory management: Newsboy, Base-stock, and (Q,R) models, multi-echelon supply chains, bullwhip effect..", 
+      "COs Met": ["C01", "C01"], 
+      "Assignments/Labs/Tutorial": "Learning Diary , case solving"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses. Students will leverage their IT background along with supply chain knowledge to develop models at three levels, design effective supply chain network models, and conduct scenario analysis.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity with Excel tools",
+    "Desirable": "Awareness of E-Commerce business aspects",
+    "Other": "Basic understanding of IT"
+  },
+  "Course Outcomes": [
+    "a) Explain and apply basic principles of SCM and E-Business relevance to modern enterprises, develop inventory planning models.",
+    "b) Develop supply chain performance metrics & drivers for e-commerce businesses.",
+    "c) Create Excel/online tools to simulate e-commerce supply chain management scenarios.",
+    "d) Analyze and optimize supply chain network models for e-commerce businesses."
+  ]
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses. Students will leverage their IT background along with supply chain knowledge to develop models at three levels (strategic, operational, tactical) to simulate real industry scenarios.",
+"Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity of using Excel and other tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": ""
+},
+"Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the key concepts of E-Commerce and its impact on supply chain management"
+],
+"CO1": ["a)", "b)", "c)"],
+"CO2": ["d)"],
+"CO3": [],
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses, leveraging IT background and supply chain knowledge.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity with Excel tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in excel or real time software to simulate e commerce supply chain management scenarios (x2)",
+    "d) Conduct a comprehensive analysis of the current state of the supply chain network model, identify key bottlenecks, propose and evaluate alternative solutions to optimize performance"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of this course is to provide students with a comprehensive understanding of supply chain modeling and optimization in the context of e-commerce. Students will learn about functional and technical aspects, including strategic, operational, and tactical levels, through case studies and practical assignments.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity with Excel tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E-Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the key concepts of E-Business implementation, including security, privacy, ethical aspects"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "E Business Enterprise in a perspective, SCM and E Commerce .Levels of IT intervention in the enterprise. Learning outcomes: C01 - To understand the concept of supply chain management and its relevance to modern day enterprise; C02 - To develop models in excel or real time software to simulate e commerce supply chain management scenarios; C03 - To apply basic principles of SCM and E- Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization | rd | rd | rd | rd | rd | rd
+Alright, I need to extract information from the provided sheet and structure it into a JSON format as specified. Let me start by carefully reading through the content.
+
+First, looking at the headers: Course Code is MGT310, Course Name is "MGT310 Effective Supply chain for E commerce", Credits are 4, Offered to UG, Description seems lengthy but I can extract COs Met and weekly plans. Prerequisites include Computer Programming and Excel skills.
+
+For Course Outcomes (COs), the first row after that has a list of verbs like "a)", "b)", etc., which correspond to each CO from CO1 to CO5. So CO1 is about explaining basic SCM principles, CO2 on developing supply chain performance metrics, etc.
+
+The Weekly Lecture Plan starts at Week 1 with topics and COs met. Each week has a topic, COs met (like C01), and assignments or labs. The Assessment Plan includes various types of evaluations like Assignments, Midterm Exam, Tests, Project Presentations, Final Exam.
+
+Resource Material includes books and other resources listed.
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity of using Excell and other tools",
+    "Desirable": "Awareness of Ecommerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain and apply the basic principles of SCM and E- Business and its relevance to modern day enterprise and Develop and implement inventory planning and optimization",
+    "b) Develop and implement supply chain performance metrics & drivers for eCommerce businesses –",
+    "c) Develop models in excel or real time software to simulate e commerce supply chain management scenarios",
+    "d) Understand the key concepts of E-Commerce and its impact on supply chains"
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses. Students will leverage their IT background along with supply chain knowledge to develop specialized value proposition.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity with Excel tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain basic principles of SCM and E-Business relevance to modern enterprises, develop inventory planning models.",
+    "b) Develop supply chain performance metrics & drivers for e-commerce businesses.",
+    "c) Create Excel/real-time software models for simulating e-commerce supply chain management scenarios."
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "The objective of course is to train students in functional and technical aspects of supply chain modeling for e-commerce businesses. Students will leverage their IT background along with supply chain knowledge to develop specialized value proposition.",
+  "Prerequisites": {
+    "Mandatory": "Computer Programming and familiarity with Excel tools",
+    "Desirable": "Awareness of E-commerce business",
+    "Other": ""
+  },
+  "Course Outcomes": [
+    "a) Explain basic principles of SCM and E-Business relevance to modern enterprises, develop inventory planning models.",
+    "b) Develop supply chain performance metrics & drivers for e-commerce businesses.",
+    "c) Create Excel/real-time software models for simulating e-commerce supply chain management scenarios (x2).",
+    "d) Conduct case study discussions."
+</think>
+
+```json
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of this course is to provide students with a comprehensive understanding of effective supply chain management in the context of e-commerce businesses. Students will learn functional and technical aspects of supply chain modeling, optimization, and decision-making at various levels (strategic,
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MGT310",
+  "Course Name": "Effective Supply chain for E commerce",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "The objective of this course is to provide students with a comprehensive understanding of effective supply chain management in the context of e-commerce businesses. Students will learn functional and technical aspects of supply chain modeling, optimization, and decision-making at various levels (strategic,

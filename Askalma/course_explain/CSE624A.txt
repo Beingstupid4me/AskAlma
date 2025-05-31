@@ -1,0 +1,46 @@
+### Course Overview  
+The course, **CSE624A: Introduction to Computational Complexity**, is designed for senior undergraduate, master's, and PhD students in the Computer Science and Engineering (CSE) department. This course provides an in-depth exploration of computational complexity theory, focusing on the equivalence of deterministic and non-deterministic models of computation, such as Turing machines. The course delves into fundamental questions like the P versus NP problem, which remains one of the most significant open problems in computer science.
+
+The course description outlines that students will begin by recalling Turing machines and formally defining the classes 'P' (problems solvable in polynomial time) and 'NP' (problems whose solutions can be verified in polynomial time). The concept of reductions is introduced to establish equivalences between different computational problems, leading to an exploration of NP-complete problems from various domains, such as logic and graph theory. Additionally, the course covers related complexity classes, including co-NP, EXP, NEXP, PSPACE, and NPSPACE, as well as advanced topics like the polynomial hierarchy and randomness in computation.
+
+### Prerequisites  
+The mandatory prerequisites for this course are **CSE121**, **CSE322**, **CSE102**, and **MTH201**. These courses provide foundational knowledge necessary for understanding the advanced concepts covered in this course. Desirable prerequisites include additional background in theoretical computer science, as specified by the department.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Review and analyze different variants of Turing machines and computational models.  
+- **CO2**: Understand and apply reduction techniques to establish equivalences between computational problems.  
+- **CO3**: Discuss complete problems for various computational classes and explore relationships between these classes.  
+- **CO4**: Explain important results, open problems, and advancements in computational complexity theory.
+
+### Weekly Syllabus and Topics  
+The course is structured into weekly lectures, each focusing on specific topics aligned with the learning outcomes:  
+
+1. **Week 1**: Review of Turing machines, formal introduction of P and NP classes.  
+2. **Week 2**: Karp reduction, NP-completeness, and the first NP-complete problem (Satisfiability).  
+3. **Week 3**: Additional NP-complete problems and an exploration of the co-NP class.  
+4. **Week 4**: Time Hierarchy Theorems, EXP, and space complexity classes (PSPACE and NPSPACE).  
+5. **Week 5**: Space Hierarchy Theorems, PSPACE = NPSPACE, and a PSPACE-complete problem.  
+6. **Week 6**: Logspace reductions; L, NL, and co-NL; the polynomial hierarchy (PH) and complete problems in PH.  
+7. **Week 7**: Overview of randomness in computation.
+
+No specific topics or assignments are mentioned for any missing weeks.
+
+### Assessment Strategy  
+The course employs a comprehensive assessment strategy to evaluate students' understanding and mastery of the material:  
+
+- **Assignments**: Two assignments contribute 30% to the final grade.  
+- **End-Semester Examination (ESE)**: Carries a significant weightage, reflecting its importance in evaluating overall understanding.  
+- **Homework (HW)**: Additional assessments contributing 20% of the final grade.  
+- **Quiz**: A smaller component contributing 10% to the final grade.  
+- **End-Semester Examination (ESE)**: The most significant assessment, contributing 40% of the final grade.  
+
+### Learning Resources  
+The course provides a range of resources to support student learning:  
+
+- **Textbook**: *Computational Complexity: A Modern Approach* by Arora and Barak.  
+- **Additional Books**:  
+  - *Mathematics and Computation* by Avi Wigderson  
+  - *Introduction to the Theory of Computation* by Michael Sipser  
+
+These resources are designed to deepen students' understanding of computational complexity theory and its applications.

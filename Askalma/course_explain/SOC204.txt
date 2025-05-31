@@ -1,0 +1,49 @@
+**Course Overview**
+
+**Course Code:** SOC204  
+**Course Name:** Sociology of New Media  
+**Credits:** 4  
+**Offered To:** UG  
+**Course Description:** This course introduces students to macro-sociological concepts to understand the role of new media and online networking in contemporary society. It draws from sociological perspectives beyond 'technological determinism' to explore how IT-driven media influences social structures, including themes like inequality, digital divide, politics, journalism, and law.
+
+**Prerequisites:** Introduction to Sociology
+
+**Course Outcomes (COs):**
+
+1. **CO1:** Students will grasp macro-level sociological theories and concepts related to new media and society.
+2. **CO2:** Students will critically analyze assumptions in technological deterministic claims.
+3. **CO3:** Students will explore how new media impacts various social structures, such as economic, community, and social capital dimensions.
+4. **CO4:** Students will independently conduct research projects on new media-related topics.
+5. **CO5:** Students will reflect critically on their practices as new media and social networking developers.
+
+**Weekly Lecture Plan:**
+
+1. **Week 1:** Introduction to moving beyond technological determinism
+2. **Week 2:** New and old media: Sociological perspectives (PART I)
+3. **Week 3:** Virtual community and social capital
+4. **Week 4:** Networked individualism
+5. **Week 5:** Information society in history
+6. **Week 6:** Information society in history (continued)
+7. **Week 7:** Information society in China
+8. **Week 8:** Information society in India
+9. **Week 9:** Media research: methods workshop
+10. **Week 10:** New media and economy: Wikipedia (PART II)
+11. **Week 11:** Social media and networked journalism
+12. **Week 12:** Online rumours, bots, and violence
+13. **Week 13:** Project presentations
+14. **Week 14:** Revision and essay submission
+
+**Assessment Plan:**
+
+- **Response paper:** 10%
+- **Mid-Term exam:** 20%
+- **Final exam:** 30%
+- **Class participation/quiz:** 10%
+- **Project:** 30%
+
+**Resource Materials:**
+
+- **Textbook:** *Net smart: How to thrive online* by Lee Rainie and Barry Wellman
+- **Reference Books:**
+  - *Net smart: How to thrive online* by Howard Rheingold
+  - *Communication Technology and the Information Have-Less in Urban China* by Lee Rainie

@@ -1,0 +1,52 @@
+### Course Overview  
+The course titled **Integrated Circuit Fabrication (ECE 522)** is a fundamental course for both undergraduate and postgraduate students pursuing degrees in electrical engineering or related fields. This course provides a comprehensive understanding of the physical and chemical processes involved in the fabrication of silicon-based integrated circuits. It covers topics ranging from crystal growth to advanced fabrication techniques such as lithography, etching, diffusion, ion implantation, and packaging. The course is designed for students who have a quantitative background in device physics, particularly those familiar with diodes, bipolar junction transistors (BJTs), and field-effect transistors (FETs).  
+
+### Prerequisites  
+The prerequisite for this course includes a solid understanding of **Solid State Devices & Semiconductor Physics**. Students are expected to have prior knowledge of the basic principles governing semiconductor devices, including their structure, operation, and material properties. Desirable pre-requisites may include exposure to advanced topics in device physics or integrated circuit design.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+- **CO1:** Identify the IC production cycle and describe semiconductor materials and their defects.  
+- **CO2:** Determine and develop process parameters for thermal oxidation, metallization, photolithography, etching, diffusion, and ion implantation processes.  
+- **CO3:** Design the ion implantation process, identify implant damage, and implement techniques to remove such damage.  
+- **CO4:** Generate the flow of IC fabrication processes and design specifications for fabricated resistors, capacitors, and inductors.  
+- **CO5:** Plan processing steps for BJT, MOSFET, BiCMOS, BEOL, SOI, FinFET, and MESFET fabrication and choose appropriate packaging techniques.
+
+### Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials                                                                 |
+|-------------|-----------------------------------|------------------|-------------------------------------------------------------------------------------------|
+| 1           | Introduction to Semiconductor Fabrication, IC Production Cycle, Semiconductor Materials and their Properties | CO1              | Reading Assignment, Group assignment (Simulation I)                                      |
+| 2 & 3       | Crystal Structure, Crystal Axis and Plane, Crystal Defects and Defect Electronic Properties, Crystal Growth – Elementary Material, Growth from Liquid and Doping in Liquid State | CO1, CO2         | Reading Assignment, Group assignment (Simulation I), Quiz 1                             |
+| 4 & 5       | Oxidation - Thermal Oxidation, Dielectric Deposition and Polysilicon Deposition, Film Deposition and Metalization | CO2              | Group assignment (Simulation I), Quiz 2                                                |
+| 6           | Photolithography – Optical Lithography, Pattern Generation and Mask Making, Printing Problems, New Techniques in Lithography | CO2              | Group assignment (Simulation I), Quiz 3                                                |
+| 7           | Etching – Wet Chemical Etching, Dry Etching, Microelectromechanical Systems (MEMS) | CO2              | Group assignment 2, Quiz 4                                                          |
+| 8           | Diffusion – Basic Diffusion Process, Extrinsic Diffusion, Diffusion-Related Processes, Silicon and GaAs Impurity Behaviour | CO2              | Group assignment 2, Quiz 5                                                          |
+| 9           | Ion Implantation – Basic of Ion Implantation, Range of Implanted Ions, Implant Damage and Annealing, Implantation-Related Process | CO3              | Group assignment 2, Quiz 6                                                          |
+| 10          | Process Integration – IC Fabrication Process, Mask Layout, Isolation Techniques, Passive Components | CO4              | Group assignment 2, Quiz 7                                                          |
+| 11 & 12    | Bipolar Technology, MOS Technology and CMOS Technology, BiCMOS, BEOL, SOI, FinFET and MESFET Technology | CO4              | Quiz 8                                                |
+| 13          | Assembly, Packaging, and Testing | CO4              | Quizzes and Group Assignments (if any)                                                  |
+| 14          | Future Trends in IC Fabrication | CO4              | Quizzes and Group Assignments (if any)                                                  |
+
+### Assessment Strategy  
+The course is assessed through a combination of quizzes, group assignments, project work, mid-semester, and end-semester examinations. The weightage distribution is as follows:  
+
+| Type of Evaluation | % Contribution in Grade |
+|---------------------|------------------------|
+| Quiz                | 20%                    |
+| Project             | 20%                    |
+| Mid-sem            | 20%                    |
+| End-sem            | 40%                    |
+
+### Resource Materials  
+The course provides the following resource materials to support student learning:  
+
+| Type      | Title                          |
+|-----------|---------------------------------|
+| Textbook   | 1. Gary S. May and S. M. Sze – Fundamentals of Semiconductor Fabrication, John Wiley & Sons, 2004        |
+| Textbook   | 2. S. M. Sze – Semiconductor Devices Physics and Technology, John Wiley, 2nd Edition, 2002               |
+| Textbook   | 3. S. K. Ghandi – VLSI Fabrication Principles, John Wiley, 1993                                         |
+| Textbook   | 4. W. Runyan and K. Bean, Semiconductor Integrated Circuit Processing Technology, Addison Wesley, 1990      |
+
+These textbooks provide comprehensive coverage of the topics discussed in the course, including fabrication processes, device physics, and advanced manufacturing techniques.

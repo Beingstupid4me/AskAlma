@@ -1,0 +1,90 @@
+{
+  "Course Code": "CSE624A",
+  "Course Name": "Introduction to Computational Complexity",
+  "Credits": "2",
+  "Course Offered to": "senior UG, masters, and PhD students",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE121",
+      "CSE322",
+      "CSE102",
+      "MTH201"
+    ]
+  },
+  "COs Met": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of Turing machines, formal introduction of P and NP",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Karp reduction, NP-completeness, the first NP-complete language - Satisfiability",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "More NP-complete problems, the class co-NP.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Time Hierarchy theorems, the class EXP, space complexity classes - PSPACE and NPSPACE",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Space hierarchy theorems, PSPACE = NPSPACE, PSPACE-complete language",
+      "COs Met": [
+        "CO1",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Logspace reductions; L, NL and co-NL; polynomial hierarchy (PH), complete problems in PH.",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "A high-level overview of randomness in computation",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO4"
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "20%",
+    "Midsem": "40%",
+    "HW assignments": "30%",
+    "Endsem": "10%"
+  },
+  "Resource Material": {
+    "Textbook": "Computational Complexity: A modern approach by Arora and Barak",
+    "Reference Book": "Mathematics and computation by Wigderson",
+    "Other Books": "Introduction to the Theory of Computation by Sipser"
+  }
+}

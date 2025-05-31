@@ -1,0 +1,81 @@
+{
+  "Course Code": "MTH562A",
+  "Course Name": "Point Set Topology",
+  "Credits": 2,
+  "Course Offered to": "UG + PG",
+  "Course Description": "The subject of topology serves to lay the foundations for future study in Analysis, in Geometry, and in Algebraic Topology. In general terms, Topology concerns itself with properties of geometric objects and mappings between them such as continuity, connectedness, compactness, deformation. In this course we study Point Set Topology which is the branch of Topology dealing with the basic set-theoretic definitions and constructions used in Topology. The core of the study will cover topological spaces, connectedness, compactness (through compactness of finite products), and the countability and separation axioms (through the Urysohn metrization theorem), and complete metric spaces. The course will prepare the student to undertake further studies in the areas mentioned above.",
+  "Prerequisites": {
+    "Mandatory": "MTH240 (Analysis I)",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to determine whether a given set is open or closed.",
+    "CO2": "Students will be able to determine whether a given mapping between topological spaces is continuous. They will also be able to construct continuous mappings.",
+    "CO3": "Students will be able to determine whether a given set is connected; and whether a given set is compact.",
+    "CO4": "Students will be able to determine whether a given topological space is first countable; or second countable; or normal; or metrizable, or a metric space is complete."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "123",
+      "Lecture Topic": "The definition of a topology, a topological space, a basis for a topology and an open set; the standard topology on the real line; the order topology; the product topology; the subspace topology; closed sets and limit points; the Hausdorff axiom, the metric topology. Continuity.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Relevant homework problems will be assigned"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Connectedness: Connected spaces, unions of connected spaces, finite cartesian products of connected spaces, connected subspaces of the real line, the Intermediate Value Theorem, path connectedness, local connectedness, connected components, path components.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Relevant homework problems will be assigned"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Compact spaces, the Tube lemma, Lebesgue number lemma, limit point compactness, sequential compactness, locally compact Hausdorff spaces, one point compactification.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Relevant homework problems will be assigned"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "First countability axiom, second countability axiom, Lindelof spaces, separable spaces, regular spaces, normal spaces. The Urysohn Lemma, the Urysohn metrization theorem.",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Relevant homework problems will be assigned"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Complete metric spaces, Baire's theorem. Ascoli's theorem.",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Relevant homework problems will be assigned"
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Assignments and presentation of solutions",
+      "% Contribution in Grade": "25",
+      "Description": "There will be five sets of assignments carrying five points each, consisting of ten problems in each set. The students will obtain credit for the assignments on the basis of the written solutions as well as in-class presentations of solutions randomly selected from the ones which are submitted."
+    },
+    {
+      "Type of Evaluation": "Mid Semester Exam",
+      "% Contribution in Grade": "25"
+    },
+    {
+      "Type of Evaluation": "End Semester Exam",
+      "% Contribution in Grade": "50"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": "Topology, by Munkres",
+    "Reference Book": "Elements of Point Set Topology, by Baum"
+  }
+}

@@ -1,0 +1,67 @@
+**Course Overview**
+
+The course CSE660, titled "Trustworthy AI Systems" is designed for students pursuing PG or UG programs in their 3rd or 4th years. This course focuses on equipping students with the knowledge and skills to develop AI systems that are trustworthy, ethical, and free from biases. The course covers essential topics such as fairness, bias mitigation, explainability, robustness, and transparency in AI systems.
+
+**Prerequisites**
+
+To successfully engage with this course, students should have a foundational understanding of Artificial Intelligence (AI), Machine Learning (ML), or Statistical Machine Learning. Students are expected to be familiar with basic concepts such as algorithms, data analysis, and programming. Specific prerequisites include knowledge of **Artificial Intelligence (CSE643)**, **Machine Learning (CSE343/CSE543/ECE563)**, or **Statistical Machine Learning (CSE342/ CSE542)**.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Understand and analyze AI systems for their trustworthiness, fairness, explainability, robustness, and transparency.
+2. **CO2**: Evaluate AI systems numerically for their performance in terms of bias mitigation, accuracy, and reliability.
+3. **CO3**: Understand the role of AI systems in society and their implications on human decision-making processes.
+
+**Weekly Syllabus and Topics**
+
+The course is structured into 13 weeks, each focusing on specific topics that build upon one another to achieve the learning outcomes:
+
+- **Week 1**: Introduction to Trustworthy AI; Importance of trustworthiness in AI systems.
+- **Week 2**: Broad principles of trustworthiness (Fairness, Accountability, Sustainability, and Transparency).
+- **Week 3**: Understanding Bias in AI systems and its types.
+- **Week 4**: Identifying and mitigating bias in AI systems.
+- **Week 5**: Data fairness evaluation methods.
+- **Week 6**: Fairness evaluation algorithms.
+- **Week 7**: Accountability in AI; Answerability, Auditability, Safety, and Reliability.
+- **Week 8**: Accountability (Accuracy, Reliability, and Robustness) and Mid-Semester Exam preparation.
+- **Week 9**: Robustness of AI systems: methods and techniques.
+- **Week 10**: Reliability of AI systems: methods and techniques.
+- **Week 11**: Verification of AI/ML systems.
+- **Week 12**: Validation of AI/ML systems.
+- **Week 13**: Interpretability/Explainability in AI; Traditional and third-generation explainable AI.
+
+**Assignments**
+
+Assignments are a crucial part of this course, with the following details:
+
+- **Coding Assignment #1**: Assigned after Week 4, focusing on bias mitigation techniques.
+- **Coding Assignment #2**: Assigned after Week 8, focusing on interpretability methods like CAM and Grad-CAM.
+
+**Assessment Strategy**
+
+The assessment strategy is designed to evaluate both theoretical understanding and practical application of the course concepts:
+
+- **Quiz (10%)**: Covers fundamental concepts discussed in class.
+- **Assignment (15%)**: Includes coding assignments focused on bias mitigation and explainability techniques.
+- **Paper Presentation (15%)**: Students will present recent research papers related to AI ethics and trustworthiness.
+- **Project (20%)**: A term project involving the development of a Trustworthy AI system, including presentation and evaluation.
+- **Mid-Semester Examination (20%)**: Covers material from the first half of the course.
+- **End-Semester Examination (20%)**: Comprehensive examination covering all topics discussed during the semester.
+
+**Resource Materials**
+
+The following resources are recommended for this course:
+
+1. **Textbook**: "Trustworthy AI: Building AI Systems that Align with Human Values" by Dr. Sangeeta Bhatia.
+2. **Reference Book**: "Explainable AI in Practice" by Dr. Anand Rao and Ilana Golbin.
+
+**Additional Resources**
+
+Students are encouraged to explore the following resources for further understanding:
+
+- Academic papers on bias mitigation, fairness evaluation, and explainability techniques.
+- Online courses and tutorials related to AI ethics and trustworthiness.
+
+This structured course provides a comprehensive overview of Trustworthy AI systems, emphasizing the importance of ethical considerations in AI development. Through this course, students will gain the necessary skills to design and implement AI systems that are fair, transparent, and robust.

@@ -1,0 +1,136 @@
+{
+  "Course Code": "CSE571",
+  "Course Name": "Introduction to Media Computing",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course introduces students to: (i) the fundamental principles, theory, algorithms, and data structures behind digital representation, compression, synchronization, and processing of image, audio, and video data types, and (ii) challenges and issues in developing media-rich applications, such as media streaming and media retrieval. Students will be exposed to the workings of common media file formats and common manipulation techniques on media data.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Be confident in developing software and systems that capture, generate, store, and manipulate digital media.",
+    "CO2": "Be able to make appropriate design decisions to trade-off between different computation resources (CPU time, storage, bandwidth) and media quality in choosing a media representation and",
+    "CO3": "Be equipped with fundamental knowledge to pursue multimedia-related topics in depth.",
+    "CO4": "Use evaluation strategies to analyze results, preparing report, and visually present the insights"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Introduction to Media Computing",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Introduction to Text Retrieval",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Image Representation and Retrieval",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Multimedia Indexing and Search Architecture",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Fundamentals of Digital Image",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Introduction to Digital Audio",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Image Filters &Transformation",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Multimedia Compression Techniques",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Fundamentals of Digital Image",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Introduction to Digital Audio",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "",
+    "Midsem": "",
+    "HW assignments": "",
+    "Endsem": ""
+  },
+  "Resource Material": {
+    "Textbook": [
+      "R. Steinmetz, \"Multimedia: Computing Communications & Applications\", Pearson Education, 2012.",
+      "R. Steinmetz and K. Nahrstedt, \"Multimedia Systems\", Springer, 2013.",
+      "R. Steinmetz and K. Nahrstedt, \"Multimedia Applications\", Springer, 2013.",
+      "R. R. Shah and R. Zimmermann, \"Multimodal Analysis of User-Generated Multimedia Content\", Springer, 2017.",
+      "Dan Jurafsky and James H. Martin, \"Speach and Language Processing\"."
+    ],
+    "Reference Book": [
+      "Research papers that will be discussed in class"
+    ]
+  }
+}

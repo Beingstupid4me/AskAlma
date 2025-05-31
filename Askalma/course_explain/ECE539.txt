@@ -1,0 +1,71 @@
+### Course Overview  
+**Course Code:** ECE539  
+**Course Name:** Wireless System Implementation  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG / PG)  
+
+This course is designed to provide students with a comprehensive understanding of wireless communication systems. It combines theoretical concepts with practical implementation, focusing on the design and analysis of wireless systems. Students will explore topics such as large-scale propagation models, wireless channel characterization, digital modulation techniques, and advanced wireless technologies like OFDM. The course also includes hands-on projects using tools such as NI USRP and MATLAB to reinforce theoretical knowledge.
+
+---
+
+### Course Description  
+This course equips students with the ability to analyze and design basic wireless communication systems. Starting with large-scale propagation models, students will study the modeling of wireless channels as linear time-varying filters, statistical multipath models, and wireless digital modulation/demodulation techniques. The performance of these techniques in Rayleigh fading channels and spatial diversity systems will be evaluated. Additionally, the course delves into the trade-offs between single-carrier and multicarrier (e.g., OFDM) modulation techniques. A hardware-software project using NI USRP or MATLAB is included to validate theoretical concepts.
+
+---
+
+### Prerequisites  
+**Mandatory:**  
+- ECE240: Principles of Communication Systems  
+
+**Desirable:**  
+- ECE340: Digital Communication Systems  
+- ECE5xx: Principles of Digital Communication  
+
+**Other:**  
+- MATLAB, GNU Radio, or LabVIEW  
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Analyze the behavior of large-scale and small-scale wireless propagation models.  
+2. **CO2:** Evaluate the performance of wireless communication systems in various channel conditions using digital modulation techniques such as BPSK, QPSK, and OFDM.  
+3. **CO3:** Understand and implement basic wireless communication systems using software tools like MATLAB or GNU Radio.  
+4. **CO4:** Design and optimize wireless communication systems for different applications (e.g., LOS vs NLOS links).  
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic | COs Met | Assignments/Labs/Tutorials | Additional Information/Assignments |
+|-------------|---------------|---------|---------------------------|---------------------------------------|
+| 1234        | Review of digital modulation techniques (BPSK, DPSK, QPSK, FSK, QAM), wireless systems, small-scale fading models, and multipath impulse response. | CO01, CO03 | MATLAB/Simulink experiments: Transmitter, receiver design, BER calculations in AWGN and fading channels. | None specified for this week. |
+| 56789       | Error performance of digital communications in noise; diversity techniques (types of combining). | CO01, CO02 | MATLAB/Simulink experiments: BER calculator, Monte Carlo simulations, BER curve plotting. | None specified for this week. |
+| 10.11      | Introduction to software-defined radio; evolution of radio hardware and subsystems. | CO04     | USRP2 hardware experimentations: BPSK/QPSK transmitter implementation and BER analysis under different link conditions. | None specified for this week. |
+| 12.13      | Multicarrier transmission techniques (OFDM) and project presentations. | CO02     | Demonstration using OFDM; USRP2 hardware experimentations: OFDM transmitter and receiver implementation. | None specified for this week. |
+
+---
+
+### Assessment Strategy  
+The course assessment is divided as follows:  
+- **Assignments:** 30% (Includes MATLAB/Simulink experiments, reports, and quizzes.)  
+- **Final Project:** 30% (Comprehensive project involving system design, simulation, and presentation.)  
+- **Quizzes and Short Tests:** 20% (Weekly quizzes to assess understanding of key concepts.)  
+- **End-Semester Examination:** 20% (Comprehensive exam covering all course topics with a focus on practical applications.)  
+
+The end-semester examination carries a significant weight, reflecting its importance in evaluating overall understanding.
+
+---
+
+### Learning Resources  
+**Textbooks:**  
+1. Wireless Communication by Andrea Goldsmith  
+2. Fundamentals of Wireless Communication by David Tse and Pramod Viswanath  
+
+**Reference Books:**  
+1. IEEE Journals and Open-source materials  
+
+**Additional Materials:**  
+- Journal papers from IEEE, ACM, and other relevant sources.  
+
+This course provides a blend of theoretical knowledge and practical implementation, ensuring students gain hands-on experience with industry-standard tools and techniques.

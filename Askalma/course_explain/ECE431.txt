@@ -1,0 +1,61 @@
+### Course Overview  
+**Course Code:** ECE431 / ECE631  
+**Course Name:** Antennas Theory and Design  
+
+This course is designed for senior undergraduate and graduate students who have a foundational understanding of electromagnetics. The primary objective is to provide a comprehensive introduction to the principles of antenna theory and design, with a strong emphasis on both theoretical concepts and practical applications. Students will gain insights into wave propagation and learn how to analyze and design antennas, which are critical components in wireless communication systems such as radar and wireless networks.
+
+### Prerequisites  
+The mandatory prerequisite for this course is **ECE230 Fields and Waves**, ensuring that students have a solid background in the fundamental principles of electromagnetics. Additionally, students are expected to have some familiarity with basic antenna concepts, though further details on other prerequisites will be provided if necessary.
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Analyze Maxwell's equations for wave propagation in various media.  
+- **CO2:** Design and analyze antennas such as wire, loop, and dipole antennas using both theoretical methods and computational tools like CST or HFSS.  
+- **CO3:** Extend their knowledge from single antenna design to array configurations and understand the principles of beamforming.  
+- **CO4:** Measure key parameters of common antennas, including impedance, radiation patterns, and gain, using simulation and experimental techniques.
+
+### Weekly Lecture Plan  
+
+#### Week 1: Introduction to Antennas  
+The course begins with a review of vector calculus, Maxwell's equations, and wave propagation in different media. Students will also revisit the fundamental concepts of materials and free space before delving into the basics of wave radiation. Assignments will include foundational problems related to these topics.
+
+#### Week 2: Vector Potential and Radiation  
+This week focuses on understanding the vector potential for electric and magnetic currents, as well as solving the inhomogeneous Helmholtz equation. Far-field radiation concepts are introduced through homework assignments.
+
+#### Weeks 3-4: Radiation Patterns and Antenna Characteristics  
+Students will explore radiation patterns, beamwidth, directivity, and antenna efficiency. Additional topics include bandwidth, input impedance, polarization, effective length, and effective area. This section also covers the Friis transmission equation. Assignments and labs will reinforce these concepts.
+
+#### Week 5: Antenna Types and Configurations  
+The study of dipoles, monopoles, loops, and antennas near conductors is introduced. Assignments involve analyzing these structures in detail.
+
+#### Weeks 6-7: Antenna Arrays  
+This section covers array configurations, including two-element arrays, N-element arrays, planar arrays, and adaptive beamforming techniques. Labs will provide hands-on experience with array design.
+
+#### Week 8: Aperture Antennas  
+Students learn about rectangular and slot antennas, their characteristics, and applications. Assignments involve designing aperture antennas using software tools like CST or HFSS.
+
+#### Week 9: Microstrip Antennas  
+The focus is on rectangular patch antennas, linear and circular polarization, and bandwidth considerations. Labs will involve practical experiments with microstrip antennas.
+
+#### Week 10: Broadband Antennas  
+This week covers advanced topics such as Chu's limit, Yagi antennas, and helical antennas. Labs will explore the design and testing of broadband antennas.
+
+#### Weeks 11-12: Special Topics  
+Students are introduced to innovative antenna designs, including active antennas and wearable antennas. Tutorials provide an opportunity to delve deeper into these specialized topics.
+
+#### Week 13: Project Presentations  
+The course culminates in a project where students design and test antennas using theoretical models and experimental setups. Presentations allow students to showcase their projects and receive feedback.
+
+### Assessment Plan  
+The course assessment is designed to evaluate both theoretical understanding and practical skills. The breakdown is as follows:  
+- **Homework (15%):** Weekly assignments reinforce lecture concepts.  
+- **Quiz (10%):** Short assessments test immediate comprehension of key topics.  
+- **Mid-Semester Exam (25%):** A comprehensive exam covers the first half of the course material.  
+- **End-Semester Exam (30%):** A cumulative exam evaluates overall understanding of the entire course content.  
+- **Project (20%):** The project involves designing and testing antennas, combining theoretical knowledge with practical application.  
+- **Other Evaluations:** Additional assessments may include lab reports or presentations, each contributing 10%.
+
+### Resource Materials  
+The primary textbook for this course is **"Antennas Theory Analysis and Design, 3rd Edition" by Constantine Balanis**, which provides a thorough grounding in antenna theory and design principles. For further reading, students are recommended to consult **"Antennas and Wave Propagation" by J.D. Kraus**.
+
+This structured approach ensures that students gain both theoretical knowledge and practical skills, preparing them for advanced work in wireless communication systems and related fields.

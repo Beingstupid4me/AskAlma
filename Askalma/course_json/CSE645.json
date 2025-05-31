@@ -1,0 +1,158 @@
+{
+  "Course Code": "CSE 648",
+  "Course Name": "Privacy and Security in Online Social Media",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "With increase in the usage of the Internet, there has been an exponential increase in the use of online social media and networks on the Internet. Websites like Facebook, YouTube, LinkedIn, Twitter, Flickr, Instagram, Google+, FourSquare, Pinterest, Tinder, and the likes have changed the way the Internet is being used. However, widely used, there is a lack of understanding of privacy and security issues on online social media. Privacy and security of online social media need to be investigated, studied and characterized from various perspectives (computational, cultural, psychological, etc.). Student completing the course will be able to appreciate various privacy and security concerns (spam, phishing, fraud nodes, identity theft) on Online Social Media and Student will be able to clearly articulate one or two concerns comprehensively on one Online Social Media, this will be achieved by homework. Students will do a project in group which will allow them to dig deeper into one of the topics to implement a solution for a problem.",
+  "Prerequisites": {
+    "Mandatory": "Pre-requisite",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "List various privacy and security concerns (spam, phishing, fraud nodes, identity theft) on Online Social Media",
+    "CO2": "Describe different methodologies used for solving security and privacy problems on online social media",
+    "CO3": "Summarise and critique research papers and discuss the methodologies, results, and interpretations presented in the paper from PSOSM",
+    "CO4": "Design a project idea to attack one problem discussed in the course or any topic you identify in the online social media space"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Trust, credibility, and reputations in social systems",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Detection and characterization of spam, phishing, frauds, hate crime, abuse, extremism via online social media",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Project ideas proposal",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Information privacy disclosure, revelation and its effects in OSM and online social networks",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Privacy issues related to location based services on OSM Tracking social footprint / identities across different social network Quiz / Project reviews",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Privacy issues related to location based services on OSM Tracking social footprint / identities across different social network Quiz / Project reviews",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Privacy issues related to location based services on OSM Tracking social footprint / identities across different social network Quiz / Project reviews",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Collateral damage due to information leakage (e.g. through photo tagging) on OSM",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 3"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Effective and usable privacy setting and policies on OSM",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Quiz / Project reviews",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz 3"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Policing & OSM",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 4"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Project reviews",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Identifying fraudulent entities in online social networks",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz 4"
+    }
+  ],
+  "Assessment Plan": {
+    "HWs + Quizzes": 35,
+    "Midsem": 5,
+    "Class activities + Class participation": 5,
+    "Endsem": 15,
+    "Project (Work, report, poster presentation, blog, video)": 40
+  },
+  "Resource Material": {
+    "Online": "All content necessary for the course will be shared with students."
+  }
+}

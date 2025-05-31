@@ -1,0 +1,52 @@
+**Course Overview**
+
+This course, **MTH518: Topics in Number Theory**, is a 4-credit module designed for both undergraduate and postgraduate students. It provides an in-depth exploration of fundamental concepts in number theory, including Farey fractions, continued fractions, partitions, quadratic forms, and the geometry of numbers.
+
+**Prerequisites**
+
+The prerequisite for this course is **MTH211 (Number Theory) or equivalent**, ensuring that students have a solid foundation in basic number theory concepts before delving into more advanced topics.
+
+**Learning Outcomes (COs)**
+
+Upon successful completion of this course, students will be able to:
+
+- **CO1**: Explain the approximation of irrational numbers with rational numbers using Farey sequences.
+- **CO2**: Understand the relationship between convergents of a simple continued fraction and best approximations, as well as construct solutions for Pell's equation.
+- **CO3**: Develop combinatorial and algebraic proofs involving partition functions.
+- **CO4**: Apply concepts from quadratic forms to prove identities related to number theory.
+- **CO5**: Explain the theory of quadratic forms in relation to Minkowski’s convex body theorem and its applications.
+
+**Weekly Syllabus and Topics**
+
+The course is structured over 19 weeks, with each week focusing on specific topics:
+
+1. **Week One (One-Two)**: Introduction to Farey fractions, irrational numbers, rational approximations, and Hurwitz’s Theorem.
+2. **Week Three-Six**: In-depth study of continued fractions, including finite and infinite continued fractions, convergents, periodic continued fractions, and their applications in solving Pell's equation.
+3. **Week Seven-Nine**: Exploration of partitions, generating functions, geometric representations, and key theorems by Euler and Jacobi.
+4. **Week Ten-Twelve**: Examination of quadratic forms, equivalence, Hermite’s Theorem, and sums of squares.
+5. **Week Thirteen**: Application of geometry of numbers, focusing on Minkowski’s Convex Body Theorem and its practical implications.
+
+**Assessment Strategy**
+
+The course is assessed through a combination of quizzes, mid-semester, and end-semester examinations:
+
+- **Quiz (30%)**: A formative assessment to evaluate understanding of key concepts.
+- **Mid-Semester Examination (30%)**: A summative assessment covering the first half of the course content.
+- **End-Semester Examination (40%)**: Comprehensive evaluation of all topics covered during the course.
+
+The end-semester examination carries a significant weight, reflecting its importance in assessing overall understanding and mastery of the subject matter.
+
+**Learning Resources**
+
+Students are recommended to refer to the following textbooks for additional study:
+
+- G. H. Hardy and E. M. Wright, *An Introduction to the Theory of Numbers*
+- I.Niven, H. S. Zuckerman, and H. L. Montgomery, *An Introduction to the Theory of Numbers*
+- G. E. Andrews, *The Theory of Partitions*
+- E. Landau, *Elementary Number Theory*
+
+These resources provide a comprehensive foundation for understanding the topics covered in this course.
+
+**Conclusion**
+
+This course offers a thorough exploration of advanced number theory concepts, equipping students with the knowledge and skills to tackle complex problems in mathematics and related fields. Through structured lectures, assignments, and assessments, students will gain a deep understanding of Farey fractions, continued fractions, partitions, quadratic forms, and the geometry of numbers.

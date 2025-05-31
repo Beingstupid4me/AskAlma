@@ -1,0 +1,39 @@
+**Course Overview**  
+The course code is BIO213, and it is titled "Introduction to Quantitative Biology." It offers 4 credits and is available for both undergraduate (UG) and postgraduate (PG) students. The course description highlights its focus on ecological, evolutionary, genetic, and epidemic models, utilizing simple mathematical and computational tools such as MATLAB. Assignments, project work, and practical exercises will involve quantitative analysis of biological systems using MATLAB.
+
+**Prerequisites**  
+The mandatory prerequisite for this course is a basic understanding of calculus and linear algebra (MTH100). Desirable prerequisites include familiarity with MATLAB. Students are expected to have a foundational knowledge of these areas before enrolling in the course.
+
+**Learning Outcomes (COs)**  
+By the end of this course, students will be able to:  
+- **CO1**: Build models for biological systems from evolutionary and ecological perspectives.  
+- **CO2**: Construct quantitative models using differential and difference equations to solve biological problems.  
+- **CO3**: Utilize MATLAB to solve biological problems numerically.  
+- **CO4**: Apply knowledge gained from the course to more advanced topics in quantitative biology.
+
+**Weekly Lecture Plan**  
+The course is divided into 13 weeks, with each week focusing on specific topics and learning outcomes:  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Lab/Tutorial                          |
+|-------------|-----------------------------------|-------------------|----------------------------------------------------|
+| Week 1-2    | Dynamic Modeling with Difference Equations | CO1, CO2, CO3, CO4 | Quantitative exercise: Use MATLAB to create cobweb plots. |
+| Week 3-4    | Linear Models of Structured Populations | CO1, CO2, CO3, CO4 | Quantitative exercise: Solve projection matrices and interpret results. |
+| Week 4-5    | Nonlinear Models of Interactions     | CO1, CO2, CO3, CO4 | Quantitative exercise: Solve ordinary differential equations (ODEs) using MATLAB. |
+| Week 6-7    | Modeling Molecular Evolution         | CO1, CO2, CO3, CO4 | Quantitative exercise: Implement probabilistic models of DNA evolution in MATLAB. |
+| Week 8-9    | Constructing Phylogenetic Trees       | CO1, CO2, CO3, CO4 | Quantitative exercise: Use MATLAB to construct phylogenetic trees based on sequence data. |
+| Week 10-11  | Genetics                             | CO1, CO2, CO3, CO4 | Quantitative exercise: Analyze genetic data and model inheritance patterns using MATLAB. |
+| Week 12-13  | Infectious Disease Modeling         | CO1, CO2, CO3, CO4 | Quantitative exercise: Solve simple epidemic models using MATLAB to predict disease spread dynamics. |
+
+**Assessment Strategy**  
+The course assessment is designed to evaluate both theoretical understanding and practical application of concepts. The breakdown is as follows:  
+- **Quiz/Exams**: 40% contribution to the final grade, focusing on problem-solving and conceptual understanding.  
+- **Midsem Examination**: 20% weightage, covering the first half of the course content.  
+- **Homework Assignments**: 15% contribution, emphasizing practical implementation of models using MATLAB.  
+- **Endsem Examination**: 25% weightage, assessing comprehensive understanding and application of course concepts.  
+
+Additional evaluation methods may include participation in class discussions or group projects if required.
+
+**Learning Resources**  
+The primary textbook for this course is "Mathematical Models in Biology: An Introduction" by Elizabeth S. Allman and John A. Rhodes. Reference books include "Essential Cell Biology" by Bruce Alberts, Dennis Bray, Karen Hopkin, Alexander D Johnson, and Julian Lewis. MATLAB will be an essential tool for assignments and projects throughout the course.
+
+This structured approach ensures that students gain a solid foundation in quantitative biology, blending theoretical knowledge with practical computational skills.

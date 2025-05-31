@@ -1,0 +1,89 @@
+{
+  "Course Code": "BIO2xx",
+  "Course Name": "Genetics and Molecular Biology",
+  "Credits": "4",
+  "Course Offered to": [
+    "UG - Core"
+  ],
+  "Course Description": "The aim of this basic core course is to provide students a good background in genetics, molecular biology. The major focus is to acquaint students with quantitative aspect of different kind of genetic inheritance and horizontal transfers. The course is also to provide introduction about different aspect of molecular aspect of gene regulation.",
+  "Prerequisites": {
+    "Mandatory": [],
+    "Desirable": [
+      "Pre-requisite (Desirable)"
+    ],
+    "Other": [
+      "Pre-requiste (Other)"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Students can solve statistical problem of mendelian inheritance",
+    "CO2": "Students can summarise non-mendelian inheritance and horizontal gene transfer",
+    "CO3": "student can summarise different aspects of regulation through epigenome and proteome",
+    "CO4": "student can solve quantitative problem of population genetics"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-2-3",
+      "Lecture Topic": "An Introduction to DNA structure and variations, quantitive Genetics, statistical aspect of mendelian inheritance and non-mendelian genetics, gene interaction based moifications (epistasis). Bacterial and Viral gene transfers evolution, tranferable elements in eukaryotic genome",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Lab (tentative) : DNA extraction, purification, amplication Assignment -1: statistical problem related to mendelian and non-mendelian inheritance"
+    },
+    {
+      "Week": "4-5-6",
+      "Lecture Topic": "Detail of Gene regulation /contol of gene expression in prokaryotes and eukaryotes, introduction to epigenomics, proteomics",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Lab (tentative) : DNA extraction, purification, amplication"
+    },
+    {
+      "Week": "7-8",
+      "Lecture Topic": "Detail of Molecular biology aspect of epigenome and proteome invloved in regulation, transcription factors",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Lab (tentative) : RNA extraction, reverse transcription Assignment-2: Reading of publications related to regulation and summarising in own words"
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "Introduction to population genetics",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Assignment-3: solving numerical problem related to population genetics"
+    },
+    {
+      "Week": "-11",
+      "Lecture Topic": "Iintroduction to developmental genetics",
+      "COs Met": [
+        "CO3"
+      ]
+    },
+    {
+      "Week": "12-13",
+      "Lecture Topic": "Introduction to sources of data in genomics, proteomics and population genetics for quantitaive analysis",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "Assignment-3: solving numerical problem related to population genetics"
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": "30",
+    "Endsem": "30",
+    "Assignments": "20",
+    "Quiz": "20"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "B. Pierce, Genetics: A conceptual approach,",
+      "Watson et al., Molecular biology of Gene"
+    ],
+    "Reference Book": ""
+  }
+}

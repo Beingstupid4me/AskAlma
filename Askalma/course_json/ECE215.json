@@ -1,0 +1,125 @@
+{
+  "Course Code": "ECE215",
+  "Course Name": "Circuit Theory and Devices",
+  "Credits": 4,
+  "Course Offered to": "UG - Second Year",
+  "Course Description": "This is a 4 credit core course for second year undergraduate ECE students. The objectives of the course are to develop problem solving skills related to transient, sinusoidal and frequency-domain circuit analysis techniques. The lab component of the course will develop skills related to design, simulation, fabrication and testing of simple circuits.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Perform AC power analysis for single, polyphase and magnetically coupled circuits.",
+    "CO2": "Apply circuit analysis techniques (mesh, nodal, superposition, source transformation) to analyze complex circuits.",
+    "CO3": "Use Laplace transforms and Fourier series for analyzing simple circuits and two-port networks.",
+    "CO4": "Design, simulate, fabricate and test simple circuits."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Review of Resistors, Inductors and Capacitors, Basic RL and RC circuits (First Order Circuits)",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "1,2",
+      "Lecture Topic": "RLC Circuits - Source free series and parallel circuits, Complete response of RLC circuits, Second order Op Amp Circuits, Lab: Introduction to reading datasheets for component selection and circuit design",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Sinusoidal Steady state analysis - Complex forcing function, sinusoids, the phasor, impedance and admittance, Lab: Preliminary schematic of circuit design on LTSpice",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "4,5",
+      "Lecture Topic": "AC Circuits: Impedance Combinations, Nodal and Mesh Analysis, Superposition Theorem, Source Transformation, Thevenin and Norton Equivalent Circuits. Lab: Simulate time-domain, frequency domain and noise performance of circuit, Learn how to use PCB design tool",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "AC Power Analysis: Instantaneous and Average Power, Maximum Average Power, Maximum Power Transfer, Apparent Power and Power Factor. Lab: Prepare the gerber file for the circuit design",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "6,7",
+      "Lecture Topic": "Magnetically Coupled Circuits: Mutual Inductance, Energy in a Coupled Circuit, Linear and Ideal Transformers, Transformer as an Isolation Device, Transformer as a Matching Device. Lab: Solder the components on the PCB",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "8,9",
+      "Lecture Topic": "Intro to Laplace transforms: Properties, Inverse Laplace transform (Simple, Repeated and Complex Poles), Convolution Integral, Circuit Element Models, Circuit Analysis, Transfer Functions, State Variables. Lab: Test the performance of the circuit",
+      "COs Met": [
+        "CO2",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "10, 11",
+      "Lecture Topic": "Frequency Response: Transfer Function, Bode Plot, Series Resonance, Parallel Resonance, Passive and Active Filters. Scaling (Magnitude, Frequency, Magnitude and Frequency), Filter Design. Lab: Test the performance of the circuit",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Two-port networks: Two port parameters (Impedance, Admittance, Transmission, Scattering), Cascading of 2 port Networks. Lab: Submit final report (bill-of-materials, schematic, super-posed simulation and measurement results)",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework, lab assignment"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Network Stability, Network Synthesis, Fourier Series, Symmetry, Filters, Circuit Analysis using Fourier Transforms",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Reading assignment, homework"
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": null,
+      "COs Met": null,
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Mid-sem": 25,
+    "End-sem": 35,
+    "Lab": 20,
+    "Homework": 20
+  },
+  "Resource Material": {
+    "Textbook": "Engineering Circuit Analysis, 8th edition, Hayt, Kemmerly, Durbin"
+  }
+}

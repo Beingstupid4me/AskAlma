@@ -1,0 +1,59 @@
+**Course Overview**
+
+The course titled "Comparative Politics in the Digital Era" is a 4-credit module offered to undergraduate and postgraduate students. It is instructed by Aasim Khan and focuses on examining how big data, digital technologies, and contemporary political theories intersect and shape governance, social movements, and political ideologies. The course spans across multiple weeks, with each session dedicated to exploring theoretical frameworks, case studies, and practical applications of digital tools in politics.
+
+**Course Description/ Objectives**
+
+This course aims to explore the transformative impact of big data on modern governance and politics. Students will analyze how digital technologies influence power dynamics, social control, and political participation across various socio-political contexts, particularly focusing on non-Western regions such as India. The curriculum integrates theoretical perspectives with practical case studies to provide a comprehensive understanding of digital politics.
+
+**Prerequisites**
+
+Students are required to have completed **Social and Political Philosophy (SSH 221)** as a mandatory prerequisite. Additionally, **Science, Technology and Society (SOC 312)** is recommended for those seeking a deeper understanding of the socio-technical aspects of digital governance.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+1. **CO1**: Understand and critically analyze the rise of big data from comparative and theoretical perspectives.
+2. **CO2**: Critically evaluate how digital technologies intersect with power dynamics and social control across different regions.
+3. **CO3**: Analyze the role of surveillance and digital technologies in shaping political movements and governance structures.
+4. **CO4**: Apply infra-theoretical approaches to understand the specific historical contexts of digital technologies in various countries, including India.
+5. **CO5**: Evaluate the implications of digital technologies on near-term political developments and their long-term impacts.
+
+**Weekly Syllabus and Topics**
+
+- **Week 1**: Introduction to Power and Resistance
+- **Week 2**: Crisis of the Nation State
+- **Week 3**: Perspectives on Big Data - 1 (Hayek and Marx)
+- **Week 4**: Perspectives on Big Data - 2 (Weber)
+- **Week 5**: Conceptualising 'the Digital': 1
+- **Week 6**: Conceptualising 'the Digital': 2 (Surveillance State in the post 9/11 America & Ultra-Nationalism and the Digital in Europe)
+- **Week 7**: Mid-Term Exam
+- **Week 8**: Project Proposal Review (in groups)
+- **Week 9**: State Capitalism and the Digital in China
+- **Week 10**: Welfare State 2.0 in India
+- **Week 11**: Digital Artefacts in World Politics
+- **Week 12**: Methodological Discussion on Studying Digital Politics
+- **Week 13**: Essay Guidelines and Revision
+- **Week 14**: Final Presentation and Viva
+
+**Assessment Strategy**
+
+The course assessment is divided as follows:
+
+- **Response Paper**: 20% (in two parts)
+- **Mid-Term Exam**: 20%
+- **Final Essay**: 30%
+- **Project**: 30%
+
+**Resource Materials**
+
+- **Textbook**: "Handbook of Digital Politics" by Stephen Coleman and Deen Freelon, with weekly chapters assigned.
+- **Additional References**: 
+  - Taylor Owen's *Disruptive Power: Crisis of the State in the Digital Age*
+  - Floarian Schneider's *China's Digital Nationalism*
+- **Case Studies**: Relevant readings from magazines, news media, and empirical studies to explore digital politics across various contexts.
+
+**Conclusion**
+
+This course provides a detailed exploration of digital technologies' impact on governance and politics. Through a blend of theoretical analysis and practical case studies, students will gain a nuanced understanding of how digital tools are reshaping political dynamics in contemporary global and national contexts.

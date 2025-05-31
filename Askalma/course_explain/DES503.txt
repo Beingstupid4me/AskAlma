@@ -1,0 +1,81 @@
+### Course Overview  
+**Course Code:** DES503  
+**Course Name:** Introduction to 3D Character Animation  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+**Course Description:** This course introduces students to the fundamentals of animation, focusing on character animation and its application in creating engaging stories. It covers the basics of animation principles, workflow, and advanced techniques using Maya software. Students will learn how to design characters, create animations, and integrate them into complete projects.  
+
+**Prerequisites (Mandatory):** None specified.  
+**Desirable Prerequisites:** Introduction to Motion Graphics (DES518) or equivalent experience with animation tools is recommended but not mandatory.  
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Understand and explain the basic principles of animation workflow and character modeling.  
+- **CO2:** Apply Maya tools to create 3D animations for characters, including posing and movement.  
+- **CO3:** Demonstrate advanced body mechanics and character animation techniques for complex movements like combat and dialogue delivery.  
+- **CO4:** Create a complete animated story from concept to final presentation using the principles learned in this course.  
+
+---
+
+### Weekly Syllabus and Topics  
+The following table outlines the weekly topics, learning outcomes (COs) addressed, and associated assignments or laboratory exercises:  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Laboratory Exercises                                                                 |
+|-------------|-----------------------------------|------------------|----------------------------------------------------------------------------------------------------|
+| 1           | Art of Storytelling and Animation | CO1               | - Introduction to animation basics and principles                                               |
+| 2           | Introductions to Animation Film Workflow | CO1, CO2        | - Understanding the film animation workflow and character modeling techniques                   |
+| 3           | Language of Drawing and Posing in Maya | CO1, CO2        | - Learning Maya tools for character posing and basic animations                                  |
+| 4           | Introductions to Animation Basics and Principles | CO1, CO2      | - Exploring animation basics, including movement and timing                                         |
+| 5           | Introductions to 3D Animation     | CO1, CO2, CO3    | - Introduction to Maya for 3D character animation and modeling                                     |
+| 6           | Understanding of Body Mechanism   | CO2, CO3, CO3    | - Analyzing body mechanics and their role in character animation                                    |
+| 7           | Advance Body Mechanism            | CO2, CO3, CO4    | - Advanced techniques for complex movements like combat and action delivery                      |
+| 8           | Technical Part of Animation       | CO2, CO3, CO4    | - Exploring technical aspects of animation, including lighting and rendering                       |
+| 9           | Advance Character Animation and Acting (Mime) | CO2, CO3, CO4  | - Creating character animations for miming and dialogue delivery                                  |
+| 10          | Facial Animation                   | CO2, CO3, CO4    | - Techniques for animating facial expressions and delivering dialogues                            |
+| 11          | Animating a Dialogue               | CO2, CO3, CO4    | - Integrating character animations into dialogue scenes                                           |
+| 12          | Basic of Lighting and Rendering   | CO2, CO3, CO4    | - Understanding lighting techniques and rendering processes in Maya                                  |
+| 13          | Career Preparations and Project  | CO2, CO3, CO4    | - Final project: Developing a complete animated story using all learned techniques                   |
+
+**Note:** No specific topics or assignments for this week.
+
+---
+
+### Assessment Strategy  
+The course is assessed through the following components:  
+
+| Type of Evaluation          | % Contribution in Grade |
+|-------------------------------|------------------------|
+| Class Participation           | 5%                     |
+| Assignments                  | 30%                    |
+| Mid-Semester Examination     | 15%                    |
+| End-Semester Examination    | 35%                    |
+| Final Project (Group/Individual) | 15%                   |
+
+**Explanation:**  
+- **Class Participation:** Active involvement in discussions, group activities, and peer reviews is essential for this course.  
+- **Assignments:** Regular assignments are designed to reinforce concepts learned in class, such as character posing, animation sequences, and lighting techniques.  
+- **Mid-Semester Examination:** Covers the first half of the course material, focusing on foundational animation principles.  
+- **End-Semester Examination:** Comprehensive assessment of all topics covered during the semester.  
+- **Final Project:** Students will create a complete animated story using Maya software, demonstrating their ability to integrate all learned techniques into a cohesive project.
+
+---
+
+### Learning Resources  
+The following textbooks and reference materials are recommended for this course:  
+
+| Type | Title                          |
+|------|----------------------------------|
+| Textbook | The Animator's Survival Kit (DVD) |
+| Textbook | Mastering MAYA 2017-18        |
+| Textbook | The Illusion of Life            |
+| Textbook | Animation from Pencils to Pixels |
+| Textbook | The Animator’s Workbook         |
+| Textbook | Cartoon Character Animation with Maya |
+| Textbook | Beginner’s guide to Sketching    |
+
+These resources will provide students with in-depth knowledge and practical skills required for the course.  
+
+---  
+This narrative provides a comprehensive overview of the structured Excel data, ensuring all components are included and clearly explained.

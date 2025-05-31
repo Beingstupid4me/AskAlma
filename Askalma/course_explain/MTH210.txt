@@ -1,0 +1,73 @@
+### Course Overview  
+**Course Code:** MTH210  
+**Course Name:** Discrete Structures  
+**Credits:** 4  
+**Offered To:** Undergraduate students in Computer Science and Applied Mathematics  
+
+This course provides an introduction to discrete mathematics, a foundational discipline for computer science and applied mathematics. Designed for undergraduate students, it equips learners with essential mathematical tools such as formal language, proof techniques, and discrete structures like graphs, permutations, and probability. The curriculum also integrates the probabilistic method to solve complex problems.
+
+---
+
+### Prerequisites  
+- **Mandatory:** Discrete Mathematics (CSE121)  
+- **Desirable:** None specified.  
+
+Students are expected to have a basic understanding of mathematical concepts before enrolling in this course.
+
+---
+
+### Learning Outcomes (COs)  
+Upon successful completion of this course, students will be able to:  
+1. **CO1:** Understand and express ideas using precise mathematical language.  
+2. **CO2:** Develop proofs using various techniques such as direct proof, contrapositive, contradiction, and induction.  
+3. **CO3:** Analyze discrete structures (e.g., graphs, combinatorial identities) and apply them to real-world problems.  
+4. **CO4:** Introduce basic applications of discrete structures in computer science and mathematics.  
+5. **CO5:** Apply the probabilistic method to solve problems across diverse domains.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials               |
+|-------------|----------------------------------|-------------------|------------------------------------------|
+| 1           | Propositional and Predicate Calculus | CO1, CO2         | Weekly homework and tutorial            |
+| 2           | Functions, Relations, Order       | CO1, CO2         | Weekly homework and tutorial            |
+| 3           | Combinatorial Counting          | CO1, CO2, CO3     | Weekly homework and tutorial            |
+| 4           | Estimates and Asymptotic Notation | CO1, CO2, CO3     | Weekly homework and tutorial            |
+| 5           | Recurrences and Solving Recurrences | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 6           | Graphs                           | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 7           | Drawing Graphs in the Plane      | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 8           | Double Counting                  | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 9           | Number of Spanning Trees         | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 10          | Finite Projective Planes        | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 11          | Ramsey Theory                     | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 12          | Generating Functions              | CO1, CO2, CO3    | Weekly homework and tutorial            |
+| 13          | Probabilistic Method             | CO1, CO2, CO3    | Weekly homework and tutorial            |
+
+---
+
+### Assessment Strategy  
+
+| Type of Evaluation       | % Contribution in Grade   |
+|---------------------------|--------------------------|
+| Homework                  | 0%                     |
+| Quiz                      | 0%                     |
+| Mid-sem                  | 30%                    |
+| Mid-sem                  | 30%                    |
+| End-sem                  | 40%                    |
+| **Other**                 | *Please insert more row for other type of Evaluation |
+
+---
+
+### Learning Resources  
+
+| Type       | Title                          |
+|------------|---------------------------------|
+| Textbook    | Invitation to Discrete Math, Jiri Matousek and Jaroslav Nesetril   |
+| Reference  | Discrete Mathematics, Elementary and Beyond.                             |
+
+These resources provide comprehensive coverage of the course topics and are essential for understanding the material.
+
+--- 
+
+This narrative text provides a detailed overview of the MTH210 course, incorporating all provided data points while maintaining logical flow and clarity.

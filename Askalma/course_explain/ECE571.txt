@@ -1,0 +1,68 @@
+### Course Overview  
+**Course Code:** ECE571  
+**Course Name:** Optimal Control Systems  
+**Credits:** 4  
+**Offered To:** UG/PG  
+**Duration:** 1 Semester  
+
+This course provides an advanced understanding of optimal control systems, focusing on the theoretical foundations and practical implementation techniques. It covers topics such as performance indices, variational approaches, Pontryagin minimum principle, and model predictive control. The course combines theoretical knowledge with problem-solving components to equip students with the skills to formulate, analyze, and solve optimal control problems in various fields like transportation, aerospace, bio-informatics, and economics.
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisites:** None specified.  
+**Desirable Prerequisites:** Strong foundation in calculus, linear algebra, and basic control systems concepts.  
+**Other Prerequisites:** General academic readiness for undergraduate or postgraduate studies.  
+
+Students are expected to have a solid understanding of fundamental engineering principles before enrolling in this course.
+
+---
+
+### Learning Outcomes (COs)  
+1. **CO1:** Formulate an optimal control problem for different performance indices, including quadratic cost functions and tracking problems.  
+2. **CO2:** Analyze optimal control problems using variational calculus, Pontryagin’s minimum principle, and Hamilton-Jacobi-Bellman equations.  
+3. **CO3:** Solve linear and nonlinear optimization-based problems using open-source solvers like MATLAB or Python libraries.  
+4. **CO4:** Implement and evaluate model predictive control strategies for constrained systems.  
+
+---
+
+### Weekly Lecture Plan  
+| Week Number | Lecture Topic | Course Outcomes Met (COs) | Assignments/Labs/Tutorials | Additional Resources/Reading Material |
+|-------------|---------------|---------------------------|---------------------------|----------------------------------------|
+| 1           | Introduction to optimization and optimal control performance indices | CO1                     | Assignment                 | - Lecture notes on basic optimization principles |
+| 2-3         | Calculus of variations and optimal control | CO2, CO3                 | Assignment                 | - Textbook chapters on calculus of variations (Chapters 2-4) |
+| 4-5         | Linear quadratic optimal control systems - I | CO2, CO3                 | Assignment                 | - Practice problems on linear quadratic regulators |
+| 6           | Pontryagin Minimum principle | CO2, CO3                 | Assignment                 | - Online tutorial on Pontryagin’s minimum principle |
+| 7           | Constrained optimal control systems | CO2, CO3                 | Assignment                 | - Case studies on constrained optimization problems |
+| 8-9         | Model predictive control | CO1, CO3                  | Assignment                 | - Group project on model predictive control implementation |
+| 10          | Solving optimal control problems from different domains | CO1, CO3                  | Assignment                 | - Individual assignment on real-world applications |
+
+---
+
+### Assessment Strategy  
+The course is assessed through a combination of homework assignments, mid-semester, and end-semester examinations.  
+
+| Type of Evaluation | Contribution to Grade (%) |
+|---------------------|---------------------------|
+| Homework           | 20                        |
+| Mid-sem            | 40                        |
+| End-sem             | 40                        |
+
+Homework assignments are designed to reinforce theoretical concepts and practical problem-solving skills. The mid-semester examination evaluates students' understanding of the course material up to that point, while the end-semester examination assesses overall mastery of the subject.
+
+---
+
+### Learning Resources  
+1. **Textbook:**  
+   - Optimal control systems by Desinenu Subbram Naidu, CRC Press, 2009.  
+
+2. **Reference Books:**  
+   - Optimal control theory: An introduction, Donald E. Kirk  
+   - Applied optimal control, A.E. Bryson and Y. Ho  
+   - Optimal control, F.L. Lewis  
+   - Model-Based Predictive Control: A Practical Approach (Control Series) by J.A. Rossiter  
+   - Model Predictive Control System Design and Implementation Using MATLAB® (Advances in Industrial Control) by Liuping Wang  
+
+3. **Additional Resources:**  
+   - Lecture notes provided by the instructor.  
+   - Online tutorials and simulation tools for model predictive control.

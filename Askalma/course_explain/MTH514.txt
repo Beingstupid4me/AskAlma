@@ -1,0 +1,74 @@
+### Course Overview  
+**Course Code:** MTH514  
+**Course Name:** Coding Theory  
+**Credits:** 4  
+**Offered To:** UG/PG  
+
+This course provides an in-depth exploration of coding theory, focusing on the design and analysis of error-detecting and error-correcting codes. These codes are essential for reliable data transmission over noisy communication channels. The course covers fundamental concepts such as error detection, correction, and decoding techniques, along with their applications in modern communication systems.
+
+---
+
+### Prerequisites  
+- **Mandatory Pre-requisites:**  
+  - MTH100: Mathematics I  
+  - Abstract Algebra I (MTH212) or equivalent courses.  
+
+These pre-requisites ensure that students have a solid foundation in mathematics and algebra, which are critical for understanding the advanced topics covered in this course.
+
+---
+
+### Learning Outcomes (COs)  
+The course aims to achieve the following learning outcomes:  
+
+- **CO1:** Ability to explain the theory of several classes of linear and non-linear codes.  
+- **CO2:** Ability to construct a new code with better parameters from a code with given parameters.  
+- **CO3:** Ability to explain the main coding theory problem and bounds in coding theory.  
+- **CO4:** Ability to explain encoding and decoding procedures of several classical families of error-correcting codes.  
+- **CO5:** Ability to explain encoding and decoding procedures of several classical families of error-correcting codes, with a focus on modern applications.  
+
+---
+
+### Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic | COs Met | Assignments/Labs/Tutorials |
+|-------------|---------------|---------|---------------------------|
+| 1           | Error-correcting codes: Error detection, error correction, communication channels, maximum likelihood decoding, Hamming distance, nearest neighbour decoding. | CO1, CO3 | Tutorial Sheet            |
+| 2-3         | Linear codes: Generator and parity-check matrices, equivalence of linear codes, encoding with a linear code, Syndrome decoding. Weight enumerators and the MacWilliams identity. | CO1, CO3 | Tutorial Sheet            |
+| 4-6         | Bounds in coding theory: The main coding theory problem, sphere-covering bound, Gilbert-Varshamov bound, Hamming bound and perfect codes, Hamming codes, Golay codes, Singleton bound and MDS codes, Plotkin bound, Griesmer bound. | CO1, CO2, CO3 | Tutorial Sheet            |
+| 7           | Nonlinear codes, Weight enumerators and MacWilliams identity. | CO1, CO2, CO3 | Tutorial Sheet            |
+| 8           | Hadamard matrix codes and Nordstrom-Robinson code. | CO1, CO2, CO3 | Tutorial Sheet            |
+| 9           | Construction of linear codes: Propagation rules, Reed-Muller codes, Subfield codes. | CO1, CO2, CO3, CO4 | Tutorial Sheet            |
+| 10-11       | Cyclic codes: Generator polynomials, generator and parity-check matrices. | CO1, CO2, CO3 | Tutorial Sheet            |
+| 12-13       | Some special cyclic codes: BCH codes, encoding and decoding procedures. | CO1, CO2, CO3 | Tutorial Sheet            |
+
+---
+
+### Assessment Strategy  
+
+The course is evaluated through a combination of quizzes, mid-semestral exams, homework assignments, and end-semestral exams. The assessment strategy is designed to evaluate both theoretical understanding and practical application of coding theory concepts.  
+
+- **Quiz:** 30% (Evaluates weekly topics and ensures consistent progress throughout the course).  
+- **Mid-Semester Examination:** 30% (Assesses comprehensive understanding of the first half of the course content).  
+- **End-Semester Examination:** 40% (Comprehensive evaluation of all topics covered during the semester).  
+
+The weightage distribution reflects the importance of both continuous assessment and final evaluation in determining the overall grade.
+
+---
+
+### Learning Resources  
+
+Students are provided with a comprehensive set of learning materials to support their understanding of coding theory:  
+
+- **Textbooks:**  
+  - San Ling and Chaoping Xing, *Coding Theory*, Cambridge University Press.  
+  - Raymond Hill, *A First Course in Coding Theory*, Clarendon Press.  
+  - F. J. MacWilliams and N. J. A. Sloane, *The Theory of Error-Correcting Codes*, North Holland Publishing Co.  
+  - Ron Roth, *Introduction to Coding Theory*, Cambridge University Press.  
+  - W. C. Huffman and V. S. Pless, *Fundamentals of Error-Correcting Codes*, Cambridge University Press.  
+  - J. H. van Lint, *Introduction to Coding Theory*, Springer.  
+
+These textbooks cover both theoretical foundations and practical applications, ensuring a well-rounded learning experience.
+
+---
+
+This structured course design ensures that students gain a deep understanding of coding theory, its principles, and its real-world applications. The combination of lectures, assignments, quizzes, and exams provides a balanced approach to evaluating student performance while promoting active learning and engagement with the subject matter.

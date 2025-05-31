@@ -1,0 +1,60 @@
+**Course Overview**
+
+The course titled "Introduction to Dynamical Systems" (MTH343/543) is a 4-credit course offered to both undergraduate and postgraduate students. This course provides an in-depth exploration of dynamical systems, highlighting their mathematical formalism for describing time evolution. The curriculum is designed to equip students with the theoretical foundations and practical applications of dynamical systems across various disciplines such as physics, biology, chemistry, and engineering.
+
+**Prerequisites**
+
+Students enrolling in this course are expected to have a solid foundation in key mathematical areas. Mandatory prerequisites include Linear Algebra (MTH100), Multivariable Calculus (MTH203), and Real Analysis I (MTH240) or their equivalent courses. Desirable prerequisites encompass Ordinary Differential Equations and Partial Differential Equations (ODE/PDE, MTH204), Real Analysis II (MTH340), Advanced Linear Algebra (MTH510), and an understanding of basic concepts in Probability and Statistics.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Define fundamental dynamical systems features such as attractors, repellers, periodic points, and chaos.
+- **CO2:** Analyze how changes in parameters affect 1-D dynamical systems using examples like the logistic family.
+- **CO3:** Understand complex behaviors in higher-dimensional systems through mechanisms such as bifurcation theory.
+- **CO4:** Apply concepts of hyperbolicity, symbolic dynamics, and chaos to real-world problems.
+
+**Weekly Lecture Plan**
+
+The course is structured into 25 weeks, each focusing on specific topics that build upon each other. Here's a brief overview:
+
+1. **Week 1:** Introduction to dynamical systems and first examples.
+2. **Week 2:** Newton's method, attractors, repellers, and cobweb diagrams.
+3. **Weeks 3-4:** Bifurcation analysis with the logistic family of maps.
+4. **Week 5:** Sharkovsky's Theorem and Singer's theorem applied to the logistic family.
+5. **Weeks 6-7:** Concepts of transitivity, Devaney chaos, and examples like the tent map.
+6. **Week 8:** Perron-Frobenius Theorem with applications in population growth models.
+7. **Week 9:** Review of essential analysis tools without proofs.
+8. **Week 10:** Hyperbolicity explored through examples such as Arnold's cat map.
+9. **Weeks 11-12:** Dynamics of the Rössler attractor and Lorenz system.
+10. **Week 13:** Symbolic dynamics, topological entropy, and information theory connections.
+
+**Weekly Lab Plan**
+
+Complementing lectures, laboratory exercises reinforce theoretical concepts through practical applications:
+
+1. **Weeks 1-2:** Lab exercises on dynamical systems basics.
+2. **Weeks 3-4:** No specific topics or assignments are detailed for these weeks.
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application:
+
+- **Quizzes (20%):** Assess foundational knowledge throughout the term.
+- **Mid-sem Examination (20%):** Evaluate progress after six weeks.
+- **Project Presentation (30%):** Encourage in-depth exploration of a chosen topic.
+- **End-sem Examination (30%):** Comprehensive evaluation at the end of the course.
+
+**Resource Materials**
+
+Key resources include:
+
+- **Textbook:** "Dynamical Systems" by Shlomo Sternberg, available online.
+- **Reference Books:**
+  - A First Course in Dynamics by B. Hasselblat and A. Katok
+  - Introduction to the Modern Theory of Dynamical Systems by A. Katok and B. Hasselblat
+  - Nonlinear Dynamics and Chaos by S.H. Strogatz
+  - An Introduction to Chaotic Dynamical Systems by R. Devaney
+
+This structured approach ensures a comprehensive understanding of dynamical systems, from foundational concepts to advanced applications, preparing students for both academic and real-world challenges.

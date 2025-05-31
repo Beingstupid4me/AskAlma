@@ -1,0 +1,380 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the Course Code, it seems to be "CSE552" repeated multiple times in the table. So that should be straightforward.
+
+Next, the Course Name is consistently "Security Engineering". That’s easy enough.
+
+For Credits, I see the value "4" appearing several times. I'll make sure to include that as a number since it's numeric.
+
+The Course Offered to section has entries like "Btech 3rd / 4th year, M.Tech, PhD", repeated across rows. Since there are no variations, I can take this as is.
+
+The Course Description is quite lengthy and repeats the same content multiple times. It looks like it's a full description of what the course covers, so I'll include that verbatim in the JSON.
+
+Moving on to Pre-requisites, each row under "Pre-requisite (Mandatory)" has "CSE231 C/C++" and "Operating Systems". The other columns have "Foundations of Computer Security (FCS)", which is a desirable pre-requisite. I'll structure this as an array with these values.
+
+The Course Outcomes (COs) are listed from CO1 to CO4, each with specific descriptions. These should be included as strings in the JSON.
+
+For the Weekly Lecture Plan, there's a table with Week Number, Lecture Topic, COs Met, and Assignment/Labs/Tutorial. I'll convert this into an array of objects, making sure to include all four weeks provided.
+
+The Assessment Plan includes different types of evaluations like Assignments, Midterms, and Final + Quiz, each with their respective percentages. These will be structured as a dictionary within the JSON.
+
+Resource Material has three textbooks listed multiple times. I'll create an array containing these titles.
+
+I need to ensure that all missing values are handled gracefully, using empty strings or null where necessary. Since most data is consistent and complete in this case, I don't anticipate any missing fields.
+
+Finally, I'll structure everything into the specified JSON format without any introductory text or explanations.
+</think>
+
+```json
+{
+  "Course Code": "CSE552",
+  "Course Name": "Security Engineering",
+  "Credits": 4,
+  "Course Offered to": "Btech 3rd / 4th year, M.Tech, PhD",
+  "Course Description": "This course is designed to present the students a “host” centric approach to various aspects of computer software security. Broadly, the course would cover: Traditional multi-level security models (Bell La-Padula, Biba etc.), access controls, security in traditional computer programs and attacks against them (buffer/heap overflow attacks), defences against such attacks, writing secure programs (Secure Coding), Viruses/Malware and Trojans, OS level hardening, application and system level security primitives and APIs, cryptographic system primitives and APIs (how to (not) use (and break) them), system level authentication frameworks, introduction to allied topics – IDS, network security etc.",
+  "Prerequisites": {
+    "Mandatory": "CSE231 C/C++",
+    "Desirable": "Foundations of Computer Security (FCS)",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Able to comprehend and put to practice different forms of access control primitives in different software systems",
+    "CO2": "Able to identify software vulnerabilities especially those related to buffer overflows, and ways to overcome such vulnerabilities.",
+    "CO3": "Have hands on experience with different security primitives in modern Oses and platforms",
+    "CO4": "Able to use various libraries to achieve various security postures – e.g. confidentiality, integrity protection and authentication"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introductions - Basics of Computer Systems Security, thinking wrt security, traditional security models -- their applicability and their drawbacks",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Assignment – Basic file system – tests the basic systems’ programming skills of students"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Access controls -- implementations in various OSes, usage, vulnerabilities and defenses",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "CO1 Assignment – Basic DAC"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Introduction to Buffer Overflow Vulnerabilities",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Stack Smashing Attack",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Stack Smashing Demo, formatted output",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "CO2 Assignment – Basic buffer overflow vulnerabilities"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Formatted output wrap-up, Dynamic memory allocation",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "CO2 Lab – formatted output vulnerability"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Dynamic memory allocation vulnerabilities wrap-up. Mid-term review",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Return2Libc attacks",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Crash course in applied cryptography -- history, stream ciphers, block ciphers -- DES, AES, modes of operation. Encryption using OpenSSL",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Message authentication and integrity, Public Key Cryptography. Generating hashes and digests using OpenSSL",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Miscellaneous -- Key Derivation Function, PBKDF, Disk Encryption DH Key Exchange, Web of Trust (GPG)",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Authentication: Needham Schroeder Protocol, Kerberos, PKI",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "X.509 Certificates, OpenSSL Certificates, Introduction to Linux PAM",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    }
+  ],
+  "Assessment Plan": {
+    "Type of Evaluation": [
+      "Assignments",
+      "Midterms",
+      "Final + Quiz"
+    ],
+    "% Contribution in Grade": [
+      55.00,
+      15.00,
+      20 + 10
+    ]
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Craft of Systems Security, S. Smith and J. Marchesini, Addison-Wesley, 2007, ISBN 0-32143483-8",
+      "Craft of Systems Security, S. Smith and J. Marchesini, Addison-Wesley, 2007, ISBN 0-32143483-8",
+      "Craft of Systems Security, S. Smith and J. Marchesini, Addison-Wesley, 2007, ISBN 0-32143483-8"
+    ],
+    "Reference Book": [
+      null,
+      null,
+      null
+    ]
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "CSE552",
+  "Course Name": "Security Engineering",
+  "Credits": "4",
+  "Course Offered to": "Btech 3rd / 4th year, M.Tech, PhD",
+  "Course Description": "This course is designed to present the students a “host” centric approach to various aspects of computer software security. Broadly, the course would cover: Traditional multi-level security models (Bell La-Padula, Biba etc.), access controls, security in traditional computer programs and attacks against them (buffer/heap overflow attacks), defences against such attacks, writing secure programs (Secure Coding), Viruses/Malware and Trojans, OS level hardening, application and system level security primitives and APIs, cryptographic system primitives and APIs (how to (not) use (and break) them), system level authentication frameworks, introduction to allied topics – IDS, network security etc.",
+  "Prerequisites": {
+    "Mandatory": "CSE231 C/C++, Operating Systems",
+    "Desirable": "Foundations of Computer Security (FCS)",
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Able to comprehend and put to practice different forms of access control primitives in different software systems",
+    "CO2": "Able to identify software vulnerabilities especially those related to buffer overflows, and ways to overcome such vulnerabilities.",
+    "CO3": "Have hands on experience with different security primitives in modern Oses and platforms,",
+    "CO4": "Able to use various libraries to achieve various security postures – e.g. confidentiality, integrity protection and authentication"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introductions - Basics of Computer Systems Security, thinking wrt security, traditional security models -- their applicability and their drawbacks",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Basic file system – tests the basic systems’ programming skills of students"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Access controls -- implementations in various OSes, usage, vulnerabilities and defenses",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Basic DAC Assignment – Basic DAC"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Introduction to Buffer Overflow Vulnerabilities",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Stack Smashing Attack",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Stack Smashing Demo, formatted output",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Basic buffer overflow vulnerabilities Assignment – Basic buffer overflow vulnerabilities"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Formatted output wrap-up, Dynamic memory allocation",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Formatted output vulnerability Lab – formatted output vulnerability"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Dynamic memory allocation vulnerabilities wrap-up. Mid-term review",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Return2Libc attacks",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Crash course in applied cryptography -- history, stream ciphers, block ciphers -- DES, AES, modes of operation. Encryption using OpenSSL.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Message authentication and integrity, Public Key Cryptography. Generating hashes and digests using OpenSSL.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Miscellaneous -- Key Derivation Function, PBKDF, Disk Encryption DH Key Exchange, Web of Trust (GPG)",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Authentication: Needham Schroeder Protocol, Kerberos, PKI",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "X.509 Certificates, OpenSSL Certificates, Introduction to Linux PAM",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments": 55.00,
+    "Midterms": 15.00,
+    "Final + Quiz": 20 + 10,
+    "Resource Material": {
+      "Textbook": [
+        "Craft of Systems Security, S. Smith and J. Marchesini, Addison-Wesley, 2007, ISBN 0-32143483-8",
+        "Secure Coding in C/C++, Second Edition, Robert C. Seacord, ISBN-13: 978-0321822130",
+        "Computer Security: Principles and Practices, Second Edition, W. Stallings and L. Browne, 2011, ISBN-13: 978-0312775069"
+      ],
+      "Reference Book": null
+    }
+  }
+}
+```
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE552",
+  "Course Name": "Security Engineering",
+  "Credits": "4",
+  "Course Offered to": "Btech 3rd / 4th year, M.Tech, PhD",
+  "Course Description": "This course is designed to present the students a “host” centric approach to various aspects of computer software security. Broadly, the course would cover: Traditional multi-level security models (Bell La-Padula, Biba etc.), access controls, security in traditional computer programs and attacks against them (buffer/heap overflow attacks), defences against such attacks, writing secure programs (Secure Coding), Viruses/Malware and Trojans, OS level hardening, application and system level security primitives and APIs, cryptographic system primitives and APIs (how to (not) use (and break) them), system level authentication frameworks, introduction to allied topics – IDS, network security etc.",
+  "Prerequisites": {
+    "Mandatory": "CSE231 C/C++, Operating Systems",
+    "Desirable": "Foundations of Computer Security (FCS)",
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Able to comprehend and put to practice different forms of access control primitives in different software systems",
+    "CO2": "Able to identify software vulnerabilities especially those related to buffer overflows, and ways to overcome such vulnerabilities.",
+    "CO3": "Have hands on experience with different security primitives in modern Oses and platforms,",
+    "CO4": "Able to use various libraries to achieve various security postures – e.g. confidentiality, integrity protection and authentication"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introductions - Basics of Computer Systems Security, thinking wrt security, traditional security models -- their applicability and their drawbacks",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Basic file system – tests the basic systems’ programming skills of students"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Access controls -- implementations in various OSes, usage, vulnerabilities and defenses",
+      "COs Met": ["CO1"],
+      "Assignment/Labs/Tutorial": "Basic DAC Assignment – Basic DAC"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Introduction to Buffer Overflow Vulnerabilities",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Stack Smashing Attack",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Stack Smashing Demo, formatted output",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Basic buffer overflow vulnerabilities Assignment – Basic buffer overflow vulnerabilities"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Formatted output wrap-up, Dynamic memory allocation",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": "Formatted output vulnerability Lab – formatted output vulnerability"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Dynamic memory allocation vulnerabilities wrap-up. Mid-term review",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Return2Libc attacks",
+      "COs Met": ["CO2"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Crash course in applied cryptography -- history, stream ciphers, block ciphers -- DES, AES, modes of operation. Encryption using OpenSSL.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Message authentication and integrity, Public Key Cryptography. Generating hashes and digests using OpenSSL.",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Miscellaneous -- Key Derivation Function, PBKDF, Disk Encryption DH Key Exchange, Web of Trust (GPG)",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Authentication: Needham Schroeder Protocol, Kerberos, PKI",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "X.509 Certificates, OpenSSL Certificates, Introduction to Linux PAM",
+      "COs Met": ["CO3", "CO4"],
+      "Assignment/Labs/Tutorial": null
+    }
+  ],
+  "Assessment Plan": {
+    "Assignments": 55.00,
+    "Midterms": 15.00,
+    "Final + Quiz": 20 + 10,
+    "Resource Material": {
+      "Textbook": [
+        "Craft of Systems Security, S. Smith and J. Marchesini, Addison-Wesley, 2007, ISBN 0-32143483-8",
+        "Secure Coding in C/C++, Second Edition, Robert C. Seacord, ISBN-13: 978-0321822130",
+        "Computer Security: Principles and Practices, Second Edition, W. Stallings and L. Browne, 2011, ISBN-13: 978-0312775069"
+      ],
+      "Reference Book": null
+    }
+  }
+}

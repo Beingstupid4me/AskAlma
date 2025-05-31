@@ -1,0 +1,58 @@
+### Course Overview  
+The course SSH214 titled "Introduction To The Study Of Literature" is a 4-credit course offered by the Department of English. It is designed for undergraduate students (UG) to provide them with an in-depth understanding of literature as a window into society. This course aims to expose students to various literary genres, including poetry, drama, novels, and short stories, while also encouraging critical thinking about common social issues explored by writers from diverse backgrounds and cultures.
+
+### Prerequisites  
+The course does not specify any prerequisites beyond the general eligibility for UG studies. Students are expected to have a basic understanding of reading and writing and an interest in exploring different forms of literature.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Understand how literature reflects and shapes societal values and issues.  
+- **CO2:** Analyze literary texts using critical methods across various genres such as prose, poetry, and drama.  
+- **CO3:** Identify and appreciate themes in literature that address common social issues examined by writers from diverse backgrounds.  
+- **CO4:** Engage in creative writing activities and participate in group discussions to explore the intersection of literature with cultural and societal contexts.
+
+### Weekly Lecture Plan  
+The course is structured over 13 weeks, with each week focusing on specific topics and assignments:  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met (COs) | Assignments/Activities                          |
+|-------------|-----------------------------------|-----------------------------|--------------------------------------------------|
+| 1           | Introduction to the Study of Literature | CO1                         | Introduction to literature as a societal mirror. |
+| 2           | Evolution of literary genres       | CO2, CO3                    | Discussion on Kinds of literary genres.          |
+| 3           | Literary devices in short stories   | CO3                        | Analysis of "The Yellow Wall Paper" and "The Story of An Hour." |
+| 4           | Evolution of poetry               | CO2, CO3                    | Comparison of prose vs. poetry.                 |
+| 5           | Themes in selected short poems     | CO3, CO2                   | Literary quiz on themes.                       |
+| 6           | Novels and social issues          | CO3, CO2                   | Assignment: Read a novel and submit an analysis.|
+| 7           | Drama and literary devices         | CO3, CO2                   | Discussion on notable dramas and their themes.   |
+| 8           | Creative writing in class        | CO3, CO2, CO1              | Creative writing activity in class.             |
+| 9           | Group activities (drama/poetry)    | CO3, CO2, CO1              | Group drama or poetry activity.                 |
+| 10          | Contemporary writers in India     | CO3, CO2, CO1              | Discussion on regional Indian literary writers.|
+| 11          | Regional language writers          | CO3, CO2, CO1              | Reading and discussion of suggested writers.    |
+| 12          | Appreciation of literature        | CO3, CO2, CO1              | Assignment: Read and discuss a contemporary writer's work. |
+| 13          | Revision and recap                | CO3, CO2, CO1              | Comprehensive review for the final assessment. |
+
+### Assessment Strategy  
+The course employs a comprehensive assessment strategy to evaluate students' understanding and application of literary concepts:  
+
+- **Assignments:** 20% Contribution  
+  Includes weekly assignments, participation in creative writing activities, and group projects.
+
+- **Midterm Exam:** 20% Contribution  
+  A written exam assessing students' grasp of literary analysis techniques covered in the first half of the course.
+
+- **Surprise Tests:** 10% Contribution  
+  Periodic surprise quizzes to evaluate students' understanding of weekly topics.
+
+- **End Semester Exam:** 40% Contribution  
+  A comprehensive written exam covering all topics discussed during the semester, emphasizing critical analysis and application of literary concepts.
+
+- **Participation:** 10% Contribution  
+  Active participation in class discussions, group activities, and creative writing sessions is essential for earning full marks.
+
+### Learning Resources  
+Students are provided with a variety of resources to support their learning:  
+
+| Resource Material Type | Title                                                                                   |
+|------------------------|--------------------------------------------------------------------------------------------|
+| Book                    | A Glossary of Literary Terms by M. H. Abrams                                             |
+
+These resources, combined with the structured weekly lectures and assessments, ensure that students gain a thorough understanding of literature as a tool for exploring societal issues and fostering creative thinking.

@@ -1,0 +1,51 @@
+**Course Overview**
+
+This course CSE581, titled "Systems Analysis, Design and Requirements Engineering" is designed to provide a comprehensive understanding of Systems Analysis, Design, and Requirements Engineering. It focuses on the principles and practices essential for analyzing software systems, designing user-centered solutions, and managing requirements effectively.
+
+**Prerequisites**
+
+Basic understanding of software engineering and management is required. Students should have a foundational knowledge of software development processes and team collaboration.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+- **CO1:** Identify key skills for analyzing software development processes.
+- **CO2:** Differentiate between various approaches to systems analysis and design.
+- **CO3:** Develop abilities in gathering data for recognizing, analyzing, and specifying system requirements.
+- **CO4:** Recognize cognitive limitations in requirements determination and develop mitigation strategies.
+- **CO5:** Identify appropriate Agile software development approaches.
+
+**Weekly Lecture Plan**
+
+| Week Number | Lecture Topic                     | COs Met      | Assignment/Labs/Tutorial | Assignment/Labs/Tutorial  |  
+|-------------|-----------------------------------|--------------|--------------------------|---------------------------|  
+| Week 1      | Introduction to Software Analysis and Traditional Methods | CO1          | Quiz, Assignment         | Quiz, Assignment          |  
+| Week 2      | Modern Approach to Software Development / Theories of Design | CO1, CO2     | Quiz, Assignment        | Quiz, Assignment         |  
+| Week 3      | Requirement Analyses and User-Centered Design | CO1, CO2     | Quiz, In-class exercise   | Quiz, In-class exercise    |  
+| Week 4      | Introduction to Agile Approaches (Scrum, Kanban) | CO5          | Quiz, Assignment         | Quiz, Assignment          |  
+| Week 5      | Software Requirements and Engineering | CO1, CO3     | Quiz, Assignment         | Quiz, Assignment          |  
+| Week 6      | Requirement Analysis and User-Centered Design | CO3          | Quiz, In-class exercise   | Quiz, In-class exercise    |  
+| Week 7      | Creativity in Software Development Techniques | CO1, CO3     | Quiz, Assignment         | Quiz, Assignment          |  
+| Week 8      | Techniques for Improving Creativity | CO3          | In-class Exercise        | In-class Exercise        |  
+| Week 9      | Challenges in Developing Software Processes | CO2, CO5     | In-class Exercise        | In-class Exercise        |  
+| Week 10     | Human Aspects of Software Engineering | CO4          | Quiz, Assignment         | Quiz, Assignment          |  
+| Week 11     | Requirement Analysis and User-Centered Design | CO3, CO4     | Quiz, In-class exercise   | Quiz, In-class exercise    |  
+| Week 12     | Introduction to Empirical Models of Design | CO3, CO4     | Quiz, In-class exercise   | Quiz, In-class exercise    |  
+| Week 13     | Student Presentations and Report Submission | -            | Report Submission        | Report Submission        |  
+
+**Assessment Plan**
+
+- **Pre-Reading Quizzes:** 10% each
+- **In-Class Quizzes:** 10% each
+- **Homework Assignments:** 10% each
+- **Mid-Semester Exam:** 20%
+- **End-Semester Exam:** 30%
+- **Term Project and Report:** 20%
+
+**Resource Material**
+
+- Latest research publications/textbooks will be provided to students appropriately.
+- Recommended Textbooks:
+  - "The Two Paradigms of Software Engineering" by Ralph, Paul
+  - "Introducing an Empirical Model of Design" by Ralph, Paul

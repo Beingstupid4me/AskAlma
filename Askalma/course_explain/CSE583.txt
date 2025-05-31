@@ -1,0 +1,41 @@
+### Course Overview  
+This course CSE583, titled "Software Engineering/Development Using Open Source" is designed to provide an in-depth understanding of software engineering using open-source tools and methodologies. The primary focus is on leveraging open-source (OSS) software for development, project management, and integration of various components. Students will gain hands-on experience with popular OSS frameworks, tools, and practices while working on a team project that involves building a full-fledged system.  
+
+### Prerequisites  
+- **Good proficiency in programming** is essential to succeed in this course.  
+- **Basic understanding of OSS methods and processes**, including source code management, issue tracking, testing, and team organization, will be beneficial but not mandatory.  
+- Familiarity with basic software engineering concepts such as project management, testing, and development processes is recommended.  
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1**: Understand and apply fundamental software engineering principles and practices in the context of open-source tools and methodologies.  
+2. **CO2**: Develop a working prototype of a full-fledged system using open-source components and integrate them effectively.  
+3. **CO3**: Manage projects using open-source processes, including source code control, testing, and documentation.  
+4. **CO4**: Analyze and evaluate different open-source frameworks and tools for building efficient software solutions.  
+5. **CO5**: Present technical topics related to open-source software in a clear and concise manner.  
+
+### Weekly Syllabus and Topics  
+- **Week 1**: Introduction to Open Source Software (OSS) and its impact on the software development landscape. Overview of OSS processes, tools, and common architectures like microservices.  
+- **Week 2**: Basic software engineering concepts, including project management, testing, and version control using tools like GitHub.  
+- **Week 3**: Introduction to open-source frameworks and tools for building applications. Hands-on session with a popular framework (e.g., Django or Flask).  
+- **Week 4**: Project planning and team collaboration using open-source project management tools.  
+- **Week 5**: Midterm presentation on a technical topic related to OSS.  
+- **Week 6**: Advanced topics in microservices architecture and integration of multiple OSS components.  
+- **Week 7**: Testing strategies for OSS-based applications, including unit testing and integration testing.  
+- **Week 8**: Final project presentations and peer reviews.  
+
+### Assessment Strategy  
+The course assessment will be based on the following components:  
+1. **Class Presentation (20%)**: Students will present a technical topic related to open-source software during Week 5.  
+2. **Class Discussion (10%)**: Active participation in class discussions throughout the semester.  
+3. **End-Semester Examination (40%)**: A comprehensive written exam covering all course topics and objectives.  
+4. **Project (20%)**: Evaluation of the team project, including functionality, documentation, and integration of OSS components.  
+
+### Learning Resources  
+- Textbooks: "Open Source Software Development" by Greg Wilson and "The New Open Source Software" by Eric S. Raymond.  
+- Reference Books: "Linux in a Nutshell" by Mark R. Jason and "Python for Software Development" by Paul Crickard.  
+- Online Resources: Websites like GitHub, Stack Overflow, and the official documentation of OSS tools.  
+- Tools: GitHub, Git, Jenkins, Docker, and popular programming languages (e.g., Python, Java).  
+
+### Conclusion  
+This course will provide students with a comprehensive understanding of software engineering using open-source tools and methodologies. Through hands-on projects and team collaboration, students will develop practical skills in building and integrating OSS-based systems while gaining insights into the latest trends and practices in the field.

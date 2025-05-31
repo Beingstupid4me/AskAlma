@@ -1,0 +1,79 @@
+### Course Overview  
+**Course Code:** BIO571/ENT421  
+**Course Name:** Healthcare Innovation and Entrepreneurship Essentials  
+**Credits:** 2  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+
+This course is designed to introduce students to the principles of healthcare innovation, with a focus on digital health and entrepreneurship. The primary objective is to equip students with the knowledge and skills necessary to identify gaps in the healthcare ecosystem and develop innovative solutions through startups. The course covers key areas such as the healthcare value chain, innovation ecosystems, digital health technologies, biotech and biopharma innovations, medical devices, growth hacking strategies, and regulatory frameworks.
+
+---
+
+### Prerequisites  
+- **Mandatory:** UG, Masters, or Ph.D. students  
+
+**Desirable Prerequisites:** None specified  
+
+---
+
+### Learning Outcomes (COs)  
+1. **CO1:** Students will be able to analyze and critique digital health and health IT startups in India and the US.  
+2. **CO2:** Students will gain an understanding of biotech and biopharma startups, analyzing their gaps, opportunities, and regulatory challenges in these ecosystems.  
+3. **CO3:** Students will develop insights into medical device startups, identifying their gaps, opportunities, and regulatory requirements.  
+4. **CO4:** Students will be able to create innovative ideas for healthcare startups, focusing on growth hacking strategies and market entry approaches.  
+
+---
+
+### Weekly Syllabus and Topics  
+
+#### Week 1: Healthcare Value Chain  
+- Introduction to the healthcare value chain.  
+- Overview of digital health and its impact on modern healthcare systems.  
+
+#### Week 2 & 3: Healthcare Innovation Ecosystem  
+- Analysis of key players in the Indian and US healthcare innovation ecosystems.  
+- Case studies on successful startups in the digital health space.  
+
+#### Week 4, 5, & 6: Digital Health/IT Startups - Gaps, Opportunities, Regulations  
+- Identification of gaps and opportunities in digital health technologies.  
+- Regulatory frameworks governing digital health and IT solutions in healthcare.  
+
+#### Week 7, 8, & 9: Biotech Startups - Gaps, Opportunities, Regulations  
+- Analysis of biotech startups focusing on innovative solutions in healthcare.  
+- Regulatory challenges and opportunities in the biopharma sector.  
+
+#### Week 10 & 11: Medical Devices Startups - Gaps, Opportunities, Regulations  
+- Examination of medical device innovations and their market potential.  
+- Regulatory requirements for medical devices in India and the US.  
+
+#### Week 12 & 13: Growth Hacking Your Health Venture  
+- Strategies for scaling healthcare startups.  
+- Market entry tactics and identifying target audiences.  
+
+---
+
+### Assessment Strategy  
+
+| **Type of Evaluation** | **% Contribution in Grade** |  
+|--------------------------|----------------------------|  
+| Mid-Semester Examination   | 15                         |  
+| Assignments               | 10                         |  
+| End-Semester Examination  | 30                         |  
+| Pitch                    | 30                         |  
+| Quizzes                  | 15                         |  
+
+The end-semester examination carries a significant weight of **30%**, reflecting its importance in evaluating overall understanding. The pitch evaluation is weighted at **30%** to assess students' ability to translate their learning into real-world business ideas.
+
+---
+
+### Learning Resources  
+
+| **Type**         | **Title**                          |  
+|-------------------|------------------------------------|  
+| Textbook          | Biodesign: The Process of Innovating Medical Technologies (2nd Edition) by Yock, Zenios, Mackower et al. |  
+| Reference Book     | The Business of Healthcare Innovation by Lawton Robert Burns; National Digital Health Blueprint |  
+
+These resources provide foundational knowledge and practical insights into healthcare innovation and entrepreneurship.  
+
+---
+
+This structured course design ensures that students gain a comprehensive understanding of healthcare innovation through a blend of theoretical learning, case studies, and practical assignments.

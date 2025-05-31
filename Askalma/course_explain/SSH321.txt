@@ -1,0 +1,75 @@
+**Course Overview**
+
+This course is an introduction to Applied Ethics (SSH321), designed for undergraduate students. It provides a comprehensive understanding of fundamental ethical theories, moral dilemmas, and their applications in contemporary society. The course emphasizes critical thinking, analysis, and argumentation to justify ethical claims.
+
+---
+
+**Prerequisites**
+
+Students enrolling in this course must have completed the following prerequisites:
+- **Pre-requisites (Mandatory):** None specified.
+- **Pre-requisites (Desired):** Basic understanding of philosophy and logical reasoning.
+- **Pre-requisites (Other):** None specified.
+
+---
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+1. **CO1:** Understand and recognize key theories and issues in applied ethics.
+2. **CO2:** Apply ethical principles and precepts to contemporary ethical concerns.
+3. **CO3:** Demonstrate clarity, precision, and accuracy in reasoning, understand ethical dilemmas, and avoid fallacies in reasoning.
+4. **CO4:** Explain, evaluate, and defend philosophical positions.
+
+---
+
+**Weekly Lecture Plan**
+
+The course is structured into 13 weekly sessions, each focusing on specific topics that align with the learning outcomes:
+
+| Week Number | Lecture Topic                     | CO Met             | Assignments                          |
+|-------------|-----------------------------------|--------------------|---------------------------------------|
+| 1           | Introduction to Applied Ethics    | CO1                | None                                 |
+| 2           | Reading and Writing in Philosophy | CO3, CO4          | Response paper                       |
+| 3           | Theories in Applied Ethics       | CO1                | None                                 |
+| 4           | Ticking time bomb and the problem of torture | CO1, CO2, CO3, CO4 | Response paper                       |
+| 5           | Climate change and intergenerational justice | CO1, CO2, CO3, CO4 | Response paper                       |
+| 6           | Climate change and intergenerational justice | CO1, CO2, CO3, CO4 | None                                 |
+| 7           | Global poverty and the duty to aid    | CO1, CO2, CO3, CO4 | Response paper                       |
+| 8           | Global poverty and the duty to aid    | CO1, CO2, CO3, CO4 | None                                 |
+| 9           | Whistleblowing and professional responsibility | CO1, CO2, CO3, CO4 | Response paper                       |
+| 10          | Whistleblowing and professional responsibility | CO1, CO2, CO3, CO4 | None                                 |
+| 11          | Ethics of Information Technology: Democracy in the age of Information Technology | CO1, CO2, CO3, CO4 | Response paper                       |
+| 12          | Ethics of Information Technology: Privacy | CO1, CO2, CO3, CO4 | Response paper                       |
+| 13          | Revision                          | CO1, CO2, CO3, CO4 | Project                              |
+
+---
+
+**Assessment Strategy**
+
+The course employs a comprehensive assessment strategy to evaluate student learning:
+
+- **Mid-Term Examination:** 15% of the final grade.
+- **Response papers (Weekly):** 20% of the final grade. Students are required to submit one response paper per week, except for Week 3 and Week 6, where no specific assignments were detailed in the provided data.
+- **Project:** 35% of the final grade. The project is a significant component of the assessment, allowing students to apply their knowledge to real-world scenarios.
+- **Class Participation:** 10% of the final grade. Active participation in discussions and activities is encouraged.
+- **End-of-Semester Examination:** 20% of the final grade.
+
+---
+
+**Resource Materials**
+
+The course provides the following resources for learning:
+1. **Primary Textbook:**  
+   Peter Singer. *Practical Ethics*, 3rd Edition, Cambridge University Press, USA, 2011.
+2. **Additional Readings:**  
+   - Jerome Van Den Hoven and John Weckert (Eds.). *Information Technology and Moral Philosophy*. Cambridge University Press, 2008.  
+   - Rachels J, Rachels S. *The elements of moral philosophy*. New York: McGraw-Hill; 2003.  
+   - Stephen Gardiner, Simon Caney, Dale Jamieson, Henry Shue (Eds.). *Climate Ethics: Essential Readings*. Oxford University Press. USA. 2010.  
+   - LaFollette H, editor. *Ethics in practice: an anthology*. John Wiley & Sons; 2014.
+
+---
+
+**Conclusion**
+
+This course offers a comprehensive exploration of applied ethics, equipping students with the theoretical knowledge and practical skills to address complex ethical dilemmas. Through a combination of lectures, readings, assignments, and assessments, students will gain a deep understanding of the subject matter and its relevance to contemporary issues.

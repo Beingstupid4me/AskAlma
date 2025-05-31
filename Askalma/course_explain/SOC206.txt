@@ -1,0 +1,97 @@
+**Course Overview**
+
+- **Course Code:** SOC206  
+- **Course Name:** Business Anthropology  
+- **Credits:** 4  
+- **Offered To:** Undergraduate (UG)  
+
+This course delves into the intersection of business and anthropology, exploring how cultural influences shape corporate strategies and consumer behavior. Through case studies and fieldwork, students will analyze real-world examples such as Airbnb's creation, Starbucks' success, and YouTube's impact on social trends. The primary objective is to equip learners with anthropological insights that can be applied to understand and influence business practices.
+
+**Prerequisites**
+
+- **Mandatory Prerequisites:** None specified.
+- **Desirable Prerequisites:** None specified.
+- **Other Prerequisites:** None specified.
+
+Students are encouraged to approach this course with an open mind, as it combines theoretical knowledge with practical applications.
+
+**Course Outcomes (COs)**
+
+1. **CO1:** Students will understand how cultural influences shape business practices and consumer behavior through case studies and fieldwork.
+2. **CO2:** Learners will apply anthropological theories to analyze significant cultural cues in marketing and organizational contexts.
+3. **CO3:** Students will demonstrate the ability to critically evaluate brands, businesses, and organizations by applying knowledge gained from the course.
+4. **CO4:** Learners will effectively communicate collaborative teamwork through presentations and viva voce formats.
+
+**Weekly Lecture Plan**
+
+- **Week 1:** Introduction to Anthropology and Business Anthropology  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 2:** Consumption Culture - Understanding Stuff We Buy  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 3:** Advertising Cultures - 1  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 4:** Advertising Cultures - 2  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 5:** Marketing Cultures - 1  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 6:** Marketing Cultures - 2  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 7:** Ethnography and Fieldvisit - Visit Malls  
+  - COs Met: CO1, CO2, CO3, CO4  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 8:** Organizational Anthropology - 1  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 9:** Organizational Anthropology - 2  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 10:** Organizational Anthropology - 3  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 11:** Capstone Project Sessions - 1  
+  - COs Met: CO1, CO2, CO3, CO4  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 12:** Capstone Project Sessions - 2  
+  - COs Met: CO1, CO2, CO3, CO4  
+  - Assignment/Labs/Tutorial: None specified
+
+- **Week 13:** Capstone Project Sessions - 3  
+  - COs Met: CO1, CO2, CO3, CO4  
+  - Assignment/Labs/Tutorial: None specified
+
+**Assessment Plan**
+
+- **Type of Evaluation:** Class Attendance and Fieldwork, Presentation and Viva-Voce, Resource Material
+- **% Contribution in Grade:** 
+  - Class Attendance: 10%
+  - Fieldwork: 40%
+  - Presentation and Viva-Voce: 50%
+
+**Resource Materials**
+
+- **Type:** Books  
+- **Title:** 
+  - de Waal Malefyt, T., & Morais, R. J. (2013). Advertising and Anthropology: Ethnographic Practice and Cultural Perspectives. A&C Black.
+  - Miller, D. (2010). Stuff. Polity.
+  - Denny, R. M., & Sunderland, P. L. (Eds.). (2016). Handbook of Anthropology in Business. Routledge.
+
+- **Other appropriate resources will be assigned by the instructor.**
+
+This structured course provides a comprehensive exploration of how cultural influences shape business practices and consumer behavior, supported by theoretical knowledge and practical applications.

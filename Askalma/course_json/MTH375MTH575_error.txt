@@ -1,0 +1,233 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided table and structure it into a JSON format as specified. Let me go through each section step by step.
+
+First, looking at the Course Code and Name: they both are "MTH375/575" and "Fluid Mechanics". That's straightforward.
+
+Credits are listed three times with the same value of 4, so I'll use that number for Credits. 
+
+For the prerequisites, it seems there are mandatory, desirable, and other categories. The mandatory is "Math IV", and both desirable sections have placeholders. I'll fill in "Please insert more rows if required" as per the instruction.
+
+The Course Outcomes (COs) are listed from CO1 to CO5. Each outcome has specific learning objectives, so I'll map each CO number with its respective description.
+
+Moving on to the Weekly Lecture Plan, it starts from Week 1 to Week 32. However, some weeks have placeholders like "Please insert more rows if required". I'll structure this as an array of objects, including Week Number, Lecture Topic, and COs Met for each available week.
+
+The Assessment Plan includes quizzes, midsem, homework, and endsem. The credits are given with percentages (10%, 15%, etc.), so those will be strings since they can't all fit into a number format without losing precision.
+
+Resource Material includes books assigned by the instructor, which I'll list accordingly.
+
+I need to ensure that all missing values are represented as empty strings and handle numeric data appropriately. Finally, I'll structure everything into the specified JSON format without any additional text or explanations.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach. The course will prepare the student to undertake a semester long or year lomg project in various application areas of fluid mechanics / computational fluid dynamics.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach. The course will prepare the student to undertake a semester long or year lomg project in various application areas of fluid mechanics / computational fluid dynamics.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach. The course will prepare the student to undertake a semester long or year lomg project in various application areas of fluid mechanics / computational fluid dynamics.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach. The course will prepare the student to undertake a semester long or year lomg project in various application areas of fluid mechanics / computational fluid dynamics."
+
+<think>
+Alright, I'm trying to help this user extract information from their provided text and structure it into a specific JSON format. Let me break down what they need.
+
+First, looking at the file content, it's an Excel sheet with multiple tabs: Table1 seems to contain all the data. The columns are unnamed but seem to include Course Code, Course Name, Credits, Offering, Description, Prerequisites, COs, Weekly Lecture Plan, Assessment Plan, and Resource Material.
+
+The user provided a JSON template that maps various fields like Course Code, Name, Credits, etc., into specific keys in the JSON object. My task is to map the data from Table1 into this structure correctly.
+
+Starting with the Course Code (MTH375/575), I notice it's repeated three times. Since each row under Unnamed: 0 has MTH375/575, but in the JSON template, "Course Offered to" is a list of strings. So perhaps it should be an array with those values.
+
+The Course Name is also repeated as Fluid Mechanics across all rows. Again, this would need to be an array if there are multiple names, but here it's consistent, so maybe just a single string or an array with duplicates.
+
+Credits are consistently 4 for each row. The JSON template expects "Credits" as a number if present; else, a string. Since it's numeric, I'll map it directly.
+
+Course Offering is listed as UG + PG three times. In the JSON, "Course Offered to" should be an array of strings, so this would go there.
+
+The Course Description spans multiple rows but seems to repeat itself across all weeks. It might not need to be in the JSON unless specific details are changing weekly, which they aren't here.
+
+Prerequisites: The first row has Pre-requisites listed as four times "Pre-requisites", then three asterisks. Then another line with "Math IV" and more asterisks. This seems unclear; perhaps it's a placeholder for required courses like Math IV.
+
+The COs Met in the Weekly Lecture Plan are varying weekly, so each week's entry would have its own COs Met list.
+
+Looking at the data structure provided:
+
+- Course Code: MTH375/575
+- Course Name: Fluid Mechanics
+- Credits: 4
+- Course Offered to: UG + PG
+- Course Description: Multiple lines, but same across all weeks.
+- Prerequisites: Pre-requisites listed as "Pre-requisite (Mandatory)", then Math IV.
+
+Wait, in the sheet, it's:
+
+Unnamed: 0 | Unnamed:1 ... etc. So columns are unnamed, which is probably row headers like Course Code, Course Name, etc.
+
+Looking at the data under each column:
+
+- Course Code has MTH375/575 repeated.
+- Course Name same as course code.
+- Credits have 4s across rows where they should be a single value. Wait, but in the provided content, it's multiple lines for credits? No, looking back: The sheet shows that under Unnamed:2 (which is probably Course Offered to), all the entries are UG + PG.
+
+Wait no, let me parse this correctly:
+
+The first row after headers is:
+
+1 | MTH375/575 | MTH375/575 | MTH375/575
+
+So that's Course Code: MTH375/575, Course Name same.
+
+Then next row:
+
+2 | Fluid Mechanics | Fluid Mechanics | Fluid Mechanics
+
+Wait no, the first data row is:
+
+Unnamed: 0 | Unnamed:1 | Unnamed:2 | Unnamed:3 | Unnamed:4 | Unnamed:5 | Unnamed:6 | Unnamed:7 | Unnamed:8
+So columns are unnamed from 0 to 8.
+
+Then rows have values like:
+
+Row 1:
+1 | MTH375/575 | MTH375/575 | MTH375/575
+
+Wait, but the first row after headers is row index 1? Or are the headers at index 0?
+
+Looking back, in JSON structure, "Table1" starts with columns: Unnamed:0 to 8.
+
+Then rows start from index 1. So:
+
+Row 1:
+Unnamed:0 | MTH375/575 | MTH375/575 | MTH375/575
+
+Wait, but the first row after headers is actually row 1 in terms of data.
+
+But looking at the content provided, it's a bit confusing. The user says "Sheet: Table1" and provides columns from Unnamed:0 to 8, then rows starting with:
+
+1 | Course Code | MTH375/575 | ... etc.
+2 | Course Name | Fluid Mechanics | ...
+3 | Credits |4|...
+...
+
+So the first row is index 1 in terms of data.
+
+But for JSON structure, we need to map this into a table. So each row after the header represents one record.
+
+Now, looking at the content:
+
+- The first few rows are headers: Unnamed:0 (empty), then Course Code, Course Name, Credits, etc.
+Then starting from row 1:
+1 | MTH375/575 | Fluid Mechanics |4|UG + PG | ... | ...
+2 | ... same as above
+So each of these represents a single record.
+
+But looking at the data:
+
+Row 1: Course Code is MTH375/575, repeated multiple times. Similarly for Course Name and Credits.
+
+Wait, that can't be right because all rows have the same values except for Week Number which varies from 1 to 14 or so.
+
+Looking more carefully:
+
+After row 2 (headers), row 3 is MTH375/575, etc., but then in week number, it's starting at 1 and going up. So each row corresponds to a different week?
+
+Wait no, looking back: The sheet is called Table1 with columns Unnamed0 to Unnamed6.
+
+The first data rows are:
+
+Row 3: MTH375/575 | MTH375/575 | MTH375/575 | MTH375/575 | MTH375/575 | MTH375/575 | MTH375/575
+
+Row 4: same as row3.
+
+Row5: Pre-requisite (Math IV)
+
+Then rows6-12 have Post Conditions, COs, etc. So the data starts from row0 to row32 or so.
+
+Looking at the structure:
+
+The JSON should include all these fields with their respective types and values based on the table.
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the given schema. Let me go through each field step by step.
+
+First, looking at the Course Code: It's listed multiple times in row3 of Table1. All entries are "MTH375/575", so I'll use that for Course Code.
+
+Course Name is also repeated and it's "Fluid Mechanics".
+
+Credits are consistently 4 across all relevant rows, so that's straightforward.
+
+Course Offered to: The value here is "UG + PG" as seen in multiple places.
+
+Course Description is quite lengthy. It starts with an overview of fluid mechanics as a part of PDEs and covers various applications like air flow, blood flow, etc. This continues through several rows without changes, so I'll include the entire text as the Course Description.
+
+Prerequisites are listed under Pre-requisites in row8: "Math IV". There's also mention of inserting more rows if needed, but since only one prerequisite is present, I'll use that for Prerequisites.
+
+Now, looking at the columns:
+
+CO1 to CO5 each have specific learning outcomes. Each CO has a list of topics covered under it. These are spread across multiple rows in the Weekly Lecture Plan and Assessment Plan sections.
+
+For the Weekly Lecture Plan (WLP), each week's topic is listed along with the COs met and assignments. However, some weeks only have the topic and COs met without an assignment. I'll structure this as a list of objects where each object includes Week Number, Lecture Topic, COs Met, and Assignment/Labs/Tutorial.
+
+The Assessment Plan (AP) includes quizzes, midsem, homework, etc., with their respective percentages. Some entries are marked with "+", which might indicate additional points or formatting issues. I'll extract these as a list of objects where each object has the assessment type, its name, and the percentage contribution.
+
+The resource material section lists books assigned to the course.
+
+I need to parse this data correctly into the specified JSON structure without any markdown or extra text.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach. The course will prepare the student to undertake a semester long or year lomg project in various application areas of fluid mechanics / computational fluid dynamics.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem complexity is too high to allow an analytical approach. The course will prepare the student to undertake a semester long or year lomg project in various application areas of fluid mechanics / computational fluid dynamics.
+</think>
+
+```json
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "MTH375/575",
+  "Course Name": "Fluid Mechanics",
+  "Credits": 4,
+  "Course Offered to": "UG + PG",
+  "Course Description": "Fluid Mechanics is an application area of the subject of Partial Differential Equations. In general terms, the subject of fluid mechanics deals with any physical problem that involves fluid flows. Some examples are flow of air past an aircraft, flow of blood in our vasculature, flow of air as we breathe, flows past submarines and ships, etc. This course will build from first principles, and after briefly considering the relatively simple fluid statics scenarios, will derive the integral as well as differential forms of euations that govern fluid dynamics. Different approximations : incompressible, irrotational, inviscid, and boundary layers : will be considered and the contexts in which each of these approcimations are useful will be clearly elaborated upon. At the end of the course, students will be able to solve problems analytically wherever possible and possess an intial framework to employ numerical methods when the problem

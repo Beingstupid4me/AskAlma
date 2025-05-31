@@ -1,0 +1,70 @@
+**Course Overview**
+
+This course MTH 300, named "Introduction to Mathematical Logic" is an introductory module in mathematical logic designed for undergraduate students majoring in Mathematics or Computer Science. The primary objective of this course is to provide a comprehensive understanding of the fundamental principles of logic, including propositional and first-order logic, as well as their applications in formalizing mathematics through set theory and axiomatic number theory.
+
+**Course Prerequisites**
+
+To successfully engage with the content of this course, students are expected to have a solid foundation in basic mathematical concepts. Specifically, students should possess knowledge of:
+
+- **Basic Set Theory:** Understanding of fundamental concepts such as union, intersection, complementation, power sets, relations, and functions.
+- **Discrete Mathematics/Discrete Structures:** A prior course in this area is recommended to ensure familiarity with discrete structures that are essential for logical reasoning.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Translate formulas of propositional logic into natural language statements and vice versa, determining their satisfiability and validity using truth-tables.
+2. **CO2:** Translate formulas of first-order logic into natural language sentences, checking their satisfiability and validity within a given domain.
+3. **CO3:** Prove and apply the soundness, completeness, and compactness theorems for propositional and first-order logics.
+4. **CO4:** Appreciate the use of logic in formalizing mathematics through an introduction to formal number theory (Peano's arithmetic) and set theory.
+
+**Weekly Lecture Plan**
+
+The course is structured over 13 weeks, with each week focusing on specific topics that build upon one another to achieve the learning outcomes. Below is a detailed breakdown:
+
+- **Week 1:** Introduction to propositional logic, language of propositional logic, well-formed formulas (WFFs), and an overview of induction.
+- **Week 2:** Truth-assignments, truth-tables, parsing alternative notations, and the deduction theorem; includes a tutorial session.
+- **Week 3:** Soundness and completeness of propositional logic; includes a tutorial session.
+- **Week 4:** Compactness theorem for propositional logic.
+- **Week 5:** Language of first-order logic, WFFs, structures, and an introduction to satisfiability and validity.
+- **Week 6:** Models, logical implication, definability in a structure, and equality; includes a tutorial session.
+- **Week 7:** Consistency and soundness for first-order logic.
+- **Week 8:** Completeness for first-order logic.
+- **Week 9:** Compactness theorem for first-order logic and its applications; includes a tutorial session.
+- **Week 10:** Theories, models, formal number theory (Peano's arithmetic), and an introduction to set theory.
+- **Week 11:** Formal number theory, naïve set theory, cardinality, and the axiom of choice.
+- **Week 12:** Set theory from a naïve perspective to axiomatic foundations; includes a tutorial session.
+- **Week 13:** Additional topics may include computability, the halting problem, and an exploration of Gödel's incompleteness theorems.
+
+**Assessment Plan**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application. The breakdown is as follows:
+
+- **Quizzes (20%):** Regular quizzes will assess students' grasp of weekly topics.
+- **Midsem Exam (30%):** A comprehensive examination covering the first half of the course content.
+- **Endsem Examination (40%):** A cumulative final exam assessing overall understanding of the course material.
+- **Attendance and Participation (10%):** Active participation in class discussions, tutorials, and laboratory sessions will be evaluated.
+
+**Grading Scale**
+
+The grading scale is as follows:
+
+- **D:** Score >= 40%
+- **A:** Score >= 90%
+- Other grades are determined relative to the cutoffs set for each letter grade.
+
+**Course Resources**
+
+Students are provided with a range of recommended textbooks and reference materials to support their learning. These include:
+
+1. **Textbook 1:** *A Mathematical Introduction to Logic (2nd Edition)* by Herbert B. Enderton
+2. **Reference Book 1:** *First Order Mathematical Logic* by Angelo Margaris
+3. **Reference Book 2:** *Introduction to Mathematical Logic* by Elliot Mendelson
+4. **Reference Book 3:** *Logic and Structure* by Dirk van Dalen
+5. **Reference Book 4:** *Naïve Set Theory* by Paul Halmos
+
+These resources are intended to supplement lectures and provide additional depth for students interested in exploring specific topics further.
+
+**Conclusion**
+
+This course offers a rigorous exploration of mathematical logic, equipping students with the tools to analyze and formalize logical arguments. Through a combination of theoretical instruction, practical application, and assessment, students will gain a thorough understanding of propositional and first-order logic, as well as their applications in mathematics and computer science.

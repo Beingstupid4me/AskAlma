@@ -1,0 +1,139 @@
+{
+  "Course Code": "ECE 452/ECE552",
+  "Course Name": "Statistical Signal Processing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This post graduate course is designed to cover techniques for statistical signal processing, detection and parameter estimation. It will briefly review the preliminaries on linear algebra and statistics. The rest of the course is broadly divided into three parts. The first part will deal with the design, implementation and performance evaluation of detectors; this would cover composite and M-ary hypothesis testing. The second part of the course deals with estimation techniques like Maximum Likelihood, MAP and MMSE estimation. The third part introduces adaptive filtering approaches; this will cover stochastic and data-driven approach with emphasis on least squares based techniques. Homework will be a mix of theory and programming assignments.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Signals & Systems"
+    ],
+    "Desirable": [
+      "Matlab Programming",
+      "Probability and Statistics"
+    ],
+    "Other": [
+      "Linear Algebra"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "Apply hypothesis testing to signal and event detection problems.",
+    "CO2": "Evaluate detector performance using ROC curves, sensitivity/specificity etc.",
+    "CO3": "Choose among MLE, MAP and MMSE estimators given a parameter estimation tasks.",
+    "CO4": "Apply and design least squares based adaptive filters for stochastic signals."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Linear Algebra & Prob Review",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "HW 1 ( Sufficient Statistics, Prob, Stats, MC Sampling)"
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Sufficient Statistics & Significance Testing",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "HW 1 ( Sufficient Statistics, Prob, Stats, MC Sampling)"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "MMSE, CRLB, MVUE",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "General MVUE, BLUE",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "MLE, MAP Estimation",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "HW 2 (Estimation - MLE, MAP, BLUE)"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "NP Detector, LRT, ROC Curves",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "HW 3 (Detection - NP, LRT, GLRT)"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Generalized Matched Filters, Estimator-Correlator",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Estimator-Correlator & GLRT",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "HW 3 (Detection - NP, LRT, GLRT)"
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Wiener Filtering, Steepest Descent",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "LMS Adaptive Filters, Variants of Least Squares",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "HW 4 (Adaptive Filtering)"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "RLS, Kalman Filtering",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Robust Least Squares",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "HW 5 (Kalman Filtering/ RLS)"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 30,
+    "Midsem": 20,
+    "HW assignments": null,
+    "Endsem": 20
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Fundamentals of Statistical Signal Processing (Vol. 1 & 2) \u2013 Steven Kay"
+    ],
+    "Reference Book": null
+  }
+}

@@ -1,0 +1,65 @@
+**Course Overview**
+
+**Course Code:** ECE 573  
+**Course Name:** Advanced Embedded Logic Design  
+**Credits:** 4  
+**Offered To:** UG/PG  
+**Course Description:** This course delves into embedded systems utilizing multi-core processors, accelerators like GPU and FPGA, and co-processors. The curriculum combines theoretical concepts with hands-on lab work to design real-world embedded systems. Key topics include processor architecture, interrupts, DMA, AXI protocol, and hardware-software co-design approaches for optimizing area and power performance.
+
+**Learning Outcomes:**  
+- Students will understand the fundamentals of embedded system design.
+- They will master hardware-software co-design techniques on SoC platforms (Zybo, Zedboard, ZC706).
+- Students will implement machine learning algorithms on SoC using dynamic partial reconfiguration for real-time applications.
+
+**Weekly Syllabus & Topics**
+
+1. **Week 1 & Week 2:**  
+   - Introduction to embedded systems and AXI protocol.
+   - Lab exercises: Basics of SoC design.
+
+2. **Week 3:**  
+   - FPGA refresh, IP design.
+   - Lab exercises: FPGA implementation.
+
+3. **Week 4 & Week 5:**  
+   - SoC design flow, ARM+FPGA architecture.
+   - Labs: Designing on Zynq SoC.
+
+4. **Week 6 & Week 7:**  
+   - Interrupts, timers, DMA systems.
+   - Labs: Implementing FIFO and memory operations.
+
+5. **Week 8 & Week 9:**  
+   - Co-processors, FPU, clock systems.
+   - Labs: Floating-point unit implementation.
+
+6. **Week 10:**  
+   - Reconfigurable architectures.
+   - Labs: Dynamic partial reconfiguration.
+
+7. **Week 11:**  
+   - Accelerator design (FFT, matrix operations).
+   - Labs: ML algorithm implementation.
+
+8. **Week 12 & Week 13:**  
+   - Zynq MPSoC architecture.
+   - Labs: Designing on Zynq MPSoC.
+
+**Assessment Plan**
+
+- **Mid-sem Evaluation:** Lab and theory combined (30%).
+- **Project:** 25% contribution.
+- **Quiz (Theory):** 10%.
+- **Quiz (Lab):** 10%.
+- **End-sem Evaluation:** Lab and theory combined (25%).
+
+**Resource Material**
+
+- **Books:** Zynq technical manual, ARM, Xilinx tutorials.
+- **Datasheets:** Zybo, ZC706, Zedboard.
+- **Manuals:** Zybo, ZC706 reference guides.
+- **Schematics:** Zybo, ZC706.
+- **Software:** Vivado.
+- **Hardware:** Zybo, ZC706, Zedboard.
+
+This structured approach ensures a comprehensive understanding of the course structure and requirements.

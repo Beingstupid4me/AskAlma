@@ -1,0 +1,72 @@
+# CSE523: Randomized Algorithms Course Overview
+
+## Course Details
+- **Course Code:** CSE523
+- **Credits:** 4
+- **Discipline:** Computer Science Engineering (CSE)
+- **Target Audience:** Undergraduate/Postgraduate (UG/PG) students
+
+## Prerequisites
+- **Required:**
+  - Analysis and Design of Algorithms (CSE222)
+  - Discrete Mathematics (CSE121)
+  - Probability & Statistics (MTH201)
+
+## Post Conditions
+By the end of this course, students will be able to:
+1. Analyze probabilistic events in algorithmic problems.
+2. Design randomized algorithms with provable bounds.
+3. Understand and apply different random processes in problem-solving.
+
+## Course Description
+This course delves into the role of randomness in algorithms, focusing on its application in handling data inaccuracies or complexity. It is designed for students who may design algorithms that are not always 100% accurate but are efficient enough to be effective in most cases. The curriculum is divided into three main sections:
+- **Tools from Probability Theory:** Introduces foundational concepts necessary for understanding randomized algorithms.
+- **Probabilistic Algorithms:** Explores algorithms that incorporate randomness as part of their design.
+- **Analysis of Deterministic Algorithms:** Examines how deterministic approaches can be analyzed under various input distributions.
+
+## Course Outcomes (COs)
+The course aims to achieve the following outcomes:
+1. **CO1:** Students will understand fundamental concepts in probability and their application in algorithm design.
+2. **CO2:** Students will analyze algorithms using probabilistic methods effectively.
+3. **CO3:** Students will grasp advanced techniques for designing randomized algorithms with provable performance guarantees.
+
+---
+
+## Weekly Lecture Plan
+
+| Week | Topics Covered                     | Nature of Assignments / Labs and (Expected Hours of Work) |
+|------|------------------------------------|------------------------------------------------------------|
+| 1    | Review of probability, expectation | Homework (4 hours)                                         |
+| 2    | Conditional events, random variables | Homework (4 hours)                                         |
+| 3    | Probabilistic inequalities, applications | Homework (4 hours)                                         |
+| 4    | Concentration bounds               | Homework (4 hours)                                         |
+| 5    | Bernoulli trials                  | Homework (4 hours)                                         |
+| 6    | Probabilistic method              | Homework (4 hours)                                         |
+| 7    | Random graphs & randomized         | Homework (4 hours)                                         |
+| 8    | algorithms                           | Homework (4 hours)                                         |
+| 9    | Random walk                      | Homework (4 hours)                                         |
+| 10   | Markov Chain                     | Homework (4 hours)                                         |
+| 11   | Sampling                         | Homework (4 hours)                                         |
+| 12   | Derandomization                  | Homework (4 hours)                                         |
+| 13   | Entropy & Mutual Information      | Homework (4 hours)                                         |
+| 14   | Topics of interest               | Homework (4 hours)                                         |
+
+---
+
+## Assessment Strategy
+
+- **Homework:** 15% of the final grade. Consists of theoretical problems and coding exercises to reinforce concepts.
+- **Quizzes:** 15% of the final grade. Short in-class assessments covering recent topics.
+- **Mid-sem Exam:** 30% of the final grade. Comprehensive exam focusing on the first half of the course material.
+- **End-sem Exam:** 40% of the final grade. Cumulative exam covering all topics discussed during the semester.
+
+---
+
+## Learning Resources
+
+1. **Textbooks:**
+   - "Probability and computing : randomized algorithms and probabilistic analysis" by Mitzenmacher, Michael; Upfal, Eli (Cambridge University Press, 2005)
+   
+2. **Reference Book:**
+   - "Randomized algorithms" by Motwani, Rajeev; Raghavan, Prabhakar (Cambridge University Press, 1995)
+

@@ -1,0 +1,144 @@
+{
+  "Course Code": "CSE631",
+  "Course Name": "Advanced Operating Systems",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "The objective of this course is to study existing approaches for building an OS kernel. We aim to discuss monolithic kernels, lightweight kernels, embedded OS, distributed OS, etc. We will discuss the pros and cons of each of these design decisions. We will see how modern languages play a crucial role in designing the end to end software stack. Students are expected to read research papers before the class discussions.",
+  "Prerequisites": {
+    "Mandatory": "CSE231 Operating Systems",
+    "Desirable": [
+      "CSE231",
+      ""
+    ],
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "The students can understand the design principles of different OS kernels and identify the right operating system for a given application.",
+    "CO2": "The students can exploit memory safety vulnerabilities in an application and comprehend an alternative operating system design for preventing such exploitation.",
+    "CO3": "The students can analyze the tradeoffs between safety and performance.",
+    "CO4": "The students can compare between lightweight and monolithic OS kernels."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": "1",
+      "Lecture Topic": "Introduction to Unix systems",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "2",
+      "Lecture Topic": "Introduction to X86 assembly",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "3",
+      "Lecture Topic": "Exokernel",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Paper reading"
+    },
+    {
+      "Week Number": "4",
+      "Lecture Topic": "Microkernel",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ],
+      "Assignments": "Paper reading"
+    },
+    {
+      "Week Number": "5",
+      "Lecture Topic": "Security in computer systems",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "6",
+      "Lecture Topic": "Information flow control",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Paper reading"
+    },
+    {
+      "Week Number": "7",
+      "Lecture Topic": "HiStar OS",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Paper reading"
+    },
+    {
+      "Week Number": "8",
+      "Lecture Topic": "Managed Languages",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "9",
+      "Lecture Topic": "Singularity OS",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Paper reading"
+    },
+    {
+      "Week Number": "10",
+      "Lecture Topic": "Introduction to Rust",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "11",
+      "Lecture Topic": "Embedded OS",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Paper reading"
+    },
+    {
+      "Week Number": "12",
+      "Lecture Topic": "Distributed systems",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week Number": "13",
+      "Lecture Topic": "Barrelfish OS CO1 Paper reading",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "End-sem": "40",
+    "Mid-sem": "30",
+    "Assignment": "20",
+    "Quiz": "10"
+  },
+  "Resource Material": {
+    "Textbook": "",
+    "Reference Book": ""
+  }
+}

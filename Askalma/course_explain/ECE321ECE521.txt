@@ -1,0 +1,66 @@
+### Course Overview  
+**Course Code:** RF Circuit Design (ECE321/ECE521)  
+**Course Name:** Radio Frequency Circuit Design  
+**Credits:** 4  
+**Instructor:** Dr. M. S. Hashmi
+
+---
+
+### Prerequisites  
+- **Foundations of Electromagnetic Fields and Waves**: This course instructed by Dr. M. S. Hashmi, is required for successful completion of RF Circuit Design. Students are expected to have a strong understanding of basic electromagnetic principles before enrolling.  
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Understand the fundamental concepts of radio frequency (RF) circuit design and its applications in modern communication systems.  
+2. **CO2:** Analyze and design passive and active RF circuits using transmission line theory, Smith charts, and software tools like ADS.  
+3. **CO3:** Apply principles of impedance matching and tuning to optimize RF circuit performance.  
+4. **CO4:** Design and analyze multi-port networks using ADS and other simulation tools.  
+5. **CO5:** Develop skills in PCB manufacturing and measurement techniques for RF components, including the use of Vector Network Analyzers (VNAs).  
+
+---
+
+### Weekly Lecture Plan  
+
+| Week | Topic | COs Met | Assignments/Activities |
+|------|-------|---------|------------------------|
+| 1    | Importance of Radio Frequency Design, Frequency Spectrum, RF Behavior of Passive Components, Chip Components and Circuit Board Considerations, RF Circuit Manufacturing Process | CO1, CO2 | Introduction to RF design principles and passive components. |
+| 2    | Transmission Line Analysis, Example of Transmission Lines, Equivalent Circuit Representation, Theoretical Foundation, Circuit Parameters for a Parallel-Plate Transmission Line, Summary of Different Transmission Line Configurations, General Transmission Line Equations, Microstrip Transmission Lines | CO1, CO2 | MATLAB simulations to analyze transmission lines. |
+| 3    | Smith Chart (From Reflection Coefficient to Load Impedance, Impedance Transformation, Admittance Transformation, Parallel Series Connection), Introduction to ADS (Simple Examples) | CO1, CO2 | Hands-on exercises with Smith charts and ADS basics. |
+| 4    | ADS Design Guides (Smith Chart and its Applications) | CO1, CO2 | Practical application of ADS for RF circuit design. |
+| 5    | Single- and Multi-port Networks (Interconnecting networks, Network properties and Applications, Scattering Parameters), Design and Analysis of multi-port network using ADS | CO3, CO4 | Case studies on multi-port network analysis. |
+| 6    | Impedance Matching and Tuning | CO2, CO3 | Practical exercises on impedance matching techniques. |
+| 7    | Passive RF Components (Coupler Design: analytical technique and ADS implementation; Power Combiner and Power Divider: analytical techniques and ADS implementation; Multi-band Component Design Techniques) | CO4, CO5 | Detailed design of passive components using ADS. |
+| 8    | RF Filter Design | CO3, CO4 | Design and analysis of RF filters using ADS. |
+| 9    | Vector Network Analyzer and Simple Calibration Approach | CO5 | Hands-on training with VNAs for RF measurements. |
+| 10   | Active RF Components (RF Field Effect Transistors, MOSFETs, HEMTs), Power Amplifier (Biasing and Matching Networks Design Techniques and ADS Implementation; Stability Considerations, Constant Gain, Constant VSWR Circles, Power Amplifier Topologies, Power Amplifier Operation Modes, Multi-band Matching Techniques for Power Amplifiers) | CO2, CO4 | Advanced topics in active RF components. |
+| 11   | Assignments/Quizzes and Term Paper Review | CO1-CO5 | Comprehensive review of course concepts through assignments and quizzes. |
+
+---
+
+### Assessment Strategy  
+The assessment plan is designed to evaluate both theoretical knowledge and practical skills:  
+
+- **Assignments:** Several assignment tasks will be given throughout the course, focusing on design challenges and problem-solving using ADS and other tools.  
+- **Quizzes:** Random quizzes will assess students' understanding of key concepts covered in lectures.  
+- **Midsem Exam (20%):** A mid-semester examination to evaluate students' grasp of fundamental topics.  
+- **Final Exam (15%):** A comprehensive final exam covering the entire course content.  
+- **Project (30%):** Students will work on a group project, which includes schematic design, layout, and simulation using ADS tools. The project will culminate in a presentation and written report.  
+
+The end-semester examination carries a significant weight of 25%, reflecting its importance in evaluating overall understanding of the course material.
+
+---
+
+### Learning Resources  
+**Textbook:** RF Circuit Design Theory and Applications, 2nd edition – R. Ludwig and G. Bogdanov, Pearson Economy  
+**Reference Materials:**  
+1. Microwave Engineering, 3rd Edition – D. M. Pozar, Wiley  
+2. Secrets of RF Circuit Design – Joseph Carr, McGraw Hill  
+3. RF Circuit Design – R. Bowick, Newnes  
+4. IEEE Xplore and IEL for additional research materials  
+
+---
+
+### Conclusion  
+This course provides a comprehensive understanding of RF circuit design, covering both theoretical foundations and practical applications. Through hands-on exercises with ADS, PCB manufacturing, and VNAs, students will gain the skills needed to analyze and design RF circuits for modern communication systems. The assessment plan ensures that students achieve a well-rounded grasp of the subject matter, while the project component offers an opportunity to apply their knowledge in a real-world context.

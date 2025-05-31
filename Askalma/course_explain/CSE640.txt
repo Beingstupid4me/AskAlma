@@ -1,0 +1,54 @@
+**Course Overview**
+
+The course is coded as **CSE 640**, titled **"Collaborative Filtering."** It carries a credit value of **4** and is offered to postgraduate (PG) students. This course focuses on the algorithms and techniques used in recommender systems, with an emphasis on understanding how these systems predict user preferences based on collected data.
+
+The course description highlights its relevance in the era of e-commerce and streaming platforms like NetFlix. It explains that collaborative filtering is a pivotal topic in data mining due to its applications in recommendation engines. The curriculum covers various aspects of recommender systems, including algorithms, biases prediction, rating prediction models (both neighbourhood-based and latent factor), hybrid models, and advanced projects.
+
+**Prerequisites**
+
+The mandatory prerequisite for this course is **MTH100: Mathematics I**, which ensures that students have a foundational understanding of mathematical concepts necessary for the course. Additional prerequisites are currently unspecified but may include related courses such as Mathematics II or Computer Science fundamentals. Students should consult their academic advisors if they need to insert more rows into the prerequisite section.
+
+**Course Outcomes**
+
+The course aims to equip students with the following skills and knowledge:
+
+1. **CO1:** Students will be able to demonstrate a solid understanding of the fundamental concepts of recommender systems.
+2. **CO2:** Students will be able to implement both primitive (neighbourhood models) and advanced (latent factor models) algorithms for recommender systems.
+3. **CO3:** Students will gain proficiency in implementing advanced projects within the field of collaborative filtering.
+4. **CO4:** Students will develop the ability to critically analyze and evaluate various recommendation algorithms and their applications.
+5. **CO5:** Students will be able to apply theoretical knowledge to real-world scenarios, including designing and deploying recommendation systems.
+
+**Weekly Lecture Plan**
+
+The course is structured over 13 weeks, with each week focusing on specific topics:
+
+- **Week 1:** Introduction to recommender systems, including their applications and motivations.
+- **Weeks 2-3:** Exploration of explicit vs implicit ratings, advantages, and disadvantages.
+- **Week 4:** Bias prediction techniques, both statistical and optimization-based methods.
+- **Weeks 5-7:** Rating prediction using neighbourhood models, incorporating machine learning concepts like clustering, regression, and classification.
+- **Weeks 8-10:** Advanced rating prediction using latent factor models, including matrix completion and performance analysis.
+- **Weeks 11-12:** Hybrid models, combining different approaches for improved recommendation quality. This section includes hands-on implementation from research papers.
+- **Week 13:** Student presentations on advanced topics or projects related to collaborative filtering.
+
+**Assessment Plan**
+
+The course employs a comprehensive assessment strategy:
+
+- **Quiz (10%):** Conducted weekly during lab sessions, these quizzes assess students' understanding of key concepts and practical skills.
+- **Assignment (30%):** Bi-weekly assignments are designed to reinforce the topics covered in lectures. These include coding exercises and theoretical problem-solving tasks.
+- **Mid-Semester Examination (10%):** This exam evaluates students' grasp of the foundational concepts taught in the first half of the course.
+- **End-Semester Examination (10%):** A comprehensive final exam covering all topics discussed throughout the semester.
+- **Project (40%):** The project is a significant component of the course, allowing students to apply their knowledge to real-world datasets. It involves designing and implementing a recommendation system.
+
+**Learning Resources**
+
+Students are provided with essential resources to support their learning:
+
+1. **Textbook:** "Recommender Systems Handbook" edited by Ricci, F., Rokach, L., Shapira, B., and Kantor, P.B., published by Springer.
+2. **Reference Book 1:** "Sparse and Redundant Representation: From Theory to Practice" by Michael Elad, also published by Springer.
+
+These resources offer in-depth insights into the theoretical and practical aspects of recommender systems.
+
+**Conclusion**
+
+This course provides a thorough exploration of collaborative filtering techniques, from foundational concepts to advanced algorithms. Through a combination of lectures, assignments, quizzes, and a final project, students will gain both theoretical knowledge and practical skills, preparing them for careers or further studies in data mining and recommendation systems.

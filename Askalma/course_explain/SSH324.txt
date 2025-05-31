@@ -1,0 +1,58 @@
+**Course Overview**
+
+The course SSH324, titled "Philosophy of Mind," is a 4-credit module offered to undergraduate students. It delves into the nature of mind/consciousness, exploring whether it's immaterial, material, or both. The course situates these philosophical inquiries within broader epistemological and ontological debates before examining contemporary approaches and theoretical responses.
+
+**Prerequisites**
+
+Students must have completed SSH121 Introduction to Philosophy as a mandatory prerequisite. Desirable prerequisites are not specified in the provided data.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+- CO1: Situate contemporary debates in the philosophy of mind with respect to epistemological and ontological problematics.
+- CO2: Articulate basic problems, debates, and systematic responses within the philosophy of mind.
+- CO3: Critically analyze and evaluate these responses, considering their relevance to the problems they address and other responding theories.
+- CO4: Frame possible responses that bring to light implicit dimensions of these issues that have been insufficiently explored.
+
+**Weekly Syllabus and Topics**
+
+The course is structured over 13 weeks, each focusing on specific topics:
+
+1. **Week 1**: Introduction to Descartes' Mind-Body Dualism (CO1, CO2)
+2. **Week 2**: Kant's Copernican Turn: The 'I Think' Argument (CO1, CO2, CO3)
+3. **Week 3**: Hume's Empiricism and Skepticism (CO1, CO2, CO3)
+4. **Week 4**: Ryle's Concept of Mind and the Descartes Myth (CO2, CO3)
+5. **Week 5**: Crane's Mechanical Mind and 'The Puzzle of Representation' (CO1, CO2, CO3)
+6. **Week 6**: Continued exploration of 'The Puzzle of Representation' (CO1, CO2, CO3)
+7. **Week 7**: Nagel's "What is It Like to be a Bat?" (CO1, CO2, CO3)
+8. **Week 8**: Turing's Computing Machinery and Intelligence (CO1, CO2, CO3)
+9. **Week 9**: Crane's 'Computers and Thoughts' (CO1, CO2, CO3)
+10. **Week 10**: Continued exploration of 'Computers and Thoughts' (CO1, CO2, CO3)
+11. **Week 11**: Searle's "Minds, Brains, and Programs" and the Chinese Room Analogy (CO1, CO2, CO3, CO4)
+12. **Week 12**: Dennett's "Can Machines Think?" (CO1, CO2, CO3, CO4)
+13. **Week 13**: Review Session for Final Research Paper Topics
+
+Assignments include readings, analyses, short response papers, longer response papers, class presentations, and a final research paper.
+
+**Assessment Strategy**
+
+The course assessment is structured as follows:
+- Short Paper: 15%
+- Long Paper: 25%
+- Presentation: 15%
+- Final Research Paper: 35%
+- Class Participation: 10%
+
+These evaluations ensure a comprehensive understanding of the course material and active engagement.
+
+**Learning Resources**
+
+The following resources are recommended for this course:
+- **Rene Descartes**, *Meditations on First Philosophy*
+- **Immanuel Kant**, *Critique of Pure Reason*
+- **David Hume**, *A Treatise of Human Nature*
+- **Gilbert Ryle**, *The Concept of Mind*
+- **Tim Crane**, *The Mechanical Mind* and related works
+- **David Chalmers (ed)**, *Philosophy of Mind: Classical and Contemporary Readings*
+
+This structured approach ensures a thorough exploration of the philosophy of mind, supported by both historical and contemporary readings.

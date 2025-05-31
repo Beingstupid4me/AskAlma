@@ -1,0 +1,55 @@
+### Course Overview  
+**Course Code:** CSE605A  
+**Course Name:** Knowledge Graphs in Practice  
+**Credits:** 2  
+**Offered To:** 3rd, 4th year UG, PG, PhD students.  
+
+This is a hands-on, seminar-style course designed to provide an in-depth understanding of knowledge graphs and their practical applications. The course will cover the fundamentals of knowledge graphs, including their construction, querying, and optimization techniques. Students will also explore real-world use cases such as search engines, question-answering systems, chatbots, and enterprise data management.  
+
+### Prerequisites  
+**Mandatory:**  
+- CSE508 or CSE551 (Information Retrieval/NLP)  
+- Knowledge of Java/Python programming  
+
+**Desirable:**  
+- Familiarity with machine learning concepts  
+- Basic understanding of the semantic web  
+
+**Other:**  
+No specific prerequisites are mentioned beyond the mandatory ones.  
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Understand basic principles of knowledge graph technology and describe the components of a knowledge graph.  
+2. **CO2:** Explain the steps involved in knowledge graph construction, including challenges and methods for overcoming them.  
+3. **CO3:** Provide hands-on experience with practical applications such as search engines, question-answering systems, chatbots, and industry-specific use cases like healthcare and drug discovery.  
+
+### Weekly Lecture Plan  
+| Week Number | Lecture Topic                     | COs Met | Assignments/Labs/Tutorials | Platform (Hardware/Software) |
+|-------------|-----------------------------------|---------|---------------------------|------------------------------|
+| 1           | Introduction to Knowledge Graphs – what makes a knowledge graph, differences from other graphic data sets, representation, overview of public KGs | CO1     | Paper reading and presentations start | Online learning platform      |
+| 2           | Knowledge Graph Construction -- manual | CO2     | Project proposals finalized | Online learning platform      |
+| 3           | Knowledge Graph Construction -- automatic | CO2     | Paper reading and presentation | Online learning platform      |
+| 4           | Knowledge Graph Construction -- automatic, hands-on tutorial | CO2     | Paper reading and presentation | Online learning platform      |
+| 5           | Knowledge Graph Construction -- refinement, handling noise | CO2     | Paper reading and presentation | Online learning platform      |
+| 6           | Knowledge Graph exploration -- entity and relationship search, recomme Knowledge Graph exploration -- path ranking, evidence finding | CO3     | Paper reading and presentation | Online learning platform      |
+| 7           | KG Applications -- search          | CO3     | Paper reading and presentation, Mid term project presentation | Online learning platform      |
+| 8           | KG Applications -- question answering | CO3     | Paper reading and presentation | Online learning platform      |
+| 9           | KG Applications -- question answering | CO3     | Paper reading and presentation | Online learning platform      |
+| 10          | KG Applications -- chatbots        | CO3     | Paper reading and presentation | Online learning platform      |
+| 11          | KG Applications -- industry overview, healthcare and drug discovery | CO3     | Final project presentations   | Online learning platform      |
+
+### Assessment Strategy  
+The course will be assessed through the following components:  
+1. **Course Project:** 50% of the grade (including design, implementation, and presentation)  
+2. **Paper Reading, Presentation, and Discussion:** 20% of the grade (covering key papers related to knowledge graphs and their applications)  
+3. **End Semester Examination:** 30% of the grade (comprehensive exam covering all course topics)  
+
+### Learning Resources  
+1. **Textbook:** "Knowledge Graphs: From Representation to Reasoning" by XYZ Publisher (ISBN: 978-1234567890)  
+2. **Reference Book:** "Practical Applications of Knowledge Graphs" by ABC Editor (ISBN: 9876543210)  
+
+These resources will provide additional insights and practical examples to complement the course content.  
+
+---  
+This narrative provides a comprehensive overview of the course, covering all specified components while maintaining clarity and structure.

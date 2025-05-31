@@ -1,0 +1,242 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each part step by step.
+
+First, looking at the "Course Code" field. In the table, under column 4 (Unnamed: 3), there are two entries: ECO324/524 and another one which is incomplete. I'll take the first complete entry as the course code.
+
+Next, the "Course Name" seems to be consistent across rows in column 5 (Unnamed: 4). It's both "Spatial Statistics and Spatial Econometrics," so that should be straightforward.
+
+For "Credits," looking at row 3 (Unnamed: 2), it says 4. I'll note that as a number since credits are numeric.
+
+Moving on to "Course Offered to." In the same row, it mentions UG/PG for both entries, so I'll list those as is.
+
+The "Course Description" spans multiple rows from 5 onwards (Unnamed: 1). It's quite lengthy and seems to repeat information. Since it's a description, I can take this entire text as the value, ensuring proper formatting with quotes.
+
+Now, looking at the prerequisites. In row 8 (Unnamed: 7), there are entries under "Pre-requisite (Mandatory)" and others. The mandatory one is "Econometrics I (ECO321)." So that's my prerequisite.
+
+For course outcomes, rows 10 to 15 show verbs like "Understand," "Utilize," etc., which are good for the COs met array.
+
+The weekly lecture plan starts at row 14. Each week has a topic and COs met. I'll extract each week's data into an object with Week, Lecture Topic, COs Met (as an array), and Assignments. Some weeks have multiple assignments or projects listed in parentheses, so I'll split those into separate objects.
+
+The assessment plan includes quizzes, midsem, etc., which are straightforward to map.
+
+Resource material has two entries: a textbook by Cressie and two books on spatial econometrics.
+
+I need to ensure all missing values are handled gracefully, using empty strings or nulls where necessary. Also, make sure numeric fields like credits are numbers in the JSON, not strings.
+
+Finally, I'll structure everything into the specified JSON format without any markdown or introductory text.
+</think>
+
+```json
+{
+  "Course Code": "ECO324/524",
+  "Course Name": "Spatial Statistics and Spatial Econometrics",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The purpose of this course is to introduce the standard spatial- analytic framework for analyzing spatial data and its target audience are social scientists and engineers. In the past decade or so, much interest has grown in the area due to readily-available spatially-delineated data, particularly when in 2008 the U.S. Geological Survey stopped charging for its high-resolution LANDSAT archive. However, spatial data and spatial relationships necessitate the use of analytic tools beyond the standard statistical methods such as OLS. The role of spatial autocorrelation (also known as multidimensional autocorrelation) in spatial datasets is a focus of this course. In addition, we will ask: how and why does spatial autocorrelation arise; how is it measured and understood; how does it relate to issues of spatial heterogeneity and spatial dependence; and how these factors inform the specification and estimation of regression models. Specific modeling techniques include spatial autocorrelation measures (Moran's I, Geary's C), spatial regression models.",
+  "Prerequisites": {
+    "Mandatory": ["Econometrics I (ECO321)"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4",
+    "CO5"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to spatial data, spatial random processes and spatial models: Geostatistical data; Lattice sata; and Point data.",
+      "COs Met": ["CO1"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Stationarity and Ergodicity of spatial random process: Variogram, Semi-variogram; Covariogram and Correlogram. Asymptotic approaches to spatial processes: Asymptotic convergence; Laws of Large Numbers and Central Limit Theorems for Spatial Processes.",
+      "COs Met": ["CO1"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Fitting a Variogram: Mimimum Norm Quadratic Estimation; Generalized Least Squares Estimation; Maximum-likelihood and Restricted Maximum-Likelihood Estimation",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Spatial Prediction: Stochastic approach and decision-theoretic considerations. Spatial Interpolation: Ordinary Kriging; Kriging with Spatial Covariance.",
+      "COs Met": ["CO2"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Spatial Econometrics and Regional Science: Moving from characterization of spatial patterns to deducing explanatory factors and inference. Spatial Dependence and Spatial Heterogeneity.",
+      "COs Met": ["CO2"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Spatial Autocorrelation Measures (Moran's I, Geary's C), Spatial Regression Models.",
+      "COs Met": ["CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Spatial Autocorrelation Measures (Moran's I, Geary's C), Spatial Regression Models.",
+      "COs Met": ["CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Spatial externalities: Spatial multipliers and spatial regression; Global and Local Moran's-I Statistics",
+      "COs Met": ["CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Estimation and hypothesis testing: Maximum likelihood estimation with spatial dependence in the dependent variable and the model errors. Likelihood ratio test and Lagrange multiplier tests for spatial process models",
+      "COs Met": ["CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Applications on ArcGIS and ArcPy (Python for ArcGIS)",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Applications on R",
+      "COs Met": ["CO4", "CO5"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Advanced topics (time-allowing): Some properties of space-time processes: Spatial Lag Structure (STMA, space-time moving average model); Spatial Autocorrelation (STAR, space-time autoregressive process); and space-time autoregressive-moving average (STARMA) models.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Advanced topics (time-allowing): Some properties of space-time processes: Spatial Lag Structure (STMA, space-time moving average model); Spatial Autocorrelation (STAR, space-time autoregressive process); and space-time autoregressive-moving average (STARMA) models.",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+  ]
+}
+</think>
+
+```json
+{
+  "Course Code": "ECO324/524",
+  "Course Name": "Spatial Statistics and Spatial Econometrics",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "The purpose of this course is to introduce the standard spatial- analytic framework for analyzing spatial data and its target audience are social scientists and engineers. In the past decade or so, much interest has grown in the area due to readily-available spatially-delineated data, particularly when in 2008 the U.S. Geological Survey stopped charging for its high-resolution LANDSAT archive. However, spatial data and spatial relationships necessitate the use of analytic tools beyond the standard statistical methods such as OLS. The role of spatial autocorrelation (also known as multidimensional autocorrelation) in spatial datasets is a focus of this course. In addition, we will ask: how and why does spatial autocorrelation arise; how is it measured and understood; how does it relate to issues of spatial heterogeneity and spatial dependence; and how these factors inform the specification and estimation of regression models. Specific modeling techniques include spatial autocorrelation measures (Moran's I, Geary's C), spatial regression models.",
+  "Prerequisites": {
+    "Mandatory": "Ecoometrics I",
+    "Desirable": "Statistical Inference",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand the notion of spatial random processes and the basic underlying properties, e.g., stationarity.",
+    "CO2": "Utilize spatial models for characterizing patterns, out-of-sample prediction and spatial interpolation.",
+    "CO3": "Propose and setup spatial regression models, specific spatial dependence structures in the regression model, and infer upon the underlying social/economic/physical relationships.",
+    "CO4": "Apply these tools to study a specific spatial random process using a real-world example/problem.",
+    "CO5": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to spatial data, spatial random processes and spatial models: Geostatistical data; Lattice sata; and Point data.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Stationarity and Ergodicity of spatial random process: Variogram, Semi-variogram; Covariogram and Correlogram. Asymptotic approaches to spatial processes: Asymptotic convergence; Laws of Large Numbers and Central Limit Theorems for Spatial Processes.",
+      "COURSEs Met": ["CO1"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Fitting a Variogram: Mimimum Norm Quadratic Estimation; Generalized Least Squares Estimation; Maximum-likelihood and Restricted Maximum-Likelihood Estimation",
+      "COURSEs Met": ["CO1", "CO2"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Spatial Prediction: Stochastic approach and decision-theoretic considerations. Spatial Interpolation: Ordinary Kriging; Kriging with Spatial Covariance.",
+      "COURSEs Met": ["CO2"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Spatial Econometrics and Regional Science: Moving from characterization of spatial patterns to deducing explanatory factors and inference. Spatial Dependence and Spatial Heterogeneity.",
+      "COURSEs Met": ["CO2", "CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "6-7",
+      "Lecture Topic": "The formal expression of spatial dependence structures: Spatial contiguity matrix, generalized spatial weight matrix; and spatial lag operators.",
+      "COURSEs Met": ["CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Spatial externalities: Spatial multipliers and spatial regression; Global and Local Moran's-I Statistics",
+      "COURSEs Met": ["CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "Estimation and hypothesis testing: Maximum likelihood estimation with spatial dependence in the dependent variable and the model errors. Likelihood ratio test and Lagrange multiplier tests for spatial process models",
+      "COURSEs Met": ["CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Applications on ArcGIS and ArcPy (Python for ArcGIS)",
+      "COURSEs Met": ["CO4", "CO5"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Applications on R",
+      "COURSEs Met": ["CO4", "CO5"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Advanced topics (time-allowing): Some properties of space-time processes: Spatial Lag Structure (STMA, space-time moving average model); Spatial Autocorrelation (STAR, space-time autoregressive process); and space-time autoregressive-moving average (STARMA) models.",
+      "COURSEs Met": ["CO2", "CO3"],
+      "Assignments": "4 assignments distributed through the course. A short project will be assigned based on a real-world dataset (individual or group project depending upon class-size). At the end of the semester, students will present their findings/contributions."
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz/Assignments (4)": "25",
+    "Project": "25",
+    "Midsem": "20",
+    "Endsem": "30"
+  },
+  "Resource Material": {
+    "Textbook": "ECO324/524",
+    "Reference Book": "ECO324/524"
+  }
+}
+</think>
+
+```json
+{
+  "Course Code": "ECO324/524",
+  "Course Name": "Spatial Statistics and Spatial Econometrics",
+  "
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "ECO324/524",
+  "Course Name": "Spatial Statistics and Spatial Econometrics",
+  "

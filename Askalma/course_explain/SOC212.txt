@@ -1,0 +1,72 @@
+### Course Overview  
+**Course Code:** SOC 212  
+**Course Name:** Key Concepts in Economic Sociology  
+**Credits:** 4  
+**Offered To:** Undergraduate Students (UG)  
+
+---
+
+### Course Description  
+This course provides an in-depth exploration of the principles and theories central to economic sociology. It examines how human economic actions are influenced by societal structures, group dynamics, legal institutions, power imbalances, organizations, and cultural norms. The course encourages students to critically analyze contemporary issues by integrating insights from economics and sociology. Key topics include Karl Polanyi's formalism and substantive approaches, embeddedness theory by Granovetter, Swedberg's contributions on economic life, and the sociological understanding of exchange forms (gifts, reciprocity, and market dynamics). Students will engage with primary texts such as *Economies and Cultures* by Richard Wilk, *Economic Anthropology* by Chris Hann and Keith Hart, and works by Durkheim, Granovetter, and Swedberg.  
+
+---
+
+### Prerequisites  
+**Mandatory:** HSS 2XX (Humanities and Social Sciences)  
+**Desirable:** None specified.  
+**Other:** None mentioned in the provided data.
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Demonstrate a comprehensive understanding of key concepts in economic sociology by reading and comprehending primary texts.  
+- **CO2:** Analyze cross-disciplinary connections between economics and society, identifying how economic actions are embedded within social structures.  
+- **CO3:** Understand and explain various methodological approaches in mainstream economics and sociology to critically evaluate contemporary issues.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic | Course Outcomes Met | Assignments/Labs/Tutorials | Additional Resources/Readings |
+|-------------|---------------|---------------------|---------------------------|---------------------------------|
+| 1           | Introduction to Economic Sociology | CO1, CO2            | Reading of Key Text       | N/A                             |
+| 2           | Brief histories of Economics and Sociology | CO1, CO2          | Identifying Arguments in Text | N/A                             |
+| 3           | Formalism and Substantivism in Economic Sociology - Karl Polanyi | CO1, CO2         | Quiz                      | N/A                             |
+| 4           | Economies and Culture | CO2                | Reading of Key Text       | N/A                             |
+| 5           | New Economic Sociology - Embeddedness (Granovetter) | CO1, CO2        | Open-Book Assignment      | N/A                             |
+| 6           | New Traditions of Economic Sociology - Swedberg | CO1, CO2        | Presentations             | N/A                             |
+| 7           | Forms of Exchange: Gifting | CO1, CO2         | Presentations             | N/A                             |
+| 8           | Forms of Exchange: Reciprocity | CO1, CO2         | Presentations             | N/A                             |
+| 9           | Understanding Markets - Social Meanings | CO1, CO2, CO3    | Quiz                      | N/A                             |
+| 10          | Understanding Money - Social Meanings | CO3              | Open-Book Assignment      | N/A                             |
+| 11          | Development in Economic Sociology | CO3              | Reading of Key Text       | N/A                             |
+| 12          | Globalisation in Economic Sociology | CO3              | Quiz                      | N/A                             |
+| 13          | Summing up: Globalisation and after | CO3             | Reading of Key Text       | N/A                             |
+
+---
+
+### Assessment Plan  
+The course assessment is designed to evaluate students' understanding of key concepts, analytical skills, and ability to synthesize course material.  
+
+- **Close reading, presentation, and analysis of key text:** 20% (Evaluates CO1 and CO2)  
+- **Quiz:** 20% (Evaluates CO1 and CO2)  
+- **Assignment:** 10% (Evaluates CO3)  
+- **End-Semester Examination:** 50% (Evaluates CO1, CO2, CO3, CO4)  
+
+---
+
+### Resource Materials  
+**Textbook:**  
+- Durkheim, E. *Division of Labour in Society* (relevant chapters).  
+
+**Reference Books:**  
+- Wilk, Richard R. *Economies and Cultures*. Boulder, Colorado: Westview Press, 1996.  
+- Hann, Chris, and Keith Hart. *Economic Anthropology*. Cambridge, UK: Polity Press, 2011.  
+- Granovetter, M., & Swedberg (eds). *The sociology of Economic life*. Westview: Colorado, 2011.  
+- Mauss, M. *The Gift*. Routledge: London, 1990.
+
+---
+
+### Notes for Instructors  
+This course is recommended to be taught in a lecture-based format with interactive discussions and group activities. Additional resources can be provided based on student feedback.

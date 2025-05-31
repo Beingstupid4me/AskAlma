@@ -1,0 +1,57 @@
+**Course Overview: Introduction to Computational Neuroscience**
+
+This course introduces students to the fundamental concepts of computational neuroscience, focusing on the mathematical modeling of neuronal systems. It is designed for undergraduate and postgraduate students in computational biology or related fields. The course emphasizes the use of dynamical systems theory to understand oscillatory properties of neurons, employing tools like MATLAB for simulations.
+
+**Course Details:**
+
+- **Course Code:** BIO534
+- **Course Name:** Introduction to Computational Neuroscience
+- **Credits:** 4
+
+**Course Offered To:** UG/PG students
+
+**Course Description:** This course provides a foundational understanding of neuronal systems and their mathematical models. It focuses on using dynamical systems theory to analyze oscillatory properties, incorporating MATLAB for simulations. The course is not about neural networks or machine learning but explores how neurons function through nonlinear ODEs and PDEs.
+
+**Prerequisites:**
+- Calculus
+- Linear algebra
+- Ordinary Differential Equations (ODE) and Partial Differential Equations (PDE)
+- Coding proficiency in MATLAB
+
+**Course Outcomes (CO):**
+
+1. **CO1:** Understand neuronal properties like spikes, depolarization, and threshold.
+2. **CO2:** Develop computational models of neurons, including Hodgkin-Huxley and Integrate-and-Fire models.
+3. **CO3:** Analyze phase portraits of neuronal models to understand dynamical properties.
+4. **CO4:** Build PDE models for signal propagation in neuronal systems.
+5. **CO5:** Hypothesize and design new neuronal models for pathological cases.
+
+**Weekly Lecture Plan:**
+
+- **Weeks 1-2:** Introduction to neuronal properties, classification of neurons, simulation projects based on recent papers.
+- **Weeks 3-4:** Geometric and directional field analysis of nonlinear neuron models; introduction to simulations.
+- **Weeks 5-6:** Planar vector fields, equilibria, phase portraits for HH and IF models.
+- **Weeks 7-9:** Linear cable theory, conductance-based PDE models; projects on recent papers.
+- **Weeks 10-11:** Bifurcations analysis in neuronal models; projects on recent papers.
+- **Week 12:** Geometric analysis of bursting neurons; projects on recent papers.
+- **Week 13:** Applications to diabetes and cancer systems; projects on recent papers.
+
+**Assessment Plan:**
+
+- **Quiz-I (Midsem prior):** 15%
+- **Quiz-II (Endsem prior):** 15%
+- **Homework:** 10%
+- **Project:** 20%
+- **Midsem Exam:** 20%
+- **Endsem Exam:** 20%
+
+**Additional Notes:**
+- *Please insert more rows if needed for additional assessments.*
+- MATLAB assignments are included in the weekly plans.
+
+**Learning Resources:**
+
+- **Textbook:** "Dynamical Systems in Neuroscience" by Eugene Izhikevich
+- **Reference Books:** "Nonlinear Dynamics and Chaos" by Steven Strogatz
+
+This structured narrative covers all aspects of the course, ensuring comprehensive understanding through detailed descriptions and assessments.

@@ -1,0 +1,74 @@
+{
+  "Course Code": "ECE539",
+  "Course Name": "Wireless System Implementation",
+  "Credits": 4.0,
+  "Course Offered to": "UG / PG",
+  "Course Description": "This course will help the students to design and implement a basic wireless communication system. Starting with the large scale propagation models, the students will study the modelling of wireless channel as a linear time varying filter, statistical multipath models and wireless Digital Modulation/ Digital Demodulation techniques. The performance of the digital modulation techniques in Rayleigh fading channel, and with different spatial diversity techniques will also be studied. Moreover, the course will also highlight the trade-off associated between single-carrier and multicarrier (e.g. OFDM) modulation techniques. . The course also involves a hardware (NI USRP) / software (using Matlab) project where the students will validate the theoretical concept studied during lectures",
+  "Prerequisites": {
+    "Mandatory": [
+      "ECE240 Principles of Communication Systems"
+    ],
+    "Desirable": [
+      "ECE340 Digital Communication Systems, ECE5xx Principles of Digital Communication",
+      "Matlab"
+    ],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students are able to analyze the behavior of large scale and small scale wireless propagation models",
+    "CO2": "Students are able to analyze the benefits of multicarrier systems over single carrier systems.",
+    "CO3": "Students are able to implement a basic wireless communication system using software such as Matlab, GNU Radio or LabVIEW",
+    "CO4": "Students are able to implement a basic wireless communication system using software such as Matlab, GNU Radio or LabVIEW"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1234",
+      "Lecture Topic": "Review of digital modulation techniques Digital Modulations BPSK, DPSK, QPSK, FSK, QAM Matched Filtering Packet based wireless systems Synchronization Wireless Channel Models Small & Large Scale Fading What causes fading? Large scale fading Types of small-scale fading Multipath impulse response model Parameters characterizing fading channel",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Matlab / Simulink Experiments \u2022 Transmitter Random Number generators BPSK/QPSK Modulator Transmit Pulse shaping Filters \u2022 Generation of AWGN Channel with Frequency Offset and variable time delay \u2022 Receiver Receive Pulse Shaping Filter Coarse and Fine Frequency Compensation Timing Recovery BPSK /QPSK Demodulation \u2022 Packet Based Wireless systems Frame Synchronization using Header/Marker3. Simulating a fading channel in Matlab/Simulink \u2022 Generating Rayleigh multipath fading channel"
+    },
+    {
+      "Week": "56789",
+      "Lecture Topic": "Error Performance of Digital Communications in Noise \u2022 Bit error rate \u2022 Performance comparison between various modulation schemes in AWGN and Fading channel. Diversity Techniques \u2022 Concept of diversity \u2022 Types of diversity combining techniques",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Matlab / Simulink Experiments \u2022 BER Calculator \u2022 Monte Carlo Simulations \u2022 Plotting and displaying BER curves"
+    },
+    {
+      "Week": "10.11",
+      "Lecture Topic": "Introduction to software defined radio \u2022 Evolution of Radio Hardware \u2022 Hardware Subsystem and Software Subsystem \u2022 USRP",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "USRP2 Hardware Experimentation \u2022 Implementing BPSK/QPSK Transmitter \u2022 Plotting/ Displaying BER for AWGN, LOS and NLOS links"
+    },
+    {
+      "Week": "12.13",
+      "Lecture Topic": "Multicarrier Transmission Techniques \u2022 Orthogonal Frequency division Multiplexing (OFDM) \u2022 OFDM with Cyclic Prefix Instructor chosen topic Project Presentations",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "\u2022 Demonstration using OFDM \u2022 USRP2 Hardware Experimentation \u2022 Implementing OFDM transmitter and receiver"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "30%",
+    "Midsem": "20%",
+    "HW assignments": "30%",
+    "Endsem": "20%"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Wireless Communication by Andrea Goldsmith",
+      "Fundamentals of Wireless Communication by David Tse and Pramod Viswanath"
+    ],
+    "Reference Book": [
+      "From IEEE, Open source etc."
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+Course Overview  
+The SSH362/SSH562 course is designed to explore the intersection of urban governance, space, and political power. This comprehensive course equips students with the ability to critically analyze how these elements shape governance practices in urban settings, with a special focus on Delhi as a case study.
+
+Prerequisites  
+Students enrolling in this course must have completed SOC101 Introduction to Sociology and Anthropology. No additional prerequisites are required beyond this foundational knowledge.
+
+Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Evaluate urban governance practices by understanding their underlying principles.  
+- **CO2:** Explain the concept of 'urban space' and its significance in governance.  
+- **CO3:** Analyze how political power influences the spatial dimensions of governance.  
+- **CO4:** Understand the dynamic relationship between space and political power.  
+- **CO5:** Assess the role of digital technology in mediating both space and political power.
+
+Course Structure  
+The course is divided into 13 weeks, each focusing on specific topics that align with the learning outcomes:  
+
+1. Introduction to Urban Governance and Politics  
+2. What is Political Power? Power and Authority  
+3. Geographies of Power and Resistance  
+4. The Distinctiveness of Urban Space  
+5. Understanding Urban Governance  
+6. Planning and Governing the Urban Space: The Case of Delhi  
+7. How Urban Governance Actually Works? Everyday Politics in Delhi  
+8. Urban Space and the Digital Re-Configuration  
+9. Political Power in the Digital Age: E-Governance  
+10. Political Power and the Digital: Smart Cities  
+11. Urban Spaces and the Forms of Political Contestations  
+12. Space, Political Power and Urban Governance: A Reassessment  
+13. Revisions  
+
+Assignments are integrated into weeks 1 through 8, covering theoretical discussions and case studies.
+
+Assessment Plan  
+The course assessment is structured as follows:  
+- **Projects (30%)**: Encourage in-depth analysis of urban governance issues.  
+- **Presentations (20%)**: Enhance communication skills through student presentations.  
+- **Mid Semester Exam (25%)**: Evaluate understanding of the first half of the course content.  
+- **Final Exam (25%)**: Comprehensive assessment covering the entire syllabus.
+
+Learning Resources  
+The primary textbook is "Urban Politics and Policy: Delhi" by Garth Myers. Additional readings are available for SSH562, including works by Roger Deacon, Colin McFarlane, Julie MacLeavy, John Harrison, Garth Myers, Amita Baviskar, Asher Ghertner, and Gautam Bhan.
+
+Conclusion  
+This course provides a comprehensive exploration of urban governance through the lens of space and political power. By integrating theoretical knowledge with practical case studies, students will gain a deep understanding of these critical concepts in urban settings.

@@ -1,0 +1,97 @@
+{
+  "Course Code": [
+    "CSE564"
+  ],
+  "Course Name": [
+    "Reinforcement Learning"
+  ],
+  "Credits": [
+    "4",
+    "4"
+  ],
+  "Course Offered to": [
+    "UG/PG"
+  ],
+  "Course Description": "The course will introduce reinforcement learning. We will consider exact versions of value and policy iteration, followed by approximations based on gradient methods, temporal difference based methods, and last but not least, simulation based methods like Q-learning.",
+  "Prerequisites": {
+    "Mandatory": [
+      "MTH201 Probability & Statistics"
+    ],
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to implement and analyze exact dynamic programming (value and policy iteration) algorithms",
+    "CO2": "Students will be able to describe and implement approximations in value and policy space",
+    "CO3": "Students will be able to describe and implement approximations in value and policy space",
+    "CO4": "Students will be able to execute projects using commonly available RL libraries"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Mathematical review",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment"
+    },
+    {
+      "Week": "234",
+      "Lecture Topic": "The problem of sequential decision making under uncertainty, Bellman's optimality condition and the dynamic programming methods",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Back of the book problems and psuedo code"
+    },
+    {
+      "Week": "456",
+      "Lecture Topic": "Monte Carlo Methods, Temporal Difference Learning, and n-Step Bootstrapping",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Back of the book problems and psuedo code"
+    },
+    {
+      "Week": "78910",
+      "Lecture Topic": "On Policy Prediction and Control with approximation",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Coding assignment and problems"
+    },
+    {
+      "Week": "1011",
+      "Lecture Topic": "Policy Gradient",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Coding assignment and problems"
+    },
+    {
+      "Week": "111213",
+      "Lecture Topic": "Deep reinforcement learning",
+      "COs Met": [
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Paper readings and as part of course project"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "25",
+    "Midsem": "25",
+    "HW assignments": "25",
+    "Endsem": "25"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Reinforcement Learning: An introduction by Sutton and Barto"
+    ]
+  }
+}

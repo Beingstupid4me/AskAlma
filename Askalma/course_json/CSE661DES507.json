@@ -1,0 +1,159 @@
+{
+  "Course Code": "CSE661/ DES507",
+  "Course Name": "Affective Computing",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Prerequisites": {
+    "Mandatory": [
+      "CSE101 : Introduction to Programming",
+      "CSE343/CSE543 : Machine Learning",
+      "CSE643 : Artificial Intelligence"
+    ],
+    "Desirable": [
+      "CSE102 : Data Structures and Algorithms",
+      "CSE201 : Advanced Programming",
+      "DES204: Human-Computer Interaction"
+    ],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to demonstrate the basic understandings of the state of the art concepts from computer science, design and psychology in relation to the Affective Computing.",
+    "CO2": "Students (individually and in groups) will be able to implement, compare and evaluate the effectiveness of different state of the art affect analysis methods.",
+    "CO3": "Students (individually and in groups) will be able to design their own method (data collection, design, development and evaluation) for affect analysis in at-least one of the fields of Affective Computing.",
+    "CO4": "Students will be able to predict the possible consequences of affective computing. Students will also be able to offer their own set of Ethical Legal and Social rules for the development of the affect recognition."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": 1,
+      "Lecture Topic": "Fundamentals of Affective Computing",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 2,
+      "Lecture Topic": "Emotion Theory",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": 3,
+      "Lecture Topic": "Emotion and Social Interaction",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 4,
+      "Lecture Topic": "Experimental Design",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": 5,
+      "Lecture Topic": "Emotions in Text",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Programming Assignment 1, CBT Project,"
+    },
+    {
+      "Week": 6,
+      "Lecture Topic": "Emotions in Voice/Facial Expressions",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Programming Assignment 2"
+    },
+    {
+      "Week": 7,
+      "Lecture Topic": "Emotions in Physiological Signals",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Quiz 2, Programming Assignment 3"
+    },
+    {
+      "Week": 8,
+      "Lecture Topic": "Multimodal Recognition",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 9,
+      "Lecture Topic": "Emotional Empathy in Machines/Robots/Agents",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 10,
+      "Lecture Topic": "Online recognition of emotions: Challenges and Opportunities",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Quiz 3"
+    },
+    {
+      "Week": 11,
+      "Lecture Topic": "Case Study",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": 12,
+      "Lecture Topic": "Ethical, legal and Social Implications of Affective Computing",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": 13,
+      "Lecture Topic": "Project Presentations",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Research Paper Discussion": 5,
+    "Class Participation": 5,
+    "Assignments (including Programming)": 10,
+    "Quiz": 10,
+    "Mid Sem Exam": 15,
+    "Project": 35,
+    "End Sem Exam": 20
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Affective Computing. MIT Press",
+      "The Oxford Handbook of Affective Computing. Oxford University Press"
+    ],
+    "Reference Book": [
+      "The Encyclopedia of Human-Computer Interaction, 2nd Ed.",
+      "Recent references will be provided regularly during the class."
+    ]
+  }
+}

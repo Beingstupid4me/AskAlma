@@ -1,0 +1,59 @@
+**Course Overview**  
+The course titled "Discrete Mathematics" (Course Code: CSE121) is a 4-credit structured program offered to undergraduate students. It serves as a foundational course for computer science, focusing on discrete structures that are essential in modern computation and cryptography.
+
+---
+
+**Prerequisites**  
+Students must have a solid understanding of elementary mathematics, including algebra, calculus, and basic programming concepts. Additionally, completion of Discrete Structures (MTH210) is recommended to ensure readiness for the course content.
+
+---
+
+**Learning Outcomes (COs)**  
+By the end of this course, students will be able to:  
+- **CO1:** Understand and apply basic mathematical notations in discrete mathematics.  
+- **CO2:** Identify and construct examples of mathematical objects such as sets, functions, relations, and graphs.  
+- **CO3:** Develop mathematical models using discrete structures to solve real-world problems.  
+- **CO4:** Apply problem-solving techniques and critical thinking skills to analyze complex scenarios.
+
+---
+
+**Weekly Lecture Plan**  
+The course is structured over 15 weeks, with each week focusing on specific topics aligned with the learning outcomes:  
+
+| Week | Topic                     | COs Met | Assignments/Labs/Tutorials |
+|------|----------------------------|----------|---------------------------|
+| 1    | Introduction to Logic       | CO1      | Tutorial-01               |
+| 2    | Rules of Inferences        | CO1, CO2 | Tutorial-02               |
+| 3    | Proof Methods and Godel's Theorem | CO1, CO3 | Assignment-01 / Homework-01 |
+| 4    | Recursive Functions         | CO3, CO4 | Tutorial-04               |
+| 5    | Introduction to Turing Machines | CO1, CO3 | Tutorial-05               |
+| 6    | Chinese Remainder Theorem   | CO2, CO3, CO4 | Assignment-02 / Homework-02 |
+| 7    | Basics of Counting          | CO1, CO2, CO3, CO4 | Tutorial-07               |
+| 8    | Permutation and Combinations | CO2, CO3, CO4 | Assignment-03 / Homework-03 |
+| 9    | Recurrence Relations        | CO3, CO4 | Tutorial-09               |
+| 10   | Relations and Partial Orderings | CO2, CO3, CO4 | Tutorial-10               |
+| 11   | Graphs and Shortest Path     | CO1, CO2, CO3, CO4 | Assignment-04 / Homework-04 |
+| 12   | More on Graph Theoretical Objects | CO3, CO4 | Tutorial-12               |
+| 13   | Trees and Traversal Techniques | CO2, CO4 | Tutorial-13               |
+| 14   | Minimum Spanning Trees      | CO2, CO4 | Assignment-05             |
+| 15   | Advanced Topics in Graph Theory | CO2, CO4 | Tutorial-14               |
+
+---
+
+**Assessment Strategy**  
+The course employs a comprehensive assessment strategy:  
+- **Homework:** Contributes to the final grade and reinforces learning.  
+- **Quiz:** Regular assessments to evaluate understanding of key concepts.  
+- **Mid-sem:** A mid-semester examination covering the first half of the syllabus.  
+- **End-sem:** A cumulative end-semester examination contributing significantly to the final grade.  
+
+The remaining 5% is allocated for participation in class discussions or group projects.
+
+---
+
+**Resource Materials**  
+Students are provided with:  
+1. **Textbook:** Kenneth H. Rosen, *Discrete Mathematics and Its Applications*, 7th Edition, McGraw-Hill Education.  
+2. **Reference Book:** Kolman, Busby, Ross, *Discrete Mathematical Structures*, PHI Learning Pvt. Ltd.
+
+These resources are essential for understanding the course content and completing assignments successfully.

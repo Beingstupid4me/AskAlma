@@ -1,0 +1,67 @@
+### Course Overview  
+**Course Code:** CSE562  
+**Course Name:** Advanced Computer Vision  
+**Credits:** 4  
+**Offered To:** UG/PG  
+**Course Description:** This course is designed to provide an in-depth understanding of advanced topics in computer vision. It covers essential concepts, techniques, and algorithms used in the field, with a focus on scalability issues and their practical applications in interdisciplinary domains such as robotics, healthcare, and forensics. Students will learn how to analyze complex visual data, develop robust solutions, and apply these skills to real-world problems. The course also emphasizes critical thinking and research-oriented learning, preparing students for advanced research or professional work in computer vision and related fields.
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisites:** CSE344/CSE544/ECE344/ECE544  
+**Desirable Prerequisites:** None specified.  
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Understand the formulation and modeling of advanced computer vision problems.  
+- **CO2:** Analyze scalability issues and implement solutions for large-scale datasets in computer vision.  
+- **CO3:** Develop skills to analyze computer vision problems across various application domains (e.g., robotics, healthcare, forensics).  
+- **CO4:** Understand the strengths and weaknesses of current approaches to research problems and identify future research directions.  
+
+---
+
+### Weekly Lecture Plan  
+The course is structured into 13 weekly lectures, each focusing on specific topics that align with the learning outcomes:  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met (COs) |
+|-------------|-----------------------------------|---------------------------|
+| 1           | Introduction to Computer Vision    | CO2                      |
+| 2           | Advanced Techniques in Computer Vision | CO2, CO3                 |
+| 3           | Structured Prediction              | CO3                      |
+| 4           | Generative Models                  | CO3, CO4                 |
+| 5           | pose Estimation                    | CO1, CO4                 |
+| 6           | Action Recognition                 | CO1, CO4                 |
+| 7           | Learning from Videos             | CO1, CO4                 |
+| 8           | Visual Data Mining                | CO1, CO4                 |
+| 9           | Fine-Grained Classification       | CO1                      |
+| 10          | Image Forensics                  | CO1                      |
+| 11          | Vision and Language               | CO1, CO2                 |
+| 12          | Vision and Speech                | CO1, CO2                 |
+| 13          | Vision and Robotics              | CO1, CO2                 |
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical knowledge and practical skills. The breakdown is as follows:  
+
+| Type of Evaluation       | % Contribution in Grade |
+|---------------------------|-------------------------|
+| Assignments                | 40%                    |
+| Paper Presentation         | 10%                    |
+| Project                   | 30%                    |
+| Mid-Semester Examination  | 10%                    |
+| End-Semester Examination  | 10%                    |
+
+The end-semester examination carries a significant weightage, reflecting its importance in evaluating students' overall understanding of the course material.
+
+---
+
+### Learning Resources  
+**Textbook:** Material will be mostly taken from the internet.  
+**Additional Resources:** None specified at this time.  
+
+--- 
+
+*Please insert more rows if needed for additional types of evaluations.*

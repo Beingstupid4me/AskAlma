@@ -1,0 +1,70 @@
+### Course Overview  
+**Course Code:** CSE566/DES5MMS  
+**Course Name:** Mobile & Middleware Systems  
+**Credits:** 4  
+**Offered To:** Undergraduate (UG) and Postgraduate (PG) students  
+
+This course is designed to provide students with a comprehensive understanding of middleware systems and their applications in various domains, including crowdsensing, public health, education, and more. The primary objective is to equip students with the knowledge and skills to design, build, and optimize mobile and middleware systems for handling unstructured data collected by mobile devices. Students will also gain insights into critical areas such as data privacy, data processing, analysis, and visualization.
+
+---
+
+### Prerequisites  
+- **Mandatory:** Any 3rd, 4th year UG, Masters, or Ph.D. students.  
+- **CSE535 Mobile Computing:** Students must have excellent programming skills with Kotlin/Java, GoLang/C#, Node/Rust, and proficiency in using GitHub and other relevant tools.
+
+Additional prerequisites may be specified if needed based on the complexity of the course content.
+
+---
+
+### Course Outcomes (COs)  
+The course aims to enable students to achieve the following outcomes:  
+
+1. **CO1:** Students will develop a deep understanding of middleware systems and their applications in real-world scenarios.  
+2. **CO2:** Students will be able to design and implement RESTful web services for mobile-based data collection and management.  
+3. **CO3:** Students will be able to design and construct mobile database applications for unstructured data, ensuring efficient data handling and retrieval.  
+4. **CO4:** Students will develop the ability to critically analyze contemporary research in middleware systems, critique existing designs, and propose alternative solutions or improvements.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met      | Assignments/Labs/Tutorials | Platform (Hardware/Software) |
+|-------------|----------------------------------|--------------|---------------------------|------------------------------|
+| 1           | Introduction to Middleware Systems and technologies          | CO1, CO4     | HW 1: Survey paper reading on contemporary middleware systems    | Online resources, laptops      |
+| 2           | Middleware Systems in Practice (e.g., ODK, Amazon)         | CO1, CO3, CO4| HW 1: Reading material on RESTful Architecture                  | Online resources, laptops      |
+| 3           | Restful Architecture              | CO2          | HW 1: Reading material on Restful Architecture                  | Online resources, laptops      |
+| 4           | REST web services                | CO2          | Lab 1: Building a basic web-based system with REST services     | Laptops                       |
+| 5           | REST web services (continued)    | CO2          | Lab 2: Enhancing the basic web-based system                    | Laptops                       |
+| 6           | NoSQL Databases - Document-based and Graph-based            | CO3          | HW 2: Reading material on NoSQL Databases                      | Online resources, laptops      |
+| 7           | NoSQL Databases (continued)       | CO3          | Lab 3: Enhancing Assignment 1 with data now stored in Document-based DB | Laptops                       |
+| 8           | NoSQL Databases (continued)       | CO3          | Lab 4: Enhancing Assignment 1 with data now stored in Graph-based DB | Laptops                       |
+| 9           | Mobile-based Data collection - Lightweight mobile databases | CO2, CO3     | HW 3: Reading Material on Mobile-Based Data Collection tools   | Online resources, laptops      |
+| 10          | Mobile-based Data Management - Caching methods, query handling | CO2, CO3    | Lab 5: Enhancing Assignment 2 with caching and query handling    | Laptops                       |
+| 11          | Mobile-based Data Management (continued)                     | CO2, CO3    | Lab 6: Enhancing Assignment 3 with caching and query handling    | Laptops                       |
+| 12          | Middleware Systems in Research, Project presentation         | CO1, CO4     | Lab 7: Final project presentation                                | Laptops                       |
+| 13          | Middleware Systems in Research, Project presentation         | CO1, CO4     | Lab 8: Final project presentation                                | Laptops                       |
+
+---
+
+### Assessment Plan  
+
+| Type of Evaluation               | % Contribution in Grade | Description                                                                                   |
+|------------------------------------|-------------------------|---------------------------------------------------------------------------------------------|
+| Mid-Sem Exam                      | 10                    | A comprehensive exam covering all topics discussed during the mid-semester.                 |
+| Assignments                        | 30                    | Various assignments, including reading materials and practical tasks.                     |
+| Homework Quizzes                   | 25                    | Regular quizzes to assess understanding of key concepts.                                  |
+| Project                             | 25                    | A final project involving the design and implementation of a mobile or middleware system.   |
+| End-Sem Exam                      | 10                    | A cumulative exam covering all topics discussed during the semester.                      |
+
+---
+
+### Resource Materials  
+
+- **Textbook:**  
+  "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage, RESTful Web Services, and Real-Time Applications" by Paul Crickard, Josh Seiden, and Jim/topics/  
+- **Reference Book:**  
+  "Practical Middleware Development with Node.js" by Ajay R. Deshpande  
+
+---
+
+This course provides a comprehensive understanding of middleware systems and their practical applications. Through hands-on assignments and projects, students will gain valuable skills in designing and implementing mobile and middleware systems for real-world scenarios. The assessment plan ensures that students are evaluated based on their mastery of both theoretical concepts and practical implementation.

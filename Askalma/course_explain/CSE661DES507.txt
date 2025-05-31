@@ -1,0 +1,70 @@
+### Course Overview  
+**Course Code:** CSE661/DES507  
+**Department:** Computer Science and Engineering  
+**Course Name:** Affective Computing  
+**Credits:** 4  
+**Offered To:** UG/PG  
+**Course Description:** This course focuses on enabling machines with emotion recognition and adaptive interaction, bridging the intersection of Computer Science, design, and Human Psychology. It covers the theoretical foundations, computational modeling, and practical applications of emotions in computing, including voice, facial expressions, physiological signals, machine learning, and signal processing techniques. Ethical, legal, and social implications are also explored in relation to Human-Machine Interaction.
+
+---
+
+### Prerequisites  
+- **Mandatory:** CSE101: Introduction to Programming, CSE102: Data Structures and Algorithms, CSE201: Advanced Programming, DES519: Design of Interactive Systems.  
+- **Desirable:** CSE343/CSE543: Machine Learning, CSE643: Artificial Intelligence, DES204: Human-Computer Interaction.  
+- **Other:** None specified.
+
+---
+
+### Course Outcomes (COs)  
+1. **CO1:** Students will demonstrate an understanding of the state-of-the-art concepts in Computer Science, design, and psychology related to Affective Computing.  
+2. **CO2:** Students will implement, compare, and evaluate different affect analysis methods individually or in groups.  
+3. **CO3:** Students will design a method for affect analysis (including data collection, design, development, and evaluation) in at least one field of Affective Computing.  
+4. **CO4:** Students will predict the potential consequences of Affective Computing and propose ethical, legal, and social guidelines for its development.  
+
+---
+
+### Weekly Lecture Plan  
+| Week Number | Lecture Topic                     | COs Met   | Assignments/Labs/Tutorials                                                                 |
+|-------------|-----------------------------------|------------|------------------------------------------------------------------------------------------|
+| 1           | Fundamentals of Affective Computing | CO1        | Assignment 1: Introduction to Affective Computing Case Study                          |
+| 2           | Emotion Theory                      | CO1        | Assignment 2: Basic Emotion Detection Exercise                                       |
+| 3           | Emotion and Social Interaction     | CO1        | Assignment 3: Group Project on Emotion Analysis in Social Settings                    |
+| 4           | Experimental Design                 | CO3        | Quiz 1: Experimental Design Principles                                               |
+| 5           | Emotions in Text                  | CO1, CO2, CO3 | Programming Assignment 1: Emotion Recognition in Textual Data                        |
+| 6           | Emotions in Voice/Facial Expressions | CO1, CO2, CO3 | Programming Assignment 2: Facial Expression Analysis                                  |
+| 7           | Emotions in Physiological Signals   | CO1, CO2, CO3 | Quiz 2: Signal Processing Techniques for Emotion Detection                           |
+| 8           | Multimodal Recognition            | CO2        | Programming Assignment 3: Multimodal Emotion Recognition System                     |
+| 9           | Emotional Empathy in Machines/Robots/Agents | CO2       | Case Study: Emotional Empathy in Autonomous Systems                                  |
+| 10          | Online Recognition of Emotions    | CO3        | Quiz 3: Challenges and Opportunities in Real-Time Emotion Detection                  |
+| 11          | Case Study                         | CO1, CO2, CO3 | Assignment 4: Comprehensive Affective Computing Project                              |
+| 12          | Ethical, Legal, and Social Implications of Affective Computing | CO4       | Group Project: Ethical Considerations in Affective Computing Systems                 |
+| 13          | Project Presentations              | CO2, CO3    | *Please insert more rows if required*                                                  |
+
+---
+
+### Assessment Plan  
+| Type of Evaluation        | % Contribution in Grade   |
+|----------------------------|--------------------------|
+| Research Paper Discussion    | 5%                       |
+| Class Participation         | 5%                       |
+| Assignments (including Programming) | 10%                    |
+| Quiz                         | 10%                      |
+| Mid Sem Exam                | 15%                      |
+| Project                      | 35%                      |
+| End Sem Exam                | 20%                      |
+
+---
+
+### Resource Material  
+| Type          | Title                                                                                   |
+|---------------|----------------------------------------------------------------------------------------|
+| Textbook       | Affective Computing. MIT Press                                                    |
+| Textbook       | The Oxford Handbook of Affective Computing. Oxford University Press                  |
+| References      | The Encyclopedia of Human-Computer Interaction, 2nd Ed.                          |
+| References      | Recent references will be provided regularly during the class.                     |
+| Multimodal Databases | SEMAINE, AM-FED, DISFA, MAHNOB-HCI, DEAP, MuDERI etc.                            |
+| Softwares/Libraries | OpenEAR, OpenSMILE, Affectiva, Psychopy etc.                                      |
+
+---
+
+This course is designed to provide a comprehensive understanding of Affective Computing, combining theoretical knowledge with practical applications and ethical considerations. Students will gain hands-on experience through assignments, quizzes, and projects while preparing for the Mid Sem Exam and End Sem Exam.

@@ -1,0 +1,83 @@
+**Course Overview**  
+The course titled "Digital Social Research" (SOC307) is a 4-credit module designed for undergraduate students. This course provides an in-depth exploration of digital social research methods and their applications. Students will learn about the theoretical underpinnings, practical methodologies, and ethical considerations associated with conducting research using digital data. The course aims to equip learners with the skills necessary to formulate research questions, design studies, collect and analyze data, and interpret results effectively.
+
+**Prerequisites**  
+- **Mandatory**: Introduction to Social Research  
+- **Desirable**: Basic Computer Proficiency  
+- **Other**: None specified  
+
+**Learning Outcomes (Course Outcomes)**  
+1. **CO1**: Students will be able to distinguish method and design, and apply research techniques specific to digital data collection and analysis.  
+2. **CO2**: The students will be able to assess the significance of digital data for social research vis-à-vis conventional social research.  
+3. **CO3**: The students will learn about the ethical issues related to digital social research and how to address them.  
+4. **CO4**: The course will enable the students to develop research proposals that make appropriate use of the learnt methods.
+
+**Weekly Lecture Plan**  
+- **Week 1**: Introduction to Digital Social Research  
+  - COs Met: CO1  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 2**: Why Digital Social Research: Moving from Cyber to Digital?  
+  - COs Met: CO1, CO3  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 3**: Doing Sociology with Digital Data  
+  - COs Met: CO1, CO2  
+  - Assignment/Labs/Tutorial: Assignment 1  
+
+- **Week 4**: Theoretical Overview of Digital Social Research  
+  - COs Met: CO1, CO2  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 5**: Methodological Devices: Making Digital Social  
+  - COs Met: CO1, CO2, CO3  
+  - Assignment/Labs/Tutorial: Quiz 1  
+
+- **Week 6**: Formulating Research Questions  
+  - COs Met: CO2, CO4  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 7**: Designing and Administering Online Research  
+  - COs Met: CO2, CO3, CO4  
+  - Assignment/Labs/Tutorial: Assignment 2  
+
+- **Week 8**: Collecting and Interpreting Digital Data  
+  - COs Met: CO1, CO2  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 9**: Virtual Ethnography  
+  - COs Met: CO2, CO3  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 10**: Ethical Implications of Digital Social Research  
+  - COs Met: CO4  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 11**: Limitations of Digital Data Analysis  
+  - COs Met: CO4  
+  - Assignment/Labs/Tutorial: None  
+
+- **Week 12**: Student Presentations and Digital Journal Review  
+  - COs Met: CO1, CO2, CO3, CO4  
+  - Assignment/Labs/Tutorial: Assignment 3  
+
+- **Week 13**: Summing up and Review  
+  - COs Met: All COs  
+  - Assignment/Labs/Tutorial: None  
+
+**Assessment Plan**  
+The course assessment is structured as follows:  
+- **Quizzes**: 20% (Contribution to Grade)  
+- **Class Participation (Attendance)**: 10% (Contribution to Grade)  
+- **Assignments**: 30% (Contribution to Grade)  
+- **Mid Semester Exam**: 20% (Contribution to Grade)  
+- **End Semester Exam**: 20% (Contribution to Grade)  
+
+**Resource Materials**  
+1. **Books**:  
+   - Fielding, Nigel G., Ramond M Lee, and Grant Blank. (2nd ed.). The Sage Handbook of Online Research Methods. Sage.  
+   - Marres, Noortje. (2017). Digital Sociology: The Reinvention of Social Research. Polity Press.  
+   - Bryman, Alan. (2012). (4th ed.). Social Research Methods. OUP.  
+   - Lupton, Deborah. (2015). Digital Sociology. Routledge  
+
+2. **Other Appropriate Resources**: Other resources will be assigned by the instructor as needed.

@@ -1,0 +1,69 @@
+### Course Overview  
+This course CSE529, titled "Approximation Algorithm" is an advanced exploration into the design and analysis of approximation algorithms, focusing on NP-hard problems commonly encountered in fields such as communication, transportation, and resource allocation. It is designed for both undergraduate and postgraduate students, providing them with a robust foundation in algorithmic techniques and their applications.
+
+---
+
+### Prerequisites  
+Students enrolling in this course are expected to have completed **CSE222 ADA** (Data Structures and Algorithms) and **Grad Algorithms** (Advanced Algorithms). While **CSE222 ADA** provides essential background in algorithm design, **Grad Algorithms** is particularly crucial as it introduces students to advanced algorithmic concepts that will be built upon in this course. Notably, there are placeholders indicating missing or unspecified prerequisite details.
+
+---
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+- **CO1:** Design and analyze approximation algorithms for NP-hard problems.  
+- **CO2:** Apply mathematical tools to evaluate the worst-case performance of these algorithms.  
+- **CO3:** Analyze and prove the limitations of approximability for various optimization problems.  
+- **CO4:** Understand advanced techniques such as primal-dual methods, iterative rounding, and semidefinite programming in the context of approximation algorithms.
+
+---
+
+### Weekly Syllabus and Topics  
+
+| Week Number | Lecture Topic                     | COs Met        | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|-----------------|----------------------------|
+| 1           | Introduction to MST Heuristics for TSP | CO1             | Lab Exercise                 |
+| 2           | Christofides' Algorithm, Makespan Greedy | CO1, CO2       | Lab Exercise                 |
+| 3           | Set Cover: Greedy Algorithm        | CO1, CO2       | Lab Exercise                 |
+| 4           | Local Search: Max Leaf Spanning Tree | CO1, CO2       | Lab Exercise                 |
+| 5           | Local Search: k-median            | CO1, CO2       | Lab Exercise                 |
+| 6           | Local Search: Facility Location    | CO1, CO2       | Lab Exercise                 |
+| 7           | LP Introduction, Simple Rounding (Vertex Cover) | CO1, CO2      | Lab Exercise                 |
+| 8           | Cut LPs, Prize Collecting Steiner Tree (Rounding) | CO1, CO2     | Lab Exercise                 |
+| 9           | Shmoys-Tardos Rounding for Makespan Weighted Sum of Completion Time Introduction to Primal Dual, Vertex Cover | CO1, CO2      | Lab Exercise                 |
+| 10          | Shmoys-Tardos Rounding for Makespan Weighted Sum of Completion Time Introduction to Primal Dual, Vertex Cover | CO1, CO2      | Lab Exercise                 |
+| 11          | Shmoys-Tardos Rounding for Makespan Weighted Sum of Completion Time Introduction to Primal Dual, Vertex Cover | CO1, CO2      | Lab Exercise                 |
+| 12          | Goemans' Williamson Algorithm (Steiner Forest) | CO1, CO2       | Lab Exercise                 |
+| 13          | More Primal-Dual: Multicut in Trees etc. | CO1, CO2       | Lab Exercise                 |
+| 14          | Iterative Rounding: Simple Examples    | CO1, CO2       | Lab Exercise                 |
+| 15          | Iterative Rounding: Steiner Network    | CO1, CO2       | Lab Exercise                 |
+| 16          | Introduction to PTAS, Bin Packing, Makespan on Identical Machines | CO1, CO2      | Lab Exercise                 |
+| 17          | PTAS, FPTAS                   | CO1, CO2       | Lab Exercise                 |
+| 18          | Randomized Algorithms: Set Cover, Max SAT    | CO1, CO2       | Lab Exercise                 |
+| 19          | Randomized Algorithms: Rent-or-Buy Steiner Trees | CO1, CO2      | Lab Exercise                 |
+| 20          | Randomized Rounding: Max-Sat, Independent Set | CO1, CO2      | Lab Exercise                 |
+| 21          | Randomized Rounding: Chernoff Bounds and Applications | CO1, CO2     | Lab Exercise                 |
+| 22          | Randomized Rounding: Group Steiner Trees    | CO1, CO2       | Lab Exercise                 |
+| 23          | Semidefinite Programming           | CO1, CO2       | Lab Exercise                 |
+| 24          | SDP Rounding: Max-Cut               | CO1, CO2       | Lab Exercise                 |
+| 25          | Hardness of Approximation: Gap-Preserving Reduction   | CO1, CO3       | Lab Exercise                 |
+| 26          | Hardness of Approximation: Unrelated Machines Scheduling | CO1, CO3      | Lab Exercise                 |
+
+---
+
+### Assessment Strategy  
+The course is assessed through a combination of evaluations designed to measure both theoretical understanding and practical application. The breakdown is as follows:  
+- **Mid-Semester Examination (30%)**: Covers foundational concepts and algorithms introduced in the first half of the course.  
+- **Assignments (10%)**: Includes problem sets that reinforce lecture topics and encourage independent exploration of approximation techniques.  
+- **Quizzes (20%)**: Regular assessments to evaluate understanding of key concepts and recent material.  
+- **End-Semester Examination (40%)**: Comprehensive evaluation of all course content, emphasizing the ability to apply learned algorithms to complex problems.
+
+Additional evaluations may be included at the discretion of the instructor if necessary.
+
+---
+
+### Learning Resources  
+Students are encouraged to utilize the following resources:  
+- **Textbook**: *The Design of Approximation Algorithms* by David P. Williamson and David B. Shmoys, which provides a comprehensive introduction to the field.  
+- **Reference Book**: Additional readings will be provided as needed to supplement the course material.  
+
+This course is designed to provide a thorough understanding of approximation algorithms, equipping students with the tools and knowledge necessary to tackle real-world optimization challenges effectively.

@@ -1,0 +1,78 @@
+**Course Overview**
+
+This course CSE576, titled "Smart Sensing for Internet of Things (IoT)" is designed to provide a comprehensive introduction to Smart Sensing for Internet of Things (IoT) technologies. The primary objective is to equip students with a deep understanding of IoT sensing systems, their protocols, and technologies, while also emphasizing the practical aspects of deploying these systems in real-world scenarios. Students will engage in hands-on projects that involve designing, building, and demonstrating IoT solutions, covering various deployment conditions, energy efficiency, routing, data gathering, and software implementation.
+
+**Prerequisites**
+
+- **Mandatory Prerequisites:** None specified.
+- **Desirable Prerequisites:** Basic understanding of computer networking and sensor technologies is recommended but not required. Students are expected to learn hardware programming and simulations on their own as part of the course requirements.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Understand the fundamental concepts of IoT sensing systems and their applications in real-world scenarios.
+2. **CO2:** Design and implement IoT devices using appropriate protocols and technologies.
+3. **CO3:** Analyze and evaluate the performance of IoT networks under various deployment conditions.
+4. **CO4:** Apply energy-efficient techniques for data transmission and management in IoT environments.
+5. **CO5:** Develop software solutions for IoT applications, focusing on embedded systems and real-time processing.
+6. **CO6:** Conduct research-oriented projects involving IoT technologies and present their findings effectively.
+
+**Weekly Syllabus and Topics**
+
+- **Week 1 - 2:**
+  - Introduction to IoT
+  - RF and Wireless Technology Overview
+  - Communication channels and techniques
+  - Wireless technology overview and standards
+  - WiFi and cellular: next generation and IoT
+
+- **Week 3 - 4:**
+  - Sensors and Sensing Systems
+  - Estimation Theory
+  - Low Power Sensors and Sensing
+
+- **Week 5 - 6:**
+  - Hardware Platforms & SW Architecture
+  - SW and HW: platforms and development
+  - Device architecture
+  - Embedded software development
+
+- **Week 7 - 8:**
+  - Introduction to Contiki OS
+  - Time Synchronization
+  - Localization and Mobility
+
+- **Week 9:**
+  - Low Power Networking Protocols
+  - 6LowPAN
+
+- **Week 10 - 11:**
+  - Security and Privacy
+  - Cloud computing and data analytics
+  - Energy harvesting
+
+- **Week 12:**
+  - Recent research results in IoT
+  - Challenges: business models, monetization, hype
+
+- **Week 13:**
+  - Projects in Infrastructure, Homes, Healthcare
+  - Project presentations
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical knowledge and practical skills. The breakdown is as follows:
+
+- **Assignments:** 15% (Weekly assignments will be provided based on the topics covered each week)
+- **Critique of Papers:** 25% (Students are required to critique several research papers related to IoT throughout the course)
+- **Midterm Examination:** 20% (Carries significant weight, reflecting its importance in evaluating overall understanding)
+- **Homeworks:** 25% (Weekly homework assignments will reinforce the concepts learned in class)
+- **End-Semester Examination:** 30% (Comprehensive examination covering all course topics)
+
+**Learning Resources**
+
+- **Textbook:** "Smart Sensing for IoT: Principles and Applications" by Dr. S. Rajesh
+- **Reference Book:** "IoT Protocols and Standards: A Comprehensive Guide" by Mr. A. Chakraborty
+
+This structured approach ensures that students gain a thorough understanding of IoT technologies, their applications, and the practical skills required to implement them in real-world scenarios. The course also encourages academic research through paper critiques and group projects, preparing students for advanced studies and professional challenges in the field of IoT.

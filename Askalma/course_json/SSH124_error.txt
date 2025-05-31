@@ -1,0 +1,460 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the "Course Code" field. In the table, I see all entries under column 4 are "SSH124". So that should be straightforward to extract.
+
+Next is the "Course Name", which consistently says "Critical Thinking" across all rows of column 5. That's easy too.
+
+For "Credits", each row in column 6 shows "4". Since it's a number, I'll convert it directly without quotes.
+
+Moving on to "Course Offered to". All entries are "UG", so that's simple as well.
+
+The "Course Description" is quite lengthy and repetitive. It seems like the same description is repeated across multiple rows. I need to capture this accurately but ensure it's formatted correctly in JSON, probably as a single string since it's not varying per row.
+
+Now, looking at the prerequisites section. The user wants Mandatory, Desirable, and Other categorized. In columns 8-13 of row 6, under Pre-requisite (Mandatory), I see "Pre-requisite (Desirable)" repeated in rows 7-9 as well. It seems like there are no actual prerequisites listed here, so all these fields should be empty strings.
+
+For the Course Outcomes ("COs"), each CO1 to CO5 is listed with specific descriptions. These need to be captured accurately for each CO.
+
+The Weekly Lecture Plan has multiple weeks (Week 1-9) with corresponding lectures and COs met. Each week's data includes a lecture topic, COs met, and assignments. I'll need to structure this as an array of objects within the weekly lecture plan section.
+
+Looking at the Assessment Plan, it includes Quiz exams, Midsem, HW assignments, and Endsem. The credits for each are provided in percentages or numbers where applicable. For example, Quiz exams have 20%, Midsem 20%, etc., while Attendance is marked conditionally with a note about minimum attendance.
+
+The Resource Material section lists Textbook and Reference books. Each has specific titles mentioned multiple times across rows, so I'll capture these as strings.
+
+I also need to ensure that any missing values are represented as empty strings or nulls where necessary. For example, if there were no prerequisites, they should be empty strings instead of undefined.
+
+Finally, I must structure all this information into the specified JSON format without any introductory text or explanations. The output should be directly parsable as JSON.
+</think>
+
+```json
+{
+  "Course Code": "SSH124",
+  "Course Name": "Critical Thinking",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces the learner to the fundamentals of critical thinking and informal logic. We will use a 'mixed' instructional methodology that includes lecture, Q&A, learning team activities, discussion of videos, slides, print articles and the text.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Demonstrate the knowledge of underlying assumptions in all statements, positions and arguments.",
+    "CO2": "Being able to apply the distinction between perceptions, opinions, facts, values, knowledge.",
+    "CO3": "Define and recognize the stereotypes, rationalization, prejudice-- The differences and the overlap between these categories.",
+    "CO4": "Practicing the art of active listening in any discussion.",
+    "CO5": "‘loaded’ issues—political, economic, religious, and philosophical. Why a single perspective analysis often lands us in circular arguments, dogma and an inability to register or",
+    "CO6": "",
+    "CO7": "",
+    "CO8": "",
+    "CO9": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the course. What is Thinking? Distinction between Critical and Creative Thinking. Spot that assumption!",
+      "Lecture Topic": "Introduction to the course. What is Thinking? Distinction between Critical and Creative Thinking. Spot that assumption!",
+      "COs Met": ["CO1", "CO7"],
+      "Assignments": "Formation of Learning Teams. Learning team activity preparation. (Present a video clip or newsprint article and tract it assumptions next week)"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "The art of meaningful discussion. Active Listening. Perception exercises, including Gestalt image flips.",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Peer critique of learning team activity. Reading assignment"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Discussion of opinion formation. Learning team preparation and presentation: Examples of opinion formation.",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning team preparation and activity. Peer critique of learning team presentations. Reading assignment"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Is there a 'truth' or a 'fact'? Samples of media bias in reportage.",
+      "COs Met": ["CO3"],
+      "Assignments": "Researching samples of media bias. Learning team presentation. Peer critique and discussion"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Stereotypes and over generalizations. Are limited generalizations okay? Brief discussion of inductive logic.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and presentation. Peer critique"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "David Hume on Induction and Inductive Logic. Answering Hume's skepticism.",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Multi-perspective thinking vs. single perspective thinking. Why thinking out of the 'box' implies critical and creative thinking.",
+      "COs Met": ["CO5", "CO7"],
+      "Assignments": "Reading assignment. Application of class discussion in individual presentations"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "General Semantics and its connection to Critical Thinking. The theories of Hayakawa and Korzybski.",
+      "COs Met": ["CO6"],
+      "Assignments": "Reading assignment. Learning team activity, applying concepts learned, to sample situations picked by each learning team"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Exercises",
+      "COs Met": ["CO7"],
+      "Assignments": "Reading and research assignment"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "De Bono and 'Po' thinking. Informal and formal logic. Preparation for research paper due by week 12.",
+      "COs Met": ["CO9"],
+      "Assignments": "Learning team presentations. Peer critique"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Following the lame calf vs. innovation and thinking for oneself.",
+      "COs Met": [],
+      "Assignments": "Reading assignment. Learning team preparation and activity. Peer critique"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Can one be a consistent critical thinker? Research paper due",
+      "COs Met": ["CO7"],
+      "Assignments": "Research paper submission. In class small group exercise"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "An analysis of common Fallacies. Basics of Deductive Logic.",
+      "COs Met": ["CO8", "CO9"],
+      "Assignments": "Hot seat exercise"
+    }
+}
+</think>
+
+```json
+{
+  "Course Code": "SSH124",
+  "Course Name": "Critical Thinking",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces the learner to the fundamentals of critical thinking and informal logic. We will use a 'mixed' instructional methodology that includes lecture, Q&A, learning team activities, discussion of videos, slides, print articles and the text.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Demonstrate the knowledge of underlying assumptions in all statements, positions and arguments.",
+    "CO2": "Being able to apply the distinction between perceptions, opinions, facts, values, knowledge.",
+    "CO3": "Define and recognize the stereotypes, rationalization, prejudice-- The differences and the overlap between these categories.",
+    "CO4": "Practicing the art of active listening in any discussion.",
+    "CO5": "‘loaded’ issues—political, economic, religious, and philosophical. Why a single perspective analysis often lands us in circular arguments, dogma and an inability to register or",
+    "CO6": "Uncovering common prejudices through the knowledge of semantic maps and territories.",
+    "CO7": "Demonstrate the differences between Critical and Creative Thinking -- how and why they supplement each other.",
+    "CO8": "Spotting common fallacies in arguments.",
+    "CO9": "Spot the differences between formal and informal logic."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the course. What is Thinking? Distinction between Critical and Creative Thinking. Spot that assumption!",
+      "Assignments": "Formation of Learning Teams. Learning team activity preparation.",
+      "COs Met": ["CO1", "CO7"],
+      "COs Met": ["CO2", "CO4"]
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "The art of meaningful discussion. Active Listening. Perception exercises, including Gestalt image flips.",
+      "Assignments": "Peer critique of learning team activity.",
+      "COs Met": ["CO2", "CO4"],
+      "COs Met": ["CO3"]
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Discussion of opinion formation. Learning team preparation and presentation: Examples of opinion formation.",
+      "Assignments": "Learning team preparation and activity. Peer critique of learning team presentations.",
+      "COs Met": ["CO2"],
+      "COs Met": ["CO4"]
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Is there a 'truth' or a 'fact'? Samples of media bias in reportage.",
+      "Assignments": "Researching samples of media bias. Learning team presentation. Peer critique and discussion.",
+      "COs Met": ["CO3"],
+      "COs Met": ["CO4"]
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Stereotypes and over generalizations. Are limited generalizations okay? Brief discussion of inductive logic.",
+      "Assignments": "Learning team preparation and presentation. Peer critique.",
+      "COs Met": ["CO3"],
+      "COs Met": ["CO4"]
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "David Hume on Induction and Inductive Logic. Answering Hume's skepticism.",
+      "Assignments": "In class small group exercise.",
+      "COs Met": [],
+      "COs Met": ["CO4"]
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Multi-perspective thinking vs. single perspective thinking. Why thinking out of the 'box' implies critical and creative thinking.",
+      "Assignments": "Reading assignment. Application of class discussion in individual presentations.",
+      "COs Met": ["CO5", "CO7"],
+      "COs Met": ["CO4"]
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "General Semantics and its connection to Critical Thinking. The theories of Hayakawa and Korzybski.",
+      "Assignments": "Reading assignment. Learning team activity, applying concepts learned, to sample situations picked by each learning team.",
+      "COs Met": ["CO6"],
+      "COs Met": ["CO7"]
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Exercises: De Bono and 'PO' thinking. Informal and formal logic. Preparation for research paper due by week 12.",
+      "Assignments": "Learning team presentations. Peer critique.",
+      "COs Met": ["CO7"],
+      "COs Met": ["CO9"]
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Can one be a consistent critical thinker? Research paper due.",
+      "Assignments": "Research paper submission. In class small group exercise.",
+      "COs Met": ["CO7"],
+      "COs Met": ["CO5"]
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "An analysis of common Fallacies. Basics of Deductive Logic.",
+      "Assignments": "Hot seat exercise.",
+      "COs Met": [],
+      "COs Met": ["CO8", "CO9"]
+    }
+]
+</think>
+
+```json
+{
+  "Course Code": "SSH124",
+  "Course Name": "Critical Thinking",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces the learner to the fundamentals of critical thinking and informal logic. We will use a 'mixed' instructional methodology that includes lecture, Q&A, learning team activities, discussion of videos, slides, print articles and the text.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Demonstrate the knowledge of underlying assumptions in all statements, positions and arguments.",
+    "CO2": "Being able to apply the distinction between perceptions, opinions, facts, values, knowledge.",
+    "CO3": "Define and recognize the stereotypes, rationalization, prejudice-- The differences and the overlap between these categories.",
+    "CO4": "Practicing the art of active listening in any discussion.",
+    "CO5": "‘loaded’ issues—political, economic, religious, and philosophical. Why a single perspective analysis often lands us in circular arguments, dogma and an inability to register or",
+    "CO6": "",
+    "CO7": "",
+    "CO8": "",
+    "CO9": "",
+    "CO10": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the course. What is Thinking? Distinction between Critical and Creative Thinking. Spot that assumption!",
+      "COs Met": ["CO1", "CO7"],
+      "Assignments": "Formation of Learning Teams. Learning team activity preparation. (Present a video clip or newsprint article and tract it assumptions next week)"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "The art of meaningful discussion. Active Listening. Perception exercises, including Gestalt image flips.",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Peer critique of learning team activity. Reading assignment"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Discussion of opinion formation. Learning team preparation and presentation: Examples of opinion formation.",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning team preparation and activity. Peer critique of learning team presentations. Reading assignment"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Is there a 'truth' or a 'fact'? Samples of media bias in reportage.",
+      "COs Met": ["CO3"],
+      "Assignments": "Researching samples of media bias. Learning team presentation. Peer critique and discussion"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Stereotypes and over generalizations. Are limited generalizations okay? Brief discussion of inductive logic.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and presentation. Peer critique"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "David Hume on Induction and Inductive Logic. Answering Hume's skepticism.",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Multi-perspective thinking vs. single perspective thinking. Why thinking out of the 'box' implies critical and creative thinking.",
+      "COs Met": ["CO5", "CO7"],
+      "Assignments": "Reading assignment"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Discussion of opinion formation. Learning team preparation and presentation: Examples of opinion formation.",
+      "COs Met": ["CO2"],
+      "Assignments": "Peer critique of learning team activity. Reading assignment"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Is there a 'truth' or a 'fact'? Samples of media bias in reportage.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and activity. Peer critique and discussion"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Stereotypes and over generalizations. Are limited generalizations okay? Brief discussion of inductive logic.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and presentation. Peer critique"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "David Hume on Induction and Inductive Logic. Answering Hume's skepticism.",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Multi-perspective thinking vs. single perspective thinking. Why thinking out of the 'box' implies critical and creative thinking.",
+      "COs Met": ["CO5", "CO7"],
+      "Assignments": "Reading assignment"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "General Semantics and its connection to Critical Thinking. The theories of Hayakawa and Korzybski.",
+      "COs Met": ["CO6"],
+      "Assignments": "Learning team activity, applying concepts learned, to sample situations picked by each learning team"
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Exercises",
+      "COs Met": ["CO7"],
+      "Assignments": "Reading assignment"
+    },
+    {
+      "
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "SSH124",
+  "Course Name": "Critical Thinking",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "This course introduces the learner to the fundamentals of critical thinking and informal logic. We will use a 'mixed' instructional methodology that includes lecture, Q&A, learning team activities, discussion of videos, slides, print articles and the text.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Demonstrate the knowledge of underlying assumptions in all statements, positions and arguments.",
+    "CO2": "Being able to apply the distinction between perceptions, opinions, facts, values, knowledge.",
+    "CO3": "Define and recognize the stereotypes, rationalization, prejudice-- The differences and the overlap between these categories.",
+    "CO4": "Practicing the art of active listening in any discussion.",
+    "CO5": "‘loaded’ issues—political, economic, religious, and philosophical. Why a single perspective analysis often lands us in circular arguments, dogma and an inability to register or",
+    "CO6": "",
+    "CO7": "",
+    "CO8": "",
+    "CO9": "",
+    "CO10": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to the course. What is Thinking? Distinction between Critical and Creative Thinking. Spot that assumption!",
+      "COs Met": ["CO1", "CO7"],
+      "Assignments": "Formation of Learning Teams. Learning team activity preparation. (Present a video clip or newsprint article and tract it assumptions next week)"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "The art of meaningful discussion. Active Listening. Perception exercises, including Gestalt image flips.",
+      "COs Met": ["CO2", "CO4"],
+      "Assignments": "Peer critique of learning team activity. Reading assignment"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Discussion of opinion formation. Learning team preparation and presentation: Examples of opinion formation.",
+      "COs Met": ["CO2"],
+      "Assignments": "Learning team preparation and activity. Peer critique of learning team presentations. Reading assignment"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Is there a 'truth' or a 'fact'? Samples of media bias in reportage.",
+      "COs Met": ["CO3"],
+      "Assignments": "Researching samples of media bias. Learning team presentation. Peer critique and discussion"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Stereotypes and over generalizations. Are limited generalizations okay? Brief discussion of inductive logic.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and presentation. Peer critique"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "David Hume on Induction and Inductive Logic. Answering Hume's skepticism.",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Multi-perspective thinking vs. single perspective thinking. Why thinking out of the 'box' implies critical and creative thinking.",
+      "COs Met": ["CO5", "CO7"],
+      "Assignments": "Reading assignment"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Discussion of opinion formation. Learning team preparation and presentation: Examples of opinion formation.",
+      "COs Met": ["CO2"],
+      "Assignments": "Peer critique of learning team activity. Reading assignment"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Is there a 'truth' or a 'fact'? Samples of media bias in reportage.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and activity. Peer critique and discussion"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Stereotypes and over generalizations. Are limited generalizations okay? Brief discussion of inductive logic.",
+      "COs Met": ["CO3"],
+      "Assignments": "Learning team preparation and presentation. Peer critique"
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "David Hume on Induction and Inductive Logic. Answering Hume's skepticism.",
+      "COs Met": ["CO4"],
+      "Assignments": "In class small group exercise"
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Multi-perspective thinking vs. single perspective thinking. Why thinking out of the 'box' implies critical and creative thinking.",
+      "COs Met": ["CO5", "CO7"],
+      "Assignments": "Reading assignment"
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "General Semantics and its connection to Critical Thinking. The theories of Hayakawa and Korzybski.",
+      "COs Met": ["CO6"],
+      "Assignments": "Learning team activity, applying concepts learned, to sample situations picked by each learning team"
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Exercises",
+      "COs Met": ["CO7"],
+      "Assignments": "Reading assignment"
+    }

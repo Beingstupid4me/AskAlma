@@ -1,0 +1,42 @@
+# Course Overview
+
+## Course Details
+- **Course Code**: CSE606A  
+- **Course Name**: Next Generation Data Lifecycle Management  
+- **Credits**: 2  
+- **Offered To**: UG/PG  
+- **Course Description**: This course delves into the AI lifecycle, emphasizing data management and preparation. It covers concepts, algorithms, toolkits, and recent research to understand data lifecycle management. Industry insights and practical applications are integrated through guest lectures from experts in building in-production systems.
+
+## Prerequisites
+- **Mandatory Prerequisites**: 
+  - CSE343/CSE543/ECE563: Introductory Machine Learning Course  
+  - Basic knowledge of Python Programming  
+
+## Learning Outcomes (COs)
+1. Understand the different components and challenges involved in data lifecycle management.
+2. Summarize the evolution of data research from BI to AI to hybrid cloud environments.
+3. Identify and address various challenges in data management, preparation, and organization for ML applications.
+4. Determine best practices and methods for handling data to construct effective ML pipelines.
+
+## Weekly Lecture Plan
+- **Week 1**: Introduction to ML background, data lifecycle importance, industry trends, and data science basics.  
+- **Week 2**: Overview of data lifecycle steps, challenges in data acquisition, ethical considerations, and PI/SPI identification.  
+- **Week 3**: Data exploration techniques, variable types, exploratory data analysis using Python.  
+- **Week 4**: Data cleaning and preparation processes, including handling missing values, outliers, and data biases.  
+- **Week 5**: Advanced data quality analysis for ML, covering label noise, homogeneity, class overlap, and feature strength.  
+- **Week 6**: Data governance concepts, such as data sharing policies, access controls, and GDPR regulations.  
+- **Week 7**: Enterprise case studies and real-world applications of data lifecycle management.  
+- **Week 8**: Hybrid cloud challenges, including federated data, new governance issues, and tools like Kubernetes and Istio.  
+- **Week 9**: Project presentations and peer reviews.  
+
+## Assessment Strategy
+- **Assignments (15%)**: Weekly practical tasks to reinforce concepts.  
+- **Midterm Exam (15%)**: Covers foundational topics discussed in the first half of the course.  
+- **Project (50%)**: Comprehensive project involving data lifecycle management in a hybrid cloud environment, including presentation and peer evaluation.  
+- **Final Term Exam (20%)**: Comprehensive exam assessing overall understanding of the course material.
+
+## Learning Resources
+- **Textbook**: Lecture notes provided by instructors and research papers discussed in class.  
+- **Additional Resources**: Pointers to relevant research papers will be shared during lectures.  
+
+This structured approach ensures a comprehensive understanding of data lifecycle management, preparing students for real-world applications in AI and hybrid cloud environments.

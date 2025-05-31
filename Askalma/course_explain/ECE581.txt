@@ -1,0 +1,84 @@
+### Course Overview  
+This course ECE581, named "Autonomous Driving" is designed to provide hands-on experience in implementing several modules of autonomous driving through software-in-the-loop (SIL) and hardware-in-the-loop (HIL). It is project-based, focusing on intensive programming in C++ or Python. The course uses Mahindra e20 and auto-rickshaw as hardware testbeds. Students will gain practical skills in creating system interaction designs, programming autonomous driving modules, synthesizing performance specifications, and enhancing situational awareness.
+
+---
+
+### Course Prerequisites  
+Students are required to have a working knowledge of Robot Operating Systems (ROS) for this course. Additionally, they should have completed one of the following courses: ECE570 (Robotics Systems), Introduction to Robotics, Image Analysis, Computer Vision, Intelligent Systems, Machine Learning, or any equivalent course.
+
+---
+
+### Course Outcomes  
+By the end of this course, students will be able to:  
+- **CO1**: Create system interaction designs for autonomous driving modules.  
+- **CO2**: Program different autonomous driving modules and gather working data.  
+- **CO3**: Synthesize performance specifications for autonomous driving systems.  
+- **CO4**: Implement path planning algorithms using sensors like lidar, cameras, and radar.  
+- **CO5**: Enhance situational awareness through the integration of multiple sensor modalities.
+
+---
+
+### Weekly Lecture Plan  
+
+#### Week 1: Introduction to Autonomous Driving and Localization  
+Students will learn about the fundamentals of autonomous driving, including the importance of localization techniques such as GPS, LiDAR, and visual odometry. This foundational knowledge is essential for understanding how autonomous vehicles perceive their environment.
+
+#### Week 2: Lidar-Based Mapping and Obstacle Detection  
+This week focuses on the use of LiDAR technology for mapping and obstacle detection. Students will explore how LiDAR data is processed to create accurate maps and identify potential obstacles in real-time.
+
+#### Week 3: Camera-Vision for Lane Detection  
+Students will delve into the principles of computer vision, focusing on lane detection using camera systems. This module will cover techniques for identifying lanes and ensuring safe vehicle operation.
+
+#### Week 4: Speed Control and Braking  
+This week covers the basics of speed control and braking systems in autonomous vehicles. Students will learn how to implement algorithms that ensure safe deceleration and stopping under various driving conditions.
+
+#### Week 5: Path Planning Using LIDAR and Obstacle Detection  
+Building on previous weeks, students will explore path planning techniques using LiDAR data and obstacle detection. This module will emphasize the importance of smooth transitions between waypoints while avoiding collisions.
+
+#### Week 6: Radar-Based Obstacle Detection  
+Radar technology is another critical component for obstacle detection in autonomous vehicles. Students will study how radar systems complement LiDAR and camera-based methods to enhance safety.
+
+#### Week 7: Situational Awareness Using Different Sensors  
+This week focuses on integrating multiple sensor modalities (LiDAR, cameras, radar) to create a comprehensive situational awareness system. Students will learn how these sensors work together to provide a complete understanding of the vehicle's surroundings.
+
+---
+
+### Weekly Lab Plan  
+
+#### Week 2: Localization  
+Students will implement basic localization techniques using LiDAR data and sensor fusion methods to improve positional accuracy in real-world environments.
+
+#### Week 3: Lidar-Based Mapping  
+This lab exercise involves creating a detailed map of an indoor or outdoor environment using LiDAR data. Students will analyze the results to refine their mapping algorithms.
+
+#### Week 4: Lane-Detection  
+Students will develop a computer vision system capable of detecting and tracking lanes in video footage, focusing on accuracy and robustness under varying lighting conditions.
+
+#### Week 5: Speed Control  
+This lab focuses on implementing a speed control algorithm that adjusts vehicle speed based on real-time data from sensors. Students will test their algorithms in simulated environments.
+
+#### Week 6: Path Planning  
+Students will design and implement a path planning algorithm that navigates the vehicle through predefined waypoints while avoiding obstacles detected by LiDAR and radar systems.
+
+#### Week 7: Obstacle Avoidance  
+This lab exercise involves creating an obstacle-avoidance system using sensors such as LiDAR, cameras, and radar. Students will test their algorithms in dynamic environments to ensure safety and reliability.
+
+---
+
+### Assessment Plan  
+
+The course is assessed through the following components:  
+- **Homework (25%):** Weekly assignments that reinforce concepts covered in lectures and labs.  
+- **Project (25%):** A comprehensive project where students implement a full-scale autonomous driving system, demonstrating their understanding of key modules.  
+- **Assessment Resource Material (25%):** Resources such as reference books and online materials are provided to support student learning.  
+- **Final Examination (25%):** The end-semester examination carries significant weight, reflecting its importance in evaluating overall understanding.
+
+---
+
+### References  
+
+1. Thrun, Sebastian, Wolfram Burgard, and Dieter Fox. *Probabilistic Robotics*. MIT Press, 2005.  
+2. Motion Choset, Howie M. *Principles of Robot Motion: Theory, Algorithms, and Implementation*. MIT Press, 2005.  
+3. LaValle, Steven M. *Planning Algorithms*. Cambridge University Press, 2006.  
+
+These references provide essential readings for students to deepen their understanding of the course topics.

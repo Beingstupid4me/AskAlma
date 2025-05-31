@@ -1,0 +1,69 @@
+### Course Overview  
+**Course Code:** ECO503  
+**Course Name:** Decision Theory  
+**Credits:** 4  
+**Offered To:** Undergraduate and Postgraduate (UG/PG)  
+
+This course provides a comprehensive foundation in rational decision-making under both certainty and uncertainty. It explores the theoretical underpinnings of human behavior through various models, including utility theory, game theory, and behavioral economics. The course is designed to equip students with analytical tools to evaluate decision-making processes in diverse contexts such as economics, finance, and public policy.
+
+---
+
+### Prerequisites  
+**Mandatory Pre-requisites:** None specified.  
+**Desirable Pre-requisites:** A strong foundation in basic mathematics and an introductory course in microeconomics are recommended for this course.  
+
+Students who lack these prerequisites may find it challenging to keep up with the advanced topics covered in this course.
+
+---
+
+### Course Outcomes (COs)  
+1. **CO1:** Students will be able to understand the foundational principles of decision-making under subjective uncertainty and apply them to real-world scenarios.  
+2. **CO2:** Students will master the techniques for analyzing decisions under objective uncertainty using models like expected utility theory.  
+3. **CO3:** Students will demonstrate proficiency in applying rational choice theories to substantive applications, such as portfolio selection and insurance choices.  
+4. **CO4:** Students will understand how to use decision rules to analyze complex problems involving multiple objectives or sequential decisions.  
+5. **CO5:** Students will appreciate the role of statistical methods in decision-making processes.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials | Platform (Hardware/Software) |
+|-------------|----------------------------------|-------------------|-----------------------------|------------------------------|
+| 1           | Objective and Subjective Probability; Utility and Its Maximization | CO1, CO2         | None                        | Online platform               |
+| 2           | Role of Theories; Separating Hyperplane Theorem Decisions under Risk: Von-Neumann-Morgenstern Theorem | CO1              | Problem Set 1                | Online platform               |
+| 3           | Role of Theories; Separating Hyperplane Theorem Decisions under Risk: Von-Neumann-Morgenstern Theorem | CO1              | None                        | Online platform               |
+| 4           | Attitudes towards Risk and Stochastic Dominance Orders | CO3              | Problem Set 2                | Online platform               |
+| 5           | De Finetti's Theorem             | CO2              | None                        | Online platform               |
+| 6           | Decisions under Uncertainty: Savage's Theorem         | CO2              | Problem Set 3                | Online platform               |
+| 7           | Allais Paradox, Ellsberg Paradox; Choquet Expected Utility | CO1             | None                        | Online platform               |
+| 8           | Maxmin Expected Utility            | CO1             | None                        | Online platform               |
+| 9           | Applications                      | CO3              | Problem Set 4, 5            | Online platform               |
+| 10          | Sequential Decision Analysis Blackwell's Informativeness Order | CO4             | Problem Set 4, 5            | Online platform               |
+| 11          | Sequential Decision Analysis Blackwell's Informativeness Order | CO4             | Problem Set 4, 5            | Online platform               |
+
+---
+
+### Assessment Plan  
+
+| Type of Evaluation         | % Contribution in Grade |
+|----------------------------|-------------------------|
+| Quizzes (2)                 | 50%                    |
+| Midterm                    | 25%                    |
+| Endterm                     | 25%                    |
+
+Students are expected to complete all assignments and participate actively in class discussions. The weekly lab plan does not include specific laboratory exercises, but students are encouraged to use the provided resource materials for practical applications.
+
+---
+
+### Resource Materials  
+
+**Textbooks:**  
+1. *Theory of Decision Under Uncertainty* by Itzhak Gilboa  
+2. *Microeconomic Foundations* by David Kreps  
+3. *Introduction to Statistical Decision Theory* by John Pratt, Howard Raiffa and Robert Schlaifer  
+
+These textbooks provide comprehensive coverage of the course topics and are recommended for deeper understanding. Additional reading materials will be provided as needed.
+
+--- 
+
+This narrative provides a detailed overview of the course structure, ensuring all elements are covered comprehensively while maintaining clarity and coherence.

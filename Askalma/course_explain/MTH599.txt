@@ -1,0 +1,77 @@
+### Course Overview  
+**Course Code:** MTH599  
+**Course Name:** Variational Calculus and their Applications in Control Theory and Nanomechanics  
+**Credits:** 4 (4 credits)  
+**Offered To:** Undergraduate/Postgraduate (UG/Pg)  
+**Duration:** One semester  
+
+This course is designed as an introduction to the theory and applications of Variational Calculus to problems in geometry, differential equations, and physics, particularly mechanics. It assumes a limited knowledge of vector calculus, ordinary differential equations, and basic mechanics but includes many new applications in fields such as industrial control systems, instrumentation engineering, nanoscience, and software development. The course serves as a reference for advanced study and research in this subject while addressing its applications in control theory and nanomechanics.
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisites:**  
+- MTH-203: Calculus of Several Variables  
+
+**Desirable Prerequisites:**  
+- MTH-204: Ordinary Differential Equations  
+
+**Other Requirements:** None specified  
+
+Students are expected to have a foundational understanding of vector calculus and ordinary differential equations before enrolling in this course.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+1. **CO1:** Students master the techniques of 1st/2nd variation and are able to solve equations involving functionals.  
+2. **CO2:** Students are able to model physical systems involving linear/non-linear equations in Variational Calculus.  
+3. **CO3:** Students apply the variational techniques to solve problems in optimal control theory.  
+4. **CO4:** Students apply the variational techniques to solve problems in Nanomechanics.  
+
+---
+
+### Weekly Syllabus and Topics  
+The course is divided into 11 weeks, each focusing on specific topics that build upon each other to achieve the learning outcomes:  
+
+- **Week 1:** Introduction to Calculus of Variations, including the "Gold-digger's Problem," catenary, brachistochrone problem, Dido's problem, geodesics, minimal surfaces, and optimal harvest. Review of extremals in finite-dimensional calculus, Euler-Lagrange (E-L) equations.  
+- **Week 2:** Special cases of E-L equations: functions depending on y', functions with no explicit x dependence, functions with no explicit y dependence, and degenerate functions. Invariance of E-L equations, existence, uniqueness of solutions, generalization to higher derivatives.  
+- **Week 3:** Generalization of functionals containing multiple dependent variables and two independent variables. Numerical solutions: Euler's finite difference method, Ritz method, Kantorovich's method.  
+- **Week 4:** Isoperimetric problem, including Lagrange multipliers for single and multiple constraints, abnormal problems. Generalization to higher dimensions and multiple isoperimetric constraints with several dependent variables.  
+- **Week 5:** Holonomic and non-Holonomic Constraints, problems with variable endpoints: natural boundary conditions, solution of Elastica.  
+- **Week 6:** Problems with variable endpoints involving several dependent variables, transversality conditions, broken extremals (Weierstrass Erdmann condition), Newton's Aerodynamic Problem, Hamiltonian formulation of E-L equations.  
+- **Week 7:** Hamiltonian formulation: case of several dependent variables, symplectic maps, Hamilton-Jacobi Equations (HJ Eqns), method of separation of variables for HJ Eqns.  
+- **Week 8:** Variational Symmetries, Noether's Theorem, finding variational symmetries. Second variation: Legendre condition in finite dimensions.  
+- **Week 9:** Conjugate points, Jacobi necessary condition, Jacobi accessory equations (JA Eqns), sufficient conditions, finding conjugate points, saddle points. Optimal Control Theory (OC): solving OC systems via variational techniques.  
+- **Week 10:** OC Theory: constrained optimization, Pontryagin Minimum Principle (PMP), Hamilton-Jacobi-Bellmann Equations (HJB), penalty function method, slack variable method.  
+- **Week 11:** Applications in Nanomechanics: oscillatory motion of Carbon Nanotube (CNT), basics involving special functions (Pochhammer symbol, Hypergeometric Function), physical chemistry concepts like van der Waal interaction energy and Lennard-Jones potential. Oscillatory motion of DWCNT via Hamilton's Principle.  
+
+Assignments for each week are included in the Practice Problems section.
+
+---
+
+### Assessment Strategy  
+The course is assessed through a combination of assignments, mid-semester examination, and end-semester examination:  
+
+- **Assignments:** 30% (Regular practice problems given throughout the course)  
+- **Midsem Exam:** 30% (Covers material from the first half of the course)  
+- **Endsem Exam:** 40% (Comprehensive exam covering the entire syllabus)  
+
+Additional evaluation types are not specified in the provided data.
+
+---
+
+### Learning Resources  
+**Textbook:**  
+1. Calculus of Variations: Bruce van Brunt  
+2. Optimal Control Theory: D. S. Naidu  
+3. Problems and Exercises in CoV: Krasnov, Makarenko, Kiselev  
+
+**Reference Material:**  
+1. Calculus of Variations: Gelfand, Formin, Silverman  
+2. Calculus of Variations: Craigs, Allen  
+3. Calculus of Variations: Aurther, Routledge, Paul  
+4. A Primer on Calculus of Variations and Optimal Control Theory: Gibbons  
+
+These resources provide comprehensive coverage of the course content and are recommended for deeper understanding and reference.

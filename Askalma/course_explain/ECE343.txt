@@ -1,0 +1,34 @@
+# Course Overview  
+The course is titled **ECE343 Mobile Communications** and carries 4 academic credits. It is offered to both undergraduate and postgraduate students and focuses on providing a comprehensive understanding of cellular radio systems, digital wireless communications techniques, and their applications in personal and machine-to-machine (M2M) communication systems. The course is primarily centered around the physical layer of telecommunications, with an emphasis on designing high-capacity cellular communication systems. Key topics include trunking, RF propagation, frequency reuse, co-channel interference management, hand-offs, dropped calls, and the design of CDMA systems for both forward and reverse links.
+
+# Prerequisites  
+The mandatory prerequisite for this course is **ECE240 Principles of Communication Systems**. Desirable prerequisites include a strong foundation in basic electrical engineering concepts, such as circuit theory and signal processing. Other required materials or knowledge may be specified by the instructor at the discretion of the faculty.
+
+# Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Analyze cellular radio systems and evaluate the effects of large-scale fading on cell coverage for signal and traffic.  
+- **CO2:** Implement techniques to reduce co-channel and non-co-channel interference in cellular communication systems.  
+- **CO3:** Optimize hand-offs and dropped calls through the application of advanced communication techniques.  
+- **CO4:** Design a GSM/CDMA system for both forward and reverse links under realistic capacity conditions.
+
+# Weekly Lecture Plan  
+The course is divided into 12 weeks, with each week focusing on specific topics:  
+- **Week 1,2:** Introduction to cellular mobile systems, including the operation of cellular systems, hexagonal cell shapes, analog and digital cellular systems.  
+- **Week 3-5:** Mobile radio propagation, covering large-scale path loss, reflection, diffraction, scattering, and outdoor/indoor propagation models.  
+- **Week 6-7:** Signal coverage for voice and traffic in flat terrain versus hilly terrain, including the effects of human-made structures on signal reflections.  
+- **Week 8-9:** Introduction to interference concepts, including co-channel interference measurement and types of non-co-channel interference.  
+- **Week 10:** Frequency management techniques such as channel numbering, grouping, setup access, paging channels, and sectorization.  
+- **Week 11-12:** Handoff mechanisms, dropped call evaluation, operational techniques like coverage hole filler, leaky feeders, cell splitting, small cells, and narrow beam concepts.
+
+# Assessment Strategy  
+The course is assessed through a combination of evaluations:  
+- **Mid-sem:** 20% contribution to the final grade.  
+- **End-sem:** 40% contribution to the final grade.  
+- **Project:** 20% contribution to the final grade.  
+- **Assignments/Labs/Tutorials:** 10% contribution to the final grade, with weekly assignments contributing a total of 40%.  
+- **Quiz:** 10% contribution to the final grade.
+
+# Learning Resources  
+The primary textbook for this course is **"Mobile Cellular Telecommunications: William C Y Lee."** Additional recommended reading includes **"Wireless Communication, Principles & Practice: T.S. Rappaport, PHI."** These texts provide a solid foundation in cellular communication systems and are essential for understanding the course material.
+
+This structured approach ensures that students gain a thorough understanding of mobile communications, from fundamental principles to advanced system design techniques.

@@ -1,0 +1,56 @@
+### Course Overview  
+The course titled **Circuit Theory and Devices** (Course Code: ECE215) is a 4-credit core course offered to second-year undergraduate students in the Electronics and Communication Engineering (ECE) department. This course aims to provide students with a comprehensive understanding of circuit theory, device modeling, and their applications. The primary objectives include developing problem-solving skills related to transient, sinusoidal, and frequency-domain circuit analysis techniques.
+
+---
+
+### Course Prerequisites  
+The prerequisite for this course is **Circuits I** (ECE105). Students are expected to have a foundational knowledge of basic circuit concepts, including Kirchhoff's laws, resistor networks, and DC circuit analysis. No specific desirable prerequisites are mentioned, but proficiency in algebra and calculus is assumed.
+
+---
+
+### Course Outcomes  
+By the end of this course, students will be able to:  
+- **CO1:** Perform AC power analysis for single-phase, polyphase, and magnetically coupled circuits.  
+- **CO2:** Apply circuit analysis techniques such as mesh, nodal, superposition, source transformation, and Thevenin/Norton equivalents.  
+- **CO3:** Use Laplace transforms and Fourier series to analyze simple circuits and two-port networks.  
+- **CO4:** Design, simulate, fabricate, and test simple circuits using industry-standard tools like LTSpice and PCB design software.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met | Assignments/Labs/Tutorials | Reference Material         |
+|-------------|-----------------------------------|----------------------|----------------------------|---------------------------|
+| Week 1      | Review of Resistors, Inductors, and Capacitors; Basic RL and RC Circuits (First-Order Circuits) | CO1, CO4             | Introduction to LTSpice lab assignment       | Hayt et al.                |
+| Week 1/2    | RLC Circuits - Source-Free Series and Parallel Circuits; Complete Response of RLC Circuits; Second-Order Op Amp Circuits | CO1, CO4             | Lab: Introduction to reading component datasheets and circuit design     | Hayt et al.                |
+| Week 3      | Sinusoidal Steady-State Analysis - Complex Forcing Function, Sinusoids, Phasors, Impedance, Admittance | CO1, CO4             | Reading assignment, homework, lab assignment | Hayt et al.                |
+| Week 4/5    | AC Circuits: Impedance Combinations, Nodal and Mesh Analysis, Superposition Theorem, Source Transformation, Thevenin/Norton Equivalent Circuits | CO2, CO4             | Lab: Simulation of time-domain, frequency-domain, and noise performance using circuit design tools | Hayt et al.                |
+| Week 6      | AC Power Analysis - Instantaneous and Average Power, Maximum Average Power, Maximum Power Transfer, Apparent Power, Power Factor | CO2, CO4             | Lab:Gerber file preparation for circuit design                 | Hayt et al.                |
+| Week 6/7    | Magnetically Coupled Circuits - Mutual Inductance, Energy in a Coupled Circuit, Linear and Ideal Transformers; Transformer as an Isolation Device, Transformer as a Matching Device | CO2, CO4             | Lab:Soldering components on PCB                       | Hayt et al.                |
+| Week 8/9    | Introduction to Laplace Transforms - Properties, Inverse Laplace Transform (Simple, Repeated, and Complex Poles), Convolution Integral; Circuit Element Models, Circuit Analysis, Transfer Functions | CO2, CO4             | Lab: Performance testing of circuits                     | Hayt et al.                |
+| Week 10/11  | Frequency Response - Transfer Function, Bode Plot, Series Resonance, Parallel Resonance, Passive and Active Filters; Magnitude, Frequency, Magnitude-Frequency Scaling, Filter Design | CO3, CO4             | Lab: Performance testing of circuits                     | Hayt et al.                |
+| Week 12     | Two-Port Networks - Two-Port Parameters (Impedance, Admittance, Transmission, Scattering), Cascading of 2-Port Networks; Lab: Final report (Bill-of-Materials, Schematic, Super-posed Simulation and Measurement Results) | CO3, CO4             | Lab: Submission of final project report                 | Hayt et al.                |
+| Week 13     | Network Stability, Network Synthesis, Fourier Series, Symmetry, Filters; Circuit Analysis Using Fourier Transforms | CO3, CO4             | Reading assignment, homework                     | Hayt et al.                |
+| Week 14     | (No specific topics or assignments for this week.)                                                   | CO3, CO4             | Lab: Submission of final project report                 | Hayt et al.                |
+
+---
+
+### Assessment Plan  
+The course assessment is designed to evaluate both theoretical understanding and practical application skills. The breakdown is as follows:  
+- **Mid-Semester Examination (25%)**: Covers the first half of the course material, including circuit analysis techniques and basic component modeling.  
+- **End-Semester Examination (35%)**: Focuses on advanced topics such as frequency response, two-port networks, and filter design.  
+- **Lab Assignments (20%)**: Includes hands-on experiments with LTSpice, PCB design tools, and circuit testing.  
+- **Homework Assignments (20%)**: Reinforces theoretical concepts through problem-solving exercises.  
+
+Additional types of evaluation may be included if necessary.
+
+---
+
+### Learning Resources  
+The primary textbook for this course is:  
+**"Engineering Circuit Analysis, 8th edition, Hayt, Kemmerly, Durbin."**  
+Additional reference materials will be provided as needed throughout the course.
+
+--- 
+
+This narrative provides a comprehensive overview of the course structure and requirements. Let me know if you need further elaboration or additional details!

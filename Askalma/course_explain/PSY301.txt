@@ -1,0 +1,46 @@
+Course Overview  
+This introductory course in cognitive psychology is designed to provide students with a comprehensive understanding of the mechanisms underlying human thought and behavior. The course covers foundational theories, principles, and their applications across various cognitive domains such as perception, attention, memory, language, reasoning, and creativity. Students will explore how these mental processes interact to shape human behavior through theoretical knowledge, practical examples, case studies, and hands-on activities.
+
+Prerequisites  
+Students enrolling in this course must have successfully completed PSY201 Introduction to Psychology. This foundational course is essential for understanding the basic concepts of psychology that will be built upon in this more advanced course.
+
+Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- Understand and explain the historical development of cognitive psychology (CO1).  
+- Recognize various theories within cognitive psychology and compare their underlying processes and predictions (CO2).  
+- Generate and evaluate examples that demonstrate or test theories in specific cognitive domains (CO3).  
+- Apply principles and theories to real-world contexts and problems (CO4).  
+- Explain the role of neuroscience measures (CT scans, PET scans, fMRI) in providing evidence for cognitive theories (CO5).
+
+Weekly Lecture Plan  
+The course is structured into 26 weekly lectures, each focusing on a specific topic. Below is a summary of the key topics covered each week:  
+
+1. **Week-1**: Introduction to Cognitive Psychology - Overview of the field.
+2. **Week-2**: Brain and Cognition - Exploring the relationship between brain structure and cognitive functions.
+3. **Week-3**: Attention - Theories of attention and their impact on perception.
+4. **Week-4**: Perception - Visual and non-visual perception mechanisms.
+5. **Week-5**: Memory - Models of memory, working memory, and exceptional memories.
+6. **Week-6**: Memory-Encoding - Retrieval processes in memory.
+7. **Week-7**: Storage / Retrieval - Mechanisms of visual storage and retrieval.
+8. **Week-8**: Organization of Knowledge - Declarative vs. procedural knowledge.
+9. **Week-9**: Language-1: Listening - Phonetics, syntax, and semantics.
+10. **Week-9**: Language-2: Reading - Discourse analysis and cognitive processes in language comprehension.
+11. **Week-10**: Reasoning - Inductive and deductive reasoning principles.
+12. **Week-11**: Creativity - Creative thinking strategies and evaluation.
+13. **Week-12**: Research Methods in Cognitive Psychology - Overview of research methodologies.
+
+Assignments, readings, and tutorials are provided each week to support student learning.
+
+Assessment Plan  
+The course assessment is divided as follows:  
+- Homework Assignments: 20%  
+- Exam 1: 25%  
+- Exam 2: 25%  
+- Exam 3: 30%  
+- In class quizzes: 10%
+
+Resource Materials  
+- **Textbook**: "Cognitive Psychology" by Richard J. Sternberg and Katerina Sternberg (2017). Wadsworth Publishing.  
+- **Reference Book**: Additional readings provided by the instructor throughout the course.
+
+This comprehensive course provides a detailed exploration of cognitive psychology, equipping students with a solid understanding of mental processes and their applications. Through a combination of lectures, assignments, and assessments, students will develop critical thinking skills and a deep appreciation for the complexities of human cognition.

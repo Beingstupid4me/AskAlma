@@ -1,0 +1,50 @@
+**Course Overview**
+
+The course, titled "Transform Learning and Applications" (ECE558), is a 4-credit course offered to both undergraduate and postgraduate students. It focuses on transform learning, an active research area with applications in signal processing, image analysis, and data science.
+
+**Prerequisites**
+
+While the mandatory prerequisites are not explicitly listed, it is implied that foundational knowledge in mathematics and basic signal processing would be beneficial for this advanced course.
+
+**Course Outcomes (COs)**
+
+The course aims to equip students with the following skills:
+- **CO1:** Model physical problems using transform learning principles.
+- **CO2:** Apply transforms such as wavelets and ridgelets for signal and image analysis.
+- **CO3:** Understand and critically evaluate research papers in transform learning.
+- **CO4:** Conduct advanced projects involving transform learning techniques.
+
+**Weekly Lecture Plan**
+
+The course is structured over 13 weeks, with each week focusing on specific topics:
+
+1. **Week 1:** Introduction to mathematical preliminaries, including signal spaces, operators, and basis concepts.
+2. **Week 2:** Overview of transforms, sampling rate conversions, and filterbank techniques like Haar wavelet.
+3. **Week 3:** Computational efficiency in filterbank design using polyphase components.
+4. **Week 4:** Lifting framework for designing efficient wavelet transforms.
+5. **Week 5:** Exploration of 2-D separable and non-separable wavelet transforms, including integer transforms like ridgelets and curvelets.
+6. **Week 6:** Dyadic Wavelet Transform Learning in forward and inverse problem contexts.
+7. **Week 7:** Rational Wavelet Transform Learning techniques.
+8. **Week 8:** Learning sparsifying filterbanks for efficient signal representation.
+9. **Week 9:** Deep transform learning approaches, including recent advancements.
+10. **Week 10:** Sparse transform learning methods such as online, overcomplete, and high-dimensional approaches.
+11. **Week 11:** Continued exploration of sparse transform learning techniques.
+12. **Week 12:** Student presentations on relevant research papers.
+13. **Week 13:** Student project presentations summarizing their learning outcomes.
+
+**Assessment Plan**
+
+The course assessment is divided as follows:
+- **Assignments (20%):** Weekly assignments to reinforce concepts and techniques.
+- **Mid-Semester Examination (20%):** Evaluates understanding of foundational topics covered in the first half of the course.
+- **End-Semester Examination (20%):** Comprehensive assessment of all material covered during the course.
+- **Project (40%):** An independent project applying transform learning techniques to solve real-world problems.
+
+**Learning Resources**
+
+Students are provided with essential resources to support their learning:
+- **Textbook:** "Introduction to Wavelets and Wavelet Transforms - A Primer" by C. S. Burrus, R. A. Gopinath, and H. Guo.
+- **Reference Books:** Additional recommended readings on wavelet transforms and related fields.
+- **Internet Resources:** Access to research papers from prominent groups such as Yoram Bresler's, Anubha Gupta's, and Angshul Majumdar's.
+
+This structured approach ensures a comprehensive understanding of transform learning and its applications, preparing students for advanced research and practical implementations in their respective domains.

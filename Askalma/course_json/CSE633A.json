@@ -1,0 +1,91 @@
+{
+  "Course Code": "CSE633A",
+  "Course Name": "Social Robotics",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Prerequisites": {
+    "Mandatory": "Prerequisite",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students will be able to analyze the main challenges and opportunities of social robots.",
+    "CO2": "Students (individually and in groups) will develop the ability to analyze the need of the social robots in different scenarios.",
+    "CO3": "Students will be able to predict the possible consequences of social interaction between the human and the robots. Students will also be able to offer their own set of ELS rules for the development of the social robot.",
+    "CO4": ""
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Social Robotics, How is it different from traditional robotics and its applications",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Research Article 1: Reading"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Social Robots Embodiment and Design - To be able to understood by humans",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Social Robots Skill Set - To understand humans (Social Emotional Intelligence and Socio-Cognitive Skills)",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Social Robots and Communication Skills - To be able to interact with humans",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Mini Project"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Human Responses to Social Robots and the role of culture is shaping perceptions of the social robot Case Studies - Kids with Autism Spectrum Disorder (ASD), Individuals with Intellectual Disability (ID), Elderly People",
+      "COs Met": [
+        "CO1",
+        "CO3"
+      ],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Human Responses to Social Robots and the role of culture is shaping perceptions of the social robot Case Studies - Kids with Autism Spectrum Disorder (ASD), Individuals with Intellectual Disability (ID), Elderly People",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "Assignment 2"
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Ethical, legal and Social Implications of Social Robotics (Invited lecture by Dr. Eduard Fosch Villaronga)",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "10",
+    "Midsem": "20",
+    "HW assignments": "30",
+    "Endsem": "40"
+  },
+  "Resource Material": {
+    "Textbook": "Social Robotics: A Comprehensive Guide",
+    "Reference Book": ""
+  }
+}

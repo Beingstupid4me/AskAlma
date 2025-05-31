@@ -1,0 +1,64 @@
+{
+  "Course Code": "CSE 503",
+  "Course Name": "Program Analysis",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Prerequisites": {
+    "Mandatory": [
+      "Pre-requisites"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Implement a dataflow analysis using Soot static analyzer.",
+    "CO2": "Use a symbolic execution tool to generate test cases.",
+    "CO3": "Use a symbolic execution tool to generate test cases.",
+    "CO4": "Develop aspects to analyze a program dynamically."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1-6",
+      "Lecture Topic": "Classic problems in static program analysis, monotone data flow framework including lattice concepts, control flow graph, pointer analysis, analysis with Soot.",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "A programming assignment to implement basic dataflow analyses using Soot."
+    },
+    {
+      "Week": "9-10",
+      "Lecture Topic": "Introduction to advanced topics including interprocedural analysis and symbolic execution.",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignments": "A programming assignment involving an implementation of a simple interprocedural dataflow analysis using Soot. Another assignment will involve using a symbolic execution tool to generate test cases."
+    },
+    {
+      "Week": "11-13",
+      "Lecture Topic": "Runtime monitoring concepts, finite state properties, aspects, security automata.",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "A programming assignment to implement runtime monitors using aspects."
+    }
+  ],
+  "Assessment Plan": {
+    "End-sem": " % Contribution in Grade 25 25 10 40",
+    "Mid-sem": " % Contribution in Grade 25 25 10 40",
+    "Quiz": " % Contribution in Grade 25 25 10 40",
+    "Programming assignments": " % Contribution in Grade 25 25 10 40"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "Principles of Program Analysis by Nielson, Nielson and Hankin.",
+      "Data Flow Analysis: Theory and Practice by Khedker, Sanyal and Karkare.",
+      "Compilers: Principles, Techniques, and Tools by Aho, Lam, Sethi and Ullman."
+    ],
+    "Reference Book": [
+      "Principles of Program Analysis by Nielson, Nielson and Hankin.",
+      "Data Flow Analysis: Theory and Practice by Khedker, Sanyal and Karkare.",
+      "Compilers: Principles, Techniques, and Tools by Aho, Lam, Sethi and Ullman."
+    ]
+  }
+}

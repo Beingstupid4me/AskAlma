@@ -1,0 +1,59 @@
+### Course Overview  
+This course, **MTH374/MTH574: Linear Optimisation**, is designed to introduce students to the application of optimization techniques in various domains within Computer Science and Engineering (CSE) and Electronics and Communication Engineering (ECE). The primary focus will be on linear optimization, also known as linear programming, where students will learn about the structural and algorithmic aspects of solving optimization problems. The course is divided into weekly lecture plans that cover theoretical concepts, computational methods, and practical applications. Additionally, the course includes assignments and assessments to reinforce learning outcomes.
+
+---
+
+### Prerequisites  
+The prerequisite for this course is **Linear Algebra**, which provides a foundational understanding of vectors, matrices, and systems of linear equations. Desirable prerequisites include an introduction to programming, as students will be expected to implement algorithms and solve real-world problems using computational tools.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Formulate Linear/Non-Linear optimization problems in their standard mathematical form.  
+- **CO2**: Apply algorithms such as the simplex and interior point methods to solve optimization problems efficiently.  
+- **CO3**: Use solvers to obtain solutions for moderately sized problems, including optimal solutions or lower bounds.  
+- **CO4**: Understand and apply concepts related to convex programs and semi-definite programs (SDPs) with real-world applications.
+
+---
+
+### Weekly Lecture Plan  
+The course is structured into 12 weeks, each focusing on specific topics that build upon the previous weeks' content:  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|----------------------|----------------------------|
+| 1           | Linear Algebra Review             | CO1                  | N/A                          |
+| 2           | Linear Optimization Problems - Modeling through examples | CO1, CO2            | HW 1: Theory-based problems    |
+| 3           | Geometry of Linear Programming     | CO2                  | N/A                          |
+| 4           | Geometry of Linear Programming     | CO2                  | N/A                          |
+| 5           | Simplex Method                      | CO2, CO3            | HW 2: Coding-based exercises   |
+| 6           | Simplex Method                      | CO2, CO3            | N/A                          |
+| 7           | Duality Theory                      | CO2                  | N/A                          |
+| 8           | Duality Theory + Theorem of the Alternative | CO2                | HW 3: Coding-based exercises   |
+| 9           | Ellipsoid Method/Interior Point Methods | CO2, CO3          | N/A                          |
+| 10          | Network Flow Problems             | CO3                  | N/A                          |
+| 11          | SDP (Semi-Definite Programs)      | CO3, CO4            | HW 4: Coding-based exercises   |
+| 12          | Integer Programming Formulations    | CO3, CO4            | N/A                          |
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical understanding and practical application of optimization techniques. The breakdown is as follows:  
+
+- **Assignments**: 40% (Includes a mix of theory-based and coding-based exercises)  
+- **Quiz**: 25% (In-class quizzes to assess understanding of key concepts)  
+- **Mid-Semester Examination**: 25% (Comprehensive evaluation of the first half of the course)  
+- **End-Semester Examination**: 35% (Final assessment covering all topics discussed during the semester)
+
+The weightage of each component is carefully considered to ensure a balanced evaluation of student performance.
+
+---
+
+### Learning Resources  
+Students are encouraged to utilize the following resources for this course:  
+- **Textbook**: *Introduction to Linear Optimization* by D. Bertsimas, which provides a comprehensive introduction to linear programming and its applications.  
+- Additional recommended readings and online materials will be provided as supplementary resources throughout the course.
+
+---
+
+This structured approach ensures that students gain a thorough understanding of linear optimization techniques, both theoretically and practically, preparing them for advanced studies and real-world applications in their respective fields.

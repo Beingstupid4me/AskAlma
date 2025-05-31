@@ -1,0 +1,55 @@
+**Course Overview**
+
+This course, titled **Algebraic Number Theory (MTH512)**, is designed to provide an in-depth exploration of algebraic number fields and their properties. The course spans a total of 16 weeks, with each week focusing on specific topics that build upon one another to achieve the stated learning outcomes.
+
+**Course Prerequisites**
+
+To successfully engage with this course, students are required to have completed **MTH211 Number Theory** as a mandatory prerequisite. Additionally, **Group Theory** is recommended but not strictly required, as it provides valuable context for some of the advanced concepts covered in this course.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1**: Explain the key notions of algebraic number theory and outline their interrelations.
+- **CO2**: Summarize the fundamental theorems of the course and apply them in specific cases.
+- **CO3**: Calculate the most important number theoretical quantities introduced during the course.
+- **CO4**: Explain the concept of "geometry of numbers" according to Minkowski.
+- **CO5**: Apply algebraic number theory concepts to solve problems such as Pell’s equation, quadratic reciprocity, and the two squares theorem.
+
+**Weekly Lecture Plan**
+
+The course is structured into 16 weekly lectures, each focusing on specific topics that progressively build upon one another:
+
+1. **Week 1**: Review of required tools from field and ring theory.
+2. **Weeks 2-3**: Introduction to number fields, embeddings, field norms, and traces.
+3. **Weeks 4-5**: Rings of integers, integral closures, discriminants, quadratic field extensions, and cyclotomic fields.
+4. **Weeks 6-8**: Unique factorization of ideals in rings of integers, prime ideals, and the geometry of numbers (lattices, Minkowski bound).
+5. **Weeks 9-10**: Failure of unique factorization, class groups, and applications to Diophantine equations.
+6. **Weeks 11-12**: Applications to Fermat’s last theorem and paper presentations.
+
+**Assignments**
+
+Assignments are a critical component of this course, contributing 30% to the final grade. These assignments are designed to reinforce concepts covered in lectures and provide hands-on practice with key techniques.
+
+**Assessment Plan**
+
+The assessment strategy is structured as follows:
+
+- **Assignments**: 30% (Weekly assignments focusing on problem-solving and theoretical understanding).
+- **Paper Presentation**: 25% (Students will present a selected paper from the course materials, demonstrating their ability to analyze and communicate advanced mathematical concepts).
+- **Mid-Semester Examination**: 15% (A written examination covering foundational material and key theorems).
+- **End-Semester Examination**: 30% (Comprehensive examination assessing all course content).
+
+**Resource Materials**
+
+Students are provided with a comprehensive set of resources to support their learning:
+
+- **Textbook**: *Number Fields* by Daniel Marcus, Springer-Verlag, New York.
+- **Online Lecture Notes**: *Algebraic Number Theory* by James Milne (available for free online).
+- **Classical Texts**: *Number Theory* by Z. I. Borevich and I.R. Shafarevich.
+
+**Narrative Continuation**
+
+The course begins with a review of essential tools from field and ring theory, laying the groundwork for an in-depth exploration of algebraic number fields. Students will gradually progress through topics such as embeddings, norms, traces, rings of integers, integral closures, discriminants, quadratic field extensions, cyclotomic fields, unique factorization of ideals, prime ideals, geometry of numbers (lattices, Minkowski bound), failure of unique factorization, class groups, and applications to Diophantine equations. Throughout the course, students will engage with weekly assignments designed to reinforce lecture concepts and develop problem-solving skills. The assessment plan ensures a balanced evaluation of both theoretical understanding and practical application, with a strong emphasis on exam performance contributing 30% to the final grade.
+
+The course concludes with paper presentations, providing an opportunity for students to deepen their understanding of advanced topics through independent research and presentation. This structured approach ensures that students achieve a well-rounded mastery of algebraic number theory, preparing them for further studies or applications in related fields.

@@ -1,0 +1,44 @@
+**Course Overview**
+
+The course ECE520 is titled "Low Voltage Analog Circuit Design" with the course code and credits provided. It is offered to postgraduate students and focuses on introducing low voltage analog circuit design techniques, emphasizing CMOS and Floating Gate MOS (FGMOS) transistors. The course description highlights the importance of analog versus digital circuits, the reduction of power consumption and voltage supply, and applications such as Current Conveyor (CC), Low Voltage CCs, FGMOS, and analog filters.
+
+**Prerequisites**
+
+The mandatory prerequisite for this course is "CMOS Analog Circuits." Other prerequisites include optional topics like Desirable prerequisites: None specified. Post-conditions are not detailed in the provided data.
+
+**Learning Outcomes**
+
+Upon completion of this course, students will be able to:
+1. Define specifications for low voltage and low power analog circuit design.
+2. Characterize key analog circuits and benchmark between different architectures.
+3. Design low voltage analog subsystems using CMOS and FGMOS transistors.
+4. Design and evaluate analog systems to meet specific requirements.
+
+**Weekly Lecture Plan**
+
+- **Weeks 1 & 2:** Introduction to low voltage analog and digital circuit design, covering different analog circuit design techniques.
+- **Weeks 3, 4 & 5:** Study of Current Conveyors (CC), their characteristics, types, implementations, and applications.
+- **Weeks 5, 6 & 7:** Introduction to FGMOS transistor, including its design aspects, challenges, simulation techniques, and applications.
+- **Weeks 8, 9, 10 & 11:** Low voltage analog continuous-time filtering using CMOS and FGMOS transistors, covering topics like transconductor blocks, CMFB, Gm-C multiple-input linear integrator, tuning amplifiers, and filter examples.
+- **Weeks 11 & 12:** Focus on low voltage mixer and multiplier circuits.
+- **Weeks 13 & 14:** Design of LNA (Low Noise Amplifier) circuits.
+
+**Assignments**
+
+Assignments are primarily reading-based except for Week 5, where students choose a project specification. Additional assignments may be added as needed.
+
+**Assessment Strategy**
+
+The course assessment is divided as follows:
+- **Assignment:** 15%
+- **Project:** 25%
+- **Mid-Semester Examination:** 20%
+- **End-Semester Examination:** 40%
+
+**Resources**
+
+The primary textbooks are "Low Power and Low Voltage Circuit Design with the FGMOS Transistor" by Esther Rodriguez-Villegas from IET UK and "Analogue IC Design: The Current-mode Approach." Additional resources will be provided by instructors.
+
+---
+
+This narrative provides a comprehensive overview of the course structure, prerequisites, learning outcomes, weekly topics, assessment details, and resource materials.

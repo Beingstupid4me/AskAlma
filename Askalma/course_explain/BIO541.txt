@@ -1,0 +1,62 @@
+**Course Overview**
+
+The course titled "Data Sciences in Genomics" is designed to equip students with advanced computational skills necessary for analyzing genomic data. This field is pivotal as it integrates high-throughput technologies with genomics to address complex biological questions, driving genomic projects forward.
+
+**Course Details**
+
+- **Course Code**: BIO541
+- **Course Name**: Data Sciences in Genomics
+- **Credits**: 4
+- **Offered To**: Undergraduate and Postgraduate students (UG/PG)
+- **Course Description**: This course delves into the application of computational methods to genomic data, covering foundational concepts, advanced techniques, and practical applications. It aims to provide students with a comprehensive understanding of genomic data analysis, from initial processing to meaningful insights.
+
+**Prerequisites**
+
+- **Mandatory Prerequisites**: None specified.
+- **Desirable Prerequisites**: Basic knowledge in molecular biology and familiarity with computational tools is recommended.
+- **Other Prerequisites**: None specified.
+
+**Learning Outcomes (COs)**
+
+1. **CO1**: Students will understand the source, properties, and significance of genomic data.
+2. **CO2**: Students will master tools for processing various genomic data types.
+3. **CO3**: Students will comprehend statistical approaches used in genomic data analysis.
+4. **CO4**: Students will perform complex post-processing tasks to derive meaningful biological insights.
+
+**Weekly Lecture Plan**
+
+- **Week 1**: Introduction to molecular cell biology, central dogma, and measurement techniques using microarrays and NGS technologies.
+- **Week 2-3**: Basics of genetics and their clinical applications.
+- **Week 4**: Exploration of NGS concepts, DNA alignment algorithms, data QC, and filtering.
+- **Week 5**: Applications in single-cell studies, addressing biases like dropouts and noise.
+- **Week 6-7**: Unsupervised methods (clustering and biclustering) and supervised approaches (classification), along with normalization techniques for microarray, bulk RNA-seq, and single-cell RNA-seq data.
+- **Week 8**: Network inference methods, including WGCNA and visualization techniques.
+- **Week 9-10**: Epigenome analysis, noise handling, and application of epigenome data.
+- **Week 11**: Assembly processes, assessment, refinement, and variant calling (SNPs, MNPs, small indels).
+- **Week 12-13**: Variant annotations, interpretation methods, statistical prediction, QTL analysis, and data visualization techniques for population genomics.
+- **Project Presentations**: Students present their final projects.
+
+**Assessment Strategy**
+
+- **Mid-Semester Examination**: Contributes 20% to the final grade.
+- **End-Semester Examination**: Contributes another 20%.
+- **Assignments**: Regular tasks contribute 20% in total (approximately 5 assignments).
+- **Project**: The project accounts for 40% of the grade, emphasizing practical application.
+
+**Learning Resources**
+
+- **Textbooks**: 
+  - "Genetics: A Conceptual Approach" by B. Pierce
+  - Online resources from Next Generation Sequencing (NGS) projects.
+  - "Next-Generation Sequencing Data Analysis" by Xinkun Wang
+- **Publications**: Articles on ChIP-seq analysis, RNA-Seq reviews, and field guides to whole-genome sequencing.
+
+**Course Outcomes**
+
+Students will be able to:
+- Understand genomic data sources and their properties.
+- Utilize tools for processing diverse genomic data types.
+- Apply statistical methods in genomic data analysis.
+- Perform complex post-processing tasks to derive meaningful biological insights.
+
+This structured approach ensures a comprehensive understanding of genomic data analysis, preparing students with the necessary skills for advanced research and applications in computational genomics.

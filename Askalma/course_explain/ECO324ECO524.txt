@@ -1,0 +1,108 @@
+### Course Overview  
+**Course Code:** ECO324/524  
+**Course Name:** Spatial Statistics and Spatial Econometrics  
+**Credits:** 4  
+
+This course provides an in-depth introduction to spatial analytic frameworks for analyzing spatial data. It is designed for students in social sciences, engineering, and related fields who aim to understand and model spatial relationships in datasets. The curriculum focuses on the theoretical foundations of spatial statistics and econometrics, including spatial autocorrelation, spatial regression models, and advanced topics such as space-time processes. Students will gain hands-on experience with tools like ArcGIS and R for data analysis and visualization.
+
+---
+
+### Prerequisites  
+**Mandatory:**  
+- **Econometrics I (ECO321)**  
+
+**Desirable:**  
+- **Statistical Inference (MTH372)**
+
+These prerequisites ensure that students have a solid foundation in statistical methods before delving into spatial data analysis. Desirable prerequisites may include additional background in computational tools or advanced statistics.
+
+---
+
+### Course Outcomes (COs)  
+1. **CO1:** Students will be able to understand the notion of spatial random processes and their basic underlying properties, such as stationarity.  
+2. **CO2:** Students will utilize spatial models for characterizing patterns, performing out-of-sample prediction, and spatial interpolation.  
+3. **CO3:** Students will propose and set up spatial regression models, specifying appropriate spatial dependence structures to analyze social/economic/physical relationships.  
+4. **CO4:** Students will use state-of-the-art software tools (e.g., ArcGIS, R) for visualizing and analyzing spatial data.  
+5. **CO5:** Students will apply these tools to study a specific spatial random process using real-world examples.
+
+---
+
+### Weekly Lecture Plan  
+
+#### Week 1  
+- Introduction to spatial data: types of spatial data (geostatistical, lattice, point).  
+- Spatial random processes and their properties (stationarity).  
+- Assignments: Introduction to spatial data analysis.  
+
+#### Week 2  
+- Spatial autocorrelation measures (Moran's I, Geary's C).  
+- Variogram and semi-variogram concepts.  
+- Assignments: Calculating spatial autocorrelation metrics.  
+
+#### Week 3  
+- Fitting variograms using estimation techniques (minimum norm quadratic, generalized least squares, etc.).  
+- Spatial prediction methods (kriging).  
+- Assignments: Variogram fitting and spatial interpolation exercises.  
+
+#### Week 4  
+- Spatial regression models: ordinary kriging and kriging with spatial covariance.  
+- Spatial prediction applications.  
+- Assignments: Case study on spatial regression modeling.  
+
+#### Week 5  
+- Spatial econometrics concepts: moving from spatial patterns to explanatory factors.  
+- Spatial dependence and heterogeneity in models.  
+- Assignments: Spatial dependence analysis using real-world datasets.  
+
+#### Week 6-7  
+- Spatial dependence structures: spatial contiguity matrix, generalized spatial weight matrix, and spatial lag operators.  
+- Applications of spatial dependence concepts.  
+- Assignments: Analysis of spatial dependence in case studies.  
+
+#### Week 8  
+- Spatial externalities: global and local Moran's I statistics.  
+- Case studies on spatial externalities.  
+- Assignments: Moran's I analysis for spatial externalities.  
+
+#### Week 9-10  
+- Estimation techniques for spatial models (maximum likelihood, hypothesis testing).  
+- Likelihood ratio tests and Lagrange multiplier tests.  
+- Assignments: Spatial model estimation and hypothesis testing.  
+
+#### Week 11  
+- Applications of spatial regression models using ArcGIS and Python.  
+- Case studies on practical applications.  
+- Assignments: Hands-on exercises with spatial regression tools.  
+
+#### Week 12  
+- Advanced applications in R for spatial data analysis.  
+- Case studies on advanced spatial econometric modeling.  
+- Assignments: Spatial analysis using R.  
+
+#### Week 13 (if time permits)  
+- Space-time processes: STMA, STAR, and STARMA models.  
+- Applications of space-time models.  
+- Assignments: Analysis of space-time data.  
+
+---
+
+### Assessment Plan  
+
+| **Type of Evaluation** | **% Contribution in Grade** | **Weeks Involved** |  
+|--------------------------|----------------------------|--------------------|  
+| Quizzes/Assignments (4)   | 25                         | Throughout the course |  
+| Project                  | 25                         | Ongoing             |  
+| Midsem                  | 20                         | Week 9              |  
+| Endsem                  | 30                         | Week 13            |  
+
+---
+
+### Resource Materials  
+
+- **Textbook:** *Statistics for Spatial Data* by Noel A. C. Cressie (Wiley-Interscience Publication).  
+- **Reference Book:** *Spatial Econometrics: Methods and Models* by Luc Anselin (Kluwer Academic Press).  
+- **Additional Reading:** *Introduction to Spatial Econometrics* by James Le Sage and R. Kelley Pace (Taylor and Francis/CRC).  
+
+---
+
+This structured course provides a comprehensive understanding of spatial statistics and econometrics, equipping students with the necessary tools and knowledge to analyze and model spatial data effectively.

@@ -1,0 +1,115 @@
+{
+  "Course Code": "MTH343/543",
+  "Course Name": "Introduction to Dynamical Systems",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "Dynamical systems is the mathematical formalism that describes the time evolution of a point in an appropriate space. This formalism has lead to the development of a rich theory which is of interest to both pure and applied mathematicians as it has found application in physics, biology, chemistry and several branches of engineering. This course starts with a systematic study of features and mechanisms dictating behaviour of 1-D dynamical systems (bifurcation, transitivity, periodic points, Devaney chaos) and their application to well known examples (logistic family, tent map, shift map, etc). The second half of the course is dedicated to the study of phenomena from dynamical systems of dimension greater than one. It discusses applications of the Perron-Frobenius Theorem, concept of hyperbolicity, Lotka-Volterra equations, and time permitting symbolic dynamical systems.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Linear Algebra (MTH100), Multivariable Calculus (MTH203), Real Analysis - I (MTH240); Or equivalent set of courses",
+      "ODE/PDE (MTH204), Real Analysis - II (MTH340), Advanced Linear algebra (MTH510)"
+    ],
+    "Desirable": [
+      "ODE/PDE (MTH204), Real Analysis - II (MTH340), Advanced Linear algebra (MTH510)"
+    ],
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Students can define the basic features (attractor, repeller, periodic points, etc) of a dynamical systems. They can construct example demonstrating those features.",
+    "CO2": "Students can explain the behaviour changes of a 1-D dynamical system with change in parameter using the logistic family.",
+    "CO3": "Students can explain various notions adding to the complexity of a dynamical system. They can use standard mechanisms to identify those behaviours in popular examples of 1D dynamical systems.",
+    "CO4": "Students can explain different types of complex behaviors arising in discrete time dynamical systems in dimensions greater than 1. They will be able to apply those notions."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Overview of dynamical systems; First examples",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Newton's method; Attractors and Repellers; Cobweb diagrams",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Bifurcation analysis; Examples: Logistic family of maps",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Sharkovsky's Theorem, Singer's theorem; Examples: Logistic family of maps",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Equivalence, Transitivity, Devaney Chaos, Sensitivity to initial conditions; Examples: Logistic family of maps, tent map, sawtooth transformation, shift map",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "The Perron-Frobenius Theorem (statement only) and its applications; Examples: Leslie model of population growth, Markov chains",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Review of analysis (no proofs): Contraction mapping principle, Inverse function theorem, Implicit function theorem, Existence theorem for solutions of differential equations",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Hyperbolicity; Examples: Arnold's cat map",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Lotka-Volterra equations; R\u00f6ssler attractor; Lorenz system",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Symbolic dynamics, Topological Entropy, connections to Information theory",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignment/Labs/Tutorial": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "20%",
+    "Midsem": "20%",
+    "Project presentation": "30%",
+    "Endsem": "30%"
+  },
+  "Resource Material": {
+    "Textbook": "(1) Dynamical systems by Shlomo Sternberg (http://www.math.",
+    "Reference Book": "(1) A First Course in Dynamics: with a Panorama of Recent Developments by B. Hasselblat and A. Katok; (2) Introduction to the Modern Theory of Dynamical Systems (Encyclopedia of Mathematics and its Applications) by A. Katok and B. Hasselblat; (3) Nonlinear dynamics and Chaos (With Applications to Physics, Chemistry and Engineering) by S.H. Strogatz; (4) An Introduction to Chaotic Dynamical Systems by R. Devaney"
+  }
+}

@@ -1,0 +1,61 @@
+**Course Overview**
+
+The course MTH374/MTH574, titled "Linear Optimisation," is a 4-credit course offered to both Undergraduate (UG) and Postgraduate (PG) students. This course provides an introduction to optimization techniques with a focus on linear programming, emphasizing the structural and algorithmic aspects of solving optimization problems. The curriculum is designed to balance theoretical concepts and practical applications, preparing students to analyze algorithms, formulate linear programs, and solve real-world problems using computational tools.
+
+**Prerequisites**
+
+To successfully engage with this course, students are expected to have a foundational understanding of **Linear Algebra** and **Introduction to Programming**, as these form the core prerequisites. No other specific pre-requisites are listed in the provided data.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Formulate linear optimization problems into their standard mathematical forms.
+2. **CO2:** Apply algorithms such as the simplex and interior point methods to solve optimization problems.
+3. **CO3:** Utilize solvers to find optimal solutions for moderately sized problems, including both theoretical and practical applications.
+4. **CO4:** Understand how to model real-world problems using linear programming techniques.
+
+**Weekly Syllabus and Topics**
+
+The course is structured over 13 weeks, with each week focusing on specific topics that build upon the previous ones:
+
+- **Week 1:** Review of Linear Algebra concepts essential for optimization.
+- **Week 2:** Introduction to linear optimization problems through real-world examples.
+- **Week 3:** Geometry of linear programming and its applications.
+- **Week 4:** Further exploration of the geometry of linear programming.
+- **Week 5:** Application of the Simplex Method in solving optimization problems.
+- **Week 6:** Continuation of the Simplex Method with additional problem-solving exercises.
+- **Week 7:** Introduction to Duality Theory and its implications in optimization.
+- **Week 8:** Advanced topics in Duality Theory, including Theorem of the Alternative.
+- **Week 9:** Exploration of the Ellipsoid Method and Interior Point Methods.
+- **Week 10:** Focus on Network Flow Problems and their solutions.
+- **Week 11:** Introduction to Semi-definite Programs (SDPs) with real-world applications.
+- **Week 12:** Formulating Integer Programming problems and their solutions.
+- **Week 13:** Overflow topics, including advanced case studies or additional resources.
+
+**Assignments**
+
+Assignments are a critical component of the course, designed to reinforce theoretical concepts through practical application. These include:
+
+- **Week 1:** Theory-based assignment on problem formulation.
+- **Weeks 2–5:** Coding assignments focusing on algorithm implementation and problem-solving.
+- **Weeks 6–8:** Additional coding assignments with more complex problems.
+- **Weeks 9–10:** Coding assignments emphasizing practical optimization techniques.
+- **Week 13:** Overflow assignment, allowing students to explore advanced topics or real-world applications.
+
+**Assessment Strategy**
+
+The course assessment is structured as follows:
+
+- **Assignments:** Contribute 40% of the final grade, with various coding and theoretical tasks reinforcing learning outcomes.
+- **Midsem Exam:** Accounts for 25% of the grade, focusing on foundational concepts covered in the first half of the course.
+- **Endsem Exam:** Contributes 35% to the final grade, covering comprehensive material from the entire syllabus.
+
+**Learning Resources**
+
+Students are provided with essential resources to support their learning:
+
+- **Textbook:** "Introduction to Linear Optimization" by D. Bertsimas and John N. Tsitsiklis.
+- **Reference Book:** Additional materials for deeper understanding and reference.
+
+This structured approach ensures a comprehensive and balanced learning experience, equipping students with the necessary skills and knowledge in linear optimization.

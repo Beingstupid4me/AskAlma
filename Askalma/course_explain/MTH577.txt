@@ -1,0 +1,69 @@
+### Course Overview  
+The course titled **Convex Optimization** (Course Code: MTH377/MTH577) is designed for both undergraduate and postgraduate students. It provides an in-depth exploration of convex optimization problems, their mathematical theory, and efficient algorithms. The course emphasizes the foundational concepts of convex sets and functions, which serve as a cornerstone for understanding and solving various real-world optimization challenges across disciplines such as economics, operations research, and engineering. The primary objective is to equip students with the theoretical knowledge and practical skills to recognize, formulate, and solve convex optimization problems effectively.
+
+---
+
+### Prerequisites  
+The course requires **MTH100** (Calculus) and **MTH203** (Linear Algebra) as mandatory prerequisites. Students should have a solid understanding of basic calculus concepts and linear algebra principles before enrolling in this course. Additional prerequisite details or materials are available upon request.
+
+---
+
+### Learning Outcomes  
+By the end of this course, students will be able to:  
+- **CO1:** Understand and apply the structure theory of convex sets and functions.  
+- **CO2:** Formulate and solve convex optimization problems using appropriate algorithms.  
+- **CO3:** Recognize and utilize duality theory in convex optimization.  
+- **CO4:** Analyze sensitivity and perform complementary slackness analysis for optimal solutions.  
+- **CO5:** Apply convex optimization techniques to real-world problems such as least squares approximation, linear classification, portfolio choice models, and principal agent models.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | COs Met   | Assignments/Labs/Tutorials |
+|-------------|-----------------------------------|------------|---------------------------|
+| 1           | Convex Sets - Affine Sets, Cones, Hyperplanes and Polyhedra | CO1        | Problem Set 1             |
+| 2-3         | Convexity Preserving Operations; Separating and Supporting Hyperplane Theorems | CO1       | Problem Set 1             |
+| 4           | Convex Functions and Properties; Convexity Preserving Operations | CO1       | Problem Set 2             |
+| 5           | Optimization Problems and Equivalent Transformations | CO2       | Problem Set 3             |
+| 6           | Lagrangian Dual Problem; Strong Duality and Slater’s Constraint Qualification | CO3      | Problem Set 4             |
+| 7           | Geometric and Economic Interpretation of Duality | CO3      | Problem Set 5             |
+| 8           | Complementary Slackness Condition of Optimality; Karush-Kuhn-Tucker Optimality Conditions | CO3     | Problem Set 6             |
+| 9           | Sensitivity Analysis               | CO3      | Problem Set 7             |
+| 10-11       | Applications - Least Squares Approximation, Linear Classification, Portfolio Choice Model, Principal Agent Model | CO2     | Problem Set 8             |
+| 12-13       | Unconstrained Nonlinear Problems; Gradient Descent Algorithm | CO2     | Problem Set 9             |
+
+---
+
+### Assessment Plan  
+The course assessment is designed to evaluate both theoretical understanding and practical application of convex optimization concepts. The evaluation components include:  
+
+- **Coding Assignment:** 20% (Assesses problem-solving skills using computational tools)  
+- **Quiz:** 20% (Evaluates understanding of fundamental concepts)  
+- **Midterm Exam:** 30% (Comprehensive assessment of material covered in the first half of the course)  
+- **Endterm Examination:** 30% (In-depth evaluation of advanced topics and overall understanding)
+
+The end-term examination carries a significant weightage, reflecting its importance in assessing students' mastery of the subject matter.
+
+---
+
+### Resource Materials  
+The primary textbook for this course is:  
+1. **Convex Optimization** by Stephen Boyd and Lieven Vanderberghe. This comprehensive resource forms the core of the course curriculum, covering all essential topics from convex sets to optimization algorithms.  
+
+Additional supporting references include:  
+- *Linear Algebra and Its Applications* by David Lay, Steven R. Lay, and Judi McDonald (for foundational linear algebra concepts).  
+- *Mathematics for Economists* by Carl Simon and Lawrence Blume (for applications in economics).  
+- *Nonlinear Programming* by Dimitri Bertsekas (for advanced optimization techniques).
+
+These resources are recommended for students seeking deeper insights into specific topics or additional practice problems.
+
+---
+
+### Additional Notes  
+- PhD students are required to complete additional research-oriented assignments under the guidance of faculty members.  
+- Insert more rows if needed: *(Placeholder for any additional details or requirements)*  
+
+--- 
+
+This structured narrative provides a comprehensive overview of the course, its prerequisites, learning outcomes, weekly schedule, assessment plan, and resource materials.

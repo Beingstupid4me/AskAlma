@@ -1,0 +1,69 @@
+### Course Overview  
+**Course Code:** CSE663  
+**Course Name:** Edge AI  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+
+This course is designed to provide an in-depth understanding of On-Device Artificial Intelligence (Edge AI), focusing on the development and implementation of intelligent systems directly on edge devices. The curriculum integrates advanced concepts from machine learning, deep learning, and cloud computing to prepare students for real-world applications in IoT, smart cities, and industrial automation.
+
+---
+
+### Prerequisites  
+**Mandatory Pre-requisites:** Machine Learning (CSE 343/543) or equivalent experience with Python-based machine learning frameworks like TensorFlow. A basic understanding of neural networks is highly recommended.  
+
+**Desirable Pre-requisites:** Familiarity with cloud computing platforms and exposure to edge computing technologies would be advantageous but are not mandatory.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Understand and explain the fundamental concepts of Edge AI and its applications in IoT and industry 4.0.  
+2. **CO2:** Design and implement intelligent systems on edge devices using machine learning and deep learning techniques.  
+3. **CO3:** Evaluate different frameworks and tools for deploying Edge AI solutions efficiently.  
+4. **CO4:** Analyze real-world problems and propose innovative solutions leveraging On-Device AI technologies.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                                                                                     | COs Met | Assignments                                                                                   |
+|-------------|---------------------------------------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------|
+| 1           | Introduction to On-Device AI, Edge Computing, Edge AI, Fog & Cloud Computing                       | CO1     | None                                                                                         |
+| 2-3         | Tensorflow Lite: Data Capturing, Cleaning, Labelling, Training Neural Networks                   | CO2     | Week 2: Assignment on basic TensorFlow Lite operations; Week 3: Quiz on data preprocessing       |
+| 4           | Techniques for Model Compression and Quantization                                               | CO1     | None                                                                                         |
+| 5-6         | Deep Learning Algorithms Implementation on Heterogeneous Platforms (GPU, FPGA)                 | CO2     | Week 5: Lab session on implementing models on GPUs; Week 6: Project proposal deadline        |
+| 7           | Heterogeneous Platforms for Edge Computing                                                       | CO3     | None                                                                                         |
+| 8           | Deep Learning Algorithms Implementation on Heterogeneous Platforms (GPU, FPGA)                 | CO2     | Week 8: Mid-Sem Exam and case study analysis                                               |
+| 9           | Popular Edge AI Platforms / Frameworks (Azure IoT Edge, Azure ML on Edge, XNOR AI, ONNX.AI)    | CO3     | Week 9: Assignment on selecting and deploying a framework                                      |
+| 10          | Introduction to Collective Intelligence (Swarm Intelligence), Concept, Capabilities, Models       | CO4     | Week 10: Group project on swarm intelligence applications                                     |
+| 11          | Introduction to Bonsai ML Technique                                                              | CO2     | None                                                                                         |
+| 12          | Bonsai ML Concept and Tensorflow Example                                                       | CO3     | Week 12: Lab session on implementing Bonsai ML models                                         |
+
+---
+
+### Assessment Strategy  
+
+| Type of Evaluation       | % Contribution in Grade | % Contribution in Grade        |
+|---------------------------|------------------------|------------------------------|
+| Assignment                 | 20%                    |                              |
+| Project                   | 25%                    |                              |
+| Quiz                     | 5%                     |                              |
+| Mid-Sem Exam              | 20%                    |                              |
+| End-Sem Examination       | 30%                    |                              |
+
+The end-semester examination carries a significant weight of **30%**, reflecting its importance in evaluating overall understanding and application of concepts.
+
+---
+
+### Learning Resources  
+
+**Textbook:**  
+*Practical Deep Learning for Cloud, Mobile, and Edge: Real-World AI & Computer-Vision Projects Using Python, Keras & TensorFlow* by Anirudh Koul, Siddha Ganju, Meher Kasam. ISBN-13: 978-1492034865 | ISBN-10: 149203486X  
+
+**Other Resources:**  
+- Online tutorials and documentation for TensorFlow Lite and Edge AI platforms.  
+- Additional reference materials will be provided as needed.
+
+--- 
+
+This structured approach ensures a comprehensive understanding of the course content, prerequisites, outcomes, and assessments, providing students with a clear roadmap to achieve their learning goals in Edge AI.

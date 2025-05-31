@@ -1,0 +1,68 @@
+**Course Overview**
+
+This course, coded as ECO313 and titled "Market Design," is a 4-credit course offered to undergraduate students. It provides an in-depth exploration of auction theory and its applications in real-world markets. The course aims to equip students with the analytical tools from economics and game theory necessary to understand and design mechanisms for resource allocation, such as auctions, spectrum rights, electricity generation, and more.
+
+**Prerequisites**
+
+The prerequisite for this course is ECO311 Game Theory. Students are expected to have a foundational understanding of game-theoretic concepts before enrolling in this course.
+
+**Learning Outcomes (COs)**
+
+By the end of this course, students will be able to:
+
+- **CO1**: Analyze bidder behavior in standard auction formats for selling single and multiple units of a good.
+- **CO2**: Understand and apply the analytical framework of mechanism design, which underpins modern auction theory.
+- **CO3**: Discuss the most important considerations that go into practical auction design.
+- **CO4**: Critically evaluate and design auctions based on real-world scenarios.
+
+**Weekly Lecture Plan**
+
+The course is divided into 12 weeks, each focusing on specific topics and learning outcomes:
+
+1. **Week 1**: Introduction to Auctions in a Private Values Environment; Revenue Equivalence Principle  
+   - Covered CO1: Students will understand the basic structure of auctions and how they function in environments where bidders have private values.
+
+2. **Week 34**: Mechanism Design and Revenue Maximizing Auctions  
+   - Covered CO2: Students will learn about mechanism design principles and how to design auctions that maximize revenue.
+
+3. **Week 34 (continued)**: VCG Mechanism and Bilateral Trade  
+   - Covered CO2: Further exploration of the VCG mechanism and its application in bilateral trade scenarios.
+
+4. **Week 5**: Collusion in Auctions  
+   - Covered CO3: Students will analyze the impact of collusion on auction outcomes and strategies to mitigate it.
+
+5. **Week 67**: Multi-unit Auctions of Homogenous Goods  
+   - Covered CO1: Students will understand how auctions function when multiple identical units are sold simultaneously.
+
+6. **Week 8**: Double Auctions  
+   - Covered CO1: Students will explore the dynamics of double auctions and their applications in various markets.
+
+7. **Week 9**: Matching Markets and Deferred Acceptance Algorithm  
+   - Covered CO2: Students will learn about matching markets and the deferred acceptance algorithm used to match agents in such environments.
+
+8. **Weeks 10, 11 (continued)**: Combinatorial Auctions  
+   - Covered CO1 & CO3: Students will study combinatorial auctions and their role in complex market settings.
+
+9. **Week 1213**: Student Presentations  
+   - Covered CO3: Students will present on topics related to auction design, demonstrating their understanding of practical applications.
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate students' understanding of theoretical concepts as well as their ability to apply these concepts in practical scenarios. The breakdown is as follows:
+
+- **Assignments (50%)**: Bi-weekly assignments will be given to reinforce the topics covered in lectures and readings.
+- **Endterm Examination (30%)**: A comprehensive examination at the end of the course will assess students' grasp of the core concepts.
+- **Student Presentation (20%)**: Students will present on a topic related to auction design, showcasing their ability to analyze and communicate complex ideas.
+
+**Learning Resources**
+
+The following resources are recommended for this course:
+
+1. **Textbooks**:
+   - Vijay Krishna, *Auction Theory*, Academic Press
+   - Paul Milgrom, *Putting Auction Theory to Work*, Cambridge University Press
+   - Cramton, Shoham, Steinberg, *Combinatorial Auctions*, MIT Press
+
+2. **Additional Resources**: Four textbooks and additional assigned papers will be provided as supplementary materials.
+
+This course is designed to provide students with a comprehensive understanding of auction theory and its practical applications. By the end of the course, students should be able to analyze auctions critically and design mechanisms that align with real-world objectives.

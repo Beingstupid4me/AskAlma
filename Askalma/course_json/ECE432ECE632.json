@@ -1,0 +1,70 @@
+{
+  "Course Code": "ECE432 / ECE632",
+  "Course Name": "Radar Systems",
+  "Credits": 4,
+  "Course Offered to": "UG / PG",
+  "Course Description": "The course aims to introduce the principles of radar systems to senior undergraduate and graduate students. The course will combine system perspectives, radar phenomenology concepts such as radar cross-section and clutter, and popu | The course aims to introduce the principles of radar systems to senior undergraduate and graduate students. The course will combine system perspectives, radar phenomenology concepts such as radar cross-section and clutter, and popu | The course aims to introduce the principles of radar systems to senior undergraduate and graduate students. The course will combine system perspectives, radar phenomenology concepts such as radar cross-section and clutter, and popu",
+  "Prerequisites": {
+    "Mandatory": "Signals and Systems",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Derive radar systems parameters such as bandwidth, carrier frequency, waveform, power etc. for achieving specific radar characteristics.",
+    "CO2": "Process radar signals to estimate range, velocity and angular positions of targets",
+    "CO3": "Explain the functionalities some common radar applications.",
+    "CO4": "Explain the functionalities some common radar applications."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction - What is radar?, Basic parts of a radar, radar range equation, Information available from a radar, Radar frequencies",
+      "COs Met": [
+        "C01"
+      ],
+      "Assignments": "Reading Assignment, homework"
+    },
+    {
+      "Week": "2, 3",
+      "Lecture Topic": "Radar Phenomenology - Radar cross section (simple and complex shapes), propagation, clutter and noise",
+      "COs Met": [
+        "C01"
+      ],
+      "Assignments": "Reading Assignment, homework"
+    },
+    {
+      "Week": "4, 5",
+      "Lecture Topic": "Types of radar - Impulse radar, Doppler radar, MTI and Pulse Doppler Radar, Stepped Frequency and FMCW radar",
+      "COs Met": [
+        "C01"
+      ],
+      "Assignments": "Reading Assignment, homework"
+    },
+    {
+      "Week": "6, 7, 8, 9",
+      "Lecture Topic": "Radar signal processing - Matched filter, Pulse compression, Synthetic aperture radar and inverse synthetic aperture radar, digital beamforming, space time adaptive processing",
+      "COs Met": [
+        "C02"
+      ],
+      "Assignments": "Reading Assignment, homework"
+    },
+    {
+      "Week": "10, 11, 12",
+      "Lecture Topic": "Brief Discussion on Common Radar applications - military radar, remote sensing radar, airport surveillance radar, weather / meteorological radar, police radar, ground penetration radar, through-wall radar, automobile radar",
+      "COs Met": [
+        "C03"
+      ],
+      "Assignments": "Reading Assignment, homework"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "10",
+    "Midsem": "25",
+    "HW assignments": "15",
+    "Endsem": "30"
+  },
+  "Resource Material": {
+    "Textbook": "High resolution radar, David Werner",
+    "Reference Book": "Radar Cross Section, SciTech Publishing , E. F. Knott, J. F Shaeffer and M. T. Tuley"
+  }
+}

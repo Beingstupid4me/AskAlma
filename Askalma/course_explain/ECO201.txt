@@ -1,0 +1,82 @@
+### Course Overview  
+**Course Name:** Macroeconomics  
+**Course Code:** ECO201  
+**Credits:** 4  
+**Offered To:** Undergraduate Students (UG)  
+
+This course provides an introduction to the fundamental models of macroeconomics, focusing on analyzing aggregate behavior within economies. It covers key topics such as macroeconomic models, demand and supply analysis, fiscal and monetary policy, inflation, unemployment, and economic growth. The course is designed to equip students with the ability to understand and evaluate macroeconomic policies and their impacts on various sectors of the economy.
+
+---
+
+### Prerequisites  
+- **Mandatory:** None specified.  
+- **Desirable:** A basic understanding of microeconomics and economics principles is recommended but not required.  
+- **Other:** None specified.  
+
+Students are expected to have a foundational knowledge of economic concepts, though this course will build upon those basics.
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+
+1. **CO1:** Explain basic macroeconomic models and their application in analyzing aggregate behavior using supply and demand frameworks.  
+2. **CO2:** Understand key macroeconomic variables, including inflation, unemployment, and income distribution, and calculate them effectively.  
+3. **CO3:** Analyze medium- and long-run price adjustments and their impact on equilibrium income and other macroeconomic factors.  
+4. **CO4:** Examine the role of money in the economy and evaluate the effects of monetary policy changes on economic growth, inflation, and employment.  
+5. **CO5:** Assess the impact of macroeconomic shocks, such as fiscal policy actions, on inflation and unemployment, while also understanding the role of government debt and deficits.
+
+---
+
+### Weekly Lecture Plan  
+
+| Week Number | Lecture Topic                     | Course Outcomes Met (COs) | Assignments/Labs/Tutorials | Additional Notes                                                                 |
+|-------------|-----------------------------------|---------------------------|----------------------------|---------------------------------------------------------------------------------|
+| 1           | Introduction to Macroeconomics    | CO1, CO2                  | N/A                         | - Overview of macroeconomics framework                                           |
+| 2           | Measuring GDP, Growth and Prices | CO1, CO2                  | Assignment: GDP calculation   | Week 3 will focus on inflation and unemployment.                                  |
+| 3           | Inflation and Unemployment       | CO2, CO5                  | Assignment: Unemployment rate | Midterm Exam 1 is scheduled for Week 4.                                           |
+| 4           | The Goods Market (Aggregate Demand and Aggregate Supply) | CO1                   | Assignment: Aggregate demand analysis | Week 5 will include a midterm exam.                                                  |
+| 5           | Midterm 1                        | N/A                       | N/A                         | - Covers Weeks 1–4 material                                                   |
+| 6           | The Goods Market (Aggregate Demand and Aggregate Supply) | CO1                   | Assignment: Aggregate supply analysis | Week 7 will focus on capital investments.                                           |
+| 7           | Capital Investments and Savings   | CO1, CO2                  | Assignment: Savings rate      | Week 8 includes a writing assignment.                                              |
+| 8           | Fiscal Policy and Budget Deficits | CO2, CO5                  | Assignment: Fiscal policy analysis | Midterm Exam 2 is scheduled for Week 9.                                           |
+| 9           | Money Market, Banking, and Monetary Policy | CO2, CO4    | Assignment: Monetary policy impact | Exchange rates and balance of payments will be covered in Week 10.                   |
+| 10          | Midterm 2                        | N/A                       | N/A                         | - Covers Weeks 5–9 material                                                   |
+| 11          | Government Debts and Deficits. Exchange rates and the Balance of Payments. | CO2, CO5                  | Assignment: Exchange rate analysis | Week 12 will focus on economic growth in the long run.                             |
+| 12          | Economic Growth in the Long-Run   | CO3                    | Assignment: Growth determinants | Review of syllabus is scheduled for Week 13.                                      |
+| 13          | Review of Syllabus               | N/A                       | N/A                         | - Comprehensive review of all topics covered during the course                      |
+
+---
+
+### Assessment Strategy  
+
+The course assessment is designed to evaluate both theoretical understanding and practical application of macroeconomic concepts. The breakdown is as follows:  
+
+- **Homework Assignments (5):** 20% Contribution  
+  - Includes weekly problem sets, analysis of economic data, and case studies.  
+  - Late submissions will incur a penalty of up to 10%.  
+
+- **Writing Assignments (2):** 20% Contribution  
+  - Two essays on key macroeconomic topics, such as the impact of fiscal policy or the role of monetary policy in managing inflation.  
+  - Students are encouraged to use real-world examples and data for their analyses.  
+
+- **Mid-Semester Exam (2):** 30% Contribution  
+  - Covers material from Weeks 1–9.  
+  - The exam will include both multiple-choice questions and short-answer problems.  
+
+- **Final Exam:** 30% Contribution  
+  - Comprehensive exam covering all course material, including case studies and policy analysis.  
+  - Students are advised to review all lecture notes and assignments before the final exam.
+
+---
+
+### Learning Resources  
+
+1. **Textbooks**  
+   - Krugman, P., & Wells, R. (2023). *Macroeconomics* (2nd edition).  
+   - Mankiw, N.G. (2023). *Principles of Macroeconomics* (6th edition).  
+
+2. **Other Useful Textbooks**  
+   - Froyen, R.T. (2021). *Macroeconomics: Theories and Policies* (10th edition).  
+
+These resources provide comprehensive coverage of the course content and are recommended for deeper understanding and reference. Additional supplementary materials, including lecture slides and online resources, will be made available on the course platform.

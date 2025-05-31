@@ -1,0 +1,154 @@
+{
+  "Course Code": "SOC302",
+  "Course Name": "Urban Sociology",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "",
+  "Prerequisites": {
+    "Mandatory": [
+      "SOC101"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "The students will be able to define and contextualize the idea of city, urbanism and Urbanization.",
+    "CO2": "They will be able to Identify issues, phenomena and processes associated with urban spaces.",
+    "CO3": "",
+    "CO4": "They will be able to propose technology-based solution/ideas for urban processes."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introducing the City",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Quiz 1"
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Conceptualising City (Mumford and Weber)",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "Quiz 2"
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Contextualising the City",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Home Assignment"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Rural in Urban",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Urban beyond the city: Suburban and Periurban",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": "Quiz 3"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Class-ing it up: Gentrification",
+      "COs Met": [
+        "CO2"
+      ]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Whose City is it, anyway: Urban Spatial Segregation",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Review of concept papers on urban issue and technology identified by"
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Contested City and Right to the City: Experience from the Margins",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "Quiz 4"
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Global Cities and the World City Hypothesis",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Home Assignment 2"
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Smart Cities in Information Age",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Quiz 5"
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Technically Right: Network Technology and the Science of Cities",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ]
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Group Presentations",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": "Final Group Project Submissions"
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Summing up and Review",
+      "COs Met": []
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [
+      "Quiz 1",
+      "Quiz 2",
+      "Quiz 3",
+      "Quiz 4",
+      "Quiz 5"
+    ],
+    "Midsem": "Mid Term Examination",
+    "HW assignments": [
+      "Home Assignment",
+      "Home Assignment 2"
+    ],
+    "Endsem": "End Term Exam"
+  },
+  "Resource Material": {
+    "Textbook": [
+      "The Urban Sociology Reader",
+      "Urban Sociology in India: Reader and Source Book",
+      "The New Urban Sociology"
+    ],
+    "Reference Book": [
+      "The Urban Sociology Reader",
+      "Urban Sociology in India: Reader and Source Book",
+      "The New Urban Sociology"
+    ]
+  }
+}

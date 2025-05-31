@@ -1,0 +1,49 @@
+**Course Overview**
+
+The course CSE633A, titled "Social Robotics" is a 2-credit module offered to both undergraduate (UG) and postgraduate (PG) students within the Computer Science and Engineering (CSE) department. This course provides an in-depth exploration of social robotics, focusing on its distinctiveness from traditional robotics, its applications across various domains, and human-robot interaction techniques. The curriculum is designed to equip students with a comprehensive understanding of the field, emphasizing both theoretical knowledge and practical skills.
+
+**Prerequisites**
+
+The course does not require any mandatory prerequisites. However, it is recommended that students have a basic understanding of robotics principles, computer science fundamentals, and an interest in human-robot interaction. Desirable prerequisites include familiarity with programming concepts and exposure to real-world applications of technology.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+
+1. **CO1:** Analyze the main challenges and opportunities associated with social robots.
+2. **CO2:** Assess the design and interaction abilities of a social robot.
+3. **CO3:** Predict the potential consequences of human-robot interactions in diverse scenarios and propose solutions using Ethical, Legal, and Social Implications (ELS) rules.
+4. **CO4:** Understand the ethical, legal, and societal implications of social robotics.
+
+**Weekly Syllabus**
+
+The course is structured into eight weekly sessions:
+
+1. **Week 1:** Introduction to Social Robotics - Understanding its differences from traditional robotics and exploring its applications.
+2. **Week 2:** Social Robots: Embodiment and Design - Focusing on how robots are designed to be understood by humans.
+3. **Week 3:** Social Robots' Skill Set - Covering social emotional intelligence (SEI) and socio-cognitive skills necessary for interaction.
+4. **Week 4:** Social Robots and Communication Skills - Exploring effective communication methods with humans.
+5. **Week 5:** Case Studies on Human Responses to Social Robots - Analyzing case studies involving individuals with autism, intellectual disabilities, and the elderly.
+6. **Week 6:** Ethical, Legal, and Social Implications of Social Robotics - Discussing implications through invited lectures.
+7. **Week 7:** Research Readings - Assignments based on provided research papers.
+8. **Week 8:** Mini-Project - Applying learned concepts to develop a social robot project.
+
+**Assessment Strategy**
+
+The course assessment is designed to evaluate both theoretical understanding and practical application:
+
+- **Class Participation (10%)**: Active engagement in discussions and group activities.
+- **Assignments (20%)**: Practical tasks completed during the course weeks.
+- **Quiz (10%)**: A formative assessment focusing on key concepts.
+- **Mini-Project (30%)**: An individual or group project demonstrating practical skills.
+- **End-Semester Examination (30%)**: Comprehensive evaluation of all course topics.
+
+**Learning Resources**
+
+Students are provided with essential resources, including:
+
+- **Textbook:** "Social Robotics: Design, Control, and Applications" by B.C. Arumugam et al., which serves as the primary reference.
+- **Research Papers:** Additional materials will be provided throughout the course for deeper understanding.
+- **Other Resources:** Access to supplementary materials and updates via the course platform.
+
+This structured approach ensures a well-rounded learning experience, combining theoretical knowledge with hands-on practical skills.

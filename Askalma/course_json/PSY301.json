@@ -1,0 +1,186 @@
+{
+  "Course Code": "PSY301",
+  "Course Name": "Cognitive Psychology",
+  "Credits": "4",
+  "Course Offered to": "UG",
+  "Course Description": "In this introductory course we investigate the mechanisms of human thinking. Particularly we will explore the basic mental processes such as how our brains let us \u201cview\u201d and \u201cunderstand\u201d the world, how our perceptions depend on our current state of attention, and how our memories and perceptions can change over time with our own experiences. In this process of better understanding the human mind, we\u2019ll discuss language abilities and the mental representation of concepts and schemas. We\u2019ll also look at various actions that people take in different situations\u2014from simple visual illusions, to strategic higher order decisions to grave mistakes in higher-level decision-making. In this context we will discuss how these \u201csuccesses\u201d and \u201cfailures\u201d provide unique insights into the mechanisms of human thinking.",
+  "Prerequisites": {
+    "Mandatory": [
+      "PSY201 Introduction to Psychology"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Students will understand the historical development of the field of cognitive psychology",
+    "CO2": "The students will be able to recognize several theories, and compare and contrast these theories in terms of their underlying processes and their performance predictions",
+    "CO3": "Students will be able to generate and explain examples that demonstrate or test theories or concepts within various cognitive psychology domains",
+    "CO4": "Students will be able to apply principles and theories to real world contexts and problems",
+    "CO5": "Students will be able to explain the various neuroscience measures (CT scans, PET scans, fMRI\u2019s) and how they are used to provide evidence for cognitive theories"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "Week-1",
+      "Lecture Topic": "History and foundations of Cognitive psychology",
+      "COs Met": [
+        "CO-1"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-2",
+      "Lecture Topic": "Brain and Cognition- Brain and cognition",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-3",
+      "Lecture Topic": "Attention- Theories of Attention",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-4",
+      "Lecture Topic": "Perception- Visual perception",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-5",
+      "Lecture Topic": "Memory- Models of Memory",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-6",
+      "Lecture Topic": "Memory-Encoding",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-7",
+      "Lecture Topic": "Storage / Retrieval- Visual storage",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-8",
+      "Lecture Topic": "Organization of Knowledge-Declarative vs. Procedural",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-9",
+      "Lecture Topic": "Language-1-Listening",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-9",
+      "Lecture Topic": "Language and Thought",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-10",
+      "Lecture Topic": "Reasoning-Inductive | Deductive reasoning",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-11",
+      "Lecture Topic": "Creativity-Creative thinking",
+      "COs Met": [
+        "CO-2",
+        "CO-3",
+        "CO-4"
+      ],
+      "Assignments": "N/A"
+    },
+    {
+      "Week": "Week-12",
+      "Lecture Topic": "Research methods in cognitive psychology",
+      "COs Met": [
+        "CO-5"
+      ],
+      "Assignments": "N/A"
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": [
+      {
+        "Type": "Homework Assignments",
+        "% Contribution": "20%"
+      },
+      {
+        "Type": "Exam 1",
+        "% Contribution": "25%"
+      },
+      {
+        "Type": "Exam 2",
+        "% Contribution": "25%"
+      },
+      {
+        "Type": "Exam 3",
+        "% Contribution": "30%"
+      },
+      {
+        "Type": "In class quizzes",
+        "% Contribution": "10%"
+      }
+    ],
+    "Midsem": null,
+    "HW assignments": [
+      "Homework Assignments"
+    ],
+    "Endsem": null
+  },
+  "Resource Material": {
+    "Textbook": [
+      "PSY301"
+    ],
+    "Reference Book": [
+      "Sternberg, R. J. & Sternberg, K. (2017). Cognitive Psychology. Belmont, CA: Wadsworth"
+    ]
+  }
+}

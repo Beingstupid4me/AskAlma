@@ -1,0 +1,45 @@
+### Course Overview  
+The course **BIO522: Algorithms for Computational Biology** is a 4-credit module designed for students in both undergraduate (UG) and postgraduate (PG) programs. This introductory course aims to equip students with foundational knowledge of algorithm design techniques and their practical applications in solving complex problems within molecular biology. The curriculum emphasizes hands-on training in software tools commonly used for genomic data analysis, preparing students to tackle real-world biological challenges effectively.
+
+### Prerequisites  
+To successfully engage with this course, students are expected to have a basic understanding of **structural programming** and familiarity with **molecular biology** concepts. These prerequisites ensure that students can grasp the algorithmic techniques and their biological applications without prior exposure to advanced computational methods.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Design algorithms using fundamental techniques such as greedy, divide-and-conquer, and dynamic programming.  
+- **CO2**: Analyze algorithms from a computational complexity perspective to evaluate their efficiency.  
+- **CO3**: Utilize common bioinformatics tools to address practical problems in molecular biology.  
+- **CO4**: Implement algorithms using essential data structures like arrays, graphs, and trees.  
+
+These outcomes are integral to the course's objective of bridging algorithmic theory with biological applications.
+
+### Weekly Lecture Plan  
+The course is structured into 13 weekly lectures, each focusing on specific topics that build upon one another:  
+
+- **Week 1**: Introduction to algorithms in computational biology, including basic concepts like algorithm design techniques and computational complexity. Assignments are designed to reinforce these foundational ideas.  
+- **Week 2**: Overview of molecular biology principles and data types relevant to computational analysis. Labs provide practical experience with these concepts.  
+- **Weeks 3–5**: In-depth exploration of sequence alignment algorithms, including pairwise, global, local, and multiple alignments. Assignments during this period focus on applying these techniques to real datasets.  
+- **Week 6**: Advanced topics in genome assembly, utilizing dynamic programming for shortest common superstring problems. Labs continue to deepen understanding through practical implementation.  
+- **Weeks 7–9**: Regulatory motif discovery is covered using brute force and greedy algorithms. The Pattern Branching algorithm is introduced as a more advanced approach.  
+- **Weeks 10–12**: Analysis of bulk and single-cell expression data, including normalization, dimension reduction, clustering, biclustering, and differential expression analysis. Labs provide hands-on experience with these techniques.  
+- **Week 13**: Student presentations on course projects, allowing them to showcase their understanding of the material.  
+
+### Assessment Strategy  
+The course employs a comprehensive assessment strategy to evaluate student learning:  
+- **Assignments (10% each)**: Regular assignments are designed to assess practical application of concepts covered in lectures.  
+- **Project (10%)**: A final project enables students to integrate their knowledge and skills, providing an opportunity for deeper exploration of course topics.  
+- **Quizzes (15% each)**: Quizzes are used to evaluate understanding of key concepts, with significant weightage given to mid-sem examination.  
+- **Laboratory Work (20%)**: Labs are integral to the learning process, with grades reflecting both participation and practical proficiency.  
+- **Mid-Sem Examination (15%)**: This exam assesses students' grasp of foundational material covered in the first half of the course.  
+- **End-Sem Examination (30%)**: The final examination carries a significant weightage, reflecting its role in evaluating overall understanding and application of course concepts.
+
+### Resource Materials  
+The course provides essential resources to support learning:  
+- **Textbooks**:  
+  - Kleinberg, Jon, and Eva Tardos. *Algorithm Design*. Pearson Education India, 2006.  
+  - Jones, Neil C., and Pavel Pevzner. *An Introduction to Bioinformatics Algorithms*. MIT Press, 2004.  
+
+These texts are foundational for understanding both algorithm design and their biological applications.
+
+### Conclusion  
+This course offers a well-rounded approach to computational biology, combining theoretical knowledge with practical skills. Through structured lectures, assignments, and assessments, students gain the expertise needed to tackle complex biological problems using advanced algorithms. The integration of hands-on training ensures that students are not only knowledgeable but also proficient in applying their learning to real-world scenarios.

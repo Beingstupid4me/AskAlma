@@ -1,0 +1,57 @@
+### Course Overview  
+**Course Code:** CSE631  
+**Course Name:** Advanced Operating Systems  
+**Credits:** 4  
+**Offered To:** Undergraduate/Postgraduate (UG/PG)  
+**Course Description:** This course delves into the design and implementation of modern operating systems. Students will explore various types of kernels, including monolithic, lightweight, embedded, and distributed systems. The curriculum emphasizes understanding trade-offs between performance, safety, and complexity, as well as leveraging programming languages to build efficient software stacks. Assignments and readings will focus on real-world applications and research papers.  
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisite:** CSE231 Operating Systems  
+**Desirable Prerequisites:** None specified.  
+**Other Requirements:** Basic understanding of computer architecture and programming concepts is recommended.  
+
+---
+
+### Course Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1:** Understand the design principles of different operating system kernels and identify the appropriate OS for a given application.  
+- **CO2:** Exploit memory safety vulnerabilities in applications and comprehend alternative OS designs to prevent such exploitation.  
+- **CO3:** Analyze trade-offs between performance, safety, and complexity in operating systems.  
+- **CO4:** Compare lightweight and monolithic OS kernels, understanding their respective advantages and disadvantages.  
+
+---
+
+### Weekly Lecture Plan  
+**Week 1:** Introduction to Unix Systems - Overview of Unix, history, and its role in modern operating systems.  
+**Week 2:** Introduction to X86 Assembly - Basics of assembly language and its relevance to kernel development.  
+**Week 3:** Exokernel - Exploring the concept of user-space kernels and their applications.  
+**Week 4:** Microkernel - Detailed study of microkernels, including design principles and examples.  
+**Week 5:** Security in Computer Systems - Understanding security challenges and solutions in operating systems.  
+**Week 6:** Information Flow Control - Mechanisms for controlling information flow in secure systems.  
+**Week 7:** HiStar OS - Case study on a real-world embedded OS implementation.  
+**Week 8:** Managed Languages - Introduction to managed languages and their use in OS development.  
+**Week 9:** Singularity OS - Exploring the design and applications of lightweight operating systems.  
+**Week 10:** Introduction to Rust - Rust's role in building efficient and safe OS components.  
+**Week 11:** Embedded OS - Design considerations for embedded systems and their impact on kernel development.  
+**Week 12:** Distributed Systems - Overview of distributed OS design and its challenges.  
+**Week 13:** Barrelfish OS - Case study on a modern distributed OS implementation.  
+
+---
+
+### Assessment Plan  
+The course assessment is divided as follows:  
+- **End-Semester Examination (40%)**: Comprehensive evaluation of the course material.  
+- **Mid-Semester Examination (30%)**: Midterm exam covering first half of the syllabus.  
+- **Assignments (20%)**: Practical tasks and programming exercises related to kernel development.  
+- **Quiz (10%)**: Short quizzes to assess understanding of key concepts.  
+
+---
+
+### Learning Resources  
+**Textbook:** None specified.  
+**Reading Materials:** Links to research papers will be provided for further reading and exploration.  
+
+---  
+This narrative provides a comprehensive overview of the course structure, ensuring all aspects are covered in detail while maintaining clarity and flow.

@@ -1,0 +1,67 @@
+### Course Overview  
+**Course Code:** ECE537  
+**Course Name:** Wireless Communication: Evolution from 3G to 5G  
+**Credits:** 4  
+**Offered To:** Undergraduate and Postgraduate students (UG / PG)  
+**Course Description:** This course provides an in-depth exploration of the evolution of wireless communication standards, focusing on the transition from 3G to 5G. It covers advanced topics such as channel capacity under various conditions, multiple access techniques, cellular system design, and emerging technologies like Multi-user MIMO, Carrier Bonding/Aggregation, and Wi-Fi standards. The course combines theoretical knowledge with practical applications, including homework assignments, paper surveys, quizzes, class presentations, and a final project. Active participation in class discussions is mandatory.
+
+---
+
+### Prerequisites  
+**Mandatory Prerequisites:**  
+- ECE240: Principles of Communication Systems  
+- Matlab proficiency  
+
+**Desirable Prerequisites:**  
+- ECE5xx: Principles of Digital Communication  
+
+**Other Prerequisites:**  
+- Basic understanding of communication systems and signal processing  
+
+---
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+1. **CO1:** Differentiate between multiple access schemes and explain their pros and cons.  
+2. **CO2:** Analyze the benefits of MIMO wireless systems in improving communication efficiency.  
+3. **CO3:** Assess the impact of channel conditions on maximum channel capacity.  
+4. **CO4 (Revised):** Simulate the performance of adaptive modulation and coding schemes under different channel conditions.
+
+---
+
+### Weekly Lecture Plan  
+The course is divided into weekly modules, each focusing on specific topics:  
+- **Week 1:** Introduction to wireless communication standards and basic concepts.  
+- **Week 2:** Overview of multiple access techniques (FDM, TDM, CDMA, OFDMA).  
+- **Week 3:** Detailed discussion on MIMO systems and their applications.  
+- **Week 4:** Channel capacity analysis under fading and non-fading conditions.  
+- **Week 5:** Performance evaluation of adaptive modulation and coding schemes.  
+
+Each week includes homework assignments based on textbook readings, journal papers, and open-source resources.
+
+---
+
+### Assessment Strategy  
+The course assessment is designed to evaluate both theoretical knowledge and practical understanding:  
+1. **Assignments (15%):** End-of-chapter problems from the textbook and supplementary materials.  
+2. **Class Presentation (10%):** Presentations on selected topics or research papers.  
+3. **Final Project (30%):** A comprehensive project involving simulation and analysis of adaptive modulation techniques.  
+4. **Quizzes/Short Tests (15%):** Regular assessments to evaluate understanding of key concepts.  
+5. **End-Semester Examination (20%):** A written exam covering the entire syllabus, with a focus on practical applications.  
+6. **Class Participation (10%):** Active engagement in discussions and group activities.
+
+---
+
+### Learning Resources  
+The course provides comprehensive learning materials to support student understanding:  
+- **Textbooks:**  
+  - "Wireless Communication" by Andrea Goldsmith  
+  - "Fundamentals of Wireless Communication" by David Tse and Pramod Viswanath  
+- **Journals/Papers:** Accessible from IEEE, Open Science repositories, and other academic platforms.  
+
+Students are encouraged to supplement their learning with additional resources such as online tutorials and research papers.  
+
+---
+
+### Conclusion  
+This course offers a thorough exploration of wireless communication technologies, equipping students with the knowledge and skills needed to tackle real-world challenges in 5G systems and beyond. Through a blend of theoretical instruction and practical application, students will gain a deep understanding of modern wireless communication standards and their implications for future technological advancements.

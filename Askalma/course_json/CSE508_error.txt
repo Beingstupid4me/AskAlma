@@ -1,0 +1,469 @@
+--- LLM RAW OUTPUT ---
+<think>
+Alright, I need to extract information from the provided file content and structure it into a specific JSON format as per the user's instructions. Let me go through each section step by step.
+
+First, looking at the "Course Code" field, I see multiple entries like CSE 508 repeated several times. So, the course code is definitely CSE 508.
+
+Next, for the "Course Name," there are consistent entries of "Information Retrieval." That's straightforward.
+
+Moving on to "Credits," all the entries say "4," so that's easy enough—4 credits.
+
+The "Course Offered to" section has a single entry: "CSE 508," which I'll use as is, assuming it's correct since other columns have multiple entries but this one seems consistent.
+
+For "Course Description," there are several identical lengthy paragraphs. Since the user wants assessment plan values ideally as numbers or strings if not numeric, I can include the entire description as a string here.
+
+Looking at prerequisites, only the mandatory part is listed: "CSE102, CSE201, CSE202." The desirable and other sections have placeholders marked with asterisks. So, I'll list only the mandatory prerequisites in this field.
+
+The course outcomes (COs) are numbered from CO1 to CO4, each with specific descriptions. These will be straightforward to map into a JSON array under "Course Outcomes."
+
+For the weekly lecture plan, each week has a topic and COs met. The user provided an example structure where each week is an object with "Week," "Lecture Topic," "COs Met" as an array of strings, and "Assignments." However, in the given content, only up to Week 10 is filled, but the rest are placeholders or incomplete. I'll extract what's available.
+
+The assessment plan includes quiz exams at 10%, lab assignments and project at 40%, midsem at 25%, endsem at 25%. These percentages will be included as they are numeric values.
+
+Resource material has a textbook listed, so that's straightforward to include. The references are marked with placeholders, so I'll only include the textbook entry.
+
+I need to ensure all missing values are handled gracefully, using empty strings or nulls where necessary. Also, "COs Met" should be an array of strings, and weekly lecture plans as objects within a list.
+
+Finally, I'll structure everything into the specified JSON format without any introductory text or explanations, just the raw JSON.
+</think>
+
+```json
+{
+  "Course Code": "CSE 508",
+  "Course Name": "Information Retrieval",
+  "Credits": "4",
+  "Course Offered to": "CSE 508",
+  "Course Description": "This course will teach basic concepts, tools & techniques in the field of Information Retrieval (IR) & Search. It will cover theoretical foundations, implementation aspects, issues and state-of-the-art in the area of information retrieval, representation, organization, indexing and categorization. The course will cover topics such as retrieval models, inverted index construction, performance evaluation in information retrieval, search engine architecture, crawling, indexing, ranking, text categorization & clustering In the end, trends and research issues will be discussed.",
+  "Prerequisites": {
+    "Mandatory": ["CSE102", "CSE201", "CSE202"]
+  },
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Information Retrieval (IR) systems: Goals and history of IR; the impact of the web on IR; Related areas to IR",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Basic IR Models: Boolean and vector-space retrieval models; ranked retrieval; text-similarity metrics",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Basic IR Models: text-similarity metrics; TF-IDF (term frequency/inverse document frequency) weighting; cosine similarity",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": "Assignment-1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Basic Searching and Indexing: Simple tokenizing, stop-word removal, and stemming",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment-1"
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Basic Searching and Indexing: inverted indices and files; efficient processing with sparse vectors",
+      "COs Met": ["CO2", "CO3"],
+      "Assignments": "Assignment-2"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Experimental Evaluation of IR: Performance metrics: recall, precision, and F-measure; Evaluations on benchmark text collections",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Query Operations and Languages: Relevance feedback and query expansion; Query Languages",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Text representation and properties: Word statistics; Zipf's law; Porter stemmer; morphology; index term selection; using thesauri; Metadata and markup languages (SGML, HTML, XML, DTD) and schema Web linking technologies",
+      "COs Met": ["CO4"],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Hypermedia: Introduction; Hypermedia architectures and models: closed hypermedia (HyperWave), open hypermedia (DLS, Microcosm), the Dexter model, AHM, HAM",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Using Hypermedia: browsing, navigation and orientation, paths, trails; Hypermedia design: modeling methodologies (OOHDM, RMM), link consistency, link patterns, rhetoric and context, Usability and evaluation",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Web Search and Link Analysis: Introduction and web history; spidering; metacrawlers; directed spidering",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Web Search and Link Analysis: Web Interface",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Web Search and Link Analysis: Web Interface",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "15",
+      "Lecturer Notes/Other Material": "Please provide additional materials if needed"
+    }
+</think>
+
+```json
+{
+  "Course Code": "CSE 508",
+  "Course Name": "Information Retrieval",
+  "Credits": 4,
+  "Course Offered to": "CSE102, CSE201, CSE202",
+  "Course Description": "This course will teach basic concepts, tools & techniques in the field of Information Retrieval (IR) & Search. It will cover theoretical foundations, implementation aspects, issues and state-of-the-art in the area of information retrieval, representation, organization, indexing and categorization. The course will cover topics such as retrieval models, inverted index construction, performance evaluation in information retrieval, search engine architecture, crawling, indexing, ranking, text categorization & clustering In the end, trends and research issues will be discussed.",
+  "Prerequisites": {
+    "Mandatory": ["CSE102", "CSE201", "CSE202"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to apply information retrieval concepts for small applications.",
+    "CO2": "Analyze and evaluate alternate search engine architectures and comments on their advantages and disadvantages.",
+    "CO3": "Ability to implement techniques for the preprocessing needed for information retrieval systems.",
+    "CO4": "Ability to develop a small information retrieval system."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to Information Retrieval (IR) systems: Goals and history of IR; the impact of the web on IR; Related areas to IR",
+      "COs Met": ["CO1", "CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "Basic IR Models: Boolean and vector-space retrieval models; ranked retrieval; text-similarity metrics",
+      "COs Met": ["CO3"],
+      "Assignments": ""
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Basic IR Models: text-similarity metrics; TF-IDF (term frequency/inverse document frequency) weighting; cosine similarity",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment-1"
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Basic Searching and Indexing: Simple tokenizing, stop-word removal, and stemming",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Basic Searching and Indexing: inverted indices and files; efficient processing with sparse vectors",
+      "COs Met": ["CO2"],
+      "Assignments": "Assignment-1"
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Experimental Evaluation of IR: Performance metrics: recall, precision, and F-measure; Evaluations on benchmark text collections",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Query Operations and Languages: Relevance feedback and query expansion; Query Languages",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Text representation and properties: Word statistics; Zipf's law; Porter stemmer; morphology; index term selection; using thesauri; Metadata and markup languages (SGML, HTML, XML, DTD) and schema Web linking technologies.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Hypermedia: Introduction; Hypermedia architectures and models: closed hypermedia (HyperWave), open hypermedia (DLS, Microcosm), the Dexter model, AHM, HAM",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Using Hypermedia: browsing, navigation and orientation, paths, trails; Hypermedia design: modeling methodologies (OOHDM, RMM), link consistency, link patterns, rhetoric and context, Usability and evaluation.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Web Search and Link Analysis: Introduction and web history; spidering; metacrawlers; directed spidering.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Web Search and Link Analysis: Web Interface.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web.",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "15",
+      "Lecture Topic": "Project",
+      "COs Met": ["CO1", "CO2", "CO3", "CO4"],
+      "Assgn./Tasks": "Final Project Report and Presentation"
+    }
+</think>
+
+```json
+{
+  "Course Code": "CSE 508",
+  "Course Name": "Information Retrieval",
+  "Credits": 4,
+  "Course Offered to": "CSE102, CSE201, CSE202",
+  "Course Description": "This course will teach basic concepts, tools & techniques in the field of Information Retrieval (IR) & Search. It will cover theoretical foundations, implementation aspects, issues and state-of-the-art in the area of information retrieval, representation, organization, indexing and categorization. The course will cover topics such as retrieval models, inverted index construction, performance evaluation in information retrieval, search engine architecture, crawling, indexing, ranking, text categorization & clustering In the end, trends and research issues will be discussed.",
+  "Prerequisites": {
+    "Mandatory": ["CSE102", "CSE201", "CSE202"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to apply information retrieval concepts for small applications.",
+    "CO2": "Analyze and evaluate alternate search engine architectures and comments on their advantages and disadvantages.",
+    "CO3": "Ability to implement techniques for the preprocessing needed for information retrieval systems.",
+    "CO4": "Ability to develop a small information retrieval system."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to Information Retrieval (IR) systems: Goals and history of IR; the impact of the web on IR; Related areas to IR",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Basic IR Models: Boolean and vector-space retrieval models; ranked retrieval; text-similarity metrics",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Basic IR Models: text-similarity metrics; TF-IDF (term frequency/inverse document frequency) weighting; cosine similarity",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment-1"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Basic Searching and Indexing: Simple tokenizing, stop-word removal, and stemming",
+      "COs Met": [],
+      "Assignments": "Assignment-2"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Basic Searching and Indexing: inverted indices and files; efficient processing with sparse vectors",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment-3"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Experimental Evaluation of IR: Performance metrics: recall, precision, and F-measure; Evaluations on benchmark text collections",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Query Operations and Languages: Relevance feedback and query expansion; Query Languages",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Text representation and properties: Word statistics; Zipf's law; Porter stemmer; morphology; index term selection; using thesauri; Metadata and markup languages (SGML, HTML, XML, DTD) and schema Web linking technologies",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Hypermedia: Introduction; Hypermedia architectures and models: closed hypermedia (HyperWave), open hypermedia (DLS, Microcosm), the Dexter model, AHM, HAM",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Using Hypermedia: browsing, navigation and orientation, paths, trails; Hypermedia design: modeling methodologies (OOHDM, RMM), link consistency, link patterns, rhetoric and context, Usability and evaluation",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Web Search and Link Analysis: Introduction and web history; spidering; metacrawlers; directed spidering",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 12-13,
+      "Lecture Topic": "Web Search and Link Analysis: Web Interface",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 16,
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 17,
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri,
+
+--- EXTRACTED STRING ---
+{
+  "Course Code": "CSE 508",
+  "Course Name": "Information Retrieval",
+  "Credits": 4,
+  "Course Offered to": "CSE102, CSE201, CSE202",
+  "Course Description": "This course will teach basic concepts, tools & techniques in the field of Information Retrieval (IR) & Search. It will cover theoretical foundations, implementation aspects, issues and state-of-the-art in the area of information retrieval, representation, organization, indexing and categorization. The course will cover topics such as retrieval models, inverted index construction, performance evaluation in information retrieval, search engine architecture, crawling, indexing, ranking, text categorization & clustering In the end, trends and research issues will be discussed.",
+  "Prerequisites": {
+    "Mandatory": ["CSE102", "CSE201", "CSE202"],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "Ability to apply information retrieval concepts for small applications.",
+    "CO2": "Analyze and evaluate alternate search engine architectures and comments on their advantages and disadvantages.",
+    "CO3": "Ability to implement techniques for the preprocessing needed for information retrieval systems.",
+    "CO4": "Ability to develop a small information retrieval system."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Introduction to Information Retrieval (IR) systems: Goals and history of IR; the impact of the web on IR; Related areas to IR",
+      "COs Met": ["CO1"],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Basic IR Models: Boolean and vector-space retrieval models; ranked retrieval; text-similarity metrics",
+      "COs Met": ["CO2"],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Basic IR Models: text-similarity metrics; TF-IDF (term frequency/inverse document frequency) weighting; cosine similarity",
+      "COs Met": ["CO3"],
+      "Assignments": "Assignment-1"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Basic Searching and Indexing: Simple tokenizing, stop-word removal, and stemming",
+      "COs Met": [],
+      "Assignments": "Assignment-2"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Basic Searching and Indexing: inverted indices and files; efficient processing with sparse vectors",
+      "COs Met": ["CO4"],
+      "Assignments": "Assignment-3"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Experimental Evaluation of IR: Performance metrics: recall, precision, and F-measure; Evaluations on benchmark text collections",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Query Operations and Languages: Relevance feedback and query expansion; Query Languages",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Text representation and properties: Word statistics; Zipf's law; Porter stemmer; morphology; index term selection; using thesauri; Metadata and markup languages (SGML, HTML, XML, DTD) and schema Web linking technologies",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Hypermedia: Introduction; Hypermedia architectures and models: closed hypermedia (HyperWave), open hypermedia (DLS, Microcosm), the Dexter model, AHM, HAM",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "Using Hypermedia: browsing, navigation and orientation, paths, trails; Hypermedia design: modeling methodologies (OOHDM, RMM), link consistency, link patterns, rhetoric and context, Usability and evaluation",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Web Search and Link Analysis: Introduction and web history; spidering; metacrawlers; directed spidering",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 12-13,
+      "Lecture Topic": "Web Search and Link Analysis: Web Interface",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 14,
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 15,
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week Number": 16,
+      "Lecture Topic": "Information Extraction and Integration: Extracting data from text; XML; ontologies, thesauri, semantic web; collecting and integrating specialized information on the web",
+      "COs Met": [],
+      "Assignments": ""
+    }

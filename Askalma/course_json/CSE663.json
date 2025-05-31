@@ -1,0 +1,115 @@
+{
+  "Course Code": "CSE663",
+  "Course Name": "Edge AI",
+  "Credits": "4",
+  "Course Offered to": "UG/PG",
+  "Course Description": "With the success of Deep Learning and advent of IoT & Industry 4.0, lot more scenarios have been enabled for intelligent handling on data and inference for better monitoring, perspective and predictive Analytics, early fault prediction & maintenance of devices in the field and real- time inferencing right on the edge devices. The objective of this course is to introduce students through some of the latest techniques in On-Device / Edge AI. The focus of the course will be hands on and the students should be able to design intelligence on the Edge for solving the problems in the area of their interests.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Machine Learning",
+      "Neural Network"
+    ],
+    "Desirable": [],
+    "Other": []
+  },
+  "Course Outcomes": {
+    "CO1": "CO1",
+    "CO2": "CO2",
+    "CO3": "CO3",
+    "CO4": "CO4"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Introduction to On-Device AI, Edge Computing, Edge AI, Fog & Cloud Computing",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "2-3",
+      "Lecture Topic": "Tensorflow Lite (Data Capturing, Cleaning, Labelling, Training NN)",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "5-6",
+      "Lecture Topic": "Techniques for Model Compression and Quantization",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Heterogeneous Platforms for Edge Computing",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": "Deep Learning Algorithms Implementation on Heterogeneous Platforms (GPU, FPGA)",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": "Mid-Sem Exam",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Popular Edge AI Platforms / Frameworks Azure IoT Edge, Azure ML on Edge, XNOR AI, ONNX.AI",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": "Introduction to Collective (Swarm Intelligence), Concept, Capabilities, Models",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": "Collective Intelligence Applied to Realworld Problems",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": "Introduction to Bonsai ML Technique",
+      "COs Met": [],
+      "Assignments": ""
+    },
+    {
+      "Week": "14",
+      "Lecture Topic": "Bonsai ML Concept, Tensorflow Example",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "Quiz",
+    "Midsem": "Mid-sem",
+    "HW assignments": "End-sem",
+    "Endsem": "Quiz"
+  },
+  "Resource Material": {
+    "Textbook": "Practical Deep Learning for Cloud, Mobile, and Edge: Real-World AI & Computer-Vision Projects Using Python, Keras & TensorFlow Anirudh Koul , Siddha Ganju , Meher Kasam ISBN-13: 978-1492034865 ISBN-10: 149203486X",
+    "Reference Book": ""
+  }
+}

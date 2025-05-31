@@ -1,0 +1,53 @@
+### Course Overview  
+This course, **Introduction to Functional Analysis (MTH542)**, is designed for both MTech and PhD students. It serves as a foundational course, bridging advanced linear algebra with mathematical analysis, focusing on infinite-dimensional spaces and their applications. The primary objective is to equip students with essential knowledge and skills in functional analysis, emphasizing the development of mathematical abilities while limiting extensive real-world applications.
+
+### Prerequisites  
+Students are expected to have completed **Linear Algebra (MTH100 for UG)** and possess a basic understanding of **Calculus and Complex Variables (MTH203 for UG)**. These prerequisites ensure that students have a solid foundation in mathematical concepts necessary for the course.
+
+### Learning Outcomes (COs)  
+By the end of this course, students will be able to:  
+- **CO1**: Understand and apply fundamental concepts of functional analysis, including topology, metric spaces, normed spaces, Hilbert spaces, and spectral theory.  
+- **CO2**: Analyze mathematical problems using rigorous proof techniques and epsilon-delta definitions.  
+- **CO3**: Construct and evaluate subsidiary results related to the course topics.  
+- **CO4**: Apply theoretical knowledge to specific function spaces and real-world problems.
+
+### Weekly Lecture Plan  
+
+#### Week 1: Topology of the Real Line  
+Students will be introduced to basic topological concepts, focusing on compactness and completeness in metric spaces. Assignments include homework and a quiz covering related short problems.
+
+#### Weeks 2-5: Metric Space Preliminaries  
+This section covers convergence issues, fixed point theorems, sequences, and series of functions. Students will engage with weekly assignments and quizzes to reinforce their understanding.
+
+#### Weeks 6-9: Normed Spaces  
+Students will explore bounded linear transformations, major theorems (Hahn-Banach, Open Mapping), and spectral theory. Assignments include homework, tutorials, and quizzes.
+
+#### Weeks 10-13: Hilbert Spaces  
+This part delves into Lp spaces, Schauder bases, and spectral theory in Hilbert spaces. Students will complete weekly assignments and quizzes to apply their knowledge.
+
+#### Week 14-21: Advanced Topics  
+The course concludes with advanced topics such as compact operators and applications of the Spectral theorem. Assignments include homework, tutorials, and quizzes throughout these weeks.
+
+### Assessment Strategy  
+
+- **Test**: 10% contribution, focusing on foundational concepts.  
+- **Mid-Semester Exam**: 20% weightage, covering comprehensive material up to Week 9.  
+- **Weekly Submission and Quiz**: 25% total, emphasizing consistent engagement with course topics.  
+- **End-Semester Exam**: 45% weightage, assessing in-depth understanding of all course content.
+
+### Learning Resources  
+
+#### Textbooks  
+1. **Rudin: Principles of Mathematical Analysis, McGraw-Hill**  
+   - A comprehensive textbook covering foundational concepts in real analysis and topology.  
+
+2. **Aliprantis & Birkenshaw: Principles of Real Analysis, Elsevier**  
+   - Offers a detailed exploration of measure theory and integration principles.
+
+3. **Simmons: Introduction to Topology and Modern Analysis, McGraw-Hill**  
+   - Provides an accessible introduction to topology and functional analysis.
+
+4. **Saxe: Beginning Functional Analysis, Springer**  
+   - A user-friendly guide to the basics of functional analysis, ideal for self-study.
+
+This structured narrative provides a comprehensive overview of the course, ensuring all elements are included coherently and clearly.

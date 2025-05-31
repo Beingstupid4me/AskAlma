@@ -1,0 +1,69 @@
+---
+
+### Course Overview
+
+**Course Code**: ECE515  
+**Course Name**: Intelligent Applications Implementation on Heterogeneous Platforms  
+**Credits**: 4  
+**Offered To**: Undergraduate (UG) and Postgraduate (PG) students  
+
+#### Course Description  
+This course delves into the development of intelligent computing systems, focusing on their efficient implementation across heterogeneous platforms. Students will gain hands-on experience in applying OpenCL programming for various applications, including computational finance, computer vision, and biomedical engineering. The curriculum emphasizes understanding key challenges, technologies, and optimization techniques required to develop high-efficiency intelligent systems.
+
+---
+
+### Prerequisites
+
+- **Software Programming**: Proficiency in C & C++  
+- **Computational Concepts**: Understanding of machine learning algorithms (e.g., regression, support vector machines, neural networks)  
+
+---
+
+### Course Outcomes (COs)
+
+1. **CO1**: Understand the characteristics and requirements of intelligent computing applications.
+2. **CO2**: Perform comparative evaluation of various computing approaches for intelligent systems.
+3. **CO3**: Implement intelligent applications using OpenCL on heterogeneous platforms (CPU, GPGPU, FPGA).
+4. **CO4**: Apply OpenCL programming techniques to optimize applications across different hardware architectures.
+
+---
+
+### Weekly Lecture Plan
+
+| Week Number | Lecture Topic                     | COs Met       | Assignments/Tutorials |
+|-------------|----------------------------------|---------------|------------------------|
+| 1           | Motivation and course overview; Computational characteristics of intelligent systems | CO1          | 3 homework assignments in the first half of the course.        |
+| 2           | Various computing approaches and trade-offs (CPUs, GPGPU, FPGAs)                | CO2          | 3 homework assignments in the first half of the course.        |
+| 3           | OpenCL programming framework introduction                                  | CO2, CO3     | 3 homework assignments in the first half of the course.        |
+| 4           | Financial applications using OpenCL                                           | CO1-4       | 3 homework assignments in the first half of the course.        |
+| 5           | Computer vision applications using OpenCL                                       | CO1-4       | 3 homework assignments in the first half of the course.        |
+| 6           | Biomedical engineering applications using OpenCL                               | CO1-4       | 3 homework assignments in the first half of the course.        |
+
+---
+
+### Assessment Plan
+
+| Type of Evaluation         | % Contribution in Grade |
+|----------------------------|-------------------------|
+| Assignments/Quizzes          | 20%                    |
+| Project I                   | 20%                    |
+| End-semester Examination     | 40%                    |
+| Project II                  | 20%                    |
+
+---
+
+### Resources
+
+1. **Books**
+   - "Heterogeneous Computing with OpenCL 2.0"
+   - "Computer Vision: Models, Learning, and Inference"
+   - "A First Course in Quantitative Finance"
+   - "Biomedical Engineering: Bridging Medicine and Technology"
+
+2. **Reference Material**
+   - OpenCL standard specification
+   - "OpenCL in Action"
+   - Alonso Peña's books on quantitative finance
+
+3. **Software**
+   - Relevant

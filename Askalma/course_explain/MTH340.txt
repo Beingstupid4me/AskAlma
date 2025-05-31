@@ -1,0 +1,60 @@
+**Course Overview:**  
+Real Analysis-II is a 4-credit course designed for both undergraduate and postgraduate students. It builds on foundational calculus concepts by exploring advanced real analysis topics in depth.
+
+---
+
+### **Course Description**  
+This course delves into the systematic development of real analysis, focusing on generalized settings such as real-valued functions. Key areas include:  
+1. Properties of real numbers (LUB, GLB).  
+2. Metric spaces and their properties (boundedness, compactness, connectedness).  
+3. Sequences and series (convergence, Cauchy sequences, uniform continuity).  
+4. Measure theory (Lebesgue measure, measurable functions, integration).  
+
+**Learning Outcomes:**  
+By the end of this course, students will:  
+1. Understand real number properties and their applications.  
+2. Construct rigorous proofs for analysis results.  
+3. Analyze limits in sequences, series, differentiation, and integration.  
+4. Apply measure theory to solve integration problems.  
+
+---
+
+### **Weekly Lecture Plan**
+
+| Week Number | Lecture Topic                     | COs Met          | Assignments/Labs/Tutorials |
+|-------------|----------------------------------|-------------------|----------------------------|
+| 1           | Ordered sets, LUB/GLB properties | CO1, CO2         | Tutorial sheet 1            |
+| Weeks 2-4   | Metric spaces, open/closed sets | CO1, CO2         | Tutorial sheet 2            |
+| Weeks 5     | Sequences and convergence       | CO1-3             | Tutorial sheet 3            |
+| Weeks 6-8   | Continuity, differentiation        | CO1-3             | Tutorial sheet 4            |
+| Weeks 9-10  | Series of functions              | CO2, CO3         | Tutorial sheet 5            |
+| Weeks 11-13 | Measure theory and integration    | CO4               | Tutorial sheet 6            |
+
+---
+
+### **Assessment Plan**
+
+| Type of Evaluation      | % Contribution in Grade |
+|--------------------------|-------------------------|
+| Tutorials                | 30%                    |
+| Mid-sem                 | 30%                    |
+| End-sem                  | 40%                    |
+
+Additional notes:  
+- Other assessments may include quizzes, group projects, or presentations. Details will be provided in class.
+
+---
+
+### **Resource Materials**
+
+**Textbooks:**  
+1. *Principles of Real Analysis*, 3rd edition by Walter Rudin  
+2. *Real Analysis*, 4th edition by H.L. Royden  
+
+**Reference Books:**  
+1. *Real Analysis and foundation*, 2nd edition by S.G. Krantz  
+2. *Introductory Analysis* by J.A. Fridy  
+
+These resources support deeper understanding of course topics.
+
+---

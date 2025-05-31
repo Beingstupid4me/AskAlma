@@ -1,0 +1,140 @@
+{
+  "Course Code": "DES515",
+  "Course Name": "Information systems in Public Health",
+  "Credits": 2,
+  "Course Offered to": "UG/PG",
+  "Course Description": "This course will give an understanding of public health information systems. It will include key concepts of public health, sources of public health information, ethics in public health practice and research, and an understanding of various public health information systems in use.",
+  "Prerequisites": {
+    "Mandatory": "",
+    "Desirable": "",
+    "Other": ""
+  },
+  "Course Outcomes": {
+    "CO1": "Understand the scope and concerns of public health",
+    "CO2": "Appreciate the subtleties of the varied forms of information about the health of a population and related matters",
+    "CO3": "Understand the existing use of information systems in support of public health",
+    "CO4": "Understand the role of ethics in public health"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week Number": 1,
+      "Lecture Topic": "Scope and Concerns of Public Health",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": "Discussion"
+    },
+    {
+      "Week Number": 2,
+      "Lecture Topic": "Determinants of Health - An overview",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignment/Labs/Tutorial": "Discussion"
+    },
+    {
+      "Week Number": 3,
+      "Lecture Topic": "Sources of Public Health information",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Discussion"
+    },
+    {
+      "Week Number": 4,
+      "Lecture Topic": "Priority Health Metrics (Indicators of Sustainable Development Goals)",
+      "COs Met": [
+        "CO1",
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Discussion"
+    },
+    {
+      "Week Number": 5,
+      "Lecture Topic": "Historical perspective of information systems in public health",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Discussion"
+    },
+    {
+      "Week Number": 6,
+      "Lecture Topic": "Information systems in support of public health in high-income countries-1",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Case studies"
+    },
+    {
+      "Week Number": 7,
+      "Lecture Topic": "Information systems in support of public health in high-income countries-2",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Case studies"
+    },
+    {
+      "Week Number": 8,
+      "Lecture Topic": "Information systems in support of public health in low and middle-income countries-1",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Case studies"
+    },
+    {
+      "Week Number": 9,
+      "Lecture Topic": "Information systems in support of public health in low and middle-income countries-2",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ],
+      "Assignment/Labs/Tutorial": "Case studies"
+    },
+    {
+      "Week Number": 10,
+      "Lecture Topic": "New communication technologies, social media & public health",
+      "COs Met": [
+        "CO2",
+        "CO3"
+      ]
+    },
+    {
+      "Week Number": 11,
+      "Lecture Topic": "Ethical principles in public health",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ]
+    },
+    {
+      "Week Number": 12,
+      "Lecture Topic": "Key ethical issues in public health research",
+      "COs Met": [
+        "CO1",
+        "CO4"
+      ]
+    },
+    {
+      "Week Number": 13,
+      "Lecture Topic": "Challenges and way forward",
+      "COs Met": [
+        "CO2"
+      ]
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": "Quiz",
+    "Midsem": "Mid-sem",
+    "HW assignments": "Assignment",
+    "Endsem": "End-sem"
+  },
+  "Resource Material": {
+    "Textbook": "Oxford Textbook of Global Public Health (2015)",
+    "Reference Book": "Epidemiology, Leon Gordis, Fifth Edition"
+  }
+}

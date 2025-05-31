@@ -1,0 +1,90 @@
+{
+  "Course Code": "ECE343",
+  "Course Name": "Mobile Communications",
+  "Credits": 4,
+  "Course Offered to": "UG/PG",
+  "Course Description": "The wireless telecommunications industry has grown tremendously since first cellular system was developed in 1983. Systems evolved from providing voice (2G) to all- IP data networks (4G), creating a need for researchers and engineers with knowledge about cellular radio systems and digital wireless communications techniques. Wireless systems that provide personal and M2M communications constitute a major research area of vital importance. The course will provide important knowledge to students who wish to work in wireless communications or wish to enter the telecommunications industry. The course is mainly focused at physical layer and includes fundamental theory, design trade-offs and practical issues of high capacity cellular communications systems. Trunking, RF propagation, frequency reuse, co channel interference management, hand-off, dropped calls and design of CDMA systems.",
+  "Prerequisites": [],
+  "Course Outcomes": [
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4"
+  ],
+  "Weekly Lecture Plan": [
+    {
+      "Week": "Week 1,2",
+      "Lecture Topic": "Introduction to Cellular Mobile System, Performance criteria Operation of cellular systems, Hexagonal shaped cells, Analog and Digital Cellular systems.",
+      "COs Met": [
+        "CO1",
+        "CO2"
+      ],
+      "Assignments": ""
+    },
+    {
+      "Week": "Week 3-5",
+      "Lecture Topic": "Mobile Radio propagation: Large scale path loss, Reflection, Diffraction, Scattering, Outdoor and Indoor propagation models,",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "4 Assignments"
+    },
+    {
+      "Week": "Week 6-7",
+      "Lecture Topic": "Cell coverage for signal and traffic: Signal reflections in flat and hilly terrain, effect of human made structures, phase difference between direct and reflected paths,",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": "4 Assignments"
+    },
+    {
+      "Week": "Week 8-9",
+      "Lecture Topic": "Interference: Introduction to Co-Channel Interference, real time Co-Channel interference measurement, Different type of non co- channel interference",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "4 Assignments"
+    },
+    {
+      "Week": "Week 10",
+      "Lecture Topic": "Frequency management and channel assignment: Numbering and grouping, setup access and paging channels channel assignments to cell sites and mobile units, Channel sharing and borrowing, sectorization, overlaid cells, non fixed channel assignment",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": "4 Assignments"
+    },
+    {
+      "Week": "Week 11-12",
+      "Lecture Topic": "Hand Off, Dropped Calls: Why hand off, types of handoff and their characteristics, dropped call rates & their evaluation. Operational Techniques: Parameters, coverage hole filler, leaky feeders, cell splitting and small cells, narrow beam concept.",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "4 Assignments"
+    },
+    {
+      "Week": "Week 13",
+      "Lecture Topic": "Designing a CDMA system for the forward and reverse link in a realistic uniform capacity condition",
+      "COs Met": [
+        "CO4"
+      ],
+      "Assignments": "4 Assignments"
+    },
+    {
+      "Week": "Week 1-2",
+      "Lecture Topic": "",
+      "COs Met": [],
+      "Assignments": ""
+    }
+  ],
+  "Assessment Plan": {
+    "Midsem": 20,
+    "Endsem": 40,
+    "Project": 20,
+    "Assignment": 10,
+    "Quiz": 10
+  },
+  "Resource Material": [
+    "Mobile Cellular Telecommunications: William C Y Lee",
+    "Wireless Communication, Principles & Practice: T.S. Rappaport, PHI ."
+  ]
+}

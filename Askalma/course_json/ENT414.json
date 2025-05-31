@@ -1,0 +1,117 @@
+{
+  "Course Code": "ENT414",
+  "Course Name": "Relevance of Intellectual Property for Startups",
+  "Credits": 4,
+  "Course Offered to": "UG (Vth - Semester onwards)",
+  "Course Description": "In the 1980s tangible assets constituted more than 80% of the company's total assets but in 2020 the scenario is upside down. Now more than 80% of company's assets are intangible, indicating that Intellectual Property Management is a necessity rather than a luxury. Technology innovation is not merely a disrupter, but a leveler as well- strategically managed IP is a tool for a small company to take on a MNC. If we look at the evolution of contemporary big companies, we realize that one thing was common- they not only did innovation, but secured it through tools available in the IPR System. All these successful companies gave a clear message to the startups that if you don't not recognize and value its creations- it will not sustain in the long-term. A startup is an important tool to transform the value to the society in form of products and services.",
+  "Prerequisites": {
+    "Mandatory": [
+      "Completed or enrolled for internship in a company"
+    ]
+  },
+  "Course Outcomes": {
+    "CO1": "To offer a working knowledge of various forms of Intellectual Property and its interaction in present day businesses",
+    "CO2": "To align the student's Technical skills with latest in the Industry",
+    "CO3": "To help students desirous of starting their own venture by helping them identify a product and narrow down on scope of further innovation",
+    "CO4": "To help students desirous of starting their own venture by offering a glimpse of essential non-technical facets of start-ups (Business incubation, Marketing, Government Funding schemes, Company & Legal aspects, Product Design, Branding)"
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "1",
+      "Lecture Topic": "Historical Evolution and theoretical foundations of Intellectual Property, Different types of Intellectual Property (Patents, Design, Trade/Service Marks and Geographical Indicators, Copyright, Trade-secret, Semiconductor and Layout, Plant Variety Protection)",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "2",
+      "Lecture Topic": "How companies started small and made big on strong Intellectual Property foundations- Business motive- case study on Patent by Albert Einestien, wireless patents of J.C. Bose and Marconi, Otis, Carrier, Schlumberger, Haliburton, ExxonMobil, GE, Intel, Alcoa, Paypal, Amazon",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "3",
+      "Lecture Topic": "Using Patent data for technology (Qualitative) and business information (data analysis-Quantitative) Case studies on Patent of Haldi, Neem and Jute, HeroHonda, Indian Oil, Uber",
+      "COs Met": [
+        "CO1"
+      ]
+    },
+    {
+      "Week": "4",
+      "Lecture Topic": "Critique and review of competing historical patents (Patent of Robert Noye of Intel and Patent of Nobel Laureate Jack Kilby of Texas Instruments; Patent of AC by N. Tesla and DC by T. Edison)",
+      "COs Met": [
+        "CO2"
+      ]
+    },
+    {
+      "Week": "5",
+      "Lecture Topic": "Identifying the right product, overview of some patents in AI, ML, Blockchain, Image analysis, IoT, Cloud computing, Robotics, application of ICT in Chemicals, Food processing, Textiles, Civil, Materials and Mechatronics. Scanning patents filed by Google, Amazon, Apple, Intel, and other ICT companies",
+      "COs Met": [
+        "CO2"
+      ]
+    },
+    {
+      "Week": "6",
+      "Lecture Topic": "Post product identification- we dig deeper on a narrow segment with patent search. Student will learn to search, extract and assimilate patent information from the portfolio",
+      "COs Met": [
+        "CO3"
+      ]
+    },
+    {
+      "Week": "7",
+      "Lecture Topic": "Identification consumers' needs, developing marketing plan, four Ps- Product, Price, Place and Promotion. Sementation and Targeting. Government schemes for prortotype development and scale-up and advantages of business incubation. B2B marketing. Trade fairs and exhibitions",
+      "COs Met": [
+        "CO4"
+      ]
+    },
+    {
+      "Week": "8",
+      "Lecture Topic": null,
+      "COs Met": []
+    },
+    {
+      "Week": "9",
+      "Lecture Topic": null,
+      "COs Met": []
+    },
+    {
+      "Week": "10",
+      "Lecture Topic": "Final wrap-up and project writing, Q&A",
+      "COs Met": []
+    },
+    {
+      "Week": "11",
+      "Lecture Topic": null,
+      "COs Met": []
+    },
+    {
+      "Week": "12",
+      "Lecture Topic": null,
+      "COs Met": []
+    },
+    {
+      "Week": "13",
+      "Lecture Topic": null,
+      "COs Met": []
+    }
+  ],
+  "Assessment Plan": [
+    {
+      "Type of Evaluation": "Class Participation",
+      "% Contribution to Grade": "10%"
+    },
+    {
+      "Type of Evaluation": "Class Quiz",
+      "% Contribution to Grade": "20%"
+    },
+    {
+      "Type of Evaluation": "Project Presentation",
+      "% Contribution to Grade": "70%"
+    }
+  ],
+  "Resource Material": {
+    "Textbook": null,
+    "Reference Book": "Shall be distributed in class"
+  }
+}

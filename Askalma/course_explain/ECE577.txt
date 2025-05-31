@@ -1,0 +1,54 @@
+**Course Overview**
+
+The course ECE577, named  **Machine Learning Techniques for Real-time Control**, is a 4-credit offering designed for both undergraduate and postgraduate students. It focuses on applying machine learning (ML) tools to real-time control applications where traditional data-driven approaches are not feasible. The course emphasizes online applications such as controlling robotics or aircraft systems, which can be modeled as nonlinear dynamical systems. By leveraging ML components like neural networks, the course aims to learn system dynamics online while ensuring stability and robustness through techniques such as adaptive control, reinforcement learning (RL), and Lyapunov-based methods.
+
+**Prerequisites**
+
+The prerequisite structure is as follows:
+- **Mandatory**: A basic familiarity with linear systems and linear algebra.
+- **Desirable**: Knowledge of machine learning, reinforcement learning, and ECE570 (Control Theory).
+
+No additional prerequisites are specified beyond these.
+
+**Learning Outcomes**
+
+By the end of this course, students will be able to:
+1. **CO1**: Understand the fundamentals of nonlinear dynamical systems and control.
+2. **CO2**: Grasp the principles of adaptive control design.
+3. **CO3**: Extend adaptive control concepts to ML-based real-time control with modifications for robustness.
+4. **CO4**: Learn RL-inspired techniques for approximate optimal control.
+5. **CO5**: Analyze controllers to ensure stability, convergence, optimality, and performance bounds.
+
+**Weekly Syllabus and Topics**
+
+The course is divided into weekly modules, each focusing on specific topics and learning outcomes:
+
+1. **Week 1**: Introduction to Nonlinear Dynamical Systems and Control - CO1
+2. **Weeks 2-3**: Equilibrium points, Linearization, Lyapunov Stability Theory, Barbalat's Lemma - CO1
+3. **Week 4**: Adaptive Control techniques for structured uncertainty - CO2, CO5
+4. **Week 5**: Machine Learning-based real-time control design for unstructured uncertainty using various learning mechanisms (e.g., sigma-modification, e-modification) - CO3, CO5
+5. **Week 6**: Projection-based learning control - CO3, CO5
+6. **Weeks 7-8**: Reinforcement learning-based algorithms for approximate optimal control (AOC), including on-policy and off-policy methods - CO4, CO5
+7. **Week 9**: Value iteration, Q-learning based AOC - CO4, CO5
+8. **Term Paper/Project Presentation**: CO1-CO5
+
+**Assessment Strategy**
+
+The course assessment is structured as follows:
+- **Homework Assignments**: 30% of the final grade.
+- **Mid-Semester Examination**: 15% of the final grade.
+- **Quiz**: 15% of the final grade.
+- **End-Semester Examination**: 25% of the final grade.
+- **Term Paper/Project**: 15% of the final grade.
+
+Additional evaluation methods may be included if necessary, with details to be specified later.
+
+**Learning Resources**
+
+The course provides comprehensive learning materials, including:
+- **Textbook**: *Neural Network Control of Robot Manipulators and Nonlinear Systems* by Lewis, Jagannathan, and Yesildirek.
+- **Reference Books**: 
+  - *Optimal Adaptive Control and Differential Games by Reinforcement Learning Principles* by Vrabie, Vamvoudakis, and Lewis.
+  - *Applied Nonlinear Control* by Slotine and Li.
+
+These resources support the theoretical and practical aspects of the course content.

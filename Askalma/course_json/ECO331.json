@@ -1,0 +1,81 @@
+{
+  "Course Code": "ECO331",
+  "Course Name": "Foundations of Finance",
+  "Credits": 4,
+  "Course Offered to": "UG",
+  "Course Description": "Finance is, in a real sense, the corner stone of the enterprise system \u2013 good financial management is vitally important to the economic health of all firms and hence to the nation and the world. Because of its importance, finance should be widely and thoroughly understood. The field is complex and it undergoes constant change due to shift in economic conditions. All of this makes finance stimulating and exciting, but challenging and sometimes perplexing. This course aims at creating a better understanding of the financial system.",
+  "Prerequisites": {
+    "Mandatory": null,
+    "Desirable": null,
+    "Other": null
+  },
+  "Course Outcomes": {
+    "CO1": "Understand the ideas behind the time value of money and be able to calculate the value of cash flows relating to a number of financial instruments",
+    "CO2": "Create and interpret financial and cash flow statements",
+    "CO3": "Demonstrate proficiency in valuation techniques, both DCF (discounted cash flow) and non-DCF",
+    "CO4": "Have a framework for analysing the major types of financial decisions made by corporations."
+  },
+  "Weekly Lecture Plan": [
+    {
+      "Week": "Week1-2",
+      "Lecture Topic": "Time Value of Money",
+      "COs Met": [
+        "CO1"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "Week3-5",
+      "Lecture Topic": "Elements of Balance Sheet, Income statement and Cash Flow Statements",
+      "COs Met": [
+        "CO2"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "Week6-8",
+      "Lecture Topic": "Capital Budgeting",
+      "COs Met": [
+        "CO3"
+      ],
+      "Assignments": "Analysis of a Financial Statements of a company and comparing ratios with the industry average"
+    },
+    {
+      "Week": "Week9-10",
+      "Lecture Topic": "Cost of Capital",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "Week11-12",
+      "Lecture Topic": "Financing Decision",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    },
+    {
+      "Week": "Week13",
+      "Lecture Topic": "Dividend Decision / Working Capital Management",
+      "COs Met": [
+        "CO3",
+        "CO4"
+      ],
+      "Assignments": null
+    }
+  ],
+  "Assessment Plan": {
+    "Quiz exams": 40,
+    "Midsem": null,
+    "HW assignments": null,
+    "Endsem": 40
+  },
+  "Resource Material": {
+    "Textbook": "Fundamentals of Financial Management (13th edition); Brigham Eugene F, Houston Joel F. Cengage Learning",
+    "Reference Book": "Fundamentals of Financial Management (13th edition); Brigham Eugene F, Houston Joel F. Cengage Learning"
+  }
+}
