@@ -12,12 +12,16 @@ from rag_pipeline import (
     initialize_knowledge_base,
     get_rag_chain,
     DATA_ROOT,
-    # EMBEDDING_MODEL_NAME, # Not directly needed by main.py for this setup
-    # DEVICE, # DEVICE is used within rag_pipeline.py if needed, not passed to init_kb
-    CORPUS_CHUNK_SIZE, CORPUS_CHUNK_OVERLAP,
-    BM25_K_CANDIDATES, CROSS_ENCODER_MODEL_NAME, RERANK_TOP_N,
-    HISTORY_TURNS_FOR_RETRIEVAL,
-    PERSONA_FILE_PATH
+    GENERIC_DOC_CHUNK_SIZE,
+    GENERIC_DOC_CHUNK_OVERLAP,
+    BM25_K_CANDIDATES, 
+    CROSS_ENCODER_MODEL_NAME, 
+    RERANK_TOP_N,
+    # HISTORY_TURNS_FOR_RETRIEVAL, # <<< REMOVE THIS IMPORT
+    HISTORY_TURNS_FOR_CONDENSING, # <<< IMPORT THIS NEW CONFIG if you want to use it from main
+                                  # OR rely on the one defined within rag_pipeline.py
+    PERSONA_FILE_PATH,
+    CONDENSE_QUESTION_PROMPT # We need this for get_rag_chain
 )
 
 app = FastAPI()
@@ -34,25 +38,34 @@ SESSION_TIMEOUT = 24 * 3600
 
 @app.on_event("startup")
 async def startup_event():
-    print("Application startup: Initializing RAG knowledge base (BM25 -> Reranker)...")
+    print("Application startup: Initializing RAG knowledge base (LLM Condense -> BM25 -> Reranker)...")
     try:
-        bm25_retriever, reranker, _, _, _, rag_prompt_template = initialize_knowledge_base(
+        # initialize_knowledge_base now returns the condense_question_prompt
+        bm25_retriever, reranker, _, _, _, rag_prompt_template, condense_question_prompt_obj = initialize_knowledge_base(
             DATA_ROOT,
-            # DEVICE, # <<< REMOVED THIS ARGUMENT
-            CORPUS_CHUNK_SIZE, CORPUS_CHUNK_OVERLAP,
-            BM25_K_CANDIDATES, CROSS_ENCODER_MODEL_NAME, RERANK_TOP_N,
+            GENERIC_DOC_CHUNK_SIZE,
+            GENERIC_DOC_CHUNK_OVERLAP,
+            BM25_K_CANDIDATES,
+            CROSS_ENCODER_MODEL_NAME,
+            RERANK_TOP_N,
             PERSONA_FILE_PATH
         )
-        if bm25_retriever is None or reranker is None or rag_prompt_template is None:
+        if bm25_retriever is None or reranker is None or rag_prompt_template is None or condense_question_prompt_obj is None:
             raise RuntimeError("Failed to initialize RAG components.")
         
         rag_components["bm25_retriever"] = bm25_retriever
         rag_components["reranker"] = reranker
         rag_components["rag_prompt_template"] = rag_prompt_template
+        rag_components["condense_question_prompt"] = condense_question_prompt_obj
+        
         rag_components["chain"] = get_rag_chain(
-            bm25_retriever, reranker, rag_prompt_template, HISTORY_TURNS_FOR_RETRIEVAL
+            bm25_retriever, 
+            reranker, 
+            rag_prompt_template, 
+            condense_question_prompt_obj,       # Pass the condense prompt
+            HISTORY_TURNS_FOR_CONDENSING    # Use the config from rag_pipeline.py
         )
-        print("RAG knowledge base (BM25 -> Reranker) initialized successfully.")
+        print("RAG knowledge base (LLM Condense -> BM25 -> Reranker) initialized successfully.")
     except Exception as e:
         print(f"FATAL: RAG initialization error: {e}"); import traceback; traceback.print_exc()
         rag_components["chain"] = None
@@ -83,7 +96,7 @@ async def query_endpoint(request: QueryRequest):
         chain_input = {"question": user_query, "chat_history": session_history}
         rag_chain = rag_components["chain"]
         llm_response_text = rag_chain.invoke(chain_input)
-        update_session_chat_history(session_code, user_query, llm_response_text) # Store raw for LLM history
+        update_session_chat_history(session_code, user_query, llm_response_text) 
         return ResponseModel(response=llm_response_text, session_code=session_code)
     except Exception as e:
         print(f"Error processing query for session {session_code}: {e}"); import traceback; traceback.print_exc()
