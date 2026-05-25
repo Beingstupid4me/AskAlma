@@ -1,0 +1,1327 @@
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<title>13th Convocation 2024, IIIT-Delhi</title>
+<!-- CSS FILES -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/bootstrap-icons.css" rel="stylesheet"/>
+<link href="css/templatemo-festava-live.css" rel="stylesheet"/>
+<link href="css/style.minmodal.css" rel="stylesheet"/>
+<style>
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 15%;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 40%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            text-align: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+<style>
+
+.responsive {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        .column img:hover {
+            transform: scale(1.1);
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            transition: 0.7s;
+
+
+
+
+        }
+
+        .artists-thumb--:hover {
+            transform: scale(1.1);
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            transition: 0.7s;
+        }
+
+        .cardgen {
+            box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+            margin: 20px;
+            border-radius: 20px;
+            transition: transform 0.3s ease;
+            /* Smooth transition for scaling */
+        }
+
+        .cardgen:hover {
+            box-shadow: 0px 0px 20px 20px rgba(8, 35, 71, 0.486);
+            /* Shadow effect on hover */
+            transform: scale(1.2);
+            /* Scale up by 1.2 times */
+        }
+
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+            }
+            .responsive {
+        height: auto; /* Adjust properties as needed */
+    }
+        }
+
+        /* Typewriter effect */
+        @keyframes typewriter {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blinkCursor {
+
+            from,
+            to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: white;
+            }
+        }
+
+        .typewriter {
+            font-family: monospace;
+            /* Set font to look more typewriter-like */
+            overflow: hidden;
+            /* Ensures text is clipped to create the typewriter effect */
+            border-right: 2px solid white;
+            /* Simulates the cursor */
+            white-space: nowrap;
+            /* Prevents text from wrapping */
+            letter-spacing: 0.15em;
+            /* Adds space between characters for effect */
+            animation:
+                typewriter 4s steps(40, end) 1s 1 normal both,
+                blinkCursor 500ms steps(40, end) infinite normal;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        p {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+
+        .typewriter-container {
+            color: white;
+            /* Text color */
+            overflow: hidden;
+            /* Hide overflow content */
+            text-align: justify;
+            /* Justify text inside the container */
+            margin: 10px;
+            /* Margin around each container */
+        }
+
+        .dropdown {
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .dropdown-title {
+            font-size: 34px;
+            margin-bottom: 1px;
+            padding: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content {
+            font-size: 16px;
+            display: none;
+            padding: 1px;
+            text-align: justify;
+            transition: max-height 0.5s ease, opacity 0.5s ease;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;  
+        }
+
+        
+    </style>
+<style>
+        .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+      border-radius: 10px;
+      margin:0 auto;
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.9s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      border-radius: 10px;
+      margin-top:15px;
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+      border-radius: 10px;
+    }
+    
+    .flip-card-back {
+      background-color: #2980b9;
+      color: white;
+      transform: rotateY(180deg);
+      border-radius: 10px;
+    }
+
+    .flip-card-back h1 {
+        margin-top: 50px;
+      font-size:28px;
+      color:#fff !important;
+    }
+    .flip-card-back p {
+      font-size:18px;
+      color:#fff !important;
+      margin:10px 0 !important;
+    }
+
+    .uperBordr {
+    width: 150px;
+    height: 2.5px;
+    background: #000;
+    margin: 0 auto;
+    }
+    </style>
+<style>
+#video_box{
+    position:relative;
+}
+#video_overlays {
+    position:absolute;
+    width: -webkit-fill-available;
+    min-height:730px;
+    z-index:1;
+    bottom:0px;
+    
+    text-align:center;
+}
+
+
+
+#pointer { 
+    content: '';
+	background: $primary;
+	width: $cursor_size;
+	height: $cursor_size;
+	transform: rotate(45deg);
+	position: absolute;
+  z-index: 0;
+	display: block;
+	outline-color: $primary;
+	outline-style: solid;
+	outline-width: 2px;
+	animation: cursor 1s infinite;
+  box-shadow: 0px 0px 20px $primary;
+}
+
+    </style>
+<style>
+
+    @keyframes glowing {
+            0% {
+              background-color: #c01028;
+              box-shadow: 0 0 5px #c01028;
+            }
+            50% {
+              background-color: #810d1d;
+              box-shadow: 0 0 20px #810d1d;
+            }
+            100% {
+              background-color: #d3152e;
+              box-shadow: 0 0 5px #d3152e;
+            }
+          }
+          .custom-btn {
+            animation: glowing 1200ms infinite;
+            color:#fff;
+          }
+    
+    </style>
+<link charset="UTF-8" href="https://cdn.curator.io/5.0/curator.embed.css" rel="stylesheet"/><link charset="UTF-8" href="https://cdn.curator.io/published-css/2dc54a47-e8cf-49f6-9208-563b5c007937.css" rel="stylesheet"/><script async="" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js?hash=a91f85268719bb56a8454307aced9867"></script><script charset="UTF-8" src="https://cdn.curator.io/5.0/curator.embed.js" type="text/javascript"></script><script async="" crossorigin="anonymous" defer="" src="https://connect.facebook.net/en_US/sdk.js"></script><style data-sheet-num="0" nonce="curator-feed-2dc54a47-e8cf-49f6-9208-563b5c007937" type="text/css"></style><style data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget" type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82,82,82,.7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0px;margin:0px;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:white;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0,0,0,.4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0px 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0,30,84,.296875) 0px -1px 0px;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267b2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:white;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0,30,84,.296875) 0px -1px 0px}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v4/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style></head>
+<!--<body style="cursor: url(images/ChidiyaUdd01.gif), auto; ">-->
+<body style="cursor: url(images/birdimage.png), auto; ">
+<main>
+<!--<header class="site-header">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-12 col-12 d-flex flex-wrap">
+                            <p class="d-flex me-4 mb-0">
+                                <i class="bi-person custom-icon me-2"></i>
+                                <strong class="text-dark">Welcome to IIIT-Delhi's 13th Convocation 2024</strong>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </header>-->
+<div class="sticky-wrapper" id="sticky-wrapper" style="height: 80px;"><nav class="navbar navbar-expand-lg" style="border-bottom: none !important; width: 749px;">
+<div class="container">
+<a class="navbar-brand" href="index.html">
+<!--<img src="images/13TH.png"  alt="IIIT-Delhi" style="width:20%;" />-->
+<!--<img src="images/13th100.png"  alt="IIIT-Delhi" style="background: #fff; padding: 20px;  border-radius: 20px;"/>-->
+</a>
+<!--<div id="pointer"></div>-->
+<img alt="IIIT-Delhi" src="images\https___www_iiitd_ac_in_sites_default_files_images.png"/>
+<a class="btn custom-btn d-lg-none ms-auto me-4" href="https://www.youtube.com/live/7qaOyqeN42g" target="_blank">Watch Live</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- active" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn custom-btn- inactive" href="schedule.html">Schedule</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- inactive" href="guidelines.html">Guidelines</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- inactive" href="dresscode.html">Dress Code</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- inactive" href="studentcorner.html">Student Corner</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- inactive" href="stories.html">Stories</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- inactive" href="convosong.html">Convo Song</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- inactive" href="index.html#section_6">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link click-scroll- btn- custom-btn- inactive" href="https://www.flipbookpdf.net/web/site/216b36c69511dc7f80db183ba5d1948ce063adddFBP29534988.pdf.html" target="_blank">Brochure</a>
+</li>
+</ul>
+<!--<a href="https://www.flipbookpdf.net/web/site/216b36c69511dc7f80db183ba5d1948ce063adddFBP29534988.pdf.html" target="_blank" class="btn custom-btn-- d-lg-block d-none"><img src="images/bicon.png"/></a>-->
+<a class="btn custom-btn d-lg-block d-none" href="https://www.youtube.com/live/7qaOyqeN42g" target="_blank">Watch Live</a>
+</div>
+</div>
+</nav></div>
+<section class="hero-section" id="section_1">
+<!--<div class="section-overlay"> </div>-->
+<div class="container d-flex justify-content-center align-items-center">
+<div class="row">
+<!--<img src="images/headerimage.png" style="width: -webkit-fill-available; opacity:0.90;" />-->
+<div class="col-12 mt-auto-- mb-5 text-center" style="margin-top: 8rem !important;">
+<!--<small>13th Convocation 2024, IIIT-Delhi</small>-->
+<!--<h1 class="text-white mb-5">13th Convocation 2024, IIIT-Delhi</h1>-->
+<br/><br/><br/>
+<!--<a class="btn custom-btn smoothscroll" href="#section_2">Watch Live</a>-->
+</div>
+</div>
+</div>
+<div class="video-wrap">
+<div id="video_box--">
+<div id="video_overlays">
+<img class="responsive" src="images/convocation banner 2.png"/>
+<!--<img src="images/Comp 8_1.gif" class="responsive" />-->
+</div>
+<video autoplay="" class="custom-video responsive--" loop="" muted="" poster="">
+<source src="video/Convocation Reel 2023.mp4" type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
+</div>
+</div>
+</section>
+<section class="about-section section-padding" id="section_2" style="margin-top: 30px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+<div class="services-info">
+<!-- <h2 class="text-white mb-4">About Us</h2>-->
+<div class="dropdown" id="vision" style="color: rgb(37, 165, 235)">
+<div class="dropdown-title">Our Vision</div>
+<div class="dropdown-content">
+                                    Be reputed for research with high scholarly impact, as also for translational research that addresses problems of the nation. Develop our students into well-rounded graduates with the knowledge and perspective to address and lead multi-disciplinary challenges. Provide an enriching environment for us and all those we interact with.
+                                </div>
+</div>
+<div class="dropdown" id="mission" style="color: rgb(18, 232, 240)">
+<div class="dropdown-title">Our Mission</div>
+<div class="dropdown-content">
+                                    Foster Learning, Knowledge Creation, Curation, and Dissemination for a Thriving Humanity.
+                                </div>
+</div>
+<div class="dropdown" id="values" style="color: rgb(242,217,151)">
+<div class="dropdown-title">Our Values</div>
+<div class="dropdown-content">
+<h6 class="text-white mt-4 dropdown-content"><span style="color: rgb(242,217,151)"><strong>Integrity:</strong> Integrity is doing the right thing (through your words, actions and beliefs) even when no one is watching.</span></h6>
+<h6 class="text-white mt-4 dropdown-content"><span style="color: rgb(242,217,151)"><strong>Compassion:</strong> Compassion is about treating others with kindness, empathizing with what they are going through, and supporting them.</span></h6>
+<h6 class="text-white mt-4 dropdown-content"><span style="color: rgb(242,217,151)"><strong>Trustworthiness:</strong> Trustworthiness is the ability to be honest, dependable, and reliable.</span></h6>
+<h6 class="text-white mt-4 dropdown-content"><span style="color: rgb(242,217,151)"><strong>Initiative:</strong> Initiative is the ability to be resourceful and work without always being told what to do.</span></h6>
+<h6 class="text-white mt-4 dropdown-content"><span style="color: rgb(242,217,151)"><strong>Freedom of Enquiry:</strong> The freedom to pursue knowledge without fear, interference or censure. To express and accept disagreement respectfully.</span></h6>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-12">
+<div class="about-text-wrap">
+<img class="about-image img-fluid" src="images/aboutimage.jpg" style="animation-name: fadeInRight; visibility: visible;"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-----------------------------------------------------------Our Chief Guest-------------------------------->
+<section class="artists-section section-padding" id="section_3">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-2 col-12 cardgen">
+<div class="artists-thumb">
+<div class="artists-image-wrap">
+<br/>
+<img class="artists-image img-fluid" src="images/1lg.png"/>
+</div>
+<div>
+<center>
+<p>
+</p><hr/><br/>
+<span style="color: #000;text-transform: uppercase;"><strong>Shri Vinai Kumar Saxena</strong></span>
+<br/>
+<!--<span class="myBtn_multi" style="cursor:pointer; color: #f8d746;"><strong>Chancellor's Message</strong></span>-->
+<a href="https://www.flipbookpdf.net/web/site/d514f05b0d3496429d3c51565c62d6d51718aba5FBP29534988.pdf.html" target="_blank"><strong>Chancellor's Message</strong></a>
+<p></p>
+</center>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-12 cardgen">
+<div class="artists-thumb">
+<div class="artists-image-wrap">
+<br/>
+<img class="artists-image img-fluid" src="images/3cg.png" style="transition: 0.5s;"/>
+</div>
+<div>
+<center>
+<p>
+</p><hr/><br/>
+<span style="color: #000;text-transform: uppercase;"><strong>Dr. S. Somanath</strong></span>
+<br/>
+<a href="https://www.flipbookpdf.net/web/site/ee464b7352bf55a761ee12a161e70429812c60feFBP29534988.pdf.html" target="_blank"><strong>Chief Guest Bio</strong></a>
+<a href="https://www.flipbookpdf.net/web/site/dca951bd8086510d3bc2374f8a975dd9e797e2c3FBP29534988.pdf.html" target="_blank"><strong>Chief Guest Message</strong></a>
+<p></p>
+</center>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-12 cardgen">
+<div class="artists-thumb">
+<div class="artists-image-wrap">
+<br/>
+<img class="artists-image img-fluid" src="images/4cm.png"/>
+</div>
+<div>
+<center>
+<p>
+</p><hr/><br/>
+<span style="color: #000;text-transform: uppercase;"><strong>Prof.
+                                                Rajesh
+                                                Srivastava</strong></span>
+<br/>
+<!--<span class="myBtn_multi" style="cursor:pointer; color: #f8d746;"><strong>Chairman's Message</strong></span>-->
+<a href="https://www.flipbookpdf.net/web/site/e5b34a68bce5d35eb850468b7424f0a2a4b1fe88FBP29534988.pdf.html" target="_blank"><strong>Chairman's Message</strong></a>
+<p></p>
+</center>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-12 cardgen">
+<div class="artists-thumb">
+<div class="artists-image-wrap">
+<br/>
+<img class="artists-image img-fluid" src="images/2dr.png"/>
+</div>
+<div></div>
+<center>
+<p>
+</p><hr/><br/>
+<span style="color: #000;text-transform: uppercase;"><strong>Prof.
+                                            Ranjan Bose</strong></span>
+<br/>
+<!--<span class="myBtn_multi" style="cursor:pointer; color: #f8d746;"><strong>Director's Report</strong></span>-->
+<a href="https://www.flipbookpdf.net/web/site/c725bd56421bc4a54d159b76180710d40ee9ac3eFBP29534988.pdf.html" target="_blank"><strong>Director's Report</strong></a>
+<p></p>
+</center>
+</div>
+</div>
+</div>
+</div>
+<!-- The Modal -->
+<div class="modal modal_multi">
+<!-- Modal content -->
+<div class="modal-content">
+<span class="close close_multi">×</span>
+<p style="color:#000; font-weight: bold; text-align: center;">The Chancellor's Message will be available on the day of convocation.</p>
+</div>
+</div>
+<!-- The Modal -->
+<div class="modal modal_multi">
+<!-- Modal content -->
+<div class="modal-content">
+<span class="close close_multi">×</span>
+<p style="color:#000; font-weight: bold; text-align: center;">The Chairman's Message will be available on the day of convocation.</p>
+</div>
+</div>
+<!-- The Modal -->
+<div class="modal modal_multi">
+<!-- Modal content -->
+<div class="modal-content">
+<span class="close close_multi">×</span>
+<p style="color:#000; font-weight: bold; text-align: center;">The Director's Report will be available on the day of convocation.</p>
+</div>
+</div>
+</section>
+<section class="artists-section section-padding" id="section_3">
+<div class="container">
+<div class="row justify-content-center"><div class="col-12 text-center"><h2 class="mb-4">B.Tech. Awardees<br/><br/></h2></div></div>
+<div class="row justify-content-center">
+<div class="col-12 text-center">
+<div class="uperBordr text-center"></div><h2 class="mb-4">Chancellor's Gold Medal</h2></div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/anushab.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>ANUSHA TIWARI</h1>
+<p>Computer Science and Design</p>
+<p>2020362</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/shivanshb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>SHIVAANSH MITAL</h1>
+<p>Computer Science and Engineering</p>
+<p>2020122</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!------------------------------------------------------------------------------------->
+<br/><br/><br/><br/> <div class="row justify-content-center">
+<div class="col-12 text-center"><div class="uperBordr text-center"></div><h2 class="mb-4">Institute Silver Medal</h2></div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/khushdevb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>KHUSH DEV PANDIT</h1>
+<p>Electronics and Communications Engineering</p>
+<p>2020211</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/anshakb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>ANSHAK GOEL</h1>
+<p>Computer Science and Applied Mathematics </p>
+<p>2020283</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/shreyab.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>SHREYA BHATIA</h1>
+<p>Computer Science and Biosciences</p>
+<p>2020542</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/manavb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>MANAV SAINI</h1>
+<p>Computer Science and Biosciences</p>
+<p>2020518</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br/><br/> <div class="row justify-content-center">
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/varunb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>VARUN PARASHAR</h1>
+<p>Computer Science and Social Sciences</p>
+<p>2020482</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/muditb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>MUDIT GUPTA</h1>
+<p>Computer Science and Artificial Intelligence</p>
+<p>2020315</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!------------------------------------------------------------------------------------->
+<br/><br/><br/><br/><div class="row justify-content-center">
+<div class="col-12 text-center"><div class="uperBordr text-center"></div><h2 class="mb-4">All Round Performance Medal</h2></div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/sunishkab.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>SUNISHKA SHARMA</h1>
+<p>Computer Science and Engineering</p>
+<p>2020137</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/arshb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>ARSH GUPTA</h1>
+<p>Computer Science and Applied Mathematics </p>
+<p>2020285</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/siyab.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>SIYA GARG</h1>
+<p>Computer Science and Artificial Intelligence</p>
+<p>2020577</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/shreyab.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>SHREYA BHATIA</h1>
+<p>Computer Science and Biosciences</p>
+<p>2020542</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br/><br/><div class="row justify-content-center">
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/devanshb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>DEVANSH TRIPATHI</h1>
+<p>Computer Science and Design</p>
+<p>2020372</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/gunarb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>GUNAR SINDHWANI</h1>
+<p>Electronics and Communications Engineering</p>
+<p>2020199</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!------------------------------------------------------------------------------------->
+<br/><br/><br/><br/><div class="row justify-content-center">
+<div class="col-12 text-center"><div class="uperBordr text-center"></div><h2 class="mb-4">Best BTP Award</h2></div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/dakshb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>DAKSH KUMAR</h1>
+<p>ECE</p>
+<p>2020190</p>
+<p><strong>Title:</strong> Design and Prototype of 802.11ad based Joint Radar Communication Architecture</p>
+<p><strong>Advisor:</strong> Sumit J Darak</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/varunb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>VARUN PARASHAR</h1>
+<p>CSSS</p>
+<p>2020482</p>
+<p><strong>Title:</strong> Improving Energy Efficiency of Nvidia GPUs</p>
+<p><strong>Advisor:</strong> Vivek Kumar</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/jatinb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>JATIN KUMAR SHARMA</h1>
+<p>CSAI</p>
+<p>2020563</p>
+<p><strong>Title:</strong> Autonomous Indoor Mobility With Augmented Physical Testbed</p>
+<p><strong>Advisor:</strong> Sanjit Krishnan Kaul</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!------------------------------------------------------------------------------------->
+<br/><br/><br/><br/>
+<div class="row justify-content-center"><div class="col-12 text-center"><h2 class="mb-4">M.Tech. Awardees</h2></div></div>
+<div class="row justify-content-center">
+<div class="col-12 text-center"><div class="uperBordr text-center"></div><h2 class="mb-4">Gold Medal for Excellent Academic Performance</h2></div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/kmaheshwarib.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>K Maheswari</h1>
+<p>Computational Biology</p>
+<p>MT21303</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!------------------------------------------------------------------------------------->
+<br/><br/><br/><br/><div class="row justify-content-center">
+<div class="col-12 text-center"><div class="uperBordr text-center"></div><h2 class="mb-4">Best M.Tech. Thesis Award</h2></div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/aryanb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>Aryan Chaudhary</h1>
+<p>Computer Science and Engineering</p>
+<p>MT22019</p>
+<p><strong>Title:</strong> Quaternion-Enhanced Neural Networks: A New Paradigm For Audio Processing Efficiency</p>
+<p><strong>Advisor:</strong> Vinayak Abrol</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/ajayb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>Ajay Shroti</h1>
+<p>Electronics and Communications Engineering</p>
+<p>MT22152</p>
+<p><strong>Title:</strong> Asymmetric High-Density Low Leakage Sram Cells</p>
+<p><strong>Advisor:</strong> Anuj Grover</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/abhishekb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>Abhishek Goel</h1>
+<p>Computational Biology</p>
+<p>MT22197</p>
+<p><strong>Title:</strong> Introducing The Health-Associated Core Keystone (Hack) Index</p>
+<p><strong>Advisor:</strong> Tarini Shankar Ghosh</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!------------------------------------------------------------------------------------->
+<br/><br/><br/><br/>
+<div class="row justify-content-center"><div class="col-12 text-center"><h2 class="mb-4">Ph.D.</h2></div></div>
+<div class="row justify-content-center">
+<div class="col-12 text-center"><div class="uperBordr text-center"></div><h2 class="mb-4">Dissertation Award</h2></div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/inderb.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>Indra Prakash Jha</h1>
+<p>Computational Biology</p>
+<p>PhD15201</p>
+<p><strong>Title:</strong> Learning from high dimensional healthcare data to improve interpretability and insights</p>
+<p><strong>Advisor:</strong> Vibhor Kumar</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/monikab.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>Monika Yadav</h1>
+<p>Mathematics</p>
+<p>PhD18302</p>
+<p><strong>Title:</strong> On some special classes of linear and additive codes over finite commutative chain rings</p>
+<p><strong>Advisor:</strong> Anuradha Sharma</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/divyab.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>Divya Aggarwal</h1>
+<p>Mathematics</p>
+<p>PhD19301</p>
+<p><strong>Title:</strong> Splitting subspaces, Krylov subspaces and polynomial matrices over finite fields</p>
+<p><strong>Advisor:</strong> Samrith Ram</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-12">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img alt="Avatar" src="images/awardees/shivanib.jpg" style="width:300px;height:300px;border-radius: 10px;"/>
+</div>
+<div class="flip-card-back">
+<h1>Shivani Goel</h1>
+<p>Mathematics</p>
+<p>PhD19306</p>
+<p><strong>Title:</strong> On the distribution and applications of Ramanujan sums</p>
+<p><strong>Advisor:</strong> Sneha Chaubey</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!---------------------------LIVE FEED------------------->
+<section class="artists-section section-padding" id="section_3">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12 text-center">
+<div class="uperBordr text-center"></div><h2 class="mb-4">Live Feed</h2>
+<h3 class="display-4">#IIITDClassof2024</h3><br/>
+</div>
+<!-- Live Feed -->
+<div class="container">
+<!-- Place <div> tag where you want the feed to appear -->
+<div class="crt-widget crt-no-touch crt-widget-theme-sydney crt-widget-waterfall crt-widget-branded" dir="ltr" id="curator-feed-13th-convocation-2024-layout"><div class="crt-viewport-tracker"></div><div class="crt-feed-scroll"><div class="crt-feed" role="feed"><div class="crt-col-0" style="width: 50%; float: left; box-sizing: border-box;"><article aria-label="Post 1, Instagram post 🎓 Congratulations to the BTech CSD Class of 2024! 🎓
+
+We press enter to read more" aria-posinset="1" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="1" data-post="360024856" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="images\https___curator_assets_b_cdn_net_2dc54a47_e8cf_49f.jpg" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">🎓 Congratulations to the BTech CSD Class of 2024! 🎓<br/><br/>We are so proud of your incredible journey at IIIT-Delhi. Wishing you success as you embark on the next chapter of your journey! 🌟 <br/><br/><a href="https://www.instagram.com/explore/tags/convocation2024/" rel="noopener" target="_blank">#convocation2024</a> <a href="https://www.instagram.com/explore/tags/IIITDelhi/" rel="noopener" target="_blank">#IIITDelhi</a> <a href="https://www.instagram.com/explore/tags/ClassOf2024/" rel="noopener" target="_blank">#ClassOf2024</a><a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a> <a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a> <a href="https://www.instagram.com/explore/tags/HCDIIITD/" rel="noopener" target="_blank">#HCDIIITD</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Nov 5, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DB_Rn_Vuhwu/" tabindex="0" target="_blank">Nov 5, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 4, Instagram post #iiitd #iiitdelhi #iiitdclassof2024 #13thconvocation #degree #newjourneystarts " aria-posinset="4" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="4" data-post="359519466" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text"><a href="https://www.instagram.com/explore/tags/iiitd/" rel="noopener" target="_blank">#iiitd</a> <a href="https://www.instagram.com/explore/tags/iiitdelhi/" rel="noopener" target="_blank">#iiitdelhi</a> <a href="https://www.instagram.com/explore/tags/iiitdclassof2024/" rel="noopener" target="_blank">#iiitdclassof2024</a> <a href="https://www.instagram.com/explore/tags/13thconvocation/" rel="noopener" target="_blank">#13thconvocation</a> <a href="https://www.instagram.com/explore/tags/degree/" rel="noopener" target="_blank">#degree</a> <a href="https://www.instagram.com/explore/tags/newjourneystarts/" rel="noopener" target="_blank">#newjourneystarts</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBlzeDEydyN/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 6, Instagram post IIIT-Delhi successfully concluded its #13thConvocation Ceremony, celebrating the incredible achievements press enter to read more" aria-posinset="6" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-post-has-video crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="6" data-post="359509520" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-video-container"><span aria-label="play video" class="crt-play" role="button" tabindex="0"><i class="crt-play-icon"></i></span><video aria-label="Video posted to instagram" loop="" playsinline="" poster="https://curator-assets.b-cdn.net/2dc54a47-e8cf-49f6-9208-563b5c007937/359509520.jpg?width=480&amp;quality=75" preload="none"><source src="https://curator-assets.b-cdn.net/2dc54a47-e8cf-49f6-9208-563b5c007937/359509520.mp4" type="video/mp4"/></video></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">IIIT-Delhi successfully concluded its <a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a> Ceremony, celebrating the incredible achievements of 745 graduates across our undergraduate, postgraduate, and doctoral programs! <br/><br/>It was a day filled with pride, joy, and nostalgia as 516 B.Tech., 199 M.Tech., 1 Dual-Degree, and 29 Ph.D. students were conferred their degrees. <br/><br/>From heartfelt goodbyes to shared laughter, this convocation marked both an end and a beginning for our new graduates. As they step into the future, our freshly minted graduates carry forward the legacy of excellence, innovation, and resilience. <br/><br/>Capturing the glimpses of this special day, as IIIT-Delhi bids farewell to its Class of 2024, confident they will make a mark wherever they go! <br/><br/>Don't forget to tag us in your convocation memories using the hashtag <a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a><br/><br/><a href="https://www.instagram.com/explore/tags/IIITD/" rel="noopener" target="_blank">#IIITD</a> <a href="https://www.instagram.com/explore/tags/Convocation2024/" rel="noopener" target="_blank">#Convocation2024</a> <a href="https://www.instagram.com/explore/tags/IIITDConvocation/" rel="noopener" target="_blank">#IIITDConvocation</a> <a href="https://www.instagram.com/explore/tags/ProudMoment/" rel="noopener" target="_blank">#ProudMoment</a> <a href="https://www.instagram.com/explore/tags/NewBeginnings/" rel="noopener" target="_blank">#NewBeginnings</a> <a href="https://www.instagram.com/explore/tags/IIITDelhi/" rel="noopener" target="_blank">#IIITDelhi</a> <a href="https://www.instagram.com/explore/tags/IIITDAlumni/" rel="noopener" target="_blank">#IIITDAlumni</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/reel/DBlUQd_IIv1/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 8, Instagram post Honoring the M.Tech. Stars at IIIT-Delhi’s #13thConvocation!
+
+A huge round of press enter to read more" aria-posinset="8" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="8" data-post="359502661" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Honoring the M.Tech. Stars at IIIT-Delhi’s <a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a>!<br/><br/>A huge round of applause for our exceptional M.Tech. graduates who have shown remarkable dedication and academic brilliance. <br/><br/>Congratulations to the awardees of: Gold Medal for Excellent Academic Performance and Best M.Tech. Thesis Award.<br/><br/>Your achievements are a testament to your hard work and passion. We are excited to see you shine in your future endeavors! <br/><br/>Don’t forget to tag us in your convocation memories using the hashtag <a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a><br/><br/><a href="https://www.instagram.com/explore/tags/IIITD/" rel="noopener" target="_blank">#IIITD</a> <a href="https://www.instagram.com/explore/tags/Convocation/" rel="noopener" target="_blank">#Convocation</a> <a href="https://www.instagram.com/explore/tags/ProudMoment/" rel="noopener" target="_blank">#ProudMoment</a> <a href="https://www.instagram.com/explore/tags/StudentAwardees/" rel="noopener" target="_blank">#StudentAwardees</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBlAmQFIZEy/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 10, Instagram post Shri Vinai Kumar Saxena, the Honourable Lieutenant Governor of Delhi, press enter to read more" aria-posinset="10" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="10" data-post="359502663" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Shri Vinai Kumar Saxena, the Honourable Lieutenant Governor of Delhi, honored IIIT-Delhi with his esteemed presence at the 13th Convocation ceremony today. He extended heartfelt congratulations to all the graduates and personally awarded medals to the deserving recipients. We are deeply grateful to have had him join us for this significant occasion, where he shared inspiring and motivating words with our graduating students, encouraging them as they embark on their future endeavors.<br/><br/>His presence added immense value to the celebration, making it a memorable day for all.<br/><br/><a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a> <a href="https://www.instagram.com/explore/tags/IIITD/" rel="noopener" target="_blank">#IIITD</a> <a href="https://www.instagram.com/explore/tags/IIITDConvocation/" rel="noopener" target="_blank">#IIITDConvocation</a> <a href="https://www.instagram.com/explore/tags/Graduates/" rel="noopener" target="_blank">#Graduates</a> <a href="https://www.instagram.com/explore/tags/Convocation/" rel="noopener" target="_blank">#Convocation</a> <a href="https://www.instagram.com/explore/tags/LGDelhi/" rel="noopener" target="_blank">#LGDelhi</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBk_ATzIPZp/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 12, Instagram post We are honored to welcome Dr. S. Somanath, Chairman @isro.dos, press enter to read more" aria-posinset="12" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="12" data-post="359500602" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">We are honored to welcome Dr. S. Somanath, Chairman <a href="https://www.instagram.com/isro.dos/" rel="noopener" target="_blank">@isro.dos</a>, to our convocation ceremony today. In his inspiring address, Dr. Somanath shared profound insights and words of encouragement with the <a href="https://www.instagram.com/explore/tags/IIITDClassof2024./" rel="noopener" target="_blank">#IIITDClassof2024.</a> He urged the graduates to actively contribute to shaping a brighter and more sustainable future, emphasizing their responsibility as future leaders and innovators.<br/><br/><a href="https://www.instagram.com/explore/tags/IIITD/" rel="noopener" target="_blank">#IIITD</a> <a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a> <a href="https://www.instagram.com/explore/tags/IIITDConvocation/" rel="noopener" target="_blank">#IIITDConvocation</a> <a href="https://www.instagram.com/explore/tags/Graduates/" rel="noopener" target="_blank">#Graduates</a> <a href="https://www.instagram.com/explore/tags/Convocation/" rel="noopener" target="_blank">#Convocation</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBk9ACWogFw/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article></div><div class="crt-col-1" style="width: 50%; float: left; box-sizing: border-box;"><article aria-label="Post 2, Instagram post Graduation 2024! 🎓 
+Completing the circle. 
+
+#IIITDClassof2024 #convocation " aria-posinset="2" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="2" data-post="359616132" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Graduation 2024! 🎓 <br/>Completing the circle. <br/><br/><a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a> <a href="https://www.instagram.com/explore/tags/convocation/" rel="noopener" target="_blank">#convocation</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 28, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBrYLMbzF2p/" tabindex="0" target="_blank">Oct 28, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 3, Instagram post Graduation 🎓 2024! 
+
+#13thConvocation #IIITDClassof2024 " aria-posinset="3" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="3" data-post="359557012" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Graduation 🎓 2024! <br/><br/><a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a> <a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 27, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBnogYjS7Ot/" tabindex="0" target="_blank">Oct 27, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 5, Instagram post Finally😅 
+#13thconvocation #iiitdclassof2024 " aria-posinset="5" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-post-has-video crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="5" data-post="359509519" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-video-container"><span aria-label="play video" class="crt-play" role="button" tabindex="0"><i class="crt-play-icon"></i></span><video aria-label="Video posted to instagram" loop="" playsinline="" poster="https://curator-assets.b-cdn.net/2dc54a47-e8cf-49f6-9208-563b5c007937/359509519.jpg?width=480&amp;quality=75" preload="none"><source src="https://curator-assets.b-cdn.net/2dc54a47-e8cf-49f6-9208-563b5c007937/359509519.mp4" type="video/mp4"/></video></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Finally😅 <br/><a href="https://www.instagram.com/explore/tags/13thconvocation/" rel="noopener" target="_blank">#13thconvocation</a> <a href="https://www.instagram.com/explore/tags/iiitdclassof2024/" rel="noopener" target="_blank">#iiitdclassof2024</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/reel/DBlViD3issN/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 7, Instagram post Celebrating Research Excellence at IIIT-Delhi’s #13thConvocation!
+
+We are proud to honor press enter to read more" aria-posinset="7" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="7" data-post="359502660" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Celebrating Research Excellence at IIIT-Delhi’s <a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a>!<br/><br/>We are proud to honor our exceptional Ph.D. graduates for their groundbreaking research and dedication. <br/><br/>Congratulations to the awardees of the prestigious Ph.D. Dissertation Award for outstanding research contributions.<br/><br/>Your innovative work has pushed the boundaries of knowledge and set new standards for academic excellence. We hope to see the impact of your research in the world! <br/><br/>Don’t forget to tag us in your convocation memories using the hashtag <a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a><br/><br/><a href="https://www.instagram.com/explore/tags/IIITD/" rel="noopener" target="_blank">#IIITD</a> <a href="https://www.instagram.com/explore/tags/Convocation/" rel="noopener" target="_blank">#Convocation</a> <a href="https://www.instagram.com/explore/tags/ProudMoment/" rel="noopener" target="_blank">#ProudMoment</a> <a href="https://www.instagram.com/explore/tags/StudentAwardees/" rel="noopener" target="_blank">#StudentAwardees</a> <a href="https://www.instagram.com/explore/tags/PhD/" rel="noopener" target="_blank">#PhD</a> <a href="https://www.instagram.com/explore/tags/ResearchatIIITD/" rel="noopener" target="_blank">#ResearchatIIITD</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBlBBWOoHbH/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 9, Instagram post Celebrating Excellence at IIIT-Delhi’s #13thConvocation!
+
+On this proud occasion, we are press enter to read more" aria-posinset="9" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="9" data-post="359502662" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Celebrating Excellence at IIIT-Delhi’s <a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a>!<br/><br/>On this proud occasion, we are proud to honor our outstanding B.Tech. graduates who have excelled in academics and beyond. <br/><br/>Congratulations to the recipients of the prestigious: Chancellor’s Gold Medal, Institute Silver Medal, All Round Performance Medal and Best BTP Awards.<br/><br/>Your hard work and dedication have set a benchmark for future students. We wish you all the success in your future endeavors! <br/><br/>Don’t forget to tag us in your convocation memories using the hashtag <a href="https://www.instagram.com/explore/tags/IIITDClassof2024/" rel="noopener" target="_blank">#IIITDClassof2024</a><br/><br/><a href="https://www.instagram.com/explore/tags/IIITD/" rel="noopener" target="_blank">#IIITD</a> <a href="https://www.instagram.com/explore/tags/Convocation/" rel="noopener" target="_blank">#Convocation</a> <a href="https://www.instagram.com/explore/tags/ProudMoment/" rel="noopener" target="_blank">#ProudMoment</a> <a href="https://www.instagram.com/explore/tags/StudentAwardees/" rel="noopener" target="_blank">#StudentAwardees</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBk_nzfIqOz/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article><article aria-label="Post 11, Instagram post Presiding over the #13thConvocation ceremony for the first time, Prof. press enter to read more" aria-posinset="11" aria-setsize="12" class="crt-post crt-post-has-image crt-post-has-text crt-has-image-carousel crt-no-user-full-name crt-no-user-screen-name crt-no-user-image crt-post-instagram" data-position="11" data-post="359500601" role="article" style="margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" tabindex="0"><div class="crt-post-c crt-post-border"><div class="crt-post-content"><div class="crt-image crt-hitarea crt-post-content-image"><div class="crt-image-c"><span class="crt-play"><i class="crt-play-icon"></i></span><img alt="Image posted to instagram" class="crt-post-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw" tabindex="0"/></div><div class="crt-image-carousel"><svg class="crt-icon-clone" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M929-61v607q0 8-6 13t-12 5h-607q-8 0-13-5t-5-13v-607q0-7 5-12t13-6h607q7 0 12 6t6 12z m71 607v-607q0-37-26-63t-63-26h-607q-37 0-63 26t-27 63v607q0 37 27 64t63 26h607q37 0 63-26t26-64z m-214 215v-90h-72v90q0 7-5 12t-13 6h-607q-7 0-12-6t-6-12v-607q0-8 6-13t12-5h90v-72h-90q-36 0-63 27t-26 63v607q0 37 26 63t63 26h607q37 0 64-26t26-63z" transform="scale(1,-1) translate(0,-850)"></path></svg></div></div></div><div class="crt-post-header"><span aria-label="Instagram icon" class="crt-social-icon" role="link" tabindex="0"><svg viewbox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5028 6.09032C8.95566 6.09032 6.09453 8.95208 6.09453 12.5C6.09453 16.0479 8.95566 18.9097 12.5028 18.9097C16.0499 18.9097 18.911 16.0479 18.911 12.5C18.911 8.95208 16.0499 6.09032 12.5028 6.09032ZM12.5028 16.6671C10.2105 16.6671 8.33659 14.7983 8.33659 12.5C8.33659 10.2017 10.205 8.33287 12.5028 8.33287C14.8006 8.33287 16.669 10.2017 16.669 12.5C16.669 14.7983 14.795 16.6671 12.5028 16.6671ZM20.6679 5.82813C20.6679 6.65932 19.9986 7.32316 19.1732 7.32316C18.3422 7.32316 17.6785 6.65374 17.6785 5.82813C17.6785 5.00251 18.3477 4.33309 19.1732 4.33309C19.9986 4.33309 20.6679 5.00251 20.6679 5.82813ZM24.9122 7.34548C24.8173 5.3428 24.36 3.56884 22.8932 2.10727C21.432 0.64571 19.6584 0.188274 17.6562 0.0878612C15.5926 -0.0292871 9.40742 -0.0292871 7.34384 0.0878612C5.34718 0.182696 3.57362 0.640132 2.1068 2.1017C0.639989 3.56326 0.188232 5.33722 0.0878416 7.3399C-0.0292805 9.40394 -0.0292805 15.5905 0.0878416 17.6545C0.182655 19.6572 0.639989 21.4312 2.1068 22.8927C3.57362 24.3543 5.34161 24.8117 7.34384 24.9121C9.40742 25.0293 15.5926 25.0293 17.6562 24.9121C19.6584 24.8173 21.432 24.3599 22.8932 22.8927C24.3544 21.4312 24.8118 19.6572 24.9122 17.6545C25.0293 15.5905 25.0293 9.40952 24.9122 7.34548ZM22.2462 19.8692C21.8112 20.9626 20.969 21.8049 19.8703 22.2456C18.225 22.8983 14.321 22.7477 12.5028 22.7477C10.6846 22.7477 6.77496 22.8927 5.13525 22.2456C4.04211 21.8105 3.19994 20.9681 2.75934 19.8692C2.1068 18.2235 2.25739 14.3186 2.25739 12.5C2.25739 10.6814 2.11238 6.77089 2.75934 5.13082C3.19437 4.03743 4.03653 3.19508 5.13525 2.75438C6.78054 2.1017 10.6846 2.25232 12.5028 2.25232C14.321 2.25232 18.2306 2.10727 19.8703 2.75438C20.9635 3.1895 21.8056 4.03185 22.2462 5.13082C22.8988 6.77647 22.7482 10.6814 22.7482 12.5C22.7482 14.3186 22.8988 18.2291 22.2462 19.8692Z" fill="currentColor"></path>
+</svg></span></div><div class="crt-post-text">Presiding over the <a href="https://www.instagram.com/explore/tags/13thConvocation/" rel="noopener" target="_blank">#13thConvocation</a> ceremony for the first time, Prof. Rajesh Srivastava, the new Chairman of the Board of Governors at IIIT-Delhi, extended his congratulations to <a href="https://www.instagram.com/explore/tags/IIITDClassof2024./" rel="noopener" target="_blank">#IIITDClassof2024.</a> He remarked, “Dear graduates, today marks the culmination of years of your hard work, learning, and the pursuit of excellence. You have not only excelled academically but also demonstrated innovation and the ability to overcome challenges. As you enter the professional world, the skills, knowledge, and values acquired at IIIT-Delhi will guide you in addressing the complexities of our rapidly changing world .” He also highlighted India’s growing influence on the global stage, urging graduates to contribute to the country’s dynamic growth, especially in areas like climate change and sustainability.<br/><br/><a href="https://www.instagram.com/explore/tags/IIITD/" rel="noopener" target="_blank">#IIITD</a> <a href="https://www.instagram.com/explore/tags/IIITDConvocation/" rel="noopener" target="_blank">#IIITDConvocation</a> <a href="https://www.instagram.com/explore/tags/Graduates/" rel="noopener" target="_blank">#Graduates</a> <a href="https://www.instagram.com/explore/tags/Classof2024/" rel="noopener" target="_blank">#Classof2024</a> <a href="https://www.instagram.com/explore/tags/Convocation/" rel="noopener" target="_blank">#Convocation</a></div><div class="crt-post-footer crt-post-footer-no-user-image"><span class="crt-post-date"><a aria-hidden="false" aria-label="Posted on Oct 26, 2024, click to visit post on Instagram" class="crt-post-date-link" href="https://www.instagram.com/p/DBk9RDCIjEA/" tabindex="0" target="_blank">Oct 26, 2024</a></span><div aria-label="Share icon, press tab to proceed with the share buttons" class="crt-post-share" role="group" tabindex="0"><span class="crt-share-hint"></span><span class="crt-share-button"><svg fill="none" height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9.65875 0.821899V13.0736L17.2182 6.94777L9.65875 0.821899Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M0.138031 13.1146C0.138031 8.46583 3.7997 4.60382 10.2833 4.60382V9.39066C10.2833 9.39066 6.07325 8.10554 1.03012 13.1146C0.76259 13.1439 0.138031 13.1146 0.138031 13.1146Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></span><div class="crt-popup-share-icon-container"><p>Share</p><div class="crt-popup-share-icon-container-icons"><a aria-label="Click to share to facebook" class="crt-share-facebook" role="link" tabindex="0"><svg aria-label="Facebook icon" class="crt-icon-facebook" fill="none" height="17" viewbox="0 0 9 17" width="9" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.61477 17V9.39648H0V6.375H2.61477V3.99434C2.61477 1.40781 4.2375 0 6.60682 0C7.74205 0 8.71705 0.0830078 9 0.119531V2.82227H7.35682C6.06818 2.82227 5.81932 3.41992 5.81932 4.29316V6.375H8.72727L8.32841 9.39648H5.81932V17" fill="currentColor"></path>
+</svg></a><a aria-label="Click to share to twitter" class="crt-share-twitter" role="link" tabindex="0"><svg aria-label="Twitter icon" class="crt-icon-twitter" fill="none" height="21" viewbox="0 0 26 23" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.0632662 0L10.1016 12.6858L0 23H2.27364L11.1177 13.9696L18.2633 23H26L15.3967 9.60076L24.7993 0H22.5256L14.3809 8.31659L7.8 0H0.0632662ZM3.40675 1.58274H6.96097L22.6561 21.4173H19.1019L3.40675 1.58274Z" fill="currentColor"></path>
+</svg></a></div></div></div></div><div class="crt-post-read-more"><button class="crt-post-read-more-button">Read more</button></div><div class="crt-post-max-height-read-more"><button class="crt-post-read-more-button">Read more</button></div></div><span aria-label="End of post." class="crt-hidden" role="status" tabindex="0"></span></article></div></div><div class="crt-load-more-container" style="overflow-anchor: none;"><button aria-label="click to load more posts" class="crt-load-more"><span> Load more</span></button></div></div><a class="crt-logo crt-tag" href="https://curator.io" target="_blank">Powered by Curator.io</a></div>
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script async="" charset="UTF-8" src="https://cdn.curator.io/published/2dc54a47-e8cf-49f6-9208-563b5c007937.js"></script><script type="text/javascript">
+/* curator-feed-13th-convocation-2024-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/2dc54a47-e8cf-49f6-9208-563b5c007937.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
+</div>
+</div>
+</div>
+</section>
+<section class="section-padding-- section-bg" id="section_5">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-12 mx-auto">
+<iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.748076511186!2d77.27101231454759!3d28.547290982451514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e564daac1d%3A0x2c582e340e7bc556!2sIIIT-Delhi!5e0!3m2!1sen!2sus!4v1490258428889" style="border:0; height:400px; width:100%;"></iframe>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer" id="section_6">
+<div class="site-footer-top">
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6 mb-4">
+<h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
+<div class="d-flex justify-content-start">
+<a class="bi-twitter" href="https://twitter.com/IIITDelhi" target="_blank"></a> 
+                         
+                        <a class="bi-facebook" href="https://facebook.com/IIITDelhi" target="_blank"></a> 
+                         
+                        <a class="bi-youtube" href="https://www.youtube.com/channel/UCKnRN-9ht_uca8nIdhyTAtQ/videos" target="_blank"></a> 
+                         
+                        <a class="bi-linkedin" href="https://www.linkedin.com/school/iiit-delhi/?originalSubdomain=in" target="_blank"></a> 
+                         
+                        <a class="bi-instagram" href="https://www.instagram.com/iiit.delhi/" target="_blank"></a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg-0">
+<h4 class="text-white text-uppercase3 mb-4" style="letter-spacing: 3px;">Web Archives</h4>
+<div class="d-flex flex-column justify-content-start">
+<a class="text-white mb-2" href="https://www.iiitd.ac.in/convocation2023/" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                        12</a>
+<a class="text-white mb-2" href="https://www.iiitd.ac.in/convocation22/" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            11</a>
+<a class="text-white mb-2" href="https://www.iiitd.ac.in/convocation21/" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            10</a>
+<a class="text-white mb-2" href="https://www.iiitd.ac.in/convocation20/" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            9</a>
+<a class="text-white mb-2" href="https://www.iiitd.ac.in/convocation19/" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            8</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+<h4 class="text-white text-uppercase3 mb-4" style="letter-spacing: 3px;">Gallery Archives</h4>
+<div class="d-flex flex-column justify-content-start">
+<a class="text-white mb-2" href="https://photos.app.goo.gl/yfKiZvPMDzmKYDMg7" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            12</a>
+<a class="text-white mb-2" href="https://photos.google.com/share/AF1QipOxGlZO38r_yeXepQZyefgg7qJ2k0SrgdX_hIfmkJgPMVJ1Ek3QPBOKljQypuhyNA?key=X1UzSWJ3dXB4X2lDQW9QTFRGMDN2bnFrUDZISFdR" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            11</a>
+<a class="text-white mb-2" href="https://www.youtube.com/watch?v=DYxSAov-Kfs" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            10</a>
+<a class="text-white mb-2" href="https://www.youtube.com/watch?v=EPv_dEhAKqA&amp;t=1s" target="_blank"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            9</a>
+<a class="text-white mb-2" href="https://photos.app.goo.gl/HKKbAwZisSWiMKdq9"><i class="fa fa-angle-right mr-2"></i>Convocation
+                            8</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+<h4 class="text-white text-uppercasee mb-4" style="letter-spacing: 3px;">Contact Info</h4>
+<p class="text-white"><i class="text-white fa fa-map-marker-alt mr-2"></i>IIITD,
+                        Okhla phase III, New Delhi, India</p>
+<p class="text-white"><i class="text-white fa fa-phone-alt mr-2"></i>011
+                        - 71985300</p>
+<p class="m-0 text-white"><i class="fa fa-envelope mr-2"></i>info@iiitd.ac.in</p>
+<a class="link-fx-1 color-contrast-higher mt-3" href="#">
+<span>Our Maps</span>
+<svg aria-hidden="true" class="icon" viewbox="0 0 32 32">
+<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="16" cy="16" r="15.5"></circle>
+<line x1="10" x2="16" y1="18" y2="12"></line>
+<line x1="16" x2="22" y1="12" y2="18"></line>
+</g>
+</svg>
+</a>
+</div>
+</div>
+</div>
+<div class="site-footer-bottom">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-12 mt-5">
+<p class="copyright-text">Copyright © 2024 IIIT-Delhi</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- JAVASCRIPT FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/click-scroll.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/script.js"></script>
+<script>
+        // Get the modal
+
+        var modalparent = document.getElementsByClassName("modal_multi");
+
+        // Get the button that opens the modal
+
+        var modal_btn_multi = document.getElementsByClassName("myBtn_multi");
+
+        // Get the <span> element that closes the modal
+        var span_close_multi = document.getElementsByClassName("close_multi");
+
+        // When the user clicks the button, open the modal
+        function setDataIndex() {
+
+            for (i = 0; i < modal_btn_multi.length; i++)
+            {
+                modal_btn_multi[i].setAttribute('data-index', i);
+                modalparent[i].setAttribute('data-index', i);
+                span_close_multi[i].setAttribute('data-index', i);
+            }
+        }
+
+
+
+        for (i = 0; i < modal_btn_multi.length; i++)
+        {
+            modal_btn_multi[i].onclick = function() {
+                var ElementIndex = this.getAttribute('data-index');
+                modalparent[ElementIndex].style.display = "block";
+            };
+
+            // When the user clicks on <span> (x), close the modal
+            span_close_multi[i].onclick = function() {
+                var ElementIndex = this.getAttribute('data-index');
+                modalparent[ElementIndex].style.display = "none";
+            };
+
+        }
+
+        window.onload = function() {
+
+            setDataIndex();
+        };
+
+        window.onclick = function(event) {
+            if (event.target === modalparent[event.target.getAttribute('data-index')]) {
+                modalparent[event.target.getAttribute('data-index')].style.display = "none";
+            }
+
+            // OLD CODE
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+
+//XXXXXXXXXXXXXXXXXXXXXXX    Modified old code    XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+// Get the modal
+
+        var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+        var span = modal.getElementsByClassName("close")[0]; // Modified by dsones uk
+
+// When the user clicks on the button, open the modal
+
+        btn.onclick = function() {
+
+            modal.style.display = "block";
+        }
+
+// When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+
+
+    </script>
+<div class="crt-popup-manager"></div><div class="fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div></body><!--<div id="pointer"></div>--></html>

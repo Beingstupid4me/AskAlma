@@ -1,0 +1,460 @@
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<title>Partial differential equations : theory and numerics</title>
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Custom styles for this template -->
+<link href="css/scrolling-nav.css" rel="stylesheet"/>
+<style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      /* Clearing floats */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/* Mini reset, no margins, paddings or bullets */
+.menu,
+.submenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Main level */
+.menu {     
+  margin: 10px auto;
+  width: 800px;
+  /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content; 
+}
+
+.menu > li {
+  /*background: #30b5b5; */
+  /*background: #e74c3c;*/
+	background: #205858;
+  float: left;
+  position: relative;
+  transform: skewX(25deg);
+	margin: 5px;
+}
+
+.menu a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+  font-size: 14px;
+}   
+
+.menu li:hover {
+  background: #69cbcb;
+}   
+
+.menu li.active {
+  background: #69cbcb;
+}  
+
+.menu > li > a {
+  transform: skewX(-25deg);
+  padding: 1em 2em;
+
+}
+
+/* Dropdown */
+.submenu {
+  position: absolute;
+  width: 200px;
+  left: 50%; margin-left: -100px;
+  transform: skewX(-25deg);
+  transform-origin: left top;
+}
+
+.submenu li {
+  background-color: #34495e;
+  position: relative;
+  overflow: hidden;   
+}           
+
+.submenu > li > a {
+  padding: 1em 2em;     
+}
+
+.submenu > li::after {
+  content: '';
+  position: absolute;
+  top: -125%;
+  height: 100%;
+  width: 100%;      
+  box-shadow: 0 0 50px rgba(0, 0, 0, .9);     
+}   
+
+/* Odd stuff */
+.submenu > li:nth-child(odd){
+  transform: skewX(-25deg) translateX(0);
+}
+
+.submenu > li:nth-child(odd) > a {
+  transform: skewX(25deg);
+}
+
+.submenu > li:nth-child(odd)::after {
+  right: -50%;
+  transform: skewX(-25deg) rotate(3deg);
+}       
+
+/* Even stuff */
+.submenu > li:nth-child(even){
+  transform: skewX(25deg) translateX(0);
+}
+
+.submenu > li:nth-child(even) > a {
+  transform: skewX(-25deg);
+}
+
+.submenu > li:nth-child(even)::after {
+  left: -50%;
+  transform: skewX(25deg) rotate(3deg);
+}
+
+/* Show dropdown */
+.submenu,
+.submenu li {
+  opacity: 0;
+  visibility: hidden;     
+}
+
+.submenu li {
+  transition: .2s ease transform;
+}
+
+.menu > li:hover .submenu,
+.menu > li:hover .submenu li {
+  opacity: 1;
+  visibility: visible;
+}   
+
+.menu > li:hover .submenu li:nth-child(even){
+  transform: skewX(25deg) translateX(15px);     
+}
+
+.menu > li:hover .submenu li:nth-child(odd){
+  transform: skewX(-25deg) translateX(-15px);     
+}
+
+    </style>
+</head>
+<body id="page-top">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top" id="mainNav" style="color: white; background-color: white; padding-top: 0px; border-bottom: 1px solid;">
+<div class="container">
+<!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
+<button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive" style="float: middle; ">
+<center>
+<ul class="menu cf" style="font-family: Montserrat,sans-serif; font-size: 17px">
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#schedule">Program Schedule</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#registration">Registration</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#people">Participants</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#venue">Venue &amp; Accommodation</a>
+</li>
+<!--<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#venue">Venue</a>
+            </li>-->
+</ul>
+</center>
+</div>
+</div>
+</nav>
+<section id="home">
+<header class="bg-dark text-white" style="padding: 100px 0 20px">
+<div class="container text-center">
+<h2><font face="Montserrat,sans-serif" size="7.0"><b>Workshop on <br/>Partial differential equations : theory and numerics</b>
+<br/>
+</font>
+<font face="Montserrat,sans-serif" size="5.5">June 2nd - June 14th, 2025<!--<br>Mode: Online--></font></h2><font face="Montserrat,sans-serif" size="5.5">
+</font></div><font face="Montserrat,sans-serif" size="5.5">
+</font></header><font face="Montserrat,sans-serif" size="5.5">
+</font></section><font face="Montserrat,sans-serif" size="5.5">
+<section id="home">
+<div class="container">
+<div class="row">
+<div class="row">
+<div class="col-md-12">
+<h4>About the workshop</h4>
+<p class="lead" style="font-size: 17px; text-align:justify;">
+                The workshop on Partial differential equations : theory and numeric is being organized at IIIT Delhi during June 2nd - June 13th, 2025. This workshop aims to encourage and train final year M.Sc. Students and Ph.D. students working in the field of numerical solutions to partial differential equations. Both theoretical and computational aspects will be covered.</p>
+<h4>Topics to be covered:</h4>
+<ul>
+<li style="font-size: 17px; text-align:justify;">Theory of first order pdes</li>
+<li style="font-size: 17px; text-align:justify;">Introduction to distribution theory and Sobolev spaces</li>
+<li style="font-size: 17px; text-align:justify;">Existence and regularity theory for elliptic and parabolic pdes</li>
+<li style="font-size: 17px; text-align:justify;">Finite element methods for elliptic and parabolic pdes</li>
+</ul>
+<h4>About IIIT-Delhi</h4>
+<p class="lead" style="font-size: 17px; text-align:justify;">Indraprastha Institute of Information Technology Delhi (IIIT-Delhi) was created by an act of Delhi legislature empowering it to carry out R&amp;D, conduct educational programs, and grant degrees. IIIT-Delhi is accelerating on the path of becoming one of the leading comprehensive research-led teaching institutes in India and has proven to be consistently responsive towards the evolving needs of society. The faculty members at IIIT-Delhi are among the finest in the country and are internationally recognized.</p>
+<h4>About the Department</h4>
+<p class="lead" style="font-size: 17px; text-align:justify;">The department of mathematics provides a vibrant environment for research and teaching in mathematics. The department was set up in 2017, and currently consists of 11 full time faculty members, 3 joint faculty members, one visiting faculty member, and two lecturers whose research areas include Algebra, Algebraic Coding Theory, Number Theory, Combinatorics, Theoretical Computer Science, Applied Cryptography, Computational Mathematics, Functional Analysis, Operator Theory, Partial Differential Equations, Operator Algebras Mathematical Biology, Mathematical Logic and Foundations of Mathematics, and Statistics.<br/><br/>The department offers a four-year undergraduate program: BTech in Computer Science and Applied Mathematics (CSAM), and a Ph.D. program in Mathematics. 
+  
+</p>
+</div>
+<!--<div class="col-md-5" align="left">        
+            <div class="image">
+            <a href="Picture1.jpg" target="_blank"><img src="Picture1.jpg" style="padding-left:0px;" width=430></a>
+            <!-- <div class="lead" style="font-size: 17px"><center><br><u>Evolution is much like the iterative process of design</u></center></div>->
+            </div>
+          </div>-->
+</div>
+<!-- </div> -->
+</div>
+</div></section>
+<section class="bg-light" id="registration">
+<div class="container">
+<div class="row">
+<div class="col-lg mx-auto">
+<h2><font face="Montserrat,sans-serif" size="6.0"><b>Registration</b></font></h2>
+<p class="lead" style="font-size: 24px; padding-top: 5px;">
+<!--<center><a href="#" target="_blank">Will be opened soon</a></center>-->
+</p><nav class="navbar navbar-expand-sm navbar-dark bg-white" id="mainNav" style="color: white; background-color: white; padding-top: 0px;">
+<center> <div class="container">
+<div class="collapse- navbar-collapse--" id="navbarResponsive" style="float: middle; padding-left: 1px; ">
+<ul class="menu cf" style="font-family: Montserrat,sans-serif; font-size: 17px">
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSdvZmNqIa5pMSBWuysjFk8AWywZzrzyAQS3V91sXjhxOdtPhg/viewform" target="_blank">Registration Form</a>
+</li>
+</ul>
+<p>Note: Last Day to apply is 5th May 2025. </p>
+</div></div></center>
+</nav></div>
+</div>
+<p></p>
+</div>
+</section>
+<section class="bg-light=====" id="schedule">
+<div class="container">
+<div class="row">
+<div class="col-lg mx-auto">
+<h2><font face="Montserrat,sans-serif" size="6.0"><b> Schedule</b></font></h2>
+<p class="lead" style="font-size: 17px; padding-top: 5px;">
+<style type="text/css">
+            table, tr, td { border:1px solid; padding:5px;}
+            tr:nth-child(even) {background-color: #f2f2f2;}
+            </style>
+<!--<center><a href="updated vlsi revisted.png" target="_blank"><img src="updated vlsi revisted.png" alt="updated vlsi revisted" style="width:60% !important;"/></a></center>-->
+</p><table>
+<tbody><tr><td>Day</td><td style="width:130px;">Date</td><td>9:30 AM -11:00 AM</td><td>11:00 AM -11:30 AM</td><td>11:30 AM -1:00 PM</td><td>1:00 PM - 2:30 PM</td><td>2:30 PM - 4:00 PM</td><td>4:00 PM - 4:30 PM</td><td>4:30 PM - 6:00 PM</td></tr>
+<tr><td>Mon</td><td>02-06-25</td><td>SG</td><td rowspan="6">Tea break</td><td>AM</td><td rowspan="6">Lunch</td><td>AM</td><td rowspan="6">Tea break</td><td>SG</td></tr>
+<tr><td>Tue</td><td>03-06-25</td><td>SG</td><td>AM</td><td>AM</td><td>SG</td></tr>
+<tr><td>Wed</td><td>04-06-25</td><td>SG</td><td>AM</td><td>AM</td><td>SG</td></tr>
+<tr><td>Thu</td><td>05-06-25</td><td>DG</td><td>AD</td><td>DG</td><td>AD</td></tr>
+<tr><td>Fri</td><td>06-06-25</td><td>DG</td><td>AD</td><td>DG</td><td>AD</td></tr>
+<tr><td>Sat</td><td>07-06-25</td><td>DG</td><td>AD</td><td>DG</td><td>AD</td></tr>
+<tr><td colspan="9"><center>Week 2</center></td></tr>
+<tr><td>Mon</td><td>09-06-25</td><td>TG</td><td rowspan="6">Tea break</td><td>AH</td><td rowspan="6">Lunch</td><td>TG</td><td rowspan="6">Tea break</td><td>AH</td></tr>
+<tr><td>Tue</td><td>10-06-25</td><td>TG</td><td>AH</td><td>TG</td><td>AH</td></tr>
+<tr><td>Wed</td><td>11-06-25</td><td>TG</td><td>AH</td><td>TG</td><td>AH</td></tr>
+<tr><td>Thu</td><td>12-06-25</td><td>SB</td><td>HH</td><td>SB</td><td>HH</td></tr>
+<tr><td>Fri</td><td>13-06-25</td><td>SB</td><td>HH</td><td>LAB -1</td><td>HH</td></tr>
+<tr><td>Sat</td><td>14-06-25</td><td>LAB-2</td><td>HH</td><td>LAB-3</td><td></td></tr>
+<!-- </table>
+    <br/>
+    <table> -->
+<tr><td colspan="9"><center>Instructors</center></td></tr>
+<tr><td>SG</td><td colspan="4">Prof. Sivaji Ganesh (IITB)</td><td>TG</td><td colspan="4">Prof. Thirupathi Gudi (IISc)</td></tr>
+<tr><td>AM</td><td colspan="4">Prof. Ananta K. Majee (IITD)</td><td>AH</td><td colspan="4">Prof. Ali Hyder (TIFR CAM)</td></tr>
+<tr><td>DG</td><td colspan="4">Prof. Debdip Ganguly (IITD)</td><td>HH</td><td colspan="4">Prof. Harsha Hutridurga (IITB)</td></tr>
+<tr><td>AD</td><td colspan="4">Prof. Asha K. Dond (IISER TVM)</td><td>SB</td><td colspan="4">Prof. Saumya Bajpai (IIT Goa)</td></tr>
+</tbody></table>
+<p></p>
+<!--<ul class="menu cf" style="font-family: Montserrat,sans-serif; font-size: 17px">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="schedule-1.pdf" target="_blank">Schedule Here</a>
+            </li>
+			  
+          </ul>-->
+</div>
+</div>
+</div>
+</section>
+<section class="bg-light" id="people">
+<div class="container">
+<h2><font face="Montserrat,sans-serif" size="6.0"><b>Speakers</b></font></h2>
+<div class="row">
+<div align="center" class="col-md-12">
+<!--<h3><br/><br/>Organizers</h3> -->
+<br/>
+</div>
+</div>
+<div class="row">
+<!-- <h2><font face="Montserrat,sans-serif" size="6.0"><b>Faculty</b></font></h2>
+            <br> -->
+<div align="right" class="col-md-3">
+<p class="lead"> Prof. Debdip Ganguly</p>
+<p class="lead" style="font-size: 13px">IIT Delhi</p>
+</div>
+<div class="col-md-3">
+<a href="https://sites.google.com/site/debdipganguly02/home" target="_blank"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_debdip_jpg.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+<!-- <div class="col-md-3" align="right">
+          <p class="lead">Prof. Kamana Porwal</p>
+          <p class="lead" style="font-size: 13px">IIT Delhi</p>
+        </div>
+        <div class="col-md-3">
+          <a href="https://sites.google.com/view/kporwal/home" target="_blank"> <img src="images/kamana.jpg" style="border-radius: 40%" width="45%" height="auto"> </a>
+        </div> -->
+<div align="right" class="col-md-3">
+<p class="lead">Prof. Asha  K. Dond</p>
+<p class="lead" style="font-size: 13px">IISER Thiruvananthapuram</p>
+</div>
+<div class="col-md-3">
+<a href="https://www.iisertvm.ac.in/faculty/ashadon" target="_blank"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_ashak_jpg.jpg" style="border-radius: 40%" width="45%"/> </a>
+</div>
+</div>
+<br/>
+<div class="row">
+<!--<div class="col-md-3">
+         </div> -->
+<div align="right" class="col-md-3">
+<p class="lead">Prof. Shivaji Ganesh</p>
+<p class="lead" style="font-size: 13px">IIT Bombay</p>
+</div>
+<div class="col-md-3">
+<a href="https://www.math.iitb.ac.in/~siva/" target="_blank"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_sivaji_jpg.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+<div align="right" class="col-md-3">
+<p class="lead">Prof. Ali Hyder</p>
+<p class="lead" style="font-size: 13px">TIFR CAM Bangalre</p>
+</div>
+<div class="col-md-3">
+<a href="https://www.math.tifrbng.res.in/people/hyder" target="_blank"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_ali_jpg.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+</div>
+<br/>
+<div class="row">
+<div align="right" class="col-md-3">
+<p class="lead">Prof. Saumya Bajpai</p>
+<p class="lead" style="font-size: 13px">IIT Goa</p>
+</div>
+<div class="col-md-3">
+<a href="https://iitgoa.ac.in/MA-faculty-profile/?uid=saumya&amp;&amp;exp=MA" target="_blank"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_saumyaiitgoa_jpg.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+<div align="right" class="col-md-3">
+<p class="lead">Prof. Tirupathi Gudi</p>
+<p class="lead" style="font-size: 13px">IISc Bangalore</p>
+</div>
+<div class="col-md-3">
+<a href="https://math.iisc.ac.in/~gudi/" target="_blank"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_tirupathi_jpg.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+</div>
+<br/>
+<div class="row">
+<div align="right" class="col-md-3">
+<p class="lead">Prof. Harsha Hutridurga</p>
+<p class="lead" style="font-size: 13px">IIT Bombay</p>
+</div>
+<div class="col-md-3">
+<a href="https://hutridurga.wordpress.com/" target="_blank"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_harshahutri_jpg.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+</div>
+<br/>
+</div>
+<br/>
+</section>
+<section class="bg-light-----" id="organizers">
+<div class="container">
+<h2><font face="Montserrat,sans-serif" size="6.0"><b>Organizing Members </b></font></h2>
+<div class="row">
+<div align="center" class="col-md-12">
+<!--<h3><br/><br/>Organizers</h3> -->
+<br/>
+</div>
+</div>
+<div class="row">
+<!-- <h2><font face="Montserrat,sans-serif" size="6.0"><b>Faculty</b></font></h2>
+            <br> -->
+<div align="right" class="col-md-3">
+<p class="lead"> Prof. Subhashree Mohapatra</p>
+<p class="lead" style="font-size: 13px">IIIT-Delhi</p>
+</div>
+<div class="col-md-3">
+<a href="https://iiitd.ac.in/subhashreem"> <img height="auto" src="images\https___iiitd_ac_in_sites_default_files_images_fac.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+<div align="right" class="col-md-3">
+<p class="lead">Shruti Sharma</p>
+<p class="lead" style="font-size: 13px">Executive Assistant, (Math. Dept.)</p>
+</div>
+<div class="col-md-3">
+<a href="#"> <img height="auto" src="images\https___iiitd_ac_in_pdetn_images_shrutisharma_jpg.jpg" style="border-radius: 40%" width="45%"/></a>
+</div>
+</div>
+</div>
+<br/>
+</section>
+<section class="bg-light" id="venue">
+<div class="container">
+<div class="row">
+<div class="col-lg mx-auto">
+<h2><font face="Montserrat,sans-serif" size="6.0"><b>Venue</b></font></h2>
+<!-- <center><h3>Online</h3></center>-->
+<p class="lead" style="font-size: 17px">
+Indraprastha Institute of Information Technology, Delhi<br/>
+Okhla Industrial Estate,Phase III<br/>
+(Near Govind Puri Metro Station)<br/>
+New Delhi, India - 110020 <br/>
+</p>
+<br/>
+<div class="row">
+<div class="col-md-7">
+<p><iframe allowfullscreen="" height="350" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d901.8897025913537!2d77.27093616611033!3d28.54396841305049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e45d85d3e3%3A0x691393414902968e!2sIIIT-Delhi%20R%26D%20Building!5e0!3m2!1sen!2sin!4v1657864369280!5m2!1sen!2sin" style="border:0;" width="600"></iframe></p>
+</div>
+<div align="left" class="col-md-5">
+<iframe allowfullscreen="" height="350" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3504.812188546983!2d77.27029751440506!3d28.545364344773038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x390ce34637dc8497%3A0xb761d0490006e1ef!2sIIITD%20GATE%20NO-1%2C%20Unnamed%20Road%2C%20Shyam%20Nagar%2C%20Okhla%20Industrial%20Estate%2C%20New%20Delhi%2C%20Delhi!3m2!1d28.5470749!2d77.27237269999999!4m5!1s0x390ce3e45d85d3e3%3A0x691393414902968e!2sIIIT-Delhi%20R%26D%20Building%2C%20Shyam%20Nagar%2C%20Okhla%20Industrial%20Estate%2C%20New%20Delhi%2C%20Delhi!3m2!1d28.543937999999997!2d77.2716197!5e0!3m2!1sen!2sin!4v1657864068356!5m2!1sen!2sin" style="border:0;" width="450"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="py-1 bg-dark" style="background-color:#30b5b5 ">
+<div class="container">
+<p class="m-0 text-center text-white">Copyright © 2025 by IIIT-Delhi</p>
+</div>
+<!-- /.container -->
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Custom JavaScript for this theme -->
+<script src="js/scrolling-nav.js"></script>
+</font></body></html>
